@@ -7,4 +7,4 @@ Uses Elastos blockchain+ system.  ELA token.
 Truly distributed ledger,
 with secure Runtime and Carrier network.
 
-conceived by John Olsen IT Cloud Solutions Australia
+Chubba Morris(TM) conceived by John Olsen IT Cloud Solutions Australia
