@@ -1,6 +1,6 @@
 # ChubbaMorris
 
-real estate community housing conveyancing
+real estate & agencies, community housing, conveyancing
 
 Uses Elastos blockchain+ system.  ELA token.
 "Merge mined" with Bitcoin miners.
