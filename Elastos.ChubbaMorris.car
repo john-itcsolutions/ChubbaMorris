@@ -28938,7 +28938,7 @@ CoastalLife
 CommercialSpace
 LandZonedIndustrial
 IndustrialLandAndBuilding
-Agriculturalproperty
+AgriculturalProperty
 } amenities;
 
 typedef enum {
