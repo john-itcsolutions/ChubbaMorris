@@ -12,4 +12,4 @@ and secure Carrier network for the internet.
 Trust is embedded by distributing ledgers .. 
 
 'This will be better than sliced bread':
-Chubba Morris(TM) conceived by John Olsen IT Cloud Solutions Australia with assistance from Carsten Eckelmann, 2pisoftware and Melbourne Blockchain Centre.
+Chubba Morris(TM) conceived by John Olsen IT Cloud Solutions Australia with assistance from Carsten Eckelmann, 2pisoftware and Susan Dart, Melbourne Blockchain Centre.
