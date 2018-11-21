@@ -5,7 +5,7 @@ Real Estate & Agencies, Property Management, Community Housing, Conveyancing, So
 Uses Elastos ELA blockchain+ system.
 ELA token partly as price of transactions,
 and as general digital currency.
-"Merge mined" with Bitcoin miners.
+"Merge mined" by Bitcoin miners.
 Truly distributed ledger.
 Secure Runtime for the client,
 and secure Carrier network for the internet.
