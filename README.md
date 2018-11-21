@@ -2,10 +2,12 @@
 
 Real Estate & Agencies, Community Housing, Conveyancing, Solicitors & Land Title Registries
 
-Uses Elastos blockchain+ system.  ELA token.
+Uses Elastos ELA blockchain+ system.
+ELA token partly as price of transactions,
+and as general digital currency.
 "Merge mined" with Bitcoin miners.
 Truly distributed ledger.
-with secure Runtime for the client,
+Secure Runtime for the client,
 and secure Carrier network for the internet.
 Trust is embedded by distributing ledgers .. 
 
