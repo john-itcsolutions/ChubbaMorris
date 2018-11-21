@@ -14,3 +14,5 @@ Trust is embedded by distributing ledgers ..  Each participant in a transaction 
 
 'This will be better than sliced bread':
 Chubba Morris(TM) conceived by John Olsen IT Cloud Solutions Australia with assistance from Carsten Eckelmann, 2pisoftware and Susan Dart, Melbourne Blockchain Centre.
+
+ref.  https://www.cyberrepublic.org/project-detail/5b7fc07547f7f618e0d01f39 
