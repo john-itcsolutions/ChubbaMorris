@@ -16,3 +16,9 @@ Trust is embedded by distributing ledgers ..  Each participant in a transaction 
 Chubba Morris(TM) conceived by John Olsen IT Cloud Solutions Australia with assistance from Carsten Eckelmann, 2pisoftware and Susan Dart, Melbourne Blockchain Centre.
 
 ref.  https://www.cyberrepublic.org/project-detail/5b7fc07547f7f618e0d01f39 
+
+https://github.com/elastos/Elastos.RT/blob/master/Docs/getting_started.md
+
+https://github.com/elastos/Elastos.RT/blob/master/Docs/How_To_Write_A_Car_Component.md
+
+Also, look around the elastos github site.
