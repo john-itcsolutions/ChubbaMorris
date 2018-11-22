@@ -29,3 +29,4 @@ Also, look around the elastos github site.
 
 Or you could go back here:  https://github.com/john-itcsolutions/ChubbaMorris
 (If you can import the Untitled Diagram.html document from www.draw.io you will see a summary of the class structure with interfaces).
+or try:  https://www.draw.io/#Hjohn-itcsolutions%2FChubbaMorris%2Fmaster%2FUntitled%20Diagram.html
