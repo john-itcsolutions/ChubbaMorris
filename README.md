@@ -28,4 +28,4 @@ https://github.com/elastos/Elastos.RT/blob/master/Docs/How_To_Write_A_Car_Compon
 Also, look around the elastos github site.
 
 Or you could go back here:  https://github.com/john-itcsolutions/ChubbaMorris
-(If you can import the Untitled.html document from www.draw.io you will see a summary of the class structure with interfaces).
+(If you can import the Untitled Diagram.html document from www.draw.io you will see a summary of the class structure with interfaces).
