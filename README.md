@@ -25,4 +25,4 @@ https://github.com/elastos/Elastos.RT/blob/master/Docs/getting_started.md
 
 https://github.com/elastos/Elastos.RT/blob/master/Docs/How_To_Write_A_Car_Component.md
 
-Also, look around the elastos github site.
+Also, look around the elastos github site.  https://github.com/elastos
