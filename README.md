@@ -10,7 +10,7 @@ Truly distributed ledger. No servers involved.
 Secure Elastos.RT Runtime for the client,
 and secure Elastos Carrier network for the internet.
 Employs the open and adaptable standard Component Assembly Runtime (CAR) framework.
-The CAR framework enables linking of components between devices, flexibly across systems.
+The CAR framework establishes links between components/devices, flexibly across operating systems.
 Trust is embedded by distributing ledgers ..  Each participant in a transaction has a key to their copy of the record.  
 The mechanism of the Blockchain ensures faithful and verifiable copies of every transaction.  
 The Bitcoin Blockchain mining process 'underwrites' the Elastos Blockchain's trust mechanism.  
@@ -26,7 +26,3 @@ https://github.com/elastos/Elastos.RT/blob/master/Docs/getting_started.md
 https://github.com/elastos/Elastos.RT/blob/master/Docs/How_To_Write_A_Car_Component.md
 
 Also, look around the elastos github site.
-
-Or you could go back here:  https://github.com/john-itcsolutions/ChubbaMorris
-(If you can import the Untitled Diagram.html document from www.draw.io you will see a summary of the class structure with interfaces).
-or try:  https://www.draw.io/#Hjohn-itcsolutions%2FChubbaMorris%2Fmaster%2FUntitled%20Diagram.html
