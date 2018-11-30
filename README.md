@@ -16,7 +16,6 @@ The mechanism of the Blockchain ensures faithful and verifiable copies of every 
 The Bitcoin Blockchain mining process 'underwrites' the Elastos Blockchain's trust mechanism.  
 Your transactions are 'mined' in order to validate and seal them.
 
-'This will be better than sliced bread':
 Chubba Morris(TM) conceived by John Olsen IT Cloud Solutions Australia with assistance from Carsten Eckelmann, 2pisoftware and Susan Dart, Melbourne Blockchain Centre.
 
 ref.  https://www.cyberrepublic.org/project-detail/5b7fc07547f7f618e0d01f39 
