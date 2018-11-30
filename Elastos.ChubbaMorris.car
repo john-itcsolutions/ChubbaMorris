@@ -1,0 +1,4399 @@
+module
+{
+    importlib("Elastos.CoreLibrary");       // import dependent libraries
+
+    merge("ICH.car");                       // merge CAR file
+
+    using interface Elastos.Core.IComparable;   // using declarations
+    using interface Elastos.Core.IParcelable;
+
+    namespace Elastos {                         // namespace
+    namespace ChubbaMorris {
+
+   class CProperty {
+       constructor();              // explicitly declare constructor that has no parameter
+
+      interface ICH;
+
+typedef struct {
+    String propertyId
+    String propertyAddressString
+    String unitNumber
+    String streetNumber
+    String streetName
+    String suburbTown
+    Int32 postcode
+ CHelper.ausState state
+    String envelopeGreetings
+    String correspondenceFolderDocRef
+    String startDateLatestLease
+    String endDateLatestLease
+    Boolean occupied
+    String localGovArea
+    String zoning
+    String lot
+    String dP
+    String sP
+    String dCPNum
+    String parish
+    String description
+    Double lon
+    Double lat
+    Double elevation
+    Boolean liens
+    Int32 numBedrooms
+    Int32 numEnsuites
+    Int32 numBathrooms
+    Int32 numStoreys
+    Boolean furnished
+    String constructionTypeName
+    String folioCertCopyDocRef 
+    String copyOfDepositedPlanDocRef 
+    ArrayOf<String> copiesOfLiensDocrefs 
+    String copyOfBuildingCertDocRef 
+    String copyOfInsuranceCertDocRef 
+    String folderContainingWarrantiesDocRef 
+    String copyOfPlanningCertSection149DEPADocRef 
+    String copyOfSection88GCertDocRef 
+    String folderContainingAdditionalAnnexuresDocRef 
+    String folderContainingAdditionalDisclosuresDocRef 
+    ArrayOf<String> copyOfSurveyReportsDocRefs
+    ArrayOf<String> drainageDiagsSewerRefSheetsDocRefs
+    ArrayOf<String> buildingInspectionDocRefs
+    ArrayOf<String> pestInspectionDocRefs
+    ArrayOf<String> problemsWithpropertyDocRefs
+    ArrayOf<Double> propertyOwnerSharePercents
+    Double capitalValue
+    Double floorPrice
+    Double latestBuyOfferPrice
+    String latestBuyOfferDateTime
+    Boolean latestBuyOfferPriceAccepted
+    ArrayOf<String> latestBuyOfferNotes
+    Double rentalValue
+    Double landTotalSquareMetres
+    Double landTotalHectares
+    Double buildingTotalSquareMetres
+    ArrayOf<String> amenities
+ CHelper.propertyTradingBasis propertyTradingBasis
+ CHelper.propertyType propertyType
+ CHelper.leaseType leaseType
+ CHelper.leaseArrangement leaseArrangement
+ CHelper.leasingTerm leasingTerm
+ CHelper.billingInterval rentalbillingInterval
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CProperty.propertyOwner> propertyOwnerIds
+ CProperty.propertyConstructionType propertyConstructionTypeId
+ CProperty.tenant tenancyId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} property;
+
+typedef struct {
+    String propertyConstructionTypeId
+    String constructionTypeName
+    String description
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+ ArrayOf<CAdministration.riskRegister> riskIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} propertyConstructionType;
+
+typedef struct {
+    String propertyOwnerId
+    String linkedToThiscustomerId
+    String linkedToThissupplierId
+    String firstName
+    String lastName
+    String residentialAddress
+    String postalAddress
+    String email
+    Int32 homePhone
+    Int32 mobilePhone
+    Int32 workPhone
+    String bankName
+    Int32 bankBSB
+    Int32 bankAccountNumber
+    ArrayOf<String> contactedWithDetails
+    ArrayOf<Double> sharesPercents
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ ArrayOf<CProperty.property> propertyIds
+ CCustomer.customer customerId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} propertyOwner;
+
+typedef struct {
+  String programId
+  String programName
+  String description
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+} program;
+
+typedef struct {
+  String projectId
+  String projectName
+  String description
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+} project;
+
+typedef struct {
+    String advertScheduleId
+ CHelper.advertisingMedium advertisingMedium
+    String previousSchedId
+ CHelper.month month
+    Double budgetedAmount
+    ArrayOf<String> runDateTimes
+ CProperty.property propertyId
+ ArrayOf<CProperty.propertyOwner> propertyOwnerIds
+ ArrayOf<CAdministration.advertisingTemplatesPlans> advertDesignIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+} advertisingBudgetSchedule;
+
+typedef struct {
+    String allocationId
+    ArrayOf<String> applicationIds
+    ArrayOf<String> docRefs
+    ArrayOf<String> notes
+    String dateOfEffect
+ CProperty.property propertyId
+ CCustomer.application successfulApplicationId
+ CProperty.tenant successfulTenancyId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+} allocation;
+
+typedef struct {
+    String tenancyId
+    String aBN
+    String businessName
+    String firstName
+    String lastName
+    String residentialAddress
+    String postalAddress
+    String email
+    Int32 homePhone
+    Int32 mobilePhone
+    Int32 workPhone
+    ArrayOf<String> contactedWithDetails
+ CProperty.allocation allocationId
+ ArrayOf<CCustomer.applicant> applicantIds
+ CCustomer.customer customerId
+ CProperty.property propertyId
+ CAdministration.branch branchId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} tenant;
+
+typedef struct  {
+    String propOwnerPropJoinId
+    Double ownershipPercentage
+ CProperty.property propertyId
+ CProperty.propertyOwner propertyOwnerId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} propertyOwnerpropertyJoin;
+
+typedef struct {
+    String custPropJoinId
+ CHelper.relationship relationship
+ CCustomer.customer customerId
+ CProperty.property propertyId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} customerpropertyJoin;
+
+typedef struct {
+    String custPropOwnerJoinId
+ CCustomer.customer customerId
+ CProperty.propertyOwner propertyOwnerId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} customerpropertyOwnerJoin;
+
+typedef struct {
+   String propertyInspectionResId
+   ArrayOf<String> inspectionDates
+   String propertyAddressString
+   String unitNumber
+   ArrayOf<String> bathroom
+   ArrayOf<String> bedroom
+   ArrayOf<String> diningRoom
+   ArrayOf<String> internalDoorways
+   ArrayOf<String> driveways
+   ArrayOf<String> ensuite
+   ArrayOf<String> entrance
+   ArrayOf<String> externalAreas
+   ArrayOf<String> externalDoors
+   ArrayOf<String> familyRoom
+   ArrayOf<String> fences
+   ArrayOf<String> garageCarport
+   ArrayOf<String> gates
+   ArrayOf<String> gutterings
+   ArrayOf<String> hallway
+   ArrayOf<String> hotWater
+   ArrayOf<String> kitchen
+   ArrayOf<String> laundry
+   ArrayOf<String> letterBox
+   ArrayOf<String> livingRoom
+   ArrayOf<String> notes
+   ArrayOf<String> otheritems
+   ArrayOf<String> pests
+   ArrayOf<String> petIssues
+   ArrayOf<String> plumbing
+   ArrayOf<String> pool
+   ArrayOf<String> recreationRoom
+   ArrayOf<String> roof
+   ArrayOf<String> screenDoors
+   ArrayOf<String> structuralIntegrity
+   ArrayOf<String> tennisCourt
+   ArrayOf<String> toilet
+   ArrayOf<String> wiringElectrical
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CProperty.property propertyId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+ CProperty.tenant tenancyId
+ ArrayOf<CAdministration.staff> employeeIds
+} propertyInspectionResidential;
+
+typedef struct {
+String propertyInspectionCommercId
+ArrayOf<String> inspectionDates
+String propertyAddressString
+String unitNumber
+ArrayOf<String> airConditioning
+ArrayOf<String> diningRoom
+ArrayOf<String> internalDoorways
+ArrayOf<String> driveways
+ArrayOf<String> entrance
+ArrayOf<String> externalAreas
+ArrayOf<String> externalDoors
+ArrayOf<String> factorySpace
+ArrayOf<String> fences
+ArrayOf<String> garageCarport
+ArrayOf<String> gates
+ArrayOf<String> gutterings
+ArrayOf<String> hallway
+ArrayOf<String> heating
+ArrayOf<String> hotWater
+ArrayOf<String> kitchen
+ArrayOf<String> laundry
+ArrayOf<String> notes
+ArrayOf<String> officeSpace
+ArrayOf<String> parkingSpaces
+ArrayOf<String> otheritems
+ArrayOf<String> pests
+ArrayOf<String> otherIssues
+ArrayOf<String> plumbing
+ArrayOf<String> recreationRoom
+ArrayOf<String> retailSpace
+ArrayOf<String> roof
+ArrayOf<String> screenDoors
+ArrayOf<String> structuralIntegrity
+ArrayOf<String> floors
+ArrayOf<String> toilet
+ArrayOf<String> ventilationIncludingFans
+ArrayOf<String> warehouseSpace
+ArrayOf<String> washroom
+ArrayOf<String> wiringElectrical
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CProperty.property propertyId
+ CProperty.tenant tenancyId
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} propertyInspectionCommercial;
+
+typedef struct {
+    String tenancyCaseMngmntId
+    String supervisorstaffId
+    ArrayOf<String> tenantActionsInChronologicalOrder
+    ArrayOf<String> datesTimesOfEvents
+    ArrayOf<String> ourResponsesInChronologicalOrder
+    ArrayOf<String> datesTimesOfResponses
+    Boolean resolved
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CProperty.property propertyId
+ CAdministration.branch branchId
+ CProperty.tenant tenancyId
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} tenancyCaseManagement;
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+   }
+
+   class CCustomer {
+
+       constructor();              // explicitly declare constructor that has no parameter
+
+      interface ICH;
+
+typedef struct {
+    String customerId
+    String linkedToThisbusinessChannelOwnerId
+ CHelper.relationship relationship
+    ArrayOf<String> customerTypesIds
+    String ourbranchId
+    String firstName
+    String lastName
+    ArrayOf<String> residentialAddress
+    ArrayOf<String> postalAddress
+    ArrayOf<String> deliveryAddress
+    ArrayOf<String> billingAddress
+    String email
+    Int32 homePhone
+    Int32 mobilePhone
+    Int32 workPhone
+    ArrayOf<String> amenitiesRequired
+    ArrayOf<String> streetsDesired
+    ArrayOf<Int32> postcodesDesired
+    Int32 bedroomsRequired
+    Double maxPriceOffering
+    Double minPriceOffering
+    ArrayOf<Double> maxPriceAsking
+    ArrayOf<Double> minPriceAsking
+    String centrelinkCRN
+    Int32 aTOTFN
+    String aBN
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CProperty.propertyOwner> propertyOwnerIds
+ ArrayOf<CProperty.customerpropertyJoin> custPropJoinIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CProperty.tenant tenancyId
+ CCustomer.applicant applicantId
+} customer;
+
+typedef struct {
+    String customerTypeId
+    String description
+    String custTypeName
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} customerType;
+
+typedef struct {
+    String custcustomerJoinId
+ ArrayOf<CCustomer.customer> customerIds
+    ArrayOf<Double> percentageShares
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.project> projectIds
+ ArrayOf<CProperty.program> programIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} customercustomerJoin;
+
+typedef struct {
+    String applicantId
+    ArrayOf<Int32> postcodesAppliedFor
+    Int32 bedroomsSought
+    ArrayOf<String> amenitiesRequested
+    String firstName
+    String lastName
+    String residentialAddress
+    String postalAddress
+    String email
+    Int32 homePhone
+    Int32 mobilePhone
+    Int32 workPhone
+    ArrayOf<String> contactedWithDetails
+ CCustomer.application applicationId
+ CAdministration.branch branchId
+ CCustomer.customer customerId
+ ArrayOf<CProperty.property> propertyIds
+ CProperty.tenant tenancyId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} applicant;
+
+typedef struct {
+    String applicationId
+    Boolean socialHousingApplication
+    Boolean nDIS
+    Boolean affordableHousingApplication
+    Boolean sharedEquityHousingApplication
+    Boolean rentToBuyApplication
+    Boolean marketRateHousingApplication
+    String headapplicantFirstName
+    String headapplicantLastName
+    String headapplicantAddressLine1
+    String headapplicantAddressLine2
+    String headapplicantSuburb
+    String headapplicantPostcode
+    String headapplicantHomePhone
+    String headapplicantWorkPhone
+    String headapplicantMobilePhone
+    String headapplicantEmail
+    String headapplicantDOB
+    ArrayOf<String> streetsSought
+    ArrayOf<Int32> postcodesSought
+    ArrayOf<Int32> bedroomRangeRequired
+    ArrayOf<String> amenitiesRequested
+    ArrayOf<Double> rangeForRent
+ CHelper.billingInterval interval
+    ArrayOf<String> secondaryapplicantFirstNames
+    ArrayOf<String> secondaryapplicantLastNames
+    ArrayOf<String> partnerIds
+ ArrayOf<CCustomer.applicant> applicantIds
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CProperty.property> propertyIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+} application;
+
+typedef struct  {
+  String bookingId
+  String propertyAddressString
+  String unitNumber
+  String preInspected
+  String dateLeaseStarts
+  ArrayOf<String> midTermInspections
+  String dateLeaseEnds
+  String postInspected
+ CHelper.billingInterval paymentInterval
+  Double rentalAmountAgreed
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CProperty.property propertyId
+ CCustomer.application applicationId
+ ArrayOf<CCustomer.applicant> applicantIds
+ CProperty.allocation allocationId
+ CProperty.tenant tenancyId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} studentAccommodationBookings;
+
+typedef struct {
+  String bookingId
+  String propertyAddressString
+  String unitNumber
+  String preInspected
+  String dateLeaseStarts
+  ArrayOf<String> midTermInspections
+  String dateLeaseEnds
+  String postInspected
+ CHelper.billingInterval paymentInterval
+  Double rentalAmountAgreed
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CProperty.property propertyId
+ CCustomer.application applicationId
+ ArrayOf<CCustomer.applicant> applicantIds
+ CProperty.allocation allocationId
+ CProperty.tenant tenancyId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} temporaryAccommodationBookings;
+
+typedef struct {
+    String custTenantJoinId
+ CCustomer.customer customerId
+ CProperty.tenant tenancyId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} customerTenantJoin;
+
+typedef struct {
+    String complaintId
+    String participantNameComplainant
+    String participantIdComplainant
+    String description
+    Boolean nontenantRelated
+    Boolean againsttenant
+    Boolean bytenant
+    ArrayOf<String> detailsInChronologicalOrder
+    ArrayOf<String> datesTimesOfEvents
+    String repliedWhen
+    ArrayOf<String> responsibilitiesparticpantsIds
+    ArrayOf<String> responsibilitiesparticpantsNames
+    ArrayOf<String> requiredActions
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CProperty.propertyOwner> propertyOwnerIds
+ ArrayOf<CProperty.tenant> tenantIds
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CStakeholder.community> communityIds
+ ArrayOf<CStakeholder.media> mediaIds
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CStakeholder.partner> partnerIds
+ ArrayOf<CRegulator.nCAT> tribunalIds
+ ArrayOf<CStakeholder.tICA> ticaIds
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CAdministration.service> serviceIdsInvolved
+ ArrayOf<CAdministration.item> itemiIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} complaint;
+
+typedef struct {
+    String complimentId
+    String participantNameComplimenting
+    String participantIdComplimenting
+    String description
+    Boolean nontenantRelated
+    Boolean protenant
+    Boolean bytenant
+    ArrayOf<String> detailsInChronologicalOrder
+    ArrayOf<String> datesTimesOfEvents
+    String corroReceived
+    ArrayOf<String> responseDocRefs
+    String repliedWhen
+    ArrayOf<String> responsibilitiesparticpantsIds
+    ArrayOf<String> responsibilitiesparticpantsNames
+    ArrayOf<String> requiredActions
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.propertyOwner> propertyOwnerIds
+ ArrayOf<CAdministration.service> serviceIdsInvolved
+ ArrayOf<CAdministration.item> itemiIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CProperty.tenant> tenancyId
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CStakeholder.community> communityIds
+ ArrayOf<CStakeholder.media> mediaIds
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CStakeholder.partner> partnerIds
+ ArrayOf<CRegulator.nCAT> tribunalIds
+ ArrayOf<CStakeholder.tICA> ticaIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} compliment;
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+}
+
+
+   class CSolicitor {
+       constructor();              // explicitly declare constructor that has no parameter
+
+      interface ICH;
+
+typedef struct {
+    String solicitorId
+    String aBN
+    String companyName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    ArrayOf<String> officelAddresses
+    ArrayOf<String> postalAddresses
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ CProperty.property propertyId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.businessDirector> businessDirectorIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} solicitor;
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+
+
+}
+
+   class CSupplier {
+
+       constructor();              // explicitly declare constructor that has no parameter
+
+      interface ICH;
+     
+typedef struct {
+    String supplierId
+    String aBN
+    String supplierName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String residentialAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.jobType> jobTypeIds
+ ArrayOf<CAdministration.service> serviceIds
+ CSupplier.supplierType supplierTypeId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} supplier;
+
+typedef struct {
+    String supplierTypeId
+    String description
+    String suppTypeName
+ ArrayOf<CAdministration.service> serviceIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} supplierType;
+
+typedef struct {
+    String superFundId
+    String superFundName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    String aBN
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CSupplier.supplier supplierId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} superannuationFund;
+
+typedef struct {
+    String insureFundId
+    String insuranceCompanyName
+    String linkedToThissupplierId
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    String aBN
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CSupplier.supplier supplierId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} insuranceFund;
+
+typedef struct {
+    String distributorId
+    String distributorName
+    String aBN
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    String webAddress
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+} distributor;
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+
+
+}
+
+
+   class CAdministration {
+
+       constructor();              // explicitly declare constructor that has no parameter
+
+      interface ICH;
+
+typedef struct {
+    String serviceId
+    String serviceName
+    String description
+    Double serviceUnitsSupplied
+    String pricingUnits
+    Double priceRatePerUnit
+    ArrayOf<String> itemIdsSupplied
+    ArrayOf<Double> itemQuantities
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CSupplier.supplier> supplierIds
+ CAdministration.serviceType serviceTypeId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ CCustomer.customer customerId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} service;
+
+typedef struct {
+    String serviceTypeId
+    String serviceName
+    String description
+    String priceRateUnits
+    Double priceRate
+ ArrayOf<CAdministration.role> providerroleIdsWithinEnterprise
+ ArrayOf<CAdministration.branch> branchIds
+ ArrayOf<CAdministration.department> deptIds
+ ArrayOf<CSupplier.supplier> externalProvidersIds
+ ArrayOf<CSupplier.supplierType> supplierTypeIds
+ ArrayOf<CAdministration.itemType> itemTypeIds
+ ArrayOf<CAdministration.jobType> jobTypeIds
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.video> videoRefs
+ CRegister.businessChannelOwner businessChannelOwnerId
+} serviceType;
+
+typedef struct {
+    String sRQId
+    ArrayOf<String> serviceSequenceDescription
+    ArrayOf<String> requestsAccepted
+    ArrayOf<Double> itemQuantities
+    ArrayOf<String> itemUnits
+    ArrayOf<String> dueDates
+ ArrayOf<CAdministration.staff> requestBystaffIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.branch> branchIdsInvolved
+ ArrayOf<CAdministration.department> deptIdsInvolved
+ ArrayOf<CAdministration.role> responsibleroleIds
+ ArrayOf<CAdministration.staff> responsiblestaffIds
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CAdministration.serviceType> serviceTypeIds
+ ArrayOf<CAdministration.itemType> itemTypeIdsRequired
+ ArrayOf<CAdministration.jobType> jobTypeIdsRequired
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CFinance.masterAssetRegister> masterAssetIds
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CCustomer.customerType> customerTypesIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} serviceRequest;
+
+typedef struct {
+    String corroId
+    String participantName
+    String participantId
+    String description
+    String corroReceived
+    ArrayOf<String> propertyIds
+    ArrayOf<String> responseDocRefs
+    String repliedWhen
+    ArrayOf<String> responsibilitiesparticpantsIds
+    ArrayOf<String> responsibilitiesparticpantsNames
+    ArrayOf<String> requiredActions
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CStakeholder.partner> partnerIds
+ ArrayOf<CStakeholder.media> mediaIds
+ ArrayOf<CStakeholder.community> communityIds
+ ArrayOf<CFinance.bank> bankIds
+ ArrayOf<CProperty.propertyOwner> propertyOwnerIds
+ ArrayOf<CCustomer.applicant> applicantIds
+ ArrayOf<CProperty.tenant> tenancyIds
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CSupplier.superannuationFund> superFundIds
+ ArrayOf<CSolicitor.solicitor> solicitorIds
+ ArrayOf<CStakeholder.agent> agentIds
+ ArrayOf<CStakeholder.nonGovStakeholder> nonGovStakeholderIds
+ ArrayOf<CStakeholder.govStakeholder> govStakeholderIds
+ CFinance.centrelink centrelinkId
+ CStakeholder.stateLAHAuthority stateLAHAuthorityId
+ CStakeholder.statePublicHousingAuthority statePublicHousingAuthorityId
+ CRegulator.communityHousingRegulator communityHousingRegulatorId
+ CRegulator.aTO aTOId
+ CRegulator.nationalRegulator natRegId
+ CRegulator.nCAT tribunalId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} correspondenceLog;
+
+typedef struct {
+    String advertDesignId
+    String advertDesignName
+ CHelper.advertisingMedium advertisingMedium
+    ArrayOf<String> accountsReceivableIds
+    ArrayOf<String> accountsPayableIds
+    Double budgetedAmount
+    ArrayOf<String> docRefsAdvertisingTemplatesPlans
+    ArrayOf<String> runDateTimes
+ CProperty.property propertyId
+ ArrayOf<CProperty.propertyOwner> propertyOwners
+ CProperty.advertisingBudgetSchedule advertScheduleId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+} advertisingTemplatesPlans;
+
+typedef struct {
+    String branchId
+    String branchName
+    String branchAddressLine1
+    String branchAddressLine2
+    String branchSuburb
+    String branchPostcode
+    String branchPhone
+ ArrayOf<CAdministration.role> roleIds
+ ArrayOf<CAdministration.department> deptIds
+ ArrayOf<CAdministration.subdepartment> subDeptIds
+ ArrayOf<CAdministration.subdepartmentLevel2> subDeptLevel2Ids
+ ArrayOf<CAdministration.subdepartmentLevel3> subDeptLevel3Ids
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} branch;
+
+typedef struct {
+    String deptMapId
+    String description
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.department departmentId
+ CAdministration.subdepartment subDeptId
+ CAdministration.subdepartmentLevel2 subDeptLevel2Id
+ CAdministration.subdepartmentLevel3 subDeptLevel3Id
+ ArrayOf<CAdministration.staff> headsDeptsSubDeptsEmployeeIdsDescending
+ ArrayOf<CAdministration.role> roleIds
+ ArrayOf<CAdministration.branch> branchIds
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} mapOfdepartments;
+
+typedef struct {
+    String deptId
+    String deptName
+    ArrayOf<String> deptAddressLine1
+    ArrayOf<String> deptAddressLine2
+    ArrayOf<String> branchSuburb
+    ArrayOf<String> branchPostcode
+    ArrayOf<String> branchPhone
+ CAdministration.staff headDeptEmployeeId
+ ArrayOf<CAdministration.role> roleIds
+ ArrayOf<CAdministration.branch> branchIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} department;
+
+typedef struct {
+    String subDeptId
+    String subDeptName
+    ArrayOf<String> subDeptAddressLine1
+    ArrayOf<String> subDeptAddressLine2
+    ArrayOf<String> branchSuburb
+    ArrayOf<String> branchPostcode
+    ArrayOf<String> branchPhone
+ CAdministration.staff headSubDeptEmployeeId
+ ArrayOf<CAdministration.role> roleIds
+ ArrayOf<CAdministration.branch> branchIds
+ CAdministration.department supDeptId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} subdepartment;
+
+typedef struct {
+    String subDeptLevel2Id
+    String subDeptLevel2Name
+    ArrayOf<String> subDeptLevel2AddressLine1
+    ArrayOf<String> subDeptLevel2AddressLine2
+    ArrayOf<String> branchSuburb
+    ArrayOf<String> branchPostcode
+    ArrayOf<String> branchPhone
+ CAdministration.staff headLevel2SubDeptEmployeeId
+ ArrayOf<CAdministration.role> roleIds
+ ArrayOf<CAdministration.branch> branchIds
+ CAdministration.subdepartment supSubDeptId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} subdepartmentLevel2;
+
+typedef struct {
+    String subDeptLevel3Id
+    String subDeptLevel3Name
+    ArrayOf<String> subDeptLevel3AddressLine1
+    ArrayOf<String> subDeptLevel3AddressLine2
+    ArrayOf<String> branchSuburb
+    ArrayOf<String> branchPostcode
+    ArrayOf<String> branchPhone
+ CAdministration.staff headLevel2SubDeptEmployeeId
+ ArrayOf<CAdministration.role> roleIds
+ ArrayOf<CAdministration.branch> branchIds
+ CAdministration.subdepartmentLevel2 supSubDeptLevel2Id
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+} subdepartmentLevel3;
+
+typedef struct {
+  String docRefId
+  String docHash
+  String masLedgeFinTxId
+  String genLedgeFinTxId
+  Int32 masLedgeFinTxNum
+  Int32 genLedgeFinTxNum
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CProperty.property propertyId
+ ArrayOf<CProperty.propertyOwner> propOwners
+ ArrayOf<CFinance.masterAssetRegister> masterLedgerAssetIds
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CProperty.tenant> tenancyIds
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CSolicitor.solicitor> solicitorIds
+ ArrayOf<CStakeholder.agent> agentIds
+ ArrayOf<CStakeholder.nonGovStakeholder> nonGovStakeholderIds
+ ArrayOf<CStakeholder.govStakeholder> govStakeholderIds
+ CStakeholder.stateLAHAuthority stateLAHCId
+ CStakeholder.statePublicHousingAuthority statePublicHousingAuthorityId
+ CRegulator.nCAT nCATId
+ CRegulator.rentalBondAuthority rentalBondAuthorityId
+ CRegulator.communityHousingRegulator communityHousingRegulatorId
+ ArrayOf<CStakeholder.community> communityIds
+ ArrayOf<CStakeholder.media> mediaIds
+ ArrayOf<CStakeholder.partner> partnerIds
+ CRegulator.nationalRegulator natRegId
+ CRegulator.stateBasedRegulator stateBasedRegId
+ CProperty.propertyInspectionResidential propertyInspectionResId
+ CProperty.propertyInspectionCommercial propertyInspectionCommercId
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} documents;
+
+typedef struct {
+  String imageRefId
+  String imageHash
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CProperty.property propertyId
+ ArrayOf<CProperty.propertyOwner> propOwners
+ ArrayOf<CFinance.masterAssetRegister> masterLedgerAssetIds
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CProperty.tenant> tenancyIds
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CSolicitor.solicitor> solicitorIds
+ ArrayOf<CStakeholder.agent> agentIds
+ ArrayOf<CStakeholder.nonGovStakeholder> nonGovStakeholderIds
+ ArrayOf<CStakeholder.govStakeholder> govStakeholderIds
+ CStakeholder.stateLAHAuthority stateLAHCId
+ CStakeholder.statePublicHousingAuthority statePublicHousingAuthorityId
+ CRegulator.nCAT nCATId
+ CRegulator.rentalBondAuthority rentalBondAuthorityId
+ CRegulator.communityHousingRegulator communityHousingRegulatorId
+ CStakeholder.community communityId
+ CStakeholder.media mediaId
+ CStakeholder.partner partnerId
+ CRegulator.nationalRegulator natRegId
+ CRegulator.stateBasedRegulator stateBasedRegId
+ CProperty.propertyInspectionResidential propertyInspectionResId
+ CProperty.propertyInspectionCommercial propertyInspectionCommercId
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} images;
+
+typedef struct {
+  String audioRefId
+  String audioHash
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.mapOfdepartments deptMapId
+ ArrayOf<CFinance.masterAssetRegister> genAssetIds
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CSolicitor.solicitor> solicitorIds
+ ArrayOf<CStakeholder.agent> agentIds
+ ArrayOf<CStakeholder.nonGovStakeholder> nonGovStakeholderIds
+ ArrayOf<CStakeholder.govStakeholder> govStakeholderIds
+ CRegulator.nCAT nCATId
+ CStakeholder.community communityId
+ CStakeholder.media mediaId
+ CStakeholder.partner partnerId
+ CRegulator.nationalRegulator natRegId
+ CRegulator.stateBasedRegulator stateBasedRegId
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} audio;
+
+typedef struct {
+  String videoRefId
+  String videoHash
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.propertyOwner> propOwners
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CProperty.tenant> tenancyIds
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CSolicitor.solicitor> solicitorIds
+ ArrayOf<CStakeholder.agent> agentIds
+ ArrayOf<CStakeholder.nonGovStakeholder> nonGovStakeholderIds
+ ArrayOf<CStakeholder.govStakeholder> govStakeholderIds
+ CStakeholder.stateLAHAuthority stateLAHCId
+ CStakeholder.statePublicHousingAuthority statePublicHousingAuthorityId
+ CRegulator.nCAT nCATId
+ CRegulator.rentalBondAuthority rentalBondAuthorityId
+ CRegulator.communityHousingRegulator communityHousingRegulatorId
+ CStakeholder.community communityId
+ CStakeholder.media mediaId
+ CStakeholder.partner partnerId
+ CRegulator.nationalRegulator natRegId
+ CRegulator.stateBasedRegulator stateBasedRegId
+ CProperty.propertyInspectionResidential propertyInspectionResId
+ CProperty.propertyInspectionCommercial propertyInspectionCommercId
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} video;
+
+typedef struct {
+  String itemTypeId
+  String itemTypeDescription
+  String itemModelNumber
+  String itemName
+  Int32 numberInInventory
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFactory.productType ourproductTypeId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CSupplier.supplier> suppliers
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CSupplier.supplierType> supplierTypeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} itemType;
+
+typedef struct {
+  String itemId
+  String itemName
+  String itemDescription
+  Boolean fragile
+  Boolean toxic
+  Boolean corrosive
+  String itemModelNumber
+  String itemSerialNumber
+  Boolean itemQualityDimensionsCheckedPassed
+  String pricePeritem
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFactory.product ourproductId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CSupplier.supplier supplierId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CAdministration.jobType> jobTypeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} item;
+
+typedef struct {
+  String jobTypeId
+  String jobDescription
+  String jobCode
+  String jobName
+  ArrayOf<String> taskSequence
+  ArrayOf<String> natRegId
+  ArrayOf<String> stateBasedRegId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CSupplier.supplier> suppliers
+ ArrayOf<CAdministration.itemType> itemTypeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} jobType;
+
+typedef struct {
+  String jobId
+  String jobDescription
+  ArrayOf<String> taskDescriptionSequence
+  String jobCode
+  String jobName
+  Int32 jobNum
+  Boolean responsiveMaintenance
+  Boolean plannedMaintenance
+  ArrayOf<Int32> immediatePrevjobNums
+  ArrayOf<Boolean> immediatePrevjobsQCPass
+  ArrayOf<String> dateTimeTaskStartSequence
+  ArrayOf<String> dateTimeTaskEndSequence
+  ArrayOf<String> actualTaskStartTime
+  ArrayOf<String> actualTaskCompleteTime
+  ArrayOf<Boolean> taskCompletionQCPasses
+  Boolean jobCompletionQCPass
+  String nextjobTypeId
+  ArrayOf<Boolean> tenantDamages
+  ArrayOf<Boolean> lesseecustomerDamage
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CProperty.property> propertyIds
+ CFinance.masterAssetRegister masterLedgerAssetId
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CSupplier.supplier> supplierIds
+ CAdministration.jobType jobTypeId
+ ArrayOf<CAdministration.itemType> itemTypeIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.serviceType> serviceTypeIds
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CFactory.materialType> materialTypeIds
+ ArrayOf<CFactory.material> materialIds
+ ArrayOf<CFactory.partType> partTypeIds
+ ArrayOf<CFactory.part> partIds
+ ArrayOf<CFactory.minorsubassemblyType> minorsubassemblyTypeIds
+ ArrayOf<CFactory.minorsubassembly> minorsubassemblyIds
+ ArrayOf<CFactory.subassemblyType> subassemblyTypeIds
+ ArrayOf<CFactory.subassembly> subassemblyIds
+ ArrayOf<CFactory.majorsubassemblyType> majorsubassemblyTypeIds
+ ArrayOf<CFactory.majorsubassembly> majorsubassemblyIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.lesserassembly> lesserassemblyIds
+ ArrayOf<CFactory.assemblyType> assemblyTypeIds
+ ArrayOf<CFactory.assembly> assemblyIds
+ ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
+ ArrayOf<CFactory.greaterassembly> greaterassemblyIds
+ ArrayOf<CFactory.productType> productTypeIds
+ ArrayOf<CFactory.product> productIds
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.purchaseOrder purchOrderId
+ CRegulator.nationalRegulator natRegId
+ CRegulator.stateBasedRegulator stateBasedRegId
+} job;
+
+typedef struct {
+  String leaveId
+  String leaveCode
+  String leaveDescription
+  String awardName
+  String notes
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CAdministration.documents> docRefIds
+} leaveTypes;
+
+typedef struct {
+  String quoteInId
+  ArrayOf<String> jobDescription
+  ArrayOf<String> jobTypeId
+  ArrayOf<String> jobName
+  ArrayOf<String> itemId
+  ArrayOf<String> conditionsUponcustomer
+  ArrayOf<Double> quoteAmountEachjob
+  Double quoteTotalForOrder
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CSupplier.supplier supplierId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+ CFinance.purchaseOrder purchOrderId
+} quoteIn;
+
+typedef struct {
+  String quoteOutId
+  ArrayOf<String> jobDescription
+  ArrayOf<String> jobTypeId
+  ArrayOf<String> jobName
+  ArrayOf<String> itemId
+  ArrayOf<String> conditionsUponcustomer
+  ArrayOf<Double> quoteAmountEachjobitem
+  Double quoteTotalForOrder
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+ ArrayOf<CCustomer.customer> customers
+ CFinance.masterSalesOrder masterSalesOrderId
+} quoteOut;
+
+typedef struct {
+  String riskId
+ CHelper.propertyType propertyType
+  ArrayOf<String> riskDescriptionSequence
+  ArrayOf<String> riskMitigationSequence
+  ArrayOf<String> statementsOfRisksAssociated
+ CHelper.riskLikelihoodOfOccurrenceRating riskLikelihoodRating
+ CHelper.riskConsequence riskConsequenceRating
+ CHelper.residualRiskLevel residualRiskLevel
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CAdministration.role roleId
+ CProperty.property propertyId
+ CProperty.propertyConstructionType propertyConstructionTypeId
+ CFinance.masterAssetType masterAssetTypeId
+ CFinance.masterAssetRegister masterAssetId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.jobType jobTypeId
+ CAdministration.job jobId
+ CFinance.purchaseOrder purchaseOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CProperty.allocation allocationId
+ CCustomer.complaint complaintId
+ CAdministration.serviceType serviceTypeId
+ CAdministration.itemType itemTypeId
+ CAdministration.item itemId
+ CFactory.materialType materialTypeId
+ CFactory.material materialId
+ CFactory.partType partTypeId
+ CFactory.part partId
+ CFactory.minorsubassemblyType minorsubassemblyTypeId
+ CFactory.minorsubassembly minorsubassemblyId
+ CFactory.subassemblyType subassemblyTypeId
+ CFactory.subassembly subassemblyId
+ CFactory.majorsubassemblyType majorsubassemblyTypeId
+ CFactory.majorsubassembly majorsubassemblyId
+ CFactory.lesserassemblyType lesserassemblyTypeId
+ CFactory.lesserassembly lesserassemblyId
+ CFactory.assemblyType assemblyTypeId
+ CFactory.assembly assemblyId
+ CFactory.greaterassemblyType greaterassemblyTypeId
+ CFactory.greaterassembly greaterassemblyId
+ CFactory.productType productTypeId
+ CFactory.product productId
+ CCustomer.customer customerId
+ CCustomer.customerType customerTypeId
+ CSupplier.supplier supplierId
+ CSupplier.supplierType supplierTypeId
+ CStakeholder.partner partnerId
+ CStakeholder.media mediaId
+ CStakeholder.community communityId
+ CFinance.bank bankId
+ CProperty.propertyOwner propertyOwnerId
+ CCustomer.applicant applicantId
+ CProperty.tenant tenancyId
+ CAdministration.staff employeeId
+ CSupplier.superannuationFund superFundId
+ ArrayOf<CSolicitor.solicitor> solicitorIds
+ ArrayOf<CStakeholder.agentType> agentTypeIds
+ ArrayOf<CStakeholder.agent> agentIds
+ ArrayOf<CStakeholder.nonGovStakeholder> nonGovStakeholderIds
+ ArrayOf<CStakeholder.govStakeholder> govStakeholderIds
+ CFinance.centrelink centrelinkId
+ CStakeholder.stateLAHAuthority stateLAHAuthorityId
+ CStakeholder.statePublicHousingAuthority statePublicHousingAuthorityId
+ CRegulator.communityHousingRegulator communityHousingRegulatorId
+ CRegulator.aTO aTOId
+ CRegulator.nationalRegulator natRegId
+ CRegulator.nCAT tribunalId
+ CCustomer.application applicationId
+ CRegulator.stateBasedRegulator stateBasedRegId
+ CProperty.tenancyCaseManagement tenancyCaseMngmntId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} riskRegister;
+
+typedef struct {
+  String roleId
+  String roleTitle
+  String roleDescription
+ ArrayOf<CAdministration.staff> employeeIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.branch> branchIds
+ ArrayOf<CAdministration.department> deptIds
+ ArrayOf<CAdministration.subdepartment> subDeptIds
+ ArrayOf<CAdministration.subdepartmentLevel2> subDeptLevel2Ids
+ ArrayOf<CAdministration.subdepartmentLevel3> subDeptLevel3Ids
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} role;
+
+typedef struct {
+  String staffroleJoinsId
+ CAdministration.role roleId
+ CAdministration.staff employeeId
+} staffroleJoins;
+
+typedef struct {
+    String businessDirectorId
+    String firstName
+    String lastName
+    String residentialAddress
+    String postalAddress
+    String email
+    Int32 homePhone
+    Int32 mobilePhone
+    Int32 workPhone
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} businessDirector;
+
+typedef struct {
+    String employeeId
+    String ourbranchId
+    String firstName
+    String lastName
+    String residentialAddress
+    String postalAddress
+    String email
+    Int32 homePhone
+    Int32 mobilePhone
+    Int32 workPhone
+    Int32 aTOTFN
+    Boolean taxFreeThreshold
+    ArrayOf<String> docRefIds
+    ArrayOf<String> contactedWithDetails
+ CAdministration.role staffImmedSuperroleId
+ ArrayOf<CAdministration.documents> performanceAgreementDocRefs
+ ArrayOf<CAdministration.role> roleIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} staff;
+
+typedef struct  {
+  String servicePurchRequestId
+  String mRQIdIfRentalproperty
+  Boolean damageCausedBycustomertenantOthers
+  Boolean ownerResponsible
+  ArrayOf<String> summaryDescriptionOfProblemitemised
+  ArrayOf<String> jobTypeSequence
+  ArrayOf<String> quoteIdsIn
+  ArrayOf<Double> mostAppropriateQuotesReceived
+  String quotesFinalised
+  ArrayOf<String> requestsToLandlordDocRefs
+  ArrayOf<String> requestsSentDates
+  ArrayOf<String> jobTypeSequenceApproved
+  ArrayOf<String> tribunalIds
+  ArrayOf<String> jobIds
+  ArrayOf<String> purchaseOrderIdSequence
+  ArrayOf<String> purchaseOrdersupplierIdSequence
+  String expectedCompletionDate
+  ArrayOf<Boolean> workCheckedPassed
+  Double totalMaintPurchOrderAmount
+  ArrayOf<Int32> masLedgeFinTxNumsReturned
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CProperty.property propertyId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.itemType> itemTypeIds
+ ArrayOf<CAdministration.jobType> jobTypeIds
+ ArrayOf<CAdministration.serviceType> serviceTypeIds
+ ArrayOf<CAdministration.staff> employeesRequestingIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.audio> audioRefIds
+} servicePurchaseRequest;
+
+typedef struct {
+    String timesheetId
+    ArrayOf<String> rosteredStarts
+    ArrayOf<String> rosteredFinishes
+    ArrayOf<String> actualStarts
+    ArrayOf<String> actualFinishes
+    String submitted
+    String checked
+    Boolean passed
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.staff> employeeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ CAdministration.branch branchId
+} timesheet;
+
+typedef struct {
+   String waitQueueId
+   String queueName
+   String queueCode
+   String queueDescription
+   String notes
+ CHelper.ausState ausState
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefIds
+} waitQueue;
+
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+
+
+}
+
+   Class(CFinance)
+
+       constructor();          // explicitly declare constructor that has no parameter
+
+      interface ICH;
+
+typedef struct {
+    String bankId
+    String bankName
+    Int32 ourbranchBSB
+    String ourbranchName
+    String linkedToThissupplierId
+    String linkedToThiscustomerId
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} bank;
+
+typedef struct {
+    String centrelinkId
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    String details
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} centrelink;
+
+typedef struct {
+    String masterAssetId
+    String assetTypeId
+    String assetName
+    String assetDescription
+    Double OWDV
+    Double capitalImprovements
+    Double depreciation
+    Double CWDV
+    String lastInspectionservice
+    String thisInspectionservice
+    String Sequ
+    String nextInspectionservice
+    Int32 valueOfN
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CFinance.masterAssetType masterAssetTypeId
+} masterAssetRegister;
+
+typedef struct {
+    String masterAssetTypeId
+    String assetName
+    String assetDescription
+ CHelper.inspectionTerm inspectionTerm
+    Int32 valueOfN
+ ArrayOf<CAdministration.documents> docRefs
+ ArrayOf<CAdministration.images> imageRefs
+ ArrayOf<CAdministration.audio> audioRefIds
+ ArrayOf<CAdministration.video> videoRefs
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+} masterAssetType;
+
+typedef struct {
+    String chartOfAccountsId
+ CHelper.ledgerTitle ledgerTitle
+    String description
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level1Accounts level1AccountsId
+ CFinance.level2Accounts level2AccountsId
+ CFinance.level3Accounts level3AccountsId
+ CFinance.level4Accounts level4AccountsId
+ CFinance.level5Accounts level5AccountsId
+ CFinance.level6Accounts level6AccountsId
+} chartOfAccounts;
+
+typedef struct {
+    String level1AccountsId
+    String description
+    String level1AccountsName
+    String level1AccountsNum
+ CHelper.ledgerTitle assocLedger
+ CRegister.businessChannelOwner businessChannelOwnerId
+} level1Accounts;
+
+typedef struct {
+   String level2AccountsId
+    String description
+    String level2AccountsName
+    String level2AccountsNum
+ CHelper.ledgerTitle assocLedger
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level1Accounts level1AccountsId
+} level2Accounts;
+
+typedef struct {
+    String level3AccountsId
+    String description
+    String level3AccountsName
+    String level3AccountsNum
+ CHelper.ledgerTitle assocLedger
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level2Accounts level2AccountsId
+} level3Accounts;
+
+typedef struct {
+    String level4AccountsId
+    String description
+    String level4AccountsName
+    String level4AccountsNum
+ CHelper.ledgerTitle assocLedger
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level3Accounts level3AccountsId
+} level4Accounts;
+
+typedef struct {
+    String level5AccountsId
+    String description
+    String level5AccountsName
+    String level5AccountsNum
+ CHelper.ledgerTitle assocLedger
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level4Accounts level4AccountsId
+} level5Accounts;
+
+typedef struct {
+    String level6AccountsId
+    String description
+    String level6AccountsName
+    String level6AccountsNum
+ CHelper.ledgerTitle assocLedger
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level5Accounts level5AccountsId
+} level6Accounts;
+
+typedef struct {
+    String chartOfClassesId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level1Class level1ClassId
+ CFinance.level2Class level2ClassId
+ CFinance.level3Class level3ClassId
+} chartOfClasses;
+
+typedef struct {
+    String level1ClassId
+    String description
+    String className
+ CRegister.businessChannelOwner businessChannelOwnerId
+}level1Class;
+
+typedef struct {
+    String level2ClassId
+    String description
+    String className
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level1Class level1ClassId
+} level2Class;
+
+typedef struct {
+    String level3ClassId
+    String description
+    String className
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.level2Class level2ClassId
+} level3Class;
+
+typedef struct {
+    String masLedgeFinTxJoinId
+    ArrayOf<String> masLedgeFinTxIds
+    Int32 masLedgeFinTxNum
+    ArrayOf<String> creditedAccountIds
+    ArrayOf<String> debitedAccountIds
+    ArrayOf<String> creditedClassIds
+    ArrayOf<String> debitedClassIds
+    ArrayOf<Double> creditedAmounts
+    ArrayOf<Double> debitedAmounts
+ CRegister.businessChannelOwner businessChannelOwnerId
+} masterLedgerFinTxJoin;
+
+typedef struct {
+    String masterLedgerAssetId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerAsset;
+
+typedef struct {
+    String masterLedgerLiabilityId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerLiability;
+
+typedef struct {
+    String masterLedgerEquityId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerEquity;
+
+typedef struct {
+    String masterLedgerSuspenseId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerSuspense;
+
+typedef struct {
+    String masterLedgerIncomeId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerIncome;
+
+typedef struct {
+    String masterLedgerReturnsInId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerReturnsIn;
+
+typedef struct {
+    String masterLedgerExpenseId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerExpense;
+
+typedef struct {
+    String masterLedgerReturnsOutId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerReturnsOut;
+
+typedef struct {
+    String masterLedgerOtherIncomeId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerOtherIncome;
+
+typedef struct {
+    String masterLedgerOtherExpenseId
+    String bankBSB
+    String bankAccountNumber
+    String nameOnbankAccount
+    String description
+    ArrayOf<String> docRefs
+    String feeId
+    Int32 masLedgeFinTxNum
+    String level1AccountName
+    String level1AccountNum
+    String level2AccountName
+    String level2AccountNum
+    String level3AccountName
+    String level3AccountNum
+    String level4AccountName
+    String level4AccountNum
+    String level5AccountName
+    String level5AccountNum
+    String level6AccountName
+    String level6AccountNum
+    String level1ClassName
+    String level2ClassName
+    String level3ClassName
+    String transactionEffective
+    String masLedgeFinTxId
+    Double cr
+    Double dr
+    Double bal
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CFinance.chartOfAccounts chartOfAccountsId
+ CFinance.chartOfClasses chartOfClassesId
+ CAdministration.branch branchId
+ CAdministration.department departmentId
+ CFinance.bank bankId
+ CProperty.program programId
+ CProperty.project projectId
+ CAdministration.item itemId
+ CAdministration.job jobId
+ CAdministration.service serviceId
+ CCustomer.customer customerId
+ CSupplier.supplier supplierId
+ CFinance.purchaseOrder purchOrderId
+ CFinance.masterSalesOrder masterSalesOrderId
+ CFinance.invoice invoiceId
+ CFinance.bill billId
+} masterLedgerOtherExpense;
+
+typedef struct {
+    String level1BudgetId
+    String budgetName
+    Int32 endYearmonthyyyymm
+ ArrayOf<CHelper.month> twelvemonthSequence
+    ArrayOf<String> incomeitemTypeIds
+    ArrayOf<Double> janRevenues
+    ArrayOf<Double> febRevenues
+    ArrayOf<Double> marRevenues
+    ArrayOf<Double> aprRevenues
+    ArrayOf<Double> mayRevenues
+    ArrayOf<Double> junRevenues
+    ArrayOf<Double> julRevenues
+    ArrayOf<Double> augRevenues
+    ArrayOf<Double> sepRevenues
+    ArrayOf<Double> octRevenues
+    ArrayOf<Double> novRevenues
+    ArrayOf<Double> decRevenues
+    ArrayOf<String> janitemTypeIds
+    ArrayOf<String> febitemTypeIds
+    ArrayOf<String> maritemTypeIds
+    ArrayOf<String> apritemTypeIds
+    ArrayOf<String> mayitemTypeIds
+    ArrayOf<String> junitemTypeIds
+    ArrayOf<String> julitemTypeIds
+    ArrayOf<String> augitemTypeIds
+    ArrayOf<String> sepitemTypeIds
+    ArrayOf<String> octitemTypeIds
+    ArrayOf<String> novitemTypeIds
+    ArrayOf<String> decitemTypeIds
+    ArrayOf<Double> janCostsitems
+    ArrayOf<Double> febCostsitems
+    ArrayOf<Double> marCostsitems
+    ArrayOf<Double> aprCostsitems
+    ArrayOf<Double> mayCostsitems
+    ArrayOf<Double> junCostsitems
+    ArrayOf<Double> julCostsitems
+    ArrayOf<Double> augCostsitems
+    ArrayOf<Double> sepCostsitems
+    ArrayOf<Double> octCostsitems
+    ArrayOf<Double> novCostsitems
+    ArrayOf<Double> decCostsitems
+    ArrayOf<String> janjobTypeIds
+    ArrayOf<String> febjobTypeIds
+    ArrayOf<String> marjobTypeIds
+    ArrayOf<String> aprjobTypeIds
+    ArrayOf<String> mayjobTypeIds
+    ArrayOf<String> junjobTypeIds
+    ArrayOf<String> juljobTypeIds
+    ArrayOf<String> augjobTypeIds
+    ArrayOf<String> sepjobTypeIds
+    ArrayOf<String> octjobTypeIds
+    ArrayOf<String> novjobTypeIds
+    ArrayOf<String> decjobTypeIds
+    ArrayOf<Double> janCostsjobs
+    ArrayOf<Double> febCostsjobs
+    ArrayOf<Double> marCostsjobs
+    ArrayOf<Double> aprCostsjobs
+    ArrayOf<Double> mayCostsjobs
+    ArrayOf<Double> junCostsjobs
+    ArrayOf<Double> julCostsjobs
+    ArrayOf<Double> augCostsjobs
+    ArrayOf<Double> sepCostsjobs
+    ArrayOf<Double> octCostsjobs
+    ArrayOf<Double> novCostsjobs
+    ArrayOf<Double> decCostsjobs
+    ArrayOf<String> janserviceTypeIds
+    ArrayOf<String> febserviceTypeIds
+    ArrayOf<String> marserviceTypeIds
+    ArrayOf<String> aprserviceTypeIds
+    ArrayOf<String> mayserviceTypeIds
+    ArrayOf<String> junserviceTypeIds
+    ArrayOf<String> julserviceTypeIds
+    ArrayOf<String> augserviceTypeIds
+    ArrayOf<String> sepserviceTypeIds
+    ArrayOf<String> octserviceTypeIds
+    ArrayOf<String> novserviceTypeIds
+    ArrayOf<String> decserviceTypeIds
+    ArrayOf<Double> janCostsservices
+    ArrayOf<Double> febCostsservices
+    ArrayOf<Double> marCostsservices
+    ArrayOf<Double> aprCostsservices
+    ArrayOf<Double> mayCostsservices
+    ArrayOf<Double> junCostsservices
+    ArrayOf<Double> julCostsservices
+    ArrayOf<Double> augCostsservices
+    ArrayOf<Double> sepCostsservices
+    ArrayOf<Double> octCostsservices
+    ArrayOf<Double> novCostsservices
+    ArrayOf<Double> decCostsservices
+    ArrayOf<Double> twelveTotalmonthlyCosts
+    Double yearCostThisBudgetId
+    Double netProfitLossThislevel1BudgetId
+    Int32 linkingInternalBudgetNum
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.program> programIds
+ ArrayOf<CProperty.project> projectIds
+ CFinance.level2Budget linkedTolevel2BudgetId
+ CFinance.masterAssetRegister masterAssetId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} level1Budget;
+
+typedef struct {
+    String level2BudgetId
+    String budgetName
+    Int32 endYearmonthyyyymm
+ ArrayOf<CHelper.month> twelvemonthSequence
+    ArrayOf<String> incomeitemTypeIds
+    ArrayOf<Double> janRevenues
+    ArrayOf<Double> febRevenues
+    ArrayOf<Double> marRevenues
+    ArrayOf<Double> aprRevenues
+    ArrayOf<Double> mayRevenues
+    ArrayOf<Double> junRevenues
+    ArrayOf<Double> julRevenues
+    ArrayOf<Double> augRevenues
+    ArrayOf<Double> sepRevenues
+    ArrayOf<Double> octRevenues
+    ArrayOf<Double> novRevenues
+    ArrayOf<Double> decRevenues
+    ArrayOf<String> janitemTypeIds
+    ArrayOf<String> febitemTypeIds
+    ArrayOf<String> maritemTypeIds
+    ArrayOf<String> apritemTypeIds
+    ArrayOf<String> mayitemTypeIds
+    ArrayOf<String> junitemTypeIds
+    ArrayOf<String> julitemTypeIds
+    ArrayOf<String> augitemTypeIds
+    ArrayOf<String> sepitemTypeIds
+    ArrayOf<String> octitemTypeIds
+    ArrayOf<String> novitemTypeIds
+    ArrayOf<String> decitemTypeIds
+    ArrayOf<Double> janCostsitems
+    ArrayOf<Double> febCostsitems
+    ArrayOf<Double> marCostsitems
+    ArrayOf<Double> aprCostsitems
+    ArrayOf<Double> mayCostsitems
+    ArrayOf<Double> junCostsitems
+    ArrayOf<Double> julCostsitems
+    ArrayOf<Double> augCostsitems
+    ArrayOf<Double> sepCostsitems
+    ArrayOf<Double> octCostsitems
+    ArrayOf<Double> novCostsitems
+    ArrayOf<Double> decCostsitems
+    ArrayOf<String> janjobTypeIds
+    ArrayOf<String> febjobTypeIds
+    ArrayOf<String> marjobTypeIds
+    ArrayOf<String> aprjobTypeIds
+    ArrayOf<String> mayjobTypeIds
+    ArrayOf<String> junjobTypeIds
+    ArrayOf<String> juljobTypeIds
+    ArrayOf<String> augjobTypeIds
+    ArrayOf<String> sepjobTypeIds
+    ArrayOf<String> octjobTypeIds
+    ArrayOf<String> novjobTypeIds
+    ArrayOf<String> decjobTypeIds
+    ArrayOf<Double> janCostsjobs
+    ArrayOf<Double> febCostsjobs
+    ArrayOf<Double> marCostsjobs
+    ArrayOf<Double> aprCostsjobs
+    ArrayOf<Double> mayCostsjobs
+    ArrayOf<Double> junCostsjobs
+    ArrayOf<Double> julCostsjobs
+    ArrayOf<Double> augCostsjobs
+    ArrayOf<Double> sepCostsjobs
+    ArrayOf<Double> octCostsjobs
+    ArrayOf<Double> novCostsjobs
+    ArrayOf<Double> decCostsjobs
+    ArrayOf<String> janserviceTypeIds
+    ArrayOf<String> febserviceTypeIds
+    ArrayOf<String> marserviceTypeIds
+    ArrayOf<String> aprserviceTypeIds
+    ArrayOf<String> mayserviceTypeIds
+    ArrayOf<String> junserviceTypeIds
+    ArrayOf<String> julserviceTypeIds
+    ArrayOf<String> augserviceTypeIds
+    ArrayOf<String> sepserviceTypeIds
+    ArrayOf<String> octserviceTypeIds
+    ArrayOf<String> novserviceTypeIds
+    ArrayOf<String> decserviceTypeIds
+    ArrayOf<Double> janCostsservices
+    ArrayOf<Double> febCostsservices
+    ArrayOf<Double> marCostsservices
+    ArrayOf<Double> aprCostsservices
+    ArrayOf<Double> mayCostsservices
+    ArrayOf<Double> junCostsservices
+    ArrayOf<Double> julCostsservices
+    ArrayOf<Double> augCostsservices
+    ArrayOf<Double> sepCostsservices
+    ArrayOf<Double> octCostsservices
+    ArrayOf<Double> novCostsservices
+    ArrayOf<Double> decCostsservices
+    ArrayOf<Double> twelveTotalmonthlyCosts
+    Double yearCostThisBudgetId
+    Double netProfitLossThislevel2BudgetId
+    Int32 linkingInternalBudgetNum
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.program> programIds
+ ArrayOf<CProperty.project> projectIds
+ CFinance.level3Budget linkedTolevel3BudgetId
+ CFinance.masterAssetRegister masterAssetId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} level2Budget;
+
+typedef struct {
+    String level3BudgetId
+    String budgetName
+    Int32 endYearmonthyyyymm
+ ArrayOf<CHelper.month> twelvemonthSequence
+    ArrayOf<String> incomeitemTypeIds
+    ArrayOf<Double> janRevenues
+    ArrayOf<Double> febRevenues
+    ArrayOf<Double> marRevenues
+    ArrayOf<Double> aprRevenues
+    ArrayOf<Double> mayRevenues
+    ArrayOf<Double> junRevenues
+    ArrayOf<Double> julRevenues
+    ArrayOf<Double> augRevenues
+    ArrayOf<Double> sepRevenues
+    ArrayOf<Double> octRevenues
+    ArrayOf<Double> novRevenues
+    ArrayOf<Double> decRevenues
+    ArrayOf<String> janitemTypeIds
+    ArrayOf<String> febitemTypeIds
+    ArrayOf<String> maritemTypeIds
+    ArrayOf<String> apritemTypeIds
+    ArrayOf<String> mayitemTypeIds
+    ArrayOf<String> junitemTypeIds
+    ArrayOf<String> julitemTypeIds
+    ArrayOf<String> augitemTypeIds
+    ArrayOf<String> sepitemTypeIds
+    ArrayOf<String> octitemTypeIds
+    ArrayOf<String> novitemTypeIds
+    ArrayOf<String> decitemTypeIds
+    ArrayOf<Double> janCostsitems
+    ArrayOf<Double> febCostsitems
+    ArrayOf<Double> marCostsitems
+    ArrayOf<Double> aprCostsitems
+    ArrayOf<Double> mayCostsitems
+    ArrayOf<Double> junCostsitems
+    ArrayOf<Double> julCostsitems
+    ArrayOf<Double> augCostsitems
+    ArrayOf<Double> sepCostsitems
+    ArrayOf<Double> octCostsitems
+    ArrayOf<Double> novCostsitems
+    ArrayOf<Double> decCostsitems
+    ArrayOf<String> janjobTypeIds
+    ArrayOf<String> febjobTypeIds
+    ArrayOf<String> marjobTypeIds
+    ArrayOf<String> aprjobTypeIds
+    ArrayOf<String> mayjobTypeIds
+    ArrayOf<String> junjobTypeIds
+    ArrayOf<String> juljobTypeIds
+    ArrayOf<String> augjobTypeIds
+    ArrayOf<String> sepjobTypeIds
+    ArrayOf<String> octjobTypeIds
+    ArrayOf<String> novjobTypeIds
+    ArrayOf<String> decjobTypeIds
+    ArrayOf<Double> janCostsjobs
+    ArrayOf<Double> febCostsjobs
+    ArrayOf<Double> marCostsjobs
+    ArrayOf<Double> aprCostsjobs
+    ArrayOf<Double> mayCostsjobs
+    ArrayOf<Double> junCostsjobs
+    ArrayOf<Double> julCostsjobs
+    ArrayOf<Double> augCostsjobs
+    ArrayOf<Double> sepCostsjobs
+    ArrayOf<Double> octCostsjobs
+    ArrayOf<Double> novCostsjobs
+    ArrayOf<Double> decCostsjobs
+    ArrayOf<String> janserviceTypeIds
+    ArrayOf<String> febserviceTypeIds
+    ArrayOf<String> marserviceTypeIds
+    ArrayOf<String> aprserviceTypeIds
+    ArrayOf<String> mayserviceTypeIds
+    ArrayOf<String> junserviceTypeIds
+    ArrayOf<String> julserviceTypeIds
+    ArrayOf<String> augserviceTypeIds
+    ArrayOf<String> sepserviceTypeIds
+    ArrayOf<String> octserviceTypeIds
+    ArrayOf<String> novserviceTypeIds
+    ArrayOf<String> decserviceTypeIds
+    ArrayOf<Double> janCostsservices
+    ArrayOf<Double> febCostsservices
+    ArrayOf<Double> marCostsservices
+    ArrayOf<Double> aprCostsservices
+    ArrayOf<Double> mayCostsservices
+    ArrayOf<Double> junCostsservices
+    ArrayOf<Double> julCostsservices
+    ArrayOf<Double> augCostsservices
+    ArrayOf<Double> sepCostsservices
+    ArrayOf<Double> octCostsservices
+    ArrayOf<Double> novCostsservices
+    ArrayOf<Double> decCostsservices
+    ArrayOf<Double> twelveTotalmonthlyCosts
+    Double yearCostThisBudgetId
+    Double netProfitLossThislevel3BudgetId
+    Int32 linkingInternalBudgetNum
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.program> programIds
+ ArrayOf<CProperty.project> projectIds
+ CFinance.level4Budget linkedTolevel4BudgetId
+ CFinance.masterAssetRegister masterAssetId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} level3Budget;
+
+typedef struct {
+    String level4BudgetId
+    String budgetName
+    Int32 endYearmonthyyyymm
+ ArrayOf<CHelper.month> twelvemonthSequence
+    ArrayOf<String> incomeitemTypeIds
+    ArrayOf<Double> janRevenues
+    ArrayOf<Double> febRevenues
+    ArrayOf<Double> marRevenues
+    ArrayOf<Double> aprRevenues
+    ArrayOf<Double> mayRevenues
+    ArrayOf<Double> junRevenues
+    ArrayOf<Double> julRevenues
+    ArrayOf<Double> augRevenues
+    ArrayOf<Double> sepRevenues
+    ArrayOf<Double> octRevenues
+    ArrayOf<Double> novRevenues
+    ArrayOf<Double> decRevenues
+    ArrayOf<String> janitemTypeIds
+    ArrayOf<String> febitemTypeIds
+    ArrayOf<String> maritemTypeIds
+    ArrayOf<String> apritemTypeIds
+    ArrayOf<String> mayitemTypeIds
+    ArrayOf<String> junitemTypeIds
+    ArrayOf<String> julitemTypeIds
+    ArrayOf<String> augitemTypeIds
+    ArrayOf<String> sepitemTypeIds
+    ArrayOf<String> octitemTypeIds
+    ArrayOf<String> novitemTypeIds
+    ArrayOf<String> decitemTypeIds
+    ArrayOf<Double> janCostsitems
+    ArrayOf<Double> febCostsitems
+    ArrayOf<Double> marCostsitems
+    ArrayOf<Double> aprCostsitems
+    ArrayOf<Double> mayCostsitems
+    ArrayOf<Double> junCostsitems
+    ArrayOf<Double> julCostsitems
+    ArrayOf<Double> augCostsitems
+    ArrayOf<Double> sepCostsitems
+    ArrayOf<Double> octCostsitems
+    ArrayOf<Double> novCostsitems
+    ArrayOf<Double> decCostsitems
+    ArrayOf<String> janjobTypeIds
+    ArrayOf<String> febjobTypeIds
+    ArrayOf<String> marjobTypeIds
+    ArrayOf<String> aprjobTypeIds
+    ArrayOf<String> mayjobTypeIds
+    ArrayOf<String> junjobTypeIds
+    ArrayOf<String> juljobTypeIds
+    ArrayOf<String> augjobTypeIds
+    ArrayOf<String> sepjobTypeIds
+    ArrayOf<String> octjobTypeIds
+    ArrayOf<String> novjobTypeIds
+    ArrayOf<String> decjobTypeIds
+    ArrayOf<Double> janCostsjobs
+    ArrayOf<Double> febCostsjobs
+    ArrayOf<Double> marCostsjobs
+    ArrayOf<Double> aprCostsjobs
+    ArrayOf<Double> mayCostsjobs
+    ArrayOf<Double> junCostsjobs
+    ArrayOf<Double> julCostsjobs
+    ArrayOf<Double> augCostsjobs
+    ArrayOf<Double> sepCostsjobs
+    ArrayOf<Double> octCostsjobs
+    ArrayOf<Double> novCostsjobs
+    ArrayOf<Double> decCostsjobs
+    ArrayOf<String> janserviceTypeIds
+    ArrayOf<String> febserviceTypeIds
+    ArrayOf<String> marserviceTypeIds
+    ArrayOf<String> aprserviceTypeIds
+    ArrayOf<String> mayserviceTypeIds
+    ArrayOf<String> junserviceTypeIds
+    ArrayOf<String> julserviceTypeIds
+    ArrayOf<String> augserviceTypeIds
+    ArrayOf<String> sepserviceTypeIds
+    ArrayOf<String> octserviceTypeIds
+    ArrayOf<String> novserviceTypeIds
+    ArrayOf<String> decserviceTypeIds
+    ArrayOf<Double> janCostsservices
+    ArrayOf<Double> febCostsservices
+    ArrayOf<Double> marCostsservices
+    ArrayOf<Double> aprCostsservices
+    ArrayOf<Double> mayCostsservices
+    ArrayOf<Double> junCostsservices
+    ArrayOf<Double> julCostsservices
+    ArrayOf<Double> augCostsservices
+    ArrayOf<Double> sepCostsservices
+    ArrayOf<Double> octCostsservices
+    ArrayOf<Double> novCostsservices
+    ArrayOf<Double> decCostsservices
+    ArrayOf<Double> twelveTotalmonthlyCosts
+    Double yearCostThisBudgetId
+    Double netProfitLossThislevel4BudgetId
+    Int32 linkingInternalBudgetNum
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.program> programIds
+ ArrayOf<CProperty.project> projectIds
+ CFinance.level5Budget linkedTolevel5BudgetId
+ CFinance.masterAssetRegister masterAssetId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} level4Budget;
+
+typedef struct {
+    String level5BudgetId
+    String budgetName
+    Int32 endYearmonthyyyymm
+ ArrayOf<CHelper.month> twelvemonthSequence
+    ArrayOf<String> incomeitemTypeIds
+    ArrayOf<Double> janRevenues
+    ArrayOf<Double> febRevenues
+    ArrayOf<Double> marRevenues
+    ArrayOf<Double> aprRevenues
+    ArrayOf<Double> mayRevenues
+    ArrayOf<Double> junRevenues
+    ArrayOf<Double> julRevenues
+    ArrayOf<Double> augRevenues
+    ArrayOf<Double> sepRevenues
+    ArrayOf<Double> octRevenues
+    ArrayOf<Double> novRevenues
+    ArrayOf<Double> decRevenues
+    ArrayOf<String> janitemTypeIds
+    ArrayOf<String> febitemTypeIds
+    ArrayOf<String> maritemTypeIds
+    ArrayOf<String> apritemTypeIds
+    ArrayOf<String> mayitemTypeIds
+    ArrayOf<String> junitemTypeIds
+    ArrayOf<String> julitemTypeIds
+    ArrayOf<String> augitemTypeIds
+    ArrayOf<String> sepitemTypeIds
+    ArrayOf<String> octitemTypeIds
+    ArrayOf<String> novitemTypeIds
+    ArrayOf<String> decitemTypeIds
+    ArrayOf<Double> janCostsitems
+    ArrayOf<Double> febCostsitems
+    ArrayOf<Double> marCostsitems
+    ArrayOf<Double> aprCostsitems
+    ArrayOf<Double> mayCostsitems
+    ArrayOf<Double> junCostsitems
+    ArrayOf<Double> julCostsitems
+    ArrayOf<Double> augCostsitems
+    ArrayOf<Double> sepCostsitems
+    ArrayOf<Double> octCostsitems
+    ArrayOf<Double> novCostsitems
+    ArrayOf<Double> decCostsitems
+    ArrayOf<String> janjobTypeIds
+    ArrayOf<String> febjobTypeIds
+    ArrayOf<String> marjobTypeIds
+    ArrayOf<String> aprjobTypeIds
+    ArrayOf<String> mayjobTypeIds
+    ArrayOf<String> junjobTypeIds
+    ArrayOf<String> juljobTypeIds
+    ArrayOf<String> augjobTypeIds
+    ArrayOf<String> sepjobTypeIds
+    ArrayOf<String> octjobTypeIds
+    ArrayOf<String> novjobTypeIds
+    ArrayOf<String> decjobTypeIds
+    ArrayOf<Double> janCostsjobs
+    ArrayOf<Double> febCostsjobs
+    ArrayOf<Double> marCostsjobs
+    ArrayOf<Double> aprCostsjobs
+    ArrayOf<Double> mayCostsjobs
+    ArrayOf<Double> junCostsjobs
+    ArrayOf<Double> julCostsjobs
+    ArrayOf<Double> augCostsjobs
+    ArrayOf<Double> sepCostsjobs
+    ArrayOf<Double> octCostsjobs
+    ArrayOf<Double> novCostsjobs
+    ArrayOf<Double> decCostsjobs
+    ArrayOf<String> janserviceTypeIds
+    ArrayOf<String> febserviceTypeIds
+    ArrayOf<String> marserviceTypeIds
+    ArrayOf<String> aprserviceTypeIds
+    ArrayOf<String> mayserviceTypeIds
+    ArrayOf<String> junserviceTypeIds
+    ArrayOf<String> julserviceTypeIds
+    ArrayOf<String> augserviceTypeIds
+    ArrayOf<String> sepserviceTypeIds
+    ArrayOf<String> octserviceTypeIds
+    ArrayOf<String> novserviceTypeIds
+    ArrayOf<String> decserviceTypeIds
+    ArrayOf<Double> janCostsservices
+    ArrayOf<Double> febCostsservices
+    ArrayOf<Double> marCostsservices
+    ArrayOf<Double> aprCostsservices
+    ArrayOf<Double> mayCostsservices
+    ArrayOf<Double> junCostsservices
+    ArrayOf<Double> julCostsservices
+    ArrayOf<Double> augCostsservices
+    ArrayOf<Double> sepCostsservices
+    ArrayOf<Double> octCostsservices
+    ArrayOf<Double> novCostsservices
+    ArrayOf<Double> decCostsservices
+    ArrayOf<Double> twelveTotalmonthlyCosts
+    Double yearCostThisBudgetId
+    Double netProfitLossThislevel5BudgetId
+    Int32 linkingInternalBudgetNum
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.program> programIds
+ ArrayOf<CProperty.project> projectIds
+ CFinance.level6Budget linkedTolevel6BudgetId
+ CFinance.masterAssetRegister masterAssetId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} level5Budget;
+
+typedef struct {
+    String level6BudgetId
+    String budgetName
+    Int32 endYearmonthyyyymm
+ ArrayOf<CHelper.month> twelvemonthSequence
+    ArrayOf<String> incomeitemTypeIds
+    ArrayOf<Double> janRevenues
+    ArrayOf<Double> febRevenues
+    ArrayOf<Double> marRevenues
+    ArrayOf<Double> aprRevenues
+    ArrayOf<Double> mayRevenues
+    ArrayOf<Double> junRevenues
+    ArrayOf<Double> julRevenues
+    ArrayOf<Double> augRevenues
+    ArrayOf<Double> sepRevenues
+    ArrayOf<Double> octRevenues
+    ArrayOf<Double> novRevenues
+    ArrayOf<Double> decRevenues
+    ArrayOf<String> janitemTypeIds
+    ArrayOf<String> febitemTypeIds
+    ArrayOf<String> maritemTypeIds
+    ArrayOf<String> apritemTypeIds
+    ArrayOf<String> mayitemTypeIds
+    ArrayOf<String> junitemTypeIds
+    ArrayOf<String> julitemTypeIds
+    ArrayOf<String> augitemTypeIds
+    ArrayOf<String> sepitemTypeIds
+    ArrayOf<String> octitemTypeIds
+    ArrayOf<String> novitemTypeIds
+    ArrayOf<String> decitemTypeIds
+    ArrayOf<Double> janCostsitems
+    ArrayOf<Double> febCostsitems
+    ArrayOf<Double> marCostsitems
+    ArrayOf<Double> aprCostsitems
+    ArrayOf<Double> mayCostsitems
+    ArrayOf<Double> junCostsitems
+    ArrayOf<Double> julCostsitems
+    ArrayOf<Double> augCostsitems
+    ArrayOf<Double> sepCostsitems
+    ArrayOf<Double> octCostsitems
+    ArrayOf<Double> novCostsitems
+    ArrayOf<Double> decCostsitems
+    ArrayOf<String> janjobTypeIds
+    ArrayOf<String> febjobTypeIds
+    ArrayOf<String> marjobTypeIds
+    ArrayOf<String> aprjobTypeIds
+    ArrayOf<String> mayjobTypeIds
+    ArrayOf<String> junjobTypeIds
+    ArrayOf<String> juljobTypeIds
+    ArrayOf<String> augjobTypeIds
+    ArrayOf<String> sepjobTypeIds
+    ArrayOf<String> octjobTypeIds
+    ArrayOf<String> novjobTypeIds
+    ArrayOf<String> decjobTypeIds
+    ArrayOf<Double> janCostsjobs
+    ArrayOf<Double> febCostsjobs
+    ArrayOf<Double> marCostsjobs
+    ArrayOf<Double> aprCostsjobs
+    ArrayOf<Double> mayCostsjobs
+    ArrayOf<Double> junCostsjobs
+    ArrayOf<Double> julCostsjobs
+    ArrayOf<Double> augCostsjobs
+    ArrayOf<Double> sepCostsjobs
+    ArrayOf<Double> octCostsjobs
+    ArrayOf<Double> novCostsjobs
+    ArrayOf<Double> decCostsjobs
+    ArrayOf<String> janserviceTypeIds
+    ArrayOf<String> febserviceTypeIds
+    ArrayOf<String> marserviceTypeIds
+    ArrayOf<String> aprserviceTypeIds
+    ArrayOf<String> mayserviceTypeIds
+    ArrayOf<String> junserviceTypeIds
+    ArrayOf<String> julserviceTypeIds
+    ArrayOf<String> augserviceTypeIds
+    ArrayOf<String> sepserviceTypeIds
+    ArrayOf<String> octserviceTypeIds
+    ArrayOf<String> novserviceTypeIds
+    ArrayOf<String> decserviceTypeIds
+    ArrayOf<Double> janCostsservices
+    ArrayOf<Double> febCostsservices
+    ArrayOf<Double> marCostsservices
+    ArrayOf<Double> aprCostsservices
+    ArrayOf<Double> mayCostsservices
+    ArrayOf<Double> junCostsservices
+    ArrayOf<Double> julCostsservices
+    ArrayOf<Double> augCostsservices
+    ArrayOf<Double> sepCostsservices
+    ArrayOf<Double> octCostsservices
+    ArrayOf<Double> novCostsservices
+    ArrayOf<Double> decCostsservices
+    ArrayOf<Double> twelveTotalmonthlyCosts
+    Double yearCostThisBudgetId
+    Double netProfitLossThislevel6BudgetId
+    Int32 linkingInternalBudgetNum
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.program> programIds
+ ArrayOf<CProperty.project> projectIds
+ CFinance.hyperBudget linkedTohyperBudgetId
+ CFinance.masterAssetRegister masterAssetId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} level6Budget;
+
+typedef struct {
+    String hyperBudgetId
+    String budgetName
+    Int32 endYearmonthyyyymm
+ ArrayOf<CHelper.month> twelvemonthSequence
+    ArrayOf<String> incomeitemTypeIds
+    ArrayOf<Double> janRevenues
+    ArrayOf<Double> febRevenues
+    ArrayOf<Double> marRevenues
+    ArrayOf<Double> aprRevenues
+    ArrayOf<Double> mayRevenues
+    ArrayOf<Double> junRevenues
+    ArrayOf<Double> julRevenues
+    ArrayOf<Double> augRevenues
+    ArrayOf<Double> sepRevenues
+    ArrayOf<Double> octRevenues
+    ArrayOf<Double> novRevenues
+    ArrayOf<Double> decRevenues
+    ArrayOf<String> janitemTypeIds
+    ArrayOf<String> febitemTypeIds
+    ArrayOf<String> maritemTypeIds
+    ArrayOf<String> apritemTypeIds
+    ArrayOf<String> mayitemTypeIds
+    ArrayOf<String> junitemTypeIds
+    ArrayOf<String> julitemTypeIds
+    ArrayOf<String> augitemTypeIds
+    ArrayOf<String> sepitemTypeIds
+    ArrayOf<String> octitemTypeIds
+    ArrayOf<String> novitemTypeIds
+    ArrayOf<String> decitemTypeIds
+    ArrayOf<Double> janCostsitems
+    ArrayOf<Double> febCostsitems
+    ArrayOf<Double> marCostsitems
+    ArrayOf<Double> aprCostsitems
+    ArrayOf<Double> mayCostsitems
+    ArrayOf<Double> junCostsitems
+    ArrayOf<Double> julCostsitems
+    ArrayOf<Double> augCostsitems
+    ArrayOf<Double> sepCostsitems
+    ArrayOf<Double> octCostsitems
+    ArrayOf<Double> novCostsitems
+    ArrayOf<Double> decCostsitems
+    ArrayOf<String> janjobTypeIds
+    ArrayOf<String> febjobTypeIds
+    ArrayOf<String> marjobTypeIds
+    ArrayOf<String> aprjobTypeIds
+    ArrayOf<String> mayjobTypeIds
+    ArrayOf<String> junjobTypeIds
+    ArrayOf<String> juljobTypeIds
+    ArrayOf<String> augjobTypeIds
+    ArrayOf<String> sepjobTypeIds
+    ArrayOf<String> octjobTypeIds
+    ArrayOf<String> novjobTypeIds
+    ArrayOf<String> decjobTypeIds
+    ArrayOf<Double> janCostsjobs
+    ArrayOf<Double> febCostsjobs
+    ArrayOf<Double> marCostsjobs
+    ArrayOf<Double> aprCostsjobs
+    ArrayOf<Double> mayCostsjobs
+    ArrayOf<Double> junCostsjobs
+    ArrayOf<Double> julCostsjobs
+    ArrayOf<Double> augCostsjobs
+    ArrayOf<Double> sepCostsjobs
+    ArrayOf<Double> octCostsjobs
+    ArrayOf<Double> novCostsjobs
+    ArrayOf<Double> decCostsjobs
+    ArrayOf<String> janserviceTypeIds
+    ArrayOf<String> febserviceTypeIds
+    ArrayOf<String> marserviceTypeIds
+    ArrayOf<String> aprserviceTypeIds
+    ArrayOf<String> mayserviceTypeIds
+    ArrayOf<String> junserviceTypeIds
+    ArrayOf<String> julserviceTypeIds
+    ArrayOf<String> augserviceTypeIds
+    ArrayOf<String> sepserviceTypeIds
+    ArrayOf<String> octserviceTypeIds
+    ArrayOf<String> novserviceTypeIds
+    ArrayOf<String> decserviceTypeIds
+    ArrayOf<Double> janCostsservices
+    ArrayOf<Double> febCostsservices
+    ArrayOf<Double> marCostsservices
+    ArrayOf<Double> aprCostsservices
+    ArrayOf<Double> mayCostsservices
+    ArrayOf<Double> junCostsservices
+    ArrayOf<Double> julCostsservices
+    ArrayOf<Double> augCostsservices
+    ArrayOf<Double> sepCostsservices
+    ArrayOf<Double> octCostsservices
+    ArrayOf<Double> novCostsservices
+    ArrayOf<Double> decCostsservices
+    ArrayOf<Double> twelveTotalmonthlyCosts
+    Double yearCostThisBudgetId
+    Double netProfitLossThishyperBudgetId
+    Int32 linkingInternalBudgetNum
+ ArrayOf<CCustomer.customer> customerIds
+ ArrayOf<CProperty.property> propertyIds
+ ArrayOf<CProperty.program> programIds
+ ArrayOf<CProperty.project> projectIds
+ CFinance.masterAssetRegister masterAssetId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} hyperBudget;
+
+typedef struct {
+    String invoiceId
+    String invoiceDate
+    Double invoiceAmount
+    ArrayOf<String> docRefs
+    String paidDate
+    ArrayOf<String> genLedgeFinTxIds
+    ArrayOf<String> masLedgeFinTxIds
+    Int32 genLedgeFinTxNum
+    Int32 masLedgeFinTxNum
+    ArrayOf<String> feesAndChargesIds
+    ArrayOf<String> chargeDates
+ ArrayOf<CCustomer.customer> customers
+ ArrayOf<CProperty.propertyOwner> propertyOwnerIds
+ CProperty.tenant tenancyId
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CFinance.masterSalesOrder> masterSalesOrderIds
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+} invoice;
+
+typedef struct {
+    String billId
+    String billCodeScanned
+    String billDate
+    Double billAmount
+    ArrayOf<String> docRefs
+    String paidDate
+    ArrayOf<String> genLedgeFinTxIds
+    ArrayOf<String> masLedgeFinTxIds
+    Int32 genLedgeFinTxNum
+    Int32 masLedgeFinTxNum
+    Boolean passed
+ CSupplier.supplier supplierId
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CFinance.purchaseOrder> purchOrderIds
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+} bill;
+
+typedef struct  {
+    String feeCharge
+    String feeChargeName
+    String feeChargeCode
+    String feeChargeDescription
+    Double feeChargeRate
+    String feeChargeRateUnits
+ CHelper.billingInterval paymentInterval
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.itemType> itemTypeIds
+} feesAndCharges;
+
+typedef struct {
+  String purchOrderId
+  String mRQIdIfRentalproperty
+  Boolean damageCausedBycustomertenantOthers
+  Boolean ourResponsibility
+  ArrayOf<String> summaryDescriptionOfProblemitemised
+  Double quotedEstimateCost
+  String expectedCompletionDate
+  ArrayOf<Boolean> workCheckedPassed
+  Double totalMaintPurchOrderAmount
+  Int32 masLedgeFinTxNumReturned
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CProperty.property propertyId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ CSupplier.supplier supplierId
+ ArrayOf<CAdministration.itemType> itemTypeIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.serviceType> serviceTypeIds
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CAdministration.jobType> jobTypeIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CFinance.masterLedgerExpense> masterLedgerExpenseIds
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} purchaseOrder;
+
+typedef struct {
+  String masterSalesOrderId
+  ArrayOf<Double> itemQuantities
+  ArrayOf<Double> itemWeights
+  ArrayOf<Double> itemPrices
+  Double itemTotalPrice
+  Double itemTotalWeight
+  ArrayOf<Double> productQuantities
+  ArrayOf<Double> productWeights
+  ArrayOf<Double> productsPrices
+  Double productsTotalPrice
+  Double productsTotalWeight
+  ArrayOf<Double> servicePriceRates
+  Double serviceEstimatedTotalPrice
+  ArrayOf<Double> jobPriceRates
+  Double jobsEstimatedTotalPrice
+  Double totalOrderPrice
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CCustomer.customer> customers
+ ArrayOf<CAdministration.itemType> itemTypeIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.serviceType> serviceTypeIds
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CAdministration.jobType> jobTypeIds
+ ArrayOf<CAdministration.job> jobIds
+ ArrayOf<CFinance.masterLedgerIncome> masterLedgerIncomeId
+ CFinance.masterLedgerFinTxJoin masLedgeFinTxJoinId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} masterSalesOrder;
+
+typedef struct {
+    String taxReferenceId
+ ArrayOf<CHelper.ausState> ausStates
+    String description
+    ArrayOf<String> notes
+    Double taxRatePerCent
+ CHelper.taxCode taxCode
+ ArrayOf<CAdministration.documents> docRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} taxReferenceTable;
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+
+
+}
+
+   Class(CFactory)
+
+       constructor();          // explicitly declare constructor that has no parameter
+
+      interface ICH;
+      
+typedef struct {
+    String materialId
+    Boolean hazardous
+    String materialName
+    String materialDescription
+    Boolean qCCheckedPassed
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.item itemId
+ CSupplier.supplier supplierId
+ CFactory.materialType materialTypeId
+ CFactory.part partId
+ CFactory.minorsubassembly minorsubassemblyId
+ CFactory.subassembly subassemblyId
+ CFactory.majorsubassembly majorsubassemblyId
+ CFactory.lesserassembly lesserassemblyId
+ CFactory.assembly assemblyId
+ CFactory.greaterassembly greaterassemblyId
+ CFactory.product productId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} material;
+
+typedef struct {
+    String materialTypeId
+    String materialDescription
+    ArrayOf<String> materialSafetyDataRefs
+    String materialCode
+    String UnitsOfMeasurement
+    Double remainingAmount
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Double remainingNum
+    Double rawMaterialStockReorderSetPoint
+    String rawMaterialStockReorderCode
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CFactory.partType> partTypeIds
+ ArrayOf<CFactory.minorsubassemblyType> minorsubassemblyTypeIds
+ ArrayOf<CFactory.subassemblyType> subassemblyTypeIds
+ ArrayOf<CFactory.majorsubassemblyType> majorsubassemblyTypeIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.assemblyType> assemblyTypeIds
+ ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
+ ArrayOf<CFactory.productType> productTypeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} materialType;
+
+typedef struct {
+    String partId
+    Boolean hazardous
+    String partName
+    String partDescription
+    Boolean qCCheckedPassed
+ CRegister.businessChannelOwner businessChannelOwnerId
+ ArrayOf<CFactory.material> materialIds
+ CFactory.partType partTypeId
+ CAdministration.item itemId
+ ArrayOf<CSupplier.supplier> supplierIds
+ CFactory.minorsubassembly minorsubassemblyId
+ CFactory.subassembly subassemblyId
+ CFactory.majorsubassembly majorsubassemblyId
+ CFactory.lesserassembly lesserassemblyId
+ CFactory.assembly assemblyId
+ CFactory.greaterassembly greaterassemblyId
+ CFactory.product productId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} part;
+
+typedef struct {
+    String partTypeId
+    String partDescription
+    String partCode
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Int32 remainingNum
+    Int32 partReorderSetPoint
+    String partReorderCode
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CFactory.materialType> materialTypeIds
+ ArrayOf<CFactory.minorsubassemblyType> minorsubassemblyTypeIds
+ ArrayOf<CFactory.subassemblyType> subassemblyTypeIds
+ ArrayOf<CFactory.majorsubassemblyType> majorsubassemblyTypeIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.assemblyType> assemblyTypeIds
+ ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
+ ArrayOf<CFactory.productType> productTypeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} partType;
+
+typedef struct {
+    String minorSubAssyId
+    Boolean hazardous
+    String minorsubassemblyName
+    String minorsubassemblyDescription
+    Boolean qCCheckedPassed
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFactory.minorsubassembly minorsubassemblyTypeId
+ CAdministration.item itemId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CFactory.material> materialIds
+ ArrayOf<CFactory.part> partIds
+ CFactory.subassembly subassemblyId
+ CFactory.majorsubassembly majorsubassemblyId
+ CFactory.lesserassembly lesserassemblyId
+ CFactory.assembly assemblyId
+ CFactory.greaterassembly greaterassemblyId
+ CFactory.product productId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} minorsubassembly;
+
+typedef struct {
+    String minorsubassemblyTypeId
+    String minorsubassemblyDescription
+    String minorsubassemblyCode
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Int32 remainingNum
+    Int32 minorsubassemblyReorderSetPoint
+    String minorsubassemblyReorderCode
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CFactory.materialType> materialTypeIds
+ ArrayOf<CFactory.partType> partTypeIds
+ ArrayOf<CFactory.subassemblyType> subassemblyTypeIds
+ ArrayOf<CFactory.majorsubassemblyType> majorsubassemblyTypeIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.assemblyType> assemblyTypeIds
+ ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
+ ArrayOf<CFactory.productType> productTypeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} minorsubassemblyType;
+
+typedef struct {
+    String subAssyId
+    Boolean hazardous
+    String subassemblyName
+    String subassemblyDescription
+    Boolean qCCheckedPassed
+ ArrayOf<CFactory.material> materialIds
+ ArrayOf<CFactory.part> partIds
+ ArrayOf<CFactory.minorsubassembly> minorsubassemblyIds
+ CFactory.majorsubassembly majorsubassemblyId
+ CFactory.lesserassembly lesserassemblyId
+ CFactory.assembly assemblyId
+ CFactory.greaterassembly greaterassemblyId
+ CFactory.product productId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFactory.subassemblyType subassemblyTypeId
+ CAdministration.item itemId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} subassembly;
+
+typedef struct {
+    String subassemblyTypeId
+    String subassemblyCode
+    String subassemblyDescription
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Int32 remainingNum
+    Int32 subassemblyReorderSetPoint
+    String subassemblyReorderCode
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CFactory.materialType> materialTypeIds
+ ArrayOf<CFactory.partType> partTypeId
+ ArrayOf<CFactory.minorsubassemblyType> minorsubassemblyTypeIds
+ ArrayOf<CFactory.majorsubassemblyType> majorsubassemblyTypeIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.assemblyType> assemblyTypeIds
+ ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
+ ArrayOf<CFactory.productType> productTypeIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} subassemblyType;
+
+typedef struct {
+    String majorSubAssyId
+    Boolean hazardous
+    String majorsubassemblyName
+    String majorsubassemblyDescription
+    Boolean qCCheckedPassed
+    String majorsubassemblyCode
+ ArrayOf<CFactory.material> materialIds
+ ArrayOf<CFactory.part> partIds
+ ArrayOf<CFactory.minorsubassembly> minorsubassemblyIds
+ ArrayOf<CFactory.subassembly> subassemblyIds
+ CFactory.lesserassembly lesserassemblyId
+ CFactory.assembly assemblyId
+ CFactory.greaterassembly greaterassembly
+ CFactory.product productIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFactory.majorsubassemblyType majorsubassemblyTypeId
+ CAdministration.item itemId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} majorsubassembly;
+
+typedef struct {
+    String majorsubassemblyTypeId
+    String majorsubassemblyDescription
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Int32 remainingNum
+    Int32 majorsubassemblyReorderSetPoint
+    String majorsubassemblyReorderCode
+ ArrayOf<CFactory.materialType> materialTypeIds
+ ArrayOf<CFactory.partType> partTypeId
+ ArrayOf<CFactory.minorsubassemblyType> minorsubassemblyTypeIds
+ ArrayOf<CFactory.subassemblyType> subassemblyTypeIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.assemblyType> assemblyTypeIds
+ ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
+ ArrayOf<CFactory.productType> productTypeIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} majorsubassemblyType;
+
+typedef struct {
+    String lesserAssyId
+    Boolean hazardous
+    String lesserassemblyName
+    String lesserassemblyDescription
+    Boolean qCCheckedPassed
+ ArrayOf<CFactory.material> materialIds
+ ArrayOf<CFactory.part> partIds
+ ArrayOf<CFactory.minorsubassembly> minorsubassemblyIds
+ ArrayOf<CFactory.subassembly> subassemblyIds
+ ArrayOf<CFactory.majorsubassembly> majorsubassemblyIds
+ CFactory.assembly assemblyId
+ CFactory.greaterassembly greaterassemblyId
+ CFactory.lesserassemblyType lesserassemblyTypeId
+ CFactory.product productId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.item itemId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} lesserassembly;
+
+typedef struct {
+    String lesserassemblyTypeId
+    String lesseassemblyDescription
+    String lesserassemblyCode
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Int32 remainingNum
+    Int32 lesserassemblyReorderSetPoint
+    String lesserassemblyReorderCode
+ ArrayOf<CFactory.materialType> materialTypeIds
+ ArrayOf<CFactory.partType> partTypeId
+ ArrayOf<CFactory.minorsubassemblyType> minorsubassemblyTypeIds
+ ArrayOf<CFactory.subassemblyType> subassemblyTypeIds
+ ArrayOf<CFactory.majorsubassemblyType> majorsubassemblyTypeIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
+ ArrayOf<CFactory.productType> productTypeIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} lesserassemblyType;
+
+typedef struct {
+    String assyId
+    Boolean hazardous
+    String assemblyName
+    String assemblyDescription
+    Boolean qCCheckedPassed
+ ArrayOf<CFactory.material> materialIds
+ ArrayOf<CFactory.part> partIds
+ ArrayOf<CFactory.minorsubassembly> minorsubassemblyIds
+ ArrayOf<CFactory.subassembly> subassemblyIds
+ ArrayOf<CFactory.majorsubassembly> majorsubassemblyIds
+ ArrayOf<CFactory.lesserassembly> lesserassemblyIds
+ CFactory.assemblyType assemblyTypeId
+ CFactory.greaterassembly greaterassemblyId
+ CFactory.product productId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.item itemId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} assembly;
+
+typedef struct {
+    String assemblyTypeId
+    String assemblyDescription
+    String assemblyCode
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Int32 remainingNum
+    Int32 assemblyReorderSetPoint
+    String assemblyReorderCode
+ ArrayOf<CFactory.materialType> materialTypeIds
+ ArrayOf<CFactory.partType> partTypeId
+ ArrayOf<CFactory.minorsubassemblyType> minorsubassemblyTypeIds
+ ArrayOf<CFactory.subassemblyType> subassemblyTypeIds
+ ArrayOf<CFactory.majorsubassemblyType> majorsubassemblyTypeIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
+ ArrayOf<CFactory.productType> productTypeIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} assemblyType;
+
+typedef struct {
+    String greaterAssyId
+    Boolean hazardous
+    String greaterassemblyName
+    String greaterassemblyDescription
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Boolean qCCheckedPassed
+    String greaterassemblyCode
+    String greaterassemblyReorderCode
+    Int32 greaterassemblyReorderSetPoint
+ ArrayOf<CFactory.material> materialIds
+ ArrayOf<CFactory.part> partIds
+ ArrayOf<CFactory.minorsubassembly> minorsubassemblyIds
+ ArrayOf<CFactory.subassembly> subassemblyIds
+ ArrayOf<CFactory.majorsubassembly> majorsubassemblyIds
+ ArrayOf<CFactory.lesserassembly> lesserassemblyIds
+ ArrayOf<CFactory.assembly> assemblyIds
+ CFactory.greaterassemblyType greaterassemblyTypeId
+ CFactory.product productId
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.item itemId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} greaterassembly;
+
+typedef struct {
+    String greaterassemblyTypeId
+    String greaterassemblyDescription
+    String greaterassemblyCode
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Int32 remainingNum
+    Int32 greaterassemblyReorderSetPoint
+    String greaterassemblyReorderCode
+ ArrayOf<CFactory.materialType> materialTypeIds
+ ArrayOf<CFactory.partType> partTypeId
+ ArrayOf<CFactory.minorsubassemblyType> minorsubassemblyTypeIds
+ ArrayOf<CFactory.subassemblyType> subassemblyTypeIds
+ ArrayOf<CFactory.majorsubassemblyType> majorsubassemblyTypeIds
+ ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
+ ArrayOf<CFactory.assemblyType> assemblyTypeIds
+ ArrayOf<CFactory.productType> productTypeIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CSupplier.supplier> supplierIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} greaterassemblyType;
+
+typedef struct {
+    String productId
+    Boolean hazardous
+    ArrayOf<String> masLedgeFinTxIds
+    ArrayOf<Int32> masLedgeFinTxNums
+    ArrayOf<String> genLedgeFinTxIds
+    ArrayOf<Int32> genLedgeFinTxNums
+    String productName
+    String modelNumber
+    String serialNumber
+    Boolean qCCheckedPassed
+    String BestBeforeDate
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CFactory.productType productTypeId
+ CAdministration.item itemId
+ CCustomer.customer customerId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} product;
+
+typedef struct {
+    String productTypeId
+    String productDescription
+ CHelper.corrosiveness corrosiveness
+ CHelper.toxicity toxicity
+ CHelper.fragility fragility
+ CHelper.physicalStateWhenIdle physicalStateWhenIdle
+    Int32 remainingNum
+    Int32 lesserassemblyReorderSetPoint
+    String lesserassemblyReorderCode
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.itemType itemTypeId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} productType;
+
+typedef struct {
+    String shipmentId
+    String distributorId
+    ArrayOf<String> salesOrderIds
+    ArrayOf<String> purchaseOrderIds
+    ArrayOf<String> receiverDeliveryAddress
+    ArrayOf<String> senderSourceAddress
+    String receivedAtSourceTerminal
+    String trackingNumber
+    String trackingURL
+    String eTA
+    ArrayOf<String> journeyPoints
+    ArrayOf<String> journeyPointNames
+    Double deliveredGPSLat
+    Double deliveredGPSLong
+    String deliveryAddress
+    Boolean addressesMatch
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CSupplier.supplier supplierId
+ CSupplier.supplierType supplierTypeId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> deliveryImageIds
+ ArrayOf<CAdministration.item> itemIds
+ ArrayOf<CAdministration.itemType> itemTypeIds
+ CCustomer.customer customerId
+ CSupplier.distributor nextdistributorId
+ CFactory.shipment continuationshipmentId
+} shipment;
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+
+
+}
+
+   class CStakeholder {
+
+       constructor();              // explicitly declare constructor that has no parameter
+ 
+      interface ICH;
+
+typedef struct {
+    String govStakeholderId
+    String departmentName
+ CHelper.govLevel govLevel
+    String stakeholderName
+    String stakeholderDetails
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String residentialAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.businessDirector> businessDirectorIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} govStakeholder;
+
+typedef struct  {
+    String nonGovStakeholderId
+    String aBN
+    String stakeholderName
+    String stakeholderDetails
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String residentialAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.businessDirector> businessDirectorIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} nonGovStakeholder;
+
+typedef struct {
+    String partnerId
+    String aBN
+    String partnerName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String residentialAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} partner;
+
+typedef struct {
+    String communityId
+    String groupName
+    String firstName
+    String lastName
+    String residentialAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> homePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} community;
+
+typedef struct  {
+    String mediaId
+    String aBN
+    String companyName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String residentialAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} media;
+
+typedef struct {
+    String ticaId
+    String ticaUserName
+    String tICAPassword
+    String tenantFirstName
+    String tenantMiddleInitialOrName
+    String tenantLastName
+    String tenantDateOfBirth
+    String applicantFirstName
+    String applicantMiddleInitialOrName
+    String applicantLastName
+    String applicantDateOfBirth
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CCustomer.applicant applicantId
+ CProperty.tenant tenancyId
+} tICA;
+
+typedef struct {
+    String agentId
+    String aBN
+    String agencyName
+    String agentType
+    String descriptionOfAgency
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String residentialAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CStakeholder.agentType agentTypeId
+ ArrayOf<CAdministration.businessDirector> businessDirectorIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} agent;
+
+typedef struct {
+  String agentTypeId
+  String agentType
+  String agentTypeDescription
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ CAdministration.department deptId
+ ArrayOf<CAdministration.service> serviceIds
+ ArrayOf<CSupplier.supplierType> supplierTypeIds
+ CRegulator.stateBasedRegulator stateBasedRegId
+ CRegulator.nationalRegulator natRegId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ ArrayOf<CAdministration.video> videoRefIds
+} agentType;
+
+typedef struct {
+    String stateLAHAuthorityId
+    String authorityName
+ CHelper.ausState ausState
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CAdministration.branch branchId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CProperty.propertyOwner propertyOwnerId
+} stateLAHAuthority;
+
+typedef struct {
+    String statePublicHousingAuthorityId
+    String authorityName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ CHelper.ausState ausState
+ CAdministration.branch branchId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CProperty.propertyOwner propertyOwnerId
+ CRegister.businessChannelOwner businessChannelOwnerId
+} statePublicHousingAuthority;
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+
+
+}
+
+   class CRegulator {
+       constructor();              // explicitly declare constructor that has no parameter
+
+      interface ICH;
+
+typedef struct  {
+    String auditorFinancialId
+    String name
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} auditorFinancial;
+
+typedef struct {
+    String securityAuditorId
+    String name
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} securityAuditor;
+
+typedef struct {
+    String communityHousingRegulatorId
+    String authorityName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CHelper.ausState> ausStates
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} communityHousingRegulator;
+
+typedef struct {
+    String rentalBondAuthorityId
+    String authorityName
+ CHelper.ausState ausState
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CProperty.property propertyId
+ CProperty.tenant tenancyId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} rentalBondAuthority;
+
+typedef struct {
+    String aTOId
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} aTO;
+
+typedef struct {
+    String aSICId
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} aSIC;
+
+typedef struct {
+    String aCNCId
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} aCNC;
+
+typedef struct {
+    String natRegId
+    String natRegName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} nationalRegulator;
+
+typedef struct {
+    String stateBasedRegId
+    String stateBasedRegName
+ CHelper.ausState ausState
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddresses
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> workPhone
+    ArrayOf<String> contactedWithDetails
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+ CRegister.businessChannelOwner businessChannelOwnerId
+} stateBasedRegulator;
+
+typedef struct {
+    String landTitleRegistryId
+    String authorityName
+ CHelper.ausState ausState
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    String email
+    Int32 mobilePhone
+    Int32 workPhone
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CProperty.property propertyId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} stateLandTitleRegistry;
+
+typedef struct {
+    String tribunalId
+    String authorityName
+ CHelper.ausState ausState
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    String email
+    Int32 mobilePhone
+    Int32 workPhone
+    ArrayOf<String> caseDetailsActsResponsesAllegationsRebuttals
+    ArrayOf<String> dateTimeDetailsInChronologicalOrder
+    ArrayOf<String> adjournedOn
+    ArrayOf<String> adjournedUntil
+    ArrayOf<String> contactedWithDetails
+ CRegister.businessChannelOwner businessChannelOwnerId
+ CProperty.property propertyId
+ CProperty.tenant tenancyId
+ CAdministration.branch branchId
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} nCAT;
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+
+
+}
+
+   Class(CRegister)
+
+       constructor();          // explicitly declare constructor that has no parameter
+
+      interface ICH;
+
+   typedef struct {
+    String sideChainOperatorId
+    String equivalentbusinessChannelOwnerId
+    String bankName
+    String bankBSB
+    String bankAccNum
+    String businessName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddressList
+    ArrayOf<Int32> workPhone
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> homePhone
+    String aTOTFN
+    String aBN
+    String aCN
+    String startTaxYear
+    Int32 nextFinTxNum
+    Int32 nextjobNumPerformed
+    Int32 nextLinkingInternalBudgetNum
+ ArrayOf<CFinance.chartOfAccounts> chartOfAccountsIds
+ ArrayOf<CFinance.chartOfClasses> chartOfClassesIds
+ ArrayOf<CAdministration.businessDirector> businessDirectorIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} sideChainOperator;
+
+typedef struct {
+    String businessChannelOwnerId
+    String linkedToThisSideChainOperatorId
+    String linkedToThissupplierId
+    String linkedToThiscustomerId
+    String bankName
+    String bankBSB
+    String bankAccNum
+    ArrayOf<String> allbranchIds
+    String businessName
+    ArrayOf<String> contactFirstNameList
+    ArrayOf<String> contactLastNameList
+    String streetAddress
+    String postalAddress
+    ArrayOf<String> emailAddressList
+    ArrayOf<Int32> workPhone
+    ArrayOf<Int32> mobilePhone
+    ArrayOf<Int32> homePhone
+    String aTOTFN
+    String aBN
+    String aCN
+    String startTaxYear
+    Int32 nextFinTxNum
+    Int32 nextjobNumPerformed
+    Int32 nextLinkingInternalBudgetNum
+    ArrayOf<String> contactedWithDetails
+    Boolean active
+ ArrayOf<CFinance.chartOfAccounts> chartOfAccountsIds
+ ArrayOf<CFinance.chartOfClasses> chartOfClassesIds
+ ArrayOf<CAdministration.businessDirector> businessDirectorIds
+ ArrayOf<CAdministration.documents> docRefIds
+ ArrayOf<CAdministration.images> imageRefIds
+} businessChannelOwner;
+
+
+
+
+// Elastos defined macros can be used to simplify writing
+
+
+
+}
+
+
+   Class(CHelper)
+
+       constructor();          // explicitly declare constructor that has no parameter
+
+      interface ICH;
+
+typedef enum {
+ACT
+NSW
+NT
+QLD
+SA
+TAS
+VIC
+WA
+} ausState;
+
+typedef enum {
+Sunday
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+} dayOfWeek;
+
+typedef enum {
+Monday
+Tuesday
+ednesday
+Thursday
+Friday
+} weekDay;
+
+typedef enum {
+Jan
+Feb
+Mar
+Apr
+May
+Jun
+Jul
+Aug
+Sept
+Oct
+Nov
+Dec
+} month;
+
+typedef enum {
+Jan
+Mar
+May
+Jul
+Aug
+Oct
+Dec
+} thirtyOneDaymonth;
+
+typedef enum {
+Apr
+Jun
+Sept
+Nov
+} thirtyDaymonth;
+
+typedef enum {
+Feb
+} twentyEightDaymonth;
+
+typedef enum {
+Feb
+} leapmonth;
+
+typedef enum {
+Rare
+Unlikely
+Possible
+Likely
+AlmostCertain
+} riskLikelihoodOfOccurrenceRating;
+
+typedef enum {
+Insignificant
+Minor
+Moderate
+Major
+Extreme
+} riskConsequence;
+
+typedef enum {
+Insignificant1
+Minor2
+Moderate3
+Major4
+Extreme5
+} residualRiskLevel;
+
+typedef enum {
+  Federal
+  ACT
+  NSW
+  NT
+  QLD
+  SA
+  TAS
+  VIC
+  WA
+  Local
+} govLevel;
+
+typedef enum {
+  VesselContainingAPureGas
+  VesselContainingAGasMixture
+  VesselContainingAerosol
+  VesselContainingMixedPhasesSolLiq
+  VesselContainingMixedPhasesSolGas
+  VesselContainingMixedPhasesLiqGas
+  VesselContainingMixedPhasesSolLiqGas
+  VesselContainingAPureLiquidOrSolutionOrColloidOrEmulsion
+  VesselContainingALiquidMixture
+  VesselContainingPerishables
+  VesselContainingSolidPowderFine
+  VesselContainingSolidPowderMedium
+  VesselContainingSolidPowderCoarse
+  SolidAggregateFine
+  SolidAggregateMedium
+  SolidAggregateCoarse
+  StationaryRigidBodyOrBodies
+  MotiveAndStationaryRigidBodyOrBodies
+  StationaryRigidBodiesAndBodiesIncludingFluidVessels
+  MotiveAndStationaryRigidBodiesAndBodiesIncludingFluidVesselsAndChannels
+  MoreComplexBodies
+} physicalStateWhenIdle;
+
+typedef enum {
+WarningFragile
+WarningHighlyFragile
+WarningExtremelyFragile
+} fragility;
+
+typedef enum {
+NonToxic
+DoNotInhaleFumes
+DoNotIngest
+AvoidEyeContact
+LowLevelRadiationHandleWithCare
+ModerateLevelRadioactivityHandleWithExtremeCaution
+ToxicHandleWithCare
+HighlyToxicHandleWithExtremeCaution
+} toxicity;
+
+typedef enum {
+NonCorrosive
+DoNotInhaleFumes
+DoNotIngest
+AvoidEyeContact
+ModeratelyCorrosiveDoNotTouch
+HighlyCorrosiveUseExtremeCaution
+} corrosiveness;
+
+typedef enum {
+  MasterLedgerAsset
+  MasterLedgerLiability
+  MasterLedgerEquity
+  MasterLedgerSuspense
+  MasterLedgerIncome
+  MasterLedgerReturnsIn
+  MasterLedgerExpense
+  MasterLedgerReturnsOut
+  MasterLedgerOtherIncome
+  MasterLedgerOtherExpense
+} ledgerTitle;
+
+typedef enum {
+Cash
+Cheque
+MoneyOrder
+EFTPOS
+DebitCard
+CreditCard
+DirectDebit
+Centrepay
+ForeignCheque
+InternationalMoneyTransfer
+}  paymentMethod;
+
+typedef enum {
+  FBT
+  GST
+  PAYG
+  PayRollTax
+  StampDuty
+} taxCode;
+
+typedef enum {
+Contact
+Lead 
+Buyer
+Seller
+Lessor
+applicant
+Lessee
+Resident
+Agent
+Other
+} relationship;
+
+typedef enum {
+Sale
+Lease
+SaleorLease
+NeitherSaleNorLease
+} propertyTradingBasis;
+
+typedef enum {
+Signage
+Print
+Electronic
+Radio
+Events
+Television
+Cinema
+} advertisingMedium;
+
+typedef enum {
+Closetransportschoolsshops
+Views
+Secluded
+Quiet
+Leafy
+SecurityBuilding
+GatedEstate
+CloseBeach
+CloseBush
+CloseSnow
+CloseVineyards
+CloseRiversLakes
+InnerCityLiving
+SuburbanCharm
+RenovatorsDream
+CountryLiving
+MountainLiving
+CoastalLife
+CommercialSpace
+LandZonedIndustrial
+IndustrialLandAndBuilding
+AgriculturalProperty
+} amenities;
+
+typedef enum {
+Apartment
+StrataTitleApartment
+DetachedFlat
+IncorporatedFlat
+SemiDetachedHouse
+House
+Duplex
+Villa
+Hospice
+BoardingHouse
+Dormitory
+Factory
+Warehouse
+Shops
+Offices
+ShopswithOffices
+ShopswithFlatsOffices
+Farm
+VacantLand
+Docks
+} propertyType;
+
+typedef enum {
+Hourly
+Halfdaily
+Daily
+Weekly
+Fortnightly
+Fourweekly
+Calendarmonthly
+Quarterly
+Sixmonthly
+Yearly
+} billingInterval;
+
+typedef enum {
+PassedInspection
+FailedInspection
+NotInspected
+} inspectionStatus;
+
+typedef enum {
+Hourly
+Daily
+Holiday
+Student
+Temporary
+Residential
+Commercial
+Industrial
+Agricultural
+} leaseType;
+
+typedef enum {
+Unitary
+Capital
+HeadLease
+Joint
+Common
+} leaseArrangement;
+
+typedef enum {
+Hourly
+HalfDaily
+Daily
+Weekly
+Fortnightly
+Fourweekly
+Calendarmonthly
+Quarterly
+Sixmonthly
+Yearly
+Ongoing
+} leasingTerm;
+
+typedef enum {
+NHourly
+PerNKilometres
+Hourly
+HalfDaily
+Daily
+Weekly
+Fortnightly
+Fourweekly
+Calendarmonthly
+Quarterly
+Sixmonthly
+Yearly
+Ongoing
+} inspectionTerm;
+
+}
+
+
+
+
+} // ChubbaMorris
+    } // Elastos
+
+}
+
+
