@@ -469,10 +469,10 @@ public:
   /* [out] */ CHelper.propertyType* CProperty.property.propertyType);
 
 
-   CARAPI SetProperty.LeaCARAPI Setype(
+   CARAPI SetProperty_LeaCARAPI
   /* [in] */ CHelper.leaCARAPI Setype CProperty.property.leaCARAPI Setype);
 
-    CARAPI GetProperty.LeaCARAPI Setype(
+    CARAPI GetProperty_LeaCARAPI
   /* [out] */ CHelper.leaCARAPI Setype* CProperty.property.leaCARAPI Setype);
 
 
@@ -2139,8 +2139,8 @@ const String& mSetProperty_StreetName
 String* mGetProperty_StreetName
 const String& mSetProperty_SuburbTown
 String* mGetProperty_SuburbTown
-Int32 mSetProperty.Postcode
-Int32* mGetProperty.Postcode
+Int32 mSetProperty_Postcode
+Int32* mGetProperty_Postcode
 CHelper.ausState mSetProperty_State
 CHelper.ausState* mGetProperty_State
 const String& mSetProperty_EnvelopeGreetings
@@ -2151,8 +2151,8 @@ const String& mSetProperty_StartDateLatestLease
 String* mGetProperty_StartDateLatestLease
 const String& mSetProperty_EndDateLatestLease
 String* mGetProperty_EndDateLatestLease
-Boolean mSetProperty.Occupied
-Boolean* mGetProperty.Occupied
+Boolean mSetProperty_Occupied
+Boolean* mGetProperty_Occupied
 const String& mSetProperty_LocalGovArea
 String* mGetProperty_LocalGovArea
 const String& mSetProperty_Zoning
@@ -2169,24 +2169,24 @@ const String& mSetProperty_Parish
 String* mGetProperty_Parish
 const String& mSetProperty_Description
 String* mGetProperty_Description
-Double mSetProperty.Lon
+Double mSetProperty_Lon
 Double* mGetProperty_Lon
-Double mSetProperty.Lat
+Double mSetProperty_Lat
 Double* mGetProperty_Lat
-Double mSetProperty.Elevation
+Double mSetProperty_Elevation
 Double* mGetProperty_Elevation
-Boolean mSetProperty.Liens
-Boolean* mGetProperty.Liens
-Int32 mSetProperty.NumBedrooms
-Int32* mGetProperty.NumBedrooms
-Int32 mSetProperty.NumEnsuites
-Int32* mGetProperty.NumEnsuites
-Int32 mSetProperty.NumBathrooms
-Int32* mGetProperty.NumBathrooms
-Int32 mSetProperty.NumStoreys
-Int32* mGetProperty.NumStoreys
-Boolean mSetProperty.Furnished
-Boolean* mGetProperty.Furnished
+Boolean mSetProperty_Liens
+Boolean* mGetProperty_Liens
+Int32 mSetProperty_NumBedrooms
+Int32* mGetProperty_NumBedrooms
+Int32 mSetProperty_NumEnsuites
+Int32* mGetProperty_NumEnsuites
+Int32 mSetProperty_NumBathrooms
+Int32* mGetProperty_NumBathrooms
+Int32 mSetProperty_NumStoreys
+Int32* mGetProperty_NumStoreys
+Boolean mSetProperty_Furnished
+Boolean* mGetProperty_Furnished
 const String& mSetProperty_ConstructionTypeName
 String* mGetProperty_ConstructionTypeName
 const String& mSetProperty_FolioCertCopyDocRef
@@ -2221,25 +2221,25 @@ ArrayOf<const String&> mSetProperty_ProblemsWithPropertyDocRefs
 ArrayOf<String>* mGetProperty_ProblemsWithPropertyDocRefs
 ArrayOf<Double> mSetProperty_PropertyOwnerSharePercents
 ArrayOf<Double>* mGetProperty_PropertyOwnerSharePercents
-Double mSetProperty.CapitalValue
+Double mSetProperty_CapitalValue
 Double* mGetProperty_CapitalValue
-Double mSetProperty.FloorPrice
+Double mSetProperty_FloorPrice
 Double* mGetProperty_FloorPrice
-Double mSetProperty.LatestBuyOfferPrice
+Double mSetProperty_LatestBuyOfferPrice
 Double* mGetProperty_LatestBuyOfferPrice
 const String& mSetProperty_LatestBuyOfferDateTime
 String* mGetProperty_LatestBuyOfferDateTime
-Boolean mSetProperty.LatestBuyOfferPriceAccepted
-Boolean* mGetProperty.LatestBuyOfferPriceAccepted
+Boolean mSetProperty_LatestBuyOfferPriceAccepted
+Boolean* mGetProperty_LatestBuyOfferPriceAccepted
 ArrayOf<const String&> mSetProperty_LatestBuyOfferNotes
 ArrayOf<String>* mGetProperty_LatestBuyOfferNotes
-Double mSetProperty.RentalValue
+Double mSetProperty_RentalValue
 Double* mGetProperty_RentalValue
-Double mSetProperty.LandTotalSquareMetres
+Double mSetProperty_LandTotalSquareMetres
 Double* mGetProperty_LandTotalSquareMetres
-Double mSetProperty.LandTotalHectares
+Double mSetProperty_LandTotalHectares
 Double* mGetProperty_LandTotalHectares
-Double mSetProperty.BuildingTotalSquareMetres
+Double mSetProperty_BuildingTotalSquareMetres
 Double* mGetProperty_BuildingTotalSquareMetres
 ArrayOf<const String&> mSetProperty_Amenities
 ArrayOf<String>* mGetProperty_Amenities
@@ -2309,18 +2309,18 @@ const String& mSetPropertyOwner_PostalAddress
 String* mGetPropertyOwner_PostalAddress
 const String& mSetPropertyOwner_Email
 String* mGetPropertyOwner_Email
-Int32 mSetPropertyOwner.HomePhone
-Int32* mGetPropertyOwner.HomePhone
-Int32 mSetPropertyOwner.MobilePhone
-Int32* mGetPropertyOwner.MobilePhone
-Int32 mSetPropertyOwner.WorkPhone
-Int32* mGetPropertyOwner.WorkPhone
+Int32 mSetPropertyOwner_HomePhone
+Int32* mGetPropertyOwner_HomePhone
+Int32 mSetPropertyOwner_MobilePhone
+Int32* mGetPropertyOwner_MobilePhone
+Int32 mSetPropertyOwner_WorkPhone
+Int32* mGetPropertyOwner_WorkPhone
 const String& mSetPropertyOwner_BankName
 String* mGetPropertyOwner_BankName
-Int32 mSetPropertyOwner.BankBSB
-Int32* mGetPropertyOwner.BankBSB
-Int32 mSetPropertyOwner.BankAccountNumber
-Int32* mGetPropertyOwner.BankAccountNumber
+Int32 mSetPropertyOwner_BankBSB
+Int32* mGetPropertyOwner_BankBSB
+Int32 mSetPropertyOwner_BankAccountNumber
+Int32* mGetPropertyOwner_BankAccountNumber
 ArrayOf<const String&> mSetPropertyOwner_ContactedWithDetails
 ArrayOf<String>* mGetPropertyOwner_ContactedWithDetails
 ArrayOf<Double> mSetPropertyOwner_SharesPercents
@@ -2377,7 +2377,7 @@ const String& mSetAdvertisingBudgetSchedule_PreviousSchedId
 String* mGetAdvertisingBudgetSchedule_PreviousSchedId
 CHelper.month mSetAdvertisingBudgetSchedule_month
 CHelper.month* mGetAdvertisingBudgetSchedule_month
-Double mSetAdvertisingBudgetSchedule.BudgetedAmount
+Double mSetAdvertisingBudgetSchedule_BudgetedAmount
 Double* mGetAdvertisingBudgetSchedule_BudgetedAmount
 ArrayOf<const String&> mSetAdvertisingBudgetSchedule_RunDateTimes
 ArrayOf<String>* mGetAdvertisingBudgetSchedule_RunDateTimes
@@ -2431,12 +2431,12 @@ const String& mSetTenant_PostalAddress
 String* mGetTenant_PostalAddress
 const String& mSetTenant_Email
 String* mGetTenant_Email
-Int32 mSetTenant.HomePhone
-Int32* mGetTenant.HomePhone
-Int32 mSetTenant.MobilePhone
-Int32* mGetTenant.MobilePhone
-Int32 mSetTenant.WorkPhone
-Int32* mGetTenant.WorkPhone
+Int32 mSetTenant_HomePhone
+Int32* mGetTenant_HomePhone
+Int32 mSetTenant_MobilePhone
+Int32* mGetTenant_MobilePhone
+Int32 mSetTenant_WorkPhone
+Int32* mGetTenant_WorkPhone
 ArrayOf<const String&> mSetTenant_ContactedWithDetails
 ArrayOf<String>* mGetTenant_ContactedWithDetails
 CProperty.allocation mSetTenant_AllocationId
@@ -2461,7 +2461,7 @@ CRegister.businessChannelOwner mSetTenant_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetTenant_BusinessChannelOwnerId
 const String& mSetPropertyOwnerPropertyJoin_PropOwnerPropJoinId
 String* mGetPropertyOwnerPropertyJoin_PropOwnerPropJoinId
-Double mSetPropertyOwnerPropertyJoin.OwnershipPercentage
+Double mSetPropertyOwnerPropertyJoin_OwnershipPercentage
 Double* mGetPropertyOwnerPropertyJoin_OwnershipPercentage
 CProperty.property mSetPropertyOwnerPropertyJoin_PropertyId
 CProperty.property* mGetPropertyOwnerPropertyJoin_PropertyId
@@ -2691,8 +2691,8 @@ ArrayOf<const String&> mSetTenancyCaseManagement_OurResponsesInChronologicalOrde
 ArrayOf<String>* mGetTenancyCaseManagement_OurResponsesInChronologicalOrder
 ArrayOf<const String&> mSetTenancyCaseManagement_DatesTimesOfResponses
 ArrayOf<String>* mGetTenancyCaseManagement_DatesTimesOfResponses
-Boolean mSetTenancyCaseManagement.Resolved
-Boolean* mGetTenancyCaseManagement.Resolved
+Boolean mSetTenancyCaseManagement_Resolved
+Boolean* mGetTenancyCaseManagement_Resolved
 CRegister.businessChannelOwner mSetTenancyCaseManagement_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetTenancyCaseManagement_BusinessChannelOwnerId
 CProperty.property mSetTenancyCaseManagement_PropertyId
