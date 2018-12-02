@@ -50,2029 +50,2029 @@ public:
     //
   
 
-   CARAPI SetCustomer.CustomerId(
+   CARAPI SetCustomer_CustomerId(
      /* [in] */ const String& CCustomer.customer.customerId);
 
-    CARAPI GetCustomer.CustomerId(
+    CARAPI GetCustomer_CustomerId(
      /* [out] */ String* CCustomer.customer.customerId);
 
 
-   CARAPI SetCustomer.LinkedToThisBusinessChannelOwnerId(
+   CARAPI SetCustomer_LinkedToThisBusinessChannelOwnerId(
      /* [in] */ const String& CCustomer.customer.linkedToThisBusinessChannelOwnerId);
 
-    CARAPI GetCustomer.LinkedToThisBusinessChannelOwnerId(
+    CARAPI GetCustomer_LinkedToThisBusinessChannelOwnerId(
      /* [out] */ String* CCustomer.customer.linkedToThisBusinessChannelOwnerId);
 
 
-   CARAPI SetCustomer.Relationship(
+   CARAPI SetCustomer_Relationship(
      /* [in] */ CHelper.relationship CCustomer.customer.relationship);
 
-    CARAPI GetCustomer.Relationship(
+    CARAPI GetCustomer_Relationship(
      /* [out] */ CHelper.relationship* CCustomer.customer.relationship);
 
 
-   CARAPI SetCustomer.CustomerTypesIds(
+   CARAPI SetCustomer_CustomerTypesIds(
      /* [in] */ ArrayOf<const String&> CCustomer.customer.customerTypesIds);
 
-    CARAPI GetCustomer.CustomerTypesIds(
+    CARAPI GetCustomer_CustomerTypesIds(
      /* [out, callee] */ ArrayOf<String>* CCustomer.customer.customerTypesIds);
 
 
-   CARAPI SetCustomer.OurBranchId(
+   CARAPI SetCustomer_OurBranchId(
      /* [in] */ const String& CCustomer.customer.ourBranchId);
 
-    CARAPI GetCustomer.OurBranchId(
+    CARAPI GetCustomer_OurBranchId(
      /* [out] */ String* CCustomer.customer.ourBranchId);
 
 
-   CARAPI SetCustomer.FirstName(
+   CARAPI SetCustomer_FirstName(
      /* [in] */ const String& CCustomer.customer.firstName);
 
-    CARAPI GetCustomer.FirstName(
+    CARAPI GetCustomer_FirstName(
      /* [out] */ String* CCustomer.customer.firstName);
 
 
-   CARAPI SetCustomer.LastName(
+   CARAPI SetCustomer_LastName(
      /* [in] */ const String& CCustomer.customer.lastName);
 
-    CARAPI GetCustomer.LastName(
+    CARAPI GetCustomer_LastName(
      /* [out] */ String* CCustomer.customer.lastName);
 
 
-   CARAPI SetCustomer.ResidentialAddress(
+   CARAPI SetCustomer_ResidentialAddress(
      /* [in] */ ArrayOf<const String&> CCustomer.customer.residentialAddress);
 
-    CARAPI GetCustomer.ResidentialAddress(
+    CARAPI GetCustomer_ResidentialAddress(
      /* [out, callee] */ ArrayOf<String>* CCustomer.customer.residentialAddress);
 
 
-   CARAPI SetCustomer.PostalAddress(
+   CARAPI SetCustomer_PostalAddress(
      /* [in] */ ArrayOf<const String&> CCustomer.customer.postalAddress);
 
-    CARAPI GetCustomer.PostalAddress(
+    CARAPI GetCustomer_PostalAddress(
      /* [out, callee] */ ArrayOf<String>* CCustomer.customer.postalAddress);
 
 
-   CARAPI SetCustomer.DeliveryAddress(
+   CARAPI SetCustomer_DeliveryAddress(
      /* [in] */ ArrayOf<const String&> CCustomer.customer.deliveryAddress);
 
-    CARAPI GetCustomer.DeliveryAddress(
+    CARAPI GetCustomer_DeliveryAddress(
      /* [out, callee] */ ArrayOf<String>* CCustomer.customer.deliveryAddress);
 
 
-   CARAPI SetCustomer.BillingAddress(
+   CARAPI SetCustomer_BillingAddress(
      /* [in] */ ArrayOf<const String&> CCustomer.customer.billingAddress);
 
-    CARAPI GetCustomer.BillingAddress(
+    CARAPI GetCustomer_BillingAddress(
      /* [out, callee] */ ArrayOf<String>* CCustomer.customer.billingAddress);
 
 
-   CARAPI SetCustomer.Email(
+   CARAPI SetCustomer_Email(
      /* [in] */ const String& CCustomer.customer.email);
 
-    CARAPI GetCustomer.Email(
+    CARAPI GetCustomer_Email(
      /* [out] */ String* CCustomer.customer.email);
 
 
-   CARAPI SetCustomer.HomePhone(
+   CARAPI SetCustomer_HomePhone(
      /* [in] */ Int32 CCustomer.customer.homePhone);
 
-    CARAPI GetCustomer.HomePhone(
+    CARAPI GetCustomer_HomePhone(
      /* [out] */ Int32* CCustomer.customer.homePhone);
 
 
-   CARAPI SetCustomer.MobilePhone(
+   CARAPI SetCustomer_MobilePhone(
      /* [in] */ Int32 CCustomer.customer.mobilePhone);
 
-    CARAPI GetCustomer.MobilePhone(
+    CARAPI GetCustomer_MobilePhone(
      /* [out] */ Int32* CCustomer.customer.mobilePhone);
 
 
-   CARAPI SetCustomer.WorkPhone(
+   CARAPI SetCustomer_WorkPhone(
      /* [in] */ Int32 CCustomer.customer.workPhone);
 
-    CARAPI GetCustomer.WorkPhone(
+    CARAPI GetCustomer_WorkPhone(
      /* [out] */ Int32* CCustomer.customer.workPhone);
 
 
-   CARAPI SetCustomer.AmenitiesRequired(
+   CARAPI SetCustomer_AmenitiesRequired(
      /* [in] */ ArrayOf<const String&> CCustomer.customer.amenitiesRequired);
 
-    CARAPI GetCustomer.AmenitiesRequired(
+    CARAPI GetCustomer_AmenitiesRequired(
      /* [out, callee] */ ArrayOf<String>* CCustomer.customer.amenitiesRequired);
 
 
-   CARAPI SetCustomer.StreetsDesired(
+   CARAPI SetCustomer_StreetsDesired(
      /* [in] */ ArrayOf<const String&> CCustomer.customer.streetsDesired);
 
-    CARAPI GetCustomer.StreetsDesired(
+    CARAPI GetCustomer_StreetsDesired(
      /* [out, callee] */ ArrayOf<String>* CCustomer.customer.streetsDesired);
 
 
-   CARAPI SetCustomer.PostcodesDesired(
+   CARAPI SetCustomer_PostcodesDesired(
      /* [in] */ ArrayOf<Int32> CCustomer.customer.postcodesDesired);
 
-    CARAPI GetCustomer.PostcodesDesired(
+    CARAPI GetCustomer_PostcodesDesired(
      /* [out, callee] */ ArrayOf<Int32>* CCustomer.customer.postcodesDesired);
 
 
-   CARAPI SetCustomer.BedroomsRequired(
+   CARAPI SetCustomer_BedroomsRequired(
      /* [in] */ Int32 CCustomer.customer.bedroomsRequired);
 
-    CARAPI GetCustomer.BedroomsRequired(
+    CARAPI GetCustomer_BedroomsRequired(
      /* [out] */ Int32* CCustomer.customer.bedroomsRequired);
 
 
-   CARAPI SetCustomer.MaxPriceOffering(
+   CARAPI SetCustomer_MaxPriceOffering(
      /* [in] */ Double CCustomer.customer.maxPriceOffering);
 
-    CARAPI GetCustomer.MaxPriceOffering(
+    CARAPI GetCustomer_MaxPriceOffering(
      /* [out] */ Double* CCustomer.customer.maxPriceOffering);
 
 
-   CARAPI SetCustomer.MinPriceOffering(
+   CARAPI SetCustomer_MinPriceOffering(
      /* [in] */ Double CCustomer.customer.minPriceOffering);
 
-    CARAPI GetCustomer.MinPriceOffering(
+    CARAPI GetCustomer_MinPriceOffering(
      /* [out] */ Double* CCustomer.customer.minPriceOffering);
 
 
-   CARAPI SetCustomer.MaxPriceAsking(
+   CARAPI SetCustomer_MaxPriceAsking(
      /* [in] */ ArrayOf<Double> CCustomer.customer.maxPriceAsking);
 
-    CARAPI GetCustomer.MaxPriceAsking(
+    CARAPI GetCustomer_MaxPriceAsking(
      /* [out, callee] */ ArrayOf<Double>* CCustomer.customer.maxPriceAsking);
 
 
-   CARAPI SetCustomer.MinPriceAsking(
+   CARAPI SetCustomer_MinPriceAsking(
      /* [in] */ ArrayOf<Double> CCustomer.customer.minPriceAsking);
 
-    CARAPI GetCustomer.MinPriceAsking(
+    CARAPI GetCustomer_MinPriceAsking(
      /* [out, callee] */ ArrayOf<Double>* CCustomer.customer.minPriceAsking);
 
 
-   CARAPI SetCustomer.CentrelinkCRN(
+   CARAPI SetCustomer_CentrelinkCRN(
      /* [in] */ const String& CCustomer.customer.centrelinkCRN);
 
-    CARAPI GetCustomer.CentrelinkCRN(
+    CARAPI GetCustomer_CentrelinkCRN(
      /* [out] */ String* CCustomer.customer.centrelinkCRN);
 
 
-   CARAPI SetCustomer.ATOTFN(
+   CARAPI SetCustomer_ATOTFN(
      /* [in] */ Int32 CCustomer.customer.aTOTFN);
 
-    CARAPI GetCustomer.ATOTFN(
+    CARAPI GetCustomer_ATOTFN(
      /* [out] */ Int32* CCustomer.customer.aTOTFN);
 
 
-   CARAPI SetCustomer.ABN(
+   CARAPI SetCustomer_ABN(
      /* [in] */ const String& CCustomer.customer.aBN);
 
-    CARAPI GetCustomer.ABN(
+    CARAPI GetCustomer_ABN(
      /* [out] */ String* CCustomer.customer.aBN);
 
 
-   CARAPI SetCustomer.ContactedWithDetails(
+   CARAPI SetCustomer_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CCustomer.customer.contactedWithDetails);
 
-    CARAPI GetCustomer.ContactedWithDetails(
+    CARAPI GetCustomer_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CCustomer.customer.contactedWithDetails);
 
 
-   CARAPI SetCustomer.BusinessChannelOwnerId(
+   CARAPI SetCustomer_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.customer.businessChannelOwnerId);
 
-    CARAPI GetCustomer.BusinessChannelOwnerId(
+    CARAPI GetCustomer_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.customer.businessChannelOwnerId);
 
 
-   CARAPI SetCustomer.PropertyOwnerIds(
+   CARAPI SetCustomer_PropertyOwnerIds(
      /* [in] */ ArrayOf<CProperty.propertyOwner> CCustomer.customer.propertyOwnerIds);
 
-    CARAPI GetCustomer.PropertyOwnerIds(
+    CARAPI GetCustomer_PropertyOwnerIds(
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CCustomer.customer.propertyOwnerIds);
 
 
-   CARAPI SetCustomer.CustPropJoinIds(
+   CARAPI SetCustomer_CustPropJoinIds(
      /* [in] */ ArrayOf<CProperty.customerpropertyJoin> CCustomer.customer.custPropJoinIds);
 
-    CARAPI GetCustomer.CustPropJoinIds(
+    CARAPI GetCustomer_CustPropJoinIds(
      /* [out, callee] */ ArrayOf<CProperty.customerpropertyJoin>* CCustomer.customer.custPropJoinIds);
 
 
-   CARAPI SetCustomer.DocRefIds(
+   CARAPI SetCustomer_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.customer.docRefIds);
 
-    CARAPI GetCustomer.DocRefIds(
+    CARAPI GetCustomer_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.customer.docRefIds);
 
 
-   CARAPI SetCustomer.ImageRefIds(
+   CARAPI SetCustomer_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.customer.imageRefIds);
 
-    CARAPI GetCustomer.ImageRefIds(
+    CARAPI GetCustomer_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.customer.imageRefIds);
 
 
-   CARAPI SetCustomer.TenancyId(
+   CARAPI SetCustomer_TenancyId(
      /* [in] */ CProperty.tenant CCustomer.customer.tenancyId);
 
-    CARAPI GetCustomer.TenancyId(
+    CARAPI GetCustomer_TenancyId(
      /* [out] */ CProperty.tenant* CCustomer.customer.tenancyId);
 
 
-   CARAPI SetCustomer.ApplicantId(
+   CARAPI SetCustomer_ApplicantId(
      /* [in] */ CCustomer.applicant CCustomer.customer.applicantId);
 
-    CARAPI GetCustomer.ApplicantId(
+    CARAPI GetCustomer_ApplicantId(
      /* [out] */ CCustomer.applicant* CCustomer.customer.applicantId);
 
 
-   CARAPI SetCustomerType.CustomerTypeId(
+   CARAPI SetCustomerType_CustomerTypeId(
      /* [in] */ const String& CCustomer.customerType.customerTypeId);
 
-    CARAPI GetCustomerType.CustomerTypeId(
+    CARAPI GetCustomerType_CustomerTypeId(
      /* [out] */ String* CCustomer.customerType.customerTypeId);
 
 
-   CARAPI SetCustomerType.Description(
+   CARAPI SetCustomerType_Description(
      /* [in] */ const String& CCustomer.customerType.description);
 
-    CARAPI GetCustomerType.Description(
+    CARAPI GetCustomerType_Description(
      /* [out] */ String* CCustomer.customerType.description);
 
 
-   CARAPI SetCustomerType.CustTypeName(
+   CARAPI SetCustomerType_CustTypeName(
      /* [in] */ const String& CCustomer.customerType.custTypeName);
 
-    CARAPI GetCustomerType.CustTypeName(
+    CARAPI GetCustomerType_CustTypeName(
      /* [out] */ String* CCustomer.customerType.custTypeName);
 
 
-   CARAPI SetCustomerType.BusinessChannelOwnerId(
+   CARAPI SetCustomerType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.customerType.businessChannelOwnerId);
 
-    CARAPI GetCustomerType.BusinessChannelOwnerId(
+    CARAPI GetCustomerType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.customerType.businessChannelOwnerId);
 
 
-   CARAPI SetCustomerType.DocRefs(
+   CARAPI SetCustomerType_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.customerType.docRefs);
 
-    CARAPI GetCustomerType.DocRefs(
+    CARAPI GetCustomerType_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.customerType.docRefs);
 
 
-   CARAPI SetCustomerType.ImageRefs(
+   CARAPI SetCustomerType_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.customerType.imageRefs);
 
-    CARAPI GetCustomerType.ImageRefs(
+    CARAPI GetCustomerType_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.customerType.imageRefs);
 
 
-   CARAPI SetCustomerType.AudioRefIds(
+   CARAPI SetCustomerType_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CCustomer.customerType.audioRefIds);
 
-    CARAPI GetCustomerType.AudioRefIds(
+    CARAPI GetCustomerType_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CCustomer.customerType.audioRefIds);
 
 
-   CARAPI SetCustomerType.VideoRefs(
+   CARAPI SetCustomerType_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CCustomer.customerType.videoRefs);
 
-    CARAPI GetCustomerType.VideoRefs(
+    CARAPI GetCustomerType_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CCustomer.customerType.videoRefs);
 
 
-   CARAPI SetCustomerCustomerJoin.CustCustomerJoinId(
+   CARAPI SetCustomerCustomerJoin_CustCustomerJoinId(
      /* [in] */ const String& CCustomer.customerCustomerJoin.custCustomerJoinId);
 
-    CARAPI GetCustomerCustomerJoin.CustCustomerJoinId(
+    CARAPI GetCustomerCustomerJoin_CustCustomerJoinId(
      /* [out] */ String* CCustomer.customerCustomerJoin.custCustomerJoinId);
 
 
-   CARAPI SetCustomerCustomerJoin.CustomerIds(
+   CARAPI SetCustomerCustomerJoin_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CCustomer.customerCustomerJoin.customerIds);
 
-    CARAPI GetCustomerCustomerJoin.CustomerIds(
+    CARAPI GetCustomerCustomerJoin_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CCustomer.customerCustomerJoin.customerIds);
 
 
-   CARAPI SetCustomerCustomerJoin.PercentageShares(
+   CARAPI SetCustomerCustomerJoin_PercentageShares(
      /* [in] */ ArrayOf<Double> CCustomer.customerCustomerJoin.percentageShares);
 
-    CARAPI GetCustomerCustomerJoin.PercentageShares(
+    CARAPI GetCustomerCustomerJoin_PercentageShares(
      /* [out, callee] */ ArrayOf<Double>* CCustomer.customerCustomerJoin.percentageShares);
 
 
-   CARAPI SetCustomerCustomerJoin.PropertyId(
+   CARAPI SetCustomerCustomerJoin_PropertyId(
      /* [in] */ ArrayOf<CProperty.property> CCustomer.customerCustomerJoin.propertyIds);
 
-    CARAPI GetCustomerCustomerJoin.PropertyId(
+    CARAPI GetCustomerCustomerJoin_PropertyId(
      /* [out, callee] */ ArrayOf<CProperty.property>* CCustomer.customerCustomerJoin.propertyIds);
 
 
-   CARAPI SetCustomerCustomerJoin.ProjectId(
+   CARAPI SetCustomerCustomerJoin_ProjectId(
      /* [in] */ ArrayOf<CProperty.project> CCustomer.customerCustomerJoin.projectIds);
 
-    CARAPI GetCustomerCustomerJoin.ProjectId(
+    CARAPI GetCustomerCustomerJoin_ProjectId(
      /* [out, callee] */ ArrayOf<CProperty.project>* CCustomer.customerCustomerJoin.projectIds);
 
 
-   CARAPI SetCustomerCustomerJoin.ProgramId(
+   CARAPI SetCustomerCustomerJoin_ProgramId(
      /* [in] */ ArrayOf<CProperty.program> CCustomer.customerCustomerJoin.programIds);
 
-    CARAPI GetCustomerCustomerJoin.ProgramId(
+    CARAPI GetCustomerCustomerJoin_ProgramId(
      /* [out, callee] */ ArrayOf<CProperty.program>* CCustomer.customerCustomerJoin.programIds);
 
 
-   CARAPI SetCustomerCustomerJoin.BusinessChannelOwnerId(
+   CARAPI SetCustomerCustomerJoin_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.customerCustomerJoin.businessChannelOwnerId);
 
-    CARAPI GetCustomerCustomerJoin.BusinessChannelOwnerId(
+    CARAPI GetCustomerCustomerJoin_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.customerCustomerJoin.businessChannelOwnerId);
 
 
-   CARAPI SetApplicant.ApplicantId(
+   CARAPI SetApplicant_ApplicantId(
      /* [in] */ const String& CCustomer.applicant.applicantId);
 
-    CARAPI GetApplicant.ApplicantId(
+    CARAPI GetApplicant_ApplicantId(
      /* [out] */ String* CCustomer.applicant.applicantId);
 
 
-   CARAPI SetApplicant.PostcodesAppliedFor(
+   CARAPI SetApplicant_PostcodesAppliedFor(
      /* [in] */ ArrayOf<Int32> CCustomer.applicant.postcodesAppliedFor);
 
-    CARAPI GetApplicant.PostcodesAppliedFor(
+    CARAPI GetApplicant_PostcodesAppliedFor(
      /* [out, callee] */ ArrayOf<Int32>* CCustomer.applicant.postcodesAppliedFor);
 
 
-   CARAPI SetApplicant.BedroomsSought(
+   CARAPI SetApplicant_BedroomsSought(
      /* [in] */ Int32 CCustomer.applicant.bedroomsSought);
 
-    CARAPI GetApplicant.BedroomsSought(
+    CARAPI GetApplicant_BedroomsSought(
      /* [out] */ Int32* CCustomer.applicant.bedroomsSought);
 
 
-   CARAPI SetApplicant.AmenitiesRequested(
+   CARAPI SetApplicant_AmenitiesRequested(
      /* [in] */ ArrayOf<const String&> CCustomer.applicant.amenitiesRequested);
 
-    CARAPI GetApplicant.AmenitiesRequested(
+    CARAPI GetApplicant_AmenitiesRequested(
      /* [out, callee] */ ArrayOf<String>* CCustomer.applicant.amenitiesRequested);
 
 
-   CARAPI SetApplicant.FirstName(
+   CARAPI SetApplicant_FirstName(
      /* [in] */ const String& CCustomer.applicant.firstName);
 
-    CARAPI GetApplicant.FirstName(
+    CARAPI GetApplicant_FirstName(
      /* [out] */ String* CCustomer.applicant.firstName);
 
 
-   CARAPI SetApplicant.LastName(
+   CARAPI SetApplicant_LastName(
      /* [in] */ const String& CCustomer.applicant.lastName);
 
-    CARAPI GetApplicant.LastName(
+    CARAPI GetApplicant_LastName(
      /* [out] */ String* CCustomer.applicant.lastName);
 
 
-   CARAPI SetApplicant.ResidentialAddress(
+   CARAPI SetApplicant_ResidentialAddress(
      /* [in] */ const String& CCustomer.applicant.residentialAddress);
 
-    CARAPI GetApplicant.ResidentialAddress(
+    CARAPI GetApplicant_ResidentialAddress(
      /* [out] */ String* CCustomer.applicant.residentialAddress);
 
 
-   CARAPI SetApplicant.PostalAddress(
+   CARAPI SetApplicant_PostalAddress(
      /* [in] */ const String& CCustomer.applicant.postalAddress);
 
-    CARAPI GetApplicant.PostalAddress(
+    CARAPI GetApplicant_PostalAddress(
      /* [out] */ String* CCustomer.applicant.postalAddress);
 
 
-   CARAPI SetApplicant.Email(
+   CARAPI SetApplicant_Email(
      /* [in] */ const String& CCustomer.applicant.email);
 
-    CARAPI GetApplicant.Email(
+    CARAPI GetApplicant_Email(
      /* [out] */ String* CCustomer.applicant.email);
 
 
-   CARAPI SetApplicant.HomePhone(
+   CARAPI SetApplicant_HomePhone(
      /* [in] */ Int32 CCustomer.applicant.homePhone);
 
-    CARAPI GetApplicant.HomePhone(
+    CARAPI GetApplicant_HomePhone(
      /* [out] */ Int32* CCustomer.applicant.homePhone);
 
 
-   CARAPI SetApplicant.MobilePhone(
+   CARAPI SetApplicant_MobilePhone(
      /* [in] */ Int32 CCustomer.applicant.mobilePhone);
 
-    CARAPI GetApplicant.MobilePhone(
+    CARAPI GetApplicant_MobilePhone(
      /* [out] */ Int32* CCustomer.applicant.mobilePhone);
 
 
-   CARAPI SetApplicant.WorkPhone(
+   CARAPI SetApplicant_WorkPhone(
      /* [in] */ Int32 CCustomer.applicant.workPhone);
 
-    CARAPI GetApplicant.WorkPhone(
+    CARAPI GetApplicant_WorkPhone(
      /* [out] */ Int32* CCustomer.applicant.workPhone);
 
 
-   CARAPI SetApplicant.ContactedWithDetails(
+   CARAPI SetApplicant_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CCustomer.applicant.contactedWithDetails);
 
-    CARAPI GetApplicant.ContactedWithDetails(
+    CARAPI GetApplicant_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CCustomer.applicant.contactedWithDetails);
 
 
-   CARAPI SetApplicant.ApplicationId(
+   CARAPI SetApplicant_ApplicationId(
      /* [in] */ CCustomer.application CCustomer.applicant.ApplicationId);
 
-    CARAPI GetApplicant.ApplicationId(
+    CARAPI GetApplicant_ApplicationId(
      /* [out] */ CCustomer.application* CCustomer.applicant.ApplicationId);
 
 
-   CARAPI SetApplicant.BranchId(
+   CARAPI SetApplicant_BranchId(
      /* [in] */ CAdministration.branch CCustomer.applicant.branchId);
 
-    CARAPI GetApplicant.BranchId(
+    CARAPI GetApplicant_BranchId(
      /* [out] */ CAdministration.branch* CCustomer.applicant.branchId);
 
 
-   CARAPI SetApplicant.CustomerId(
+   CARAPI SetApplicant_CustomerId(
      /* [in] */ CCustomer.customer CCustomer.applicant.customerId);
 
-    CARAPI GetApplicant.CustomerId(
+    CARAPI GetApplicant_CustomerId(
      /* [out] */ CCustomer.customer* CCustomer.applicant.customerId);
 
 
-   CARAPI SetApplicant.PropertyIds(
+   CARAPI SetApplicant_PropertyIds(
      /* [in] */ ArrayOf<CProperty.property> CCustomer.applicant.propertyIds);
 
-    CARAPI GetApplicant.PropertyIds(
+    CARAPI GetApplicant_PropertyIds(
      /* [out, callee] */ ArrayOf<CProperty.property>* CCustomer.applicant.propertyIds);
 
 
-   CARAPI SetApplicant.TenancyId(
+   CARAPI SetApplicant_TenancyId(
      /* [in] */ CProperty.tenant CCustomer.applicant.tenancyId);
 
-    CARAPI GetApplicant.TenancyId(
+    CARAPI GetApplicant_TenancyId(
      /* [out] */ CProperty.tenant* CCustomer.applicant.tenancyId);
 
 
-   CARAPI SetApplicant.DocRefIds(
+   CARAPI SetApplicant_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.applicant.docRefIds);
 
-    CARAPI GetApplicant.DocRefIds(
+    CARAPI GetApplicant_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.applicant.docRefIds);
 
 
-   CARAPI SetApplicant.ImageRefIds(
+   CARAPI SetApplicant_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.applicant.imageRefIds);
 
-    CARAPI GetApplicant.ImageRefIds(
+    CARAPI GetApplicant_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.applicant.imageRefIds);
 
 
-   CARAPI SetApplicant.BusinessChannelOwnerId(
+   CARAPI SetApplicant_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.applicant.businessChannelOwnerId);
 
-    CARAPI GetApplicant.BusinessChannelOwnerId(
+    CARAPI GetApplicant_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.applicant.businessChannelOwnerId);
 
 
-   CARAPI SetApplication.ApplicationId(
+   CARAPI SetApplication_ApplicationId(
      /* [in] */ const String& CCustomer.application.applicationId);
 
-    CARAPI GetApplication.ApplicationId(
+    CARAPI GetApplication_ApplicationId(
      /* [out] */ String* CCustomer.application.applicationId);
 
 
-   CARAPI SetApplication.SocialHousingApplication(
+   CARAPI SetApplication_SocialHousingApplication(
      /* [in] */ Boolean CCustomer.application.socialHousingApplication);
 
-    CARAPI GetApplication.SocialHousingApplication(
+    CARAPI GetApplication_SocialHousingApplication(
      /* [out] */ Boolean* CCustomer.application.socialHousingApplication);
 
 
-   CARAPI SetApplication.NDIS(
+   CARAPI SetApplication_NDIS(
      /* [in] */ Boolean CCustomer.application.nDIS);
 
-    CARAPI GetApplication.NDIS(
+    CARAPI GetApplication_NDIS(
      /* [out] */ Boolean* CCustomer.application.nDIS);
 
 
-   CARAPI SetApplication.AffordableHousingApplication(
+   CARAPI SetApplication_AffordableHousingApplication(
      /* [in] */ Boolean CCustomer.application.affordableHousingApplication);
 
-    CARAPI GetApplication.AffordableHousingApplication(
+    CARAPI GetApplication_AffordableHousingApplication(
      /* [out] */ Boolean* CCustomer.application.affordableHousingApplication);
 
 
-   CARAPI SetApplication.SharedEquityHousingApplication(
+   CARAPI SetApplication_SharedEquityHousingApplication(
      /* [in] */ Boolean CCustomer.application.sharedEquityHousingApplication);
 
-    CARAPI GetApplication.SharedEquityHousingApplication(
+    CARAPI GetApplication_SharedEquityHousingApplication(
      /* [out] */ Boolean* CCustomer.application.sharedEquityHousingApplication);
 
 
-   CARAPI SetApplication.RentToBuyApplication(
+   CARAPI SetApplication_RentToBuyApplication(
      /* [in] */ Boolean CCustomer.application.rentToBuyApplication);
 
-    CARAPI GetApplication.RentToBuyApplication(
+    CARAPI GetApplication_RentToBuyApplication(
      /* [out] */ Boolean* CCustomer.application.rentToBuyApplication);
 
 
-   CARAPI SetApplication.MarketRateHousingApplication(
+   CARAPI SetApplication_MarketRateHousingApplication(
      /* [in] */ Boolean CCustomer.application.marketRateHousingApplication);
 
-    CARAPI GetApplication.MarketRateHousingApplication(
+    CARAPI GetApplication_MarketRateHousingApplication(
      /* [out] */ Boolean* CCustomer.application.marketRateHousingApplication);
 
 
-   CARAPI SetApplication.HeadApplicantFirstName(
+   CARAPI SetApplication_HeadApplicantFirstName(
      /* [in] */ const String& CCustomer.application.headApplicantFirstName);
 
-    CARAPI GetApplication.HeadApplicantFirstName(
+    CARAPI GetApplication_HeadApplicantFirstName(
      /* [out] */ String* CCustomer.application.headApplicantFirstName);
 
 
-   CARAPI SetApplication.HeadApplicantLastName(
+   CARAPI SetApplication_HeadApplicantLastName(
      /* [in] */ const String& CCustomer.application.headApplicantLastName);
 
-    CARAPI GetApplication.HeadApplicantLastName(
+    CARAPI GetApplication_HeadApplicantLastName(
      /* [out] */ String* CCustomer.application.headApplicantLastName);
 
 
-   CARAPI SetApplication.HeadApplicantAddressLine1(
+   CARAPI SetApplication_HeadApplicantAddressLine1(
      /* [in] */ const String& CCustomer.application.headApplicantAddressLine1);
 
-    CARAPI GetApplication.HeadApplicantAddressLine1(
+    CARAPI GetApplication_HeadApplicantAddressLine1(
      /* [out] */ String* CCustomer.application.headApplicantAddressLine1);
 
 
-   CARAPI SetApplication.HeadApplicantAddressLine2(
+   CARAPI SetApplication_HeadApplicantAddressLine2(
      /* [in] */ const String& CCustomer.application.headApplicantAddressLine2);
 
-    CARAPI GetApplication.HeadApplicantAddressLine2(
+    CARAPI GetApplication_HeadApplicantAddressLine2(
      /* [out] */ String* CCustomer.application.headApplicantAddressLine2);
 
 
-   CARAPI SetApplication.HeadApplicantSuburb(
+   CARAPI SetApplication_HeadApplicantSuburb(
      /* [in] */ const String& CCustomer.application.headApplicantSuburb);
 
-    CARAPI GetApplication.HeadApplicantSuburb(
+    CARAPI GetApplication_HeadApplicantSuburb(
      /* [out] */ String* CCustomer.application.headApplicantSuburb);
 
 
-   CARAPI SetApplication.HeadApplicantPostcode(
+   CARAPI SetApplication_HeadApplicantPostcode(
      /* [in] */ const String& CCustomer.application.headApplicantPostcode);
 
-    CARAPI GetApplication.HeadApplicantPostcode(
+    CARAPI GetApplication_HeadApplicantPostcode(
      /* [out] */ String* CCustomer.application.headApplicantPostcode);
 
 
-   CARAPI SetApplication.HeadApplicantHomePhone(
+   CARAPI SetApplication_HeadApplicantHomePhone(
      /* [in] */ const String& CCustomer.application.headApplicantHomePhone);
 
-    CARAPI GetApplication.HeadApplicantHomePhone(
+    CARAPI GetApplication_HeadApplicantHomePhone(
      /* [out] */ String* CCustomer.application.headApplicantHomePhone);
 
 
-   CARAPI SetApplication.HeadApplicantWorkPhone(
+   CARAPI SetApplication_HeadApplicantWorkPhone(
      /* [in] */ const String& CCustomer.application.headApplicantWorkPhone);
 
-    CARAPI GetApplication.HeadApplicantWorkPhone(
+    CARAPI GetApplication_HeadApplicantWorkPhone(
      /* [out] */ String* CCustomer.application.headApplicantWorkPhone);
 
 
-   CARAPI SetApplication.HeadApplicantMobilePhone(
+   CARAPI SetApplication_HeadApplicantMobilePhone(
      /* [in] */ const String& CCustomer.application.headApplicantMobilePhone);
 
-    CARAPI GetApplication.HeadApplicantMobilePhone(
+    CARAPI GetApplication_HeadApplicantMobilePhone(
      /* [out] */ String* CCustomer.application.headApplicantMobilePhone);
 
 
-   CARAPI SetApplication.HeadApplicantEmail(
+   CARAPI SetApplication_HeadApplicantEmail(
      /* [in] */ const String& CCustomer.application.headApplicantEmail);
 
-    CARAPI GetApplication.HeadApplicantEmail(
+    CARAPI GetApplication_HeadApplicantEmail(
      /* [out] */ String* CCustomer.application.headApplicantEmail);
 
 
-   CARAPI SetApplication.HeadApplicantDOB(
+   CARAPI SetApplication_HeadApplicantDOB(
      /* [in] */ const String& CCustomer.application.headApplicantDOB);
 
-    CARAPI GetApplication.HeadApplicantDOB(
+    CARAPI GetApplication_HeadApplicantDOB(
      /* [out] */ String* CCustomer.application.headApplicantDOB);
 
 
-   CARAPI SetApplication.StreetsSought(
+   CARAPI SetApplication_StreetsSought(
      /* [in] */ ArrayOf<const String&> CCustomer.application.streetsSought);
 
-    CARAPI GetApplication.StreetsSought(
+    CARAPI GetApplication_StreetsSought(
      /* [out, callee] */ ArrayOf<String>* CCustomer.application.streetsSought);
 
 
-   CARAPI SetApplication.PostcodesSought(
+   CARAPI SetApplication_PostcodesSought(
      /* [in] */ ArrayOf<Int32> CCustomer.application.postcodesSought);
 
-    CARAPI GetApplication.PostcodesSought(
+    CARAPI GetApplication_PostcodesSought(
      /* [out, callee] */ ArrayOf<Int32>* CCustomer.application.postcodesSought);
 
 
-   CARAPI SetApplication.BedroomRangeRequired(
+   CARAPI SetApplication_BedroomRangeRequired(
      /* [in] */ ArrayOf<Int32> CCustomer.application.bedroomRangeRequired);
 
-    CARAPI GetApplication.BedroomRangeRequired(
+    CARAPI GetApplication_BedroomRangeRequired(
      /* [out, callee] */ ArrayOf<Int32>* CCustomer.application.bedroomRangeRequired);
 
 
-   CARAPI SetApplication.AmenitiesRequested(
+   CARAPI SetApplication_AmenitiesRequested(
      /* [in] */ ArrayOf<const String&> CCustomer.application.amenitiesRequested);
 
-    CARAPI GetApplication.AmenitiesRequested(
+    CARAPI GetApplication_AmenitiesRequested(
      /* [out, callee] */ ArrayOf<String>* CCustomer.application.amenitiesRequested);
 
 
-   CARAPI SetApplication.RangeForRent(
+   CARAPI SetApplication_RangeForRent(
      /* [in] */ ArrayOf<Double> CCustomer.application.rangeForRent);
 
-    CARAPI GetApplication.RangeForRent(
+    CARAPI GetApplication_RangeForRent(
      /* [out, callee] */ ArrayOf<Double>* CCustomer.application.rangeForRent);
 
 
-   CARAPI SetApplication.Interval(
+   CARAPI SetApplication_Interval(
      /* [in] */ CHelper.billingInterval CCustomer.application.interval);
 
-    CARAPI GetApplication.Interval(
+    CARAPI GetApplication_Interval(
      /* [out] */ CHelper.billingInterval* CCustomer.application.interval);
 
 
-   CARAPI SetApplication.SecondaryApplicantFirstNames(
+   CARAPI SetApplication_SecondaryApplicantFirstNames(
      /* [in] */ ArrayOf<const String&> CCustomer.application.secondaryApplicantFirstNames);
 
-    CARAPI GetApplication.SecondaryApplicantFirstNames(
+    CARAPI GetApplication_SecondaryApplicantFirstNames(
      /* [out, callee] */ ArrayOf<String>* CCustomer.application.secondaryApplicantFirstNames);
 
 
-   CARAPI SetApplication.SecondaryApplicantLastNames(
+   CARAPI SetApplication_SecondaryApplicantLastNames(
      /* [in] */ ArrayOf<const String&> CCustomer.application.secondaryApplicantLastNames);
 
-    CARAPI GetApplication.SecondaryApplicantLastNames(
+    CARAPI GetApplication_SecondaryApplicantLastNames(
      /* [out, callee] */ ArrayOf<String>* CCustomer.application.secondaryApplicantLastNames);
 
 
-   CARAPI SetApplication.PartnerIds(
+   CARAPI SetApplication_PartnerIds(
      /* [in] */ ArrayOf<const String&> CCustomer.application.partnerIds);
 
-    CARAPI GetApplication.PartnerIds(
+    CARAPI GetApplication_PartnerIds(
      /* [out, callee] */ ArrayOf<String>* CCustomer.application.partnerIds);
 
 
-   CARAPI SetApplication.ApplicantIds(
+   CARAPI SetApplication_ApplicantIds(
      /* [in] */ ArrayOf<CCustomer.applicant> CCustomer.application.applicantIds);
 
-    CARAPI GetApplication.ApplicantIds(
+    CARAPI GetApplication_ApplicantIds(
      /* [out, callee] */ ArrayOf<CCustomer.applicant>* CCustomer.application.applicantIds);
 
 
-   CARAPI SetApplication.CustomerIds(
+   CARAPI SetApplication_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CCustomer.application.customerIds);
 
-    CARAPI GetApplication.CustomerIds(
+    CARAPI GetApplication_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CCustomer.application.customerIds);
 
 
-   CARAPI SetApplication.PropertyIds(
+   CARAPI SetApplication_PropertyIds(
      /* [in] */ ArrayOf<CProperty.property> CCustomer.application.propertyIds);
 
-    CARAPI GetApplication.PropertyIds(
+    CARAPI GetApplication_PropertyIds(
      /* [out, callee] */ ArrayOf<CProperty.property>* CCustomer.application.propertyIds);
 
 
-   CARAPI SetApplication.BusinessChannelOwnerId(
+   CARAPI SetApplication_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.application.businessChannelOwnerId);
 
-    CARAPI GetApplication.BusinessChannelOwnerId(
+    CARAPI GetApplication_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.application.businessChannelOwnerId);
 
 
-   CARAPI SetApplication.BranchId(
+   CARAPI SetApplication_BranchId(
      /* [in] */ CAdministration.branch CCustomer.application.branchId);
 
-    CARAPI GetApplication.BranchId(
+    CARAPI GetApplication_BranchId(
      /* [out] */ CAdministration.branch* CCustomer.application.branchId);
 
 
-   CARAPI SetApplication.DeptId(
+   CARAPI SetApplication_DeptId(
      /* [in] */ CAdministration.department CCustomer.application.deptId);
 
-    CARAPI GetApplication.DeptId(
+    CARAPI GetApplication_DeptId(
      /* [out] */ CAdministration.department* CCustomer.application.deptId);
 
 
-   CARAPI SetApplication.DocRefs(
+   CARAPI SetApplication_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.application.docRefs);
 
-    CARAPI GetApplication.DocRefs(
+    CARAPI GetApplication_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.application.docRefs);
 
 
-   CARAPI SetApplication.ImageRefs(
+   CARAPI SetApplication_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.application.imageRefs);
 
-    CARAPI GetApplication.ImageRefs(
+    CARAPI GetApplication_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.application.imageRefs);
 
 
-   CARAPI SetApplication.AudioRefIds(
+   CARAPI SetApplication_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CCustomer.application.audioRefIds);
 
-    CARAPI GetApplication.AudioRefIds(
+    CARAPI GetApplication_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CCustomer.application.audioRefIds);
 
 
-   CARAPI SetStudentAccommodationBookings.BookingId(
+   CARAPI SetStudentAccommodationBookings_BookingId(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.bookingId);
 
-    CARAPI GetStudentAccommodationBookings.BookingId(
+    CARAPI GetStudentAccommodationBookings_BookingId(
      /* [out] */ String* CCustomer.studentAccommodationBookings.bookingId);
 
 
-   CARAPI SetStudentAccommodationBookings.PropertyAddressString(
+   CARAPI SetStudentAccommodationBookings_PropertyAddressString(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.propertyAddressString);
 
-    CARAPI GetStudentAccommodationBookings.PropertyAddressString(
+    CARAPI GetStudentAccommodationBookings_PropertyAddressString(
      /* [out] */ String* CCustomer.studentAccommodationBookings.propertyAddressString);
 
 
-   CARAPI SetStudentAccommodationBookings.UnitNumber(
+   CARAPI SetStudentAccommodationBookings_UnitNumber(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.unitNumber);
 
-    CARAPI GetStudentAccommodationBookings.UnitNumber(
+    CARAPI GetStudentAccommodationBookings_UnitNumber(
      /* [out] */ String* CCustomer.studentAccommodationBookings.unitNumber);
 
 
-   CARAPI SetStudentAccommodationBookings.PreInspected(
+   CARAPI SetStudentAccommodationBookings_PreInspected(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.preInspected);
 
-    CARAPI GetStudentAccommodationBookings.PreInspected(
+    CARAPI GetStudentAccommodationBookings_PreInspected(
      /* [out] */ String* CCustomer.studentAccommodationBookings.preInspected);
 
 
-   CARAPI SetStudentAccommodationBookings.DateLeaseStarts(
+   CARAPI SetStudentAccommodationBookings_DateLeaseStarts(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.dateLeaseStarts);
 
-    CARAPI GetStudentAccommodationBookings.DateLeaseStarts(
+    CARAPI GetStudentAccommodationBookings_DateLeaseStarts(
      /* [out] */ String* CCustomer.studentAccommodationBookings.dateLeaseStarts);
 
 
-   CARAPI SetStudentAccommodationBookings.MidTermInspections(
+   CARAPI SetStudentAccommodationBookings_MidTermInspections(
      /* [in] */ ArrayOf<const String&> CCustomer.studentAccommodationBookings.midTermInspections);
 
-    CARAPI GetStudentAccommodationBookings.MidTermInspections(
+    CARAPI GetStudentAccommodationBookings_MidTermInspections(
      /* [out, callee] */ ArrayOf<String>* CCustomer.studentAccommodationBookings.midTermInspections);
 
 
-   CARAPI SetStudentAccommodationBookings.DateLeaseEnds(
+   CARAPI SetStudentAccommodationBookings_DateLeaseEnds(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.dateLeaseEnds);
 
-    CARAPI GetStudentAccommodationBookings.DateLeaseEnds(
+    CARAPI GetStudentAccommodationBookings_DateLeaseEnds(
      /* [out] */ String* CCustomer.studentAccommodationBookings.dateLeaseEnds);
 
 
-   CARAPI SetStudentAccommodationBookings.PostInspected(
+   CARAPI SetStudentAccommodationBookings_PostInspected(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.postInspected);
 
-    CARAPI GetStudentAccommodationBookings.PostInspected(
+    CARAPI GetStudentAccommodationBookings_PostInspected(
      /* [out] */ String* CCustomer.studentAccommodationBookings.postInspected);
 
 
-   CARAPI SetStudentAccommodationBookings.PaymentInterval(
+   CARAPI SetStudentAccommodationBookings_PaymentInterval(
      /* [in] */ CHelper.billingInterval CCustomer.studentAccommodationBookings.billingInterval);
 
-    CARAPI GetStudentAccommodationBookings.PaymentInterval(
+    CARAPI GetStudentAccommodationBookings_PaymentInterval(
      /* [out] */ CHelper.billingInterval* CCustomer.studentAccommodationBookings.billingInterval);
 
 
-   CARAPI SetStudentAccommodationBookings.RentalAmountAgreed(
+   CARAPI SetStudentAccommodationBookings_RentalAmountAgreed(
      /* [in] */ Double CCustomer.studentAccommodationBookings.rentalAmountAgreed);
 
-    CARAPI GetStudentAccommodationBookings.RentalAmountAgreed(
+    CARAPI GetStudentAccommodationBookings_RentalAmountAgreed(
      /* [out] */ Double* CCustomer.studentAccommodationBookings.rentalAmountAgreed);
 
 
-   CARAPI SetStudentAccommodationBookings.BusinessChannelOwnerId(
+   CARAPI SetStudentAccommodationBookings_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.studentAccommodationBookings.businessChannelOwnerId);
 
-    CARAPI GetStudentAccommodationBookings.BusinessChannelOwnerId(
+    CARAPI GetStudentAccommodationBookings_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.studentAccommodationBookings.businessChannelOwnerId);
 
 
-   CARAPI SetStudentAccommodationBookings.BranchId(
+   CARAPI SetStudentAccommodationBookings_BranchId(
      /* [in] */ CAdministration.branch CCustomer.studentAccommodationBookings.branchId);
 
-    CARAPI GetStudentAccommodationBookings.BranchId(
+    CARAPI GetStudentAccommodationBookings_BranchId(
      /* [out] */ CAdministration.branch* CCustomer.studentAccommodationBookings.branchId);
 
 
-   CARAPI SetStudentAccommodationBookings.DeptId(
+   CARAPI SetStudentAccommodationBookings_DeptId(
      /* [in] */ CAdministration.department CCustomer.studentAccommodationBookings.deptId);
 
-    CARAPI GetStudentAccommodationBookings.DeptId(
+    CARAPI GetStudentAccommodationBookings_DeptId(
      /* [out] */ CAdministration.department* CCustomer.studentAccommodationBookings.deptId);
 
 
-   CARAPI SetStudentAccommodationBookings.PropertyId(
+   CARAPI SetStudentAccommodationBookings_PropertyId(
      /* [in] */ CProperty.property CCustomer.studentAccommodationBookings.propertyId);
 
-    CARAPI GetStudentAccommodationBookings.PropertyId(
+    CARAPI GetStudentAccommodationBookings_PropertyId(
      /* [out] */ CProperty.property* CCustomer.studentAccommodationBookings.propertyId);
 
 
-   CARAPI SetStudentAccommodationBookings.ApplicationId(
+   CARAPI SetStudentAccommodationBookings_ApplicationId(
      /* [in] */ CCustomer.application CCustomer.studentAccommodationBookings.applicationId);
 
-    CARAPI GetStudentAccommodationBookings.ApplicationId(
+    CARAPI GetStudentAccommodationBookings_ApplicationId(
      /* [out] */ CCustomer.application* CCustomer.studentAccommodationBookings.applicationId);
 
 
-   CARAPI SetStudentAccommodationBookings.ApplicantId(
+   CARAPI SetStudentAccommodationBookings_ApplicantId(
      /* [in] */ CCustomer.applicant CCustomer.studentAccommodationBookings.applicantId);
 
-    CARAPI GetStudentAccommodationBookings.ApplicantId(
+    CARAPI GetStudentAccommodationBookings_ApplicantId(
      /* [out] */ CCustomer.applicant* CCustomer.studentAccommodationBookings.applicantId);
 
 
-   CARAPI SetStudentAccommodationBookings.AllocationId(
+   CARAPI SetStudentAccommodationBookings_AllocationId(
      /* [in] */ CProperty.allocation CCustomer.studentAccommodationBookings.allocationId);
 
-    CARAPI GetStudentAccommodationBookings.AllocationId(
+    CARAPI GetStudentAccommodationBookings_AllocationId(
      /* [out] */ CProperty.allocation* CCustomer.studentAccommodationBookings.allocationId);
 
 
-   CARAPI SetStudentAccommodationBookings.TenancyId(
+   CARAPI SetStudentAccommodationBookings_TenancyId(
      /* [in] */ CProperty.tenant CCustomer.studentAccommodationBookings.tenancyId);
 
-    CARAPI GetStudentAccommodationBookings.TenancyId(
+    CARAPI GetStudentAccommodationBookings_TenancyId(
      /* [out] */ CProperty.tenant* CCustomer.studentAccommodationBookings.tenancyId);
 
 
-   CARAPI SetStudentAccommodationBookings.DocRefIds(
+   CARAPI SetStudentAccommodationBookings_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.studentAccommodationBookings.docRefIds);
 
-    CARAPI GetStudentAccommodationBookings.DocRefIds(
+    CARAPI GetStudentAccommodationBookings_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.studentAccommodationBookings.docRefIds);
 
 
-   CARAPI SetStudentAccommodationBookings.ImageRefIds(
+   CARAPI SetStudentAccommodationBookings_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.studentAccommodationBookings.imageRefIds);
 
-    CARAPI GetStudentAccommodationBookings.ImageRefIds(
+    CARAPI GetStudentAccommodationBookings_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.studentAccommodationBookings.imageRefIds);
 
 
-   CARAPI SetStudentAccommodationBookings.BookingId(
+   CARAPI SetStudentAccommodationBookings_BookingId(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.bookingId);
 
-    CARAPI GetStudentAccommodationBookings.BookingId(
+    CARAPI GetStudentAccommodationBookings_BookingId(
      /* [out] */ String* CCustomer.studentAccommodationBookings.bookingId);
 
 
-   CARAPI SetStudentAccommodationBookings.PropertyAddressString(
+   CARAPI SetStudentAccommodationBookings_PropertyAddressString(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.propertyAddressString);
 
-    CARAPI GetStudentAccommodationBookings.PropertyAddressString(
+    CARAPI GetStudentAccommodationBookings_PropertyAddressString(
      /* [out] */ String* CCustomer.studentAccommodationBookings.propertyAddressString);
 
 
-   CARAPI SetStudentAccommodationBookings.UnitNumber(
+   CARAPI SetStudentAccommodationBookings_UnitNumber(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.unitNumber);
 
-    CARAPI GetStudentAccommodationBookings.UnitNumber(
+    CARAPI GetStudentAccommodationBookings_UnitNumber(
      /* [out] */ String* CCustomer.studentAccommodationBookings.unitNumber);
 
 
-   CARAPI SetStudentAccommodationBookings.PreInspected(
+   CARAPI SetStudentAccommodationBookings_PreInspected(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.preInspected);
 
-    CARAPI GetStudentAccommodationBookings.PreInspected(
+    CARAPI GetStudentAccommodationBookings_PreInspected(
      /* [out] */ String* CCustomer.studentAccommodationBookings.preInspected);
 
 
-   CARAPI SetStudentAccommodationBookings.DateLeaseStarts(
+   CARAPI SetStudentAccommodationBookings_DateLeaseStarts(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.dateLeaseStarts);
 
-    CARAPI GetStudentAccommodationBookings.DateLeaseStarts(
+    CARAPI GetStudentAccommodationBookings_DateLeaseStarts(
      /* [out] */ String* CCustomer.studentAccommodationBookings.dateLeaseStarts);
 
 
-   CARAPI SetStudentAccommodationBookings.MidTermInspections(
+   CARAPI SetStudentAccommodationBookings_MidTermInspections(
      /* [in] */ ArrayOf<const String&> CCustomer.studentAccommodationBookings.midTermInspections);
 
-    CARAPI GetStudentAccommodationBookings.MidTermInspections(
+    CARAPI GetStudentAccommodationBookings_MidTermInspections(
      /* [out, callee] */ ArrayOf<String>* CCustomer.studentAccommodationBookings.midTermInspections);
 
 
-   CARAPI SetStudentAccommodationBookings.DateLeaseEnds(
+   CARAPI SetStudentAccommodationBookings_DateLeaseEnds(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.dateLeaseEnds);
 
-    CARAPI GetStudentAccommodationBookings.DateLeaseEnds(
+    CARAPI GetStudentAccommodationBookings_DateLeaseEnds(
      /* [out] */ String* CCustomer.studentAccommodationBookings.dateLeaseEnds);
 
 
-   CARAPI SetStudentAccommodationBookings.PostInspected(
+   CARAPI SetStudentAccommodationBookings_PostInspected(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.postInspected);
 
-    CARAPI GetStudentAccommodationBookings.PostInspected(
+    CARAPI GetStudentAccommodationBookings_PostInspected(
      /* [out] */ String* CCustomer.studentAccommodationBookings.postInspected);
 
 
-   CARAPI SetStudentAccommodationBookings.PaymentInterval(
+   CARAPI SetStudentAccommodationBookings_PaymentInterval(
      /* [in] */ CHelper.billingInterval CCustomer.studentAccommodationBookings.billingInterval);
 
-    CARAPI GetStudentAccommodationBookings.PaymentInterval(
+    CARAPI GetStudentAccommodationBookings_PaymentInterval(
      /* [out] */ CHelper.billingInterval* CCustomer.studentAccommodationBookings.billingInterval);
 
 
-   CARAPI SetStudentAccommodationBookings.RentalAmountAgreed(
+   CARAPI SetStudentAccommodationBookings_RentalAmountAgreed(
      /* [in] */ Double CCustomer.studentAccommodationBookings.rentalAmountAgreed);
 
-    CARAPI GetStudentAccommodationBookings.RentalAmountAgreed(
+    CARAPI GetStudentAccommodationBookings_RentalAmountAgreed(
      /* [out] */ Double* CCustomer.studentAccommodationBookings.rentalAmountAgreed);
 
 
-   CARAPI SetStudentAccommodationBookings.BusinessChannelOwnerId(
+   CARAPI SetStudentAccommodationBookings_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.studentAccommodationBookings.businessChannelOwnerId);
 
-    CARAPI GetStudentAccommodationBookings.BusinessChannelOwnerId(
+    CARAPI GetStudentAccommodationBookings_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.studentAccommodationBookings.businessChannelOwnerId);
 
 
-   CARAPI SetStudentAccommodationBookings.BranchId(
+   CARAPI SetStudentAccommodationBookings_BranchId(
      /* [in] */ CAdministration.branch CCustomer.studentAccommodationBookings.branchId);
 
-    CARAPI GetStudentAccommodationBookings.BranchId(
+    CARAPI GetStudentAccommodationBookings_BranchId(
      /* [out] */ CAdministration.branch* CCustomer.studentAccommodationBookings.branchId);
 
 
-   CARAPI SetStudentAccommodationBookings.DeptId(
+   CARAPI SetStudentAccommodationBookings_DeptId(
      /* [in] */ CAdministration.department CCustomer.studentAccommodationBookings.deptId);
 
-    CARAPI GetStudentAccommodationBookings.DeptId(
+    CARAPI GetStudentAccommodationBookings_DeptId(
      /* [out] */ CAdministration.department* CCustomer.studentAccommodationBookings.deptId);
 
 
-   CARAPI SetStudentAccommodationBookings.PropertyId(
+   CARAPI SetStudentAccommodationBookings_PropertyId(
      /* [in] */ CProperty.property CCustomer.studentAccommodationBookings.propertyId);
 
-    CARAPI GetStudentAccommodationBookings.PropertyId(
+    CARAPI GetStudentAccommodationBookings_PropertyId(
      /* [out] */ CProperty.property* CCustomer.studentAccommodationBookings.propertyId);
 
 
-   CARAPI SetStudentAccommodationBookings.ApplicationId(
+   CARAPI SetStudentAccommodationBookings_ApplicationId(
      /* [in] */ CCustomer.application CCustomer.studentAccommodationBookings.applicationId);
 
-    CARAPI GetStudentAccommodationBookings.ApplicationId(
+    CARAPI GetStudentAccommodationBookings_ApplicationId(
      /* [out] */ CCustomer.application* CCustomer.studentAccommodationBookings.applicationId);
 
 
-   CARAPI SetStudentAccommodationBookings.ApplicantId(
+   CARAPI SetStudentAccommodationBookings_ApplicantId(
      /* [in] */ CCustomer.applicant CCustomer.studentAccommodationBookings.applicantId);
 
-    CARAPI GetStudentAccommodationBookings.ApplicantId(
+    CARAPI GetStudentAccommodationBookings_ApplicantId(
      /* [out] */ CCustomer.applicant* CCustomer.studentAccommodationBookings.applicantId);
 
 
-   CARAPI SetStudentAccommodationBookings.AllocationId(
+   CARAPI SetStudentAccommodationBookings_AllocationId(
      /* [in] */ CProperty.allocation CCustomer.studentAccommodationBookings.allocationId);
 
-    CARAPI GetStudentAccommodationBookings.AllocationId(
+    CARAPI GetStudentAccommodationBookings_AllocationId(
      /* [out] */ CProperty.allocation* CCustomer.studentAccommodationBookings.allocationId);
 
 
-   CARAPI SetStudentAccommodationBookings.TenancyId(
+   CARAPI SetStudentAccommodationBookings_TenancyId(
      /* [in] */ CProperty.tenant CCustomer.studentAccommodationBookings.tenancyId);
 
-    CARAPI GetStudentAccommodationBookings.TenancyId(
+    CARAPI GetStudentAccommodationBookings_TenancyId(
      /* [out] */ CProperty.tenant* CCustomer.studentAccommodationBookings.tenancyId);
 
 
-   CARAPI SetStudentAccommodationBookings.DocRefIds(
+   CARAPI SetStudentAccommodationBookings_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.studentAccommodationBookings.docRefIds);
 
-    CARAPI GetStudentAccommodationBookings.DocRefIds(
+    CARAPI GetStudentAccommodationBookings_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.studentAccommodationBookings.docRefIds);
 
 
-   CARAPI SetStudentAccommodationBookings.ImageRefIds(
+   CARAPI SetStudentAccommodationBookings_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.studentAccommodationBookings.imageRefIds);
 
-    CARAPI GetStudentAccommodationBookings.ImageRefIds(
+    CARAPI GetStudentAccommodationBookings_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.studentAccommodationBookings.imageRefIds);
 
 
-   CARAPI SetStudentAccommodationBookings.CustTenantJoinId(
+   CARAPI SetStudentAccommodationBookings_CustTenantJoinId(
      /* [in] */ const String& CCustomer.studentAccommodationBookings.custTenantJoinId);
 
-    CARAPI GetStudentAccommodationBookings.CustTenantJoinId(
+    CARAPI GetStudentAccommodationBookings_CustTenantJoinId(
      /* [out] */ String* CCustomer.studentAccommodationBookings.custTenantJoinId);
 
 
-   CARAPI SetStudentAccommodationBookings.CustomerId(
+   CARAPI SetStudentAccommodationBookings_CustomerId(
      /* [in] */ CCustomer.customer CCustomer.studentAccommodationBookings.customerId);
 
-    CARAPI GetStudentAccommodationBookings.CustomerId(
+    CARAPI GetStudentAccommodationBookings_CustomerId(
      /* [out] */ CCustomer.customer* CCustomer.studentAccommodationBookings.customerId);
 
 
-   CARAPI SetStudentAccommodationBookings.TenancyId(
+   CARAPI SetStudentAccommodationBookings_TenancyId(
      /* [in] */ CProperty.tenant CCustomer.studentAccommodationBookings.tenancyId);
 
-    CARAPI GetStudentAccommodationBookings.TenancyId(
+    CARAPI GetStudentAccommodationBookings_TenancyId(
      /* [out] */ CProperty.tenant* CCustomer.studentAccommodationBookings.tenancyId);
 
 
-   CARAPI SetStudentAccommodationBookings.BusinessChannelOwnerId(
+   CARAPI SetStudentAccommodationBookings_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.studentAccommodationBookings.businessChannelOwnerId);
 
-    CARAPI GetStudentAccommodationBookings.BusinessChannelOwnerId(
+    CARAPI GetStudentAccommodationBookings_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.studentAccommodationBookings.businessChannelOwnerId);
 
 
 
-   CARAPI SetTemporaryAccommodationBookings.BookingId(
+   CARAPI SetTemporaryAccommodationBookings_BookingId(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.bookingId);
 
-    CARAPI GetTemporaryAccommodationBookings.BookingId(
+    CARAPI GetTemporaryAccommodationBookings_BookingId(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.bookingId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PropertyAddressString(
+   CARAPI SetTemporaryAccommodationBookings_PropertyAddressString(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.propertyAddressString);
 
-    CARAPI GetTemporaryAccommodationBookings.PropertyAddressString(
+    CARAPI GetTemporaryAccommodationBookings_PropertyAddressString(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.propertyAddressString);
 
 
-   CARAPI SetTemporaryAccommodationBookings.UnitNumber(
+   CARAPI SetTemporaryAccommodationBookings_UnitNumber(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.unitNumber);
 
-    CARAPI GetTemporaryAccommodationBookings.UnitNumber(
+    CARAPI GetTemporaryAccommodationBookings_UnitNumber(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.unitNumber);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PreInspected(
+   CARAPI SetTemporaryAccommodationBookings_PreInspected(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.preInspected);
 
-    CARAPI GetTemporaryAccommodationBookings.PreInspected(
+    CARAPI GetTemporaryAccommodationBookings_PreInspected(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.preInspected);
 
 
-   CARAPI SetTemporaryAccommodationBookings.DateLeaseStarts(
+   CARAPI SetTemporaryAccommodationBookings_DateLeaseStarts(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.dateLeaseStarts);
 
-    CARAPI GetTemporaryAccommodationBookings.DateLeaseStarts(
+    CARAPI GetTemporaryAccommodationBookings_DateLeaseStarts(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.dateLeaseStarts);
 
 
-   CARAPI SetTemporaryAccommodationBookings.MidTermInspections(
+   CARAPI SetTemporaryAccommodationBookings_MidTermInspections(
      /* [in] */ ArrayOf<const String&> CCustomer.temporaryAccommodationBookings.midTermInspections);
 
-    CARAPI GetTemporaryAccommodationBookings.MidTermInspections(
+    CARAPI GetTemporaryAccommodationBookings_MidTermInspections(
      /* [out, callee] */ ArrayOf<String>* CCustomer.temporaryAccommodationBookings.midTermInspections);
 
 
-   CARAPI SetTemporaryAccommodationBookings.DateLeaseEnds(
+   CARAPI SetTemporaryAccommodationBookings_DateLeaseEnds(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.dateLeaseEnds);
 
-    CARAPI GetTemporaryAccommodationBookings.DateLeaseEnds(
+    CARAPI GetTemporaryAccommodationBookings_DateLeaseEnds(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.dateLeaseEnds);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PostInspected(
+   CARAPI SetTemporaryAccommodationBookings_PostInspected(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.postInspected);
 
-    CARAPI GetTemporaryAccommodationBookings.PostInspected(
+    CARAPI GetTemporaryAccommodationBookings_PostInspected(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.postInspected);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PaymentInterval(
+   CARAPI SetTemporaryAccommodationBookings_PaymentInterval(
      /* [in] */ CHelper.billingInterval CCustomer.temporaryAccommodationBookings.billingInterval);
 
-    CARAPI GetTemporaryAccommodationBookings.PaymentInterval(
+    CARAPI GetTemporaryAccommodationBookings_PaymentInterval(
      /* [out] */ CHelper.billingInterval* CCustomer.temporaryAccommodationBookings.billingInterval);
 
 
-   CARAPI SetTemporaryAccommodationBookings.RentalAmountAgreed(
+   CARAPI SetTemporaryAccommodationBookings_RentalAmountAgreed(
      /* [in] */ Double CCustomer.temporaryAccommodationBookings.rentalAmountAgreed);
 
-    CARAPI GetTemporaryAccommodationBookings.RentalAmountAgreed(
+    CARAPI GetTemporaryAccommodationBookings_RentalAmountAgreed(
      /* [out] */ Double* CCustomer.temporaryAccommodationBookings.rentalAmountAgreed);
 
 
-   CARAPI SetTemporaryAccommodationBookings.BusinessChannelOwnerId(
+   CARAPI SetTemporaryAccommodationBookings_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.temporaryAccommodationBookings.businessChannelOwnerId);
 
-    CARAPI GetTemporaryAccommodationBookings.BusinessChannelOwnerId(
+    CARAPI GetTemporaryAccommodationBookings_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.temporaryAccommodationBookings.businessChannelOwnerId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.BranchId(
+   CARAPI SetTemporaryAccommodationBookings_BranchId(
      /* [in] */ CAdministration.branch CCustomer.temporaryAccommodationBookings.branchId);
 
-    CARAPI GetTemporaryAccommodationBookings.BranchId(
+    CARAPI GetTemporaryAccommodationBookings_BranchId(
      /* [out] */ CAdministration.branch* CCustomer.temporaryAccommodationBookings.branchId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.DeptId(
+   CARAPI SetTemporaryAccommodationBookings_DeptId(
      /* [in] */ CAdministration.department CCustomer.temporaryAccommodationBookings.deptId);
 
-    CARAPI GetTemporaryAccommodationBookings.DeptId(
+    CARAPI GetTemporaryAccommodationBookings_DeptId(
      /* [out] */ CAdministration.department* CCustomer.temporaryAccommodationBookings.deptId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PropertyId(
+   CARAPI SetTemporaryAccommodationBookings_PropertyId(
      /* [in] */ CProperty.property CCustomer.temporaryAccommodationBookings.propertyId);
 
-    CARAPI GetTemporaryAccommodationBookings.PropertyId(
+    CARAPI GetTemporaryAccommodationBookings_PropertyId(
      /* [out] */ CProperty.property* CCustomer.temporaryAccommodationBookings.propertyId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.ApplicationId(
+   CARAPI SetTemporaryAccommodationBookings_ApplicationId(
      /* [in] */ CCustomer.application CCustomer.temporaryAccommodationBookings.applicationId);
 
-    CARAPI GetTemporaryAccommodationBookings.ApplicationId(
+    CARAPI GetTemporaryAccommodationBookings_ApplicationId(
      /* [out] */ CCustomer.application* CCustomer.temporaryAccommodationBookings.applicationId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.ApplicantId(
+   CARAPI SetTemporaryAccommodationBookings_ApplicantId(
      /* [in] */ CCustomer.applicant CCustomer.temporaryAccommodationBookings.applicantId);
 
-    CARAPI GetTemporaryAccommodationBookings.ApplicantId(
+    CARAPI GetTemporaryAccommodationBookings_ApplicantId(
      /* [out] */ CCustomer.applicant* CCustomer.temporaryAccommodationBookings.applicantId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.AllocationId(
+   CARAPI SetTemporaryAccommodationBookings_AllocationId(
      /* [in] */ CProperty.allocation CCustomer.temporaryAccommodationBookings.allocationId);
 
-    CARAPI GetTemporaryAccommodationBookings.AllocationId(
+    CARAPI GetTemporaryAccommodationBookings_AllocationId(
      /* [out] */ CProperty.allocation* CCustomer.temporaryAccommodationBookings.allocationId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.TenancyId(
+   CARAPI SetTemporaryAccommodationBookings_TenancyId(
      /* [in] */ CProperty.tenant CCustomer.temporaryAccommodationBookings.tenancyId);
 
-    CARAPI GetTemporaryAccommodationBookings.TenancyId(
+    CARAPI GetTemporaryAccommodationBookings_TenancyId(
      /* [out] */ CProperty.tenant* CCustomer.temporaryAccommodationBookings.tenancyId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.DocRefIds(
+   CARAPI SetTemporaryAccommodationBookings_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.temporaryAccommodationBookings.docRefIds);
 
-    CARAPI GetTemporaryAccommodationBookings.DocRefIds(
+    CARAPI GetTemporaryAccommodationBookings_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.temporaryAccommodationBookings.docRefIds);
 
 
-   CARAPI SetTemporaryAccommodationBookings.ImageRefIds(
+   CARAPI SetTemporaryAccommodationBookings_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.temporaryAccommodationBookings.imageRefIds);
 
-    CARAPI GetTemporaryAccommodationBookings.ImageRefIds(
+    CARAPI GetTemporaryAccommodationBookings_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.temporaryAccommodationBookings.imageRefIds);
 
 
-   CARAPI SetTemporaryAccommodationBookings.BookingId(
+   CARAPI SetTemporaryAccommodationBookings_BookingId(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.bookingId);
 
-    CARAPI GetTemporaryAccommodationBookings.BookingId(
+    CARAPI GetTemporaryAccommodationBookings_BookingId(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.bookingId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PropertyAddressString(
+   CARAPI SetTemporaryAccommodationBookings_PropertyAddressString(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.propertyAddressString);
 
-    CARAPI GetTemporaryAccommodationBookings.PropertyAddressString(
+    CARAPI GetTemporaryAccommodationBookings_PropertyAddressString(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.propertyAddressString);
 
 
-   CARAPI SetTemporaryAccommodationBookings.UnitNumber(
+   CARAPI SetTemporaryAccommodationBookings_UnitNumber(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.unitNumber);
 
-    CARAPI GetTemporaryAccommodationBookings.UnitNumber(
+    CARAPI GetTemporaryAccommodationBookings_UnitNumber(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.unitNumber);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PreInspected(
+   CARAPI SetTemporaryAccommodationBookings_PreInspected(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.preInspected);
 
-    CARAPI GetTemporaryAccommodationBookings.PreInspected(
+    CARAPI GetTemporaryAccommodationBookings_PreInspected(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.preInspected);
 
 
-   CARAPI SetTemporaryAccommodationBookings.DateLeaseStarts(
+   CARAPI SetTemporaryAccommodationBookings_DateLeaseStarts(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.dateLeaseStarts);
 
-    CARAPI GetTemporaryAccommodationBookings.DateLeaseStarts(
+    CARAPI GetTemporaryAccommodationBookings_DateLeaseStarts(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.dateLeaseStarts);
 
 
-   CARAPI SetTemporaryAccommodationBookings.MidTermInspections(
+   CARAPI SetTemporaryAccommodationBookings_MidTermInspections(
      /* [in] */ ArrayOf<const String&> CCustomer.temporaryAccommodationBookings.midTermInspections);
 
-    CARAPI GetTemporaryAccommodationBookings.MidTermInspections(
+    CARAPI GetTemporaryAccommodationBookings_MidTermInspections(
      /* [out, callee] */ ArrayOf<String>* CCustomer.temporaryAccommodationBookings.midTermInspections);
 
 
-   CARAPI SetTemporaryAccommodationBookings.DateLeaseEnds(
+   CARAPI SetTemporaryAccommodationBookings_DateLeaseEnds(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.dateLeaseEnds);
 
-    CARAPI GetTemporaryAccommodationBookings.DateLeaseEnds(
+    CARAPI GetTemporaryAccommodationBookings_DateLeaseEnds(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.dateLeaseEnds);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PostInspected(
+   CARAPI SetTemporaryAccommodationBookings_PostInspected(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.postInspected);
 
-    CARAPI GetTemporaryAccommodationBookings.PostInspected(
+    CARAPI GetTemporaryAccommodationBookings_PostInspected(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.postInspected);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PaymentInterval(
+   CARAPI SetTemporaryAccommodationBookings_PaymentInterval(
      /* [in] */ CHelper.billingInterval CCustomer.temporaryAccommodationBookings.billingInterval);
 
-    CARAPI GetTemporaryAccommodationBookings.PaymentInterval(
+    CARAPI GetTemporaryAccommodationBookings_PaymentInterval(
      /* [out] */ CHelper.billingInterval* CCustomer.temporaryAccommodationBookings.billingInterval);
 
 
-   CARAPI SetTemporaryAccommodationBookings.RentalAmountAgreed(
+   CARAPI SetTemporaryAccommodationBookings_RentalAmountAgreed(
      /* [in] */ Double CCustomer.temporaryAccommodationBookings.rentalAmountAgreed);
 
-    CARAPI GetTemporaryAccommodationBookings.RentalAmountAgreed(
+    CARAPI GetTemporaryAccommodationBookings_RentalAmountAgreed(
      /* [out] */ Double* CCustomer.temporaryAccommodationBookings.rentalAmountAgreed);
 
 
-   CARAPI SetTemporaryAccommodationBookings.BusinessChannelOwnerId(
+   CARAPI SetTemporaryAccommodationBookings_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.temporaryAccommodationBookings.businessChannelOwnerId);
 
-    CARAPI GetTemporaryAccommodationBookings.BusinessChannelOwnerId(
+    CARAPI GetTemporaryAccommodationBookings_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.temporaryAccommodationBookings.businessChannelOwnerId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.BranchId(
+   CARAPI SetTemporaryAccommodationBookings_BranchId(
      /* [in] */ CAdministration.branch CCustomer.temporaryAccommodationBookings.branchId);
 
-    CARAPI GetTemporaryAccommodationBookings.BranchId(
+    CARAPI GetTemporaryAccommodationBookings_BranchId(
      /* [out] */ CAdministration.branch* CCustomer.temporaryAccommodationBookings.branchId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.DeptId(
+   CARAPI SetTemporaryAccommodationBookings_DeptId(
      /* [in] */ CAdministration.department CCustomer.temporaryAccommodationBookings.deptId);
 
-    CARAPI GetTemporaryAccommodationBookings.DeptId(
+    CARAPI GetTemporaryAccommodationBookings_DeptId(
      /* [out] */ CAdministration.department* CCustomer.temporaryAccommodationBookings.deptId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.PropertyId(
+   CARAPI SetTemporaryAccommodationBookings_PropertyId(
      /* [in] */ CProperty.property CCustomer.temporaryAccommodationBookings.propertyId);
 
-    CARAPI GetTemporaryAccommodationBookings.PropertyId(
+    CARAPI GetTemporaryAccommodationBookings_PropertyId(
      /* [out] */ CProperty.property* CCustomer.temporaryAccommodationBookings.propertyId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.ApplicationId(
+   CARAPI SetTemporaryAccommodationBookings_ApplicationId(
      /* [in] */ CCustomer.application CCustomer.temporaryAccommodationBookings.applicationId);
 
-    CARAPI GetTemporaryAccommodationBookings.ApplicationId(
+    CARAPI GetTemporaryAccommodationBookings_ApplicationId(
      /* [out] */ CCustomer.application* CCustomer.temporaryAccommodationBookings.applicationId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.ApplicantId(
+   CARAPI SetTemporaryAccommodationBookings_ApplicantId(
      /* [in] */ CCustomer.applicant CCustomer.temporaryAccommodationBookings.applicantId);
 
-    CARAPI GetTemporaryAccommodationBookings.ApplicantId(
+    CARAPI GetTemporaryAccommodationBookings_ApplicantId(
      /* [out] */ CCustomer.applicant* CCustomer.temporaryAccommodationBookings.applicantId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.AllocationId(
+   CARAPI SetTemporaryAccommodationBookings_AllocationId(
      /* [in] */ CProperty.allocation CCustomer.temporaryAccommodationBookings.allocationId);
 
-    CARAPI GetTemporaryAccommodationBookings.AllocationId(
+    CARAPI GetTemporaryAccommodationBookings_AllocationId(
      /* [out] */ CProperty.allocation* CCustomer.temporaryAccommodationBookings.allocationId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.TenancyId(
+   CARAPI SetTemporaryAccommodationBookings_TenancyId(
      /* [in] */ CProperty.tenant CCustomer.temporaryAccommodationBookings.tenancyId);
 
-    CARAPI GetTemporaryAccommodationBookings.TenancyId(
+    CARAPI GetTemporaryAccommodationBookings_TenancyId(
      /* [out] */ CProperty.tenant* CCustomer.temporaryAccommodationBookings.tenancyId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.DocRefIds(
+   CARAPI SetTemporaryAccommodationBookings_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.temporaryAccommodationBookings.docRefIds);
 
-    CARAPI GetTemporaryAccommodationBookings.DocRefIds(
+    CARAPI GetTemporaryAccommodationBookings_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.temporaryAccommodationBookings.docRefIds);
 
 
-   CARAPI SetTemporaryAccommodationBookings.ImageRefIds(
+   CARAPI SetTemporaryAccommodationBookings_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.temporaryAccommodationBookings.imageRefIds);
 
-    CARAPI GetTemporaryAccommodationBookings.ImageRefIds(
+    CARAPI GetTemporaryAccommodationBookings_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.temporaryAccommodationBookings.imageRefIds);
 
 
-   CARAPI SetTemporaryAccommodationBookings.CustTenantJoinId(
+   CARAPI SetTemporaryAccommodationBookings_CustTenantJoinId(
      /* [in] */ const String& CCustomer.temporaryAccommodationBookings.custTenantJoinId);
 
-    CARAPI GetTemporaryAccommodationBookings.CustTenantJoinId(
+    CARAPI GetTemporaryAccommodationBookings_CustTenantJoinId(
      /* [out] */ String* CCustomer.temporaryAccommodationBookings.custTenantJoinId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.CustomerId(
+   CARAPI SetTemporaryAccommodationBookings_CustomerId(
      /* [in] */ CCustomer.customer CCustomer.temporaryAccommodationBookings.customerId);
 
-    CARAPI GetTemporaryAccommodationBookings.CustomerId(
+    CARAPI GetTemporaryAccommodationBookings_CustomerId(
      /* [out] */ CCustomer.customer* CCustomer.temporaryAccommodationBookings.customerId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.TenancyId(
+   CARAPI SetTemporaryAccommodationBookings_TenancyId(
      /* [in] */ CProperty.tenant CCustomer.temporaryAccommodationBookings.tenancyId);
 
-    CARAPI GetTemporaryAccommodationBookings.TenancyId(
+    CARAPI GetTemporaryAccommodationBookings_TenancyId(
      /* [out] */ CProperty.tenant* CCustomer.temporaryAccommodationBookings.tenancyId);
 
 
-   CARAPI SetTemporaryAccommodationBookings.BusinessChannelOwnerId(
+   CARAPI SetTemporaryAccommodationBookings_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.temporaryAccommodationBookings.businessChannelOwnerId);
 
-    CARAPI GetTemporaryAccommodationBookings.BusinessChannelOwnerId(
+    CARAPI GetTemporaryAccommodationBookings_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.temporaryAccommodationBookings.businessChannelOwnerId);
 
 
-   CARAPI SetCustomerTenantJoin.CustTenantJoinId(
+   CARAPI SetCustomerTenantJoin_CustTenantJoinId(
      /* [in] */ const String& CCustomer.customerTenantJoin.custTenantJoinId);
 
-    CARAPI GetCustomerTenantJoin.CustTenantJoinId(
+    CARAPI GetCustomerTenantJoin_CustTenantJoinId(
      /* [out] */ String* CCustomer.customerTenantJoin.custTenantJoinId);
 
 
-   CARAPI SetCustomerTenantJoin.CustomerIds(
+   CARAPI SetCustomerTenantJoin_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CCustomer.customerTenantJoin.customerIds);
 
-    CARAPI GetCustomerTenantJoin.CustomerIds(
+    CARAPI GetCustomerTenantJoin_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CCustomer.customerTenantJoin.customerIds);
 
 
-   CARAPI SetCustomerTenantJoin.TenancyId(
+   CARAPI SetCustomerTenantJoin_TenancyId(
      /* [in] */ ArrayOf<Double> CCustomer.customerTenantJoin.tenancyId);
 
-    CARAPI GetCustomerTenantJoin.TenancyId(
+    CARAPI GetCustomerTenantJoin_TenancyId(
      /* [out, callee] */ ArrayOf<Double>* CCustomer.customerTenantJoin.tenancyId);
 
 
-   CARAPI SetCustomerTenantJoin.BusinessChannelOwnerId(
+   CARAPI SetCustomerTenantJoin_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.customerTenantJoin.businessChannelOwnerId);
 
-    CARAPI GetCustomerTenantJoin.BusinessChannelOwnerId(
+    CARAPI GetCustomerTenantJoin_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.customerTenantJoin.businessChannelOwnerId);
 
 
 
-   CARAPI SetComplaint.ComplaintId(
+   CARAPI SetComplaint_ComplaintId(
      /* [in] */ const String& CCustomer.complaint.complaintId);
 
-    CARAPI GetComplaint.ComplaintId(
+    CARAPI GetComplaint_ComplaintId(
      /* [out] */ String* CCustomer.complaint.complaintId);
 
 
-   CARAPI SetComplaint.ParticipantNameComplainant(
+   CARAPI SetComplaint_ParticipantNameComplainant(
      /* [in] */ const String& CCustomer.complaint.participantNameComplainant);
 
-    CARAPI GetComplaint.ParticipantNameComplainant(
+    CARAPI GetComplaint_ParticipantNameComplainant(
      /* [out] */ String* CCustomer.complaint.participantNameComplainant);
 
 
-   CARAPI SetComplaint.ParticipantIdComplainant(
+   CARAPI SetComplaint_ParticipantIdComplainant(
      /* [in] */ const String& CCustomer.complaint.participantIdComplainant);
 
-    CARAPI GetComplaint.ParticipantIdComplainant(
+    CARAPI GetComplaint_ParticipantIdComplainant(
      /* [out] */ String* CCustomer.complaint.participantIdComplainant);
 
 
-   CARAPI SetComplaint.Description(
+   CARAPI SetComplaint_Description(
      /* [in] */ const String& CCustomer.complaint.description);
 
-    CARAPI GetComplaint.Description(
+    CARAPI GetComplaint_Description(
      /* [out] */ String* CCustomer.complaint.description);
 
 
-   CARAPI SetComplaint.NonTenantRelated(
+   CARAPI SetComplaint_NonTenantRelated(
      /* [in] */ Boolean CCustomer.complaint.nonTenantRelated);
 
-    CARAPI GetComplaint.NonTenantRelated(
+    CARAPI GetComplaint_NonTenantRelated(
      /* [out] */ Boolean* CCustomer.complaint.nonTenantRelated);
 
 
-   CARAPI SetComplaint.AgainstTenant(
+   CARAPI SetComplaint_AgainstTenant(
      /* [in] */ Boolean CCustomer.complaint.againstTenant);
 
-    CARAPI GetComplaint.AgainstTenant(
+    CARAPI GetComplaint_AgainstTenant(
      /* [out] */ Boolean* CCustomer.complaint.againstTenant);
 
 
-   CARAPI SetComplaint.ByTenant(
+   CARAPI SetComplaint_ByTenant(
      /* [in] */ Boolean CCustomer.complaint.byTenant);
 
-    CARAPI GetComplaint.ByTenant(
+    CARAPI GetComplaint_ByTenant(
      /* [out] */ Boolean* CCustomer.complaint.byTenant);
 
 
-   CARAPI SetComplaint.DetailsInChronologicalOrder(
+   CARAPI SetComplaint_DetailsInChronologicalOrder(
      /* [in] */ ArrayOf<const String&> CCustomer.complaint.detailsInChronologicalOrder);
 
-    CARAPI GetComplaint.DetailsInChronologicalOrder(
+    CARAPI GetComplaint_DetailsInChronologicalOrder(
      /* [out, callee] */ ArrayOf<String>* CCustomer.complaint.detailsInChronologicalOrder);
 
 
-   CARAPI SetComplaint.DatesTimesOfEvents(
+   CARAPI SetComplaint_DatesTimesOfEvents(
      /* [in] */ ArrayOf<const String&> CCustomer.complaint.datesTimesOfEvents);
 
-    CARAPI GetComplaint.DatesTimesOfEvents(
+    CARAPI GetComplaint_DatesTimesOfEvents(
      /* [out, callee] */ ArrayOf<String>* CCustomer.complaint.datesTimesOfEvents);
 
 
-   CARAPI SetComplaint.RepliedWhen(
+   CARAPI SetComplaint_RepliedWhen(
      /* [in] */ const String& CCustomer.complaint.repliedWhen);
 
-    CARAPI GetComplaint.RepliedWhen(
+    CARAPI GetComplaint_RepliedWhen(
      /* [out] */ String* CCustomer.complaint.repliedWhen);
 
 
-   CARAPI SetComplaint.ResponsibilitiesParticpantsIds(
+   CARAPI SetComplaint_ResponsibilitiesParticpantsIds(
      /* [in] */ ArrayOf<const String&> CCustomer.complaint.responsibilitiesParticpantsIds);
 
-    CARAPI GetComplaint.ResponsibilitiesParticpantsIds(
+    CARAPI GetComplaint_ResponsibilitiesParticpantsIds(
      /* [out, callee] */ ArrayOf<String>* CCustomer.complaint.responsibilitiesParticpantsIds);
 
 
-   CARAPI SetComplaint.ResponsibilitiesParticpantsNames(
+   CARAPI SetComplaint_ResponsibilitiesParticpantsNames(
      /* [in] */ ArrayOf<const String&> CCustomer.complaint.responsibilitiesParticpantsNames);
 
-    CARAPI GetComplaint.ResponsibilitiesParticpantsNames(
+    CARAPI GetComplaint_ResponsibilitiesParticpantsNames(
      /* [out, callee] */ ArrayOf<String>* CCustomer.complaint.responsibilitiesParticpantsNames);
 
 
-   CARAPI SetComplaint.RequiredActions(
+   CARAPI SetComplaint_RequiredActions(
      /* [in] */ ArrayOf<const String&> CCustomer.complaint.requiredActions);
 
-    CARAPI GetComplaint.RequiredActions(
+    CARAPI GetComplaint_RequiredActions(
      /* [out, callee] */ ArrayOf<String>* CCustomer.complaint.requiredActions);
 
 
-   CARAPI SetComplaint.BusinessChannelOwnerId(
+   CARAPI SetComplaint_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.complaint.businessChannelOwnerId);
 
-    CARAPI GetComplaint.BusinessChannelOwnerId(
+    CARAPI GetComplaint_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.complaint.businessChannelOwnerId);
 
 
-   CARAPI SetComplaint.BranchId(
+   CARAPI SetComplaint_BranchId(
      /* [in] */ CAdministration.branch CCustomer.complaint.branchId);
 
-    CARAPI GetComplaint.BranchId(
+    CARAPI GetComplaint_BranchId(
      /* [out] */ CAdministration.branch* CCustomer.complaint.branchId);
 
 
-   CARAPI SetComplaint.DeptId(
+   CARAPI SetComplaint_DeptId(
      /* [in] */ CAdministration.department CCustomer.complaint.deptId);
 
-    CARAPI GetComplaint.DeptId(
+    CARAPI GetComplaint_DeptId(
      /* [out] */ CAdministration.department* CCustomer.complaint.deptId);
 
 
-   CARAPI SetComplaint.PropertyOwnerIds(
+   CARAPI SetComplaint_PropertyOwnerIds(
      /* [in] */ ArrayOf<CProperty.propertyOwner> CCustomer.complaint.propertyOwnerIds);
 
-    CARAPI GetComplaint.PropertyOwnerIds(
+    CARAPI GetComplaint_PropertyOwnerIds(
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CCustomer.complaint.propertyOwnerIds);
 
 
-   CARAPI SetComplaint.TenantIds(
+   CARAPI SetComplaint_TenantIds(
      /* [in] */ ArrayOf<CProperty.tenant> CCustomer.complaint.tenantIds);
 
-    CARAPI GetComplaint.TenantIds(
+    CARAPI GetComplaint_TenantIds(
      /* [out, callee] */ ArrayOf<CProperty.tenant>* CCustomer.complaint.tenantIds);
 
 
-   CARAPI SetComplaint.CustomerIds(
+   CARAPI SetComplaint_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CCustomer.complaint.customerIds);
 
-    CARAPI GetComplaint.CustomerIds(
+    CARAPI GetComplaint_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CCustomer.complaint.customerIds);
 
 
-   CARAPI SetComplaint.EmployeeIds(
+   CARAPI SetComplaint_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CCustomer.complaint.employeeIds);
 
-    CARAPI GetComplaint.EmployeeIds(
+    CARAPI GetComplaint_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CCustomer.complaint.employeeIds);
 
 
-   CARAPI SetComplaint.CommunityIds(
+   CARAPI SetComplaint_CommunityIds(
      /* [in] */ ArrayOf<CStakeholder.community> CCustomer.complaint.communityIds);
 
-    CARAPI GetComplaint.CommunityIds(
+    CARAPI GetComplaint_CommunityIds(
      /* [out, callee] */ ArrayOf<CStakeholder.community>* CCustomer.complaint.communityIds);
 
 
-   CARAPI SetComplaint.MediaIds(
+   CARAPI SetComplaint_MediaIds(
      /* [in] */ ArrayOf<CStakeholder.media> CCustomer.complaint.mediaIds);
 
-    CARAPI GetComplaint.MediaIds(
+    CARAPI GetComplaint_MediaIds(
      /* [out, callee] */ ArrayOf<CStakeholder.media>* CCustomer.complaint.mediaIds);
 
 
-   CARAPI SetComplaint.SupplierIds(
+   CARAPI SetComplaint_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CCustomer.complaint.supplierIds);
 
-    CARAPI GetComplaint.SupplierIds(
+    CARAPI GetComplaint_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CCustomer.complaint.supplierIds);
 
 
-   CARAPI SetComplaint.PartnerIds(
+   CARAPI SetComplaint_PartnerIds(
      /* [in] */ ArrayOf<CStakeholder.partner> CCustomer.complaint.partnerIds);
 
-    CARAPI GetComplaint.PartnerIds(
+    CARAPI GetComplaint_PartnerIds(
      /* [out, callee] */ ArrayOf<CStakeholder.partner>* CCustomer.complaint.partnerIds);
 
 
-   CARAPI SetComplaint.TribunalIds(
+   CARAPI SetComplaint_TribunalIds(
      /* [in] */ ArrayOf<CRegulator.nCAT> CCustomer.complaint.tribunalIds);
 
-    CARAPI GetComplaint.TribunalIds(
+    CARAPI GetComplaint_TribunalIds(
      /* [out, callee] */ ArrayOf<CRegulator.nCAT>* CCustomer.complaint.tribunalIds);
 
 
-   CARAPI SetComplaint.TicaIds(
+   CARAPI SetComplaint_TicaIds(
      /* [in] */ ArrayOf<CStakeholder.tICA> CCustomer.complaint.ticaIds);
 
-    CARAPI GetComplaint.TicaIds(
+    CARAPI GetComplaint_TicaIds(
      /* [out, callee] */ ArrayOf<CStakeholder.tICA>* CCustomer.complaint.ticaIds);
 
 
-   CARAPI SetComplaint.PropertyIds(
+   CARAPI SetComplaint_PropertyIds(
      /* [in] */ ArrayOf<CProperty.property> CCustomer.complaint.propertyIds);
 
-    CARAPI GetComplaint.PropertyIds(
+    CARAPI GetComplaint_PropertyIds(
      /* [out, callee] */ ArrayOf<CProperty.property>* CCustomer.complaint.propertyIds);
 
 
-   CARAPI SetComplaint.ServiceIdsInvolved(
+   CARAPI SetComplaint_ServiceIdsInvolved(
      /* [in] */ ArrayOf<CAdministration.service> CCustomer.complaint.serviceIdsInvolved);
 
-    CARAPI GetComplaint.ServiceIdsInvolved(
+    CARAPI GetComplaint_ServiceIdsInvolved(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CCustomer.complaint.serviceIdsInvolved);
 
 
-   CARAPI SetComplaint.ItemiIds(
+   CARAPI SetComplaint_ItemiIds(
      /* [in] */ ArrayOf<CAdministration.item> CCustomer.complaint.itemiIds);
 
-    CARAPI GetComplaint.ItemiIds(
+    CARAPI GetComplaint_ItemiIds(
      /* [out, callee] */ ArrayOf<CAdministration.item>* CCustomer.complaint.itemiIds);
 
 
-   CARAPI SetComplaint.JobIds(
+   CARAPI SetComplaint_JobIds(
      /* [in] */ ArrayOf<CAdministration.job> CCustomer.complaint.jobIds);
 
-    CARAPI GetComplaint.JobIds(
+    CARAPI GetComplaint_JobIds(
      /* [out, callee] */ ArrayOf<CAdministration.job>* CCustomer.complaint.jobIds);
 
 
-   CARAPI SetComplaint.DocRefs(
+   CARAPI SetComplaint_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.complaint.docRefs);
 
-    CARAPI GetComplaint.DocRefs(
+    CARAPI GetComplaint_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.complaint.docRefs);
 
 
-   CARAPI SetComplaint.ImageRefs(
+   CARAPI SetComplaint_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.complaint.imageRefs);
 
-    CARAPI GetComplaint.ImageRefs(
+    CARAPI GetComplaint_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.complaint.imageRefs);
 
 
-   CARAPI SetComplaint.AudioRefIds(
+   CARAPI SetComplaint_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CCustomer.complaint.audioRefIds);
 
-    CARAPI GetComplaint.AudioRefIds(
+    CARAPI GetComplaint_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CCustomer.complaint.audioRefIds);
 
 
-   CARAPI SetComplaint.VideoRefs(
+   CARAPI SetComplaint_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CCustomer.complaint.videoRefs);
 
-    CARAPI GetComplaint.VideoRefs(
+    CARAPI GetComplaint_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CCustomer.complaint.videoRefs);
 
 
-   CARAPI SetCompliment.ComplimentId(
+   CARAPI SetCompliment_ComplimentId(
      /* [in] */ const String& CCustomer.compliment.complimentId);
 
-    CARAPI GetCompliment.ComplimentId(
+    CARAPI GetCompliment_ComplimentId(
      /* [out] */ String* CCustomer.compliment.complimentId);
 
 
-   CARAPI SetCompliment.ParticipantNameComplimenting(
+   CARAPI SetCompliment_ParticipantNameComplimenting(
      /* [in] */ const String& CCustomer.compliment.participantNameComplimenting);
 
-    CARAPI GetCompliment.ParticipantNameComplimenting(
+    CARAPI GetCompliment_ParticipantNameComplimenting(
      /* [out] */ String* CCustomer.compliment.participantNameComplimenting);
 
 
-   CARAPI SetCompliment.ParticipantIdComplimenting(
+   CARAPI SetCompliment_ParticipantIdComplimenting(
      /* [in] */ const String& CCustomer.compliment.participantIdComplimenting);
 
-    CARAPI GetCompliment.ParticipantIdComplimenting(
+    CARAPI GetCompliment_ParticipantIdComplimenting(
      /* [out] */ String* CCustomer.compliment.participantIdComplimenting);
 
 
-   CARAPI SetCompliment.Description(
+   CARAPI SetCompliment_Description(
      /* [in] */ const String& CCustomer.compliment.description);
 
-    CARAPI GetCompliment.Description(
+    CARAPI GetCompliment_Description(
      /* [out] */ String* CCustomer.compliment.description);
 
 
-   CARAPI SetCompliment.NonTenantRelated(
+   CARAPI SetCompliment_NonTenantRelated(
      /* [in] */ Boolean CCustomer.compliment.nonTenantRelated);
 
-    CARAPI GetCompliment.NonTenantRelated(
+    CARAPI GetCompliment_NonTenantRelated(
      /* [out] */ Boolean* CCustomer.compliment.nonTenantRelated);
 
 
-   CARAPI SetCompliment.ProTenant(
+   CARAPI SetCompliment_ProTenant(
      /* [in] */ Boolean CCustomer.compliment.proTenant);
 
-    CARAPI GetCompliment.ProTenant(
+    CARAPI GetCompliment_ProTenant(
      /* [out] */ Boolean* CCustomer.compliment.proTenant);
 
 
-   CARAPI SetCompliment.ByTenant(
+   CARAPI SetCompliment_ByTenant(
      /* [in] */ Boolean CCustomer.compliment.byTenant);
 
-    CARAPI GetCompliment.ByTenant(
+    CARAPI GetCompliment_ByTenant(
      /* [out] */ Boolean* CCustomer.compliment.byTenant);
 
 
-   CARAPI SetCompliment.DetailsInChronologicalOrder(
+   CARAPI SetCompliment_DetailsInChronologicalOrder(
      /* [in] */ ArrayOf<const String&> CCustomer.compliment.detailsInChronologicalOrder);
 
-    CARAPI GetCompliment.DetailsInChronologicalOrder(
+    CARAPI GetCompliment_DetailsInChronologicalOrder(
      /* [out, callee] */ ArrayOf<String>* CCustomer.compliment.detailsInChronologicalOrder);
 
 
-   CARAPI SetCompliment.DatesTimesOfEvents(
+   CARAPI SetCompliment_DatesTimesOfEvents(
      /* [in] */ ArrayOf<const String&> CCustomer.compliment.datesTimesOfEvents);
 
-    CARAPI GetCompliment.DatesTimesOfEvents(
+    CARAPI GetCompliment_DatesTimesOfEvents(
      /* [out, callee] */ ArrayOf<String>* CCustomer.compliment.datesTimesOfEvents);
 
 
-   CARAPI SetCompliment.CorroReceived(
+   CARAPI SetCompliment_CorroReceived(
      /* [in] */ const String& CCustomer.compliment.corroReceived);
 
-    CARAPI GetCompliment.CorroReceived(
+    CARAPI GetCompliment_CorroReceived(
      /* [out] */ String* CCustomer.compliment.corroReceived);
 
 
-   CARAPI SetCompliment.ResponseDocRefs(
+   CARAPI SetCompliment_ResponseDocRefs(
      /* [in] */ ArrayOf<const String&> CCustomer.compliment.responseDocRefs);
 
-    CARAPI GetCompliment.ResponseDocRefs(
+    CARAPI GetCompliment_ResponseDocRefs(
      /* [out, callee] */ ArrayOf<String>* CCustomer.compliment.responseDocRefs);
 
 
-   CARAPI SetCompliment.RepliedWhen(
+   CARAPI SetCompliment_RepliedWhen(
      /* [in] */ const String& CCustomer.compliment.repliedWhen);
 
-    CARAPI GetCompliment.RepliedWhen(
+    CARAPI GetCompliment_RepliedWhen(
      /* [out] */ String* CCustomer.compliment.repliedWhen);
 
 
-   CARAPI SetCompliment.ResponsibilitiesParticpantsIds(
+   CARAPI SetCompliment_ResponsibilitiesParticpantsIds(
      /* [in] */ ArrayOf<const String&> CCustomer.compliment.responsibilitiesParticpantsIds);
 
-    CARAPI GetCompliment.ResponsibilitiesParticpantsIds(
+    CARAPI GetCompliment_ResponsibilitiesParticpantsIds(
      /* [out, callee] */ ArrayOf<String>* CCustomer.compliment.responsibilitiesParticpantsIds);
 
 
-   CARAPI SetCompliment.ResponsibilitiesParticpantsNames(
+   CARAPI SetCompliment_ResponsibilitiesParticpantsNames(
      /* [in] */ ArrayOf<const String&> CCustomer.compliment.responsibilitiesParticpantsNames);
 
-    CARAPI GetCompliment.ResponsibilitiesParticpantsNames(
+    CARAPI GetCompliment_ResponsibilitiesParticpantsNames(
      /* [out, callee] */ ArrayOf<String>* CCustomer.compliment.responsibilitiesParticpantsNames);
 
 
-   CARAPI SetCompliment.RequiredActions(
+   CARAPI SetCompliment_RequiredActions(
      /* [in] */ ArrayOf<const String&> CCustomer.compliment.requiredActions);
 
-    CARAPI GetCompliment.RequiredActions(
+    CARAPI GetCompliment_RequiredActions(
      /* [out, callee] */ ArrayOf<String>* CCustomer.compliment.requiredActions);
 
 
-   CARAPI SetCompliment.BusinessChannelOwnerId(
+   CARAPI SetCompliment_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CCustomer.compliment.businessChannelOwnerId);
 
-    CARAPI GetCompliment.BusinessChannelOwnerId(
+    CARAPI GetCompliment_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CCustomer.compliment.businessChannelOwnerId);
 
 
-   CARAPI SetCompliment.BranchId(
+   CARAPI SetCompliment_BranchId(
      /* [in] */ CAdministration.branch CCustomer.compliment.branchId);
 
-    CARAPI GetCompliment.BranchId(
+    CARAPI GetCompliment_BranchId(
      /* [out] */ CAdministration.branch* CCustomer.compliment.branchId);
 
 
-   CARAPI SetCompliment.DeptId(
+   CARAPI SetCompliment_DeptId(
      /* [in] */ CAdministration.department CCustomer.compliment.deptId);
 
-    CARAPI GetCompliment.DeptId(
+    CARAPI GetCompliment_DeptId(
      /* [out] */ CAdministration.department* CCustomer.compliment.deptId);
 
 
-   CARAPI SetCompliment.PropertyIds(
+   CARAPI SetCompliment_PropertyIds(
      /* [in] */ ArrayOf<CProperty.property> CCustomer.compliment.propertyIds);
 
-    CARAPI GetCompliment.PropertyIds(
+    CARAPI GetCompliment_PropertyIds(
      /* [out, callee] */ ArrayOf<CProperty.property>* CCustomer.compliment.propertyIds);
 
 
-   CARAPI SetCompliment.PropertyOwnerIds(
+   CARAPI SetCompliment_PropertyOwnerIds(
      /* [in] */ ArrayOf<CProperty.propertyOwner> CCustomer.compliment.propertyOwnerIds);
 
-    CARAPI GetCompliment.PropertyOwnerIds(
+    CARAPI GetCompliment_PropertyOwnerIds(
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CCustomer.compliment.propertyOwnerIds);
 
 
-   CARAPI SetCompliment.ServiceIdsInvolved(
+   CARAPI SetCompliment_ServiceIdsInvolved(
      /* [in] */ ArrayOf<CAdministration.service> CCustomer.compliment.serviceIdsInvolved);
 
-    CARAPI GetCompliment.ServiceIdsInvolved(
+    CARAPI GetCompliment_ServiceIdsInvolved(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CCustomer.compliment.serviceIdsInvolved);
 
 
-   CARAPI SetCompliment.ItemiIds(
+   CARAPI SetCompliment_ItemiIds(
      /* [in] */ ArrayOf<CAdministration.item> CCustomer.compliment.itemiIds);
 
-    CARAPI GetCompliment.ItemiIds(
+    CARAPI GetCompliment_ItemiIds(
      /* [out, callee] */ ArrayOf<CAdministration.item>* CCustomer.compliment.itemiIds);
 
 
-   CARAPI SetCompliment.JobIds(
+   CARAPI SetCompliment_JobIds(
      /* [in] */ ArrayOf<CAdministration.job> CCustomer.compliment.jobIds);
 
-    CARAPI GetCompliment.JobIds(
+    CARAPI GetCompliment_JobIds(
      /* [out, callee] */ ArrayOf<CAdministration.job>* CCustomer.compliment.jobIds);
 
 
-   CARAPI SetCompliment.TenancyId(
+   CARAPI SetCompliment_TenancyId(
      /* [in] */ ArrayOf<CProperty.tenant> CCustomer.compliment.tenancyId);
 
-    CARAPI GetCompliment.TenancyId(
+    CARAPI GetCompliment_TenancyId(
      /* [out, callee] */ ArrayOf<CProperty.tenant>* CCustomer.compliment.tenancyId);
 
 
-   CARAPI SetCompliment.CustomerIds(
+   CARAPI SetCompliment_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CCustomer.compliment.customerIds);
 
-    CARAPI GetCompliment.CustomerIds(
+    CARAPI GetCompliment_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CCustomer.compliment.customerIds);
 
 
-   CARAPI SetCompliment.EmployeeIds(
+   CARAPI SetCompliment_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CCustomer.compliment.employeeIds);
 
-    CARAPI GetCompliment.EmployeeIds(
+    CARAPI GetCompliment_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CCustomer.compliment.employeeIds);
 
 
-   CARAPI SetCompliment.CommunityIds(
+   CARAPI SetCompliment_CommunityIds(
      /* [in] */ ArrayOf<CStakeholder.community> CCustomer.compliment.communityIds);
 
-    CARAPI GetCompliment.CommunityIds(
+    CARAPI GetCompliment_CommunityIds(
      /* [out, callee] */ ArrayOf<CStakeholder.community>* CCustomer.compliment.communityIds);
 
 
-   CARAPI SetCompliment.MediaIds(
+   CARAPI SetCompliment_MediaIds(
      /* [in] */ ArrayOf<CStakeholder.media> CCustomer.compliment.mediaIds);
 
-    CARAPI GetCompliment.MediaIds(
+    CARAPI GetCompliment_MediaIds(
      /* [out, callee] */ ArrayOf<CStakeholder.media>* CCustomer.compliment.mediaIds);
 
 
-   CARAPI SetCompliment.SupplierIds(
+   CARAPI SetCompliment_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CCustomer.compliment.supplierIds);
 
-    CARAPI GetCompliment.SupplierIds(
+    CARAPI GetCompliment_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CCustomer.compliment.supplierIds);
 
 
-   CARAPI SetCompliment.PartnerIds(
+   CARAPI SetCompliment_PartnerIds(
      /* [in] */ ArrayOf<CStakeholder.partner> CCustomer.compliment.partnerIds);
 
-    CARAPI GetCompliment.PartnerIds(
+    CARAPI GetCompliment_PartnerIds(
      /* [out, callee] */ ArrayOf<CStakeholder.partner>* CCustomer.compliment.partnerIds);
 
 
-   CARAPI SetCompliment.TribunalIds(
+   CARAPI SetCompliment_TribunalIds(
      /* [in] */ ArrayOf<CRegulator.nCAT> CCustomer.compliment.tribunalIds);
 
-    CARAPI GetCompliment.TribunalIds(
+    CARAPI GetCompliment_TribunalIds(
      /* [out, callee] */ ArrayOf<CRegulator.nCAT>* CCustomer.compliment.tribunalIds);
 
 
-   CARAPI SetCompliment.TicaIds(
+   CARAPI SetCompliment_TicaIds(
      /* [in] */ ArrayOf<CStakeholder.tICA> CCustomer.compliment.ticaIds);
 
-    CARAPI GetCompliment.TicaIds(
+    CARAPI GetCompliment_TicaIds(
      /* [out, callee] */ ArrayOf<CStakeholder.tICA>* CCustomer.compliment.ticaIds);
 
 
-   CARAPI SetCompliment.DocRefIds(
+   CARAPI SetCompliment_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CCustomer.compliment.docRefIds);
 
-    CARAPI GetCompliment.DocRefIds(
+    CARAPI GetCompliment_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CCustomer.compliment.docRefIds);
 
 
-   CARAPI SetCompliment.ImageRefIds(
+   CARAPI SetCompliment_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CCustomer.compliment.imageRefIds);
 
-    CARAPI GetCompliment.ImageRefIds(
+    CARAPI GetCompliment_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CCustomer.compliment.imageRefIds);
 
 
-   CARAPI SetCompliment.AudioRefIds(
+   CARAPI SetCompliment_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CCustomer.compliment.audioRefIds);
 
-    CARAPI GetCompliment.AudioRefIds(
+    CARAPI GetCompliment_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CCustomer.compliment.audioRefIds);
 
 
-   CARAPI SetCompliment.VideoRefIds(
+   CARAPI SetCompliment_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CCustomer.compliment.videoRefIds);
 
-    CARAPI GetCompliment.VideoRefIds(
+    CARAPI GetCompliment_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CCustomer.compliment.videoRefIds);
 
 
 
 protected:
     // Member variables
-const String& mSetCustomer.CustomerId
-String* mGetCustomer.CustomerId
-const String& mSetCustomer.LinkedToThisBusinessChannelOwnerId
-String* mGetCustomer.LinkedToThisBusinessChannelOwnerId
-CHelper.relationship mSetCustomer.Relationship
-CHelper.relationship* mGetCustomer.Relationship
-ArrayOf<const String&> mSetCustomer.CustomerTypesIds
-ArrayOf<String>* mGetCustomer.CustomerTypesIds
-const String& mSetCustomer.OurBranchId
-String* mGetCustomer.OurBranchId
-const String& mSetCustomer.FirstName
-String* mGetCustomer.FirstName
-const String& mSetCustomer.LastName
-String* mGetCustomer.LastName
-ArrayOf<const String&> mSetCustomer.ResidentialAddress
-ArrayOf<String>* mGetCustomer.ResidentialAddress
-ArrayOf<const String&> mSetCustomer.PostalAddress
-ArrayOf<String>* mGetCustomer.PostalAddress
-ArrayOf<const String&> mSetCustomer.DeliveryAddress
-ArrayOf<String>* mGetCustomer.DeliveryAddress
-ArrayOf<const String&> mSetCustomer.BillingAddress
-ArrayOf<String>* mGetCustomer.BillingAddress
-const String& mSetCustomer.Email
-String* mGetCustomer.Email
+const String& mSetCustomer_CustomerId
+String* mGetCustomer_CustomerId
+const String& mSetCustomer_LinkedToThisBusinessChannelOwnerId
+String* mGetCustomer_LinkedToThisBusinessChannelOwnerId
+CHelper.relationship mSetCustomer_Relationship
+CHelper.relationship* mGetCustomer_Relationship
+ArrayOf<const String&> mSetCustomer_CustomerTypesIds
+ArrayOf<String>* mGetCustomer_CustomerTypesIds
+const String& mSetCustomer_OurBranchId
+String* mGetCustomer_OurBranchId
+const String& mSetCustomer_FirstName
+String* mGetCustomer_FirstName
+const String& mSetCustomer_LastName
+String* mGetCustomer_LastName
+ArrayOf<const String&> mSetCustomer_ResidentialAddress
+ArrayOf<String>* mGetCustomer_ResidentialAddress
+ArrayOf<const String&> mSetCustomer_PostalAddress
+ArrayOf<String>* mGetCustomer_PostalAddress
+ArrayOf<const String&> mSetCustomer_DeliveryAddress
+ArrayOf<String>* mGetCustomer_DeliveryAddress
+ArrayOf<const String&> mSetCustomer_BillingAddress
+ArrayOf<String>* mGetCustomer_BillingAddress
+const String& mSetCustomer_Email
+String* mGetCustomer_Email
 Int32 mSetCustomer.HomePhone
 Int32* mGetCustomer.HomePhone
 Int32 mSetCustomer.MobilePhone
 Int32* mGetCustomer.MobilePhone
 Int32 mSetCustomer.WorkPhone
 Int32* mGetCustomer.WorkPhone
-ArrayOf<const String&> mSetCustomer.AmenitiesRequired
-ArrayOf<String>* mGetCustomer.AmenitiesRequired
-ArrayOf<const String&> mSetCustomer.StreetsDesired
-ArrayOf<String>* mGetCustomer.StreetsDesired
-ArrayOf<Int32> mSetCustomer.PostcodesDesired
-ArrayOf<Int32>* mGetCustomer.PostcodesDesired
+ArrayOf<const String&> mSetCustomer_AmenitiesRequired
+ArrayOf<String>* mGetCustomer_AmenitiesRequired
+ArrayOf<const String&> mSetCustomer_StreetsDesired
+ArrayOf<String>* mGetCustomer_StreetsDesired
+ArrayOf<Int32> mSetCustomer_PostcodesDesired
+ArrayOf<Int32>* mGetCustomer_PostcodesDesired
 Int32 mSetCustomer.BedroomsRequired
 Int32* mGetCustomer.BedroomsRequired
 Double mSetCustomer.MaxPriceOffering
-Double* mGetCustomer.MaxPriceOffering
+Double* mGetCustomer_MaxPriceOffering
 Double mSetCustomer.MinPriceOffering
-Double* mGetCustomer.MinPriceOffering
-ArrayOf<Double> mSetCustomer.MaxPriceAsking
-ArrayOf<Double>* mGetCustomer.MaxPriceAsking
-ArrayOf<Double> mSetCustomer.MinPriceAsking
-ArrayOf<Double>* mGetCustomer.MinPriceAsking
-const String& mSetCustomer.CentrelinkCRN
-String* mGetCustomer.CentrelinkCRN
+Double* mGetCustomer_MinPriceOffering
+ArrayOf<Double> mSetCustomer_MaxPriceAsking
+ArrayOf<Double>* mGetCustomer_MaxPriceAsking
+ArrayOf<Double> mSetCustomer_MinPriceAsking
+ArrayOf<Double>* mGetCustomer_MinPriceAsking
+const String& mSetCustomer_CentrelinkCRN
+String* mGetCustomer_CentrelinkCRN
 Int32 mSetCustomer.ATOTFN
 Int32* mGetCustomer.ATOTFN
-const String& mSetCustomer.ABN
-String* mGetCustomer.ABN
-ArrayOf<const String&> mSetCustomer.ContactedWithDetails
-ArrayOf<String>* mGetCustomer.ContactedWithDetails
-CRegister.businessChannelOwner mSetCustomer.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetCustomer.BusinessChannelOwnerId
-ArrayOf<CProperty.propertyOwner> mSetCustomer.PropertyOwnerIds
-ArrayOf<CProperty.propertyOwner>* mGetCustomer.PropertyOwnerIds
-ArrayOf<CProperty.customerpropertyJoin> mSetCustomer.CustPropJoinIds
-ArrayOf<CProperty.customerpropertyJoin>* mGetCustomer.CustPropJoinIds
-ArrayOf<CAdministration.documents> mSetCustomer.DocRefIds
-ArrayOf<CAdministration.documents>* mGetCustomer.DocRefIds
-ArrayOf<CAdministration.images> mSetCustomer.ImageRefIds
-ArrayOf<CAdministration.images>* mGetCustomer.ImageRefIds
-CProperty.tenant mSetCustomer.TenancyId
-CProperty.tenant* mGetCustomer.TenancyId
-CCustomer.applicant mSetCustomer.ApplicantId
-CCustomer.applicant* mGetCustomer.ApplicantId
-const String& mSetCustomerType.CustomerTypeId
-String* mGetCustomerType.CustomerTypeId
-const String& mSetCustomerType.Description
-String* mGetCustomerType.Description
-const String& mSetCustomerType.CustTypeName
-String* mGetCustomerType.CustTypeName
-CRegister.businessChannelOwner mSetCustomerType.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetCustomerType.BusinessChannelOwnerId
-ArrayOf<CAdministration.documents> mSetCustomerType.DocRefs
-ArrayOf<CAdministration.documents>* mGetCustomerType.DocRefs
-ArrayOf<CAdministration.images> mSetCustomerType.ImageRefs
-ArrayOf<CAdministration.images>* mGetCustomerType.ImageRefs
-ArrayOf<CAdministration.audio> mSetCustomerType.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetCustomerType.AudioRefIds
-ArrayOf<CAdministration.video> mSetCustomerType.VideoRefs
-ArrayOf<CAdministration.video>* mGetCustomerType.VideoRefs
-const String& mSetCustomerCustomerJoin.CustCustomerJoinId
-String* mGetCustomerCustomerJoin.CustCustomerJoinId
-ArrayOf<CCustomer.customer> mSetCustomerCustomerJoin.CustomerIds
-ArrayOf<CCustomer.customer>* mGetCustomerCustomerJoin.CustomerIds
-ArrayOf<Double> mSetCustomerCustomerJoin.PercentageShares
-ArrayOf<Double>* mGetCustomerCustomerJoin.PercentageShares
-ArrayOf<CProperty.property> mSetCustomerCustomerJoin.PropertyId
-ArrayOf<CProperty.property>* mGetCustomerCustomerJoin.PropertyId
-ArrayOf<CProperty.project> mSetCustomerCustomerJoin.ProjectId
-ArrayOf<CProperty.project>* mGetCustomerCustomerJoin.ProjectId
-ArrayOf<CProperty.program> mSetCustomerCustomerJoin.ProgramId
-ArrayOf<CProperty.program>* mGetCustomerCustomerJoin.ProgramId
-CRegister.businessChannelOwner mSetCustomerCustomerJoin.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetCustomerCustomerJoin.BusinessChannelOwnerId
-const String& mSetApplicant.ApplicantId
-String* mGetApplicant.ApplicantId
-ArrayOf<Int32> mSetApplicant.PostcodesAppliedFor
-ArrayOf<Int32>* mGetApplicant.PostcodesAppliedFor
+const String& mSetCustomer_ABN
+String* mGetCustomer_ABN
+ArrayOf<const String&> mSetCustomer_ContactedWithDetails
+ArrayOf<String>* mGetCustomer_ContactedWithDetails
+CRegister.businessChannelOwner mSetCustomer_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetCustomer_BusinessChannelOwnerId
+ArrayOf<CProperty.propertyOwner> mSetCustomer_PropertyOwnerIds
+ArrayOf<CProperty.propertyOwner>* mGetCustomer_PropertyOwnerIds
+ArrayOf<CProperty.customerpropertyJoin> mSetCustomer_CustPropJoinIds
+ArrayOf<CProperty.customerpropertyJoin>* mGetCustomer_CustPropJoinIds
+ArrayOf<CAdministration.documents> mSetCustomer_DocRefIds
+ArrayOf<CAdministration.documents>* mGetCustomer_DocRefIds
+ArrayOf<CAdministration.images> mSetCustomer_ImageRefIds
+ArrayOf<CAdministration.images>* mGetCustomer_ImageRefIds
+CProperty.tenant mSetCustomer_TenancyId
+CProperty.tenant* mGetCustomer_TenancyId
+CCustomer.applicant mSetCustomer_ApplicantId
+CCustomer.applicant* mGetCustomer_ApplicantId
+const String& mSetCustomerType_CustomerTypeId
+String* mGetCustomerType_CustomerTypeId
+const String& mSetCustomerType_Description
+String* mGetCustomerType_Description
+const String& mSetCustomerType_CustTypeName
+String* mGetCustomerType_CustTypeName
+CRegister.businessChannelOwner mSetCustomerType_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetCustomerType_BusinessChannelOwnerId
+ArrayOf<CAdministration.documents> mSetCustomerType_DocRefs
+ArrayOf<CAdministration.documents>* mGetCustomerType_DocRefs
+ArrayOf<CAdministration.images> mSetCustomerType_ImageRefs
+ArrayOf<CAdministration.images>* mGetCustomerType_ImageRefs
+ArrayOf<CAdministration.audio> mSetCustomerType_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetCustomerType_AudioRefIds
+ArrayOf<CAdministration.video> mSetCustomerType_VideoRefs
+ArrayOf<CAdministration.video>* mGetCustomerType_VideoRefs
+const String& mSetCustomerCustomerJoin_CustCustomerJoinId
+String* mGetCustomerCustomerJoin_CustCustomerJoinId
+ArrayOf<CCustomer.customer> mSetCustomerCustomerJoin_CustomerIds
+ArrayOf<CCustomer.customer>* mGetCustomerCustomerJoin_CustomerIds
+ArrayOf<Double> mSetCustomerCustomerJoin_PercentageShares
+ArrayOf<Double>* mGetCustomerCustomerJoin_PercentageShares
+ArrayOf<CProperty.property> mSetCustomerCustomerJoin_PropertyId
+ArrayOf<CProperty.property>* mGetCustomerCustomerJoin_PropertyId
+ArrayOf<CProperty.project> mSetCustomerCustomerJoin_ProjectId
+ArrayOf<CProperty.project>* mGetCustomerCustomerJoin_ProjectId
+ArrayOf<CProperty.program> mSetCustomerCustomerJoin_ProgramId
+ArrayOf<CProperty.program>* mGetCustomerCustomerJoin_ProgramId
+CRegister.businessChannelOwner mSetCustomerCustomerJoin_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetCustomerCustomerJoin_BusinessChannelOwnerId
+const String& mSetApplicant_ApplicantId
+String* mGetApplicant_ApplicantId
+ArrayOf<Int32> mSetApplicant_PostcodesAppliedFor
+ArrayOf<Int32>* mGetApplicant_PostcodesAppliedFor
 Int32 mSetApplicant.BedroomsSought
 Int32* mGetApplicant.BedroomsSought
-ArrayOf<const String&> mSetApplicant.AmenitiesRequested
-ArrayOf<String>* mGetApplicant.AmenitiesRequested
-const String& mSetApplicant.FirstName
-String* mGetApplicant.FirstName
-const String& mSetApplicant.LastName
-String* mGetApplicant.LastName
-const String& mSetApplicant.ResidentialAddress
-String* mGetApplicant.ResidentialAddress
-const String& mSetApplicant.PostalAddress
-String* mGetApplicant.PostalAddress
-const String& mSetApplicant.Email
-String* mGetApplicant.Email
+ArrayOf<const String&> mSetApplicant_AmenitiesRequested
+ArrayOf<String>* mGetApplicant_AmenitiesRequested
+const String& mSetApplicant_FirstName
+String* mGetApplicant_FirstName
+const String& mSetApplicant_LastName
+String* mGetApplicant_LastName
+const String& mSetApplicant_ResidentialAddress
+String* mGetApplicant_ResidentialAddress
+const String& mSetApplicant_PostalAddress
+String* mGetApplicant_PostalAddress
+const String& mSetApplicant_Email
+String* mGetApplicant_Email
 Int32 mSetApplicant.HomePhone
 Int32* mGetApplicant.HomePhone
 Int32 mSetApplicant.MobilePhone
 Int32* mGetApplicant.MobilePhone
 Int32 mSetApplicant.WorkPhone
 Int32* mGetApplicant.WorkPhone
-ArrayOf<const String&> mSetApplicant.ContactedWithDetails
-ArrayOf<String>* mGetApplicant.ContactedWithDetails
-CCustomer.application mSetApplicant.ApplicationId
-CCustomer.application* mGetApplicant.ApplicationId
-CAdministration.branch mSetApplicant.BranchId
-CAdministration.branch* mGetApplicant.BranchId
-CCustomer.customer mSetApplicant.CustomerId
-CCustomer.customer* mGetApplicant.CustomerId
-ArrayOf<CProperty.property> mSetApplicant.PropertyIds
-ArrayOf<CProperty.property>* mGetApplicant.PropertyIds
-CProperty.tenant mSetApplicant.TenancyId
-CProperty.tenant* mGetApplicant.TenancyId
-ArrayOf<CAdministration.documents> mSetApplicant.DocRefIds
-ArrayOf<CAdministration.documents>* mGetApplicant.DocRefIds
-ArrayOf<CAdministration.images> mSetApplicant.ImageRefIds
-ArrayOf<CAdministration.images>* mGetApplicant.ImageRefIds
-CRegister.businessChannelOwner mSetApplicant.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetApplicant.BusinessChannelOwnerId
-const String& mSetApplication.ApplicationId
-String* mGetApplication.ApplicationId
+ArrayOf<const String&> mSetApplicant_ContactedWithDetails
+ArrayOf<String>* mGetApplicant_ContactedWithDetails
+CCustomer.application mSetApplicant_ApplicationId
+CCustomer.application* mGetApplicant_ApplicationId
+CAdministration.branch mSetApplicant_BranchId
+CAdministration.branch* mGetApplicant_BranchId
+CCustomer.customer mSetApplicant_CustomerId
+CCustomer.customer* mGetApplicant_CustomerId
+ArrayOf<CProperty.property> mSetApplicant_PropertyIds
+ArrayOf<CProperty.property>* mGetApplicant_PropertyIds
+CProperty.tenant mSetApplicant_TenancyId
+CProperty.tenant* mGetApplicant_TenancyId
+ArrayOf<CAdministration.documents> mSetApplicant_DocRefIds
+ArrayOf<CAdministration.documents>* mGetApplicant_DocRefIds
+ArrayOf<CAdministration.images> mSetApplicant_ImageRefIds
+ArrayOf<CAdministration.images>* mGetApplicant_ImageRefIds
+CRegister.businessChannelOwner mSetApplicant_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetApplicant_BusinessChannelOwnerId
+const String& mSetApplication_ApplicationId
+String* mGetApplication_ApplicationId
 Boolean mSetApplication.SocialHousingApplication
 Boolean* mGetApplication.SocialHousingApplication
 Boolean mSetApplication.NDIS
@@ -2085,388 +2085,388 @@ Boolean mSetApplication.RentToBuyApplication
 Boolean* mGetApplication.RentToBuyApplication
 Boolean mSetApplication.MarketRateHousingApplication
 Boolean* mGetApplication.MarketRateHousingApplication
-const String& mSetApplication.HeadApplicantFirstName
-String* mGetApplication.HeadApplicantFirstName
-const String& mSetApplication.HeadApplicantLastName
-String* mGetApplication.HeadApplicantLastName
-const String& mSetApplication.HeadApplicantAddressLine1
-String* mGetApplication.HeadApplicantAddressLine1
-const String& mSetApplication.HeadApplicantAddressLine2
-String* mGetApplication.HeadApplicantAddressLine2
-const String& mSetApplication.HeadApplicantSuburb
-String* mGetApplication.HeadApplicantSuburb
-const String& mSetApplication.HeadApplicantPostcode
-String* mGetApplication.HeadApplicantPostcode
-const String& mSetApplication.HeadApplicantHomePhone
-String* mGetApplication.HeadApplicantHomePhone
-const String& mSetApplication.HeadApplicantWorkPhone
-String* mGetApplication.HeadApplicantWorkPhone
-const String& mSetApplication.HeadApplicantMobilePhone
-String* mGetApplication.HeadApplicantMobilePhone
-const String& mSetApplication.HeadApplicantEmail
-String* mGetApplication.HeadApplicantEmail
-const String& mSetApplication.HeadApplicantDOB
-String* mGetApplication.HeadApplicantDOB
-ArrayOf<const String&> mSetApplication.StreetsSought
-ArrayOf<String>* mGetApplication.StreetsSought
-ArrayOf<Int32> mSetApplication.PostcodesSought
-ArrayOf<Int32>* mGetApplication.PostcodesSought
-ArrayOf<Int32> mSetApplication.BedroomRangeRequired
-ArrayOf<Int32>* mGetApplication.BedroomRangeRequired
-ArrayOf<const String&> mSetApplication.AmenitiesRequested
-ArrayOf<String>* mGetApplication.AmenitiesRequested
-ArrayOf<Double> mSetApplication.RangeForRent
-ArrayOf<Double>* mGetApplication.RangeForRent
-CHelper.billingInterval mSetApplication.Interval
-CHelper.billingInterval* mGetApplication.Interval
-ArrayOf<const String&> mSetApplication.SecondaryApplicantFirstNames
-ArrayOf<String>* mGetApplication.SecondaryApplicantFirstNames
-ArrayOf<const String&> mSetApplication.SecondaryApplicantLastNames
-ArrayOf<String>* mGetApplication.SecondaryApplicantLastNames
-ArrayOf<const String&> mSetApplication.PartnerIds
-ArrayOf<String>* mGetApplication.PartnerIds
-ArrayOf<CCustomer.applicant> mSetApplication.ApplicantIds
-ArrayOf<CCustomer.applicant>* mGetApplication.ApplicantIds
-ArrayOf<CCustomer.customer> mSetApplication.CustomerIds
-ArrayOf<CCustomer.customer>* mGetApplication.CustomerIds
-ArrayOf<CProperty.property> mSetApplication.PropertyIds
-ArrayOf<CProperty.property>* mGetApplication.PropertyIds
-CRegister.businessChannelOwner mSetApplication.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetApplication.BusinessChannelOwnerId
-CAdministration.branch mSetApplication.BranchId
-CAdministration.branch* mGetApplication.BranchId
-CAdministration.department mSetApplication.DeptId
-CAdministration.department* mGetApplication.DeptId
-ArrayOf<CAdministration.documents> mSetApplication.DocRefs
-ArrayOf<CAdministration.documents>* mGetApplication.DocRefs
-ArrayOf<CAdministration.images> mSetApplication.ImageRefs
-ArrayOf<CAdministration.images>* mGetApplication.ImageRefs
-ArrayOf<CAdministration.audio> mSetApplication.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetApplication.AudioRefIds
-const String& mSetStudentAccommodationBookings.BookingId
-String* mGetStudentAccommodationBookings.BookingId
-const String& mSetStudentAccommodationBookings.PropertyAddressString
-String* mGetStudentAccommodationBookings.PropertyAddressString
-const String& mSetStudentAccommodationBookings.UnitNumber
-String* mGetStudentAccommodationBookings.UnitNumber
-const String& mSetStudentAccommodationBookings.PreInspected
-String* mGetStudentAccommodationBookings.PreInspected
-const String& mSetStudentAccommodationBookings.DateLeaseStarts
-String* mGetStudentAccommodationBookings.DateLeaseStarts
-ArrayOf<const String&> mSetStudentAccommodationBookings.MidTermInspections
-ArrayOf<String>* mGetStudentAccommodationBookings.MidTermInspections
-const String& mSetStudentAccommodationBookings.DateLeaseEnds
-String* mGetStudentAccommodationBookings.DateLeaseEnds
-const String& mSetStudentAccommodationBookings.PostInspected
-String* mGetStudentAccommodationBookings.PostInspected
-CHelper.billingInterval mSetStudentAccommodationBookings.PaymentInterval
-CHelper.billingInterval* mGetStudentAccommodationBookings.PaymentInterval
+const String& mSetApplication_HeadApplicantFirstName
+String* mGetApplication_HeadApplicantFirstName
+const String& mSetApplication_HeadApplicantLastName
+String* mGetApplication_HeadApplicantLastName
+const String& mSetApplication_HeadApplicantAddressLine1
+String* mGetApplication_HeadApplicantAddressLine1
+const String& mSetApplication_HeadApplicantAddressLine2
+String* mGetApplication_HeadApplicantAddressLine2
+const String& mSetApplication_HeadApplicantSuburb
+String* mGetApplication_HeadApplicantSuburb
+const String& mSetApplication_HeadApplicantPostcode
+String* mGetApplication_HeadApplicantPostcode
+const String& mSetApplication_HeadApplicantHomePhone
+String* mGetApplication_HeadApplicantHomePhone
+const String& mSetApplication_HeadApplicantWorkPhone
+String* mGetApplication_HeadApplicantWorkPhone
+const String& mSetApplication_HeadApplicantMobilePhone
+String* mGetApplication_HeadApplicantMobilePhone
+const String& mSetApplication_HeadApplicantEmail
+String* mGetApplication_HeadApplicantEmail
+const String& mSetApplication_HeadApplicantDOB
+String* mGetApplication_HeadApplicantDOB
+ArrayOf<const String&> mSetApplication_StreetsSought
+ArrayOf<String>* mGetApplication_StreetsSought
+ArrayOf<Int32> mSetApplication_PostcodesSought
+ArrayOf<Int32>* mGetApplication_PostcodesSought
+ArrayOf<Int32> mSetApplication_BedroomRangeRequired
+ArrayOf<Int32>* mGetApplication_BedroomRangeRequired
+ArrayOf<const String&> mSetApplication_AmenitiesRequested
+ArrayOf<String>* mGetApplication_AmenitiesRequested
+ArrayOf<Double> mSetApplication_RangeForRent
+ArrayOf<Double>* mGetApplication_RangeForRent
+CHelper.billingInterval mSetApplication_Interval
+CHelper.billingInterval* mGetApplication_Interval
+ArrayOf<const String&> mSetApplication_SecondaryApplicantFirstNames
+ArrayOf<String>* mGetApplication_SecondaryApplicantFirstNames
+ArrayOf<const String&> mSetApplication_SecondaryApplicantLastNames
+ArrayOf<String>* mGetApplication_SecondaryApplicantLastNames
+ArrayOf<const String&> mSetApplication_PartnerIds
+ArrayOf<String>* mGetApplication_PartnerIds
+ArrayOf<CCustomer.applicant> mSetApplication_ApplicantIds
+ArrayOf<CCustomer.applicant>* mGetApplication_ApplicantIds
+ArrayOf<CCustomer.customer> mSetApplication_CustomerIds
+ArrayOf<CCustomer.customer>* mGetApplication_CustomerIds
+ArrayOf<CProperty.property> mSetApplication_PropertyIds
+ArrayOf<CProperty.property>* mGetApplication_PropertyIds
+CRegister.businessChannelOwner mSetApplication_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetApplication_BusinessChannelOwnerId
+CAdministration.branch mSetApplication_BranchId
+CAdministration.branch* mGetApplication_BranchId
+CAdministration.department mSetApplication_DeptId
+CAdministration.department* mGetApplication_DeptId
+ArrayOf<CAdministration.documents> mSetApplication_DocRefs
+ArrayOf<CAdministration.documents>* mGetApplication_DocRefs
+ArrayOf<CAdministration.images> mSetApplication_ImageRefs
+ArrayOf<CAdministration.images>* mGetApplication_ImageRefs
+ArrayOf<CAdministration.audio> mSetApplication_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetApplication_AudioRefIds
+const String& mSetStudentAccommodationBookings_BookingId
+String* mGetStudentAccommodationBookings_BookingId
+const String& mSetStudentAccommodationBookings_PropertyAddressString
+String* mGetStudentAccommodationBookings_PropertyAddressString
+const String& mSetStudentAccommodationBookings_UnitNumber
+String* mGetStudentAccommodationBookings_UnitNumber
+const String& mSetStudentAccommodationBookings_PreInspected
+String* mGetStudentAccommodationBookings_PreInspected
+const String& mSetStudentAccommodationBookings_DateLeaseStarts
+String* mGetStudentAccommodationBookings_DateLeaseStarts
+ArrayOf<const String&> mSetStudentAccommodationBookings_MidTermInspections
+ArrayOf<String>* mGetStudentAccommodationBookings_MidTermInspections
+const String& mSetStudentAccommodationBookings_DateLeaseEnds
+String* mGetStudentAccommodationBookings_DateLeaseEnds
+const String& mSetStudentAccommodationBookings_PostInspected
+String* mGetStudentAccommodationBookings_PostInspected
+CHelper.billingInterval mSetStudentAccommodationBookings_PaymentInterval
+CHelper.billingInterval* mGetStudentAccommodationBookings_PaymentInterval
 Double mSetStudentAccommodationBookings.RentalAmountAgreed
-Double* mGetStudentAccommodationBookings.RentalAmountAgreed
-CRegister.businessChannelOwner mSetStudentAccommodationBookings.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetStudentAccommodationBookings.BusinessChannelOwnerId
-CAdministration.branch mSetStudentAccommodationBookings.BranchId
-CAdministration.branch* mGetStudentAccommodationBookings.BranchId
-CAdministration.department mSetStudentAccommodationBookings.DeptId
-CAdministration.department* mGetStudentAccommodationBookings.DeptId
-CProperty.property mSetStudentAccommodationBookings.PropertyId
-CProperty.property* mGetStudentAccommodationBookings.PropertyId
-CCustomer.application mSetStudentAccommodationBookings.ApplicationId
-CCustomer.application* mGetStudentAccommodationBookings.ApplicationId
-CCustomer.applicant mSetStudentAccommodationBookings.ApplicantId
-CCustomer.applicant* mGetStudentAccommodationBookings.ApplicantId
-CProperty.allocation mSetStudentAccommodationBookings.AllocationId
-CProperty.allocation* mGetStudentAccommodationBookings.AllocationId
-CProperty.tenant mSetStudentAccommodationBookings.TenancyId
-CProperty.tenant* mGetStudentAccommodationBookings.TenancyId
-ArrayOf<CAdministration.documents> mSetStudentAccommodationBookings.DocRefIds
-ArrayOf<CAdministration.documents>* mGetStudentAccommodationBookings.DocRefIds
-ArrayOf<CAdministration.images> mSetStudentAccommodationBookings.ImageRefIds
-ArrayOf<CAdministration.images>* mGetStudentAccommodationBookings.ImageRefIds
-const String& mSetStudentAccommodationBookings.BookingId
-String* mGetStudentAccommodationBookings.BookingId
-const String& mSetStudentAccommodationBookings.PropertyAddressString
-String* mGetStudentAccommodationBookings.PropertyAddressString
-const String& mSetStudentAccommodationBookings.UnitNumber
-String* mGetStudentAccommodationBookings.UnitNumber
-const String& mSetStudentAccommodationBookings.PreInspected
-String* mGetStudentAccommodationBookings.PreInspected
-const String& mSetStudentAccommodationBookings.DateLeaseStarts
-String* mGetStudentAccommodationBookings.DateLeaseStarts
-ArrayOf<const String&> mSetStudentAccommodationBookings.MidTermInspections
-ArrayOf<String>* mGetStudentAccommodationBookings.MidTermInspections
-const String& mSetStudentAccommodationBookings.DateLeaseEnds
-String* mGetStudentAccommodationBookings.DateLeaseEnds
-const String& mSetStudentAccommodationBookings.PostInspected
-String* mGetStudentAccommodationBookings.PostInspected
-CHelper.billingInterval mSetStudentAccommodationBookings.PaymentInterval
-CHelper.billingInterval* mGetStudentAccommodationBookings.PaymentInterval
+Double* mGetStudentAccommodationBookings_RentalAmountAgreed
+CRegister.businessChannelOwner mSetStudentAccommodationBookings_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetStudentAccommodationBookings_BusinessChannelOwnerId
+CAdministration.branch mSetStudentAccommodationBookings_BranchId
+CAdministration.branch* mGetStudentAccommodationBookings_BranchId
+CAdministration.department mSetStudentAccommodationBookings_DeptId
+CAdministration.department* mGetStudentAccommodationBookings_DeptId
+CProperty.property mSetStudentAccommodationBookings_PropertyId
+CProperty.property* mGetStudentAccommodationBookings_PropertyId
+CCustomer.application mSetStudentAccommodationBookings_ApplicationId
+CCustomer.application* mGetStudentAccommodationBookings_ApplicationId
+CCustomer.applicant mSetStudentAccommodationBookings_ApplicantId
+CCustomer.applicant* mGetStudentAccommodationBookings_ApplicantId
+CProperty.allocation mSetStudentAccommodationBookings_AllocationId
+CProperty.allocation* mGetStudentAccommodationBookings_AllocationId
+CProperty.tenant mSetStudentAccommodationBookings_TenancyId
+CProperty.tenant* mGetStudentAccommodationBookings_TenancyId
+ArrayOf<CAdministration.documents> mSetStudentAccommodationBookings_DocRefIds
+ArrayOf<CAdministration.documents>* mGetStudentAccommodationBookings_DocRefIds
+ArrayOf<CAdministration.images> mSetStudentAccommodationBookings_ImageRefIds
+ArrayOf<CAdministration.images>* mGetStudentAccommodationBookings_ImageRefIds
+const String& mSetStudentAccommodationBookings_BookingId
+String* mGetStudentAccommodationBookings_BookingId
+const String& mSetStudentAccommodationBookings_PropertyAddressString
+String* mGetStudentAccommodationBookings_PropertyAddressString
+const String& mSetStudentAccommodationBookings_UnitNumber
+String* mGetStudentAccommodationBookings_UnitNumber
+const String& mSetStudentAccommodationBookings_PreInspected
+String* mGetStudentAccommodationBookings_PreInspected
+const String& mSetStudentAccommodationBookings_DateLeaseStarts
+String* mGetStudentAccommodationBookings_DateLeaseStarts
+ArrayOf<const String&> mSetStudentAccommodationBookings_MidTermInspections
+ArrayOf<String>* mGetStudentAccommodationBookings_MidTermInspections
+const String& mSetStudentAccommodationBookings_DateLeaseEnds
+String* mGetStudentAccommodationBookings_DateLeaseEnds
+const String& mSetStudentAccommodationBookings_PostInspected
+String* mGetStudentAccommodationBookings_PostInspected
+CHelper.billingInterval mSetStudentAccommodationBookings_PaymentInterval
+CHelper.billingInterval* mGetStudentAccommodationBookings_PaymentInterval
 Double mSetStudentAccommodationBookings.RentalAmountAgreed
-Double* mGetStudentAccommodationBookings.RentalAmountAgreed
-CRegister.businessChannelOwner mSetStudentAccommodationBookings.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetStudentAccommodationBookings.BusinessChannelOwnerId
-CAdministration.branch mSetStudentAccommodationBookings.BranchId
-CAdministration.branch* mGetStudentAccommodationBookings.BranchId
-CAdministration.department mSetStudentAccommodationBookings.DeptId
-CAdministration.department* mGetStudentAccommodationBookings.DeptId
-CProperty.property mSetStudentAccommodationBookings.PropertyId
-CProperty.property* mGetStudentAccommodationBookings.PropertyId
-CCustomer.application mSetStudentAccommodationBookings.ApplicationId
-CCustomer.application* mGetStudentAccommodationBookings.ApplicationId
-CCustomer.applicant mSetStudentAccommodationBookings.ApplicantId
-CCustomer.applicant* mGetStudentAccommodationBookings.ApplicantId
-CProperty.allocation mSetStudentAccommodationBookings.AllocationId
-CProperty.allocation* mGetStudentAccommodationBookings.AllocationId
-CProperty.tenant mSetStudentAccommodationBookings.TenancyId
-CProperty.tenant* mGetStudentAccommodationBookings.TenancyId
-ArrayOf<CAdministration.documents> mSetStudentAccommodationBookings.DocRefIds
-ArrayOf<CAdministration.documents>* mGetStudentAccommodationBookings.DocRefIds
-ArrayOf<CAdministration.images> mSetStudentAccommodationBookings.ImageRefIds
-ArrayOf<CAdministration.images>* mGetStudentAccommodationBookings.ImageRefIds
-const String& mSetStudentAccommodationBookings.CustTenantJoinId
-String* mGetStudentAccommodationBookings.CustTenantJoinId
-CCustomer.customer mSetStudentAccommodationBookings.CustomerId
-CCustomer.customer* mGetStudentAccommodationBookings.CustomerId
-CProperty.tenant mSetStudentAccommodationBookings.TenancyId
-CProperty.tenant* mGetStudentAccommodationBookings.TenancyId
-CRegister.businessChannelOwner mSetStudentAccommodationBookings.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetStudentAccommodationBookings.BusinessChannelOwnerId
-const String& mSetTemporaryAccommodationBookings.BookingId
-String* mGetTemporaryAccommodationBookings.BookingId
-const String& mSetTemporaryAccommodationBookings.PropertyAddressString
-String* mGetTemporaryAccommodationBookings.PropertyAddressString
-const String& mSetTemporaryAccommodationBookings.UnitNumber
-String* mGetTemporaryAccommodationBookings.UnitNumber
-const String& mSetTemporaryAccommodationBookings.PreInspected
-String* mGetTemporaryAccommodationBookings.PreInspected
-const String& mSetTemporaryAccommodationBookings.DateLeaseStarts
-String* mGetTemporaryAccommodationBookings.DateLeaseStarts
-ArrayOf<const String&> mSetTemporaryAccommodationBookings.MidTermInspections
-ArrayOf<String>* mGetTemporaryAccommodationBookings.MidTermInspections
-const String& mSetTemporaryAccommodationBookings.DateLeaseEnds
-String* mGetTemporaryAccommodationBookings.DateLeaseEnds
-const String& mSetTemporaryAccommodationBookings.PostInspected
-String* mGetTemporaryAccommodationBookings.PostInspected
-CHelper.billingInterval mSetTemporaryAccommodationBookings.PaymentInterval
-CHelper.billingInterval* mGetTemporaryAccommodationBookings.PaymentInterval
+Double* mGetStudentAccommodationBookings_RentalAmountAgreed
+CRegister.businessChannelOwner mSetStudentAccommodationBookings_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetStudentAccommodationBookings_BusinessChannelOwnerId
+CAdministration.branch mSetStudentAccommodationBookings_BranchId
+CAdministration.branch* mGetStudentAccommodationBookings_BranchId
+CAdministration.department mSetStudentAccommodationBookings_DeptId
+CAdministration.department* mGetStudentAccommodationBookings_DeptId
+CProperty.property mSetStudentAccommodationBookings_PropertyId
+CProperty.property* mGetStudentAccommodationBookings_PropertyId
+CCustomer.application mSetStudentAccommodationBookings_ApplicationId
+CCustomer.application* mGetStudentAccommodationBookings_ApplicationId
+CCustomer.applicant mSetStudentAccommodationBookings_ApplicantId
+CCustomer.applicant* mGetStudentAccommodationBookings_ApplicantId
+CProperty.allocation mSetStudentAccommodationBookings_AllocationId
+CProperty.allocation* mGetStudentAccommodationBookings_AllocationId
+CProperty.tenant mSetStudentAccommodationBookings_TenancyId
+CProperty.tenant* mGetStudentAccommodationBookings_TenancyId
+ArrayOf<CAdministration.documents> mSetStudentAccommodationBookings_DocRefIds
+ArrayOf<CAdministration.documents>* mGetStudentAccommodationBookings_DocRefIds
+ArrayOf<CAdministration.images> mSetStudentAccommodationBookings_ImageRefIds
+ArrayOf<CAdministration.images>* mGetStudentAccommodationBookings_ImageRefIds
+const String& mSetStudentAccommodationBookings_CustTenantJoinId
+String* mGetStudentAccommodationBookings_CustTenantJoinId
+CCustomer.customer mSetStudentAccommodationBookings_CustomerId
+CCustomer.customer* mGetStudentAccommodationBookings_CustomerId
+CProperty.tenant mSetStudentAccommodationBookings_TenancyId
+CProperty.tenant* mGetStudentAccommodationBookings_TenancyId
+CRegister.businessChannelOwner mSetStudentAccommodationBookings_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetStudentAccommodationBookings_BusinessChannelOwnerId
+const String& mSetTemporaryAccommodationBookings_BookingId
+String* mGetTemporaryAccommodationBookings_BookingId
+const String& mSetTemporaryAccommodationBookings_PropertyAddressString
+String* mGetTemporaryAccommodationBookings_PropertyAddressString
+const String& mSetTemporaryAccommodationBookings_UnitNumber
+String* mGetTemporaryAccommodationBookings_UnitNumber
+const String& mSetTemporaryAccommodationBookings_PreInspected
+String* mGetTemporaryAccommodationBookings_PreInspected
+const String& mSetTemporaryAccommodationBookings_DateLeaseStarts
+String* mGetTemporaryAccommodationBookings_DateLeaseStarts
+ArrayOf<const String&> mSetTemporaryAccommodationBookings_MidTermInspections
+ArrayOf<String>* mGetTemporaryAccommodationBookings_MidTermInspections
+const String& mSetTemporaryAccommodationBookings_DateLeaseEnds
+String* mGetTemporaryAccommodationBookings_DateLeaseEnds
+const String& mSetTemporaryAccommodationBookings_PostInspected
+String* mGetTemporaryAccommodationBookings_PostInspected
+CHelper.billingInterval mSetTemporaryAccommodationBookings_PaymentInterval
+CHelper.billingInterval* mGetTemporaryAccommodationBookings_PaymentInterval
 Double mSetTemporaryAccommodationBookings.RentalAmountAgreed
-Double* mGetTemporaryAccommodationBookings.RentalAmountAgreed
-CRegister.businessChannelOwner mSetTemporaryAccommodationBookings.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetTemporaryAccommodationBookings.BusinessChannelOwnerId
-CAdministration.branch mSetTemporaryAccommodationBookings.BranchId
-CAdministration.branch* mGetTemporaryAccommodationBookings.BranchId
-CAdministration.department mSetTemporaryAccommodationBookings.DeptId
-CAdministration.department* mGetTemporaryAccommodationBookings.DeptId
-CProperty.property mSetTemporaryAccommodationBookings.PropertyId
-CProperty.property* mGetTemporaryAccommodationBookings.PropertyId
-CCustomer.application mSetTemporaryAccommodationBookings.ApplicationId
-CCustomer.application* mGetTemporaryAccommodationBookings.ApplicationId
-CCustomer.applicant mSetTemporaryAccommodationBookings.ApplicantId
-CCustomer.applicant* mGetTemporaryAccommodationBookings.ApplicantId
-CProperty.allocation mSetTemporaryAccommodationBookings.AllocationId
-CProperty.allocation* mGetTemporaryAccommodationBookings.AllocationId
-CProperty.tenant mSetTemporaryAccommodationBookings.TenancyId
-CProperty.tenant* mGetTemporaryAccommodationBookings.TenancyId
-ArrayOf<CAdministration.documents> mSetTemporaryAccommodationBookings.DocRefIds
-ArrayOf<CAdministration.documents>* mGetTemporaryAccommodationBookings.DocRefIds
-ArrayOf<CAdministration.images> mSetTemporaryAccommodationBookings.ImageRefIds
-ArrayOf<CAdministration.images>* mGetTemporaryAccommodationBookings.ImageRefIds
-const String& mSetTemporaryAccommodationBookings.BookingId
-String* mGetTemporaryAccommodationBookings.BookingId
-const String& mSetTemporaryAccommodationBookings.PropertyAddressString
-String* mGetTemporaryAccommodationBookings.PropertyAddressString
-const String& mSetTemporaryAccommodationBookings.UnitNumber
-String* mGetTemporaryAccommodationBookings.UnitNumber
-const String& mSetTemporaryAccommodationBookings.PreInspected
-String* mGetTemporaryAccommodationBookings.PreInspected
-const String& mSetTemporaryAccommodationBookings.DateLeaseStarts
-String* mGetTemporaryAccommodationBookings.DateLeaseStarts
-ArrayOf<const String&> mSetTemporaryAccommodationBookings.MidTermInspections
-ArrayOf<String>* mGetTemporaryAccommodationBookings.MidTermInspections
-const String& mSetTemporaryAccommodationBookings.DateLeaseEnds
-String* mGetTemporaryAccommodationBookings.DateLeaseEnds
-const String& mSetTemporaryAccommodationBookings.PostInspected
-String* mGetTemporaryAccommodationBookings.PostInspected
-CHelper.billingInterval mSetTemporaryAccommodationBookings.PaymentInterval
-CHelper.billingInterval* mGetTemporaryAccommodationBookings.PaymentInterval
+Double* mGetTemporaryAccommodationBookings_RentalAmountAgreed
+CRegister.businessChannelOwner mSetTemporaryAccommodationBookings_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetTemporaryAccommodationBookings_BusinessChannelOwnerId
+CAdministration.branch mSetTemporaryAccommodationBookings_BranchId
+CAdministration.branch* mGetTemporaryAccommodationBookings_BranchId
+CAdministration.department mSetTemporaryAccommodationBookings_DeptId
+CAdministration.department* mGetTemporaryAccommodationBookings_DeptId
+CProperty.property mSetTemporaryAccommodationBookings_PropertyId
+CProperty.property* mGetTemporaryAccommodationBookings_PropertyId
+CCustomer.application mSetTemporaryAccommodationBookings_ApplicationId
+CCustomer.application* mGetTemporaryAccommodationBookings_ApplicationId
+CCustomer.applicant mSetTemporaryAccommodationBookings_ApplicantId
+CCustomer.applicant* mGetTemporaryAccommodationBookings_ApplicantId
+CProperty.allocation mSetTemporaryAccommodationBookings_AllocationId
+CProperty.allocation* mGetTemporaryAccommodationBookings_AllocationId
+CProperty.tenant mSetTemporaryAccommodationBookings_TenancyId
+CProperty.tenant* mGetTemporaryAccommodationBookings_TenancyId
+ArrayOf<CAdministration.documents> mSetTemporaryAccommodationBookings_DocRefIds
+ArrayOf<CAdministration.documents>* mGetTemporaryAccommodationBookings_DocRefIds
+ArrayOf<CAdministration.images> mSetTemporaryAccommodationBookings_ImageRefIds
+ArrayOf<CAdministration.images>* mGetTemporaryAccommodationBookings_ImageRefIds
+const String& mSetTemporaryAccommodationBookings_BookingId
+String* mGetTemporaryAccommodationBookings_BookingId
+const String& mSetTemporaryAccommodationBookings_PropertyAddressString
+String* mGetTemporaryAccommodationBookings_PropertyAddressString
+const String& mSetTemporaryAccommodationBookings_UnitNumber
+String* mGetTemporaryAccommodationBookings_UnitNumber
+const String& mSetTemporaryAccommodationBookings_PreInspected
+String* mGetTemporaryAccommodationBookings_PreInspected
+const String& mSetTemporaryAccommodationBookings_DateLeaseStarts
+String* mGetTemporaryAccommodationBookings_DateLeaseStarts
+ArrayOf<const String&> mSetTemporaryAccommodationBookings_MidTermInspections
+ArrayOf<String>* mGetTemporaryAccommodationBookings_MidTermInspections
+const String& mSetTemporaryAccommodationBookings_DateLeaseEnds
+String* mGetTemporaryAccommodationBookings_DateLeaseEnds
+const String& mSetTemporaryAccommodationBookings_PostInspected
+String* mGetTemporaryAccommodationBookings_PostInspected
+CHelper.billingInterval mSetTemporaryAccommodationBookings_PaymentInterval
+CHelper.billingInterval* mGetTemporaryAccommodationBookings_PaymentInterval
 Double mSetTemporaryAccommodationBookings.RentalAmountAgreed
-Double* mGetTemporaryAccommodationBookings.RentalAmountAgreed
-CRegister.businessChannelOwner mSetTemporaryAccommodationBookings.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetTemporaryAccommodationBookings.BusinessChannelOwnerId
-CAdministration.branch mSetTemporaryAccommodationBookings.BranchId
-CAdministration.branch* mGetTemporaryAccommodationBookings.BranchId
-CAdministration.department mSetTemporaryAccommodationBookings.DeptId
-CAdministration.department* mGetTemporaryAccommodationBookings.DeptId
-CProperty.property mSetTemporaryAccommodationBookings.PropertyId
-CProperty.property* mGetTemporaryAccommodationBookings.PropertyId
-CCustomer.application mSetTemporaryAccommodationBookings.ApplicationId
-CCustomer.application* mGetTemporaryAccommodationBookings.ApplicationId
-CCustomer.applicant mSetTemporaryAccommodationBookings.ApplicantId
-CCustomer.applicant* mGetTemporaryAccommodationBookings.ApplicantId
-CProperty.allocation mSetTemporaryAccommodationBookings.AllocationId
-CProperty.allocation* mGetTemporaryAccommodationBookings.AllocationId
-CProperty.tenant mSetTemporaryAccommodationBookings.TenancyId
-CProperty.tenant* mGetTemporaryAccommodationBookings.TenancyId
-ArrayOf<CAdministration.documents> mSetTemporaryAccommodationBookings.DocRefIds
-ArrayOf<CAdministration.documents>* mGetTemporaryAccommodationBookings.DocRefIds
-ArrayOf<CAdministration.images> mSetTemporaryAccommodationBookings.ImageRefIds
-ArrayOf<CAdministration.images>* mGetTemporaryAccommodationBookings.ImageRefIds
-const String& mSetTemporaryAccommodationBookings.CustTenantJoinId
-String* mGetTemporaryAccommodationBookings.CustTenantJoinId
-CCustomer.customer mSetTemporaryAccommodationBookings.CustomerId
-CCustomer.customer* mGetTemporaryAccommodationBookings.CustomerId
-CProperty.tenant mSetTemporaryAccommodationBookings.TenancyId
-CProperty.tenant* mGetTemporaryAccommodationBookings.TenancyId
-CRegister.businessChannelOwner mSetTemporaryAccommodationBookings.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetTemporaryAccommodationBookings.BusinessChannelOwnerId
-const String& mSetCustomerTenantJoin.CustTenantJoinId
-String* mGetCustomerTenantJoin.CustTenantJoinId
-ArrayOf<CCustomer.customer> mSetCustomerTenantJoin.CustomerIds
-ArrayOf<CCustomer.customer>* mGetCustomerTenantJoin.CustomerIds
-ArrayOf<Double> mSetCustomerTenantJoin.TenancyId
-ArrayOf<Double>* mGetCustomerTenantJoin.TenancyId
-CRegister.businessChannelOwner mSetCustomerTenantJoin.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetCustomerTenantJoin.BusinessChannelOwnerId
-const String& mSetComplaint.ComplaintId
-String* mGetComplaint.ComplaintId
-const String& mSetComplaint.ParticipantNameComplainant
-String* mGetComplaint.ParticipantNameComplainant
-const String& mSetComplaint.ParticipantIdComplainant
-String* mGetComplaint.ParticipantIdComplainant
-const String& mSetComplaint.Description
-String* mGetComplaint.Description
+Double* mGetTemporaryAccommodationBookings_RentalAmountAgreed
+CRegister.businessChannelOwner mSetTemporaryAccommodationBookings_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetTemporaryAccommodationBookings_BusinessChannelOwnerId
+CAdministration.branch mSetTemporaryAccommodationBookings_BranchId
+CAdministration.branch* mGetTemporaryAccommodationBookings_BranchId
+CAdministration.department mSetTemporaryAccommodationBookings_DeptId
+CAdministration.department* mGetTemporaryAccommodationBookings_DeptId
+CProperty.property mSetTemporaryAccommodationBookings_PropertyId
+CProperty.property* mGetTemporaryAccommodationBookings_PropertyId
+CCustomer.application mSetTemporaryAccommodationBookings_ApplicationId
+CCustomer.application* mGetTemporaryAccommodationBookings_ApplicationId
+CCustomer.applicant mSetTemporaryAccommodationBookings_ApplicantId
+CCustomer.applicant* mGetTemporaryAccommodationBookings_ApplicantId
+CProperty.allocation mSetTemporaryAccommodationBookings_AllocationId
+CProperty.allocation* mGetTemporaryAccommodationBookings_AllocationId
+CProperty.tenant mSetTemporaryAccommodationBookings_TenancyId
+CProperty.tenant* mGetTemporaryAccommodationBookings_TenancyId
+ArrayOf<CAdministration.documents> mSetTemporaryAccommodationBookings_DocRefIds
+ArrayOf<CAdministration.documents>* mGetTemporaryAccommodationBookings_DocRefIds
+ArrayOf<CAdministration.images> mSetTemporaryAccommodationBookings_ImageRefIds
+ArrayOf<CAdministration.images>* mGetTemporaryAccommodationBookings_ImageRefIds
+const String& mSetTemporaryAccommodationBookings_CustTenantJoinId
+String* mGetTemporaryAccommodationBookings_CustTenantJoinId
+CCustomer.customer mSetTemporaryAccommodationBookings_CustomerId
+CCustomer.customer* mGetTemporaryAccommodationBookings_CustomerId
+CProperty.tenant mSetTemporaryAccommodationBookings_TenancyId
+CProperty.tenant* mGetTemporaryAccommodationBookings_TenancyId
+CRegister.businessChannelOwner mSetTemporaryAccommodationBookings_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetTemporaryAccommodationBookings_BusinessChannelOwnerId
+const String& mSetCustomerTenantJoin_CustTenantJoinId
+String* mGetCustomerTenantJoin_CustTenantJoinId
+ArrayOf<CCustomer.customer> mSetCustomerTenantJoin_CustomerIds
+ArrayOf<CCustomer.customer>* mGetCustomerTenantJoin_CustomerIds
+ArrayOf<Double> mSetCustomerTenantJoin_TenancyId
+ArrayOf<Double>* mGetCustomerTenantJoin_TenancyId
+CRegister.businessChannelOwner mSetCustomerTenantJoin_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetCustomerTenantJoin_BusinessChannelOwnerId
+const String& mSetComplaint_ComplaintId
+String* mGetComplaint_ComplaintId
+const String& mSetComplaint_ParticipantNameComplainant
+String* mGetComplaint_ParticipantNameComplainant
+const String& mSetComplaint_ParticipantIdComplainant
+String* mGetComplaint_ParticipantIdComplainant
+const String& mSetComplaint_Description
+String* mGetComplaint_Description
 Boolean mSetComplaint.NonTenantRelated
 Boolean* mGetComplaint.NonTenantRelated
 Boolean mSetComplaint.AgainstTenant
 Boolean* mGetComplaint.AgainstTenant
 Boolean mSetComplaint.ByTenant
 Boolean* mGetComplaint.ByTenant
-ArrayOf<const String&> mSetComplaint.DetailsInChronologicalOrder
-ArrayOf<String>* mGetComplaint.DetailsInChronologicalOrder
-ArrayOf<const String&> mSetComplaint.DatesTimesOfEvents
-ArrayOf<String>* mGetComplaint.DatesTimesOfEvents
-const String& mSetComplaint.RepliedWhen
-String* mGetComplaint.RepliedWhen
-ArrayOf<const String&> mSetComplaint.ResponsibilitiesParticpantsIds
-ArrayOf<String>* mGetComplaint.ResponsibilitiesParticpantsIds
-ArrayOf<const String&> mSetComplaint.ResponsibilitiesParticpantsNames
-ArrayOf<String>* mGetComplaint.ResponsibilitiesParticpantsNames
-ArrayOf<const String&> mSetComplaint.RequiredActions
-ArrayOf<String>* mGetComplaint.RequiredActions
-CRegister.businessChannelOwner mSetComplaint.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetComplaint.BusinessChannelOwnerId
-CAdministration.branch mSetComplaint.BranchId
-CAdministration.branch* mGetComplaint.BranchId
-CAdministration.department mSetComplaint.DeptId
-CAdministration.department* mGetComplaint.DeptId
-ArrayOf<CProperty.propertyOwner> mSetComplaint.PropertyOwnerIds
-ArrayOf<CProperty.propertyOwner>* mGetComplaint.PropertyOwnerIds
-ArrayOf<CProperty.tenant> mSetComplaint.TenantIds
-ArrayOf<CProperty.tenant>* mGetComplaint.TenantIds
-ArrayOf<CCustomer.customer> mSetComplaint.CustomerIds
-ArrayOf<CCustomer.customer>* mGetComplaint.CustomerIds
-ArrayOf<CAdministration.staff> mSetComplaint.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetComplaint.EmployeeIds
-ArrayOf<CStakeholder.community> mSetComplaint.CommunityIds
-ArrayOf<CStakeholder.community>* mGetComplaint.CommunityIds
-ArrayOf<CStakeholder.media> mSetComplaint.MediaIds
-ArrayOf<CStakeholder.media>* mGetComplaint.MediaIds
-ArrayOf<CSupplier.supplier> mSetComplaint.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetComplaint.SupplierIds
-ArrayOf<CStakeholder.partner> mSetComplaint.PartnerIds
-ArrayOf<CStakeholder.partner>* mGetComplaint.PartnerIds
-ArrayOf<CRegulator.nCAT> mSetComplaint.TribunalIds
-ArrayOf<CRegulator.nCAT>* mGetComplaint.TribunalIds
-ArrayOf<CStakeholder.tICA> mSetComplaint.TicaIds
-ArrayOf<CStakeholder.tICA>* mGetComplaint.TicaIds
-ArrayOf<CProperty.property> mSetComplaint.PropertyIds
-ArrayOf<CProperty.property>* mGetComplaint.PropertyIds
-ArrayOf<CAdministration.service> mSetComplaint.ServiceIdsInvolved
-ArrayOf<CAdministration.service>* mGetComplaint.ServiceIdsInvolved
-ArrayOf<CAdministration.item> mSetComplaint.ItemiIds
-ArrayOf<CAdministration.item>* mGetComplaint.ItemiIds
-ArrayOf<CAdministration.job> mSetComplaint.JobIds
-ArrayOf<CAdministration.job>* mGetComplaint.JobIds
-ArrayOf<CAdministration.documents> mSetComplaint.DocRefs
-ArrayOf<CAdministration.documents>* mGetComplaint.DocRefs
-ArrayOf<CAdministration.images> mSetComplaint.ImageRefs
-ArrayOf<CAdministration.images>* mGetComplaint.ImageRefs
-ArrayOf<CAdministration.audio> mSetComplaint.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetComplaint.AudioRefIds
-ArrayOf<CAdministration.video> mSetComplaint.VideoRefs
-ArrayOf<CAdministration.video>* mGetComplaint.VideoRefs
-const String& mSetCompliment.ComplimentId
-String* mGetCompliment.ComplimentId
-const String& mSetCompliment.ParticipantNameComplimenting
-String* mGetCompliment.ParticipantNameComplimenting
-const String& mSetCompliment.ParticipantIdComplimenting
-String* mGetCompliment.ParticipantIdComplimenting
-const String& mSetCompliment.Description
-String* mGetCompliment.Description
+ArrayOf<const String&> mSetComplaint_DetailsInChronologicalOrder
+ArrayOf<String>* mGetComplaint_DetailsInChronologicalOrder
+ArrayOf<const String&> mSetComplaint_DatesTimesOfEvents
+ArrayOf<String>* mGetComplaint_DatesTimesOfEvents
+const String& mSetComplaint_RepliedWhen
+String* mGetComplaint_RepliedWhen
+ArrayOf<const String&> mSetComplaint_ResponsibilitiesParticpantsIds
+ArrayOf<String>* mGetComplaint_ResponsibilitiesParticpantsIds
+ArrayOf<const String&> mSetComplaint_ResponsibilitiesParticpantsNames
+ArrayOf<String>* mGetComplaint_ResponsibilitiesParticpantsNames
+ArrayOf<const String&> mSetComplaint_RequiredActions
+ArrayOf<String>* mGetComplaint_RequiredActions
+CRegister.businessChannelOwner mSetComplaint_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetComplaint_BusinessChannelOwnerId
+CAdministration.branch mSetComplaint_BranchId
+CAdministration.branch* mGetComplaint_BranchId
+CAdministration.department mSetComplaint_DeptId
+CAdministration.department* mGetComplaint_DeptId
+ArrayOf<CProperty.propertyOwner> mSetComplaint_PropertyOwnerIds
+ArrayOf<CProperty.propertyOwner>* mGetComplaint_PropertyOwnerIds
+ArrayOf<CProperty.tenant> mSetComplaint_TenantIds
+ArrayOf<CProperty.tenant>* mGetComplaint_TenantIds
+ArrayOf<CCustomer.customer> mSetComplaint_CustomerIds
+ArrayOf<CCustomer.customer>* mGetComplaint_CustomerIds
+ArrayOf<CAdministration.staff> mSetComplaint_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetComplaint_EmployeeIds
+ArrayOf<CStakeholder.community> mSetComplaint_CommunityIds
+ArrayOf<CStakeholder.community>* mGetComplaint_CommunityIds
+ArrayOf<CStakeholder.media> mSetComplaint_MediaIds
+ArrayOf<CStakeholder.media>* mGetComplaint_MediaIds
+ArrayOf<CSupplier.supplier> mSetComplaint_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetComplaint_SupplierIds
+ArrayOf<CStakeholder.partner> mSetComplaint_PartnerIds
+ArrayOf<CStakeholder.partner>* mGetComplaint_PartnerIds
+ArrayOf<CRegulator.nCAT> mSetComplaint_TribunalIds
+ArrayOf<CRegulator.nCAT>* mGetComplaint_TribunalIds
+ArrayOf<CStakeholder.tICA> mSetComplaint_TicaIds
+ArrayOf<CStakeholder.tICA>* mGetComplaint_TicaIds
+ArrayOf<CProperty.property> mSetComplaint_PropertyIds
+ArrayOf<CProperty.property>* mGetComplaint_PropertyIds
+ArrayOf<CAdministration.service> mSetComplaint_ServiceIdsInvolved
+ArrayOf<CAdministration.service>* mGetComplaint_ServiceIdsInvolved
+ArrayOf<CAdministration.item> mSetComplaint_ItemiIds
+ArrayOf<CAdministration.item>* mGetComplaint_ItemiIds
+ArrayOf<CAdministration.job> mSetComplaint_JobIds
+ArrayOf<CAdministration.job>* mGetComplaint_JobIds
+ArrayOf<CAdministration.documents> mSetComplaint_DocRefs
+ArrayOf<CAdministration.documents>* mGetComplaint_DocRefs
+ArrayOf<CAdministration.images> mSetComplaint_ImageRefs
+ArrayOf<CAdministration.images>* mGetComplaint_ImageRefs
+ArrayOf<CAdministration.audio> mSetComplaint_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetComplaint_AudioRefIds
+ArrayOf<CAdministration.video> mSetComplaint_VideoRefs
+ArrayOf<CAdministration.video>* mGetComplaint_VideoRefs
+const String& mSetCompliment_ComplimentId
+String* mGetCompliment_ComplimentId
+const String& mSetCompliment_ParticipantNameComplimenting
+String* mGetCompliment_ParticipantNameComplimenting
+const String& mSetCompliment_ParticipantIdComplimenting
+String* mGetCompliment_ParticipantIdComplimenting
+const String& mSetCompliment_Description
+String* mGetCompliment_Description
 Boolean mSetCompliment.NonTenantRelated
 Boolean* mGetCompliment.NonTenantRelated
 Boolean mSetCompliment.ProTenant
 Boolean* mGetCompliment.ProTenant
 Boolean mSetCompliment.ByTenant
 Boolean* mGetCompliment.ByTenant
-ArrayOf<const String&> mSetCompliment.DetailsInChronologicalOrder
-ArrayOf<String>* mGetCompliment.DetailsInChronologicalOrder
-ArrayOf<const String&> mSetCompliment.DatesTimesOfEvents
-ArrayOf<String>* mGetCompliment.DatesTimesOfEvents
-const String& mSetCompliment.CorroReceived
-String* mGetCompliment.CorroReceived
-ArrayOf<const String&> mSetCompliment.ResponseDocRefs
-ArrayOf<String>* mGetCompliment.ResponseDocRefs
-const String& mSetCompliment.RepliedWhen
-String* mGetCompliment.RepliedWhen
-ArrayOf<const String&> mSetCompliment.ResponsibilitiesParticpantsIds
-ArrayOf<String>* mGetCompliment.ResponsibilitiesParticpantsIds
-ArrayOf<const String&> mSetCompliment.ResponsibilitiesParticpantsNames
-ArrayOf<String>* mGetCompliment.ResponsibilitiesParticpantsNames
-ArrayOf<const String&> mSetCompliment.RequiredActions
-ArrayOf<String>* mGetCompliment.RequiredActions
-CRegister.businessChannelOwner mSetCompliment.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetCompliment.BusinessChannelOwnerId
-CAdministration.branch mSetCompliment.BranchId
-CAdministration.branch* mGetCompliment.BranchId
-CAdministration.department mSetCompliment.DeptId
-CAdministration.department* mGetCompliment.DeptId
-ArrayOf<CProperty.property> mSetCompliment.PropertyIds
-ArrayOf<CProperty.property>* mGetCompliment.PropertyIds
-ArrayOf<CProperty.propertyOwner> mSetCompliment.PropertyOwnerIds
-ArrayOf<CProperty.propertyOwner>* mGetCompliment.PropertyOwnerIds
-ArrayOf<CAdministration.service> mSetCompliment.ServiceIdsInvolved
-ArrayOf<CAdministration.service>* mGetCompliment.ServiceIdsInvolved
-ArrayOf<CAdministration.item> mSetCompliment.ItemiIds
-ArrayOf<CAdministration.item>* mGetCompliment.ItemiIds
-ArrayOf<CAdministration.job> mSetCompliment.JobIds
-ArrayOf<CAdministration.job>* mGetCompliment.JobIds
-ArrayOf<CProperty.tenant> mSetCompliment.TenancyId
-ArrayOf<CProperty.tenant>* mGetCompliment.TenancyId
-ArrayOf<CCustomer.customer> mSetCompliment.CustomerIds
-ArrayOf<CCustomer.customer>* mGetCompliment.CustomerIds
-ArrayOf<CAdministration.staff> mSetCompliment.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetCompliment.EmployeeIds
-ArrayOf<CStakeholder.community> mSetCompliment.CommunityIds
-ArrayOf<CStakeholder.community>* mGetCompliment.CommunityIds
-ArrayOf<CStakeholder.media> mSetCompliment.MediaIds
-ArrayOf<CStakeholder.media>* mGetCompliment.MediaIds
-ArrayOf<CSupplier.supplier> mSetCompliment.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetCompliment.SupplierIds
-ArrayOf<CStakeholder.partner> mSetCompliment.PartnerIds
-ArrayOf<CStakeholder.partner>* mGetCompliment.PartnerIds
-ArrayOf<CRegulator.nCAT> mSetCompliment.TribunalIds
-ArrayOf<CRegulator.nCAT>* mGetCompliment.TribunalIds
-ArrayOf<CStakeholder.tICA> mSetCompliment.TicaIds
-ArrayOf<CStakeholder.tICA>* mGetCompliment.TicaIds
-ArrayOf<CAdministration.documents> mSetCompliment.DocRefIds
-ArrayOf<CAdministration.documents>* mGetCompliment.DocRefIds
-ArrayOf<CAdministration.images> mSetCompliment.ImageRefIds
-ArrayOf<CAdministration.images>* mGetCompliment.ImageRefIds
-ArrayOf<CAdministration.audio> mSetCompliment.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetCompliment.AudioRefIds
-ArrayOf<CAdministration.video> mSetCompliment.VideoRefIds
-ArrayOf<CAdministration.video>* mGetCompliment.VideoRefIds
+ArrayOf<const String&> mSetCompliment_DetailsInChronologicalOrder
+ArrayOf<String>* mGetCompliment_DetailsInChronologicalOrder
+ArrayOf<const String&> mSetCompliment_DatesTimesOfEvents
+ArrayOf<String>* mGetCompliment_DatesTimesOfEvents
+const String& mSetCompliment_CorroReceived
+String* mGetCompliment_CorroReceived
+ArrayOf<const String&> mSetCompliment_ResponseDocRefs
+ArrayOf<String>* mGetCompliment_ResponseDocRefs
+const String& mSetCompliment_RepliedWhen
+String* mGetCompliment_RepliedWhen
+ArrayOf<const String&> mSetCompliment_ResponsibilitiesParticpantsIds
+ArrayOf<String>* mGetCompliment_ResponsibilitiesParticpantsIds
+ArrayOf<const String&> mSetCompliment_ResponsibilitiesParticpantsNames
+ArrayOf<String>* mGetCompliment_ResponsibilitiesParticpantsNames
+ArrayOf<const String&> mSetCompliment_RequiredActions
+ArrayOf<String>* mGetCompliment_RequiredActions
+CRegister.businessChannelOwner mSetCompliment_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetCompliment_BusinessChannelOwnerId
+CAdministration.branch mSetCompliment_BranchId
+CAdministration.branch* mGetCompliment_BranchId
+CAdministration.department mSetCompliment_DeptId
+CAdministration.department* mGetCompliment_DeptId
+ArrayOf<CProperty.property> mSetCompliment_PropertyIds
+ArrayOf<CProperty.property>* mGetCompliment_PropertyIds
+ArrayOf<CProperty.propertyOwner> mSetCompliment_PropertyOwnerIds
+ArrayOf<CProperty.propertyOwner>* mGetCompliment_PropertyOwnerIds
+ArrayOf<CAdministration.service> mSetCompliment_ServiceIdsInvolved
+ArrayOf<CAdministration.service>* mGetCompliment_ServiceIdsInvolved
+ArrayOf<CAdministration.item> mSetCompliment_ItemiIds
+ArrayOf<CAdministration.item>* mGetCompliment_ItemiIds
+ArrayOf<CAdministration.job> mSetCompliment_JobIds
+ArrayOf<CAdministration.job>* mGetCompliment_JobIds
+ArrayOf<CProperty.tenant> mSetCompliment_TenancyId
+ArrayOf<CProperty.tenant>* mGetCompliment_TenancyId
+ArrayOf<CCustomer.customer> mSetCompliment_CustomerIds
+ArrayOf<CCustomer.customer>* mGetCompliment_CustomerIds
+ArrayOf<CAdministration.staff> mSetCompliment_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetCompliment_EmployeeIds
+ArrayOf<CStakeholder.community> mSetCompliment_CommunityIds
+ArrayOf<CStakeholder.community>* mGetCompliment_CommunityIds
+ArrayOf<CStakeholder.media> mSetCompliment_MediaIds
+ArrayOf<CStakeholder.media>* mGetCompliment_MediaIds
+ArrayOf<CSupplier.supplier> mSetCompliment_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetCompliment_SupplierIds
+ArrayOf<CStakeholder.partner> mSetCompliment_PartnerIds
+ArrayOf<CStakeholder.partner>* mGetCompliment_PartnerIds
+ArrayOf<CRegulator.nCAT> mSetCompliment_TribunalIds
+ArrayOf<CRegulator.nCAT>* mGetCompliment_TribunalIds
+ArrayOf<CStakeholder.tICA> mSetCompliment_TicaIds
+ArrayOf<CStakeholder.tICA>* mGetCompliment_TicaIds
+ArrayOf<CAdministration.documents> mSetCompliment_DocRefIds
+ArrayOf<CAdministration.documents>* mGetCompliment_DocRefIds
+ArrayOf<CAdministration.images> mSetCompliment_ImageRefIds
+ArrayOf<CAdministration.images>* mGetCompliment_ImageRefIds
+ArrayOf<CAdministration.audio> mSetCompliment_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetCompliment_AudioRefIds
+ArrayOf<CAdministration.video> mSetCompliment_VideoRefIds
+ArrayOf<CAdministration.video>* mGetCompliment_VideoRefIds
 };
 
 } // ChubbaMorris
