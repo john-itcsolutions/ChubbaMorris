@@ -50,360 +50,360 @@ public:
     //
    
 
-   CARAPI SetService.ServiceId(
+   CARAPI SetService_ServiceId(
      /* [in] */ const String& CAdministration.service.serviceId);
 
-    CARAPI GetService.ServiceId(
+    CARAPI GetService_ServiceId(
      /* [out] */ String* CAdministration.service.serviceId);
 
 
-   CARAPI SetService.ServiceName(
+   CARAPI SetService_ServiceName(
      /* [in] */ const String& CAdministration.service.serviceName);
 
-    CARAPI GetService.ServiceName(
+    CARAPI GetService_ServiceName(
      /* [out] */ String* CAdministration.service.serviceName);
 
 
-   CARAPI SetService.Description(
+   CARAPI SetService_Description(
      /* [in] */ const String& CAdministration.service.description);
 
-    CARAPI GetService.Description(
+    CARAPI GetService_Description(
      /* [out] */ String* CAdministration.service.description);
 
 
-   CARAPI SetService.ServiceUnitsSupplied(
+   CARAPI SetService_ServiceUnitsSupplied(
      /* [in] */ Double CAdministration.service.serviceUnitsSupplied);
 
-    CARAPI GetService.ServiceUnitsSupplied(
+    CARAPI GetService_ServiceUnitsSupplied(
      /* [out] */ Double* CAdministration.service.serviceUnitsSupplied);
 
 
-   CARAPI SetService.PricingUnits(
+   CARAPI SetService_PricingUnits(
      /* [in] */ const String& CAdministration.service.pricingUnits);
 
-    CARAPI GetService.PricingUnits(
+    CARAPI GetService_PricingUnits(
      /* [out] */ String* CAdministration.service.pricingUnits);
 
 
-   CARAPI SetService.PriceRatePerUnit(
+   CARAPI SetService_PriceRatePerUnit(
      /* [in] */ Double CAdministration.service.priceRatePerUnit);
 
-    CARAPI GetService.PriceRatePerUnit(
+    CARAPI GetService_PriceRatePerUnit(
      /* [out] */ Double* CAdministration.service.priceRatePerUnit);
 
 
-   CARAPI SetService.ItemIdsSupplied(
+   CARAPI SetService_ItemIdsSupplied(
      /* [in] */ ArrayOf<const String&> CAdministration.service.itemIdsSupplied);
 
-    CARAPI GetService.ItemIdsSupplied(
+    CARAPI GetService_ItemIdsSupplied(
      /* [out, callee] */ ArrayOf<String>* CAdministration.service.itemIdsSupplied);
 
 
-   CARAPI SetService.ItemQuantities(
+   CARAPI SetService_ItemQuantities(
      /* [in] */ ArrayOf<Double> CAdministration.service.itemQuantities);
 
-    CARAPI GetService.ItemQuantities(
+    CARAPI GetService_ItemQuantities(
      /* [out, callee] */ ArrayOf<Double>* CAdministration.service.itemQuantities);
 
 
-   CARAPI SetService.EmployeeIds(
+   CARAPI SetService_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.service.employeeIds);
 
-    CARAPI GetService.EmployeeIds(
+    CARAPI GetService_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.service.employeeIds);
 
 
-   CARAPI SetService.SupplierIds(
+   CARAPI SetService_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.service.supplierIds);
 
-    CARAPI GetService.SupplierIds(
+    CARAPI GetService_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.service.supplierIds);
 
 
-   CARAPI SetService.ServiceTypeId(
+   CARAPI SetService_ServiceTypeId(
      /* [in] */ CAdministration.serviceType CAdministration.service.serviceTypeId);
 
-    CARAPI GetService.ServiceTypeId(
+    CARAPI GetService_ServiceTypeId(
      /* [out] */ CAdministration.serviceType* CAdministration.service.serviceTypeId);
 
 
-   CARAPI SetService.DocRefs(
+   CARAPI SetService_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.service.docRefs);
 
-    CARAPI GetService.DocRefs(
+    CARAPI GetService_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.service.docRefs);
 
 
-   CARAPI SetService.ImageRefs(
+   CARAPI SetService_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.service.imageRefs);
 
-    CARAPI GetService.ImageRefs(
+    CARAPI GetService_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.service.imageRefs);
 
 
-   CARAPI SetService.AudioRefIds(
+   CARAPI SetService_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.service.audioRefIds);
 
-    CARAPI GetService.AudioRefIds(
+    CARAPI GetService_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.service.audioRefIds);
 
 
-   CARAPI SetService.CustomerId(
+   CARAPI SetService_CustomerId(
      /* [in] */ CCustomer.customer CAdministration.service.customerId);
 
-    CARAPI GetService.CustomerId(
+    CARAPI GetService_CustomerId(
      /* [out] */ CCustomer.customer* CAdministration.service.customerId);
 
 
-   CARAPI SetService.BusinessChannelOwnerId(
+   CARAPI SetService_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.service.businessChannelOwnerId);
 
-    CARAPI GetService.BusinessChannelOwnerId(
+    CARAPI GetService_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.service.businessChannelOwnerId);
 
 
-   CARAPI SetServiceType.ServiceTypeId(
+   CARAPI SetServiceType_ServiceTypeId(
      /* [in] */ const String& CAdministration.serviceType.serviceTypeId);
 
-    CARAPI GetServiceType.ServiceTypeId(
+    CARAPI GetServiceType_ServiceTypeId(
      /* [out] */ String* CAdministration.serviceType.serviceTypeId);
 
 
-   CARAPI SetServiceType.ServiceName(
+   CARAPI SetServiceType_ServiceName(
      /* [in] */ const String& CAdministration.serviceType.serviceName);
 
-    CARAPI GetServiceType.ServiceName(
+    CARAPI GetServiceType_ServiceName(
      /* [out] */ String* CAdministration.serviceType.serviceName);
 
 
-   CARAPI SetServiceType.Description(
+   CARAPI SetServiceType_Description(
      /* [in] */ const String& CAdministration.serviceType.description);
 
-    CARAPI GetServiceType.Description(
+    CARAPI GetServiceType_Description(
      /* [out] */ String* CAdministration.serviceType.description);
 
 
-   CARAPI SetServiceType.PriceRateUnits(
+   CARAPI SetServiceType_PriceRateUnits(
      /* [in] */ const String& CAdministration.serviceType.priceRateUnits);
 
-    CARAPI GetServiceType.PriceRateUnits(
+    CARAPI GetServiceType_PriceRateUnits(
      /* [out] */ String* CAdministration.serviceType.priceRateUnits);
 
 
-   CARAPI SetServiceType.PriceRate(
+   CARAPI SetServiceType_PriceRate(
      /* [in] */ Double CAdministration.serviceType.priceRate);
 
-    CARAPI GetServiceType.PriceRate(
+    CARAPI GetServiceType_PriceRate(
      /* [out] */ Double* CAdministration.serviceType.priceRate);
 
 
-   CARAPI SetServiceType.ProviderRoleIdsWithinEnterprise(
+   CARAPI SetServiceType_ProviderRoleIdsWithinEnterprise(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.serviceType.providerRoleIdsWithinEnterprise);
 
-    CARAPI GetServiceType.ProviderRoleIdsWithinEnterprise(
+    CARAPI GetServiceType_ProviderRoleIdsWithinEnterprise(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.serviceType.providerRoleIdsWithinEnterprise);
 
 
-   CARAPI SetServiceType.BranchIds(
+   CARAPI SetServiceType_BranchIds(
      /* [in] */ ArrayOf<CAdministration.branch> CAdministration.serviceType.branchIds);
 
-    CARAPI GetServiceType.BranchIds(
+    CARAPI GetServiceType_BranchIds(
      /* [out, callee] */ ArrayOf<CAdministration.branch>* CAdministration.serviceType.branchIds);
 
 
-   CARAPI SetServiceType.DeptIds(
+   CARAPI SetServiceType_DeptIds(
      /* [in] */ ArrayOf<CAdministration.department> CAdministration.serviceType.deptIds);
 
-    CARAPI GetServiceType.DeptIds(
+    CARAPI GetServiceType_DeptIds(
      /* [out, callee] */ ArrayOf<CAdministration.department>* CAdministration.serviceType.deptIds);
 
 
-   CARAPI SetServiceType.ExternalProvidersIds(
+   CARAPI SetServiceType_ExternalProvidersIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.serviceType.externalProvidersIds);
 
-    CARAPI GetServiceType.ExternalProvidersIds(
+    CARAPI GetServiceType_ExternalProvidersIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.serviceType.externalProvidersIds);
 
 
-   CARAPI SetServiceType.SupplierTypeIds(
+   CARAPI SetServiceType_SupplierTypeIds(
      /* [in] */ ArrayOf<CSupplier.supplierType> CAdministration.serviceType.supplierTypeIds);
 
-    CARAPI GetServiceType.SupplierTypeIds(
+    CARAPI GetServiceType_SupplierTypeIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplierType>* CAdministration.serviceType.supplierTypeIds);
 
 
-   CARAPI SetServiceType.ItemTypeIds(
+   CARAPI SetServiceType_ItemTypeIds(
      /* [in] */ ArrayOf<CAdministration.itemType> CAdministration.serviceType.itemTypeIds);
 
-    CARAPI GetServiceType.ItemTypeIds(
+    CARAPI GetServiceType_ItemTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.itemType>* CAdministration.serviceType.itemTypeIds);
 
 
-   CARAPI SetServiceType.JobTypeIds(
+   CARAPI SetServiceType_JobTypeIds(
      /* [in] */ ArrayOf<CAdministration.jobType> CAdministration.serviceType.jobTypeIds);
 
-    CARAPI GetServiceType.JobTypeIds(
+    CARAPI GetServiceType_JobTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.jobType>* CAdministration.serviceType.jobTypeIds);
 
 
-   CARAPI SetServiceType.DocRefs(
+   CARAPI SetServiceType_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.serviceType.docRefs);
 
-    CARAPI GetServiceType.DocRefs(
+    CARAPI GetServiceType_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.serviceType.docRefs);
 
 
-   CARAPI SetServiceType.ImageRefs(
+   CARAPI SetServiceType_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.serviceType.imageRefs);
 
-    CARAPI GetServiceType.ImageRefs(
+    CARAPI GetServiceType_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.serviceType.imageRefs);
 
 
-   CARAPI SetServiceType.VideoRefs(
+   CARAPI SetServiceType_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.serviceType.videoRefs);
 
-    CARAPI GetServiceType.VideoRefs(
+    CARAPI GetServiceType_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.serviceType.videoRefs);
 
 
-   CARAPI SetServiceType.BusinessChannelOwnerId(
+   CARAPI SetServiceType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.serviceType.businessChannelOwnerId);
 
-    CARAPI GetServiceType.BusinessChannelOwnerId(
+    CARAPI GetServiceType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.serviceType.businessChannelOwnerId);
 
 
-   CARAPI SetServiceRequest.SRQId(
+   CARAPI SetServiceRequest_SRQId(
      /* [in] */ const String& CAdministration.serviceRequest.sRQId);
 
-    CARAPI GetServiceRequest.SRQId(
+    CARAPI GetServiceRequest_SRQId(
      /* [out] */ String* CAdministration.serviceRequest.sRQId);
 
 
-   CARAPI SetServiceRequest.ServiceSequenceDescription(
+   CARAPI SetServiceRequest_ServiceSequenceDescription(
      /* [in] */ ArrayOf<const String&> CAdministration.serviceRequest.serviceSequenceDescription);
 
-    CARAPI GetServiceRequest.ServiceSequenceDescription(
+    CARAPI GetServiceRequest_ServiceSequenceDescription(
      /* [out, callee] */ ArrayOf<String>* CAdministration.serviceRequest.serviceSequenceDescription);
 
 
-   CARAPI SetServiceRequest.RequestsAccepted(
+   CARAPI SetServiceRequest_RequestsAccepted(
      /* [in] */ ArrayOf<const String&> CAdministration.serviceRequest.requestsAccepted);
 
-    CARAPI GetServiceRequest.RequestsAccepted(
+    CARAPI GetServiceRequest_RequestsAccepted(
      /* [out, callee] */ ArrayOf<String>* CAdministration.serviceRequest.requestsAccepted);
 
 
-   CARAPI SetServiceRequest.ItemQuantities(
+   CARAPI SetServiceRequest_ItemQuantities(
      /* [in] */ ArrayOf<Double> CAdministration.serviceRequest.itemQuantities);
 
-    CARAPI GetServiceRequest.ItemQuantities(
+    CARAPI GetServiceRequest_ItemQuantities(
      /* [out, callee] */ ArrayOf<Double>* CAdministration.serviceRequest.itemQuantities);
 
 
-   CARAPI SetServiceRequest.ItemUnits(
+   CARAPI SetServiceRequest_ItemUnits(
      /* [in] */ ArrayOf<const String&> CAdministration.serviceRequest.itemUnits);
 
-    CARAPI GetServiceRequest.ItemUnits(
+    CARAPI GetServiceRequest_ItemUnits(
      /* [out, callee] */ ArrayOf<String>* CAdministration.serviceRequest.itemUnits);
 
 
-   CARAPI SetServiceRequest.DueDates(
+   CARAPI SetServiceRequest_DueDates(
      /* [in] */ ArrayOf<const String&> CAdministration.serviceRequest.dueDates);
 
-    CARAPI GetServiceRequest.DueDates(
+    CARAPI GetServiceRequest_DueDates(
      /* [out, callee] */ ArrayOf<String>* CAdministration.serviceRequest.dueDates);
 
 
-   CARAPI SetServiceRequest.RequestByStaffIds(
+   CARAPI SetServiceRequest_RequestByStaffIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.serviceRequest.requestByStaffIds);
 
-    CARAPI GetServiceRequest.RequestByStaffIds(
+    CARAPI GetServiceRequest_RequestByStaffIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.serviceRequest.requestByStaffIds);
 
 
-   CARAPI SetServiceRequest.DocRefIds(
+   CARAPI SetServiceRequest_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.serviceRequest.docRefIds);
 
-    CARAPI GetServiceRequest.DocRefIds(
+    CARAPI GetServiceRequest_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.serviceRequest.docRefIds);
 
 
-   CARAPI SetServiceRequest.ImageRefIds(
+   CARAPI SetServiceRequest_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.serviceRequest.imageRefIds);
 
-    CARAPI GetServiceRequest.ImageRefIds(
+    CARAPI GetServiceRequest_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.serviceRequest.imageRefIds);
 
 
-   CARAPI SetServiceRequest.AudioRefIds(
+   CARAPI SetServiceRequest_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.serviceRequest.audioRefIds);
 
-    CARAPI GetServiceRequest.AudioRefIds(
+    CARAPI GetServiceRequest_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.serviceRequest.audioRefIds);
 
 
-   CARAPI SetServiceRequest.BranchIdsInvolved(
+   CARAPI SetServiceRequest_BranchIdsInvolved(
      /* [in] */ ArrayOf<CAdministration.branch> CAdministration.serviceRequest.branchIdsInvolved);
 
-    CARAPI GetServiceRequest.BranchIdsInvolved(
+    CARAPI GetServiceRequest_BranchIdsInvolved(
      /* [out, callee] */ ArrayOf<CAdministration.branch>* CAdministration.serviceRequest.branchIdsInvolved);
 
 
-   CARAPI SetServiceRequest.DeptIdsInvolved(
+   CARAPI SetServiceRequest_DeptIdsInvolved(
      /* [in] */ ArrayOf<CAdministration.department> CAdministration.serviceRequest.deptIdsInvolved);
 
-    CARAPI GetServiceRequest.DeptIdsInvolved(
+    CARAPI GetServiceRequest_DeptIdsInvolved(
      /* [out, callee] */ ArrayOf<CAdministration.department>* CAdministration.serviceRequest.deptIdsInvolved);
 
 
-   CARAPI SetServiceRequest.ResponsibleRoleIds(
+   CARAPI SetServiceRequest_ResponsibleRoleIds(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.serviceRequest.responsibleRoleIds);
 
-    CARAPI GetServiceRequest.ResponsibleRoleIds(
+    CARAPI GetServiceRequest_ResponsibleRoleIds(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.serviceRequest.responsibleRoleIds);
 
 
-   CARAPI SetServiceRequest.ResponsibleStaffIds(
+   CARAPI SetServiceRequest_ResponsibleStaffIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.serviceRequest.responsibleStaffIds);
 
-    CARAPI GetServiceRequest.ResponsibleStaffIds(
+    CARAPI GetServiceRequest_ResponsibleStaffIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.serviceRequest.responsibleStaffIds);
 
 
-   CARAPI SetServiceRequest.ServiceIds(
+   CARAPI SetServiceRequest_ServiceIds(
      /* [in] */ ArrayOf<CAdministration.service> CAdministration.serviceRequest.serviceIds);
 
-    CARAPI GetServiceRequest.ServiceIds(
+    CARAPI GetServiceRequest_ServiceIds(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CAdministration.serviceRequest.serviceIds);
 
 
-   CARAPI SetServiceRequest.ServiceTypeIds(
+   CARAPI SetServiceRequest_ServiceTypeIds(
      /* [in] */ ArrayOf<CAdministration.serviceType> CAdministration.serviceRequest.serviceTypeIds);
 
-    CARAPI GetServiceRequest.ServiceTypeIds(
+    CARAPI GetServiceRequest_ServiceTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.serviceType>* CAdministration.serviceRequest.serviceTypeIds);
 
 
-   CARAPI SetServiceRequest.ItemTypeIdsRequired(
+   CARAPI SetServiceRequest_ItemTypeIdsRequired(
      /* [in] */ ArrayOf<CAdministration.itemType> CAdministration.serviceRequest.itemTypeIdsRequired);
 
-    CARAPI GetServiceRequest.ItemTypeIdsRequired(
+    CARAPI GetServiceRequest_ItemTypeIdsRequired(
      /* [out, callee] */ ArrayOf<CAdministration.itemType>* CAdministration.serviceRequest.itemTypeIdsRequired);
 
 
-   CARAPI SetServiceRequest.JobTypeIdsRequired(
+   CARAPI SetServiceRequest_JobTypeIdsRequired(
      /* [in] */ ArrayOf<CAdministration.jobType> CAdministration.serviceRequest.jobTypeIdsRequired);
 
-    CARAPI GetServiceRequest.JobTypeIdsRequired(
+    CARAPI GetServiceRequest_JobTypeIdsRequired(
      /* [out, callee] */ ArrayOf<CAdministration.jobType>* CAdministration.serviceRequest.jobTypeIdsRequired);
 
 
-   CARAPI SetServiceRequest.PropertyIds(
+   CARAPI SetServiceRequest_PropertyIds(
      /* [in] */ ArrayOf<CProperty.property> CAdministration.serviceRequest.propertyIds);
 
-    CARAPI GetServiceRequest.PropertyIds(
+    CARAPI GetServiceRequest_PropertyIds(
      /* [out, callee] */ ArrayOf<CProperty.property>* CAdministration.serviceRequest.propertyIds);
 
 
@@ -414,339 +414,339 @@ public:
      /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.serviceRequest.masterAsCARAPI SetIds);
 
 
-   CARAPI SetServiceRequest.CustomerIds(
+   CARAPI SetServiceRequest_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CAdministration.serviceRequest.customerIds);
 
-    CARAPI GetServiceRequest.CustomerIds(
+    CARAPI GetServiceRequest_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CAdministration.serviceRequest.customerIds);
 
 
-   CARAPI SetServiceRequest.CustomerTypesIds(
+   CARAPI SetServiceRequest_CustomerTypesIds(
      /* [in] */ ArrayOf<CCustomer.customerType> CAdministration.serviceRequest.customerTypesIds);
 
-    CARAPI GetServiceRequest.CustomerTypesIds(
+    CARAPI GetServiceRequest_CustomerTypesIds(
      /* [out, callee] */ ArrayOf<CCustomer.customerType>* CAdministration.serviceRequest.customerTypesIds);
 
 
-   CARAPI SetServiceRequest.BusinessChannelOwnerId(
+   CARAPI SetServiceRequest_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.serviceRequest.businessChannelOwnerId);
 
-    CARAPI GetServiceRequest.BusinessChannelOwnerId(
+    CARAPI GetServiceRequest_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.serviceRequest.businessChannelOwnerId);
 
 
-   CARAPI SetCorrespondenceLog.CorroId(
+   CARAPI SetCorrespondenceLog_CorroId(
      /* [in] */ const String& CAdministration.correspondenceLog.corroId);
 
-    CARAPI GetCorrespondenceLog.CorroId(
+    CARAPI GetCorrespondenceLog_CorroId(
      /* [out] */ String* CAdministration.correspondenceLog.corroId);
 
 
-   CARAPI SetCorrespondenceLog.ParticipantName(
+   CARAPI SetCorrespondenceLog_ParticipantName(
      /* [in] */ const String& CAdministration.correspondenceLog.participantName);
 
-    CARAPI GetCorrespondenceLog.ParticipantName(
+    CARAPI GetCorrespondenceLog_ParticipantName(
      /* [out] */ String* CAdministration.correspondenceLog.participantName);
 
 
-   CARAPI SetCorrespondenceLog.ParticipantId(
+   CARAPI SetCorrespondenceLog_ParticipantId(
      /* [in] */ const String& CAdministration.correspondenceLog.participantId);
 
-    CARAPI GetCorrespondenceLog.ParticipantId(
+    CARAPI GetCorrespondenceLog_ParticipantId(
      /* [out] */ String* CAdministration.correspondenceLog.participantId);
 
 
-   CARAPI SetCorrespondenceLog.Description(
+   CARAPI SetCorrespondenceLog_Description(
      /* [in] */ const String& CAdministration.correspondenceLog.description);
 
-    CARAPI GetCorrespondenceLog.Description(
+    CARAPI GetCorrespondenceLog_Description(
      /* [out] */ String* CAdministration.correspondenceLog.description);
 
 
-   CARAPI SetCorrespondenceLog.CorroReceived(
+   CARAPI SetCorrespondenceLog_CorroReceived(
      /* [in] */ const String& CAdministration.correspondenceLog.corroReceived);
 
-    CARAPI GetCorrespondenceLog.CorroReceived(
+    CARAPI GetCorrespondenceLog_CorroReceived(
      /* [out] */ String* CAdministration.correspondenceLog.corroReceived);
 
 
-   CARAPI SetCorrespondenceLog.PropertyIds(
+   CARAPI SetCorrespondenceLog_PropertyIds(
      /* [in] */ ArrayOf<const String&> CAdministration.correspondenceLog.propertyIds);
 
-    CARAPI GetCorrespondenceLog.PropertyIds(
+    CARAPI GetCorrespondenceLog_PropertyIds(
      /* [out, callee] */ ArrayOf<String>* CAdministration.correspondenceLog.propertyIds);
 
 
-   CARAPI SetCorrespondenceLog.ResponseDocRefs(
+   CARAPI SetCorrespondenceLog_ResponseDocRefs(
      /* [in] */ ArrayOf<const String&> CAdministration.correspondenceLog.responseDocRefs);
 
-    CARAPI GetCorrespondenceLog.ResponseDocRefs(
+    CARAPI GetCorrespondenceLog_ResponseDocRefs(
      /* [out, callee] */ ArrayOf<String>* CAdministration.correspondenceLog.responseDocRefs);
 
 
-   CARAPI SetCorrespondenceLog.RepliedWhen(
+   CARAPI SetCorrespondenceLog_RepliedWhen(
      /* [in] */ const String& CAdministration.correspondenceLog.repliedWhen);
 
-    CARAPI GetCorrespondenceLog.RepliedWhen(
+    CARAPI GetCorrespondenceLog_RepliedWhen(
      /* [out] */ String* CAdministration.correspondenceLog.repliedWhen);
 
 
-   CARAPI SetCorrespondenceLog.ResponsibilitiesParticpantsIds(
+   CARAPI SetCorrespondenceLog_ResponsibilitiesParticpantsIds(
      /* [in] */ ArrayOf<const String&> CAdministration.correspondenceLog.responsibilitiesParticpantsIds);
 
-    CARAPI GetCorrespondenceLog.ResponsibilitiesParticpantsIds(
+    CARAPI GetCorrespondenceLog_ResponsibilitiesParticpantsIds(
      /* [out, callee] */ ArrayOf<String>* CAdministration.correspondenceLog.responsibilitiesParticpantsIds);
 
 
-   CARAPI SetCorrespondenceLog.ResponsibilitiesParticpantsNames(
+   CARAPI SetCorrespondenceLog_ResponsibilitiesParticpantsNames(
      /* [in] */ ArrayOf<const String&> CAdministration.correspondenceLog.responsibilitiesParticpantsNames);
 
-    CARAPI GetCorrespondenceLog.ResponsibilitiesParticpantsNames(
+    CARAPI GetCorrespondenceLog_ResponsibilitiesParticpantsNames(
      /* [out, callee] */ ArrayOf<String>* CAdministration.correspondenceLog.responsibilitiesParticpantsNames);
 
 
-   CARAPI SetCorrespondenceLog.RequiredActions(
+   CARAPI SetCorrespondenceLog_RequiredActions(
      /* [in] */ ArrayOf<const String&> CAdministration.correspondenceLog.requiredActions);
 
-    CARAPI GetCorrespondenceLog.RequiredActions(
+    CARAPI GetCorrespondenceLog_RequiredActions(
      /* [out, callee] */ ArrayOf<String>* CAdministration.correspondenceLog.requiredActions);
 
 
-   CARAPI SetCorrespondenceLog.BusinessChannelOwnerId(
+   CARAPI SetCorrespondenceLog_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.correspondenceLog.businessChannelOwnerId);
 
-    CARAPI GetCorrespondenceLog.BusinessChannelOwnerId(
+    CARAPI GetCorrespondenceLog_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.correspondenceLog.businessChannelOwnerId);
 
 
-   CARAPI SetCorrespondenceLog.BranchId(
+   CARAPI SetCorrespondenceLog_BranchId(
      /* [in] */ CAdministration.branch CAdministration.correspondenceLog.branchId);
 
-    CARAPI GetCorrespondenceLog.BranchId(
+    CARAPI GetCorrespondenceLog_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.correspondenceLog.branchId);
 
 
-   CARAPI SetCorrespondenceLog.DeptId(
+   CARAPI SetCorrespondenceLog_DeptId(
      /* [in] */ CAdministration.department CAdministration.correspondenceLog.deptId);
 
-    CARAPI GetCorrespondenceLog.DeptId(
+    CARAPI GetCorrespondenceLog_DeptId(
      /* [out] */ CAdministration.department* CAdministration.correspondenceLog.deptId);
 
 
-   CARAPI SetCorrespondenceLog.SupplierIds(
+   CARAPI SetCorrespondenceLog_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.correspondenceLog.supplierIds);
 
-    CARAPI GetCorrespondenceLog.SupplierIds(
+    CARAPI GetCorrespondenceLog_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.correspondenceLog.supplierIds);
 
 
-   CARAPI SetCorrespondenceLog.CustomerIds(
+   CARAPI SetCorrespondenceLog_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CAdministration.correspondenceLog.customerIds);
 
-    CARAPI GetCorrespondenceLog.CustomerIds(
+    CARAPI GetCorrespondenceLog_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CAdministration.correspondenceLog.customerIds);
 
 
-   CARAPI SetCorrespondenceLog.PartnerIds(
+   CARAPI SetCorrespondenceLog_PartnerIds(
      /* [in] */ ArrayOf<CStakeholder.partner> CAdministration.correspondenceLog.partnerIds);
 
-    CARAPI GetCorrespondenceLog.PartnerIds(
+    CARAPI GetCorrespondenceLog_PartnerIds(
      /* [out, callee] */ ArrayOf<CStakeholder.partner>* CAdministration.correspondenceLog.partnerIds);
 
 
-   CARAPI SetCorrespondenceLog.MediaIds(
+   CARAPI SetCorrespondenceLog_MediaIds(
      /* [in] */ ArrayOf<CStakeholder.media> CAdministration.correspondenceLog.mediaIds);
 
-    CARAPI GetCorrespondenceLog.MediaIds(
+    CARAPI GetCorrespondenceLog_MediaIds(
      /* [out, callee] */ ArrayOf<CStakeholder.media>* CAdministration.correspondenceLog.mediaIds);
 
 
-   CARAPI SetCorrespondenceLog.CommunityIds(
+   CARAPI SetCorrespondenceLog_CommunityIds(
      /* [in] */ ArrayOf<CStakeholder.community> CAdministration.correspondenceLog.communityIds);
 
-    CARAPI GetCorrespondenceLog.CommunityIds(
+    CARAPI GetCorrespondenceLog_CommunityIds(
      /* [out, callee] */ ArrayOf<CStakeholder.community>* CAdministration.correspondenceLog.communityIds);
 
 
-   CARAPI SetCorrespondenceLog.BankIds(
+   CARAPI SetCorrespondenceLog_BankIds(
      /* [in] */ ArrayOf<CFinance.bank> CAdministration.correspondenceLog.bankIds);
 
-    CARAPI GetCorrespondenceLog.BankIds(
+    CARAPI GetCorrespondenceLog_BankIds(
      /* [out, callee] */ ArrayOf<CFinance.bank>* CAdministration.correspondenceLog.bankIds);
 
 
-   CARAPI SetCorrespondenceLog.PropertyOwnerIds(
+   CARAPI SetCorrespondenceLog_PropertyOwnerIds(
      /* [in] */ ArrayOf<CProperty.propertyOwner> CAdministration.correspondenceLog.propertyOwnerIds);
 
-    CARAPI GetCorrespondenceLog.PropertyOwnerIds(
+    CARAPI GetCorrespondenceLog_PropertyOwnerIds(
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.correspondenceLog.propertyOwnerIds);
 
 
-   CARAPI SetCorrespondenceLog.ApplicantIds(
+   CARAPI SetCorrespondenceLog_ApplicantIds(
      /* [in] */ ArrayOf<CCustomer.applicant> CAdministration.correspondenceLog.applicantIds);
 
-    CARAPI GetCorrespondenceLog.ApplicantIds(
+    CARAPI GetCorrespondenceLog_ApplicantIds(
      /* [out, callee] */ ArrayOf<CCustomer.applicant>* CAdministration.correspondenceLog.applicantIds);
 
 
-   CARAPI SetCorrespondenceLog.TenancyIds(
+   CARAPI SetCorrespondenceLog_TenancyIds(
      /* [in] */ ArrayOf<CProperty.tenant> CAdministration.correspondenceLog.tenancyIds);
 
-    CARAPI GetCorrespondenceLog.TenancyIds(
+    CARAPI GetCorrespondenceLog_TenancyIds(
      /* [out, callee] */ ArrayOf<CProperty.tenant>* CAdministration.correspondenceLog.tenancyIds);
 
 
-   CARAPI SetCorrespondenceLog.EmployeeIds(
+   CARAPI SetCorrespondenceLog_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.correspondenceLog.employeeIds);
 
-    CARAPI GetCorrespondenceLog.EmployeeIds(
+    CARAPI GetCorrespondenceLog_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.correspondenceLog.employeeIds);
 
 
-   CARAPI SetCorrespondenceLog.SuperFundIds(
+   CARAPI SetCorrespondenceLog_SuperFundIds(
      /* [in] */ ArrayOf<CSupplier.superannuationFund> CAdministration.correspondenceLog.superFundIds);
 
-    CARAPI GetCorrespondenceLog.SuperFundIds(
+    CARAPI GetCorrespondenceLog_SuperFundIds(
      /* [out, callee] */ ArrayOf<CSupplier.superannuationFund>* CAdministration.correspondenceLog.superFundIds);
 
 
-   CARAPI SetCorrespondenceLog.SolicitorIds(
+   CARAPI SetCorrespondenceLog_SolicitorIds(
      /* [in] */ ArrayOf<CSolicitor.solicitor> CAdministration.correspondenceLog.solicitorIds);
 
-    CARAPI GetCorrespondenceLog.SolicitorIds(
+    CARAPI GetCorrespondenceLog_SolicitorIds(
      /* [out, callee] */ ArrayOf<CSolicitor.solicitor>* CAdministration.correspondenceLog.solicitorIds);
 
 
-   CARAPI SetCorrespondenceLog.AgentIds(
+   CARAPI SetCorrespondenceLog_AgentIds(
      /* [in] */ ArrayOf<CStakeholder.agent> CAdministration.correspondenceLog.agentIds);
 
-    CARAPI GetCorrespondenceLog.AgentIds(
+    CARAPI GetCorrespondenceLog_AgentIds(
      /* [out, callee] */ ArrayOf<CStakeholder.agent>* CAdministration.correspondenceLog.agentIds);
 
 
-   CARAPI SetCorrespondenceLog.NonGovStakeholderIds(
+   CARAPI SetCorrespondenceLog_NonGovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.nonGovStakeholder> CAdministration.correspondenceLog.nonGovStakeholderIds);
 
-    CARAPI GetCorrespondenceLog.NonGovStakeholderIds(
+    CARAPI GetCorrespondenceLog_NonGovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.nonGovStakeholder>* CAdministration.correspondenceLog.nonGovStakeholderIds);
 
 
-   CARAPI SetCorrespondenceLog.GovStakeholderIds(
+   CARAPI SetCorrespondenceLog_GovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.govStakeholder> CAdministration.correspondenceLog.govStakeholderIds);
 
-    CARAPI GetCorrespondenceLog.GovStakeholderIds(
+    CARAPI GetCorrespondenceLog_GovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.govStakeholder>* CAdministration.correspondenceLog.govStakeholderIds);
 
 
-   CARAPI SetCorrespondenceLog.CentrelinkId(
+   CARAPI SetCorrespondenceLog_CentrelinkId(
      /* [in] */ CFinance.centrelink CAdministration.correspondenceLog.centrelinkId);
 
-    CARAPI GetCorrespondenceLog.CentrelinkId(
+    CARAPI GetCorrespondenceLog_CentrelinkId(
      /* [out] */ CFinance.centrelink* CAdministration.correspondenceLog.centrelinkId);
 
 
-   CARAPI SetCorrespondenceLog.StateLAHAuthorityId(
+   CARAPI SetCorrespondenceLog_StateLAHAuthorityId(
      /* [in] */ CStakeholder.stateLAHAuthority CAdministration.correspondenceLog.stateLAHAuthorityId);
 
-    CARAPI GetCorrespondenceLog.StateLAHAuthorityId(
+    CARAPI GetCorrespondenceLog_StateLAHAuthorityId(
      /* [out] */ CStakeholder.stateLAHAuthority* CAdministration.correspondenceLog.stateLAHAuthorityId);
 
 
-   CARAPI SetCorrespondenceLog.StatePublicHousingAuthorityId(
+   CARAPI SetCorrespondenceLog_StatePublicHousingAuthorityId(
      /* [in] */ CStakeholder.statePublicHousingAuthority CAdministration.correspondenceLog.statePublicHousingAuthorityId);
 
-    CARAPI GetCorrespondenceLog.StatePublicHousingAuthorityId(
+    CARAPI GetCorrespondenceLog_StatePublicHousingAuthorityId(
      /* [out] */ CStakeholder.statePublicHousingAuthority* CAdministration.correspondenceLog.statePublicHousingAuthorityId);
 
 
-   CARAPI SetCorrespondenceLog.CommunityHousingRegulatorId(
+   CARAPI SetCorrespondenceLog_CommunityHousingRegulatorId(
      /* [in] */ CRegulator.communityHousingRegulator CAdministration.correspondenceLog.communityHousingRegulatorId);
 
-    CARAPI GetCorrespondenceLog.CommunityHousingRegulatorId(
+    CARAPI GetCorrespondenceLog_CommunityHousingRegulatorId(
      /* [out] */ CRegulator.communityHousingRegulator* CAdministration.correspondenceLog.communityHousingRegulatorId);
 
 
-   CARAPI SetCorrespondenceLog.ATOId(
+   CARAPI SetCorrespondenceLog_ATOId(
      /* [in] */ CRegulator.aTO CAdministration.correspondenceLog.aTOId);
 
-    CARAPI GetCorrespondenceLog.ATOId(
+    CARAPI GetCorrespondenceLog_ATOId(
      /* [out] */ CRegulator.aTO* CAdministration.correspondenceLog.aTOId);
 
 
-   CARAPI SetCorrespondenceLog.NatRegId(
+   CARAPI SetCorrespondenceLog_NatRegId(
      /* [in] */ CRegulator.nationalRegulator CAdministration.correspondenceLog.natRegId);
 
-    CARAPI GetCorrespondenceLog.NatRegId(
+    CARAPI GetCorrespondenceLog_NatRegId(
      /* [out] */ CRegulator.nationalRegulator* CAdministration.correspondenceLog.natRegId);
 
 
-   CARAPI SetCorrespondenceLog.TribunalId(
+   CARAPI SetCorrespondenceLog_TribunalId(
      /* [in] */ CRegulator.nCAT CAdministration.correspondenceLog.tribunalId);
 
-    CARAPI GetCorrespondenceLog.TribunalId(
+    CARAPI GetCorrespondenceLog_TribunalId(
      /* [out] */ CRegulator.nCAT* CAdministration.correspondenceLog.tribunalId);
 
 
-   CARAPI SetCorrespondenceLog.DocRefs(
+   CARAPI SetCorrespondenceLog_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.correspondenceLog.docRefs);
 
-    CARAPI GetCorrespondenceLog.DocRefs(
+    CARAPI GetCorrespondenceLog_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.correspondenceLog.docRefs);
 
 
-   CARAPI SetCorrespondenceLog.ImageRefs(
+   CARAPI SetCorrespondenceLog_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.correspondenceLog.imageRefs);
 
-    CARAPI GetCorrespondenceLog.ImageRefs(
+    CARAPI GetCorrespondenceLog_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.correspondenceLog.imageRefs);
 
 
-   CARAPI SetCorrespondenceLog.AudioRefIds(
+   CARAPI SetCorrespondenceLog_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.correspondenceLog.audioRefIds);
 
-    CARAPI GetCorrespondenceLog.AudioRefIds(
+    CARAPI GetCorrespondenceLog_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.correspondenceLog.audioRefIds);
 
 
-   CARAPI SetCorrespondenceLog.VideoRefs(
+   CARAPI SetCorrespondenceLog_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.correspondenceLog.videoRefs);
 
-    CARAPI GetCorrespondenceLog.VideoRefs(
+    CARAPI GetCorrespondenceLog_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.correspondenceLog.videoRefs);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.AdvertDesignId(
+   CARAPI SetAdvertisingTemplatesPlans_AdvertDesignId(
      /* [in] */ const String& CAdministration.advertisingTemplatesPlans.advertDesignId);
 
-    CARAPI GetAdvertisingTemplatesPlans.AdvertDesignId(
+    CARAPI GetAdvertisingTemplatesPlans_AdvertDesignId(
      /* [out] */ String* CAdministration.advertisingTemplatesPlans.advertDesignId);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.AdvertDesignName(
+   CARAPI SetAdvertisingTemplatesPlans_AdvertDesignName(
      /* [in] */ const String& CAdministration.advertisingTemplatesPlans.advertDesignName);
 
-    CARAPI GetAdvertisingTemplatesPlans.AdvertDesignName(
+    CARAPI GetAdvertisingTemplatesPlans_AdvertDesignName(
      /* [out] */ String* CAdministration.advertisingTemplatesPlans.advertDesignName);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.AdvertisingMedium(
+   CARAPI SetAdvertisingTemplatesPlans_AdvertisingMedium(
      /* [in] */ CHelper.advertisingMedium CAdministration.advertisingTemplatesPlans.AdvertisingMedium);
 
-    CARAPI GetAdvertisingTemplatesPlans.AdvertisingMedium(
+    CARAPI GetAdvertisingTemplatesPlans_AdvertisingMedium(
      /* [out] */ CHelper.advertisingMedium* CAdministration.advertisingTemplatesPlans.AdvertisingMedium);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.AccountsReceivableIds(
+   CARAPI SetAdvertisingTemplatesPlans_AccountsReceivableIds(
      /* [in] */ ArrayOf<const String&> CAdministration.advertisingTemplatesPlans.accountsReceivableIds);
 
-    CARAPI GetAdvertisingTemplatesPlans.AccountsReceivableIds(
+    CARAPI GetAdvertisingTemplatesPlans_AccountsReceivableIds(
      /* [out, callee] */ ArrayOf<String>* CAdministration.advertisingTemplatesPlans.accountsReceivableIds);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.AccountsPayableIds(
+   CARAPI SetAdvertisingTemplatesPlans_AccountsPayableIds(
      /* [in] */ ArrayOf<const String&> CAdministration.advertisingTemplatesPlans.accountsPayableIds);
 
-    CARAPI GetAdvertisingTemplatesPlans.AccountsPayableIds(
+    CARAPI GetAdvertisingTemplatesPlans_AccountsPayableIds(
      /* [out, callee] */ ArrayOf<String>* CAdministration.advertisingTemplatesPlans.accountsPayableIds);
 
 
@@ -757,797 +757,797 @@ public:
      /* [out] */ Double* CAdministration.advertisingTemplatesPlans.budCARAPI GetedAmount);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.DocRefsAdvertisingTemplatesPlans(
+   CARAPI SetAdvertisingTemplatesPlans_DocRefsAdvertisingTemplatesPlans(
      /* [in] */ ArrayOf<const String&> CAdministration.advertisingTemplatesPlans.docRefsAdvertisingTemplatesPlans);
 
-    CARAPI GetAdvertisingTemplatesPlans.DocRefsAdvertisingTemplatesPlans(
+    CARAPI GetAdvertisingTemplatesPlans_DocRefsAdvertisingTemplatesPlans(
      /* [out, callee] */ ArrayOf<String>* CAdministration.advertisingTemplatesPlans.docRefsAdvertisingTemplatesPlans);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.RunDateTimes(
+   CARAPI SetAdvertisingTemplatesPlans_RunDateTimes(
      /* [in] */ ArrayOf<const String&> CAdministration.advertisingTemplatesPlans.runDateTimes);
 
-    CARAPI GetAdvertisingTemplatesPlans.RunDateTimes(
+    CARAPI GetAdvertisingTemplatesPlans_RunDateTimes(
      /* [out, callee] */ ArrayOf<String>* CAdministration.advertisingTemplatesPlans.runDateTimes);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.PropertyId(
+   CARAPI SetAdvertisingTemplatesPlans_PropertyId(
      /* [in] */ CProperty.property CAdministration.advertisingTemplatesPlans.propertyId);
 
-    CARAPI GetAdvertisingTemplatesPlans.PropertyId(
+    CARAPI GetAdvertisingTemplatesPlans_PropertyId(
      /* [out] */ CProperty.property* CAdministration.advertisingTemplatesPlans.propertyId);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.PropertyOwners(
+   CARAPI SetAdvertisingTemplatesPlans_PropertyOwners(
      /* [in] */ ArrayOf<CProperty.propertyOwner> CAdministration.advertisingTemplatesPlans.propertyOwners);
 
-    CARAPI GetAdvertisingTemplatesPlans.PropertyOwners(
+    CARAPI GetAdvertisingTemplatesPlans_PropertyOwners(
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.advertisingTemplatesPlans.propertyOwners);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.AdvertScheduleId(
+   CARAPI SetAdvertisingTemplatesPlans_AdvertScheduleId(
      /* [in] */ CProperty.advertisingBudCARAPI GetSchedule CAdministration.advertisingTemplatesPlans.advertScheduleId);
 
-    CARAPI GetAdvertisingTemplatesPlans.AdvertScheduleId(
+    CARAPI GetAdvertisingTemplatesPlans_AdvertScheduleId(
      /* [out] */ CProperty.advertisingBudCARAPI GetSchedule* CAdministration.advertisingTemplatesPlans.advertScheduleId);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.BusinessChannelOwnerId(
+   CARAPI SetAdvertisingTemplatesPlans_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.advertisingTemplatesPlans.businessChannelOwnerId);
 
-    CARAPI GetAdvertisingTemplatesPlans.BusinessChannelOwnerId(
+    CARAPI GetAdvertisingTemplatesPlans_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.advertisingTemplatesPlans.businessChannelOwnerId);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.BranchId(
+   CARAPI SetAdvertisingTemplatesPlans_BranchId(
      /* [in] */ CAdministration.branch CAdministration.advertisingTemplatesPlans.branchId);
 
-    CARAPI GetAdvertisingTemplatesPlans.BranchId(
+    CARAPI GetAdvertisingTemplatesPlans_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.advertisingTemplatesPlans.branchId);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.DeptId(
+   CARAPI SetAdvertisingTemplatesPlans_DeptId(
      /* [in] */ CAdministration.department CAdministration.advertisingTemplatesPlans.deptId);
 
-    CARAPI GetAdvertisingTemplatesPlans.DeptId(
+    CARAPI GetAdvertisingTemplatesPlans_DeptId(
      /* [out] */ CAdministration.department* CAdministration.advertisingTemplatesPlans.deptId);
 
 
-   CARAPI SetBranch.BranchId(
+   CARAPI SetBranch_BranchId(
      /* [in] */ const String& CAdministration.branch.branchId);
 
-    CARAPI GetBranch.BranchId(
+    CARAPI GetBranch_BranchId(
      /* [out] */ String* CAdministration.branch.branchId);
 
 
-   CARAPI SetBranch.BranchName(
+   CARAPI SetBranch_BranchName(
      /* [in] */ const String& CAdministration.branch.branchName);
 
-    CARAPI GetBranch.BranchName(
+    CARAPI GetBranch_BranchName(
      /* [out] */ String* CAdministration.branch.branchName);
 
 
-   CARAPI SetBranch.BranchAddressLine1(
+   CARAPI SetBranch_BranchAddressLine1(
      /* [in] */ const String& CAdministration.branch.branchAddressLine1);
 
-    CARAPI GetBranch.BranchAddressLine1(
+    CARAPI GetBranch_BranchAddressLine1(
      /* [out] */ String* CAdministration.branch.branchAddressLine1);
 
 
-   CARAPI SetBranch.BranchAddressLine2(
+   CARAPI SetBranch_BranchAddressLine2(
      /* [in] */ const String& CAdministration.branch.branchAddressLine2);
 
-    CARAPI GetBranch.BranchAddressLine2(
+    CARAPI GetBranch_BranchAddressLine2(
      /* [out] */ String* CAdministration.branch.branchAddressLine2);
 
 
-   CARAPI SetBranch.BranchSuburb(
+   CARAPI SetBranch_BranchSuburb(
      /* [in] */ const String& CAdministration.branch.branchSuburb);
 
-    CARAPI GetBranch.BranchSuburb(
+    CARAPI GetBranch_BranchSuburb(
      /* [out] */ String* CAdministration.branch.branchSuburb);
 
 
-   CARAPI SetBranch.BranchPostcode(
+   CARAPI SetBranch_BranchPostcode(
      /* [in] */ const String& CAdministration.branch.branchPostcode);
 
-    CARAPI GetBranch.BranchPostcode(
+    CARAPI GetBranch_BranchPostcode(
      /* [out] */ String* CAdministration.branch.branchPostcode);
 
 
-   CARAPI SetBranch.BranchPhone(
+   CARAPI SetBranch_BranchPhone(
      /* [in] */ const String& CAdministration.branch.branchPhone);
 
-    CARAPI GetBranch.BranchPhone(
+    CARAPI GetBranch_BranchPhone(
      /* [out] */ String* CAdministration.branch.branchPhone);
 
 
-   CARAPI SetBranch.RoleIds(
+   CARAPI SetBranch_RoleIds(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.branch.roleIds);
 
-    CARAPI GetBranch.RoleIds(
+    CARAPI GetBranch_RoleIds(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.branch.roleIds);
 
 
-   CARAPI SetBranch.DeptIds(
+   CARAPI SetBranch_DeptIds(
      /* [in] */ ArrayOf<CAdministration.department> CAdministration.branch.deptIds);
 
-    CARAPI GetBranch.DeptIds(
+    CARAPI GetBranch_DeptIds(
      /* [out, callee] */ ArrayOf<CAdministration.department>* CAdministration.branch.deptIds);
 
 
-   CARAPI SetBranch.SubDeptIds(
+   CARAPI SetBranch_SubDeptIds(
      /* [in] */ ArrayOf<CAdministration.subdepartment> CAdministration.branch.subDeptIds);
 
-    CARAPI GetBranch.SubDeptIds(
+    CARAPI GetBranch_SubDeptIds(
      /* [out, callee] */ ArrayOf<CAdministration.subdepartment>* CAdministration.branch.subDeptIds);
 
 
-   CARAPI SetBranch.SubDeptLevel2Ids(
+   CARAPI SetBranch_SubDeptLevel2Ids(
      /* [in] */ ArrayOf<CAdministration.subdepartmentLevel2> CAdministration.branch.subDeptLevel2Ids);
 
-    CARAPI GetBranch.SubDeptLevel2Ids(
+    CARAPI GetBranch_SubDeptLevel2Ids(
      /* [out, callee] */ ArrayOf<CAdministration.subdepartmentLevel2>* CAdministration.branch.subDeptLevel2Ids);
 
 
-   CARAPI SetBranch.SubDeptLevel3Ids(
+   CARAPI SetBranch_SubDeptLevel3Ids(
      /* [in] */ ArrayOf<CAdministration.subdepartmentLevel3> CAdministration.branch.subDeptLevel3Ids);
 
-    CARAPI GetBranch.SubDeptLevel3Ids(
+    CARAPI GetBranch_SubDeptLevel3Ids(
      /* [out, callee] */ ArrayOf<CAdministration.subdepartmentLevel3>* CAdministration.branch.subDeptLevel3Ids);
 
 
-   CARAPI SetBranch.BusinessChannelOwnerId(
+   CARAPI SetBranch_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.branch.businessChannelOwnerId);
 
-    CARAPI GetBranch.BusinessChannelOwnerId(
+    CARAPI GetBranch_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.branch.businessChannelOwnerId);
 
 
-   CARAPI SetBranch.DocRefs(
+   CARAPI SetBranch_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.branch.docRefs);
 
-    CARAPI GetBranch.DocRefs(
+    CARAPI GetBranch_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.branch.docRefs);
 
 
-   CARAPI SetBranch.ImageRefs(
+   CARAPI SetBranch_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.branch.imageRefs);
 
-    CARAPI GetBranch.ImageRefs(
+    CARAPI GetBranch_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.branch.imageRefs);
 
 
-   CARAPI SetBranch.AudioRefIds(
+   CARAPI SetBranch_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.branch.audioRefIds);
 
-    CARAPI GetBranch.AudioRefIds(
+    CARAPI GetBranch_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.branch.audioRefIds);
 
 
-   CARAPI SetBranch.VideoRefs(
+   CARAPI SetBranch_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.branch.videoRefs);
 
-    CARAPI GetBranch.VideoRefs(
+    CARAPI GetBranch_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.branch.videoRefs);
 
 
 
 
 
-   CARAPI SetDepartmentMap.DeptMapId(
+   CARAPI SetDepartmentMap_DeptMapId(
      /* [in] */ const String& CAdministration.departmentMap.deptMapId);
 
-    CARAPI GetDepartmentMap.DeptMapId(
+    CARAPI GetDepartmentMap_DeptMapId(
      /* [out] */ String* CAdministration.departmentMap.deptMapId);
 
 
-   CARAPI SetDepartmentMap.Description(
+   CARAPI SetDepartmentMap_Description(
      /* [in] */ const String& CAdministration.departmentMap.description);
 
-    CARAPI GetDepartmentMap.Description(
+    CARAPI GetDepartmentMap_Description(
      /* [out] */ String* CAdministration.departmentMap.description);
 
 
-   CARAPI SetDepartmentMap.BusinessChannelOwnerId(
+   CARAPI SetDepartmentMap_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.departmentMap.businessChannelOwnerId);
 
-    CARAPI GetDepartmentMap.BusinessChannelOwnerId(
+    CARAPI GetDepartmentMap_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.departmentMap.businessChannelOwnerId);
 
 
-   CARAPI SetDepartmentMap.DepartmentId(
+   CARAPI SetDepartmentMap_DepartmentId(
      /* [in] */ CAdministration.department CAdministration.departmentMap.departmentId);
 
-    CARAPI GetDepartmentMap.DepartmentId(
+    CARAPI GetDepartmentMap_DepartmentId(
      /* [out] */ CAdministration.department* CAdministration.departmentMap.departmentId);
 
 
-   CARAPI SetDepartmentMap.SubDeptId(
+   CARAPI SetDepartmentMap_SubDeptId(
      /* [in] */ CAdministration.subdepartment CAdministration.departmentMap.subDeptId);
 
-    CARAPI GetDepartmentMap.SubDeptId(
+    CARAPI GetDepartmentMap_SubDeptId(
      /* [out] */ CAdministration.subdepartment* CAdministration.departmentMap.subDeptId);
 
 
-   CARAPI SetDepartmentMap.SubDeptLevel2Id(
+   CARAPI SetDepartmentMap_SubDeptLevel2Id(
      /* [in] */ CAdministration.subdepartmentLevel2 CAdministration.departmentMap.subDeptLevel2Id);
 
-    CARAPI GetDepartmentMap.SubDeptLevel2Id(
+    CARAPI GetDepartmentMap_SubDeptLevel2Id(
      /* [out] */ CAdministration.subdepartmentLevel2* CAdministration.departmentMap.subDeptLevel2Id);
 
 
-   CARAPI SetDepartmentMap.SubDeptLevel3Id(
+   CARAPI SetDepartmentMap_SubDeptLevel3Id(
      /* [in] */ CAdministration.subdepartmentLevel3 CAdministration.departmentMap.subDeptLevel3Id);
 
-    CARAPI GetDepartmentMap.SubDeptLevel3Id(
+    CARAPI GetDepartmentMap_SubDeptLevel3Id(
      /* [out] */ CAdministration.subdepartmentLevel3* CAdministration.departmentMap.subDeptLevel3Id);
 
 
-   CARAPI SetDepartmentMap.HeadsDeptsSubDeptsEmployeeIdsDescending(
+   CARAPI SetDepartmentMap_HeadsDeptsSubDeptsEmployeeIdsDescending(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.departmentMap.headsDeptsSubDeptsEmployeeIdsDescending);
 
-    CARAPI GetDepartmentMap.HeadsDeptsSubDeptsEmployeeIdsDescending(
+    CARAPI GetDepartmentMap_HeadsDeptsSubDeptsEmployeeIdsDescending(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.departmentMap.headsDeptsSubDeptsEmployeeIdsDescending);
 
 
-   CARAPI SetDepartmentMap.RoleIds(
+   CARAPI SetDepartmentMap_RoleIds(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.departmentMap.roleIds);
 
-    CARAPI GetDepartmentMap.RoleIds(
+    CARAPI GetDepartmentMap_RoleIds(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.departmentMap.roleIds);
 
 
-   CARAPI SetDepartmentMap.BranchIds(
+   CARAPI SetDepartmentMap_BranchIds(
      /* [in] */ ArrayOf<CAdministration.branch> CAdministration.departmentMap.branchIds);
 
-    CARAPI GetDepartmentMap.BranchIds(
+    CARAPI GetDepartmentMap_BranchIds(
      /* [out, callee] */ ArrayOf<CAdministration.branch>* CAdministration.departmentMap.branchIds);
 
 
-   CARAPI SetDepartmentMap.DocRefs(
+   CARAPI SetDepartmentMap_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.departmentMap.docRefs);
 
-    CARAPI GetDepartmentMap.DocRefs(
+    CARAPI GetDepartmentMap_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.departmentMap.docRefs);
 
 
-   CARAPI SetDepartmentMap.ImageRefs(
+   CARAPI SetDepartmentMap_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.departmentMap.imageRefs);
 
-    CARAPI GetDepartmentMap.ImageRefs(
+    CARAPI GetDepartmentMap_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.departmentMap.imageRefs);
 
 
-   CARAPI SetDepartmentMap.AudioRefIds(
+   CARAPI SetDepartmentMap_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.departmentMap.audioRefIds);
 
-    CARAPI GetDepartmentMap.AudioRefIds(
+    CARAPI GetDepartmentMap_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.departmentMap.audioRefIds);
 
 
-   CARAPI SetDepartmentMap.VideoRefs(
+   CARAPI SetDepartmentMap_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.departmentMap.videoRefs);
 
-    CARAPI GetDepartmentMap.VideoRefs(
+    CARAPI GetDepartmentMap_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.departmentMap.videoRefs);
 
 
-   CARAPI SetDepartment.DeptId(
+   CARAPI SetDepartment_DeptId(
      /* [in] */ const String& CAdministration.department.deptId);
 
-    CARAPI GetDepartment.DeptId(
+    CARAPI GetDepartment_DeptId(
      /* [out] */ String* CAdministration.department.deptId);
 
 
-   CARAPI SetDepartment.DeptName(
+   CARAPI SetDepartment_DeptName(
      /* [in] */ const String& CAdministration.department.deptName);
 
-    CARAPI GetDepartment.DeptName(
+    CARAPI GetDepartment_DeptName(
      /* [out] */ String* CAdministration.department.deptName);
 
 
-   CARAPI SetDepartment.DeptAddressLine1(
+   CARAPI SetDepartment_DeptAddressLine1(
      /* [in] */ ArrayOf<const String&> CAdministration.department.deptAddressLine1);
 
-    CARAPI GetDepartment.DeptAddressLine1(
+    CARAPI GetDepartment_DeptAddressLine1(
      /* [out, callee] */ ArrayOf<String>* CAdministration.department.deptAddressLine1);
 
 
-   CARAPI SetDepartment.DeptAddressLine2(
+   CARAPI SetDepartment_DeptAddressLine2(
      /* [in] */ ArrayOf<const String&> CAdministration.department.deptAddressLine2);
 
-    CARAPI GetDepartment.DeptAddressLine2(
+    CARAPI GetDepartment_DeptAddressLine2(
      /* [out, callee] */ ArrayOf<String>* CAdministration.department.deptAddressLine2);
 
 
-   CARAPI SetDepartment.BranchSuburb(
+   CARAPI SetDepartment_BranchSuburb(
      /* [in] */ ArrayOf<const String&> CAdministration.department.branchSuburb);
 
-    CARAPI GetDepartment.BranchSuburb(
+    CARAPI GetDepartment_BranchSuburb(
      /* [out, callee] */ ArrayOf<String>* CAdministration.department.branchSuburb);
 
 
-   CARAPI SetDepartment.BranchPostcode(
+   CARAPI SetDepartment_BranchPostcode(
      /* [in] */ ArrayOf<const String&> CAdministration.department.branchPostcode);
 
-    CARAPI GetDepartment.BranchPostcode(
+    CARAPI GetDepartment_BranchPostcode(
      /* [out, callee] */ ArrayOf<String>* CAdministration.department.branchPostcode);
 
 
-   CARAPI SetDepartment.BranchPhone(
+   CARAPI SetDepartment_BranchPhone(
      /* [in] */ ArrayOf<const String&> CAdministration.department.branchPhone);
 
-    CARAPI GetDepartment.BranchPhone(
+    CARAPI GetDepartment_BranchPhone(
      /* [out, callee] */ ArrayOf<String>* CAdministration.department.branchPhone);
 
 
-   CARAPI SetDepartment.HeadDeptEmployeeId(
+   CARAPI SetDepartment_HeadDeptEmployeeId(
      /* [in] */ CAdministration.staff CAdministration.department.headDeptEmployeeId);
 
-    CARAPI GetDepartment.HeadDeptEmployeeId(
+    CARAPI GetDepartment_HeadDeptEmployeeId(
      /* [out] */ CAdministration.staff* CAdministration.department.headDeptEmployeeId);
 
 
-   CARAPI SetDepartment.RoleIds(
+   CARAPI SetDepartment_RoleIds(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.department.roleIds);
 
-    CARAPI GetDepartment.RoleIds(
+    CARAPI GetDepartment_RoleIds(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.department.roleIds);
 
 
-   CARAPI SetDepartment.BranchIds(
+   CARAPI SetDepartment_BranchIds(
      /* [in] */ ArrayOf<CAdministration.branch> CAdministration.department.branchIds);
 
-    CARAPI GetDepartment.BranchIds(
+    CARAPI GetDepartment_BranchIds(
      /* [out, callee] */ ArrayOf<CAdministration.branch>* CAdministration.department.branchIds);
 
 
-   CARAPI SetDepartment.BusinessChannelOwnerId(
+   CARAPI SetDepartment_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.department.businessChannelOwnerId);
 
-    CARAPI GetDepartment.BusinessChannelOwnerId(
+    CARAPI GetDepartment_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.department.businessChannelOwnerId);
 
 
-   CARAPI SetDepartment.DocRefs(
+   CARAPI SetDepartment_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.department.docRefs);
 
-    CARAPI GetDepartment.DocRefs(
+    CARAPI GetDepartment_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.department.docRefs);
 
 
-   CARAPI SetDepartment.ImageRefs(
+   CARAPI SetDepartment_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.department.imageRefs);
 
-    CARAPI GetDepartment.ImageRefs(
+    CARAPI GetDepartment_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.department.imageRefs);
 
 
-   CARAPI SetDepartment.AudioRefIds(
+   CARAPI SetDepartment_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.department.audioRefIds);
 
-    CARAPI GetDepartment.AudioRefIds(
+    CARAPI GetDepartment_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.department.audioRefIds);
 
 
-   CARAPI SetDepartment.VideoRefs(
+   CARAPI SetDepartment_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.department.videoRefs);
 
-    CARAPI GetDepartment.VideoRefs(
+    CARAPI GetDepartment_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.department.videoRefs);
 
 
-   CARAPI SetSubDepartment.SubDeptId(
+   CARAPI SetSubDepartment_SubDeptId(
      /* [in] */ const String& CAdministration.subdepartment.subDeptId);
 
-    CARAPI GetSubDepartment.SubDeptId(
+    CARAPI GetSubDepartment_SubDeptId(
      /* [out] */ String* CAdministration.subdepartment.subDeptId);
 
 
-   CARAPI SetSubDepartment.SubDeptName(
+   CARAPI SetSubDepartment_SubDeptName(
      /* [in] */ const String& CAdministration.subdepartment.subDeptName);
 
-    CARAPI GetSubDepartment.SubDeptName(
+    CARAPI GetSubDepartment_SubDeptName(
      /* [out] */ String* CAdministration.subdepartment.subDeptName);
 
 
-   CARAPI SetSubDepartment.SubDeptAddressLine1(
+   CARAPI SetSubDepartment_SubDeptAddressLine1(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartment.subDeptAddressLine1);
 
-    CARAPI GetSubDepartment.SubDeptAddressLine1(
+    CARAPI GetSubDepartment_SubDeptAddressLine1(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartment.subDeptAddressLine1);
 
 
-   CARAPI SetSubDepartment.SubDeptAddressLine2(
+   CARAPI SetSubDepartment_SubDeptAddressLine2(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartment.subDeptAddressLine2);
 
-    CARAPI GetSubDepartment.SubDeptAddressLine2(
+    CARAPI GetSubDepartment_SubDeptAddressLine2(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartment.subDeptAddressLine2);
 
 
-   CARAPI SetSubDepartment.BranchSuburb(
+   CARAPI SetSubDepartment_BranchSuburb(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartment.branchSuburb);
 
-    CARAPI GetSubDepartment.BranchSuburb(
+    CARAPI GetSubDepartment_BranchSuburb(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartment.branchSuburb);
 
 
-   CARAPI SetSubDepartment.BranchPostcode(
+   CARAPI SetSubDepartment_BranchPostcode(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartment.branchPostcode);
 
-    CARAPI GetSubDepartment.BranchPostcode(
+    CARAPI GetSubDepartment_BranchPostcode(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartment.branchPostcode);
 
 
-   CARAPI SetSubDepartment.BranchPhone(
+   CARAPI SetSubDepartment_BranchPhone(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartment.branchPhone);
 
-    CARAPI GetSubDepartment.BranchPhone(
+    CARAPI GetSubDepartment_BranchPhone(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartment.branchPhone);
 
 
-   CARAPI SetSubDepartment.HeadSubDeptEmployeeId(
+   CARAPI SetSubDepartment_HeadSubDeptEmployeeId(
      /* [in] */ CAdministration.staff CAdministration.subdepartment.headSubDeptEmployeeId);
 
-    CARAPI GetSubDepartment.HeadSubDeptEmployeeId(
+    CARAPI GetSubDepartment_HeadSubDeptEmployeeId(
      /* [out] */ CAdministration.staff* CAdministration.subdepartment.headSubDeptEmployeeId);
 
 
-   CARAPI SetSubDepartment.RoleIds(
+   CARAPI SetSubDepartment_RoleIds(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.subdepartment.roleIds);
 
-    CARAPI GetSubDepartment.RoleIds(
+    CARAPI GetSubDepartment_RoleIds(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.subdepartment.roleIds);
 
 
-   CARAPI SetSubDepartment.BranchIds(
+   CARAPI SetSubDepartment_BranchIds(
      /* [in] */ ArrayOf<CAdministration.branch> CAdministration.subdepartment.branchIds);
 
-    CARAPI GetSubDepartment.BranchIds(
+    CARAPI GetSubDepartment_BranchIds(
      /* [out, callee] */ ArrayOf<CAdministration.branch>* CAdministration.subdepartment.branchIds);
 
 
-   CARAPI SetSubDepartment.SupDeptId(
+   CARAPI SetSubDepartment_SupDeptId(
      /* [in] */ CAdministration.department CAdministration.subdepartment.supDeptId);
 
-    CARAPI GetSubDepartment.SupDeptId(
+    CARAPI GetSubDepartment_SupDeptId(
      /* [out] */ CAdministration.department* CAdministration.subdepartment.supDeptId);
 
 
-   CARAPI SetSubDepartment.BusinessChannelOwnerId(
+   CARAPI SetSubDepartment_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.subdepartment.businessChannelOwnerId);
 
-    CARAPI GetSubDepartment.BusinessChannelOwnerId(
+    CARAPI GetSubDepartment_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.subdepartment.businessChannelOwnerId);
 
 
-   CARAPI SetSubDepartment.DocRefs(
+   CARAPI SetSubDepartment_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.subdepartment.docRefs);
 
-    CARAPI GetSubDepartment.DocRefs(
+    CARAPI GetSubDepartment_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.subdepartment.docRefs);
 
 
-   CARAPI SetSubDepartment.ImageRefs(
+   CARAPI SetSubDepartment_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.subdepartment.imageRefs);
 
-    CARAPI GetSubDepartment.ImageRefs(
+    CARAPI GetSubDepartment_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.subdepartment.imageRefs);
 
 
-   CARAPI SetSubDepartment.AudioRefIds(
+   CARAPI SetSubDepartment_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.subdepartment.audioRefIds);
 
-    CARAPI GetSubDepartment.AudioRefIds(
+    CARAPI GetSubDepartment_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.subdepartment.audioRefIds);
 
 
-   CARAPI SetSubDepartment.VideoRefs(
+   CARAPI SetSubDepartment_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.subdepartment.videoRefs);
 
-    CARAPI GetSubDepartment.VideoRefs(
+    CARAPI GetSubDepartment_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.subdepartment.videoRefs);
 
 
-   CARAPI SetSubDepartmentLevel2.SubDeptLevel2Id(
+   CARAPI SetSubDepartmentLevel2_SubDeptLevel2Id(
      /* [in] */ const String& CAdministration.subdepartmentLevel2.subDeptLevel2Id);
 
-    CARAPI GetSubDepartmentLevel2.SubDeptLevel2Id(
+    CARAPI GetSubDepartmentLevel2_SubDeptLevel2Id(
      /* [out] */ String* CAdministration.subdepartmentLevel2.subDeptLevel2Id);
 
 
-   CARAPI SetSubDepartmentLevel2.SubDeptLevel2Name(
+   CARAPI SetSubDepartmentLevel2_SubDeptLevel2Name(
      /* [in] */ const String& CAdministration.subdepartmentLevel2.subDeptLevel2Name);
 
-    CARAPI GetSubDepartmentLevel2.SubDeptLevel2Name(
+    CARAPI GetSubDepartmentLevel2_SubDeptLevel2Name(
      /* [out] */ String* CAdministration.subdepartmentLevel2.subDeptLevel2Name);
 
 
-   CARAPI SetSubDepartmentLevel2.SubDeptLevel2AddressLine1(
+   CARAPI SetSubDepartmentLevel2_SubDeptLevel2AddressLine1(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel2.subDeptLevel2AddressLine1);
 
-    CARAPI GetSubDepartmentLevel2.SubDeptLevel2AddressLine1(
+    CARAPI GetSubDepartmentLevel2_SubDeptLevel2AddressLine1(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel2.subDeptLevel2AddressLine1);
 
 
-   CARAPI SetSubDepartmentLevel2.SubDeptLevel2AddressLine2(
+   CARAPI SetSubDepartmentLevel2_SubDeptLevel2AddressLine2(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel2.subDeptLevel2AddressLine2);
 
-    CARAPI GetSubDepartmentLevel2.SubDeptLevel2AddressLine2(
+    CARAPI GetSubDepartmentLevel2_SubDeptLevel2AddressLine2(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel2.subDeptLevel2AddressLine2);
 
 
-   CARAPI SetSubDepartmentLevel2.BranchSuburb(
+   CARAPI SetSubDepartmentLevel2_BranchSuburb(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel2.branchSuburb);
 
-    CARAPI GetSubDepartmentLevel2.BranchSuburb(
+    CARAPI GetSubDepartmentLevel2_BranchSuburb(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel2.branchSuburb);
 
 
-   CARAPI SetSubDepartmentLevel2.BranchPostcode(
+   CARAPI SetSubDepartmentLevel2_BranchPostcode(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel2.branchPostcode);
 
-    CARAPI GetSubDepartmentLevel2.BranchPostcode(
+    CARAPI GetSubDepartmentLevel2_BranchPostcode(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel2.branchPostcode);
 
 
-   CARAPI SetSubDepartmentLevel2.BranchPhone(
+   CARAPI SetSubDepartmentLevel2_BranchPhone(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel2.branchPhone);
 
-    CARAPI GetSubDepartmentLevel2.BranchPhone(
+    CARAPI GetSubDepartmentLevel2_BranchPhone(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel2.branchPhone);
 
 
-   CARAPI SetSubDepartmentLevel2.HeadLevel2SubDeptEmployeeId(
+   CARAPI SetSubDepartmentLevel2_HeadLevel2SubDeptEmployeeId(
      /* [in] */ CAdministration.staff CAdministration.subdepartmentLevel2.headLevel2SubDeptEmployeeId);
 
-    CARAPI GetSubDepartmentLevel2.HeadLevel2SubDeptEmployeeId(
+    CARAPI GetSubDepartmentLevel2_HeadLevel2SubDeptEmployeeId(
      /* [out] */ CAdministration.staff* CAdministration.subdepartmentLevel2.headLevel2SubDeptEmployeeId);
 
 
-   CARAPI SetSubDepartmentLevel2.RoleIds(
+   CARAPI SetSubDepartmentLevel2_RoleIds(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.subdepartmentLevel2.roleIds);
 
-    CARAPI GetSubDepartmentLevel2.RoleIds(
+    CARAPI GetSubDepartmentLevel2_RoleIds(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.subdepartmentLevel2.roleIds);
 
 
-   CARAPI SetSubDepartmentLevel2.BranchIds(
+   CARAPI SetSubDepartmentLevel2_BranchIds(
      /* [in] */ ArrayOf<CAdministration.branch> CAdministration.subdepartmentLevel2.branchIds);
 
-    CARAPI GetSubDepartmentLevel2.BranchIds(
+    CARAPI GetSubDepartmentLevel2_BranchIds(
      /* [out, callee] */ ArrayOf<CAdministration.branch>* CAdministration.subdepartmentLevel2.branchIds);
 
 
-   CARAPI SetSubDepartmentLevel2.SupSubDeptId(
+   CARAPI SetSubDepartmentLevel2_SupSubDeptId(
      /* [in] */ CAdministration.subdepartment CAdministration.subdepartmentLevel2.supSubDeptId);
 
-    CARAPI GetSubDepartmentLevel2.SupSubDeptId(
+    CARAPI GetSubDepartmentLevel2_SupSubDeptId(
      /* [out] */ CAdministration.subdepartment* CAdministration.subdepartmentLevel2.supSubDeptId);
 
 
-   CARAPI SetSubDepartmentLevel2.BusinessChannelOwnerId(
+   CARAPI SetSubDepartmentLevel2_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.subdepartmentLevel2.businessChannelOwnerId);
 
-    CARAPI GetSubDepartmentLevel2.BusinessChannelOwnerId(
+    CARAPI GetSubDepartmentLevel2_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.subdepartmentLevel2.businessChannelOwnerId);
 
 
-   CARAPI SetSubDepartmentLevel2.DocRefs(
+   CARAPI SetSubDepartmentLevel2_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.subdepartmentLevel2.docRefs);
 
-    CARAPI GetSubDepartmentLevel2.DocRefs(
+    CARAPI GetSubDepartmentLevel2_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.subdepartmentLevel2.docRefs);
 
 
-   CARAPI SetSubDepartmentLevel2.ImageRefs(
+   CARAPI SetSubDepartmentLevel2_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.subdepartmentLevel2.imageRefs);
 
-    CARAPI GetSubDepartmentLevel2.ImageRefs(
+    CARAPI GetSubDepartmentLevel2_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.subdepartmentLevel2.imageRefs);
 
 
-   CARAPI SetSubDepartmentLevel2.AudioRefIds(
+   CARAPI SetSubDepartmentLevel2_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.subdepartmentLevel2.audioRefIds);
 
-    CARAPI GetSubDepartmentLevel2.AudioRefIds(
+    CARAPI GetSubDepartmentLevel2_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.subdepartmentLevel2.audioRefIds);
 
 
-   CARAPI SetSubDepartmentLevel2.VideoRefs(
+   CARAPI SetSubDepartmentLevel2_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.subdepartmentLevel2.videoRefs);
 
-    CARAPI GetSubDepartmentLevel2.VideoRefs(
+    CARAPI GetSubDepartmentLevel2_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.subdepartmentLevel2.videoRefs);
 
 
-   CARAPI SetSubDepartmentLevel3.SubDeptLevel3Id(
+   CARAPI SetSubDepartmentLevel3_SubDeptLevel3Id(
      /* [in] */ const String& CAdministration.subdepartmentLevel3.subDeptLevel3Id);
 
-    CARAPI GetSubDepartmentLevel3.SubDeptLevel3Id(
+    CARAPI GetSubDepartmentLevel3_SubDeptLevel3Id(
      /* [out] */ String* CAdministration.subdepartmentLevel3.subDeptLevel3Id);
 
 
-   CARAPI SetSubDepartmentLevel3.SubDeptLevel3Name(
+   CARAPI SetSubDepartmentLevel3_SubDeptLevel3Name(
      /* [in] */ const String& CAdministration.subdepartmentLevel3.subDeptLevel3Name);
 
-    CARAPI GetSubDepartmentLevel3.SubDeptLevel3Name(
+    CARAPI GetSubDepartmentLevel3_SubDeptLevel3Name(
      /* [out] */ String* CAdministration.subdepartmentLevel3.subDeptLevel3Name);
 
 
-   CARAPI SetSubDepartmentLevel3.SubDeptLevel3AddressLine1(
+   CARAPI SetSubDepartmentLevel3_SubDeptLevel3AddressLine1(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel3.subDeptLevel3AddressLine1);
 
-    CARAPI GetSubDepartmentLevel3.SubDeptLevel3AddressLine1(
+    CARAPI GetSubDepartmentLevel3_SubDeptLevel3AddressLine1(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel3.subDeptLevel3AddressLine1);
 
 
-   CARAPI SetSubDepartmentLevel3.SubDeptLevel3AddressLine2(
+   CARAPI SetSubDepartmentLevel3_SubDeptLevel3AddressLine2(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel3.subDeptLevel3AddressLine2);
 
-    CARAPI GetSubDepartmentLevel3.SubDeptLevel3AddressLine2(
+    CARAPI GetSubDepartmentLevel3_SubDeptLevel3AddressLine2(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel3.subDeptLevel3AddressLine2);
 
 
-   CARAPI SetSubDepartmentLevel3.BranchSuburb(
+   CARAPI SetSubDepartmentLevel3_BranchSuburb(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel3.branchSuburb);
 
-    CARAPI GetSubDepartmentLevel3.BranchSuburb(
+    CARAPI GetSubDepartmentLevel3_BranchSuburb(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel3.branchSuburb);
 
 
-   CARAPI SetSubDepartmentLevel3.BranchPostcode(
+   CARAPI SetSubDepartmentLevel3_BranchPostcode(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel3.branchPostcode);
 
-    CARAPI GetSubDepartmentLevel3.BranchPostcode(
+    CARAPI GetSubDepartmentLevel3_BranchPostcode(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel3.branchPostcode);
 
 
-   CARAPI SetSubDepartmentLevel3.BranchPhone(
+   CARAPI SetSubDepartmentLevel3_BranchPhone(
      /* [in] */ ArrayOf<const String&> CAdministration.subdepartmentLevel3.branchPhone);
 
-    CARAPI GetSubDepartmentLevel3.BranchPhone(
+    CARAPI GetSubDepartmentLevel3_BranchPhone(
      /* [out, callee] */ ArrayOf<String>* CAdministration.subdepartmentLevel3.branchPhone);
 
 
-   CARAPI SetSubDepartmentLevel3.HeadLevel2SubDeptEmployeeId(
+   CARAPI SetSubDepartmentLevel3_HeadLevel2SubDeptEmployeeId(
      /* [in] */ CAdministration.staff CAdministration.subdepartmentLevel3.headLevel2SubDeptEmployeeId);
 
-    CARAPI GetSubDepartmentLevel3.HeadLevel2SubDeptEmployeeId(
+    CARAPI GetSubDepartmentLevel3_HeadLevel2SubDeptEmployeeId(
      /* [out] */ CAdministration.staff* CAdministration.subdepartmentLevel3.headLevel2SubDeptEmployeeId);
 
 
-   CARAPI SetSubDepartmentLevel3.RoleIds(
+   CARAPI SetSubDepartmentLevel3_RoleIds(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.subdepartmentLevel3.roleIds);
 
-    CARAPI GetSubDepartmentLevel3.RoleIds(
+    CARAPI GetSubDepartmentLevel3_RoleIds(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.subdepartmentLevel3.roleIds);
 
 
-   CARAPI SetSubDepartmentLevel3.BranchIds(
+   CARAPI SetSubDepartmentLevel3_BranchIds(
      /* [in] */ ArrayOf<CAdministration.branch> CAdministration.subdepartmentLevel3.branchIds);
 
-    CARAPI GetSubDepartmentLevel3.BranchIds(
+    CARAPI GetSubDepartmentLevel3_BranchIds(
      /* [out, callee] */ ArrayOf<CAdministration.branch>* CAdministration.subdepartmentLevel3.branchIds);
 
 
-   CARAPI SetSubDepartmentLevel3.SupSubDeptLevel2Id(
+   CARAPI SetSubDepartmentLevel3_SupSubDeptLevel2Id(
      /* [in] */ CAdministration.subdepartmentLevel2 CAdministration.subdepartmentLevel3.supSubDeptLevel2Id);
 
-    CARAPI GetSubDepartmentLevel3.SupSubDeptLevel2Id(
+    CARAPI GetSubDepartmentLevel3_SupSubDeptLevel2Id(
      /* [out] */ CAdministration.subdepartmentLevel2* CAdministration.subdepartmentLevel3.supSubDeptLevel2Id);
 
 
-   CARAPI SetSubDepartmentLevel3.BusinessChannelOwnerId(
+   CARAPI SetSubDepartmentLevel3_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.subdepartmentLevel3.businessChannelOwnerId);
 
-    CARAPI GetSubDepartmentLevel3.BusinessChannelOwnerId(
+    CARAPI GetSubDepartmentLevel3_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.subdepartmentLevel3.businessChannelOwnerId);
 
 
-   CARAPI SetSubDepartmentLevel3.DocRefs(
+   CARAPI SetSubDepartmentLevel3_DocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.subdepartmentLevel3.docRefs);
 
-    CARAPI GetSubDepartmentLevel3.DocRefs(
+    CARAPI GetSubDepartmentLevel3_DocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.subdepartmentLevel3.docRefs);
 
 
-   CARAPI SetSubDepartmentLevel3.ImageRefs(
+   CARAPI SetSubDepartmentLevel3_ImageRefs(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.subdepartmentLevel3.imageRefs);
 
-    CARAPI GetSubDepartmentLevel3.ImageRefs(
+    CARAPI GetSubDepartmentLevel3_ImageRefs(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.subdepartmentLevel3.imageRefs);
 
 
-   CARAPI SetSubDepartmentLevel3.AudioRefIds(
+   CARAPI SetSubDepartmentLevel3_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.subdepartmentLevel3.audioRefIds);
 
-    CARAPI GetSubDepartmentLevel3.AudioRefIds(
+    CARAPI GetSubDepartmentLevel3_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.subdepartmentLevel3.audioRefIds);
 
 
-   CARAPI SetSubDepartmentLevel3.VideoRefs(
+   CARAPI SetSubDepartmentLevel3_VideoRefs(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.subdepartmentLevel3.videoRefs);
 
-    CARAPI GetSubDepartmentLevel3.VideoRefs(
+    CARAPI GetSubDepartmentLevel3_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.subdepartmentLevel3.videoRefs);
 
 
-   CARAPI SetDocuments.DocRefId(
+   CARAPI SetDocuments_DocRefId(
      /* [in] */ const String& CAdministration.documents.docRefId);
 
-    CARAPI GetDocuments.DocRefId(
+    CARAPI GetDocuments_DocRefId(
      /* [out] */ String* CAdministration.documents.docRefId);
 
 
-   CARAPI SetDocuments.DocHash(
+   CARAPI SetDocuments_DocHash(
      /* [in] */ const String& CAdministration.documents.docHash);
 
-    CARAPI GetDocuments.DocHash(
+    CARAPI GetDocuments_DocHash(
      /* [out] */ String* CAdministration.documents.docHash);
 
 
-   CARAPI SetDocuments.MasLedgeFinTxId(
+   CARAPI SetDocuments_MasLedgeFinTxId(
      /* [in] */ const String& CAdministration.documents.masLedgeFinTxId);
 
-    CARAPI GetDocuments.MasLedgeFinTxId(
+    CARAPI GetDocuments_MasLedgeFinTxId(
      /* [out] */ String* CAdministration.documents.masLedgeFinTxId);
 
 
-   CARAPI SetDocuments.GenLedgeFinTxId(
+   CARAPI SetDocuments_GenLedgeFinTxId(
      /* [in] */ const String& CAdministration.documents.genLedgeFinTxId);
 
-    CARAPI GetDocuments.GenLedgeFinTxId(
+    CARAPI GetDocuments_GenLedgeFinTxId(
      /* [out] */ String* CAdministration.documents.genLedgeFinTxId);
 
 
-   CARAPI SetDocuments.MasLedgeFinTxNum(
+   CARAPI SetDocuments_MasLedgeFinTxNum(
      /* [in] */ Int32 CAdministration.documents.masLedgeFinTxNum);
 
-    CARAPI GetDocuments.MasLedgeFinTxNum(
+    CARAPI GetDocuments_MasLedgeFinTxNum(
      /* [out] */ Int32* CAdministration.documents.masLedgeFinTxNum);
 
 
-   CARAPI SetDocuments.GenLedgeFinTxNum(
+   CARAPI SetDocuments_GenLedgeFinTxNum(
      /* [in] */ Int32 CAdministration.documents.genLedgeFinTxNum);
 
-    CARAPI GetDocuments.GenLedgeFinTxNum(
+    CARAPI GetDocuments_GenLedgeFinTxNum(
      /* [out] */ Int32* CAdministration.documents.genLedgeFinTxNum);
 
 
-   CARAPI SetDocuments.BusinessChannelOwnerId(
+   CARAPI SetDocuments_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.documents.businessChannelOwnerId);
 
-    CARAPI GetDocuments.BusinessChannelOwnerId(
+    CARAPI GetDocuments_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.documents.businessChannelOwnerId);
 
 
-   CARAPI SetDocuments.BranchId(
+   CARAPI SetDocuments_BranchId(
      /* [in] */ CAdministration.branch CAdministration.documents.branchId);
 
-    CARAPI GetDocuments.BranchId(
+    CARAPI GetDocuments_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.documents.branchId);
 
 
-   CARAPI SetDocuments.DeptId(
+   CARAPI SetDocuments_DeptId(
      /* [in] */ CAdministration.department CAdministration.documents.deptId);
 
-    CARAPI GetDocuments.DeptId(
+    CARAPI GetDocuments_DeptId(
      /* [out] */ CAdministration.department* CAdministration.documents.deptId);
 
 
-   CARAPI SetDocuments.PropertyId(
+   CARAPI SetDocuments_PropertyId(
      /* [in] */ CProperty.property CAdministration.documents.propertyId);
 
-    CARAPI GetDocuments.PropertyId(
+    CARAPI GetDocuments_PropertyId(
      /* [out] */ CProperty.property* CAdministration.documents.propertyId);
 
 
-   CARAPI SetDocuments.PropOwners(
+   CARAPI SetDocuments_PropOwners(
      /* [in] */ ArrayOf<CProperty.propertyOwner> CAdministration.documents.propOwners);
 
-    CARAPI GetDocuments.PropOwners(
+    CARAPI GetDocuments_PropOwners(
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.documents.propOwners);
 
 
@@ -1558,241 +1558,241 @@ public:
      /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.documents.masterLedgerAsCARAPI SetIds);
 
 
-   CARAPI SetDocuments.EmployeeIds(
+   CARAPI SetDocuments_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.documents.employeeIds);
 
-    CARAPI GetDocuments.EmployeeIds(
+    CARAPI GetDocuments_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.documents.employeeIds);
 
 
-   CARAPI SetDocuments.TenancyIds(
+   CARAPI SetDocuments_TenancyIds(
      /* [in] */ ArrayOf<CProperty.tenant> CAdministration.documents.tenancyIds);
 
-    CARAPI GetDocuments.TenancyIds(
+    CARAPI GetDocuments_TenancyIds(
      /* [out, callee] */ ArrayOf<CProperty.tenant>* CAdministration.documents.tenancyIds);
 
 
-   CARAPI SetDocuments.CustomerIds(
+   CARAPI SetDocuments_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CAdministration.documents.customerIds);
 
-    CARAPI GetDocuments.CustomerIds(
+    CARAPI GetDocuments_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CAdministration.documents.customerIds);
 
 
-   CARAPI SetDocuments.SupplierIds(
+   CARAPI SetDocuments_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.documents.supplierIds);
 
-    CARAPI GetDocuments.SupplierIds(
+    CARAPI GetDocuments_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.documents.supplierIds);
 
 
-   CARAPI SetDocuments.SolicitorIds(
+   CARAPI SetDocuments_SolicitorIds(
      /* [in] */ ArrayOf<CSolicitor.solicitor> CAdministration.documents.solicitorIds);
 
-    CARAPI GetDocuments.SolicitorIds(
+    CARAPI GetDocuments_SolicitorIds(
      /* [out, callee] */ ArrayOf<CSolicitor.solicitor>* CAdministration.documents.solicitorIds);
 
 
-   CARAPI SetDocuments.AgentIds(
+   CARAPI SetDocuments_AgentIds(
      /* [in] */ ArrayOf<CStakeholder.agent> CAdministration.documents.agentIds);
 
-    CARAPI GetDocuments.AgentIds(
+    CARAPI GetDocuments_AgentIds(
      /* [out, callee] */ ArrayOf<CStakeholder.agent>* CAdministration.documents.agentIds);
 
 
-   CARAPI SetDocuments.NonGovStakeholderIds(
+   CARAPI SetDocuments_NonGovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.nonGovStakeholder> CAdministration.documents.nonGovStakeholderIds);
 
-    CARAPI GetDocuments.NonGovStakeholderIds(
+    CARAPI GetDocuments_NonGovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.nonGovStakeholder>* CAdministration.documents.nonGovStakeholderIds);
 
 
-   CARAPI SetDocuments.GovStakeholderIds(
+   CARAPI SetDocuments_GovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.govStakeholder> CAdministration.documents.govStakeholderIds);
 
-    CARAPI GetDocuments.GovStakeholderIds(
+    CARAPI GetDocuments_GovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.govStakeholder>* CAdministration.documents.govStakeholderIds);
 
 
-   CARAPI SetDocuments.StateLAHCId(
+   CARAPI SetDocuments_StateLAHCId(
      /* [in] */ CStakeholder.stateLAHAuthority CAdministration.documents.stateLAHCId);
 
-    CARAPI GetDocuments.StateLAHCId(
+    CARAPI GetDocuments_StateLAHCId(
      /* [out] */ CStakeholder.stateLAHAuthority* CAdministration.documents.stateLAHCId);
 
 
-   CARAPI SetDocuments.StatePublicHousingAuthorityId(
+   CARAPI SetDocuments_StatePublicHousingAuthorityId(
      /* [in] */ CStakeholder.statePublicHousingAuthority CAdministration.documents.statePublicHousingAuthorityId);
 
-    CARAPI GetDocuments.StatePublicHousingAuthorityId(
+    CARAPI GetDocuments_StatePublicHousingAuthorityId(
      /* [out] */ CStakeholder.statePublicHousingAuthority* CAdministration.documents.statePublicHousingAuthorityId);
 
 
-   CARAPI SetDocuments.NCATId(
+   CARAPI SetDocuments_NCATId(
      /* [in] */ CRegulator.nCAT CAdministration.documents.nCATId);
 
-    CARAPI GetDocuments.NCATId(
+    CARAPI GetDocuments_NCATId(
      /* [out] */ CRegulator.nCAT* CAdministration.documents.nCATId);
 
 
-   CARAPI SetDocuments.RentalBondAuthorityId(
+   CARAPI SetDocuments_RentalBondAuthorityId(
      /* [in] */ CRegulator.rentalBondAuthority CAdministration.documents.rentalBondAuthorityId);
 
-    CARAPI GetDocuments.RentalBondAuthorityId(
+    CARAPI GetDocuments_RentalBondAuthorityId(
      /* [out] */ CRegulator.rentalBondAuthority* CAdministration.documents.rentalBondAuthorityId);
 
 
-   CARAPI SetDocuments.CommunityHousingRegulatorId(
+   CARAPI SetDocuments_CommunityHousingRegulatorId(
      /* [in] */ CRegulator.communityHousingRegulator CAdministration.documents.communityHousingRegulatorId);
 
-    CARAPI GetDocuments.CommunityHousingRegulatorId(
+    CARAPI GetDocuments_CommunityHousingRegulatorId(
      /* [out] */ CRegulator.communityHousingRegulator* CAdministration.documents.communityHousingRegulatorId);
 
 
-   CARAPI SetDocuments.CommunityIds(
+   CARAPI SetDocuments_CommunityIds(
      /* [in] */ ArrayOf<CStakeholder.community> CAdministration.documents.communityIds);
 
-    CARAPI GetDocuments.CommunityIds(
+    CARAPI GetDocuments_CommunityIds(
      /* [out, callee] */ ArrayOf<CStakeholder.community>* CAdministration.documents.communityIds);
 
 
-   CARAPI SetDocuments.MediaIds(
+   CARAPI SetDocuments_MediaIds(
      /* [in] */ ArrayOf<CStakeholder.media> CAdministration.documents.mediaIds);
 
-    CARAPI GetDocuments.MediaIds(
+    CARAPI GetDocuments_MediaIds(
      /* [out, callee] */ ArrayOf<CStakeholder.media>* CAdministration.documents.mediaIds);
 
 
-   CARAPI SetDocuments.PartnerIds(
+   CARAPI SetDocuments_PartnerIds(
      /* [in] */ ArrayOf<CStakeholder.partner> CAdministration.documents.partnerIds);
 
-    CARAPI GetDocuments.PartnerIds(
+    CARAPI GetDocuments_PartnerIds(
      /* [out, callee] */ ArrayOf<CStakeholder.partner>* CAdministration.documents.partnerIds);
 
 
-   CARAPI SetDocuments.NatRegId(
+   CARAPI SetDocuments_NatRegId(
      /* [in] */ CRegulator.nationalRegulator CAdministration.documents.natRegId);
 
-    CARAPI GetDocuments.NatRegId(
+    CARAPI GetDocuments_NatRegId(
      /* [out] */ CRegulator.nationalRegulator* CAdministration.documents.natRegId);
 
 
-   CARAPI SetDocuments.StateBasedRegId(
+   CARAPI SetDocuments_StateBasedRegId(
      /* [in] */ CRegulator.stateBasedRegulator CAdministration.documents.stateBasedRegId);
 
-    CARAPI GetDocuments.StateBasedRegId(
+    CARAPI GetDocuments_StateBasedRegId(
      /* [out] */ CRegulator.stateBasedRegulator* CAdministration.documents.stateBasedRegId);
 
 
-   CARAPI SetDocuments.PropertyInspectionResId(
+   CARAPI SetDocuments_PropertyInspectionResId(
      /* [in] */ CProperty.propertyInspectionResidential CAdministration.documents.propertyInspectionResId);
 
-    CARAPI GetDocuments.PropertyInspectionResId(
+    CARAPI GetDocuments_PropertyInspectionResId(
      /* [out] */ CProperty.propertyInspectionResidential* CAdministration.documents.propertyInspectionResId);
 
 
-   CARAPI SetDocuments.PropertyInspectionCommercId(
+   CARAPI SetDocuments_PropertyInspectionCommercId(
      /* [in] */ CProperty.propertyInspectionCommercial CAdministration.documents.propertyInspectionCommercId);
 
-    CARAPI GetDocuments.PropertyInspectionCommercId(
+    CARAPI GetDocuments_PropertyInspectionCommercId(
      /* [out] */ CProperty.propertyInspectionCommercial* CAdministration.documents.propertyInspectionCommercId);
 
 
-   CARAPI SetDocuments.ServiceIds(
+   CARAPI SetDocuments_ServiceIds(
      /* [in] */ ArrayOf<CAdministration.service> CAdministration.documents.serviceIds);
 
-    CARAPI GetDocuments.ServiceIds(
+    CARAPI GetDocuments_ServiceIds(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CAdministration.documents.serviceIds);
 
 
-   CARAPI SetDocuments.ItemIds(
+   CARAPI SetDocuments_ItemIds(
      /* [in] */ ArrayOf<CAdministration.item> CAdministration.documents.itemIds);
 
-    CARAPI GetDocuments.ItemIds(
+    CARAPI GetDocuments_ItemIds(
      /* [out, callee] */ ArrayOf<CAdministration.item>* CAdministration.documents.itemIds);
 
 
-   CARAPI SetDocuments.JobIds(
+   CARAPI SetDocuments_JobIds(
      /* [in] */ ArrayOf<CAdministration.job> CAdministration.documents.jobIds);
 
-    CARAPI GetDocuments.JobIds(
+    CARAPI GetDocuments_JobIds(
      /* [out, callee] */ ArrayOf<CAdministration.job>* CAdministration.documents.jobIds);
 
 
-   CARAPI SetDocuments.DocRefIds(
+   CARAPI SetDocuments_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.documents.docRefIds);
 
-    CARAPI GetDocuments.DocRefIds(
+    CARAPI GetDocuments_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.documents.docRefIds);
 
 
-   CARAPI SetDocuments.ImageRefIds(
+   CARAPI SetDocuments_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.documents.imageRefIds);
 
-    CARAPI GetDocuments.ImageRefIds(
+    CARAPI GetDocuments_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.documents.imageRefIds);
 
 
-   CARAPI SetDocuments.AudioRefIds(
+   CARAPI SetDocuments_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.documents.audioRefIds);
 
-    CARAPI GetDocuments.AudioRefIds(
+    CARAPI GetDocuments_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.documents.audioRefIds);
 
 
-   CARAPI SetDocuments.VideoRefIds(
+   CARAPI SetDocuments_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.documents.videoRefIds);
 
-    CARAPI GetDocuments.VideoRefIds(
+    CARAPI GetDocuments_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.documents.videoRefIds);
 
 
-   CARAPI SetImages.ImageRefId(
+   CARAPI SetImages_ImageRefId(
      /* [in] */ const String& CAdministration.images.imageRefId);
 
-    CARAPI GetImages.ImageRefId(
+    CARAPI GetImages_ImageRefId(
      /* [out] */ String* CAdministration.images.imageRefId);
 
 
-   CARAPI SetImages.ImageHash(
+   CARAPI SetImages_ImageHash(
      /* [in] */ const String& CAdministration.images.imageHash);
 
-    CARAPI GetImages.ImageHash(
+    CARAPI GetImages_ImageHash(
      /* [out] */ String* CAdministration.images.imageHash);
 
 
-   CARAPI SetImages.BusinessChannelOwnerId(
+   CARAPI SetImages_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.images.businessChannelOwnerId);
 
-    CARAPI GetImages.BusinessChannelOwnerId(
+    CARAPI GetImages_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.images.businessChannelOwnerId);
 
 
-   CARAPI SetImages.BranchId(
+   CARAPI SetImages_BranchId(
      /* [in] */ CAdministration.branch CAdministration.images.branchId);
 
-    CARAPI GetImages.BranchId(
+    CARAPI GetImages_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.images.branchId);
 
 
-   CARAPI SetImages.DeptId(
+   CARAPI SetImages_DeptId(
      /* [in] */ CAdministration.department CAdministration.images.deptId);
 
-    CARAPI GetImages.DeptId(
+    CARAPI GetImages_DeptId(
      /* [out] */ CAdministration.department* CAdministration.images.deptId);
 
 
-   CARAPI SetImages.PropertyId(
+   CARAPI SetImages_PropertyId(
      /* [in] */ CProperty.property CAdministration.images.propertyId);
 
-    CARAPI GetImages.PropertyId(
+    CARAPI GetImages_PropertyId(
      /* [out] */ CProperty.property* CAdministration.images.propertyId);
 
 
-   CARAPI SetImages.PropOwners(
+   CARAPI SetImages_PropOwners(
      /* [in] */ ArrayOf<CProperty.propertyOwner> CAdministration.images.propOwners);
 
-    CARAPI GetImages.PropOwners(
+    CARAPI GetImages_PropOwners(
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.images.propOwners);
 
 
@@ -1803,227 +1803,227 @@ public:
      /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.images.masterLedgerAsCARAPI SetIds);
 
 
-   CARAPI SetImages.EmployeeIds(
+   CARAPI SetImages_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.images.employeeIds);
 
-    CARAPI GetImages.EmployeeIds(
+    CARAPI GetImages_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.images.employeeIds);
 
 
-   CARAPI SetImages.TenancyIds(
+   CARAPI SetImages_TenancyIds(
      /* [in] */ ArrayOf<CProperty.tenant> CAdministration.images.tenancyIds);
 
-    CARAPI GetImages.TenancyIds(
+    CARAPI GetImages_TenancyIds(
      /* [out, callee] */ ArrayOf<CProperty.tenant>* CAdministration.images.tenancyIds);
 
 
-   CARAPI SetImages.CustomerIds(
+   CARAPI SetImages_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CAdministration.images.customerIds);
 
-    CARAPI GetImages.CustomerIds(
+    CARAPI GetImages_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CAdministration.images.customerIds);
 
 
-   CARAPI SetImages.SupplierIds(
+   CARAPI SetImages_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.images.supplierIds);
 
-    CARAPI GetImages.SupplierIds(
+    CARAPI GetImages_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.images.supplierIds);
 
 
-   CARAPI SetImages.SolicitorIds(
+   CARAPI SetImages_SolicitorIds(
      /* [in] */ ArrayOf<CSolicitor.solicitor> CAdministration.images.solicitorIds);
 
-    CARAPI GetImages.SolicitorIds(
+    CARAPI GetImages_SolicitorIds(
      /* [out, callee] */ ArrayOf<CSolicitor.solicitor>* CAdministration.images.solicitorIds);
 
 
-   CARAPI SetImages.AgentIds(
+   CARAPI SetImages_AgentIds(
      /* [in] */ ArrayOf<CStakeholder.agent> CAdministration.images.agentIds);
 
-    CARAPI GetImages.AgentIds(
+    CARAPI GetImages_AgentIds(
      /* [out, callee] */ ArrayOf<CStakeholder.agent>* CAdministration.images.agentIds);
 
 
-   CARAPI SetImages.NonGovStakeholderIds(
+   CARAPI SetImages_NonGovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.nonGovStakeholder> CAdministration.images.nonGovStakeholderIds);
 
-    CARAPI GetImages.NonGovStakeholderIds(
+    CARAPI GetImages_NonGovStakeholderIds(
      /* [out, callee] */ ArrayOf<CStakeholder.nonGovStakeholder>* CAdministration.images.nonGovStakeholderIds);
 
 
-   CARAPI SetImages.GovStakeholderIds(
+   CARAPI SetImages_GovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.govStakeholder> CAdministration.images.govStakeholderIds);
 
-    CARAPI GetImages.GovStakeholderIds(
+    CARAPI GetImages_GovStakeholderIds(
      /* [out, callee] */ ArrayOf<CStakeholder.govStakeholder>* CAdministration.images.govStakeholderIds);
 
 
-   CARAPI SetImages.StateLAHCId(
+   CARAPI SetImages_StateLAHCId(
      /* [in] */ CStakeholder.stateLAHAuthority CAdministration.images.stateLAHCId);
 
-    CARAPI GetImages.StateLAHCId(
+    CARAPI GetImages_StateLAHCId(
      /* [out] */ CStakeholder.stateLAHAuthority* CAdministration.images.stateLAHCId);
 
 
-   CARAPI SetImages.StatePublicHousingAuthorityId(
+   CARAPI SetImages_StatePublicHousingAuthorityId(
      /* [in] */ CStakeholder.statePublicHousingAuthority CAdministration.images.statePublicHousingAuthorityId);
 
-    CARAPI GetImages.StatePublicHousingAuthorityId(
+    CARAPI GetImages_StatePublicHousingAuthorityId(
      /* [out] */ CStakeholder.statePublicHousingAuthority* CAdministration.images.statePublicHousingAuthorityId);
 
 
-   CARAPI SetImages.NCATId(
+   CARAPI SetImages_NCATId(
      /* [in] */ CRegulator.nCAT CAdministration.images.nCATId);
 
-    CARAPI GetImages.NCATId(
+    CARAPI GetImages_NCATId(
      /* [out] */ CRegulator.nCAT* CAdministration.images.nCATId);
 
 
-   CARAPI SetImages.RentalBondAuthorityId(
+   CARAPI SetImages_RentalBondAuthorityId(
      /* [in] */ CRegulator.rentalBondAuthority CAdministration.images.rentalBondAuthorityId);
 
-    CARAPI GetImages.RentalBondAuthorityId(
+    CARAPI GetImages_RentalBondAuthorityId(
      /* [out] */ CRegulator.rentalBondAuthority* CAdministration.images.rentalBondAuthorityId);
 
 
-   CARAPI SetImages.CommunityHousingRegulatorId(
+   CARAPI SetImages_CommunityHousingRegulatorId(
      /* [in] */ CRegulator.communityHousingRegulator CAdministration.images.communityHousingRegulatorId);
 
-    CARAPI GetImages.CommunityHousingRegulatorId(
+    CARAPI GetImages_CommunityHousingRegulatorId(
      /* [out] */ CRegulator.communityHousingRegulator* CAdministration.images.communityHousingRegulatorId);
 
 
-   CARAPI SetImages.CommunityId(
+   CARAPI SetImages_CommunityId(
      /* [in] */ CStakeholder.community CAdministration.images.communityId);
 
-    CARAPI GetImages.CommunityId(
+    CARAPI GetImages_CommunityId(
      /* [out] */ CStakeholder.community* CAdministration.images.communityId);
 
 
-   CARAPI SetImages.MediaId(
+   CARAPI SetImages_MediaId(
      /* [in] */ CStakeholder.media CAdministration.images.mediaId);
 
-    CARAPI GetImages.MediaId(
+    CARAPI GetImages_MediaId(
      /* [out] */ CStakeholder.media* CAdministration.images.mediaId);
 
 
-   CARAPI SetImages.PartnerId(
+   CARAPI SetImages_PartnerId(
      /* [in] */ CStakeholder.partner CAdministration.images.partnerId);
 
-    CARAPI GetImages.PartnerId(
+    CARAPI GetImages_PartnerId(
      /* [out] */ CStakeholder.partner* CAdministration.images.partnerId);
 
 
-   CARAPI SetImages.NatRegId(
+   CARAPI SetImages_NatRegId(
      /* [in] */ CRegulator.nationalRegulator CAdministration.images.natRegId);
 
-    CARAPI GetImages.NatRegId(
+    CARAPI GetImages_NatRegId(
      /* [out] */ CRegulator.nationalRegulator* CAdministration.images.natRegId);
 
 
-   CARAPI SetImages.StateBasedRegId(
+   CARAPI SetImages_StateBasedRegId(
      /* [in] */ CRegulator.stateBasedRegulator CAdministration.images.stateBasedRegId);
 
-    CARAPI GetImages.StateBasedRegId(
+    CARAPI GetImages_StateBasedRegId(
      /* [out] */ CRegulator.stateBasedRegulator* CAdministration.images.stateBasedRegId);
 
 
-   CARAPI SetImages.PropertyInspectionResId(
+   CARAPI SetImages_PropertyInspectionResId(
      /* [in] */ CProperty.propertyInspectionResidential CAdministration.images.propertyInspectionResId);
 
-    CARAPI GetImages.PropertyInspectionResId(
+    CARAPI GetImages_PropertyInspectionResId(
      /* [out] */ CProperty.propertyInspectionResidential* CAdministration.images.propertyInspectionResId);
 
 
-   CARAPI SetImages.PropertyInspectionCommercId(
+   CARAPI SetImages_PropertyInspectionCommercId(
      /* [in] */ CProperty.propertyInspectionCommercial CAdministration.images.propertyInspectionCommercId);
 
-    CARAPI GetImages.PropertyInspectionCommercId(
+    CARAPI GetImages_PropertyInspectionCommercId(
      /* [out] */ CProperty.propertyInspectionCommercial* CAdministration.images.propertyInspectionCommercId);
 
 
-   CARAPI SetImages.ServiceIds(
+   CARAPI SetImages_ServiceIds(
      /* [in] */ ArrayOf<CAdministration.service> CAdministration.images.serviceIds);
 
-    CARAPI GetImages.ServiceIds(
+    CARAPI GetImages_ServiceIds(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CAdministration.images.serviceIds);
 
 
-   CARAPI SetImages.ItemIds(
+   CARAPI SetImages_ItemIds(
      /* [in] */ ArrayOf<CAdministration.item> CAdministration.images.itemIds);
 
-    CARAPI GetImages.ItemIds(
+    CARAPI GetImages_ItemIds(
      /* [out, callee] */ ArrayOf<CAdministration.item>* CAdministration.images.itemIds);
 
 
-   CARAPI SetImages.JobIds(
+   CARAPI SetImages_JobIds(
      /* [in] */ ArrayOf<CAdministration.job> CAdministration.images.jobIds);
 
-    CARAPI GetImages.JobIds(
+    CARAPI GetImages_JobIds(
      /* [out, callee] */ ArrayOf<CAdministration.job>* CAdministration.images.jobIds);
 
 
-   CARAPI SetImages.DocRefIds(
+   CARAPI SetImages_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.images.docRefIds);
 
-    CARAPI GetImages.DocRefIds(
+    CARAPI GetImages_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.images.docRefIds);
 
 
-   CARAPI SetImages.ImageRefIds(
+   CARAPI SetImages_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.images.imageRefIds);
 
-    CARAPI GetImages.ImageRefIds(
+    CARAPI GetImages_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.images.imageRefIds);
 
 
-   CARAPI SetImages.AudioRefIds(
+   CARAPI SetImages_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.images.audioRefIds);
 
-    CARAPI GetImages.AudioRefIds(
+    CARAPI GetImages_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.images.audioRefIds);
 
 
-   CARAPI SetImages.VideoRefIds(
+   CARAPI SetImages_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.images.videoRefIds);
 
-    CARAPI GetImages.VideoRefIds(
+    CARAPI GetImages_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.images.videoRefIds);
 
 
-   CARAPI SetAudio.AudioRefId(
+   CARAPI SetAudio_AudioRefId(
      /* [in] */ const String& CAdministration.audio.audioRefId);
 
-    CARAPI GetAudio.AudioRefId(
+    CARAPI GetAudio_AudioRefId(
      /* [out] */ String* CAdministration.audio.audioRefId);
 
 
-   CARAPI SetAudio.AudioHash(
+   CARAPI SetAudio_AudioHash(
      /* [in] */ const String& CAdministration.audio.audioHash);
 
-    CARAPI GetAudio.AudioHash(
+    CARAPI GetAudio_AudioHash(
      /* [out] */ String* CAdministration.audio.audioHash);
 
 
-   CARAPI SetAudio.BusinessChannelOwnerId(
+   CARAPI SetAudio_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.audio.businessChannelOwnerId);
 
-    CARAPI GetAudio.BusinessChannelOwnerId(
+    CARAPI GetAudio_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.audio.businessChannelOwnerId);
 
 
-   CARAPI SetAudio.BranchId(
+   CARAPI SetAudio_BranchId(
      /* [in] */ CAdministration.branch CAdministration.audio.branchId);
 
-    CARAPI GetAudio.BranchId(
+    CARAPI GetAudio_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.audio.branchId);
 
 
-   CARAPI SetAudio.DeptMapId(
+   CARAPI SetAudio_DeptMapId(
      /* [in] */ CAdministration.mapOfdepartments CAdministration.audio.deptMapId);
 
-    CARAPI GetAudio.DeptMapId(
+    CARAPI GetAudio_DeptMapId(
      /* [out] */ CAdministration.mapOfdepartments* CAdministration.audio.deptMapId);
 
 
@@ -2034,94 +2034,94 @@ public:
      /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.audio.genAsCARAPI SetIds);
 
 
-   CARAPI SetAudio.EmployeeIds(
+   CARAPI SetAudio_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.audio.employeeIds);
 
-    CARAPI GetAudio.EmployeeIds(
+    CARAPI GetAudio_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.audio.employeeIds);
 
 
-   CARAPI SetAudio.CustomerIds(
+   CARAPI SetAudio_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CAdministration.audio.customerIds);
 
-    CARAPI GetAudio.CustomerIds(
+    CARAPI GetAudio_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CAdministration.audio.customerIds);
 
 
-   CARAPI SetAudio.SupplierIds(
+   CARAPI SetAudio_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.audio.supplierIds);
 
-    CARAPI GetAudio.SupplierIds(
+    CARAPI GetAudio_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.audio.supplierIds);
 
 
-   CARAPI SetAudio.SolicitorIds(
+   CARAPI SetAudio_SolicitorIds(
      /* [in] */ ArrayOf<CSolicitor.solicitor> CAdministration.audio.solicitorIds);
 
-    CARAPI GetAudio.SolicitorIds(
+    CARAPI GetAudio_SolicitorIds(
      /* [out, callee] */ ArrayOf<CSolicitor.solicitor>* CAdministration.audio.solicitorIds);
 
 
-   CARAPI SetAudio.AgentIds(
+   CARAPI SetAudio_AgentIds(
      /* [in] */ ArrayOf<CStakeholder.agent> CAdministration.audio.agentIds);
 
-    CARAPI GetAudio.AgentIds(
+    CARAPI GetAudio_AgentIds(
      /* [out, callee] */ ArrayOf<CStakeholder.agent>* CAdministration.audio.agentIds);
 
 
-   CARAPI SetAudio.NonGovStakeholderIds(
+   CARAPI SetAudio_NonGovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.nonGovStakeholder> CAdministration.audio.nonGovStakeholderIds);
 
-    CARAPI GetAudio.NonGovStakeholderIds(
+    CARAPI GetAudio_NonGovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.nonGovStakeholder>* CAdministration.audio.nonGovStakeholderIds);
 
 
-   CARAPI SetAudio.GovStakeholderIds(
+   CARAPI SetAudio_GovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.govStakeholder> CAdministration.audio.govStakeholderIds);
 
-    CARAPI GetAudio.GovStakeholderIds(
+    CARAPI GetAudio_GovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.govStakeholder>* CAdministration.audio.govStakeholderIds);
 
 
-   CARAPI SetAudio.NCATId(
+   CARAPI SetAudio_NCATId(
      /* [in] */ CRegulator.nCAT CAdministration.audio.nCATId);
 
-    CARAPI GetAudio.NCATId(
+    CARAPI GetAudio_NCATId(
      /* [out] */ CRegulator.nCAT* CAdministration.audio.nCATId);
 
 
-   CARAPI SetAudio.CommunityId(
+   CARAPI SetAudio_CommunityId(
      /* [in] */ CStakeholder.community CAdministration.audio.communityId);
 
-    CARAPI GetAudio.CommunityId(
+    CARAPI GetAudio_CommunityId(
      /* [out] */ CStakeholder.community* CAdministration.audio.communityId);
 
 
-   CARAPI SetAudio.MediaId(
+   CARAPI SetAudio_MediaId(
      /* [in] */ CStakeholder.media CAdministration.audio.mediaId);
 
-    CARAPI GetAudio.MediaId(
+    CARAPI GetAudio_MediaId(
      /* [out] */ CStakeholder.media* CAdministration.audio.mediaId);
 
 
-   CARAPI SetAudio.PartnerId(
+   CARAPI SetAudio_PartnerId(
      /* [in] */ CStakeholder.partner CAdministration.audio.partnerId);
 
-    CARAPI GetAudio.PartnerId(
+    CARAPI GetAudio_PartnerId(
      /* [out] */ CStakeholder.partner* CAdministration.audio.partnerId);
 
 
-   CARAPI SetAudio.NatRegId(
+   CARAPI SetAudio_NatRegId(
      /* [in] */ CRegulator.nationalRegulator CAdministration.audio.natRegId);
 
-    CARAPI GetAudio.NatRegId(
+    CARAPI GetAudio_NatRegId(
      /* [out] */ CRegulator.nationalRegulator* CAdministration.audio.natRegId);
 
 
-   CARAPI SetAudio.StateBasedRegId(
+   CARAPI SetAudio_StateBasedRegId(
      /* [in] */ CRegulator.stateBasedRegulator CAdministration.audio.stateBasedRegId);
 
-    CARAPI GetAudio.StateBasedRegId(
+    CARAPI GetAudio_StateBasedRegId(
      /* [out] */ CRegulator.stateBasedRegulator* CAdministration.audio.stateBasedRegId);
 
 
@@ -2132,818 +2132,818 @@ public:
      /* [out] */ asCARAPI SetInspectionCommercial* CAdministration.audio.asCARAPI SetInspectionCommercId);
 
 
-   CARAPI SetAudio.ServiceIds(
+   CARAPI SetAudio_ServiceIds(
      /* [in] */ ArrayOf<CAdministration.service> CAdministration.audio.serviceIds);
 
-    CARAPI GetAudio.ServiceIds(
+    CARAPI GetAudio_ServiceIds(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CAdministration.audio.serviceIds);
 
 
-   CARAPI SetAudio.ItemIds(
+   CARAPI SetAudio_ItemIds(
      /* [in] */ ArrayOf<CAdministration.item> CAdministration.audio.itemIds);
 
-    CARAPI GetAudio.ItemIds(
+    CARAPI GetAudio_ItemIds(
      /* [out, callee] */ ArrayOf<CAdministration.item>* CAdministration.audio.itemIds);
 
 
-   CARAPI SetAudio.JobIds(
+   CARAPI SetAudio_JobIds(
      /* [in] */ ArrayOf<CAdministration.job> CAdministration.audio.jobIds);
 
-    CARAPI GetAudio.JobIds(
+    CARAPI GetAudio_JobIds(
      /* [out, callee] */ ArrayOf<CAdministration.job>* CAdministration.audio.jobIds);
 
 
-   CARAPI SetAudio.DocRefIds(
+   CARAPI SetAudio_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.audio.docRefIds);
 
-    CARAPI GetAudio.DocRefIds(
+    CARAPI GetAudio_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.audio.docRefIds);
 
 
-   CARAPI SetAudio.ImageRefIds(
+   CARAPI SetAudio_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.audio.imageRefIds);
 
-    CARAPI GetAudio.ImageRefIds(
+    CARAPI GetAudio_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.audio.imageRefIds);
 
 
-   CARAPI SetAudio.AudioRefIds(
+   CARAPI SetAudio_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.audio.audioRefIds);
 
-    CARAPI GetAudio.AudioRefIds(
+    CARAPI GetAudio_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.audio.audioRefIds);
 
 
-   CARAPI SetAudio.VideoRefIds(
+   CARAPI SetAudio_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.audio.videoRefIds);
 
-    CARAPI GetAudio.VideoRefIds(
+    CARAPI GetAudio_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.audio.videoRefIds);
 
 
 
 
 
-   CARAPI SetVideo.VideoRefId(
+   CARAPI SetVideo_VideoRefId(
      /* [in] */ const String& CAdministration.video.videoRefId);
 
-    CARAPI GetVideo.VideoRefId(
+    CARAPI GetVideo_VideoRefId(
      /* [out] */ String* CAdministration.video.videoRefId);
 
 
-   CARAPI SetVideo.VideoHash(
+   CARAPI SetVideo_VideoHash(
      /* [in] */ const String& CAdministration.video.videoHash);
 
-    CARAPI GetVideo.VideoHash(
+    CARAPI GetVideo_VideoHash(
      /* [out] */ String* CAdministration.video.videoHash);
 
 
-   CARAPI SetVideo.BusinessChannelOwnerId(
+   CARAPI SetVideo_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.video.businessChannelOwnerId);
 
-    CARAPI GetVideo.BusinessChannelOwnerId(
+    CARAPI GetVideo_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.video.businessChannelOwnerId);
 
 
-   CARAPI SetVideo.BranchId(
+   CARAPI SetVideo_BranchId(
      /* [in] */ CAdministration.branch CAdministration.video.branchId);
 
-    CARAPI GetVideo.BranchId(
+    CARAPI GetVideo_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.video.branchId);
 
 
-   CARAPI SetVideo.DeptId(
+   CARAPI SetVideo_DeptId(
      /* [in] */ CAdministration.department CAdministration.video.deptId);
 
-    CARAPI GetVideo.DeptId(
+    CARAPI GetVideo_DeptId(
      /* [out] */ CAdministration.department* CAdministration.video.deptId);
 
 
-   CARAPI SetVideo.PropertyIds(
+   CARAPI SetVideo_PropertyIds(
      /* [in] */ ArrayOf<CProperty.property> CAdministration.video.propertyIds);
 
-    CARAPI GetVideo.PropertyIds(
+    CARAPI GetVideo_PropertyIds(
      /* [out, callee] */ ArrayOf<CProperty.property>* CAdministration.video.propertyIds);
 
 
-   CARAPI SetVideo.PropOwners(
+   CARAPI SetVideo_PropOwners(
      /* [in] */ ArrayOf<CProperty.propertyOwner> CAdministration.video.propOwners);
 
-    CARAPI GetVideo.PropOwners(
+    CARAPI GetVideo_PropOwners(
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.video.propOwners);
 
 
-   CARAPI SetVideo.EmployeeIds(
+   CARAPI SetVideo_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.video.employeeIds);
 
-    CARAPI GetVideo.EmployeeIds(
+    CARAPI GetVideo_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.video.employeeIds);
 
 
-   CARAPI SetVideo.TenancyIds(
+   CARAPI SetVideo_TenancyIds(
      /* [in] */ ArrayOf<CProperty.tenant> CAdministration.video.tenancyIds);
 
-    CARAPI GetVideo.TenancyIds(
+    CARAPI GetVideo_TenancyIds(
      /* [out, callee] */ ArrayOf<CProperty.tenant>* CAdministration.video.tenancyIds);
 
 
-   CARAPI SetVideo.CustomerIds(
+   CARAPI SetVideo_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CAdministration.video.customerIds);
 
-    CARAPI GetVideo.CustomerIds(
+    CARAPI GetVideo_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CAdministration.video.customerIds);
 
 
-   CARAPI SetVideo.SupplierIds(
+   CARAPI SetVideo_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.video.supplierIds);
 
-    CARAPI GetVideo.SupplierIds(
+    CARAPI GetVideo_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.video.supplierIds);
 
 
-   CARAPI SetVideo.SolicitorIds(
+   CARAPI SetVideo_SolicitorIds(
      /* [in] */ ArrayOf<CSolicitor.solicitor> CAdministration.video.solicitorIds);
 
-    CARAPI GetVideo.SolicitorIds(
+    CARAPI GetVideo_SolicitorIds(
      /* [out, callee] */ ArrayOf<CSolicitor.solicitor>* CAdministration.video.solicitorIds);
 
 
-   CARAPI SetVideo.AgentIds(
+   CARAPI SetVideo_AgentIds(
      /* [in] */ ArrayOf<CStakeholder.agent> CAdministration.video.agentIds);
 
-    CARAPI GetVideo.AgentIds(
+    CARAPI GetVideo_AgentIds(
      /* [out, callee] */ ArrayOf<CStakeholder.agent>* CAdministration.video.agentIds);
 
 
-   CARAPI SetVideo.NonGovStakeholderIds(
+   CARAPI SetVideo_NonGovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.nonGovStakeholder> CAdministration.video.nonGovStakeholderIds);
 
-    CARAPI GetVideo.NonGovStakeholderIds(
+    CARAPI GetVideo_NonGovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.nonGovStakeholder>* CAdministration.video.nonGovStakeholderIds);
 
 
-   CARAPI SetVideo.GovStakeholderIds(
+   CARAPI SetVideo_GovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.govStakeholder> CAdministration.video.govStakeholderIds);
 
-    CARAPI GetVideo.GovStakeholderIds(
+    CARAPI GetVideo_GovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.govStakeholder>* CAdministration.video.govStakeholderIds);
 
 
-   CARAPI SetVideo.StateLAHCId(
+   CARAPI SetVideo_StateLAHCId(
      /* [in] */ CStakeholder.stateLAHAuthority CAdministration.video.stateLAHCId);
 
-    CARAPI GetVideo.StateLAHCId(
+    CARAPI GetVideo_StateLAHCId(
      /* [out] */ CStakeholder.stateLAHAuthority* CAdministration.video.stateLAHCId);
 
 
-   CARAPI SetVideo.StatePublicHousingAuthorityId(
+   CARAPI SetVideo_StatePublicHousingAuthorityId(
      /* [in] */ CStakeholder.statePublicHousingAuthority CAdministration.video.statePublicHousingAuthorityId);
 
-    CARAPI GetVideo.StatePublicHousingAuthorityId(
+    CARAPI GetVideo_StatePublicHousingAuthorityId(
      /* [out] */ CStakeholder.statePublicHousingAuthority* CAdministration.video.statePublicHousingAuthorityId);
 
 
-   CARAPI SetVideo.NCATId(
+   CARAPI SetVideo_NCATId(
      /* [in] */ CRegulator.nCAT CAdministration.video.nCATId);
 
-    CARAPI GetVideo.NCATId(
+    CARAPI GetVideo_NCATId(
      /* [out] */ CRegulator.nCAT* CAdministration.video.nCATId);
 
 
-   CARAPI SetVideo.RentalBondAuthorityId(
+   CARAPI SetVideo_RentalBondAuthorityId(
      /* [in] */ CRegulator.rentalBondAuthority CAdministration.video.rentalBondAuthorityId);
 
-    CARAPI GetVideo.RentalBondAuthorityId(
+    CARAPI GetVideo_RentalBondAuthorityId(
      /* [out] */ CRegulator.rentalBondAuthority* CAdministration.video.rentalBondAuthorityId);
 
 
-   CARAPI SetVideo.CommunityHousingRegulatorId(
+   CARAPI SetVideo_CommunityHousingRegulatorId(
      /* [in] */ CRegulator.communityHousingRegulator CAdministration.video.communityHousingRegulatorId);
 
-    CARAPI GetVideo.CommunityHousingRegulatorId(
+    CARAPI GetVideo_CommunityHousingRegulatorId(
      /* [out] */ CRegulator.communityHousingRegulator* CAdministration.video.communityHousingRegulatorId);
 
 
-   CARAPI SetVideo.CommunityId(
+   CARAPI SetVideo_CommunityId(
      /* [in] */ CStakeholder.community CAdministration.video.communityId);
 
-    CARAPI GetVideo.CommunityId(
+    CARAPI GetVideo_CommunityId(
      /* [out] */ CStakeholder.community* CAdministration.video.communityId);
 
 
-   CARAPI SetVideo.MediaId(
+   CARAPI SetVideo_MediaId(
      /* [in] */ CStakeholder.media CAdministration.video.mediaId);
 
-    CARAPI GetVideo.MediaId(
+    CARAPI GetVideo_MediaId(
      /* [out] */ CStakeholder.media* CAdministration.video.mediaId);
 
 
-   CARAPI SetVideo.PartnerId(
+   CARAPI SetVideo_PartnerId(
      /* [in] */ CStakeholder.partner CAdministration.video.partnerId);
 
-    CARAPI GetVideo.PartnerId(
+    CARAPI GetVideo_PartnerId(
      /* [out] */ CStakeholder.partner* CAdministration.video.partnerId);
 
 
-   CARAPI SetVideo.NatRegId(
+   CARAPI SetVideo_NatRegId(
      /* [in] */ CRegulator.nationalRegulator CAdministration.video.natRegId);
 
-    CARAPI GetVideo.NatRegId(
+    CARAPI GetVideo_NatRegId(
      /* [out] */ CRegulator.nationalRegulator* CAdministration.video.natRegId);
 
 
-   CARAPI SetVideo.StateBasedRegId(
+   CARAPI SetVideo_StateBasedRegId(
      /* [in] */ CRegulator.stateBasedRegulator CAdministration.video.stateBasedRegId);
 
-    CARAPI GetVideo.StateBasedRegId(
+    CARAPI GetVideo_StateBasedRegId(
      /* [out] */ CRegulator.stateBasedRegulator* CAdministration.video.stateBasedRegId);
 
 
-   CARAPI SetVideo.PropertyInspectionResId(
+   CARAPI SetVideo_PropertyInspectionResId(
      /* [in] */ CProperty.propertyInspectionResidential CAdministration.video.propertyInspectionResId);
 
-    CARAPI GetVideo.PropertyInspectionResId(
+    CARAPI GetVideo_PropertyInspectionResId(
      /* [out] */ CProperty.propertyInspectionResidential* CAdministration.video.propertyInspectionResId);
 
 
-   CARAPI SetVideo.PropertyInspectionCommercId(
+   CARAPI SetVideo_PropertyInspectionCommercId(
      /* [in] */ CProperty.propertyInspectionCommercial CAdministration.video.propertyInspectionCommercId);
 
-    CARAPI GetVideo.PropertyInspectionCommercId(
+    CARAPI GetVideo_PropertyInspectionCommercId(
      /* [out] */ CProperty.propertyInspectionCommercial* CAdministration.video.propertyInspectionCommercId);
 
 
-   CARAPI SetVideo.ServiceIds(
+   CARAPI SetVideo_ServiceIds(
      /* [in] */ ArrayOf<CAdministration.service> CAdministration.video.serviceIds);
 
-    CARAPI GetVideo.ServiceIds(
+    CARAPI GetVideo_ServiceIds(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CAdministration.video.serviceIds);
 
 
-   CARAPI SetVideo.ItemIds(
+   CARAPI SetVideo_ItemIds(
      /* [in] */ ArrayOf<CAdministration.item> CAdministration.video.itemIds);
 
-    CARAPI GetVideo.ItemIds(
+    CARAPI GetVideo_ItemIds(
      /* [out, callee] */ ArrayOf<CAdministration.item>* CAdministration.video.itemIds);
 
 
-   CARAPI SetVideo.JobIds(
+   CARAPI SetVideo_JobIds(
      /* [in] */ ArrayOf<CAdministration.job> CAdministration.video.jobIds);
 
-    CARAPI GetVideo.JobIds(
+    CARAPI GetVideo_JobIds(
      /* [out, callee] */ ArrayOf<CAdministration.job>* CAdministration.video.jobIds);
 
 
-   CARAPI SetVideo.DocRefIds(
+   CARAPI SetVideo_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.video.docRefIds);
 
-    CARAPI GetVideo.DocRefIds(
+    CARAPI GetVideo_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.video.docRefIds);
 
 
-   CARAPI SetVideo.ImageRefIds(
+   CARAPI SetVideo_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.video.imageRefIds);
 
-    CARAPI GetVideo.ImageRefIds(
+    CARAPI GetVideo_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.video.imageRefIds);
 
 
-   CARAPI SetVideo.AudioRefIds(
+   CARAPI SetVideo_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.video.audioRefIds);
 
-    CARAPI GetVideo.AudioRefIds(
+    CARAPI GetVideo_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.video.audioRefIds);
 
 
-   CARAPI SetVideo.VideoRefIds(
+   CARAPI SetVideo_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.video.videoRefIds);
 
-    CARAPI GetVideo.VideoRefIds(
+    CARAPI GetVideo_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.video.videoRefIds);
 
 
-   CARAPI SetItemType.ItemTypeId(
+   CARAPI SetItemType_ItemTypeId(
      /* [in] */ const String& CAdministration.itemType.itemTypeId);
 
-    CARAPI GetItemType.ItemTypeId(
+    CARAPI GetItemType_ItemTypeId(
      /* [out] */ String* CAdministration.itemType.itemTypeId);
 
 
-   CARAPI SetItemType.ItemTypeDescription(
+   CARAPI SetItemType_ItemTypeDescription(
      /* [in] */ const String& CAdministration.itemType.itemTypeDescription);
 
-    CARAPI GetItemType.ItemTypeDescription(
+    CARAPI GetItemType_ItemTypeDescription(
      /* [out] */ String* CAdministration.itemType.itemTypeDescription);
 
 
-   CARAPI SetItemType.ItemModelNumber(
+   CARAPI SetItemType_ItemModelNumber(
      /* [in] */ const String& CAdministration.itemType.itemModelNumber);
 
-    CARAPI GetItemType.ItemModelNumber(
+    CARAPI GetItemType_ItemModelNumber(
      /* [out] */ String* CAdministration.itemType.itemModelNumber);
 
 
-   CARAPI SetItemType.ItemName(
+   CARAPI SetItemType_ItemName(
      /* [in] */ const String& CAdministration.itemType.itemName);
 
-    CARAPI GetItemType.ItemName(
+    CARAPI GetItemType_ItemName(
      /* [out] */ String* CAdministration.itemType.itemName);
 
 
-   CARAPI SetItemType.NumberInInventory(
+   CARAPI SetItemType_NumberInInventory(
      /* [in] */ Int32 CAdministration.itemType.numberInInventory);
 
-    CARAPI GetItemType.NumberInInventory(
+    CARAPI GetItemType_NumberInInventory(
      /* [out] */ Int32* CAdministration.itemType.numberInInventory);
 
 
-   CARAPI SetItemType.BusinessChannelOwnerId(
+   CARAPI SetItemType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.itemType.businessChannelOwnerId);
 
-    CARAPI GetItemType.BusinessChannelOwnerId(
+    CARAPI GetItemType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.itemType.businessChannelOwnerId);
 
 
-   CARAPI SetItemType.OurProductTypeId(
+   CARAPI SetItemType_OurProductTypeId(
      /* [in] */ CFactory.productType CAdministration.itemType.ourProductTypeId);
 
-    CARAPI GetItemType.OurProductTypeId(
+    CARAPI GetItemType_OurProductTypeId(
      /* [out] */ CFactory.productType* CAdministration.itemType.ourProductTypeId);
 
 
-   CARAPI SetItemType.BranchId(
+   CARAPI SetItemType_BranchId(
      /* [in] */ CAdministration.branch CAdministration.itemType.branchId);
 
-    CARAPI GetItemType.BranchId(
+    CARAPI GetItemType_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.itemType.branchId);
 
 
-   CARAPI SetItemType.DeptId(
+   CARAPI SetItemType_DeptId(
      /* [in] */ CAdministration.department CAdministration.itemType.deptId);
 
-    CARAPI GetItemType.DeptId(
+    CARAPI GetItemType_DeptId(
      /* [out] */ CAdministration.department* CAdministration.itemType.deptId);
 
 
-   CARAPI SetItemType.Suppliers(
+   CARAPI SetItemType_Suppliers(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.itemType.suppliers);
 
-    CARAPI GetItemType.Suppliers(
+    CARAPI GetItemType_Suppliers(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.itemType.suppliers);
 
 
-   CARAPI SetItemType.ServiceIds(
+   CARAPI SetItemType_ServiceIds(
      /* [in] */ ArrayOf<CAdministration.service> CAdministration.itemType.serviceIds);
 
-    CARAPI GetItemType.ServiceIds(
+    CARAPI GetItemType_ServiceIds(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CAdministration.itemType.serviceIds);
 
 
-   CARAPI SetItemType.SupplierTypeIds(
+   CARAPI SetItemType_SupplierTypeIds(
      /* [in] */ ArrayOf<CSupplier.supplierType> CAdministration.itemType.supplierTypeIds);
 
-    CARAPI GetItemType.SupplierTypeIds(
+    CARAPI GetItemType_SupplierTypeIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplierType>* CAdministration.itemType.supplierTypeIds);
 
 
-   CARAPI SetItemType.DocRefIds(
+   CARAPI SetItemType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.itemType.docRefIds);
 
-    CARAPI GetItemType.DocRefIds(
+    CARAPI GetItemType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.itemType.docRefIds);
 
 
-   CARAPI SetItemType.ImageRefIds(
+   CARAPI SetItemType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.itemType.imageRefIds);
 
-    CARAPI GetItemType.ImageRefIds(
+    CARAPI GetItemType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.itemType.imageRefIds);
 
 
-   CARAPI SetItemType.VideoRefIds(
+   CARAPI SetItemType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.itemType.videoRefIds);
 
-    CARAPI GetItemType.VideoRefIds(
+    CARAPI GetItemType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.itemType.videoRefIds);
 
 
-   CARAPI SetItem.ItemId(
+   CARAPI SetItem_ItemId(
      /* [in] */ const String& CAdministration.item.itemId);
 
-    CARAPI GetItem.ItemId(
+    CARAPI GetItem_ItemId(
      /* [out] */ String* CAdministration.item.itemId);
 
 
-   CARAPI SetItem.ItemName(
+   CARAPI SetItem_ItemName(
      /* [in] */ const String& CAdministration.item.itemName);
 
-    CARAPI GetItem.ItemName(
+    CARAPI GetItem_ItemName(
      /* [out] */ String* CAdministration.item.itemName);
 
 
-   CARAPI SetItem.ItemDescription(
+   CARAPI SetItem_ItemDescription(
      /* [in] */ const String& CAdministration.item.itemDescription);
 
-    CARAPI GetItem.ItemDescription(
+    CARAPI GetItem_ItemDescription(
      /* [out] */ String* CAdministration.item.itemDescription);
 
 
-   CARAPI SetItem.Fragile(
+   CARAPI SetItem_Fragile(
      /* [in] */ Boolean CAdministration.item.fragile);
 
-    CARAPI GetItem.Fragile(
+    CARAPI GetItem_Fragile(
      /* [out] */ Boolean* CAdministration.item.fragile);
 
 
-   CARAPI SetItem.Toxic(
+   CARAPI SetItem_Toxic(
      /* [in] */ Boolean CAdministration.item.toxic);
 
-    CARAPI GetItem.Toxic(
+    CARAPI GetItem_Toxic(
      /* [out] */ Boolean* CAdministration.item.toxic);
 
 
-   CARAPI SetItem.Corrosive(
+   CARAPI SetItem_Corrosive(
      /* [in] */ Boolean CAdministration.item.corrosive);
 
-    CARAPI GetItem.Corrosive(
+    CARAPI GetItem_Corrosive(
      /* [out] */ Boolean* CAdministration.item.corrosive);
 
 
-   CARAPI SetItem.ItemModelNumber(
+   CARAPI SetItem_ItemModelNumber(
      /* [in] */ const String& CAdministration.item.itemModelNumber);
 
-    CARAPI GetItem.ItemModelNumber(
+    CARAPI GetItem_ItemModelNumber(
      /* [out] */ String* CAdministration.item.itemModelNumber);
 
 
-   CARAPI SetItem.ItemSerialNumber(
+   CARAPI SetItem_ItemSerialNumber(
      /* [in] */ const String& CAdministration.item.itemSerialNumber);
 
-    CARAPI GetItem.ItemSerialNumber(
+    CARAPI GetItem_ItemSerialNumber(
      /* [out] */ String* CAdministration.item.itemSerialNumber);
 
 
-   CARAPI SetItem.ItemQualityDimensionsCheckedPassed(
+   CARAPI SetItem_ItemQualityDimensionsCheckedPassed(
      /* [in] */ Boolean CAdministration.item.itemQualityDimensionsCheckedPassed);
 
-    CARAPI GetItem.ItemQualityDimensionsCheckedPassed(
+    CARAPI GetItem_ItemQualityDimensionsCheckedPassed(
      /* [out] */ Boolean* CAdministration.item.itemQualityDimensionsCheckedPassed);
 
 
-   CARAPI SetItem.PricePerItem(
+   CARAPI SetItem_PricePerItem(
      /* [in] */ const String& CAdministration.item.pricePerItem);
 
-    CARAPI GetItem.PricePerItem(
+    CARAPI GetItem_PricePerItem(
      /* [out] */ String* CAdministration.item.pricePerItem);
 
 
-   CARAPI SetItem.BusinessChannelOwnerId(
+   CARAPI SetItem_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.item.businessChannelOwnerId);
 
-    CARAPI GetItem.BusinessChannelOwnerId(
+    CARAPI GetItem_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.item.businessChannelOwnerId);
 
 
-   CARAPI SetItem.OurProductId(
+   CARAPI SetItem_OurProductId(
      /* [in] */ CFactory.product CAdministration.item.ourProductId);
 
-    CARAPI GetItem.OurProductId(
+    CARAPI GetItem_OurProductId(
      /* [out] */ CFactory.product* CAdministration.item.ourProductId);
 
 
-   CARAPI SetItem.BranchId(
+   CARAPI SetItem_BranchId(
      /* [in] */ CAdministration.branch CAdministration.item.branchId);
 
-    CARAPI GetItem.BranchId(
+    CARAPI GetItem_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.item.branchId);
 
 
-   CARAPI SetItem.DeptId(
+   CARAPI SetItem_DeptId(
      /* [in] */ CAdministration.department CAdministration.item.deptId);
 
-    CARAPI GetItem.DeptId(
+    CARAPI GetItem_DeptId(
      /* [out] */ CAdministration.department* CAdministration.item.deptId);
 
 
-   CARAPI SetItem.SupplierId(
+   CARAPI SetItem_SupplierId(
      /* [in] */ CSupplier.supplier CAdministration.item.supplierId);
 
-    CARAPI GetItem.SupplierId(
+    CARAPI GetItem_SupplierId(
      /* [out] */ CSupplier.supplier* CAdministration.item.supplierId);
 
 
-   CARAPI SetItem.ItemTypeId(
+   CARAPI SetItem_ItemTypeId(
      /* [in] */ CAdministration.itemType CAdministration.item.itemTypeId);
 
-    CARAPI GetItem.ItemTypeId(
+    CARAPI GetItem_ItemTypeId(
      /* [out] */ CAdministration.itemType* CAdministration.item.itemTypeId);
 
 
-   CARAPI SetItem.JobTypeIds(
+   CARAPI SetItem_JobTypeIds(
      /* [in] */ ArrayOf<CAdministration.jobType> CAdministration.item.jobTypeIds);
 
-    CARAPI GetItem.JobTypeIds(
+    CARAPI GetItem_JobTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.jobType>* CAdministration.item.jobTypeIds);
 
 
-   CARAPI SetItem.DocRefIds(
+   CARAPI SetItem_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.item.docRefIds);
 
-    CARAPI GetItem.DocRefIds(
+    CARAPI GetItem_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.item.docRefIds);
 
 
-   CARAPI SetItem.ImageRefIds(
+   CARAPI SetItem_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.item.imageRefIds);
 
-    CARAPI GetItem.ImageRefIds(
+    CARAPI GetItem_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.item.imageRefIds);
 
 
-   CARAPI SetItem.VideoRefIds(
+   CARAPI SetItem_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.item.videoRefIds);
 
-    CARAPI GetItem.VideoRefIds(
+    CARAPI GetItem_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.item.videoRefIds);
 
 
-   CARAPI SetJobType.JobTypeId(
+   CARAPI SetJobType_JobTypeId(
      /* [in] */ const String& CAdministration.jobType.jobTypeId);
 
-    CARAPI GetJobType.JobTypeId(
+    CARAPI GetJobType_JobTypeId(
      /* [out] */ String* CAdministration.jobType.jobTypeId);
 
 
-   CARAPI SetJobType.JobDescription(
+   CARAPI SetJobType_JobDescription(
      /* [in] */ const String& CAdministration.jobType.jobDescription);
 
-    CARAPI GetJobType.JobDescription(
+    CARAPI GetJobType_JobDescription(
      /* [out] */ String* CAdministration.jobType.jobDescription);
 
 
-   CARAPI SetJobType.JobCode(
+   CARAPI SetJobType_JobCode(
      /* [in] */ const String& CAdministration.jobType.jobCode);
 
-    CARAPI GetJobType.JobCode(
+    CARAPI GetJobType_JobCode(
      /* [out] */ String* CAdministration.jobType.jobCode);
 
 
-   CARAPI SetJobType.JobName(
+   CARAPI SetJobType_JobName(
      /* [in] */ const String& CAdministration.jobType.jobName);
 
-    CARAPI GetJobType.JobName(
+    CARAPI GetJobType_JobName(
      /* [out] */ String* CAdministration.jobType.jobName);
 
 
-   CARAPI SetJobType.TaskSequence(
+   CARAPI SetJobType_TaskSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.jobType.taskSequence);
 
-    CARAPI GetJobType.TaskSequence(
+    CARAPI GetJobType_TaskSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.jobType.taskSequence);
 
 
-   CARAPI SetJobType.NatRegId(
+   CARAPI SetJobType_NatRegId(
      /* [in] */ ArrayOf<const String&> CAdministration.jobType.natRegId);
 
-    CARAPI GetJobType.NatRegId(
+    CARAPI GetJobType_NatRegId(
      /* [out, callee] */ ArrayOf<String>* CAdministration.jobType.natRegId);
 
 
-   CARAPI SetJobType.StateBasedRegId(
+   CARAPI SetJobType_StateBasedRegId(
      /* [in] */ ArrayOf<const String&> CAdministration.jobType.stateBasedRegId);
 
-    CARAPI GetJobType.StateBasedRegId(
+    CARAPI GetJobType_StateBasedRegId(
      /* [out, callee] */ ArrayOf<String>* CAdministration.jobType.stateBasedRegId);
 
 
-   CARAPI SetJobType.BusinessChannelOwnerId(
+   CARAPI SetJobType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.jobType.businessChannelOwnerId);
 
-    CARAPI GetJobType.BusinessChannelOwnerId(
+    CARAPI GetJobType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.jobType.businessChannelOwnerId);
 
 
-   CARAPI SetJobType.BranchId(
+   CARAPI SetJobType_BranchId(
      /* [in] */ CAdministration.branch CAdministration.jobType.branchId);
 
-    CARAPI GetJobType.BranchId(
+    CARAPI GetJobType_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.jobType.branchId);
 
 
-   CARAPI SetJobType.DeptId(
+   CARAPI SetJobType_DeptId(
      /* [in] */ CAdministration.department CAdministration.jobType.deptId);
 
-    CARAPI GetJobType.DeptId(
+    CARAPI GetJobType_DeptId(
      /* [out] */ CAdministration.department* CAdministration.jobType.deptId);
 
 
-   CARAPI SetJobType.Suppliers(
+   CARAPI SetJobType_Suppliers(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.jobType.suppliers);
 
-    CARAPI GetJobType.Suppliers(
+    CARAPI GetJobType_Suppliers(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.jobType.suppliers);
 
 
-   CARAPI SetJobType.ItemTypeIds(
+   CARAPI SetJobType_ItemTypeIds(
      /* [in] */ ArrayOf<CAdministration.itemType> CAdministration.jobType.itemTypeIds);
 
-    CARAPI GetJobType.ItemTypeIds(
+    CARAPI GetJobType_ItemTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.itemType>* CAdministration.jobType.itemTypeIds);
 
 
-   CARAPI SetJobType.DocRefIds(
+   CARAPI SetJobType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.jobType.docRefIds);
 
-    CARAPI GetJobType.DocRefIds(
+    CARAPI GetJobType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.jobType.docRefIds);
 
 
-   CARAPI SetJobType.ImageRefIds(
+   CARAPI SetJobType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.jobType.imageRefIds);
 
-    CARAPI GetJobType.ImageRefIds(
+    CARAPI GetJobType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.jobType.imageRefIds);
 
 
-   CARAPI SetJobType.VideoRefIds(
+   CARAPI SetJobType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.jobType.videoRefIds);
 
-    CARAPI GetJobType.VideoRefIds(
+    CARAPI GetJobType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.jobType.videoRefIds);
 
 
-   CARAPI SetJob.JobId(
+   CARAPI SetJob_JobId(
      /* [in] */ const String& CAdministration.job.jobId);
 
-    CARAPI GetJob.JobId(
+    CARAPI GetJob_JobId(
      /* [out] */ String* CAdministration.job.jobId);
 
 
-   CARAPI SetJob.JobDescription(
+   CARAPI SetJob_JobDescription(
      /* [in] */ const String& CAdministration.job.jobDescription);
 
-    CARAPI GetJob.JobDescription(
+    CARAPI GetJob_JobDescription(
      /* [out] */ String* CAdministration.job.jobDescription);
 
 
-   CARAPI SetJob.TaskDescriptionSequence(
+   CARAPI SetJob_TaskDescriptionSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.job.taskDescriptionSequence);
 
-    CARAPI GetJob.TaskDescriptionSequence(
+    CARAPI GetJob_TaskDescriptionSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.job.taskDescriptionSequence);
 
 
-   CARAPI SetJob.JobCode(
+   CARAPI SetJob_JobCode(
      /* [in] */ const String& CAdministration.job.jobCode);
 
-    CARAPI GetJob.JobCode(
+    CARAPI GetJob_JobCode(
      /* [out] */ String* CAdministration.job.jobCode);
 
 
-   CARAPI SetJob.JobName(
+   CARAPI SetJob_JobName(
      /* [in] */ const String& CAdministration.job.jobName);
 
-    CARAPI GetJob.JobName(
+    CARAPI GetJob_JobName(
      /* [out] */ String* CAdministration.job.jobName);
 
 
-   CARAPI SetJob.JobNum(
+   CARAPI SetJob_JobNum(
      /* [in] */ Int32 CAdministration.job.jobNum);
 
-    CARAPI GetJob.JobNum(
+    CARAPI GetJob_JobNum(
      /* [out] */ Int32* CAdministration.job.jobNum);
 
 
-   CARAPI SetJob.ResponsiveMaintenance(
+   CARAPI SetJob_ResponsiveMaintenance(
      /* [in] */ Boolean CAdministration.job.responsiveMaintenance);
 
-    CARAPI GetJob.ResponsiveMaintenance(
+    CARAPI GetJob_ResponsiveMaintenance(
      /* [out] */ Boolean* CAdministration.job.responsiveMaintenance);
 
 
-   CARAPI SetJob.PlannedMaintenance(
+   CARAPI SetJob_PlannedMaintenance(
      /* [in] */ Boolean CAdministration.job.plannedMaintenance);
 
-    CARAPI GetJob.PlannedMaintenance(
+    CARAPI GetJob_PlannedMaintenance(
      /* [out] */ Boolean* CAdministration.job.plannedMaintenance);
 
 
-   CARAPI SetJob.ImmediatePrevJobNums(
+   CARAPI SetJob_ImmediatePrevJobNums(
      /* [in] */ ArrayOf<Int32> CAdministration.job.immediatePrevJobNums);
 
-    CARAPI GetJob.ImmediatePrevJobNums(
+    CARAPI GetJob_ImmediatePrevJobNums(
      /* [out, callee] */ ArrayOf<Int32>* CAdministration.job.immediatePrevJobNums);
 
 
-   CARAPI SetJob.ImmediatePrevJobsQCPass(
+   CARAPI SetJob_ImmediatePrevJobsQCPass(
      /* [in] */ ArrayOf<Boolean> CAdministration.job.immediatePrevJobsQCPass);
 
-    CARAPI GetJob.ImmediatePrevJobsQCPass(
+    CARAPI GetJob_ImmediatePrevJobsQCPass(
      /* [out, callee] */ ArrayOf<Boolean>* CAdministration.job.immediatePrevJobsQCPass);
 
 
-   CARAPI SetJob.DateTimeTaskStartSequence(
+   CARAPI SetJob_DateTimeTaskStartSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.job.dateTimeTaskStartSequence);
 
-    CARAPI GetJob.DateTimeTaskStartSequence(
+    CARAPI GetJob_DateTimeTaskStartSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.job.dateTimeTaskStartSequence);
 
 
-   CARAPI SetJob.DateTimeTaskEndSequence(
+   CARAPI SetJob_DateTimeTaskEndSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.job.dateTimeTaskEndSequence);
 
-    CARAPI GetJob.DateTimeTaskEndSequence(
+    CARAPI GetJob_DateTimeTaskEndSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.job.dateTimeTaskEndSequence);
 
 
-   CARAPI SetJob.ActualTaskStartTime(
+   CARAPI SetJob_ActualTaskStartTime(
      /* [in] */ ArrayOf<const String&> CAdministration.job.actualTaskStartTime);
 
-    CARAPI GetJob.ActualTaskStartTime(
+    CARAPI GetJob_ActualTaskStartTime(
      /* [out, callee] */ ArrayOf<String>* CAdministration.job.actualTaskStartTime);
 
 
-   CARAPI SetJob.ActualTaskCompleteTime(
+   CARAPI SetJob_ActualTaskCompleteTime(
      /* [in] */ ArrayOf<const String&> CAdministration.job.actualTaskCompleteTime);
 
-    CARAPI GetJob.ActualTaskCompleteTime(
+    CARAPI GetJob_ActualTaskCompleteTime(
      /* [out, callee] */ ArrayOf<String>* CAdministration.job.actualTaskCompleteTime);
 
 
-   CARAPI SetJob.TaskCompletionQCPasses(
+   CARAPI SetJob_TaskCompletionQCPasses(
      /* [in] */ ArrayOf<Boolean> CAdministration.job.taskCompletionQCPasses);
 
-    CARAPI GetJob.TaskCompletionQCPasses(
+    CARAPI GetJob_TaskCompletionQCPasses(
      /* [out, callee] */ ArrayOf<Boolean>* CAdministration.job.taskCompletionQCPasses);
 
 
-   CARAPI SetJob.JobCompletionQCPass(
+   CARAPI SetJob_JobCompletionQCPass(
      /* [in] */ Boolean CAdministration.job.jobCompletionQCPass);
 
-    CARAPI GetJob.JobCompletionQCPass(
+    CARAPI GetJob_JobCompletionQCPass(
      /* [out] */ Boolean* CAdministration.job.jobCompletionQCPass);
 
 
-   CARAPI SetJob.NextJobTypeId(
+   CARAPI SetJob_NextJobTypeId(
      /* [in] */ const String& CAdministration.job.nextJobTypeId);
 
-    CARAPI GetJob.NextJobTypeId(
+    CARAPI GetJob_NextJobTypeId(
      /* [out] */ String* CAdministration.job.nextJobTypeId);
 
 
-   CARAPI SetJob.TenantDamages(
+   CARAPI SetJob_TenantDamages(
      /* [in] */ ArrayOf<Boolean> CAdministration.job.tenantDamages);
 
-    CARAPI GetJob.TenantDamages(
+    CARAPI GetJob_TenantDamages(
      /* [out, callee] */ ArrayOf<Boolean>* CAdministration.job.tenantDamages);
 
 
-   CARAPI SetJob.LesseeCustomerDamage(
+   CARAPI SetJob_LesseeCustomerDamage(
      /* [in] */ ArrayOf<Boolean> CAdministration.job.lesseeCustomerDamage);
 
-    CARAPI GetJob.LesseeCustomerDamage(
+    CARAPI GetJob_LesseeCustomerDamage(
      /* [out, callee] */ ArrayOf<Boolean>* CAdministration.job.lesseeCustomerDamage);
 
 
-   CARAPI SetJob.BusinessChannelOwnerId(
+   CARAPI SetJob_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.job.businessChannelOwnerId);
 
-    CARAPI GetJob.BusinessChannelOwnerId(
+    CARAPI GetJob_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.job.businessChannelOwnerId);
 
 
-   CARAPI SetJob.BranchId(
+   CARAPI SetJob_BranchId(
      /* [in] */ CAdministration.branch CAdministration.job.branchId);
 
-    CARAPI GetJob.BranchId(
+    CARAPI GetJob_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.job.branchId);
 
 
-   CARAPI SetJob.DeptId(
+   CARAPI SetJob_DeptId(
      /* [in] */ CAdministration.department CAdministration.job.deptId);
 
-    CARAPI GetJob.DeptId(
+    CARAPI GetJob_DeptId(
      /* [out] */ CAdministration.department* CAdministration.job.deptId);
 
 
-   CARAPI SetJob.DocRefIds(
+   CARAPI SetJob_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.job.docRefIds);
 
-    CARAPI GetJob.DocRefIds(
+    CARAPI GetJob_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.job.docRefIds);
 
 
-   CARAPI SetJob.ImageRefIds(
+   CARAPI SetJob_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.job.imageRefIds);
 
-    CARAPI GetJob.ImageRefIds(
+    CARAPI GetJob_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.job.imageRefIds);
 
 
-   CARAPI SetJob.PropertyIds(
+   CARAPI SetJob_PropertyIds(
      /* [in] */ ArrayOf<CProperty.property> CAdministration.job.propertyIds);
 
-    CARAPI GetJob.PropertyIds(
+    CARAPI GetJob_PropertyIds(
      /* [out, callee] */ ArrayOf<CProperty.property>* CAdministration.job.propertyIds);
 
 
@@ -2954,598 +2954,598 @@ public:
      /* [out] */ CFinance.masterAsCARAPI SetRegister* CAdministration.job.masterLedgerAsCARAPI SetId);
 
 
-   CARAPI SetJob.CustomerIds(
+   CARAPI SetJob_CustomerIds(
      /* [in] */ ArrayOf<CCustomer.customer> CAdministration.job.customerIds);
 
-    CARAPI GetJob.CustomerIds(
+    CARAPI GetJob_CustomerIds(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CAdministration.job.customerIds);
 
 
-   CARAPI SetJob.EmployeeIds(
+   CARAPI SetJob_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.job.employeeIds);
 
-    CARAPI GetJob.EmployeeIds(
+    CARAPI GetJob_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.job.employeeIds);
 
 
-   CARAPI SetJob.SupplierIds(
+   CARAPI SetJob_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.job.supplierIds);
 
-    CARAPI GetJob.SupplierIds(
+    CARAPI GetJob_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.job.supplierIds);
 
 
-   CARAPI SetJob.JobTypeId(
+   CARAPI SetJob_JobTypeId(
      /* [in] */ CAdministration.jobType CAdministration.job.jobTypeId);
 
-    CARAPI GetJob.JobTypeId(
+    CARAPI GetJob_JobTypeId(
      /* [out] */ CAdministration.jobType* CAdministration.job.jobTypeId);
 
 
-   CARAPI SetJob.ItemTypeIds(
+   CARAPI SetJob_ItemTypeIds(
      /* [in] */ ArrayOf<CAdministration.itemType> CAdministration.job.itemTypeIds);
 
-    CARAPI GetJob.ItemTypeIds(
+    CARAPI GetJob_ItemTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.itemType>* CAdministration.job.itemTypeIds);
 
 
-   CARAPI SetJob.ItemIds(
+   CARAPI SetJob_ItemIds(
      /* [in] */ ArrayOf<CAdministration.item> CAdministration.job.itemIds);
 
-    CARAPI GetJob.ItemIds(
+    CARAPI GetJob_ItemIds(
      /* [out, callee] */ ArrayOf<CAdministration.item>* CAdministration.job.itemIds);
 
 
-   CARAPI SetJob.ServiceTypeIds(
+   CARAPI SetJob_ServiceTypeIds(
      /* [in] */ ArrayOf<CAdministration.serviceType> CAdministration.job.serviceTypeIds);
 
-    CARAPI GetJob.ServiceTypeIds(
+    CARAPI GetJob_ServiceTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.serviceType>* CAdministration.job.serviceTypeIds);
 
 
-   CARAPI SetJob.ServiceIds(
+   CARAPI SetJob_ServiceIds(
      /* [in] */ ArrayOf<CAdministration.service> CAdministration.job.serviceIds);
 
-    CARAPI GetJob.ServiceIds(
+    CARAPI GetJob_ServiceIds(
      /* [out, callee] */ ArrayOf<CAdministration.service>* CAdministration.job.serviceIds);
 
 
-   CARAPI SetJob.MaterialTypeIds(
+   CARAPI SetJob_MaterialTypeIds(
      /* [in] */ ArrayOf<CFactory.materialType> CAdministration.job.materialTypeIds);
 
-    CARAPI GetJob.MaterialTypeIds(
+    CARAPI GetJob_MaterialTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.materialType>* CAdministration.job.materialTypeIds);
 
 
-   CARAPI SetJob.MaterialIds(
+   CARAPI SetJob_MaterialIds(
      /* [in] */ ArrayOf<CFactory.material> CAdministration.job.materialIds);
 
-    CARAPI GetJob.MaterialIds(
+    CARAPI GetJob_MaterialIds(
      /* [out, callee] */ ArrayOf<CFactory.material>* CAdministration.job.materialIds);
 
 
-   CARAPI SetJob.PartTypeIds(
+   CARAPI SetJob_PartTypeIds(
      /* [in] */ ArrayOf<CFactory.partType> CAdministration.job.partTypeIds);
 
-    CARAPI GetJob.PartTypeIds(
+    CARAPI GetJob_PartTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.partType>* CAdministration.job.partTypeIds);
 
 
-   CARAPI SetJob.PartIds(
+   CARAPI SetJob_PartIds(
      /* [in] */ ArrayOf<CFactory.part> CAdministration.job.partIds);
 
-    CARAPI GetJob.PartIds(
+    CARAPI GetJob_PartIds(
      /* [out, callee] */ ArrayOf<CFactory.part>* CAdministration.job.partIds);
 
 
-   CARAPI SetJob.MinorSubAssemblyTypeIds(
+   CARAPI SetJob_MinorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.minorsubassemblyType> CAdministration.job.minorsubassemblyTypeIds);
 
-    CARAPI GetJob.MinorSubAssemblyTypeIds(
+    CARAPI GetJob_MinorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassemblyType>* CAdministration.job.minorsubassemblyTypeIds);
 
 
-   CARAPI SetJob.MinorSubAssemblyIds(
+   CARAPI SetJob_MinorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.minorsubassembly> CAdministration.job.minorsubassemblyIds);
 
-    CARAPI GetJob.MinorSubAssemblyIds(
+    CARAPI GetJob_MinorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassembly>* CAdministration.job.minorsubassemblyIds);
 
 
-   CARAPI SetJob.SubAssemblyTypeIds(
+   CARAPI SetJob_SubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.subassemblyType> CAdministration.job.subassemblyTypeIds);
 
-    CARAPI GetJob.SubAssemblyTypeIds(
+    CARAPI GetJob_SubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.subassemblyType>* CAdministration.job.subassemblyTypeIds);
 
 
-   CARAPI SetJob.SubAssemblyIds(
+   CARAPI SetJob_SubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.subassembly> CAdministration.job.subassemblyIds);
 
-    CARAPI GetJob.SubAssemblyIds(
+    CARAPI GetJob_SubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.subassembly>* CAdministration.job.subassemblyIds);
 
 
-   CARAPI SetJob.MajorSubAssemblyTypeIds(
+   CARAPI SetJob_MajorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.majorsubassemblyType> CAdministration.job.majorsubassemblyTypeIds);
 
-    CARAPI GetJob.MajorSubAssemblyTypeIds(
+    CARAPI GetJob_MajorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassemblyType>* CAdministration.job.majorsubassemblyTypeIds);
 
 
-   CARAPI SetJob.MajorSubAssemblyIds(
+   CARAPI SetJob_MajorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.majorsubassembly> CAdministration.job.majorsubassemblyIds);
 
-    CARAPI GetJob.MajorSubAssemblyIds(
+    CARAPI GetJob_MajorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassembly>* CAdministration.job.majorsubassemblyIds);
 
 
-   CARAPI SetJob.LesserAssemblyTypeIds(
+   CARAPI SetJob_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CAdministration.job.lesserassemblyTypeIds);
 
-    CARAPI GetJob.LesserAssemblyTypeIds(
+    CARAPI GetJob_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CAdministration.job.lesserassemblyTypeIds);
 
 
-   CARAPI SetJob.LesserAssemblyIds(
+   CARAPI SetJob_LesserAssemblyIds(
      /* [in] */ ArrayOf<CFactory.lesserassembly> CAdministration.job.lesserassemblyIds);
 
-    CARAPI GetJob.LesserAssemblyIds(
+    CARAPI GetJob_LesserAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassembly>* CAdministration.job.lesserassemblyIds);
 
 
-   CARAPI SetJob.AssemblyTypeIds(
+   CARAPI SetJob_AssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.assemblyType> CAdministration.job.assemblyTypeIds);
 
-    CARAPI GetJob.AssemblyTypeIds(
+    CARAPI GetJob_AssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.assemblyType>* CAdministration.job.assemblyTypeIds);
 
 
-   CARAPI SetJob.AssemblyIds(
+   CARAPI SetJob_AssemblyIds(
      /* [in] */ ArrayOf<CFactory.assembly> CAdministration.job.assemblyIds);
 
-    CARAPI GetJob.AssemblyIds(
+    CARAPI GetJob_AssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.assembly>* CAdministration.job.assemblyIds);
 
 
-   CARAPI SetJob.GreaterAssemblyTypeIds(
+   CARAPI SetJob_GreaterAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.greaterassemblyType> CAdministration.job.greaterassemblyTypeIds);
 
-    CARAPI GetJob.GreaterAssemblyTypeIds(
+    CARAPI GetJob_GreaterAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassemblyType>* CAdministration.job.greaterassemblyTypeIds);
 
 
-   CARAPI SetJob.GreaterAssemblyIds(
+   CARAPI SetJob_GreaterAssemblyIds(
      /* [in] */ ArrayOf<CFactory.greaterassembly> CAdministration.job.greaterassemblyIds);
 
-    CARAPI GetJob.GreaterAssemblyIds(
+    CARAPI GetJob_GreaterAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassembly>* CAdministration.job.greaterassemblyIds);
 
 
-   CARAPI SetJob.ProductTypeIds(
+   CARAPI SetJob_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CAdministration.job.productTypeIds);
 
-    CARAPI GetJob.ProductTypeIds(
+    CARAPI GetJob_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CAdministration.job.productTypeIds);
 
 
-   CARAPI SetJob.ProductIds(
+   CARAPI SetJob_ProductIds(
      /* [in] */ ArrayOf<CFactory.product> CAdministration.job.productIds);
 
-    CARAPI GetJob.ProductIds(
+    CARAPI GetJob_ProductIds(
      /* [out, callee] */ ArrayOf<CFactory.product>* CAdministration.job.productIds);
 
 
-   CARAPI SetJob.MasterSalesOrderId(
+   CARAPI SetJob_MasterSalesOrderId(
      /* [in] */ CFinance.masterSalesOrder CAdministration.job.masterSalesOrderId);
 
-    CARAPI GetJob.MasterSalesOrderId(
+    CARAPI GetJob_MasterSalesOrderId(
      /* [out] */ CFinance.masterSalesOrder* CAdministration.job.masterSalesOrderId);
 
 
-   CARAPI SetJob.PurchOrderId(
+   CARAPI SetJob_PurchOrderId(
      /* [in] */ realEstatePurchOrders CAdministration.job.purchOrderId);
 
-    CARAPI GetJob.PurchOrderId(
+    CARAPI GetJob_PurchOrderId(
      /* [out] */ realEstatePurchOrders* CAdministration.job.purchOrderId);
 
 
-   CARAPI SetJob.NatRegId(
+   CARAPI SetJob_NatRegId(
      /* [in] */ CRegulator.nationalRegulator CAdministration.job.natRegId);
 
-    CARAPI GetJob.NatRegId(
+    CARAPI GetJob_NatRegId(
      /* [out] */ CRegulator.nationalRegulator* CAdministration.job.natRegId);
 
 
-   CARAPI SetJob.StateBasedRegId(
+   CARAPI SetJob_StateBasedRegId(
      /* [in] */ CRegulator.stateBasedRegulator CAdministration.job.stateBasedRegId);
 
-    CARAPI GetJob.StateBasedRegId(
+    CARAPI GetJob_StateBasedRegId(
      /* [out] */ CRegulator.stateBasedRegulator* CAdministration.job.stateBasedRegId);
 
 
-   CARAPI SetLeaveTypesCodes.LeaveId(
+   CARAPI SetLeaveTypesCodes_LeaveId(
      /* [in] */ const String& CAdministration.leaveTypesCodes.leaveId);
 
-    CARAPI GetLeaveTypesCodes.LeaveId(
+    CARAPI GetLeaveTypesCodes_LeaveId(
      /* [out] */ String* CAdministration.leaveTypesCodes.leaveId);
 
 
-   CARAPI SetLeaveTypesCodes.LeaveCode(
+   CARAPI SetLeaveTypesCodes_LeaveCode(
      /* [in] */ const String& CAdministration.leaveTypesCodes.leaveCode);
 
-    CARAPI GetLeaveTypesCodes.LeaveCode(
+    CARAPI GetLeaveTypesCodes_LeaveCode(
      /* [out] */ String* CAdministration.leaveTypesCodes.leaveCode);
 
 
-   CARAPI SetLeaveTypesCodes.LeaveDescription(
+   CARAPI SetLeaveTypesCodes_LeaveDescription(
      /* [in] */ const String& CAdministration.leaveTypesCodes.leaveDescription);
 
-    CARAPI GetLeaveTypesCodes.LeaveDescription(
+    CARAPI GetLeaveTypesCodes_LeaveDescription(
      /* [out] */ String* CAdministration.leaveTypesCodes.leaveDescription);
 
 
-   CARAPI SetLeaveTypesCodes.AwardName(
+   CARAPI SetLeaveTypesCodes_AwardName(
      /* [in] */ const String& CAdministration.leaveTypesCodes.awardName);
 
-    CARAPI GetLeaveTypesCodes.AwardName(
+    CARAPI GetLeaveTypesCodes_AwardName(
      /* [out] */ String* CAdministration.leaveTypesCodes.awardName);
 
 
-   CARAPI SetLeaveTypesCodes.Notes(
+   CARAPI SetLeaveTypesCodes_Notes(
      /* [in] */ const String& CAdministration.leaveTypesCodes.notes);
 
-    CARAPI GetLeaveTypesCodes.Notes(
+    CARAPI GetLeaveTypesCodes_Notes(
      /* [out] */ String* CAdministration.leaveTypesCodes.notes);
 
 
-   CARAPI SetLeaveTypesCodes.BusinessChannelOwnerId(
+   CARAPI SetLeaveTypesCodes_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.leaveTypesCodes.businessChannelOwnerId);
 
-    CARAPI GetLeaveTypesCodes.BusinessChannelOwnerId(
+    CARAPI GetLeaveTypesCodes_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.leaveTypesCodes.businessChannelOwnerId);
 
 
-   CARAPI SetLeaveTypesCodes.BranchId(
+   CARAPI SetLeaveTypesCodes_BranchId(
      /* [in] */ CAdministration.branch CAdministration.leaveTypesCodes.branchId);
 
-    CARAPI GetLeaveTypesCodes.BranchId(
+    CARAPI GetLeaveTypesCodes_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.leaveTypesCodes.branchId);
 
 
-   CARAPI SetLeaveTypesCodes.DeptId(
+   CARAPI SetLeaveTypesCodes_DeptId(
      /* [in] */ CAdministration.department CAdministration.leaveTypesCodes.deptId);
 
-    CARAPI GetLeaveTypesCodes.DeptId(
+    CARAPI GetLeaveTypesCodes_DeptId(
      /* [out] */ CAdministration.department* CAdministration.leaveTypesCodes.deptId);
 
 
-   CARAPI SetLeaveTypesCodes.DocRefIds(
+   CARAPI SetLeaveTypesCodes_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.leaveTypesCodes.docRefIds);
 
-    CARAPI GetLeaveTypesCodes.DocRefIds(
+    CARAPI GetLeaveTypesCodes_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.leaveTypesCodes.docRefIds);
 
 
-   CARAPI SetQuoteIn.QuoteInId(
+   CARAPI SetQuoteIn_QuoteInId(
      /* [in] */ const String& CAdministration.quoteIn.quoteInId);
 
-    CARAPI GetQuoteIn.QuoteInId(
+    CARAPI GetQuoteIn_QuoteInId(
      /* [out] */ String* CAdministration.quoteIn.quoteInId);
 
 
-   CARAPI SetQuoteIn.JobDescription(
+   CARAPI SetQuoteIn_JobDescription(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteIn.jobDescription);
 
-    CARAPI GetQuoteIn.JobDescription(
+    CARAPI GetQuoteIn_JobDescription(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteIn.jobDescription);
 
 
-   CARAPI SetQuoteIn.JobTypeId(
+   CARAPI SetQuoteIn_JobTypeId(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteIn.jobTypeId);
 
-    CARAPI GetQuoteIn.JobTypeId(
+    CARAPI GetQuoteIn_JobTypeId(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteIn.jobTypeId);
 
 
-   CARAPI SetQuoteIn.JobName(
+   CARAPI SetQuoteIn_JobName(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteIn.jobName);
 
-    CARAPI GetQuoteIn.JobName(
+    CARAPI GetQuoteIn_JobName(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteIn.jobName);
 
 
-   CARAPI SetQuoteIn.ItemId(
+   CARAPI SetQuoteIn_ItemId(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteIn.itemId);
 
-    CARAPI GetQuoteIn.ItemId(
+    CARAPI GetQuoteIn_ItemId(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteIn.itemId);
 
 
-   CARAPI SetQuoteIn.ConditionsUponCustomer(
+   CARAPI SetQuoteIn_ConditionsUponCustomer(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteIn.conditionsUponCustomer);
 
-    CARAPI GetQuoteIn.ConditionsUponCustomer(
+    CARAPI GetQuoteIn_ConditionsUponCustomer(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteIn.conditionsUponCustomer);
 
 
-   CARAPI SetQuoteIn.QuoteAmountEachJob(
+   CARAPI SetQuoteIn_QuoteAmountEachJob(
      /* [in] */ ArrayOf<Double> CAdministration.quoteIn.quoteAmountEachJob);
 
-    CARAPI GetQuoteIn.QuoteAmountEachJob(
+    CARAPI GetQuoteIn_QuoteAmountEachJob(
      /* [out, callee] */ ArrayOf<Double>* CAdministration.quoteIn.quoteAmountEachJob);
 
 
-   CARAPI SetQuoteIn.QuoteTotalForOrder(
+   CARAPI SetQuoteIn_QuoteTotalForOrder(
      /* [in] */ Double CAdministration.quoteIn.quoteTotalForOrder);
 
-    CARAPI GetQuoteIn.QuoteTotalForOrder(
+    CARAPI GetQuoteIn_QuoteTotalForOrder(
      /* [out] */ Double* CAdministration.quoteIn.quoteTotalForOrder);
 
 
-   CARAPI SetQuoteIn.BusinessChannelOwnerId(
+   CARAPI SetQuoteIn_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.quoteIn.businessChannelOwnerId);
 
-    CARAPI GetQuoteIn.BusinessChannelOwnerId(
+    CARAPI GetQuoteIn_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.quoteIn.businessChannelOwnerId);
 
 
-   CARAPI SetQuoteIn.BranchId(
+   CARAPI SetQuoteIn_BranchId(
      /* [in] */ CAdministration.branch CAdministration.quoteIn.branchId);
 
-    CARAPI GetQuoteIn.BranchId(
+    CARAPI GetQuoteIn_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.quoteIn.branchId);
 
 
-   CARAPI SetQuoteIn.DeptId(
+   CARAPI SetQuoteIn_DeptId(
      /* [in] */ CAdministration.department CAdministration.quoteIn.deptId);
 
-    CARAPI GetQuoteIn.DeptId(
+    CARAPI GetQuoteIn_DeptId(
      /* [out] */ CAdministration.department* CAdministration.quoteIn.deptId);
 
 
-   CARAPI SetQuoteIn.SupplierId(
+   CARAPI SetQuoteIn_SupplierId(
      /* [in] */ CSupplier.supplier CAdministration.quoteIn.supplierId);
 
-    CARAPI GetQuoteIn.SupplierId(
+    CARAPI GetQuoteIn_SupplierId(
      /* [out] */ CSupplier.supplier* CAdministration.quoteIn.supplierId);
 
 
-   CARAPI SetQuoteIn.DocRefIds(
+   CARAPI SetQuoteIn_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.quoteIn.docRefIds);
 
-    CARAPI GetQuoteIn.DocRefIds(
+    CARAPI GetQuoteIn_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.quoteIn.docRefIds);
 
 
-   CARAPI SetQuoteIn.ImageRefIds(
+   CARAPI SetQuoteIn_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.quoteIn.imageRefIds);
 
-    CARAPI GetQuoteIn.ImageRefIds(
+    CARAPI GetQuoteIn_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.quoteIn.imageRefIds);
 
 
-   CARAPI SetQuoteIn.VideoRefIds(
+   CARAPI SetQuoteIn_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.quoteIn.videoRefIds);
 
-    CARAPI GetQuoteIn.VideoRefIds(
+    CARAPI GetQuoteIn_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.quoteIn.videoRefIds);
 
 
-   CARAPI SetQuoteIn.PurchOrderId(
+   CARAPI SetQuoteIn_PurchOrderId(
      /* [in] */ realEstatePurchOrders CAdministration.quoteIn.purchOrderId);
 
-    CARAPI GetQuoteIn.PurchOrderId(
+    CARAPI GetQuoteIn_PurchOrderId(
      /* [out] */ realEstatePurchOrders* CAdministration.quoteIn.purchOrderId);
 
 
-   CARAPI SetQuoteOut.QuoteOutId(
+   CARAPI SetQuoteOut_QuoteOutId(
      /* [in] */ const String& CAdministration.quoteOut.quoteOutId);
 
-    CARAPI GetQuoteOut.QuoteOutId(
+    CARAPI GetQuoteOut_QuoteOutId(
      /* [out] */ String* CAdministration.quoteOut.quoteOutId);
 
 
-   CARAPI SetQuoteOut.JobDescription(
+   CARAPI SetQuoteOut_JobDescription(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteOut.jobDescription);
 
-    CARAPI GetQuoteOut.JobDescription(
+    CARAPI GetQuoteOut_JobDescription(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteOut.jobDescription);
 
 
-   CARAPI SetQuoteOut.JobTypeId(
+   CARAPI SetQuoteOut_JobTypeId(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteOut.jobTypeId);
 
-    CARAPI GetQuoteOut.JobTypeId(
+    CARAPI GetQuoteOut_JobTypeId(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteOut.jobTypeId);
 
 
-   CARAPI SetQuoteOut.JobName(
+   CARAPI SetQuoteOut_JobName(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteOut.jobName);
 
-    CARAPI GetQuoteOut.JobName(
+    CARAPI GetQuoteOut_JobName(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteOut.jobName);
 
 
-   CARAPI SetQuoteOut.ItemId(
+   CARAPI SetQuoteOut_ItemId(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteOut.itemId);
 
-    CARAPI GetQuoteOut.ItemId(
+    CARAPI GetQuoteOut_ItemId(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteOut.itemId);
 
 
-   CARAPI SetQuoteOut.ConditionsUponCustomer(
+   CARAPI SetQuoteOut_ConditionsUponCustomer(
      /* [in] */ ArrayOf<const String&> CAdministration.quoteOut.conditionsUponCustomer);
 
-    CARAPI GetQuoteOut.ConditionsUponCustomer(
+    CARAPI GetQuoteOut_ConditionsUponCustomer(
      /* [out, callee] */ ArrayOf<String>* CAdministration.quoteOut.conditionsUponCustomer);
 
 
-   CARAPI SetQuoteOut.QuoteAmountEachJobItem(
+   CARAPI SetQuoteOut_QuoteAmountEachJobItem(
      /* [in] */ ArrayOf<Double> CAdministration.quoteOut.quoteAmountEachJobItem);
 
-    CARAPI GetQuoteOut.QuoteAmountEachJobItem(
+    CARAPI GetQuoteOut_QuoteAmountEachJobItem(
      /* [out, callee] */ ArrayOf<Double>* CAdministration.quoteOut.quoteAmountEachJobItem);
 
 
-   CARAPI SetQuoteOut.QuoteTotalForOrder(
+   CARAPI SetQuoteOut_QuoteTotalForOrder(
      /* [in] */ Double CAdministration.quoteOut.quoteTotalForOrder);
 
-    CARAPI GetQuoteOut.QuoteTotalForOrder(
+    CARAPI GetQuoteOut_QuoteTotalForOrder(
      /* [out] */ Double* CAdministration.quoteOut.quoteTotalForOrder);
 
 
-   CARAPI SetQuoteOut.BusinessChannelOwnerId(
+   CARAPI SetQuoteOut_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.quoteOut.businessChannelOwnerId);
 
-    CARAPI GetQuoteOut.BusinessChannelOwnerId(
+    CARAPI GetQuoteOut_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.quoteOut.businessChannelOwnerId);
 
 
-   CARAPI SetQuoteOut.BranchId(
+   CARAPI SetQuoteOut_BranchId(
      /* [in] */ CAdministration.branch CAdministration.quoteOut.branchId);
 
-    CARAPI GetQuoteOut.BranchId(
+    CARAPI GetQuoteOut_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.quoteOut.branchId);
 
 
-   CARAPI SetQuoteOut.DeptId(
+   CARAPI SetQuoteOut_DeptId(
      /* [in] */ CAdministration.department CAdministration.quoteOut.deptId);
 
-    CARAPI GetQuoteOut.DeptId(
+    CARAPI GetQuoteOut_DeptId(
      /* [out] */ CAdministration.department* CAdministration.quoteOut.deptId);
 
 
-   CARAPI SetQuoteOut.DocRefIds(
+   CARAPI SetQuoteOut_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.quoteOut.docRefIds);
 
-    CARAPI GetQuoteOut.DocRefIds(
+    CARAPI GetQuoteOut_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.quoteOut.docRefIds);
 
 
-   CARAPI SetQuoteOut.ImageRefIds(
+   CARAPI SetQuoteOut_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.quoteOut.imageRefIds);
 
-    CARAPI GetQuoteOut.ImageRefIds(
+    CARAPI GetQuoteOut_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.quoteOut.imageRefIds);
 
 
-   CARAPI SetQuoteOut.VideoRefIds(
+   CARAPI SetQuoteOut_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.quoteOut.videoRefIds);
 
-    CARAPI GetQuoteOut.VideoRefIds(
+    CARAPI GetQuoteOut_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.quoteOut.videoRefIds);
 
 
-   CARAPI SetQuoteOut.Customers(
+   CARAPI SetQuoteOut_Customers(
      /* [in] */ ArrayOf<CCustomer.customer> CAdministration.quoteOut.customers);
 
-    CARAPI GetQuoteOut.Customers(
+    CARAPI GetQuoteOut_Customers(
      /* [out, callee] */ ArrayOf<CCustomer.customer>* CAdministration.quoteOut.customers);
 
 
-   CARAPI SetQuoteOut.MasterSalesOrderId(
+   CARAPI SetQuoteOut_MasterSalesOrderId(
      /* [in] */ CFinance.masterSalesOrder CAdministration.quoteOut.masterSalesOrderId);
 
-    CARAPI GetQuoteOut.MasterSalesOrderId(
+    CARAPI GetQuoteOut_MasterSalesOrderId(
      /* [out] */ CFinance.masterSalesOrder* CAdministration.quoteOut.masterSalesOrderId);
 
 
-   CARAPI SetRiskRegister.RiskId(
+   CARAPI SetRiskRegister_RiskId(
      /* [in] */ const String& CAdministration.riskRegister.riskId);
 
-    CARAPI GetRiskRegister.RiskId(
+    CARAPI GetRiskRegister_RiskId(
      /* [out] */ String* CAdministration.riskRegister.riskId);
 
 
-   CARAPI SetRiskRegister.PropertyType(
+   CARAPI SetRiskRegister_PropertyType(
      /* [in] */ CHelper.propertyType CAdministration.riskRegister.propertyType);
 
-    CARAPI GetRiskRegister.PropertyType(
+    CARAPI GetRiskRegister_PropertyType(
      /* [out] */ CHelper.propertyType* CAdministration.riskRegister.propertyType);
 
 
-   CARAPI SetRiskRegister.RiskDescriptionSequence(
+   CARAPI SetRiskRegister_RiskDescriptionSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.riskRegister.riskDescriptionSequence);
 
-    CARAPI GetRiskRegister.RiskDescriptionSequence(
+    CARAPI GetRiskRegister_RiskDescriptionSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.riskRegister.riskDescriptionSequence);
 
 
-   CARAPI SetRiskRegister.RiskMitigationSequence(
+   CARAPI SetRiskRegister_RiskMitigationSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.riskRegister.riskMitigationSequence);
 
-    CARAPI GetRiskRegister.RiskMitigationSequence(
+    CARAPI GetRiskRegister_RiskMitigationSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.riskRegister.riskMitigationSequence);
 
 
-   CARAPI SetRiskRegister.StatementsOfRisksAssociated(
+   CARAPI SetRiskRegister_StatementsOfRisksAssociated(
      /* [in] */ ArrayOf<const String&> CAdministration.riskRegister.statementsOfRisksAssociated);
 
-    CARAPI GetRiskRegister.StatementsOfRisksAssociated(
+    CARAPI GetRiskRegister_StatementsOfRisksAssociated(
      /* [out, callee] */ ArrayOf<String>* CAdministration.riskRegister.statementsOfRisksAssociated);
 
 
-   CARAPI SetRiskRegister.RiskLikelihoodRating(
+   CARAPI SetRiskRegister_RiskLikelihoodRating(
      /* [in] */ CHelper.riskLikelihoodOfOccurrenceRating CAdministration.riskRegister.riskLikelihoodRating);
 
-    CARAPI GetRiskRegister.RiskLikelihoodRating(
+    CARAPI GetRiskRegister_RiskLikelihoodRating(
      /* [out] */ CHelper.riskLikelihoodOfOccurrenceRating* CAdministration.riskRegister.riskLikelihoodRating);
 
 
-   CARAPI SetRiskRegister.RiskConsequenceRating(
+   CARAPI SetRiskRegister_RiskConsequenceRating(
      /* [in] */ CHelper.riskConsequence CAdministration.riskRegister.riskConsequenceRating);
 
-    CARAPI GetRiskRegister.RiskConsequenceRating(
+    CARAPI GetRiskRegister_RiskConsequenceRating(
      /* [out] */ CHelper.riskConsequence* CAdministration.riskRegister.riskConsequenceRating);
 
 
-   CARAPI SetRiskRegister.ResidualRiskLevel(
+   CARAPI SetRiskRegister_ResidualRiskLevel(
      /* [in] */ CHelper.residualRiskLevel CAdministration.riskRegister.residualRiskLevel);
 
-    CARAPI GetRiskRegister.ResidualRiskLevel(
+    CARAPI GetRiskRegister_ResidualRiskLevel(
      /* [out] */ CHelper.residualRiskLevel* CAdministration.riskRegister.residualRiskLevel);
 
 
-   CARAPI SetRiskRegister.BusinessChannelOwnerId(
+   CARAPI SetRiskRegister_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.riskRegister.businessChannelOwnerId);
 
-    CARAPI GetRiskRegister.BusinessChannelOwnerId(
+    CARAPI GetRiskRegister_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.riskRegister.businessChannelOwnerId);
 
 
-   CARAPI SetRiskRegister.BranchId(
+   CARAPI SetRiskRegister_BranchId(
      /* [in] */ CAdministration.branch CAdministration.riskRegister.branchId);
 
-    CARAPI GetRiskRegister.BranchId(
+    CARAPI GetRiskRegister_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.riskRegister.branchId);
 
 
-   CARAPI SetRiskRegister.DeptId(
+   CARAPI SetRiskRegister_DeptId(
      /* [in] */ CAdministration.department CAdministration.riskRegister.deptId);
 
-    CARAPI GetRiskRegister.DeptId(
+    CARAPI GetRiskRegister_DeptId(
      /* [out] */ CAdministration.department* CAdministration.riskRegister.deptId);
 
 
-   CARAPI SetRiskRegister.RoleId(
+   CARAPI SetRiskRegister_RoleId(
      /* [in] */ CAdministration.role CAdministration.riskRegister.roleId);
 
-    CARAPI GetRiskRegister.RoleId(
+    CARAPI GetRiskRegister_RoleId(
      /* [out] */ CAdministration.role* CAdministration.riskRegister.roleId);
 
 
-   CARAPI SetRiskRegister.PropertyId(
+   CARAPI SetRiskRegister_PropertyId(
      /* [in] */ CProperty.property CAdministration.riskRegister.propertyId);
 
-    CARAPI GetRiskRegister.PropertyId(
+    CARAPI GetRiskRegister_PropertyId(
      /* [out] */ CProperty.property* CAdministration.riskRegister.propertyId);
 
 
-   CARAPI SetRiskRegister.PropertyConstructionTypeId(
+   CARAPI SetRiskRegister_PropertyConstructionTypeId(
      /* [in] */ CProperty.propertyConstructionType CAdministration.riskRegister.propertyConstructionTypeId);
 
-    CARAPI GetRiskRegister.PropertyConstructionTypeId(
+    CARAPI GetRiskRegister_PropertyConstructionTypeId(
      /* [out] */ CProperty.propertyConstructionType* CAdministration.riskRegister.propertyConstructionTypeId);
 
 
@@ -3563,2322 +3563,2322 @@ public:
      /* [out] */ CFinance.masterAsCARAPI SetRegister* CAdministration.riskRegister.masterAsCARAPI SetId);
 
 
-   CARAPI SetRiskRegister.ProgramId(
+   CARAPI SetRiskRegister_ProgramId(
      /* [in] */ CProperty.program CAdministration.riskRegister.programId);
 
-    CARAPI GetRiskRegister.ProgramId(
+    CARAPI GetRiskRegister_ProgramId(
      /* [out] */ CProperty.program* CAdministration.riskRegister.programId);
 
 
-   CARAPI SetRiskRegister.ProjectId(
+   CARAPI SetRiskRegister_ProjectId(
      /* [in] */ CProperty.project CAdministration.riskRegister.projectId);
 
-    CARAPI GetRiskRegister.ProjectId(
+    CARAPI GetRiskRegister_ProjectId(
      /* [out] */ CProperty.project* CAdministration.riskRegister.projectId);
 
 
-   CARAPI SetRiskRegister.JobTypeId(
+   CARAPI SetRiskRegister_JobTypeId(
      /* [in] */ CAdministration.jobType CAdministration.riskRegister.jobTypeId);
 
-    CARAPI GetRiskRegister.JobTypeId(
+    CARAPI GetRiskRegister_JobTypeId(
      /* [out] */ CAdministration.jobType* CAdministration.riskRegister.jobTypeId);
 
 
-   CARAPI SetRiskRegister.JobId(
+   CARAPI SetRiskRegister_JobId(
      /* [in] */ CAdministration.job CAdministration.riskRegister.jobId);
 
-    CARAPI GetRiskRegister.JobId(
+    CARAPI GetRiskRegister_JobId(
      /* [out] */ CAdministration.job* CAdministration.riskRegister.jobId);
 
 
-   CARAPI SetRiskRegister.PurchaseOrderId(
+   CARAPI SetRiskRegister_PurchaseOrderId(
      /* [in] */ realEstatePurchOrders CAdministration.riskRegister.purchaseOrderId);
 
-    CARAPI GetRiskRegister.PurchaseOrderId(
+    CARAPI GetRiskRegister_PurchaseOrderId(
      /* [out] */ realEstatePurchOrders* CAdministration.riskRegister.purchaseOrderId);
 
 
-   CARAPI SetRiskRegister.MasterSalesOrderId(
+   CARAPI SetRiskRegister_MasterSalesOrderId(
      /* [in] */ CFinance.masterSalesOrder CAdministration.riskRegister.masterSalesOrderId);
 
-    CARAPI GetRiskRegister.MasterSalesOrderId(
+    CARAPI GetRiskRegister_MasterSalesOrderId(
      /* [out] */ CFinance.masterSalesOrder* CAdministration.riskRegister.masterSalesOrderId);
 
 
-   CARAPI SetRiskRegister.AllocationId(
+   CARAPI SetRiskRegister_AllocationId(
      /* [in] */ CProperty.allocation CAdministration.riskRegister.allocationId);
 
-    CARAPI GetRiskRegister.AllocationId(
+    CARAPI GetRiskRegister_AllocationId(
      /* [out] */ CProperty.allocation* CAdministration.riskRegister.allocationId);
 
 
-   CARAPI SetRiskRegister.ComplaintId(
+   CARAPI SetRiskRegister_ComplaintId(
      /* [in] */ CCustomer.complaint CAdministration.riskRegister.complaintId);
 
-    CARAPI GetRiskRegister.ComplaintId(
+    CARAPI GetRiskRegister_ComplaintId(
      /* [out] */ CCustomer.complaint* CAdministration.riskRegister.complaintId);
 
 
-   CARAPI SetRiskRegister.ServiceTypeId(
+   CARAPI SetRiskRegister_ServiceTypeId(
      /* [in] */ CAdministration.serviceType CAdministration.riskRegister.serviceTypeId);
 
-    CARAPI GetRiskRegister.ServiceTypeId(
+    CARAPI GetRiskRegister_ServiceTypeId(
      /* [out] */ CAdministration.serviceType* CAdministration.riskRegister.serviceTypeId);
 
 
-   CARAPI SetRiskRegister.ItemTypeId(
+   CARAPI SetRiskRegister_ItemTypeId(
      /* [in] */ CAdministration.itemType CAdministration.riskRegister.itemTypeId);
 
-    CARAPI GetRiskRegister.ItemTypeId(
+    CARAPI GetRiskRegister_ItemTypeId(
      /* [out] */ CAdministration.itemType* CAdministration.riskRegister.itemTypeId);
 
 
-   CARAPI SetRiskRegister.ItemId(
+   CARAPI SetRiskRegister_ItemId(
      /* [in] */ CAdministration.item CAdministration.riskRegister.itemId);
 
-    CARAPI GetRiskRegister.ItemId(
+    CARAPI GetRiskRegister_ItemId(
      /* [out] */ CAdministration.item* CAdministration.riskRegister.itemId);
 
 
-   CARAPI SetRiskRegister.MaterialTypeId(
+   CARAPI SetRiskRegister_MaterialTypeId(
      /* [in] */ CFactory.materialType CAdministration.riskRegister.materialTypeId);
 
-    CARAPI GetRiskRegister.MaterialTypeId(
+    CARAPI GetRiskRegister_MaterialTypeId(
      /* [out] */ CFactory.materialType* CAdministration.riskRegister.materialTypeId);
 
 
-   CARAPI SetRiskRegister.MaterialId(
+   CARAPI SetRiskRegister_MaterialId(
      /* [in] */ CFactory.material CAdministration.riskRegister.materialId);
 
-    CARAPI GetRiskRegister.MaterialId(
+    CARAPI GetRiskRegister_MaterialId(
      /* [out] */ CFactory.material* CAdministration.riskRegister.materialId);
 
 
-   CARAPI SetRiskRegister.PartTypeId(
+   CARAPI SetRiskRegister_PartTypeId(
      /* [in] */ CFactory.partType CAdministration.riskRegister.partTypeId);
 
-    CARAPI GetRiskRegister.PartTypeId(
+    CARAPI GetRiskRegister_PartTypeId(
      /* [out] */ CFactory.partType* CAdministration.riskRegister.partTypeId);
 
 
-   CARAPI SetRiskRegister.PartId(
+   CARAPI SetRiskRegister_PartId(
      /* [in] */ CFactory.part CAdministration.riskRegister.partId);
 
-    CARAPI GetRiskRegister.PartId(
+    CARAPI GetRiskRegister_PartId(
      /* [out] */ CFactory.part* CAdministration.riskRegister.partId);
 
 
-   CARAPI SetRiskRegister.MinorSubAssemblyTypeId(
+   CARAPI SetRiskRegister_MinorSubAssemblyTypeId(
      /* [in] */ CFactory.minorsubassemblyType CAdministration.riskRegister.minorsubassemblyTypeId);
 
-    CARAPI GetRiskRegister.MinorSubAssemblyTypeId(
+    CARAPI GetRiskRegister_MinorSubAssemblyTypeId(
      /* [out] */ CFactory.minorsubassemblyType* CAdministration.riskRegister.minorsubassemblyTypeId);
 
 
-   CARAPI SetRiskRegister.MinorSubAssemblyId(
+   CARAPI SetRiskRegister_MinorSubAssemblyId(
      /* [in] */ CFactory.minorsubassembly CAdministration.riskRegister.minorsubassemblyId);
 
-    CARAPI GetRiskRegister.MinorSubAssemblyId(
+    CARAPI GetRiskRegister_MinorSubAssemblyId(
      /* [out] */ CFactory.minorsubassembly* CAdministration.riskRegister.minorsubassemblyId);
 
 
-   CARAPI SetRiskRegister.SubAssemblyTypeId(
+   CARAPI SetRiskRegister_SubAssemblyTypeId(
      /* [in] */ CFactory.subassemblyType CAdministration.riskRegister.subassemblyTypeId);
 
-    CARAPI GetRiskRegister.SubAssemblyTypeId(
+    CARAPI GetRiskRegister_SubAssemblyTypeId(
      /* [out] */ CFactory.subassemblyType* CAdministration.riskRegister.subassemblyTypeId);
 
 
-   CARAPI SetRiskRegister.SubAssemblyId(
+   CARAPI SetRiskRegister_SubAssemblyId(
      /* [in] */ CFactory.subassembly CAdministration.riskRegister.subassemblyId);
 
-    CARAPI GetRiskRegister.SubAssemblyId(
+    CARAPI GetRiskRegister_SubAssemblyId(
      /* [out] */ CFactory.subassembly* CAdministration.riskRegister.subassemblyId);
 
 
-   CARAPI SetRiskRegister.MajorSubAssemblyTypeId(
+   CARAPI SetRiskRegister_MajorSubAssemblyTypeId(
      /* [in] */ CFactory.majorsubassemblyType CAdministration.riskRegister.majorsubassemblyTypeId);
 
-    CARAPI GetRiskRegister.MajorSubAssemblyTypeId(
+    CARAPI GetRiskRegister_MajorSubAssemblyTypeId(
      /* [out] */ CFactory.majorsubassemblyType* CAdministration.riskRegister.majorsubassemblyTypeId);
 
 
-   CARAPI SetRiskRegister.MajorSubAssemblyId(
+   CARAPI SetRiskRegister_MajorSubAssemblyId(
      /* [in] */ CFactory.majorsubassembly CAdministration.riskRegister.majorsubassemblyId);
 
-    CARAPI GetRiskRegister.MajorSubAssemblyId(
+    CARAPI GetRiskRegister_MajorSubAssemblyId(
      /* [out] */ CFactory.majorsubassembly* CAdministration.riskRegister.majorsubassemblyId);
 
 
-   CARAPI SetRiskRegister.LesserAssemblyTypeId(
+   CARAPI SetRiskRegister_LesserAssemblyTypeId(
      /* [in] */ CFactory.lesserassemblyType CAdministration.riskRegister.lesserassemblyTypeId);
 
-    CARAPI GetRiskRegister.LesserAssemblyTypeId(
+    CARAPI GetRiskRegister_LesserAssemblyTypeId(
      /* [out] */ CFactory.lesserassemblyType* CAdministration.riskRegister.lesserassemblyTypeId);
 
 
-   CARAPI SetRiskRegister.LesserAssemblyId(
+   CARAPI SetRiskRegister_LesserAssemblyId(
      /* [in] */ CFactory.lesserassembly CAdministration.riskRegister.lesserassemblyId);
 
-    CARAPI GetRiskRegister.LesserAssemblyId(
+    CARAPI GetRiskRegister_LesserAssemblyId(
      /* [out] */ CFactory.lesserassembly* CAdministration.riskRegister.lesserassemblyId);
 
 
-   CARAPI SetRiskRegister.AssemblyTypeId(
+   CARAPI SetRiskRegister_AssemblyTypeId(
      /* [in] */ CFactory.assemblyType CAdministration.riskRegister.assemblyTypeId);
 
-    CARAPI GetRiskRegister.AssemblyTypeId(
+    CARAPI GetRiskRegister_AssemblyTypeId(
      /* [out] */ CFactory.assemblyType* CAdministration.riskRegister.assemblyTypeId);
 
 
-   CARAPI SetRiskRegister.AssemblyId(
+   CARAPI SetRiskRegister_AssemblyId(
      /* [in] */ CFactory.assembly CAdministration.riskRegister.assemblyId);
 
-    CARAPI GetRiskRegister.AssemblyId(
+    CARAPI GetRiskRegister_AssemblyId(
      /* [out] */ CFactory.assembly* CAdministration.riskRegister.assemblyId);
 
 
-   CARAPI SetRiskRegister.GreaterAssemblyTypeId(
+   CARAPI SetRiskRegister_GreaterAssemblyTypeId(
      /* [in] */ CFactory.greaterassemblyType CAdministration.riskRegister.greaterassemblyTypeId);
 
-    CARAPI GetRiskRegister.GreaterAssemblyTypeId(
+    CARAPI GetRiskRegister_GreaterAssemblyTypeId(
      /* [out] */ CFactory.greaterassemblyType* CAdministration.riskRegister.greaterassemblyTypeId);
 
 
-   CARAPI SetRiskRegister.GreaterAssemblyId(
+   CARAPI SetRiskRegister_GreaterAssemblyId(
      /* [in] */ CFactory.greaterassembly CAdministration.riskRegister.greaterassemblyId);
 
-    CARAPI GetRiskRegister.GreaterAssemblyId(
+    CARAPI GetRiskRegister_GreaterAssemblyId(
      /* [out] */ CFactory.greaterassembly* CAdministration.riskRegister.greaterassemblyId);
 
 
-   CARAPI SetRiskRegister.ProductTypeId(
+   CARAPI SetRiskRegister_ProductTypeId(
      /* [in] */ CFactory.productType CAdministration.riskRegister.productTypeId);
 
-    CARAPI GetRiskRegister.ProductTypeId(
+    CARAPI GetRiskRegister_ProductTypeId(
      /* [out] */ CFactory.productType* CAdministration.riskRegister.productTypeId);
 
 
-   CARAPI SetRiskRegister.ProductId(
+   CARAPI SetRiskRegister_ProductId(
      /* [in] */ CFactory.product CAdministration.riskRegister.productId);
 
-    CARAPI GetRiskRegister.ProductId(
+    CARAPI GetRiskRegister_ProductId(
      /* [out] */ CFactory.product* CAdministration.riskRegister.productId);
 
 
-   CARAPI SetRiskRegister.CustomerId(
+   CARAPI SetRiskRegister_CustomerId(
      /* [in] */ CCustomer.customer CAdministration.riskRegister.customerId);
 
-    CARAPI GetRiskRegister.CustomerId(
+    CARAPI GetRiskRegister_CustomerId(
      /* [out] */ CCustomer.customer* CAdministration.riskRegister.customerId);
 
 
-   CARAPI SetRiskRegister.CustomerTypeId(
+   CARAPI SetRiskRegister_CustomerTypeId(
      /* [in] */ CCustomer.customerType CAdministration.riskRegister.customerTypeId);
 
-    CARAPI GetRiskRegister.CustomerTypeId(
+    CARAPI GetRiskRegister_CustomerTypeId(
      /* [out] */ CCustomer.customerType* CAdministration.riskRegister.customerTypeId);
 
 
-   CARAPI SetRiskRegister.SupplierId(
+   CARAPI SetRiskRegister_SupplierId(
      /* [in] */ CSupplier.supplier CAdministration.riskRegister.supplierId);
 
-    CARAPI GetRiskRegister.SupplierId(
+    CARAPI GetRiskRegister_SupplierId(
      /* [out] */ CSupplier.supplier* CAdministration.riskRegister.supplierId);
 
 
-   CARAPI SetRiskRegister.SupplierTypeId(
+   CARAPI SetRiskRegister_SupplierTypeId(
      /* [in] */ CSupplier.supplierType CAdministration.riskRegister.supplierTypeId);
 
-    CARAPI GetRiskRegister.SupplierTypeId(
+    CARAPI GetRiskRegister_SupplierTypeId(
      /* [out] */ CSupplier.supplierType* CAdministration.riskRegister.supplierTypeId);
 
 
-   CARAPI SetRiskRegister.PartnerId(
+   CARAPI SetRiskRegister_PartnerId(
      /* [in] */ CStakeholder.partner CAdministration.riskRegister.partnerId);
 
-    CARAPI GetRiskRegister.PartnerId(
+    CARAPI GetRiskRegister_PartnerId(
      /* [out] */ CStakeholder.partner* CAdministration.riskRegister.partnerId);
 
 
-   CARAPI SetRiskRegister.MediaId(
+   CARAPI SetRiskRegister_MediaId(
      /* [in] */ CStakeholder.media CAdministration.riskRegister.mediaId);
 
-    CARAPI GetRiskRegister.MediaId(
+    CARAPI GetRiskRegister_MediaId(
      /* [out] */ CStakeholder.media* CAdministration.riskRegister.mediaId);
 
 
-   CARAPI SetRiskRegister.CommunityId(
+   CARAPI SetRiskRegister_CommunityId(
      /* [in] */ CStakeholder.community CAdministration.riskRegister.communityId);
 
-    CARAPI GetRiskRegister.CommunityId(
+    CARAPI GetRiskRegister_CommunityId(
      /* [out] */ CStakeholder.community* CAdministration.riskRegister.communityId);
 
 
-   CARAPI SetRiskRegister.BankId(
+   CARAPI SetRiskRegister_BankId(
      /* [in] */ CFinance.bank CAdministration.riskRegister.bankId);
 
-    CARAPI GetRiskRegister.BankId(
+    CARAPI GetRiskRegister_BankId(
      /* [out] */ CFinance.bank* CAdministration.riskRegister.bankId);
 
 
-   CARAPI SetRiskRegister.PropertyOwnerId(
+   CARAPI SetRiskRegister_PropertyOwnerId(
      /* [in] */ CProperty.propertyOwner CAdministration.riskRegister.propertyOwnerId);
 
-    CARAPI GetRiskRegister.PropertyOwnerId(
+    CARAPI GetRiskRegister_PropertyOwnerId(
      /* [out] */ CProperty.propertyOwner* CAdministration.riskRegister.propertyOwnerId);
 
 
-   CARAPI SetRiskRegister.ApplicantId(
+   CARAPI SetRiskRegister_ApplicantId(
      /* [in] */ CCustomer.applicant CAdministration.riskRegister.applicantId);
 
-    CARAPI GetRiskRegister.ApplicantId(
+    CARAPI GetRiskRegister_ApplicantId(
      /* [out] */ CCustomer.applicant* CAdministration.riskRegister.applicantId);
 
 
-   CARAPI SetRiskRegister.TenancyId(
+   CARAPI SetRiskRegister_TenancyId(
      /* [in] */ CProperty.tenant CAdministration.riskRegister.tenancyId);
 
-    CARAPI GetRiskRegister.TenancyId(
+    CARAPI GetRiskRegister_TenancyId(
      /* [out] */ CProperty.tenant* CAdministration.riskRegister.tenancyId);
 
 
-   CARAPI SetRiskRegister.EmployeeId(
+   CARAPI SetRiskRegister_EmployeeId(
      /* [in] */ CAdministration.staff CAdministration.riskRegister.employeeId);
 
-    CARAPI GetRiskRegister.EmployeeId(
+    CARAPI GetRiskRegister_EmployeeId(
      /* [out] */ CAdministration.staff* CAdministration.riskRegister.employeeId);
 
 
-   CARAPI SetRiskRegister.SuperFundId(
+   CARAPI SetRiskRegister_SuperFundId(
      /* [in] */ CSupplier.superannuationFund CAdministration.riskRegister.superFundId);
 
-    CARAPI GetRiskRegister.SuperFundId(
+    CARAPI GetRiskRegister_SuperFundId(
      /* [out] */ CSupplier.superannuationFund* CAdministration.riskRegister.superFundId);
 
 
-   CARAPI SetRiskRegister.SolicitorIds(
+   CARAPI SetRiskRegister_SolicitorIds(
      /* [in] */ ArrayOf<CSolicitor.solicitor> CAdministration.riskRegister.solicitorIds);
 
-    CARAPI GetRiskRegister.SolicitorIds(
+    CARAPI GetRiskRegister_SolicitorIds(
      /* [out, callee] */ ArrayOf<CSolicitor.solicitor>* CAdministration.riskRegister.solicitorIds);
 
 
-   CARAPI SetRiskRegister.AgentTypeIds(
+   CARAPI SetRiskRegister_AgentTypeIds(
      /* [in] */ ArrayOf<CStakeholder.agentType> CAdministration.riskRegister.agentTypeIds);
 
-    CARAPI GetRiskRegister.AgentTypeIds(
+    CARAPI GetRiskRegister_AgentTypeIds(
      /* [out, callee] */ ArrayOf<CStakeholder.agentType>* CAdministration.riskRegister.agentTypeIds);
 
 
-   CARAPI SetRiskRegister.AgentIds(
+   CARAPI SetRiskRegister_AgentIds(
      /* [in] */ ArrayOf<CStakeholder.agent> CAdministration.riskRegister.agentIds);
 
-    CARAPI GetRiskRegister.AgentIds(
+    CARAPI GetRiskRegister_AgentIds(
      /* [out, callee] */ ArrayOf<CStakeholder.agent>* CAdministration.riskRegister.agentIds);
 
 
-   CARAPI SetRiskRegister.NonGovStakeholderIds(
+   CARAPI SetRiskRegister_NonGovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.nonGovStakeholder>* CAdministration.riskRegister.nonGovStakeholderIds);
 
-    CARAPI GetRiskRegister.NonGovStakeholderIds(
+    CARAPI GetRiskRegister_NonGovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.nonGovStakeholder>* CAdministration.riskRegister.nonGovStakeholderIds);
 
 
-   CARAPI SetRiskRegister.GovStakeholderIds(
+   CARAPI SetRiskRegister_GovStakeholderIds(
      /* [in] */ ArrayOf<CStakeholder.govStakeholder> CAdministration.riskRegister.govStakeholderIds);
 
-    CARAPI GetRiskRegister.GovStakeholderIds(
+    CARAPI GetRiskRegister_GovStakeholderIds(
      /* [out] */ ArrayOf<CStakeholder.govStakeholder>* CAdministration.riskRegister.govStakeholderIds);
 
 
-   CARAPI SetRiskRegister.CentrelinkId(
+   CARAPI SetRiskRegister_CentrelinkId(
      /* [in] */ CFinance.centrelink CAdministration.riskRegister.centrelinkId);
 
-    CARAPI GetRiskRegister.CentrelinkId(
+    CARAPI GetRiskRegister_CentrelinkId(
      /* [out] */ CFinance.centrelink* CAdministration.riskRegister.centrelinkId);
 
 
-   CARAPI SetRiskRegister.StateLAHAuthorityId(
+   CARAPI SetRiskRegister_StateLAHAuthorityId(
      /* [in] */ CStakeholder.stateLAHAuthority CAdministration.riskRegister.stateLAHAuthorityId);
 
-    CARAPI GetRiskRegister.StateLAHAuthorityId(
+    CARAPI GetRiskRegister_StateLAHAuthorityId(
      /* [out] */ CStakeholder.stateLAHAuthority* CAdministration.riskRegister.stateLAHAuthorityId);
 
 
-   CARAPI SetRiskRegister.StatePublicHousingAuthorityId(
+   CARAPI SetRiskRegister_StatePublicHousingAuthorityId(
      /* [in] */ CStakeholder.statePublicHousingAuthority CAdministration.riskRegister.statePublicHousingAuthorityId);
 
-    CARAPI GetRiskRegister.StatePublicHousingAuthorityId(
+    CARAPI GetRiskRegister_StatePublicHousingAuthorityId(
      /* [out] */ CStakeholder.statePublicHousingAuthority* CAdministration.riskRegister.statePublicHousingAuthorityId);
 
 
-   CARAPI SetRiskRegister.CommunityHousingRegulatorId(
+   CARAPI SetRiskRegister_CommunityHousingRegulatorId(
      /* [in] */ CRegulator.communityHousingRegulator CAdministration.riskRegister.communityHousingRegulatorId);
 
-    CARAPI GetRiskRegister.CommunityHousingRegulatorId(
+    CARAPI GetRiskRegister_CommunityHousingRegulatorId(
      /* [out] */ CRegulator.communityHousingRegulator* CAdministration.riskRegister.communityHousingRegulatorId);
 
 
-   CARAPI SetRiskRegister.ATOId(
+   CARAPI SetRiskRegister_ATOId(
      /* [in] */ CRegulator.aTO CAdministration.riskRegister.aTOId);
 
-    CARAPI GetRiskRegister.ATOId(
+    CARAPI GetRiskRegister_ATOId(
      /* [out] */ CRegulator.aTO* CAdministration.riskRegister.aTOId);
 
 
-   CARAPI SetRiskRegister.NatRegId(
+   CARAPI SetRiskRegister_NatRegId(
      /* [in] */ CRegulator.nationalRegulator CAdministration.riskRegister.natRegId);
 
-    CARAPI GetRiskRegister.NatRegId(
+    CARAPI GetRiskRegister_NatRegId(
      /* [out] */ CRegulator.nationalRegulator* CAdministration.riskRegister.natRegId);
 
 
-   CARAPI SetRiskRegister.TribunalId(
+   CARAPI SetRiskRegister_TribunalId(
      /* [in] */ CRegulator.nCAT CAdministration.riskRegister.tribunalId);
 
-    CARAPI GetRiskRegister.TribunalId(
+    CARAPI GetRiskRegister_TribunalId(
      /* [out] */ CRegulator.nCAT* CAdministration.riskRegister.tribunalId);
 
 
-   CARAPI SetRiskRegister.ApplicationId(
+   CARAPI SetRiskRegister_ApplicationId(
      /* [in] */ CCustomer.application CAdministration.riskRegister.applicationId);
 
-    CARAPI GetRiskRegister.ApplicationId(
+    CARAPI GetRiskRegister_ApplicationId(
      /* [out] */ CCustomer.application* CAdministration.riskRegister.applicationId);
 
 
-   CARAPI SetRiskRegister.StateBasedRegId(
+   CARAPI SetRiskRegister_StateBasedRegId(
      /* [in] */ CRegulator.stateBasedRegulator CAdministration.riskRegister.stateBasedRegId);
 
-    CARAPI GetRiskRegister.StateBasedRegId(
+    CARAPI GetRiskRegister_StateBasedRegId(
      /* [out] */ CRegulator.stateBasedRegulator* CAdministration.riskRegister.stateBasedRegId);
 
 
-   CARAPI SetRiskRegister.ItemTraderId(
+   CARAPI SetRiskRegister_ItemTraderId(
      /* [in] */ itemTrader CAdministration.riskRegister.itemTraderId);
 
-    CARAPI GetRiskRegister.ItemTraderId(
+    CARAPI GetRiskRegister_ItemTraderId(
      /* [out] */ itemTrader* CAdministration.riskRegister.itemTraderId);
 
 
-   CARAPI SetRiskRegister.TenancyCaseMngmntId(
+   CARAPI SetRiskRegister_TenancyCaseMngmntId(
      /* [in] */ CProperty.tenancyCaseManagement CAdministration.riskRegister.tenancyCaseMngmntId);
 
-    CARAPI GetRiskRegister.TenancyCaseMngmntId(
+    CARAPI GetRiskRegister_TenancyCaseMngmntId(
      /* [out] */ CProperty.tenancyCaseManagement* CAdministration.riskRegister.tenancyCaseMngmntId);
 
 
-   CARAPI SetRiskRegister.DocRefIds(
+   CARAPI SetRiskRegister_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.riskRegister.docRefIds);
 
-    CARAPI GetRiskRegister.DocRefIds(
+    CARAPI GetRiskRegister_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.riskRegister.docRefIds);
 
 
-   CARAPI SetRiskRegister.ImageRefIds(
+   CARAPI SetRiskRegister_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.riskRegister.imageRefIds);
 
-    CARAPI GetRiskRegister.ImageRefIds(
+    CARAPI GetRiskRegister_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.riskRegister.imageRefIds);
 
 
-   CARAPI SetRole.RoleId(
+   CARAPI SetRole_RoleId(
      /* [in] */ const String& CAdministration.role.roleId);
 
-    CARAPI GetRole.RoleId(
+    CARAPI GetRole_RoleId(
      /* [out] */ String* CAdministration.role.roleId);
 
 
-   CARAPI SetRole.RoleTitle(
+   CARAPI SetRole_RoleTitle(
      /* [in] */ const String& CAdministration.role.roleTitle);
 
-    CARAPI GetRole.RoleTitle(
+    CARAPI GetRole_RoleTitle(
      /* [out] */ String* CAdministration.role.roleTitle);
 
 
-   CARAPI SetRole.RoleDescription(
+   CARAPI SetRole_RoleDescription(
      /* [in] */ const String& CAdministration.role.roleDescription);
 
-    CARAPI GetRole.RoleDescription(
+    CARAPI GetRole_RoleDescription(
      /* [out] */ String* CAdministration.role.roleDescription);
 
 
-   CARAPI SetRole.EmployeeIds(
+   CARAPI SetRole_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.role.employeeIds);
 
-    CARAPI GetRole.EmployeeIds(
+    CARAPI GetRole_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.role.employeeIds);
 
 
-   CARAPI SetRole.BusinessChannelOwnerId(
+   CARAPI SetRole_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.role.businessChannelOwnerId);
 
-    CARAPI GetRole.BusinessChannelOwnerId(
+    CARAPI GetRole_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.role.businessChannelOwnerId);
 
 
-   CARAPI SetRole.BranchIds(
+   CARAPI SetRole_BranchIds(
      /* [in] */ ArrayOf<CAdministration.branch> CAdministration.role.branchIds);
 
-    CARAPI GetRole.BranchIds(
+    CARAPI GetRole_BranchIds(
      /* [out, callee] */ ArrayOf<CAdministration.branch>* CAdministration.role.branchIds);
 
 
-   CARAPI SetRole.DeptIds(
+   CARAPI SetRole_DeptIds(
      /* [in] */ ArrayOf<CAdministration.department> CAdministration.role.deptIds);
 
-    CARAPI GetRole.DeptIds(
+    CARAPI GetRole_DeptIds(
      /* [out, callee] */ ArrayOf<CAdministration.department>* CAdministration.role.deptIds);
 
 
-   CARAPI SetRole.SubDeptIds(
+   CARAPI SetRole_SubDeptIds(
      /* [in] */ ArrayOf<CAdministration.subdepartment> CAdministration.role.subDeptIds);
 
-    CARAPI GetRole.SubDeptIds(
+    CARAPI GetRole_SubDeptIds(
      /* [out, callee] */ ArrayOf<CAdministration.subdepartment>* CAdministration.role.subDeptIds);
 
 
-   CARAPI SetRole.SubDeptLevel2Ids(
+   CARAPI SetRole_SubDeptLevel2Ids(
      /* [in] */ ArrayOf<CAdministration.subdepartmentLevel2> CAdministration.role.subDeptLevel2Ids);
 
-    CARAPI GetRole.SubDeptLevel2Ids(
+    CARAPI GetRole_SubDeptLevel2Ids(
      /* [out, callee] */ ArrayOf<CAdministration.subdepartmentLevel2>* CAdministration.role.subDeptLevel2Ids);
 
 
-   CARAPI SetRole.SubDeptLevel3Ids(
+   CARAPI SetRole_SubDeptLevel3Ids(
      /* [in] */ ArrayOf<CAdministration.subdepartmentLevel3> CAdministration.role.subDeptLevel3Ids);
 
-    CARAPI GetRole.SubDeptLevel3Ids(
+    CARAPI GetRole_SubDeptLevel3Ids(
      /* [out, callee] */ ArrayOf<CAdministration.subdepartmentLevel3>* CAdministration.role.subDeptLevel3Ids);
 
 
-   CARAPI SetRole.DocRefIds(
+   CARAPI SetRole_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.role.docRefIds);
 
-    CARAPI GetRole.DocRefIds(
+    CARAPI GetRole_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.role.docRefIds);
 
 
-   CARAPI SetRole.ImageRefIds(
+   CARAPI SetRole_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.role.imageRefIds);
 
-    CARAPI GetRole.ImageRefIds(
+    CARAPI GetRole_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.role.imageRefIds);
 
 
-   CARAPI SetRole.VideoRefIds(
+   CARAPI SetRole_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CAdministration.role.videoRefIds);
 
-    CARAPI GetRole.VideoRefIds(
+    CARAPI GetRole_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CAdministration.role.videoRefIds);
 
 
-   CARAPI SetStaffRoleJoins.StaffRoleJoinsId(
+   CARAPI SetStaffRoleJoins_StaffRoleJoinsId(
      /* [in] */ const String& CAdministration.staffRoleJoins.staffRoleJoinsId);
 
-    CARAPI GetStaffRoleJoins.StaffRoleJoinsId(
+    CARAPI GetStaffRoleJoins_StaffRoleJoinsId(
      /* [out] */ String* CAdministration.staffRoleJoins.staffRoleJoinsId);
 
 
-   CARAPI SetStaffRoleJoins.RoleId(
+   CARAPI SetStaffRoleJoins_RoleId(
      /* [in] */ CAdministration.role CAdministration.staffRoleJoins.roleId);
 
-    CARAPI GetStaffRoleJoins.RoleId(
+    CARAPI GetStaffRoleJoins_RoleId(
      /* [out] */ CAdministration.role* CAdministration.staffRoleJoins.roleId);
 
 
-   CARAPI SetStaffRoleJoins.EmployeeId(
+   CARAPI SetStaffRoleJoins_EmployeeId(
      /* [in] */ CAdministration.staff CAdministration.staffRoleJoins.employeeId);
 
-    CARAPI GetStaffRoleJoins.EmployeeId(
+    CARAPI GetStaffRoleJoins_EmployeeId(
      /* [out] */ CAdministration.staff* CAdministration.staffRoleJoins.employeeId);
 
 
-   CARAPI SetBusinessDirector.BusinessDirectorId(
+   CARAPI SetBusinessDirector_BusinessDirectorId(
      /* [in] */ const String& CAdministration.businessDirector.businessDirectorId);
 
-    CARAPI GetBusinessDirector.BusinessDirectorId(
+    CARAPI GetBusinessDirector_BusinessDirectorId(
      /* [out] */ String* CAdministration.businessDirector.businessDirectorId);
 
 
-   CARAPI SetBusinessDirector.FirstName(
+   CARAPI SetBusinessDirector_FirstName(
      /* [in] */ const String& CAdministration.businessDirector.firstName);
 
-    CARAPI GetBusinessDirector.FirstName(
+    CARAPI GetBusinessDirector_FirstName(
      /* [out] */ String* CAdministration.businessDirector.firstName);
 
 
-   CARAPI SetBusinessDirector.LastName(
+   CARAPI SetBusinessDirector_LastName(
      /* [in] */ const String& CAdministration.businessDirector.lastName);
 
-    CARAPI GetBusinessDirector.LastName(
+    CARAPI GetBusinessDirector_LastName(
      /* [out] */ String* CAdministration.businessDirector.lastName);
 
 
-   CARAPI SetBusinessDirector.ResidentialAddress(
+   CARAPI SetBusinessDirector_ResidentialAddress(
      /* [in] */ const String& CAdministration.businessDirector.residentialAddress);
 
-    CARAPI GetBusinessDirector.ResidentialAddress(
+    CARAPI GetBusinessDirector_ResidentialAddress(
      /* [out] */ String* CAdministration.businessDirector.residentialAddress);
 
 
-   CARAPI SetBusinessDirector.PostalAddress(
+   CARAPI SetBusinessDirector_PostalAddress(
      /* [in] */ const String& CAdministration.businessDirector.postalAddress);
 
-    CARAPI GetBusinessDirector.PostalAddress(
+    CARAPI GetBusinessDirector_PostalAddress(
      /* [out] */ String* CAdministration.businessDirector.postalAddress);
 
 
-   CARAPI SetBusinessDirector.Email(
+   CARAPI SetBusinessDirector_Email(
      /* [in] */ const String& CAdministration.businessDirector.email);
 
-    CARAPI GetBusinessDirector.Email(
+    CARAPI GetBusinessDirector_Email(
      /* [out] */ String* CAdministration.businessDirector.email);
 
 
-   CARAPI SetBusinessDirector.HomePhone(
+   CARAPI SetBusinessDirector_HomePhone(
      /* [in] */ Int32 CAdministration.businessDirector.homePhone);
 
-    CARAPI GetBusinessDirector.HomePhone(
+    CARAPI GetBusinessDirector_HomePhone(
      /* [out] */ Int32* CAdministration.businessDirector.homePhone);
 
 
-   CARAPI SetBusinessDirector.MobilePhone(
+   CARAPI SetBusinessDirector_MobilePhone(
      /* [in] */ Int32 CAdministration.businessDirector.mobilePhone);
 
-    CARAPI GetBusinessDirector.MobilePhone(
+    CARAPI GetBusinessDirector_MobilePhone(
      /* [out] */ Int32* CAdministration.businessDirector.mobilePhone);
 
 
-   CARAPI SetBusinessDirector.WorkPhone(
+   CARAPI SetBusinessDirector_WorkPhone(
      /* [in] */ Int32 CAdministration.businessDirector.workPhone);
 
-    CARAPI GetBusinessDirector.WorkPhone(
+    CARAPI GetBusinessDirector_WorkPhone(
      /* [out] */ Int32* CAdministration.businessDirector.workPhone);
 
 
-   CARAPI SetBusinessDirector.ContactedWithDetails(
+   CARAPI SetBusinessDirector_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CAdministration.businessDirector.contactedWithDetails);
 
-    CARAPI GetBusinessDirector.ContactedWithDetails(
+    CARAPI GetBusinessDirector_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CAdministration.businessDirector.contactedWithDetails);
 
 
-   CARAPI SetBusinessDirector.BusinessChannelOwnerId(
+   CARAPI SetBusinessDirector_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.businessDirector.businessChannelOwnerId);
 
-    CARAPI GetBusinessDirector.BusinessChannelOwnerId(
+    CARAPI GetBusinessDirector_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.businessDirector.businessChannelOwnerId);
 
 
-   CARAPI SetBusinessDirector.DocRefIds(
+   CARAPI SetBusinessDirector_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.businessDirector.docRefIds);
 
-    CARAPI GetBusinessDirector.DocRefIds(
+    CARAPI GetBusinessDirector_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.businessDirector.docRefIds);
 
 
-   CARAPI SetBusinessDirector.ImageRefIds(
+   CARAPI SetBusinessDirector_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.businessDirector.imageRefIds);
 
-    CARAPI GetBusinessDirector.ImageRefIds(
+    CARAPI GetBusinessDirector_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.businessDirector.imageRefIds);
 
 
-   CARAPI SetStaff.EmployeeId(
+   CARAPI SetStaff_EmployeeId(
      /* [in] */ const String& CAdministration.staff.employeeId);
 
-    CARAPI GetStaff.EmployeeId(
+    CARAPI GetStaff_EmployeeId(
      /* [out] */ String* CAdministration.staff.employeeId);
 
 
-   CARAPI SetStaff.OurBranchId(
+   CARAPI SetStaff_OurBranchId(
      /* [in] */ const String& CAdministration.staff.ourBranchId);
 
-    CARAPI GetStaff.OurBranchId(
+    CARAPI GetStaff_OurBranchId(
      /* [out] */ String* CAdministration.staff.ourBranchId);
 
 
-   CARAPI SetStaff.FirstName(
+   CARAPI SetStaff_FirstName(
      /* [in] */ const String& CAdministration.staff.firstName);
 
-    CARAPI GetStaff.FirstName(
+    CARAPI GetStaff_FirstName(
      /* [out] */ String* CAdministration.staff.firstName);
 
 
-   CARAPI SetStaff.LastName(
+   CARAPI SetStaff_LastName(
      /* [in] */ const String& CAdministration.staff.lastName);
 
-    CARAPI GetStaff.LastName(
+    CARAPI GetStaff_LastName(
      /* [out] */ String* CAdministration.staff.lastName);
 
 
-   CARAPI SetStaff.ResidentialAddress(
+   CARAPI SetStaff_ResidentialAddress(
      /* [in] */ const String& CAdministration.staff.residentialAddress);
 
-    CARAPI GetStaff.ResidentialAddress(
+    CARAPI GetStaff_ResidentialAddress(
      /* [out] */ String* CAdministration.staff.residentialAddress);
 
 
-   CARAPI SetStaff.PostalAddress(
+   CARAPI SetStaff_PostalAddress(
      /* [in] */ const String& CAdministration.staff.postalAddress);
 
-    CARAPI GetStaff.PostalAddress(
+    CARAPI GetStaff_PostalAddress(
      /* [out] */ String* CAdministration.staff.postalAddress);
 
 
-   CARAPI SetStaff.Email(
+   CARAPI SetStaff_Email(
      /* [in] */ const String& CAdministration.staff.email);
 
-    CARAPI GetStaff.Email(
+    CARAPI GetStaff_Email(
      /* [out] */ String* CAdministration.staff.email);
 
 
-   CARAPI SetStaff.HomePhone(
+   CARAPI SetStaff_HomePhone(
      /* [in] */ Int32 CAdministration.staff.homePhone);
 
-    CARAPI GetStaff.HomePhone(
+    CARAPI GetStaff_HomePhone(
      /* [out] */ Int32* CAdministration.staff.homePhone);
 
 
-   CARAPI SetStaff.MobilePhone(
+   CARAPI SetStaff_MobilePhone(
      /* [in] */ Int32 CAdministration.staff.mobilePhone);
 
-    CARAPI GetStaff.MobilePhone(
+    CARAPI GetStaff_MobilePhone(
      /* [out] */ Int32* CAdministration.staff.mobilePhone);
 
 
-   CARAPI SetStaff.WorkPhone(
+   CARAPI SetStaff_WorkPhone(
      /* [in] */ Int32 CAdministration.staff.workPhone);
 
-    CARAPI GetStaff.WorkPhone(
+    CARAPI GetStaff_WorkPhone(
      /* [out] */ Int32* CAdministration.staff.workPhone);
 
 
-   CARAPI SetStaff.ATOTFN(
+   CARAPI SetStaff_ATOTFN(
      /* [in] */ Int32 CAdministration.staff.aTOTFN);
 
-    CARAPI GetStaff.ATOTFN(
+    CARAPI GetStaff_ATOTFN(
      /* [out] */ Int32* CAdministration.staff.aTOTFN);
 
 
-   CARAPI SetStaff.TaxFreeThreshold(
+   CARAPI SetStaff_TaxFreeThreshold(
      /* [in] */ Boolean CAdministration.staff.taxFreeThreshold);
 
-    CARAPI GetStaff.TaxFreeThreshold(
+    CARAPI GetStaff_TaxFreeThreshold(
      /* [out] */ Boolean* CAdministration.staff.taxFreeThreshold);
 
 
-   CARAPI SetStaff.DocRefIds(
+   CARAPI SetStaff_DocRefIds(
      /* [in] */ ArrayOf<const String&> CAdministration.staff.docRefIds);
 
-    CARAPI GetStaff.DocRefIds(
+    CARAPI GetStaff_DocRefIds(
      /* [out, callee] */ ArrayOf<String>* CAdministration.staff.docRefIds);
 
 
-   CARAPI SetStaff.ContactedWithDetails(
+   CARAPI SetStaff_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CAdministration.staff.contactedWithDetails);
 
-    CARAPI GetStaff.ContactedWithDetails(
+    CARAPI GetStaff_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CAdministration.staff.contactedWithDetails);
 
 
-   CARAPI SetStaff.StaffImmedSuperRoleId(
+   CARAPI SetStaff_StaffImmedSuperRoleId(
      /* [in] */ CAdministration.role CAdministration.staff.staffImmedSuperRoleId);
 
-    CARAPI GetStaff.StaffImmedSuperRoleId(
+    CARAPI GetStaff_StaffImmedSuperRoleId(
      /* [out] */ CAdministration.role* CAdministration.staff.staffImmedSuperRoleId);
 
 
-   CARAPI SetStaff.PerformanceAgreementDocRefs(
+   CARAPI SetStaff_PerformanceAgreementDocRefs(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.staff.performanceAgreementDocRefs);
 
-    CARAPI GetStaff.PerformanceAgreementDocRefs(
+    CARAPI GetStaff_PerformanceAgreementDocRefs(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.staff.performanceAgreementDocRefs);
 
 
-   CARAPI SetStaff.RoleIds(
+   CARAPI SetStaff_RoleIds(
      /* [in] */ ArrayOf<CAdministration.role> CAdministration.staff.roleIds);
 
-    CARAPI GetStaff.RoleIds(
+    CARAPI GetStaff_RoleIds(
      /* [out, callee] */ ArrayOf<CAdministration.role>* CAdministration.staff.roleIds);
 
 
-   CARAPI SetStaff.ImageRefIds(
+   CARAPI SetStaff_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.staff.imageRefIds);
 
-    CARAPI GetStaff.ImageRefIds(
+    CARAPI GetStaff_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.staff.imageRefIds);
 
 
-   CARAPI SetStaff.BusinessChannelOwnerId(
+   CARAPI SetStaff_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.staff.businessChannelOwnerId);
 
-    CARAPI GetStaff.BusinessChannelOwnerId(
+    CARAPI GetStaff_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.staff.businessChannelOwnerId);
 
 
-   CARAPI SetServicePurchaseRequest.ServicePurchRequestId(
+   CARAPI SetServicePurchaseRequest_ServicePurchRequestId(
      /* [in] */ const String& CAdministration.servicePurchaseRequest.servicePurchRequestId);
 
-    CARAPI GetServicePurchaseRequest.ServicePurchRequestId(
+    CARAPI GetServicePurchaseRequest_ServicePurchRequestId(
      /* [out] */ String* CAdministration.servicePurchaseRequest.servicePurchRequestId);
 
 
-   CARAPI SetServicePurchaseRequest.MRQIdIfRentalProperty(
+   CARAPI SetServicePurchaseRequest_MRQIdIfRentalProperty(
      /* [in] */ const String& CAdministration.servicePurchaseRequest.mRQIdIfRentalProperty);
 
-    CARAPI GetServicePurchaseRequest.MRQIdIfRentalProperty(
+    CARAPI GetServicePurchaseRequest_MRQIdIfRentalProperty(
      /* [out] */ String* CAdministration.servicePurchaseRequest.mRQIdIfRentalProperty);
 
 
-   CARAPI SetServicePurchaseRequest.DamageCausedByCustomerTenantOthers(
+   CARAPI SetServicePurchaseRequest_DamageCausedByCustomerTenantOthers(
      /* [in] */ Boolean CAdministration.servicePurchaseRequest.damageCausedByCustomerTenantOthers);
 
-    CARAPI GetServicePurchaseRequest.DamageCausedByCustomerTenantOthers(
+    CARAPI GetServicePurchaseRequest_DamageCausedByCustomerTenantOthers(
      /* [out] */ Boolean* CAdministration.servicePurchaseRequest.damageCausedByCustomerTenantOthers);
 
 
-   CARAPI SetServicePurchaseRequest.OwnerResponsible(
+   CARAPI SetServicePurchaseRequest_OwnerResponsible(
      /* [in] */ Boolean CAdministration.servicePurchaseRequest.ownerResponsible);
 
-    CARAPI GetServicePurchaseRequest.OwnerResponsible(
+    CARAPI GetServicePurchaseRequest_OwnerResponsible(
      /* [out] */ Boolean* CAdministration.servicePurchaseRequest.ownerResponsible);
 
 
-   CARAPI SetServicePurchaseRequest.SummaryDescriptionOfProblemItemised(
+   CARAPI SetServicePurchaseRequest_SummaryDescriptionOfProblemItemised(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.summaryDescriptionOfProblemItemised);
 
-    CARAPI GetServicePurchaseRequest.SummaryDescriptionOfProblemItemised(
+    CARAPI GetServicePurchaseRequest_SummaryDescriptionOfProblemItemised(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.summaryDescriptionOfProblemItemised);
 
 
-   CARAPI SetServicePurchaseRequest.JobTypeSequence(
+   CARAPI SetServicePurchaseRequest_JobTypeSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.jobTypeSequence);
 
-    CARAPI GetServicePurchaseRequest.JobTypeSequence(
+    CARAPI GetServicePurchaseRequest_JobTypeSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.jobTypeSequence);
 
 
-   CARAPI SetServicePurchaseRequest.QuoteIdsIn(
+   CARAPI SetServicePurchaseRequest_QuoteIdsIn(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.quoteIdsIn);
 
-    CARAPI GetServicePurchaseRequest.QuoteIdsIn(
+    CARAPI GetServicePurchaseRequest_QuoteIdsIn(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.quoteIdsIn);
 
 
-   CARAPI SetServicePurchaseRequest.MostAppropriateQuotesReceived(
+   CARAPI SetServicePurchaseRequest_MostAppropriateQuotesReceived(
      /* [in] */ ArrayOf<Double> CAdministration.servicePurchaseRequest.mostAppropriateQuotesReceived);
 
-    CARAPI GetServicePurchaseRequest.MostAppropriateQuotesReceived(
+    CARAPI GetServicePurchaseRequest_MostAppropriateQuotesReceived(
      /* [out, callee] */ ArrayOf<Double>* CAdministration.servicePurchaseRequest.mostAppropriateQuotesReceived);
 
 
-   CARAPI SetServicePurchaseRequest.QuotesFinalised(
+   CARAPI SetServicePurchaseRequest_QuotesFinalised(
      /* [in] */ const String& CAdministration.servicePurchaseRequest.quotesFinalised);
 
-    CARAPI GetServicePurchaseRequest.QuotesFinalised(
+    CARAPI GetServicePurchaseRequest_QuotesFinalised(
      /* [out] */ String* CAdministration.servicePurchaseRequest.quotesFinalised);
 
 
-   CARAPI SetServicePurchaseRequest.RequestsToLandlordDocRefs(
+   CARAPI SetServicePurchaseRequest_RequestsToLandlordDocRefs(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.requestsToLandlordDocRefs);
 
-    CARAPI GetServicePurchaseRequest.RequestsToLandlordDocRefs(
+    CARAPI GetServicePurchaseRequest_RequestsToLandlordDocRefs(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.requestsToLandlordDocRefs);
 
 
-   CARAPI SetServicePurchaseRequest.RequestsSentDates(
+   CARAPI SetServicePurchaseRequest_RequestsSentDates(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.requestsSentDates);
 
-    CARAPI GetServicePurchaseRequest.RequestsSentDates(
+    CARAPI GetServicePurchaseRequest_RequestsSentDates(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.requestsSentDates);
 
 
-   CARAPI SetServicePurchaseRequest.JobTypeSequenceApproved(
+   CARAPI SetServicePurchaseRequest_JobTypeSequenceApproved(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.jobTypeSequenceApproved);
 
-    CARAPI GetServicePurchaseRequest.JobTypeSequenceApproved(
+    CARAPI GetServicePurchaseRequest_JobTypeSequenceApproved(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.jobTypeSequenceApproved);
 
 
-   CARAPI SetServicePurchaseRequest.TribunalIds(
+   CARAPI SetServicePurchaseRequest_TribunalIds(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.tribunalIds);
 
-    CARAPI GetServicePurchaseRequest.TribunalIds(
+    CARAPI GetServicePurchaseRequest_TribunalIds(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.tribunalIds);
 
 
-   CARAPI SetServicePurchaseRequest.JobIds(
+   CARAPI SetServicePurchaseRequest_JobIds(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.jobIds);
 
-    CARAPI GetServicePurchaseRequest.JobIds(
+    CARAPI GetServicePurchaseRequest_JobIds(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.jobIds);
 
 
-   CARAPI SetServicePurchaseRequest.PurchaseOrderIdSequence(
+   CARAPI SetServicePurchaseRequest_PurchaseOrderIdSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.purchaseOrderIdSequence);
 
-    CARAPI GetServicePurchaseRequest.PurchaseOrderIdSequence(
+    CARAPI GetServicePurchaseRequest_PurchaseOrderIdSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.purchaseOrderIdSequence);
 
 
-   CARAPI SetServicePurchaseRequest.PurchaseOrderSupplierIdSequence(
+   CARAPI SetServicePurchaseRequest_PurchaseOrderSupplierIdSequence(
      /* [in] */ ArrayOf<const String&> CAdministration.servicePurchaseRequest.purchaseOrderSupplierIdSequence);
 
-    CARAPI GetServicePurchaseRequest.PurchaseOrderSupplierIdSequence(
+    CARAPI GetServicePurchaseRequest_PurchaseOrderSupplierIdSequence(
      /* [out, callee] */ ArrayOf<String>* CAdministration.servicePurchaseRequest.purchaseOrderSupplierIdSequence);
 
 
-   CARAPI SetServicePurchaseRequest.ExpectedCompletionDate(
+   CARAPI SetServicePurchaseRequest_ExpectedCompletionDate(
      /* [in] */ const String& CAdministration.servicePurchaseRequest.expectedCompletionDate);
 
-    CARAPI GetServicePurchaseRequest.ExpectedCompletionDate(
+    CARAPI GetServicePurchaseRequest_ExpectedCompletionDate(
      /* [out] */ String* CAdministration.servicePurchaseRequest.expectedCompletionDate);
 
 
-   CARAPI SetServicePurchaseRequest.WorkCheckedPassed(
+   CARAPI SetServicePurchaseRequest_WorkCheckedPassed(
      /* [in] */ ArrayOf<Boolean> CAdministration.servicePurchaseRequest.workCheckedPassed);
 
-    CARAPI GetServicePurchaseRequest.WorkCheckedPassed(
+    CARAPI GetServicePurchaseRequest_WorkCheckedPassed(
      /* [out, callee] */ ArrayOf<Boolean>* CAdministration.servicePurchaseRequest.workCheckedPassed);
 
 
-   CARAPI SetServicePurchaseRequest.TotalMaintPurchOrderAmount(
+   CARAPI SetServicePurchaseRequest_TotalMaintPurchOrderAmount(
      /* [in] */ Double CAdministration.servicePurchaseRequest.totalMaintPurchOrderAmount);
 
-    CARAPI GetServicePurchaseRequest.TotalMaintPurchOrderAmount(
+    CARAPI GetServicePurchaseRequest_TotalMaintPurchOrderAmount(
      /* [out] */ Double* CAdministration.servicePurchaseRequest.totalMaintPurchOrderAmount);
 
 
-   CARAPI SetServicePurchaseRequest.MasLedgeFinTxNumsReturned(
+   CARAPI SetServicePurchaseRequest_MasLedgeFinTxNumsReturned(
      /* [in] */ ArrayOf<Int32> CAdministration.servicePurchaseRequest.masLedgeFinTxNumsReturned);
 
-    CARAPI GetServicePurchaseRequest.MasLedgeFinTxNumsReturned(
+    CARAPI GetServicePurchaseRequest_MasLedgeFinTxNumsReturned(
      /* [out, callee] */ ArrayOf<Int32>* CAdministration.servicePurchaseRequest.masLedgeFinTxNumsReturned);
 
 
-   CARAPI SetServicePurchaseRequest.BusinessChannelOwnerId(
+   CARAPI SetServicePurchaseRequest_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.servicePurchaseRequest.businessChannelOwnerId);
 
-    CARAPI GetServicePurchaseRequest.BusinessChannelOwnerId(
+    CARAPI GetServicePurchaseRequest_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.servicePurchaseRequest.businessChannelOwnerId);
 
 
-   CARAPI SetServicePurchaseRequest.PropertyId(
+   CARAPI SetServicePurchaseRequest_PropertyId(
      /* [in] */ CProperty.property CAdministration.servicePurchaseRequest.propertyId);
 
-    CARAPI GetServicePurchaseRequest.PropertyId(
+    CARAPI GetServicePurchaseRequest_PropertyId(
      /* [out] */ CProperty.property* CAdministration.servicePurchaseRequest.propertyId);
 
 
-   CARAPI SetServicePurchaseRequest.BranchId(
+   CARAPI SetServicePurchaseRequest_BranchId(
      /* [in] */ CAdministration.branch CAdministration.servicePurchaseRequest.branchId);
 
-    CARAPI GetServicePurchaseRequest.BranchId(
+    CARAPI GetServicePurchaseRequest_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.servicePurchaseRequest.branchId);
 
 
-   CARAPI SetServicePurchaseRequest.DeptId(
+   CARAPI SetServicePurchaseRequest_DeptId(
      /* [in] */ CAdministration.department CAdministration.servicePurchaseRequest.deptId);
 
-    CARAPI GetServicePurchaseRequest.DeptId(
+    CARAPI GetServicePurchaseRequest_DeptId(
      /* [out] */ CAdministration.department* CAdministration.servicePurchaseRequest.deptId);
 
 
-   CARAPI SetServicePurchaseRequest.SupplierIds(
+   CARAPI SetServicePurchaseRequest_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CAdministration.servicePurchaseRequest.supplierIds);
 
-    CARAPI GetServicePurchaseRequest.SupplierIds(
+    CARAPI GetServicePurchaseRequest_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CAdministration.servicePurchaseRequest.supplierIds);
 
 
-   CARAPI SetServicePurchaseRequest.ItemTypeIds(
+   CARAPI SetServicePurchaseRequest_ItemTypeIds(
      /* [in] */ ArrayOf<CAdministration.itemType> CAdministration.servicePurchaseRequest.itemTypeIds);
 
-    CARAPI GetServicePurchaseRequest.ItemTypeIds(
+    CARAPI GetServicePurchaseRequest_ItemTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.itemType>* CAdministration.servicePurchaseRequest.itemTypeIds);
 
 
-   CARAPI SetServicePurchaseRequest.JobTypeIds(
+   CARAPI SetServicePurchaseRequest_JobTypeIds(
      /* [in] */ ArrayOf<CAdministration.jobType> CAdministration.servicePurchaseRequest.jobTypeIds);
 
-    CARAPI GetServicePurchaseRequest.JobTypeIds(
+    CARAPI GetServicePurchaseRequest_JobTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.jobType>* CAdministration.servicePurchaseRequest.jobTypeIds);
 
 
-   CARAPI SetServicePurchaseRequest.ServiceTypeIds(
+   CARAPI SetServicePurchaseRequest_ServiceTypeIds(
      /* [in] */ ArrayOf<CAdministration.serviceType> CAdministration.servicePurchaseRequest.serviceTypeIds);
 
-    CARAPI GetServicePurchaseRequest.ServiceTypeIds(
+    CARAPI GetServicePurchaseRequest_ServiceTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.serviceType>* CAdministration.servicePurchaseRequest.serviceTypeIds);
 
 
-   CARAPI SetServicePurchaseRequest.EmployeesRequestingIds(
+   CARAPI SetServicePurchaseRequest_EmployeesRequestingIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.servicePurchaseRequest.employeesRequestingIds);
 
-    CARAPI GetServicePurchaseRequest.EmployeesRequestingIds(
+    CARAPI GetServicePurchaseRequest_EmployeesRequestingIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.servicePurchaseRequest.employeesRequestingIds);
 
 
-   CARAPI SetServicePurchaseRequest.DocRefIds(
+   CARAPI SetServicePurchaseRequest_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.servicePurchaseRequest.docRefIds);
 
-    CARAPI GetServicePurchaseRequest.DocRefIds(
+    CARAPI GetServicePurchaseRequest_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.servicePurchaseRequest.docRefIds);
 
 
-   CARAPI SetServicePurchaseRequest.ImageRefIds(
+   CARAPI SetServicePurchaseRequest_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CAdministration.servicePurchaseRequest.imageRefIds);
 
-    CARAPI GetServicePurchaseRequest.ImageRefIds(
+    CARAPI GetServicePurchaseRequest_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CAdministration.servicePurchaseRequest.imageRefIds);
 
 
-   CARAPI SetServicePurchaseRequest.AudioRefIds(
+   CARAPI SetServicePurchaseRequest_AudioRefIds(
      /* [in] */ ArrayOf<CAdministration.audio> CAdministration.servicePurchaseRequest.audioRefIds);
 
-    CARAPI GetServicePurchaseRequest.AudioRefIds(
+    CARAPI GetServicePurchaseRequest_AudioRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.audio>* CAdministration.servicePurchaseRequest.audioRefIds);
 
-   CARAPI SetTimesheet.TimesheetId(
+   CARAPI SetTimesheet_TimesheetId(
      /* [in] */ const String& CAdministration.timesheet.timesheetId);
 
-    CARAPI GetTimesheet.TimesheetId(
+    CARAPI GetTimesheet_TimesheetId(
      /* [out] */ String* CAdministration.timesheet.timesheetId);
 
 
-   CARAPI SetTimesheet.RosteredStarts(
+   CARAPI SetTimesheet_RosteredStarts(
      /* [in] */ ArrayOf<const String&> CAdministration.timesheet.rosteredStarts);
 
-    CARAPI GetTimesheet.RosteredStarts(
+    CARAPI GetTimesheet_RosteredStarts(
      /* [out, callee] */ ArrayOf<String>* CAdministration.timesheet.rosteredStarts);
 
 
-   CARAPI SetTimesheet.RosteredFinishes(
+   CARAPI SetTimesheet_RosteredFinishes(
      /* [in] */ ArrayOf<const String&> CAdministration.timesheet.rosteredFinishes);
 
-    CARAPI GetTimesheet.RosteredFinishes(
+    CARAPI GetTimesheet_RosteredFinishes(
      /* [out, callee] */ ArrayOf<String>* CAdministration.timesheet.rosteredFinishes);
 
 
-   CARAPI SetTimesheet.ActualStarts(
+   CARAPI SetTimesheet_ActualStarts(
      /* [in] */ ArrayOf<const String&> CAdministration.timesheet.actualStarts);
 
-    CARAPI GetTimesheet.ActualStarts(
+    CARAPI GetTimesheet_ActualStarts(
      /* [out, callee] */ ArrayOf<String>* CAdministration.timesheet.actualStarts);
 
 
-   CARAPI SetTimesheet.ActualFinishes(
+   CARAPI SetTimesheet_ActualFinishes(
      /* [in] */ ArrayOf<const String&> CAdministration.timesheet.actualFinishes);
 
-    CARAPI GetTimesheet.ActualFinishes(
+    CARAPI GetTimesheet_ActualFinishes(
      /* [out, callee] */ ArrayOf<String>* CAdministration.timesheet.actualFinishes);
 
 
-   CARAPI SetTimesheet.Submitted(
+   CARAPI SetTimesheet_Submitted(
      /* [in] */ const String& CAdministration.timesheet.submitted);
 
-    CARAPI GetTimesheet.Submitted(
+    CARAPI GetTimesheet_Submitted(
      /* [out] */ String* CAdministration.timesheet.submitted);
 
 
-   CARAPI SetTimesheet.Checked(
+   CARAPI SetTimesheet_Checked(
      /* [in] */ const String& CAdministration.timesheet.checked);
 
-    CARAPI GetTimesheet.Checked(
+    CARAPI GetTimesheet_Checked(
      /* [out] */ String* CAdministration.timesheet.checked);
 
 
-   CARAPI SetTimesheet.Passed(
+   CARAPI SetTimesheet_Passed(
      /* [in] */ Boolean CAdministration.timesheet.passed);
 
-    CARAPI GetTimesheet.Passed(
+    CARAPI GetTimesheet_Passed(
      /* [out] */ Boolean* CAdministration.timesheet.passed);
 
 
-   CARAPI SetTimesheet.BusinessChannelOwnerId(
+   CARAPI SetTimesheet_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.timesheet.businessChannelOwnerId);
 
-    CARAPI GetTimesheet.BusinessChannelOwnerId(
+    CARAPI GetTimesheet_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.timesheet.businessChannelOwnerId);
 
 
-   CARAPI SetTimesheet.EmployeeIds(
+   CARAPI SetTimesheet_EmployeeIds(
      /* [in] */ ArrayOf<CAdministration.staff> CAdministration.timesheet.employeeIds);
 
-    CARAPI GetTimesheet.EmployeeIds(
+    CARAPI GetTimesheet_EmployeeIds(
      /* [out, callee] */ ArrayOf<CAdministration.staff>* CAdministration.timesheet.employeeIds);
 
 
-   CARAPI SetTimesheet.DocRefIds(
+   CARAPI SetTimesheet_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.timesheet.docRefIds);
 
-    CARAPI GetTimesheet.DocRefIds(
+    CARAPI GetTimesheet_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.timesheet.docRefIds);
 
 
-   CARAPI SetTimesheet.BranchId(
+   CARAPI SetTimesheet_BranchId(
      /* [in] */ CAdministration.branch CAdministration.timesheet.branchId);
 
-    CARAPI GetTimesheet.BranchId(
+    CARAPI GetTimesheet_BranchId(
      /* [out] */ CAdministration.branch* CAdministration.timesheet.branchId);
 
 
-   CARAPI SetWaitQueue.WaitQueueId(
+   CARAPI SetWaitQueue_WaitQueueId(
      /* [in] */ const String& CAdministration.waitQueue.waitQueueId);
 
-    CARAPI GetWaitQueue.WaitQueueId(
+    CARAPI GetWaitQueue_WaitQueueId(
      /* [out] */ String* CAdministration.waitQueue.waitQueueId);
 
 
-   CARAPI SetWaitQueue.QueueName(
+   CARAPI SetWaitQueue_QueueName(
      /* [in] */ const String& CAdministration.waitQueue.queueName);
 
-    CARAPI GetWaitQueue.QueueName(
+    CARAPI GetWaitQueue_QueueName(
      /* [out] */ String* CAdministration.waitQueue.queueName);
 
 
-   CARAPI SetWaitQueue.QueueCode(
+   CARAPI SetWaitQueue_QueueCode(
      /* [in] */ const String& CAdministration.waitQueue.queueCode);
 
-    CARAPI GetWaitQueue.QueueCode(
+    CARAPI GetWaitQueue_QueueCode(
      /* [out] */ String* CAdministration.waitQueue.queueCode);
 
 
-   CARAPI SetWaitQueue.QueueDescription(
+   CARAPI SetWaitQueue_QueueDescription(
      /* [in] */ const String& CAdministration.waitQueue.queueDescription);
 
-    CARAPI GetWaitQueue.QueueDescription(
+    CARAPI GetWaitQueue_QueueDescription(
      /* [out] */ String* CAdministration.waitQueue.queueDescription);
 
 
-   CARAPI SetWaitQueue.Notes(
+   CARAPI SetWaitQueue_Notes(
      /* [in] */ const String& CAdministration.waitQueue.notes);
 
-    CARAPI GetWaitQueue.Notes(
+    CARAPI GetWaitQueue_Notes(
      /* [out] */ String* CAdministration.waitQueue.notes);
 
 
-   CARAPI SetWaitQueue.AusState(
+   CARAPI SetWaitQueue_AusState(
      /* [in] */ CHelper.ausState CAdministration.waitQueue.ausState);
 
-    CARAPI GetWaitQueue.AusState(
+    CARAPI GetWaitQueue_AusState(
      /* [out] */ CHelper.ausState* CAdministration.waitQueue.ausState);
 
 
-   CARAPI SetWaitQueue.BusinessChannelOwnerId(
+   CARAPI SetWaitQueue_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CAdministration.waitQueue.businessChannelOwnerId);
 
-    CARAPI GetWaitQueue.BusinessChannelOwnerId(
+    CARAPI GetWaitQueue_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CAdministration.waitQueue.businessChannelOwnerId);
 
 
-   CARAPI SetWaitQueue.DocRefIds(
+   CARAPI SetWaitQueue_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CAdministration.waitQueue.docRefIds);
 
-    CARAPI GetWaitQueue.DocRefIds(
+    CARAPI GetWaitQueue_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CAdministration.waitQueue.docRefIds);
 
 
 
 protected:
     // Member variables
-const String& mSetService.ServiceId
-String* mGetService.ServiceId
-const String& mSetService.ServiceName
-String* mGetService.ServiceName
-const String& mSetService.Description
-String* mGetService.Description
+const String& mSetService_ServiceId
+String* mGetService_ServiceId
+const String& mSetService_ServiceName
+String* mGetService_ServiceName
+const String& mSetService_Description
+String* mGetService_Description
 Double mSetService.ServiceUnitsSupplied
-Double* mGetService.ServiceUnitsSupplied
-const String& mSetService.PricingUnits
-String* mGetService.PricingUnits
+Double* mGetService_ServiceUnitsSupplied
+const String& mSetService_PricingUnits
+String* mGetService_PricingUnits
 Double mSetService.PriceRatePerUnit
-Double* mGetService.PriceRatePerUnit
-ArrayOf<const String&> mSetService.ItemIdsSupplied
-ArrayOf<String>* mGetService.ItemIdsSupplied
-ArrayOf<Double> mSetService.ItemQuantities
-ArrayOf<Double>* mGetService.ItemQuantities
-ArrayOf<CAdministration.staff> mSetService.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetService.EmployeeIds
-ArrayOf<CSupplier.supplier> mSetService.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetService.SupplierIds
-CAdministration.serviceType mSetService.ServiceTypeId
-CAdministration.serviceType* mGetService.ServiceTypeId
-ArrayOf<CAdministration.documents> mSetService.DocRefs
-ArrayOf<CAdministration.documents>* mGetService.DocRefs
-ArrayOf<CAdministration.images> mSetService.ImageRefs
-ArrayOf<CAdministration.images>* mGetService.ImageRefs
-ArrayOf<CAdministration.audio> mSetService.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetService.AudioRefIds
-CCustomer.customer mSetService.CustomerId
-CCustomer.customer* mGetService.CustomerId
-CRegister.businessChannelOwner mSetService.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetService.BusinessChannelOwnerId
-const String& mSetServiceType.ServiceTypeId
-String* mGetServiceType.ServiceTypeId
-const String& mSetServiceType.ServiceName
-String* mGetServiceType.ServiceName
-const String& mSetServiceType.Description
-String* mGetServiceType.Description
-const String& mSetServiceType.PriceRateUnits
-String* mGetServiceType.PriceRateUnits
+Double* mGetService_PriceRatePerUnit
+ArrayOf<const String&> mSetService_ItemIdsSupplied
+ArrayOf<String>* mGetService_ItemIdsSupplied
+ArrayOf<Double> mSetService_ItemQuantities
+ArrayOf<Double>* mGetService_ItemQuantities
+ArrayOf<CAdministration.staff> mSetService_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetService_EmployeeIds
+ArrayOf<CSupplier.supplier> mSetService_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetService_SupplierIds
+CAdministration.serviceType mSetService_ServiceTypeId
+CAdministration.serviceType* mGetService_ServiceTypeId
+ArrayOf<CAdministration.documents> mSetService_DocRefs
+ArrayOf<CAdministration.documents>* mGetService_DocRefs
+ArrayOf<CAdministration.images> mSetService_ImageRefs
+ArrayOf<CAdministration.images>* mGetService_ImageRefs
+ArrayOf<CAdministration.audio> mSetService_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetService_AudioRefIds
+CCustomer.customer mSetService_CustomerId
+CCustomer.customer* mGetService_CustomerId
+CRegister.businessChannelOwner mSetService_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetService_BusinessChannelOwnerId
+const String& mSetServiceType_ServiceTypeId
+String* mGetServiceType_ServiceTypeId
+const String& mSetServiceType_ServiceName
+String* mGetServiceType_ServiceName
+const String& mSetServiceType_Description
+String* mGetServiceType_Description
+const String& mSetServiceType_PriceRateUnits
+String* mGetServiceType_PriceRateUnits
 Double mSetServiceType.PriceRate
-Double* mGetServiceType.PriceRate
-ArrayOf<CAdministration.role> mSetServiceType.ProviderRoleIdsWithinEnterprise
-ArrayOf<CAdministration.role>* mGetServiceType.ProviderRoleIdsWithinEnterprise
-ArrayOf<CAdministration.branch> mSetServiceType.BranchIds
-ArrayOf<CAdministration.branch>* mGetServiceType.BranchIds
-ArrayOf<CAdministration.department> mSetServiceType.DeptIds
-ArrayOf<CAdministration.department>* mGetServiceType.DeptIds
-ArrayOf<CSupplier.supplier> mSetServiceType.ExternalProvidersIds
-ArrayOf<CSupplier.supplier>* mGetServiceType.ExternalProvidersIds
-ArrayOf<CSupplier.supplierType> mSetServiceType.SupplierTypeIds
-ArrayOf<CSupplier.supplierType>* mGetServiceType.SupplierTypeIds
-ArrayOf<CAdministration.itemType> mSetServiceType.ItemTypeIds
-ArrayOf<CAdministration.itemType>* mGetServiceType.ItemTypeIds
-ArrayOf<CAdministration.jobType> mSetServiceType.JobTypeIds
-ArrayOf<CAdministration.jobType>* mGetServiceType.JobTypeIds
-ArrayOf<CAdministration.documents> mSetServiceType.DocRefs
-ArrayOf<CAdministration.documents>* mGetServiceType.DocRefs
-ArrayOf<CAdministration.images> mSetServiceType.ImageRefs
-ArrayOf<CAdministration.images>* mGetServiceType.ImageRefs
-ArrayOf<CAdministration.video> mSetServiceType.VideoRefs
-ArrayOf<CAdministration.video>* mGetServiceType.VideoRefs
-CRegister.businessChannelOwner mSetServiceType.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetServiceType.BusinessChannelOwnerId
-const String& mSetServiceRequest.SRQId
-String* mGetServiceRequest.SRQId
-ArrayOf<const String&> mSetServiceRequest.ServiceSequenceDescription
-ArrayOf<String>* mGetServiceRequest.ServiceSequenceDescription
-ArrayOf<const String&> mSetServiceRequest.RequestsAccepted
-ArrayOf<String>* mGetServiceRequest.RequestsAccepted
-ArrayOf<Double> mSetServiceRequest.ItemQuantities
-ArrayOf<Double>* mGetServiceRequest.ItemQuantities
-ArrayOf<const String&> mSetServiceRequest.ItemUnits
-ArrayOf<String>* mGetServiceRequest.ItemUnits
-ArrayOf<const String&> mSetServiceRequest.DueDates
-ArrayOf<String>* mGetServiceRequest.DueDates
-ArrayOf<CAdministration.staff> mSetServiceRequest.RequestByStaffIds
-ArrayOf<CAdministration.staff>* mGetServiceRequest.RequestByStaffIds
-ArrayOf<CAdministration.documents> mSetServiceRequest.DocRefIds
-ArrayOf<CAdministration.documents>* mGetServiceRequest.DocRefIds
-ArrayOf<CAdministration.images> mSetServiceRequest.ImageRefIds
-ArrayOf<CAdministration.images>* mGetServiceRequest.ImageRefIds
-ArrayOf<CAdministration.audio> mSetServiceRequest.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetServiceRequest.AudioRefIds
-ArrayOf<CAdministration.branch> mSetServiceRequest.BranchIdsInvolved
-ArrayOf<CAdministration.branch>* mGetServiceRequest.BranchIdsInvolved
-ArrayOf<CAdministration.department> mSetServiceRequest.DeptIdsInvolved
-ArrayOf<CAdministration.department>* mGetServiceRequest.DeptIdsInvolved
-ArrayOf<CAdministration.role> mSetServiceRequest.ResponsibleRoleIds
-ArrayOf<CAdministration.role>* mGetServiceRequest.ResponsibleRoleIds
-ArrayOf<CAdministration.staff> mSetServiceRequest.ResponsibleStaffIds
-ArrayOf<CAdministration.staff>* mGetServiceRequest.ResponsibleStaffIds
-ArrayOf<CAdministration.service> mSetServiceRequest.ServiceIds
-ArrayOf<CAdministration.service>* mGetServiceRequest.ServiceIds
-ArrayOf<CAdministration.serviceType> mSetServiceRequest.ServiceTypeIds
-ArrayOf<CAdministration.serviceType>* mGetServiceRequest.ServiceTypeIds
-ArrayOf<CAdministration.itemType> mSetServiceRequest.ItemTypeIdsRequired
-ArrayOf<CAdministration.itemType>* mGetServiceRequest.ItemTypeIdsRequired
-ArrayOf<CAdministration.jobType> mSetServiceRequest.JobTypeIdsRequired
-ArrayOf<CAdministration.jobType>* mGetServiceRequest.JobTypeIdsRequired
-ArrayOf<CProperty.property> mSetServiceRequest.PropertyIds
-ArrayOf<CProperty.property>* mGetServiceRequest.PropertyIds
-ArrayOf<CFinance.SetRegister> mSetServiceRequest.SetIds
-ArrayOf<CFinance.SetRegister>* mGetServiceRequest.SetIds
-ArrayOf<CCustomer.customer> mSetServiceRequest.CustomerIds
-ArrayOf<CCustomer.customer>* mGetServiceRequest.CustomerIds
-ArrayOf<CCustomer.customerType> mSetServiceRequest.CustomerTypesIds
-ArrayOf<CCustomer.customerType>* mGetServiceRequest.CustomerTypesIds
-CRegister.businessChannelOwner mSetServiceRequest.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetServiceRequest.BusinessChannelOwnerId
-const String& mSetCorrespondenceLog.CorroId
-String* mGetCorrespondenceLog.CorroId
-const String& mSetCorrespondenceLog.ParticipantName
-String* mGetCorrespondenceLog.ParticipantName
-const String& mSetCorrespondenceLog.ParticipantId
-String* mGetCorrespondenceLog.ParticipantId
-const String& mSetCorrespondenceLog.Description
-String* mGetCorrespondenceLog.Description
-const String& mSetCorrespondenceLog.CorroReceived
-String* mGetCorrespondenceLog.CorroReceived
-ArrayOf<const String&> mSetCorrespondenceLog.PropertyIds
-ArrayOf<String>* mGetCorrespondenceLog.PropertyIds
-ArrayOf<const String&> mSetCorrespondenceLog.ResponseDocRefs
-ArrayOf<String>* mGetCorrespondenceLog.ResponseDocRefs
-const String& mSetCorrespondenceLog.RepliedWhen
-String* mGetCorrespondenceLog.RepliedWhen
-ArrayOf<const String&> mSetCorrespondenceLog.ResponsibilitiesParticpantsIds
-ArrayOf<String>* mGetCorrespondenceLog.ResponsibilitiesParticpantsIds
-ArrayOf<const String&> mSetCorrespondenceLog.ResponsibilitiesParticpantsNames
-ArrayOf<String>* mGetCorrespondenceLog.ResponsibilitiesParticpantsNames
-ArrayOf<const String&> mSetCorrespondenceLog.RequiredActions
-ArrayOf<String>* mGetCorrespondenceLog.RequiredActions
-CRegister.businessChannelOwner mSetCorrespondenceLog.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetCorrespondenceLog.BusinessChannelOwnerId
-CAdministration.branch mSetCorrespondenceLog.BranchId
-CAdministration.branch* mGetCorrespondenceLog.BranchId
-CAdministration.department mSetCorrespondenceLog.DeptId
-CAdministration.department* mGetCorrespondenceLog.DeptId
-ArrayOf<CSupplier.supplier> mSetCorrespondenceLog.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetCorrespondenceLog.SupplierIds
-ArrayOf<CCustomer.customer> mSetCorrespondenceLog.CustomerIds
-ArrayOf<CCustomer.customer>* mGetCorrespondenceLog.CustomerIds
-ArrayOf<CStakeholder.partner> mSetCorrespondenceLog.PartnerIds
-ArrayOf<CStakeholder.partner>* mGetCorrespondenceLog.PartnerIds
-ArrayOf<CStakeholder.media> mSetCorrespondenceLog.MediaIds
-ArrayOf<CStakeholder.media>* mGetCorrespondenceLog.MediaIds
-ArrayOf<CStakeholder.community> mSetCorrespondenceLog.CommunityIds
-ArrayOf<CStakeholder.community>* mGetCorrespondenceLog.CommunityIds
-ArrayOf<CFinance.bank> mSetCorrespondenceLog.BankIds
-ArrayOf<CFinance.bank>* mGetCorrespondenceLog.BankIds
-ArrayOf<CProperty.propertyOwner> mSetCorrespondenceLog.PropertyOwnerIds
-ArrayOf<CProperty.propertyOwner>* mGetCorrespondenceLog.PropertyOwnerIds
-ArrayOf<CCustomer.applicant> mSetCorrespondenceLog.ApplicantIds
-ArrayOf<CCustomer.applicant>* mGetCorrespondenceLog.ApplicantIds
-ArrayOf<CProperty.tenant> mSetCorrespondenceLog.TenancyIds
-ArrayOf<CProperty.tenant>* mGetCorrespondenceLog.TenancyIds
-ArrayOf<CAdministration.staff> mSetCorrespondenceLog.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetCorrespondenceLog.EmployeeIds
-ArrayOf<CSupplier.superannuationFund> mSetCorrespondenceLog.SuperFundIds
-ArrayOf<CSupplier.superannuationFund>* mGetCorrespondenceLog.SuperFundIds
-ArrayOf<CSolicitor.solicitor> mSetCorrespondenceLog.SolicitorIds
-ArrayOf<CSolicitor.solicitor>* mGetCorrespondenceLog.SolicitorIds
-ArrayOf<CStakeholder.agent> mSetCorrespondenceLog.AgentIds
-ArrayOf<CStakeholder.agent>* mGetCorrespondenceLog.AgentIds
-ArrayOf<CStakeholder.nonGovStakeholder> mSetCorrespondenceLog.NonGovStakeholderIds
-ArrayOf<CStakeholder.nonGovStakeholder>* mGetCorrespondenceLog.NonGovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder> mSetCorrespondenceLog.GovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder>* mGetCorrespondenceLog.GovStakeholderIds
-CFinance.centrelink mSetCorrespondenceLog.CentrelinkId
-CFinance.centrelink* mGetCorrespondenceLog.CentrelinkId
-CStakeholder.stateLAHAuthority mSetCorrespondenceLog.StateLAHAuthorityId
-CStakeholder.stateLAHAuthority* mGetCorrespondenceLog.StateLAHAuthorityId
-CStakeholder.statePublicHousingAuthority mSetCorrespondenceLog.StatePublicHousingAuthorityId
-CStakeholder.statePublicHousingAuthority* mGetCorrespondenceLog.StatePublicHousingAuthorityId
-CRegulator.communityHousingRegulator mSetCorrespondenceLog.CommunityHousingRegulatorId
-CRegulator.communityHousingRegulator* mGetCorrespondenceLog.CommunityHousingRegulatorId
-CRegulator.aTO mSetCorrespondenceLog.ATOId
-CRegulator.aTO* mGetCorrespondenceLog.ATOId
-CRegulator.nationalRegulator mSetCorrespondenceLog.NatRegId
-CRegulator.nationalRegulator* mGetCorrespondenceLog.NatRegId
-CRegulator.nCAT mSetCorrespondenceLog.TribunalId
-CRegulator.nCAT* mGetCorrespondenceLog.TribunalId
-ArrayOf<CAdministration.documents> mSetCorrespondenceLog.DocRefs
-ArrayOf<CAdministration.documents>* mGetCorrespondenceLog.DocRefs
-ArrayOf<CAdministration.images> mSetCorrespondenceLog.ImageRefs
-ArrayOf<CAdministration.images>* mGetCorrespondenceLog.ImageRefs
-ArrayOf<CAdministration.audio> mSetCorrespondenceLog.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetCorrespondenceLog.AudioRefIds
-ArrayOf<CAdministration.video> mSetCorrespondenceLog.VideoRefs
-ArrayOf<CAdministration.video>* mGetCorrespondenceLog.VideoRefs
-const String& mSetAdvertisingTemplatesPlans.AdvertDesignId
-String* mGetAdvertisingTemplatesPlans.AdvertDesignId
-const String& mSetAdvertisingTemplatesPlans.AdvertDesignName
-String* mGetAdvertisingTemplatesPlans.AdvertDesignName
-CHelper.advertisingMedium mSetAdvertisingTemplatesPlans.AdvertisingMedium
-CHelper.advertisingMedium* mGetAdvertisingTemplatesPlans.AdvertisingMedium
-ArrayOf<const String&> mSetAdvertisingTemplatesPlans.AccountsReceivableIds
-ArrayOf<String>* mGetAdvertisingTemplatesPlans.AccountsReceivableIds
-ArrayOf<const String&> mSetAdvertisingTemplatesPlans.AccountsPayableIds
-ArrayOf<String>* mGetAdvertisingTemplatesPlans.AccountsPayableIds
+Double* mGetServiceType_PriceRate
+ArrayOf<CAdministration.role> mSetServiceType_ProviderRoleIdsWithinEnterprise
+ArrayOf<CAdministration.role>* mGetServiceType_ProviderRoleIdsWithinEnterprise
+ArrayOf<CAdministration.branch> mSetServiceType_BranchIds
+ArrayOf<CAdministration.branch>* mGetServiceType_BranchIds
+ArrayOf<CAdministration.department> mSetServiceType_DeptIds
+ArrayOf<CAdministration.department>* mGetServiceType_DeptIds
+ArrayOf<CSupplier.supplier> mSetServiceType_ExternalProvidersIds
+ArrayOf<CSupplier.supplier>* mGetServiceType_ExternalProvidersIds
+ArrayOf<CSupplier.supplierType> mSetServiceType_SupplierTypeIds
+ArrayOf<CSupplier.supplierType>* mGetServiceType_SupplierTypeIds
+ArrayOf<CAdministration.itemType> mSetServiceType_ItemTypeIds
+ArrayOf<CAdministration.itemType>* mGetServiceType_ItemTypeIds
+ArrayOf<CAdministration.jobType> mSetServiceType_JobTypeIds
+ArrayOf<CAdministration.jobType>* mGetServiceType_JobTypeIds
+ArrayOf<CAdministration.documents> mSetServiceType_DocRefs
+ArrayOf<CAdministration.documents>* mGetServiceType_DocRefs
+ArrayOf<CAdministration.images> mSetServiceType_ImageRefs
+ArrayOf<CAdministration.images>* mGetServiceType_ImageRefs
+ArrayOf<CAdministration.video> mSetServiceType_VideoRefs
+ArrayOf<CAdministration.video>* mGetServiceType_VideoRefs
+CRegister.businessChannelOwner mSetServiceType_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetServiceType_BusinessChannelOwnerId
+const String& mSetServiceRequest_SRQId
+String* mGetServiceRequest_SRQId
+ArrayOf<const String&> mSetServiceRequest_ServiceSequenceDescription
+ArrayOf<String>* mGetServiceRequest_ServiceSequenceDescription
+ArrayOf<const String&> mSetServiceRequest_RequestsAccepted
+ArrayOf<String>* mGetServiceRequest_RequestsAccepted
+ArrayOf<Double> mSetServiceRequest_ItemQuantities
+ArrayOf<Double>* mGetServiceRequest_ItemQuantities
+ArrayOf<const String&> mSetServiceRequest_ItemUnits
+ArrayOf<String>* mGetServiceRequest_ItemUnits
+ArrayOf<const String&> mSetServiceRequest_DueDates
+ArrayOf<String>* mGetServiceRequest_DueDates
+ArrayOf<CAdministration.staff> mSetServiceRequest_RequestByStaffIds
+ArrayOf<CAdministration.staff>* mGetServiceRequest_RequestByStaffIds
+ArrayOf<CAdministration.documents> mSetServiceRequest_DocRefIds
+ArrayOf<CAdministration.documents>* mGetServiceRequest_DocRefIds
+ArrayOf<CAdministration.images> mSetServiceRequest_ImageRefIds
+ArrayOf<CAdministration.images>* mGetServiceRequest_ImageRefIds
+ArrayOf<CAdministration.audio> mSetServiceRequest_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetServiceRequest_AudioRefIds
+ArrayOf<CAdministration.branch> mSetServiceRequest_BranchIdsInvolved
+ArrayOf<CAdministration.branch>* mGetServiceRequest_BranchIdsInvolved
+ArrayOf<CAdministration.department> mSetServiceRequest_DeptIdsInvolved
+ArrayOf<CAdministration.department>* mGetServiceRequest_DeptIdsInvolved
+ArrayOf<CAdministration.role> mSetServiceRequest_ResponsibleRoleIds
+ArrayOf<CAdministration.role>* mGetServiceRequest_ResponsibleRoleIds
+ArrayOf<CAdministration.staff> mSetServiceRequest_ResponsibleStaffIds
+ArrayOf<CAdministration.staff>* mGetServiceRequest_ResponsibleStaffIds
+ArrayOf<CAdministration.service> mSetServiceRequest_ServiceIds
+ArrayOf<CAdministration.service>* mGetServiceRequest_ServiceIds
+ArrayOf<CAdministration.serviceType> mSetServiceRequest_ServiceTypeIds
+ArrayOf<CAdministration.serviceType>* mGetServiceRequest_ServiceTypeIds
+ArrayOf<CAdministration.itemType> mSetServiceRequest_ItemTypeIdsRequired
+ArrayOf<CAdministration.itemType>* mGetServiceRequest_ItemTypeIdsRequired
+ArrayOf<CAdministration.jobType> mSetServiceRequest_JobTypeIdsRequired
+ArrayOf<CAdministration.jobType>* mGetServiceRequest_JobTypeIdsRequired
+ArrayOf<CProperty.property> mSetServiceRequest_PropertyIds
+ArrayOf<CProperty.property>* mGetServiceRequest_PropertyIds
+ArrayOf<CFinance.SetRegister> mSetServiceRequest_SetIds
+ArrayOf<CFinance.SetRegister>* mGetServiceRequest_SetIds
+ArrayOf<CCustomer.customer> mSetServiceRequest_CustomerIds
+ArrayOf<CCustomer.customer>* mGetServiceRequest_CustomerIds
+ArrayOf<CCustomer.customerType> mSetServiceRequest_CustomerTypesIds
+ArrayOf<CCustomer.customerType>* mGetServiceRequest_CustomerTypesIds
+CRegister.businessChannelOwner mSetServiceRequest_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetServiceRequest_BusinessChannelOwnerId
+const String& mSetCorrespondenceLog_CorroId
+String* mGetCorrespondenceLog_CorroId
+const String& mSetCorrespondenceLog_ParticipantName
+String* mGetCorrespondenceLog_ParticipantName
+const String& mSetCorrespondenceLog_ParticipantId
+String* mGetCorrespondenceLog_ParticipantId
+const String& mSetCorrespondenceLog_Description
+String* mGetCorrespondenceLog_Description
+const String& mSetCorrespondenceLog_CorroReceived
+String* mGetCorrespondenceLog_CorroReceived
+ArrayOf<const String&> mSetCorrespondenceLog_PropertyIds
+ArrayOf<String>* mGetCorrespondenceLog_PropertyIds
+ArrayOf<const String&> mSetCorrespondenceLog_ResponseDocRefs
+ArrayOf<String>* mGetCorrespondenceLog_ResponseDocRefs
+const String& mSetCorrespondenceLog_RepliedWhen
+String* mGetCorrespondenceLog_RepliedWhen
+ArrayOf<const String&> mSetCorrespondenceLog_ResponsibilitiesParticpantsIds
+ArrayOf<String>* mGetCorrespondenceLog_ResponsibilitiesParticpantsIds
+ArrayOf<const String&> mSetCorrespondenceLog_ResponsibilitiesParticpantsNames
+ArrayOf<String>* mGetCorrespondenceLog_ResponsibilitiesParticpantsNames
+ArrayOf<const String&> mSetCorrespondenceLog_RequiredActions
+ArrayOf<String>* mGetCorrespondenceLog_RequiredActions
+CRegister.businessChannelOwner mSetCorrespondenceLog_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetCorrespondenceLog_BusinessChannelOwnerId
+CAdministration.branch mSetCorrespondenceLog_BranchId
+CAdministration.branch* mGetCorrespondenceLog_BranchId
+CAdministration.department mSetCorrespondenceLog_DeptId
+CAdministration.department* mGetCorrespondenceLog_DeptId
+ArrayOf<CSupplier.supplier> mSetCorrespondenceLog_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetCorrespondenceLog_SupplierIds
+ArrayOf<CCustomer.customer> mSetCorrespondenceLog_CustomerIds
+ArrayOf<CCustomer.customer>* mGetCorrespondenceLog_CustomerIds
+ArrayOf<CStakeholder.partner> mSetCorrespondenceLog_PartnerIds
+ArrayOf<CStakeholder.partner>* mGetCorrespondenceLog_PartnerIds
+ArrayOf<CStakeholder.media> mSetCorrespondenceLog_MediaIds
+ArrayOf<CStakeholder.media>* mGetCorrespondenceLog_MediaIds
+ArrayOf<CStakeholder.community> mSetCorrespondenceLog_CommunityIds
+ArrayOf<CStakeholder.community>* mGetCorrespondenceLog_CommunityIds
+ArrayOf<CFinance.bank> mSetCorrespondenceLog_BankIds
+ArrayOf<CFinance.bank>* mGetCorrespondenceLog_BankIds
+ArrayOf<CProperty.propertyOwner> mSetCorrespondenceLog_PropertyOwnerIds
+ArrayOf<CProperty.propertyOwner>* mGetCorrespondenceLog_PropertyOwnerIds
+ArrayOf<CCustomer.applicant> mSetCorrespondenceLog_ApplicantIds
+ArrayOf<CCustomer.applicant>* mGetCorrespondenceLog_ApplicantIds
+ArrayOf<CProperty.tenant> mSetCorrespondenceLog_TenancyIds
+ArrayOf<CProperty.tenant>* mGetCorrespondenceLog_TenancyIds
+ArrayOf<CAdministration.staff> mSetCorrespondenceLog_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetCorrespondenceLog_EmployeeIds
+ArrayOf<CSupplier.superannuationFund> mSetCorrespondenceLog_SuperFundIds
+ArrayOf<CSupplier.superannuationFund>* mGetCorrespondenceLog_SuperFundIds
+ArrayOf<CSolicitor.solicitor> mSetCorrespondenceLog_SolicitorIds
+ArrayOf<CSolicitor.solicitor>* mGetCorrespondenceLog_SolicitorIds
+ArrayOf<CStakeholder.agent> mSetCorrespondenceLog_AgentIds
+ArrayOf<CStakeholder.agent>* mGetCorrespondenceLog_AgentIds
+ArrayOf<CStakeholder.nonGovStakeholder> mSetCorrespondenceLog_NonGovStakeholderIds
+ArrayOf<CStakeholder.nonGovStakeholder>* mGetCorrespondenceLog_NonGovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder> mSetCorrespondenceLog_GovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder>* mGetCorrespondenceLog_GovStakeholderIds
+CFinance.centrelink mSetCorrespondenceLog_CentrelinkId
+CFinance.centrelink* mGetCorrespondenceLog_CentrelinkId
+CStakeholder.stateLAHAuthority mSetCorrespondenceLog_StateLAHAuthorityId
+CStakeholder.stateLAHAuthority* mGetCorrespondenceLog_StateLAHAuthorityId
+CStakeholder.statePublicHousingAuthority mSetCorrespondenceLog_StatePublicHousingAuthorityId
+CStakeholder.statePublicHousingAuthority* mGetCorrespondenceLog_StatePublicHousingAuthorityId
+CRegulator.communityHousingRegulator mSetCorrespondenceLog_CommunityHousingRegulatorId
+CRegulator.communityHousingRegulator* mGetCorrespondenceLog_CommunityHousingRegulatorId
+CRegulator.aTO mSetCorrespondenceLog_ATOId
+CRegulator.aTO* mGetCorrespondenceLog_ATOId
+CRegulator.nationalRegulator mSetCorrespondenceLog_NatRegId
+CRegulator.nationalRegulator* mGetCorrespondenceLog_NatRegId
+CRegulator.nCAT mSetCorrespondenceLog_TribunalId
+CRegulator.nCAT* mGetCorrespondenceLog_TribunalId
+ArrayOf<CAdministration.documents> mSetCorrespondenceLog_DocRefs
+ArrayOf<CAdministration.documents>* mGetCorrespondenceLog_DocRefs
+ArrayOf<CAdministration.images> mSetCorrespondenceLog_ImageRefs
+ArrayOf<CAdministration.images>* mGetCorrespondenceLog_ImageRefs
+ArrayOf<CAdministration.audio> mSetCorrespondenceLog_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetCorrespondenceLog_AudioRefIds
+ArrayOf<CAdministration.video> mSetCorrespondenceLog_VideoRefs
+ArrayOf<CAdministration.video>* mGetCorrespondenceLog_VideoRefs
+const String& mSetAdvertisingTemplatesPlans_AdvertDesignId
+String* mGetAdvertisingTemplatesPlans_AdvertDesignId
+const String& mSetAdvertisingTemplatesPlans_AdvertDesignName
+String* mGetAdvertisingTemplatesPlans_AdvertDesignName
+CHelper.advertisingMedium mSetAdvertisingTemplatesPlans_AdvertisingMedium
+CHelper.advertisingMedium* mGetAdvertisingTemplatesPlans_AdvertisingMedium
+ArrayOf<const String&> mSetAdvertisingTemplatesPlans_AccountsReceivableIds
+ArrayOf<String>* mGetAdvertisingTemplatesPlans_AccountsReceivableIds
+ArrayOf<const String&> mSetAdvertisingTemplatesPlans_AccountsPayableIds
+ArrayOf<String>* mGetAdvertisingTemplatesPlans_AccountsPayableIds
 Double mSetAdvertisingTemplatesPlans.BudgetedAmount
-Double* mGetAdvertisingTemplatesPlans.BudgetedAmount
-ArrayOf<const String&> mSetAdvertisingTemplatesPlans.DocRefsAdvertisingTemplatesPlans
-ArrayOf<String>* mGetAdvertisingTemplatesPlans.DocRefsAdvertisingTemplatesPlans
-ArrayOf<const String&> mSetAdvertisingTemplatesPlans.RunDateTimes
-ArrayOf<String>* mGetAdvertisingTemplatesPlans.RunDateTimes
-CProperty.property mSetAdvertisingTemplatesPlans.PropertyId
-CProperty.property* mGetAdvertisingTemplatesPlans.PropertyId
-ArrayOf<CProperty.propertyOwner> mSetAdvertisingTemplatesPlans.PropertyOwners
-ArrayOf<CProperty.propertyOwner>* mGetAdvertisingTemplatesPlans.PropertyOwners
-CProperty.advertisingBudgetSchedule mSetAdvertisingTemplatesPlans.AdvertScheduleId
-CProperty.advertisingBudgetSchedule* mGetAdvertisingTemplatesPlans.AdvertScheduleId
-CRegister.businessChannelOwner mSetAdvertisingTemplatesPlans.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetAdvertisingTemplatesPlans.BusinessChannelOwnerId
-CAdministration.branch mSetAdvertisingTemplatesPlans.BranchId
-CAdministration.branch* mGetAdvertisingTemplatesPlans.BranchId
-CAdministration.department mSetAdvertisingTemplatesPlans.DeptId
-CAdministration.department* mGetAdvertisingTemplatesPlans.DeptId
-const String& mSetBranch.BranchId
-String* mGetBranch.BranchId
-const String& mSetBranch.BranchName
-String* mGetBranch.BranchName
-const String& mSetBranch.BranchAddressLine1
-String* mGetBranch.BranchAddressLine1
-const String& mSetBranch.BranchAddressLine2
-String* mGetBranch.BranchAddressLine2
-const String& mSetBranch.BranchSuburb
-String* mGetBranch.BranchSuburb
-const String& mSetBranch.BranchPostcode
-String* mGetBranch.BranchPostcode
-const String& mSetBranch.BranchPhone
-String* mGetBranch.BranchPhone
-ArrayOf<CAdministration.role> mSetBranch.RoleIds
-ArrayOf<CAdministration.role>* mGetBranch.RoleIds
-ArrayOf<CAdministration.department> mSetBranch.DeptIds
-ArrayOf<CAdministration.department>* mGetBranch.DeptIds
-ArrayOf<CAdministration.subdepartment> mSetBranch.SubDeptIds
-ArrayOf<CAdministration.subdepartment>* mGetBranch.SubDeptIds
-ArrayOf<CAdministration.subdepartmentLevel2> mSetBranch.SubDeptLevel2Ids
-ArrayOf<CAdministration.subdepartmentLevel2>* mGetBranch.SubDeptLevel2Ids
-ArrayOf<CAdministration.subdepartmentLevel3> mSetBranch.SubDeptLevel3Ids
-ArrayOf<CAdministration.subdepartmentLevel3>* mGetBranch.SubDeptLevel3Ids
-CRegister.businessChannelOwner mSetBranch.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetBranch.BusinessChannelOwnerId
-ArrayOf<CAdministration.documents> mSetBranch.DocRefs
-ArrayOf<CAdministration.documents>* mGetBranch.DocRefs
-ArrayOf<CAdministration.images> mSetBranch.ImageRefs
-ArrayOf<CAdministration.images>* mGetBranch.ImageRefs
-ArrayOf<CAdministration.audio> mSetBranch.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetBranch.AudioRefIds
-ArrayOf<CAdministration.video> mSetBranch.VideoRefs
-ArrayOf<CAdministration.video>* mGetBranch.VideoRefs
-const String& mSetDepartmentMap.DeptMapId
-String* mGetDepartmentMap.DeptMapId
-const String& mSetDepartmentMap.Description
-String* mGetDepartmentMap.Description
-CRegister.businessChannelOwner mSetDepartmentMap.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetDepartmentMap.BusinessChannelOwnerId
-CAdministration.department mSetDepartmentMap.DepartmentId
-CAdministration.department* mGetDepartmentMap.DepartmentId
-CAdministration.subdepartment mSetDepartmentMap.SubDeptId
-CAdministration.subdepartment* mGetDepartmentMap.SubDeptId
-CAdministration.subdepartmentLevel2 mSetDepartmentMap.SubDeptLevel2Id
-CAdministration.subdepartmentLevel2* mGetDepartmentMap.SubDeptLevel2Id
-CAdministration.subdepartmentLevel3 mSetDepartmentMap.SubDeptLevel3Id
-CAdministration.subdepartmentLevel3* mGetDepartmentMap.SubDeptLevel3Id
-ArrayOf<CAdministration.staff> mSetDepartmentMap.HeadsDeptsSubDeptsEmployeeIdsDescending
-ArrayOf<CAdministration.staff>* mGetDepartmentMap.HeadsDeptsSubDeptsEmployeeIdsDescending
-ArrayOf<CAdministration.role> mSetDepartmentMap.RoleIds
-ArrayOf<CAdministration.role>* mGetDepartmentMap.RoleIds
-ArrayOf<CAdministration.branch> mSetDepartmentMap.BranchIds
-ArrayOf<CAdministration.branch>* mGetDepartmentMap.BranchIds
-ArrayOf<CAdministration.documents> mSetDepartmentMap.DocRefs
-ArrayOf<CAdministration.documents>* mGetDepartmentMap.DocRefs
-ArrayOf<CAdministration.images> mSetDepartmentMap.ImageRefs
-ArrayOf<CAdministration.images>* mGetDepartmentMap.ImageRefs
-ArrayOf<CAdministration.audio> mSetDepartmentMap.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetDepartmentMap.AudioRefIds
-ArrayOf<CAdministration.video> mSetDepartmentMap.VideoRefs
-ArrayOf<CAdministration.video>* mGetDepartmentMap.VideoRefs
-const String& mSetDepartment.DeptId
-String* mGetDepartment.DeptId
-const String& mSetDepartment.DeptName
-String* mGetDepartment.DeptName
-ArrayOf<const String&> mSetDepartment.DeptAddressLine1
-ArrayOf<String>* mGetDepartment.DeptAddressLine1
-ArrayOf<const String&> mSetDepartment.DeptAddressLine2
-ArrayOf<String>* mGetDepartment.DeptAddressLine2
-ArrayOf<const String&> mSetDepartment.BranchSuburb
-ArrayOf<String>* mGetDepartment.BranchSuburb
-ArrayOf<const String&> mSetDepartment.BranchPostcode
-ArrayOf<String>* mGetDepartment.BranchPostcode
-ArrayOf<const String&> mSetDepartment.BranchPhone
-ArrayOf<String>* mGetDepartment.BranchPhone
-CAdministration.staff mSetDepartment.HeadDeptEmployeeId
-CAdministration.staff* mGetDepartment.HeadDeptEmployeeId
-ArrayOf<CAdministration.role> mSetDepartment.RoleIds
-ArrayOf<CAdministration.role>* mGetDepartment.RoleIds
-ArrayOf<CAdministration.branch> mSetDepartment.BranchIds
-ArrayOf<CAdministration.branch>* mGetDepartment.BranchIds
-CRegister.businessChannelOwner mSetDepartment.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetDepartment.BusinessChannelOwnerId
-ArrayOf<CAdministration.documents> mSetDepartment.DocRefs
-ArrayOf<CAdministration.documents>* mGetDepartment.DocRefs
-ArrayOf<CAdministration.images> mSetDepartment.ImageRefs
-ArrayOf<CAdministration.images>* mGetDepartment.ImageRefs
-ArrayOf<CAdministration.audio> mSetDepartment.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetDepartment.AudioRefIds
-ArrayOf<CAdministration.video> mSetDepartment.VideoRefs
-ArrayOf<CAdministration.video>* mGetDepartment.VideoRefs
-const String& mSetSubDepartment.SubDeptId
-String* mGetSubDepartment.SubDeptId
-const String& mSetSubDepartment.SubDeptName
-String* mGetSubDepartment.SubDeptName
-ArrayOf<const String&> mSetSubDepartment.SubDeptAddressLine1
-ArrayOf<String>* mGetSubDepartment.SubDeptAddressLine1
-ArrayOf<const String&> mSetSubDepartment.SubDeptAddressLine2
-ArrayOf<String>* mGetSubDepartment.SubDeptAddressLine2
-ArrayOf<const String&> mSetSubDepartment.BranchSuburb
-ArrayOf<String>* mGetSubDepartment.BranchSuburb
-ArrayOf<const String&> mSetSubDepartment.BranchPostcode
-ArrayOf<String>* mGetSubDepartment.BranchPostcode
-ArrayOf<const String&> mSetSubDepartment.BranchPhone
-ArrayOf<String>* mGetSubDepartment.BranchPhone
-CAdministration.staff mSetSubDepartment.HeadSubDeptEmployeeId
-CAdministration.staff* mGetSubDepartment.HeadSubDeptEmployeeId
-ArrayOf<CAdministration.role> mSetSubDepartment.RoleIds
-ArrayOf<CAdministration.role>* mGetSubDepartment.RoleIds
-ArrayOf<CAdministration.branch> mSetSubDepartment.BranchIds
-ArrayOf<CAdministration.branch>* mGetSubDepartment.BranchIds
-CAdministration.department mSetSubDepartment.SupDeptId
-CAdministration.department* mGetSubDepartment.SupDeptId
-CRegister.businessChannelOwner mSetSubDepartment.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetSubDepartment.BusinessChannelOwnerId
-ArrayOf<CAdministration.documents> mSetSubDepartment.DocRefs
-ArrayOf<CAdministration.documents>* mGetSubDepartment.DocRefs
-ArrayOf<CAdministration.images> mSetSubDepartment.ImageRefs
-ArrayOf<CAdministration.images>* mGetSubDepartment.ImageRefs
-ArrayOf<CAdministration.audio> mSetSubDepartment.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetSubDepartment.AudioRefIds
-ArrayOf<CAdministration.video> mSetSubDepartment.VideoRefs
-ArrayOf<CAdministration.video>* mGetSubDepartment.VideoRefs
-const String& mSetSubDepartmentLevel2.SubDeptLevel2Id
-String* mGetSubDepartmentLevel2.SubDeptLevel2Id
-const String& mSetSubDepartmentLevel2.SubDeptLevel2Name
-String* mGetSubDepartmentLevel2.SubDeptLevel2Name
-ArrayOf<const String&> mSetSubDepartmentLevel2.SubDeptLevel2AddressLine1
-ArrayOf<String>* mGetSubDepartmentLevel2.SubDeptLevel2AddressLine1
-ArrayOf<const String&> mSetSubDepartmentLevel2.SubDeptLevel2AddressLine2
-ArrayOf<String>* mGetSubDepartmentLevel2.SubDeptLevel2AddressLine2
-ArrayOf<const String&> mSetSubDepartmentLevel2.BranchSuburb
-ArrayOf<String>* mGetSubDepartmentLevel2.BranchSuburb
-ArrayOf<const String&> mSetSubDepartmentLevel2.BranchPostcode
-ArrayOf<String>* mGetSubDepartmentLevel2.BranchPostcode
-ArrayOf<const String&> mSetSubDepartmentLevel2.BranchPhone
-ArrayOf<String>* mGetSubDepartmentLevel2.BranchPhone
-CAdministration.staff mSetSubDepartmentLevel2.HeadLevel2SubDeptEmployeeId
-CAdministration.staff* mGetSubDepartmentLevel2.HeadLevel2SubDeptEmployeeId
-ArrayOf<CAdministration.role> mSetSubDepartmentLevel2.RoleIds
-ArrayOf<CAdministration.role>* mGetSubDepartmentLevel2.RoleIds
-ArrayOf<CAdministration.branch> mSetSubDepartmentLevel2.BranchIds
-ArrayOf<CAdministration.branch>* mGetSubDepartmentLevel2.BranchIds
-CAdministration.subdepartment mSetSubDepartmentLevel2.SupSubDeptId
-CAdministration.subdepartment* mGetSubDepartmentLevel2.SupSubDeptId
-CRegister.businessChannelOwner mSetSubDepartmentLevel2.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetSubDepartmentLevel2.BusinessChannelOwnerId
-ArrayOf<CAdministration.documents> mSetSubDepartmentLevel2.DocRefs
-ArrayOf<CAdministration.documents>* mGetSubDepartmentLevel2.DocRefs
-ArrayOf<CAdministration.images> mSetSubDepartmentLevel2.ImageRefs
-ArrayOf<CAdministration.images>* mGetSubDepartmentLevel2.ImageRefs
-ArrayOf<CAdministration.audio> mSetSubDepartmentLevel2.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetSubDepartmentLevel2.AudioRefIds
-ArrayOf<CAdministration.video> mSetSubDepartmentLevel2.VideoRefs
-ArrayOf<CAdministration.video>* mGetSubDepartmentLevel2.VideoRefs
-const String& mSetSubDepartmentLevel3.SubDeptLevel3Id
-String* mGetSubDepartmentLevel3.SubDeptLevel3Id
-const String& mSetSubDepartmentLevel3.SubDeptLevel3Name
-String* mGetSubDepartmentLevel3.SubDeptLevel3Name
-ArrayOf<const String&> mSetSubDepartmentLevel3.SubDeptLevel3AddressLine1
-ArrayOf<String>* mGetSubDepartmentLevel3.SubDeptLevel3AddressLine1
-ArrayOf<const String&> mSetSubDepartmentLevel3.SubDeptLevel3AddressLine2
-ArrayOf<String>* mGetSubDepartmentLevel3.SubDeptLevel3AddressLine2
-ArrayOf<const String&> mSetSubDepartmentLevel3.BranchSuburb
-ArrayOf<String>* mGetSubDepartmentLevel3.BranchSuburb
-ArrayOf<const String&> mSetSubDepartmentLevel3.BranchPostcode
-ArrayOf<String>* mGetSubDepartmentLevel3.BranchPostcode
-ArrayOf<const String&> mSetSubDepartmentLevel3.BranchPhone
-ArrayOf<String>* mGetSubDepartmentLevel3.BranchPhone
-CAdministration.staff mSetSubDepartmentLevel3.HeadLevel2SubDeptEmployeeId
-CAdministration.staff* mGetSubDepartmentLevel3.HeadLevel2SubDeptEmployeeId
-ArrayOf<CAdministration.role> mSetSubDepartmentLevel3.RoleIds
-ArrayOf<CAdministration.role>* mGetSubDepartmentLevel3.RoleIds
-ArrayOf<CAdministration.branch> mSetSubDepartmentLevel3.BranchIds
-ArrayOf<CAdministration.branch>* mGetSubDepartmentLevel3.BranchIds
-CAdministration.subdepartmentLevel2 mSetSubDepartmentLevel3.SupSubDeptLevel2Id
-CAdministration.subdepartmentLevel2* mGetSubDepartmentLevel3.SupSubDeptLevel2Id
-CRegister.businessChannelOwner mSetSubDepartmentLevel3.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetSubDepartmentLevel3.BusinessChannelOwnerId
-ArrayOf<CAdministration.documents> mSetSubDepartmentLevel3.DocRefs
-ArrayOf<CAdministration.documents>* mGetSubDepartmentLevel3.DocRefs
-ArrayOf<CAdministration.images> mSetSubDepartmentLevel3.ImageRefs
-ArrayOf<CAdministration.images>* mGetSubDepartmentLevel3.ImageRefs
-ArrayOf<CAdministration.audio> mSetSubDepartmentLevel3.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetSubDepartmentLevel3.AudioRefIds
-ArrayOf<CAdministration.video> mSetSubDepartmentLevel3.VideoRefs
-ArrayOf<CAdministration.video>* mGetSubDepartmentLevel3.VideoRefs
-const String& mSetDocuments.DocRefId
-String* mGetDocuments.DocRefId
-const String& mSetDocuments.DocHash
-String* mGetDocuments.DocHash
-const String& mSetDocuments.MasLedgeFinTxId
-String* mGetDocuments.MasLedgeFinTxId
-const String& mSetDocuments.GenLedgeFinTxId
-String* mGetDocuments.GenLedgeFinTxId
+Double* mGetAdvertisingTemplatesPlans_BudgetedAmount
+ArrayOf<const String&> mSetAdvertisingTemplatesPlans_DocRefsAdvertisingTemplatesPlans
+ArrayOf<String>* mGetAdvertisingTemplatesPlans_DocRefsAdvertisingTemplatesPlans
+ArrayOf<const String&> mSetAdvertisingTemplatesPlans_RunDateTimes
+ArrayOf<String>* mGetAdvertisingTemplatesPlans_RunDateTimes
+CProperty.property mSetAdvertisingTemplatesPlans_PropertyId
+CProperty.property* mGetAdvertisingTemplatesPlans_PropertyId
+ArrayOf<CProperty.propertyOwner> mSetAdvertisingTemplatesPlans_PropertyOwners
+ArrayOf<CProperty.propertyOwner>* mGetAdvertisingTemplatesPlans_PropertyOwners
+CProperty.advertisingBudgetSchedule mSetAdvertisingTemplatesPlans_AdvertScheduleId
+CProperty.advertisingBudgetSchedule* mGetAdvertisingTemplatesPlans_AdvertScheduleId
+CRegister.businessChannelOwner mSetAdvertisingTemplatesPlans_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetAdvertisingTemplatesPlans_BusinessChannelOwnerId
+CAdministration.branch mSetAdvertisingTemplatesPlans_BranchId
+CAdministration.branch* mGetAdvertisingTemplatesPlans_BranchId
+CAdministration.department mSetAdvertisingTemplatesPlans_DeptId
+CAdministration.department* mGetAdvertisingTemplatesPlans_DeptId
+const String& mSetBranch_BranchId
+String* mGetBranch_BranchId
+const String& mSetBranch_BranchName
+String* mGetBranch_BranchName
+const String& mSetBranch_BranchAddressLine1
+String* mGetBranch_BranchAddressLine1
+const String& mSetBranch_BranchAddressLine2
+String* mGetBranch_BranchAddressLine2
+const String& mSetBranch_BranchSuburb
+String* mGetBranch_BranchSuburb
+const String& mSetBranch_BranchPostcode
+String* mGetBranch_BranchPostcode
+const String& mSetBranch_BranchPhone
+String* mGetBranch_BranchPhone
+ArrayOf<CAdministration.role> mSetBranch_RoleIds
+ArrayOf<CAdministration.role>* mGetBranch_RoleIds
+ArrayOf<CAdministration.department> mSetBranch_DeptIds
+ArrayOf<CAdministration.department>* mGetBranch_DeptIds
+ArrayOf<CAdministration.subdepartment> mSetBranch_SubDeptIds
+ArrayOf<CAdministration.subdepartment>* mGetBranch_SubDeptIds
+ArrayOf<CAdministration.subdepartmentLevel2> mSetBranch_SubDeptLevel2Ids
+ArrayOf<CAdministration.subdepartmentLevel2>* mGetBranch_SubDeptLevel2Ids
+ArrayOf<CAdministration.subdepartmentLevel3> mSetBranch_SubDeptLevel3Ids
+ArrayOf<CAdministration.subdepartmentLevel3>* mGetBranch_SubDeptLevel3Ids
+CRegister.businessChannelOwner mSetBranch_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetBranch_BusinessChannelOwnerId
+ArrayOf<CAdministration.documents> mSetBranch_DocRefs
+ArrayOf<CAdministration.documents>* mGetBranch_DocRefs
+ArrayOf<CAdministration.images> mSetBranch_ImageRefs
+ArrayOf<CAdministration.images>* mGetBranch_ImageRefs
+ArrayOf<CAdministration.audio> mSetBranch_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetBranch_AudioRefIds
+ArrayOf<CAdministration.video> mSetBranch_VideoRefs
+ArrayOf<CAdministration.video>* mGetBranch_VideoRefs
+const String& mSetDepartmentMap_DeptMapId
+String* mGetDepartmentMap_DeptMapId
+const String& mSetDepartmentMap_Description
+String* mGetDepartmentMap_Description
+CRegister.businessChannelOwner mSetDepartmentMap_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetDepartmentMap_BusinessChannelOwnerId
+CAdministration.department mSetDepartmentMap_DepartmentId
+CAdministration.department* mGetDepartmentMap_DepartmentId
+CAdministration.subdepartment mSetDepartmentMap_SubDeptId
+CAdministration.subdepartment* mGetDepartmentMap_SubDeptId
+CAdministration.subdepartmentLevel2 mSetDepartmentMap_SubDeptLevel2Id
+CAdministration.subdepartmentLevel2* mGetDepartmentMap_SubDeptLevel2Id
+CAdministration.subdepartmentLevel3 mSetDepartmentMap_SubDeptLevel3Id
+CAdministration.subdepartmentLevel3* mGetDepartmentMap_SubDeptLevel3Id
+ArrayOf<CAdministration.staff> mSetDepartmentMap_HeadsDeptsSubDeptsEmployeeIdsDescending
+ArrayOf<CAdministration.staff>* mGetDepartmentMap_HeadsDeptsSubDeptsEmployeeIdsDescending
+ArrayOf<CAdministration.role> mSetDepartmentMap_RoleIds
+ArrayOf<CAdministration.role>* mGetDepartmentMap_RoleIds
+ArrayOf<CAdministration.branch> mSetDepartmentMap_BranchIds
+ArrayOf<CAdministration.branch>* mGetDepartmentMap_BranchIds
+ArrayOf<CAdministration.documents> mSetDepartmentMap_DocRefs
+ArrayOf<CAdministration.documents>* mGetDepartmentMap_DocRefs
+ArrayOf<CAdministration.images> mSetDepartmentMap_ImageRefs
+ArrayOf<CAdministration.images>* mGetDepartmentMap_ImageRefs
+ArrayOf<CAdministration.audio> mSetDepartmentMap_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetDepartmentMap_AudioRefIds
+ArrayOf<CAdministration.video> mSetDepartmentMap_VideoRefs
+ArrayOf<CAdministration.video>* mGetDepartmentMap_VideoRefs
+const String& mSetDepartment_DeptId
+String* mGetDepartment_DeptId
+const String& mSetDepartment_DeptName
+String* mGetDepartment_DeptName
+ArrayOf<const String&> mSetDepartment_DeptAddressLine1
+ArrayOf<String>* mGetDepartment_DeptAddressLine1
+ArrayOf<const String&> mSetDepartment_DeptAddressLine2
+ArrayOf<String>* mGetDepartment_DeptAddressLine2
+ArrayOf<const String&> mSetDepartment_BranchSuburb
+ArrayOf<String>* mGetDepartment_BranchSuburb
+ArrayOf<const String&> mSetDepartment_BranchPostcode
+ArrayOf<String>* mGetDepartment_BranchPostcode
+ArrayOf<const String&> mSetDepartment_BranchPhone
+ArrayOf<String>* mGetDepartment_BranchPhone
+CAdministration.staff mSetDepartment_HeadDeptEmployeeId
+CAdministration.staff* mGetDepartment_HeadDeptEmployeeId
+ArrayOf<CAdministration.role> mSetDepartment_RoleIds
+ArrayOf<CAdministration.role>* mGetDepartment_RoleIds
+ArrayOf<CAdministration.branch> mSetDepartment_BranchIds
+ArrayOf<CAdministration.branch>* mGetDepartment_BranchIds
+CRegister.businessChannelOwner mSetDepartment_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetDepartment_BusinessChannelOwnerId
+ArrayOf<CAdministration.documents> mSetDepartment_DocRefs
+ArrayOf<CAdministration.documents>* mGetDepartment_DocRefs
+ArrayOf<CAdministration.images> mSetDepartment_ImageRefs
+ArrayOf<CAdministration.images>* mGetDepartment_ImageRefs
+ArrayOf<CAdministration.audio> mSetDepartment_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetDepartment_AudioRefIds
+ArrayOf<CAdministration.video> mSetDepartment_VideoRefs
+ArrayOf<CAdministration.video>* mGetDepartment_VideoRefs
+const String& mSetSubDepartment_SubDeptId
+String* mGetSubDepartment_SubDeptId
+const String& mSetSubDepartment_SubDeptName
+String* mGetSubDepartment_SubDeptName
+ArrayOf<const String&> mSetSubDepartment_SubDeptAddressLine1
+ArrayOf<String>* mGetSubDepartment_SubDeptAddressLine1
+ArrayOf<const String&> mSetSubDepartment_SubDeptAddressLine2
+ArrayOf<String>* mGetSubDepartment_SubDeptAddressLine2
+ArrayOf<const String&> mSetSubDepartment_BranchSuburb
+ArrayOf<String>* mGetSubDepartment_BranchSuburb
+ArrayOf<const String&> mSetSubDepartment_BranchPostcode
+ArrayOf<String>* mGetSubDepartment_BranchPostcode
+ArrayOf<const String&> mSetSubDepartment_BranchPhone
+ArrayOf<String>* mGetSubDepartment_BranchPhone
+CAdministration.staff mSetSubDepartment_HeadSubDeptEmployeeId
+CAdministration.staff* mGetSubDepartment_HeadSubDeptEmployeeId
+ArrayOf<CAdministration.role> mSetSubDepartment_RoleIds
+ArrayOf<CAdministration.role>* mGetSubDepartment_RoleIds
+ArrayOf<CAdministration.branch> mSetSubDepartment_BranchIds
+ArrayOf<CAdministration.branch>* mGetSubDepartment_BranchIds
+CAdministration.department mSetSubDepartment_SupDeptId
+CAdministration.department* mGetSubDepartment_SupDeptId
+CRegister.businessChannelOwner mSetSubDepartment_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetSubDepartment_BusinessChannelOwnerId
+ArrayOf<CAdministration.documents> mSetSubDepartment_DocRefs
+ArrayOf<CAdministration.documents>* mGetSubDepartment_DocRefs
+ArrayOf<CAdministration.images> mSetSubDepartment_ImageRefs
+ArrayOf<CAdministration.images>* mGetSubDepartment_ImageRefs
+ArrayOf<CAdministration.audio> mSetSubDepartment_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetSubDepartment_AudioRefIds
+ArrayOf<CAdministration.video> mSetSubDepartment_VideoRefs
+ArrayOf<CAdministration.video>* mGetSubDepartment_VideoRefs
+const String& mSetSubDepartmentLevel2_SubDeptLevel2Id
+String* mGetSubDepartmentLevel2_SubDeptLevel2Id
+const String& mSetSubDepartmentLevel2_SubDeptLevel2Name
+String* mGetSubDepartmentLevel2_SubDeptLevel2Name
+ArrayOf<const String&> mSetSubDepartmentLevel2_SubDeptLevel2AddressLine1
+ArrayOf<String>* mGetSubDepartmentLevel2_SubDeptLevel2AddressLine1
+ArrayOf<const String&> mSetSubDepartmentLevel2_SubDeptLevel2AddressLine2
+ArrayOf<String>* mGetSubDepartmentLevel2_SubDeptLevel2AddressLine2
+ArrayOf<const String&> mSetSubDepartmentLevel2_BranchSuburb
+ArrayOf<String>* mGetSubDepartmentLevel2_BranchSuburb
+ArrayOf<const String&> mSetSubDepartmentLevel2_BranchPostcode
+ArrayOf<String>* mGetSubDepartmentLevel2_BranchPostcode
+ArrayOf<const String&> mSetSubDepartmentLevel2_BranchPhone
+ArrayOf<String>* mGetSubDepartmentLevel2_BranchPhone
+CAdministration.staff mSetSubDepartmentLevel2_HeadLevel2SubDeptEmployeeId
+CAdministration.staff* mGetSubDepartmentLevel2_HeadLevel2SubDeptEmployeeId
+ArrayOf<CAdministration.role> mSetSubDepartmentLevel2_RoleIds
+ArrayOf<CAdministration.role>* mGetSubDepartmentLevel2_RoleIds
+ArrayOf<CAdministration.branch> mSetSubDepartmentLevel2_BranchIds
+ArrayOf<CAdministration.branch>* mGetSubDepartmentLevel2_BranchIds
+CAdministration.subdepartment mSetSubDepartmentLevel2_SupSubDeptId
+CAdministration.subdepartment* mGetSubDepartmentLevel2_SupSubDeptId
+CRegister.businessChannelOwner mSetSubDepartmentLevel2_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetSubDepartmentLevel2_BusinessChannelOwnerId
+ArrayOf<CAdministration.documents> mSetSubDepartmentLevel2_DocRefs
+ArrayOf<CAdministration.documents>* mGetSubDepartmentLevel2_DocRefs
+ArrayOf<CAdministration.images> mSetSubDepartmentLevel2_ImageRefs
+ArrayOf<CAdministration.images>* mGetSubDepartmentLevel2_ImageRefs
+ArrayOf<CAdministration.audio> mSetSubDepartmentLevel2_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetSubDepartmentLevel2_AudioRefIds
+ArrayOf<CAdministration.video> mSetSubDepartmentLevel2_VideoRefs
+ArrayOf<CAdministration.video>* mGetSubDepartmentLevel2_VideoRefs
+const String& mSetSubDepartmentLevel3_SubDeptLevel3Id
+String* mGetSubDepartmentLevel3_SubDeptLevel3Id
+const String& mSetSubDepartmentLevel3_SubDeptLevel3Name
+String* mGetSubDepartmentLevel3_SubDeptLevel3Name
+ArrayOf<const String&> mSetSubDepartmentLevel3_SubDeptLevel3AddressLine1
+ArrayOf<String>* mGetSubDepartmentLevel3_SubDeptLevel3AddressLine1
+ArrayOf<const String&> mSetSubDepartmentLevel3_SubDeptLevel3AddressLine2
+ArrayOf<String>* mGetSubDepartmentLevel3_SubDeptLevel3AddressLine2
+ArrayOf<const String&> mSetSubDepartmentLevel3_BranchSuburb
+ArrayOf<String>* mGetSubDepartmentLevel3_BranchSuburb
+ArrayOf<const String&> mSetSubDepartmentLevel3_BranchPostcode
+ArrayOf<String>* mGetSubDepartmentLevel3_BranchPostcode
+ArrayOf<const String&> mSetSubDepartmentLevel3_BranchPhone
+ArrayOf<String>* mGetSubDepartmentLevel3_BranchPhone
+CAdministration.staff mSetSubDepartmentLevel3_HeadLevel2SubDeptEmployeeId
+CAdministration.staff* mGetSubDepartmentLevel3_HeadLevel2SubDeptEmployeeId
+ArrayOf<CAdministration.role> mSetSubDepartmentLevel3_RoleIds
+ArrayOf<CAdministration.role>* mGetSubDepartmentLevel3_RoleIds
+ArrayOf<CAdministration.branch> mSetSubDepartmentLevel3_BranchIds
+ArrayOf<CAdministration.branch>* mGetSubDepartmentLevel3_BranchIds
+CAdministration.subdepartmentLevel2 mSetSubDepartmentLevel3_SupSubDeptLevel2Id
+CAdministration.subdepartmentLevel2* mGetSubDepartmentLevel3_SupSubDeptLevel2Id
+CRegister.businessChannelOwner mSetSubDepartmentLevel3_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetSubDepartmentLevel3_BusinessChannelOwnerId
+ArrayOf<CAdministration.documents> mSetSubDepartmentLevel3_DocRefs
+ArrayOf<CAdministration.documents>* mGetSubDepartmentLevel3_DocRefs
+ArrayOf<CAdministration.images> mSetSubDepartmentLevel3_ImageRefs
+ArrayOf<CAdministration.images>* mGetSubDepartmentLevel3_ImageRefs
+ArrayOf<CAdministration.audio> mSetSubDepartmentLevel3_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetSubDepartmentLevel3_AudioRefIds
+ArrayOf<CAdministration.video> mSetSubDepartmentLevel3_VideoRefs
+ArrayOf<CAdministration.video>* mGetSubDepartmentLevel3_VideoRefs
+const String& mSetDocuments_DocRefId
+String* mGetDocuments_DocRefId
+const String& mSetDocuments_DocHash
+String* mGetDocuments_DocHash
+const String& mSetDocuments_MasLedgeFinTxId
+String* mGetDocuments_MasLedgeFinTxId
+const String& mSetDocuments_GenLedgeFinTxId
+String* mGetDocuments_GenLedgeFinTxId
 Int32 mSetDocuments.MasLedgeFinTxNum
 Int32* mGetDocuments.MasLedgeFinTxNum
 Int32 mSetDocuments.GenLedgeFinTxNum
 Int32* mGetDocuments.GenLedgeFinTxNum
-CRegister.businessChannelOwner mSetDocuments.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetDocuments.BusinessChannelOwnerId
-CAdministration.branch mSetDocuments.BranchId
-CAdministration.branch* mGetDocuments.BranchId
-CAdministration.department mSetDocuments.DeptId
-CAdministration.department* mGetDocuments.DeptId
-CProperty.property mSetDocuments.PropertyId
-CProperty.property* mGetDocuments.PropertyId
-ArrayOf<CProperty.propertyOwner> mSetDocuments.PropOwners
-ArrayOf<CProperty.propertyOwner>* mGetDocuments.PropOwners
-ArrayOf<CFinance.SetRegister> mSetDocuments.MasterLedgerSetIds
-ArrayOf<CFinance.SetRegister>* mGetDocuments.MasterLedgerSetIds
-ArrayOf<CAdministration.staff> mSetDocuments.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetDocuments.EmployeeIds
-ArrayOf<CProperty.tenant> mSetDocuments.TenancyIds
-ArrayOf<CProperty.tenant>* mGetDocuments.TenancyIds
-ArrayOf<CCustomer.customer> mSetDocuments.CustomerIds
-ArrayOf<CCustomer.customer>* mGetDocuments.CustomerIds
-ArrayOf<CSupplier.supplier> mSetDocuments.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetDocuments.SupplierIds
-ArrayOf<CSolicitor.solicitor> mSetDocuments.SolicitorIds
-ArrayOf<CSolicitor.solicitor>* mGetDocuments.SolicitorIds
-ArrayOf<CStakeholder.agent> mSetDocuments.AgentIds
-ArrayOf<CStakeholder.agent>* mGetDocuments.AgentIds
-ArrayOf<CStakeholder.nonGovStakeholder> mSetDocuments.NonGovStakeholderIds
-ArrayOf<CStakeholder.nonGovStakeholder>* mGetDocuments.NonGovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder> mSetDocuments.GovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder>* mGetDocuments.GovStakeholderIds
-CStakeholder.stateLAHAuthority mSetDocuments.StateLAHCId
-CStakeholder.stateLAHAuthority* mGetDocuments.StateLAHCId
-CStakeholder.statePublicHousingAuthority mSetDocuments.StatePublicHousingAuthorityId
-CStakeholder.statePublicHousingAuthority* mGetDocuments.StatePublicHousingAuthorityId
-CRegulator.nCAT mSetDocuments.NCATId
-CRegulator.nCAT* mGetDocuments.NCATId
-CRegulator.rentalBondAuthority mSetDocuments.RentalBondAuthorityId
-CRegulator.rentalBondAuthority* mGetDocuments.RentalBondAuthorityId
-CRegulator.communityHousingRegulator mSetDocuments.CommunityHousingRegulatorId
-CRegulator.communityHousingRegulator* mGetDocuments.CommunityHousingRegulatorId
-ArrayOf<CStakeholder.community> mSetDocuments.CommunityIds
-ArrayOf<CStakeholder.community>* mGetDocuments.CommunityIds
-ArrayOf<CStakeholder.media> mSetDocuments.MediaIds
-ArrayOf<CStakeholder.media>* mGetDocuments.MediaIds
-ArrayOf<CStakeholder.partner> mSetDocuments.PartnerIds
-ArrayOf<CStakeholder.partner>* mGetDocuments.PartnerIds
-CRegulator.nationalRegulator mSetDocuments.NatRegId
-CRegulator.nationalRegulator* mGetDocuments.NatRegId
-CRegulator.stateBasedRegulator mSetDocuments.StateBasedRegId
-CRegulator.stateBasedRegulator* mGetDocuments.StateBasedRegId
-CProperty.propertyInspectionResidential mSetDocuments.PropertyInspectionResId
-CProperty.propertyInspectionResidential* mGetDocuments.PropertyInspectionResId
-CProperty.propertyInspectionCommercial mSetDocuments.PropertyInspectionCommercId
-CProperty.propertyInspectionCommercial* mGetDocuments.PropertyInspectionCommercId
-ArrayOf<CAdministration.service> mSetDocuments.ServiceIds
-ArrayOf<CAdministration.service>* mGetDocuments.ServiceIds
-ArrayOf<CAdministration.item> mSetDocuments.ItemIds
-ArrayOf<CAdministration.item>* mGetDocuments.ItemIds
-ArrayOf<CAdministration.job> mSetDocuments.JobIds
-ArrayOf<CAdministration.job>* mGetDocuments.JobIds
-ArrayOf<CAdministration.documents> mSetDocuments.DocRefIds
-ArrayOf<CAdministration.documents>* mGetDocuments.DocRefIds
-ArrayOf<CAdministration.images> mSetDocuments.ImageRefIds
-ArrayOf<CAdministration.images>* mGetDocuments.ImageRefIds
-ArrayOf<CAdministration.audio> mSetDocuments.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetDocuments.AudioRefIds
-ArrayOf<CAdministration.video> mSetDocuments.VideoRefIds
-ArrayOf<CAdministration.video>* mGetDocuments.VideoRefIds
-const String& mSetImages.ImageRefId
-String* mGetImages.ImageRefId
-const String& mSetImages.ImageHash
-String* mGetImages.ImageHash
-CRegister.businessChannelOwner mSetImages.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetImages.BusinessChannelOwnerId
-CAdministration.branch mSetImages.BranchId
-CAdministration.branch* mGetImages.BranchId
-CAdministration.department mSetImages.DeptId
-CAdministration.department* mGetImages.DeptId
-CProperty.property mSetImages.PropertyId
-CProperty.property* mGetImages.PropertyId
-ArrayOf<CProperty.propertyOwner> mSetImages.PropOwners
-ArrayOf<CProperty.propertyOwner>* mGetImages.PropOwners
-ArrayOf<CFinance.SetRegister> mSetImages.MasterLedgerSetIds
-ArrayOf<CFinance.SetRegister>* mGetImages.MasterLedgerSetIds
-ArrayOf<CAdministration.staff> mSetImages.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetImages.EmployeeIds
-ArrayOf<CProperty.tenant> mSetImages.TenancyIds
-ArrayOf<CProperty.tenant>* mGetImages.TenancyIds
-ArrayOf<CCustomer.customer> mSetImages.CustomerIds
-ArrayOf<CCustomer.customer>* mGetImages.CustomerIds
-ArrayOf<CSupplier.supplier> mSetImages.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetImages.SupplierIds
-ArrayOf<CSolicitor.solicitor> mSetImages.SolicitorIds
-ArrayOf<CSolicitor.solicitor>* mGetImages.SolicitorIds
-ArrayOf<CStakeholder.agent> mSetImages.AgentIds
-ArrayOf<CStakeholder.agent>* mGetImages.AgentIds
-ArrayOf<CStakeholder.nonGovStakeholder> mSetImages.NonGovStakeholderIds
-ArrayOf<CStakeholder.nonGovStakeholder>* mGetImages.NonGovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder> mSetImages.GovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder>* mGetImages.GovStakeholderIds
-CStakeholder.stateLAHAuthority mSetImages.StateLAHCId
-CStakeholder.stateLAHAuthority* mGetImages.StateLAHCId
-CStakeholder.statePublicHousingAuthority mSetImages.StatePublicHousingAuthorityId
-CStakeholder.statePublicHousingAuthority* mGetImages.StatePublicHousingAuthorityId
-CRegulator.nCAT mSetImages.NCATId
-CRegulator.nCAT* mGetImages.NCATId
-CRegulator.rentalBondAuthority mSetImages.RentalBondAuthorityId
-CRegulator.rentalBondAuthority* mGetImages.RentalBondAuthorityId
-CRegulator.communityHousingRegulator mSetImages.CommunityHousingRegulatorId
-CRegulator.communityHousingRegulator* mGetImages.CommunityHousingRegulatorId
-CStakeholder.community mSetImages.CommunityId
-CStakeholder.community* mGetImages.CommunityId
-CStakeholder.media mSetImages.MediaId
-CStakeholder.media* mGetImages.MediaId
-CStakeholder.partner mSetImages.PartnerId
-CStakeholder.partner* mGetImages.PartnerId
-CRegulator.nationalRegulator mSetImages.NatRegId
-CRegulator.nationalRegulator* mGetImages.NatRegId
-CRegulator.stateBasedRegulator mSetImages.StateBasedRegId
-CRegulator.stateBasedRegulator* mGetImages.StateBasedRegId
-CProperty.propertyInspectionResidential mSetImages.PropertyInspectionResId
-CProperty.propertyInspectionResidential* mGetImages.PropertyInspectionResId
-CProperty.propertyInspectionCommercial mSetImages.PropertyInspectionCommercId
-CProperty.propertyInspectionCommercial* mGetImages.PropertyInspectionCommercId
-ArrayOf<CAdministration.service> mSetImages.ServiceIds
-ArrayOf<CAdministration.service>* mGetImages.ServiceIds
-ArrayOf<CAdministration.item> mSetImages.ItemIds
-ArrayOf<CAdministration.item>* mGetImages.ItemIds
-ArrayOf<CAdministration.job> mSetImages.JobIds
-ArrayOf<CAdministration.job>* mGetImages.JobIds
-ArrayOf<CAdministration.documents> mSetImages.DocRefIds
-ArrayOf<CAdministration.documents>* mGetImages.DocRefIds
-ArrayOf<CAdministration.images> mSetImages.ImageRefIds
-ArrayOf<CAdministration.images>* mGetImages.ImageRefIds
-ArrayOf<CAdministration.audio> mSetImages.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetImages.AudioRefIds
-ArrayOf<CAdministration.video> mSetImages.VideoRefIds
-ArrayOf<CAdministration.video>* mGetImages.VideoRefIds
-const String& mSetAudio.AudioRefId
-String* mGetAudio.AudioRefId
-const String& mSetAudio.AudioHash
-String* mGetAudio.AudioHash
-CRegister.businessChannelOwner mSetAudio.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetAudio.BusinessChannelOwnerId
-CAdministration.branch mSetAudio.BranchId
-CAdministration.branch* mGetAudio.BranchId
-CAdministration.mapOfdepartments mSetAudio.DeptMapId
-CAdministration.mapOfdepartments* mGetAudio.DeptMapId
-ArrayOf<CFinance.SetRegister> mSetAudio.GenSetIds
-ArrayOf<CFinance.SetRegister>* mGetAudio.GenSetIds
-ArrayOf<CAdministration.staff> mSetAudio.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetAudio.EmployeeIds
-ArrayOf<CCustomer.customer> mSetAudio.CustomerIds
-ArrayOf<CCustomer.customer>* mGetAudio.CustomerIds
-ArrayOf<CSupplier.supplier> mSetAudio.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetAudio.SupplierIds
-ArrayOf<CSolicitor.solicitor> mSetAudio.SolicitorIds
-ArrayOf<CSolicitor.solicitor>* mGetAudio.SolicitorIds
-ArrayOf<CStakeholder.agent> mSetAudio.AgentIds
-ArrayOf<CStakeholder.agent>* mGetAudio.AgentIds
-ArrayOf<CStakeholder.nonGovStakeholder> mSetAudio.NonGovStakeholderIds
-ArrayOf<CStakeholder.nonGovStakeholder>* mGetAudio.NonGovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder> mSetAudio.GovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder>* mGetAudio.GovStakeholderIds
-CRegulator.nCAT mSetAudio.NCATId
-CRegulator.nCAT* mGetAudio.NCATId
-CStakeholder.community mSetAudio.CommunityId
-CStakeholder.community* mGetAudio.CommunityId
-CStakeholder.media mSetAudio.MediaId
-CStakeholder.media* mGetAudio.MediaId
-CStakeholder.partner mSetAudio.PartnerId
-CStakeholder.partner* mGetAudio.PartnerId
-CRegulator.nationalRegulator mSetAudio.NatRegId
-CRegulator.nationalRegulator* mGetAudio.NatRegId
-CRegulator.stateBasedRegulator mSetAudio.StateBasedRegId
-CRegulator.stateBasedRegulator* mGetAudio.StateBasedRegId
+CRegister.businessChannelOwner mSetDocuments_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetDocuments_BusinessChannelOwnerId
+CAdministration.branch mSetDocuments_BranchId
+CAdministration.branch* mGetDocuments_BranchId
+CAdministration.department mSetDocuments_DeptId
+CAdministration.department* mGetDocuments_DeptId
+CProperty.property mSetDocuments_PropertyId
+CProperty.property* mGetDocuments_PropertyId
+ArrayOf<CProperty.propertyOwner> mSetDocuments_PropOwners
+ArrayOf<CProperty.propertyOwner>* mGetDocuments_PropOwners
+ArrayOf<CFinance.SetRegister> mSetDocuments_MasterLedgerSetIds
+ArrayOf<CFinance.SetRegister>* mGetDocuments_MasterLedgerSetIds
+ArrayOf<CAdministration.staff> mSetDocuments_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetDocuments_EmployeeIds
+ArrayOf<CProperty.tenant> mSetDocuments_TenancyIds
+ArrayOf<CProperty.tenant>* mGetDocuments_TenancyIds
+ArrayOf<CCustomer.customer> mSetDocuments_CustomerIds
+ArrayOf<CCustomer.customer>* mGetDocuments_CustomerIds
+ArrayOf<CSupplier.supplier> mSetDocuments_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetDocuments_SupplierIds
+ArrayOf<CSolicitor.solicitor> mSetDocuments_SolicitorIds
+ArrayOf<CSolicitor.solicitor>* mGetDocuments_SolicitorIds
+ArrayOf<CStakeholder.agent> mSetDocuments_AgentIds
+ArrayOf<CStakeholder.agent>* mGetDocuments_AgentIds
+ArrayOf<CStakeholder.nonGovStakeholder> mSetDocuments_NonGovStakeholderIds
+ArrayOf<CStakeholder.nonGovStakeholder>* mGetDocuments_NonGovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder> mSetDocuments_GovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder>* mGetDocuments_GovStakeholderIds
+CStakeholder.stateLAHAuthority mSetDocuments_StateLAHCId
+CStakeholder.stateLAHAuthority* mGetDocuments_StateLAHCId
+CStakeholder.statePublicHousingAuthority mSetDocuments_StatePublicHousingAuthorityId
+CStakeholder.statePublicHousingAuthority* mGetDocuments_StatePublicHousingAuthorityId
+CRegulator.nCAT mSetDocuments_NCATId
+CRegulator.nCAT* mGetDocuments_NCATId
+CRegulator.rentalBondAuthority mSetDocuments_RentalBondAuthorityId
+CRegulator.rentalBondAuthority* mGetDocuments_RentalBondAuthorityId
+CRegulator.communityHousingRegulator mSetDocuments_CommunityHousingRegulatorId
+CRegulator.communityHousingRegulator* mGetDocuments_CommunityHousingRegulatorId
+ArrayOf<CStakeholder.community> mSetDocuments_CommunityIds
+ArrayOf<CStakeholder.community>* mGetDocuments_CommunityIds
+ArrayOf<CStakeholder.media> mSetDocuments_MediaIds
+ArrayOf<CStakeholder.media>* mGetDocuments_MediaIds
+ArrayOf<CStakeholder.partner> mSetDocuments_PartnerIds
+ArrayOf<CStakeholder.partner>* mGetDocuments_PartnerIds
+CRegulator.nationalRegulator mSetDocuments_NatRegId
+CRegulator.nationalRegulator* mGetDocuments_NatRegId
+CRegulator.stateBasedRegulator mSetDocuments_StateBasedRegId
+CRegulator.stateBasedRegulator* mGetDocuments_StateBasedRegId
+CProperty.propertyInspectionResidential mSetDocuments_PropertyInspectionResId
+CProperty.propertyInspectionResidential* mGetDocuments_PropertyInspectionResId
+CProperty.propertyInspectionCommercial mSetDocuments_PropertyInspectionCommercId
+CProperty.propertyInspectionCommercial* mGetDocuments_PropertyInspectionCommercId
+ArrayOf<CAdministration.service> mSetDocuments_ServiceIds
+ArrayOf<CAdministration.service>* mGetDocuments_ServiceIds
+ArrayOf<CAdministration.item> mSetDocuments_ItemIds
+ArrayOf<CAdministration.item>* mGetDocuments_ItemIds
+ArrayOf<CAdministration.job> mSetDocuments_JobIds
+ArrayOf<CAdministration.job>* mGetDocuments_JobIds
+ArrayOf<CAdministration.documents> mSetDocuments_DocRefIds
+ArrayOf<CAdministration.documents>* mGetDocuments_DocRefIds
+ArrayOf<CAdministration.images> mSetDocuments_ImageRefIds
+ArrayOf<CAdministration.images>* mGetDocuments_ImageRefIds
+ArrayOf<CAdministration.audio> mSetDocuments_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetDocuments_AudioRefIds
+ArrayOf<CAdministration.video> mSetDocuments_VideoRefIds
+ArrayOf<CAdministration.video>* mGetDocuments_VideoRefIds
+const String& mSetImages_ImageRefId
+String* mGetImages_ImageRefId
+const String& mSetImages_ImageHash
+String* mGetImages_ImageHash
+CRegister.businessChannelOwner mSetImages_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetImages_BusinessChannelOwnerId
+CAdministration.branch mSetImages_BranchId
+CAdministration.branch* mGetImages_BranchId
+CAdministration.department mSetImages_DeptId
+CAdministration.department* mGetImages_DeptId
+CProperty.property mSetImages_PropertyId
+CProperty.property* mGetImages_PropertyId
+ArrayOf<CProperty.propertyOwner> mSetImages_PropOwners
+ArrayOf<CProperty.propertyOwner>* mGetImages_PropOwners
+ArrayOf<CFinance.SetRegister> mSetImages_MasterLedgerSetIds
+ArrayOf<CFinance.SetRegister>* mGetImages_MasterLedgerSetIds
+ArrayOf<CAdministration.staff> mSetImages_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetImages_EmployeeIds
+ArrayOf<CProperty.tenant> mSetImages_TenancyIds
+ArrayOf<CProperty.tenant>* mGetImages_TenancyIds
+ArrayOf<CCustomer.customer> mSetImages_CustomerIds
+ArrayOf<CCustomer.customer>* mGetImages_CustomerIds
+ArrayOf<CSupplier.supplier> mSetImages_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetImages_SupplierIds
+ArrayOf<CSolicitor.solicitor> mSetImages_SolicitorIds
+ArrayOf<CSolicitor.solicitor>* mGetImages_SolicitorIds
+ArrayOf<CStakeholder.agent> mSetImages_AgentIds
+ArrayOf<CStakeholder.agent>* mGetImages_AgentIds
+ArrayOf<CStakeholder.nonGovStakeholder> mSetImages_NonGovStakeholderIds
+ArrayOf<CStakeholder.nonGovStakeholder>* mGetImages_NonGovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder> mSetImages_GovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder>* mGetImages_GovStakeholderIds
+CStakeholder.stateLAHAuthority mSetImages_StateLAHCId
+CStakeholder.stateLAHAuthority* mGetImages_StateLAHCId
+CStakeholder.statePublicHousingAuthority mSetImages_StatePublicHousingAuthorityId
+CStakeholder.statePublicHousingAuthority* mGetImages_StatePublicHousingAuthorityId
+CRegulator.nCAT mSetImages_NCATId
+CRegulator.nCAT* mGetImages_NCATId
+CRegulator.rentalBondAuthority mSetImages_RentalBondAuthorityId
+CRegulator.rentalBondAuthority* mGetImages_RentalBondAuthorityId
+CRegulator.communityHousingRegulator mSetImages_CommunityHousingRegulatorId
+CRegulator.communityHousingRegulator* mGetImages_CommunityHousingRegulatorId
+CStakeholder.community mSetImages_CommunityId
+CStakeholder.community* mGetImages_CommunityId
+CStakeholder.media mSetImages_MediaId
+CStakeholder.media* mGetImages_MediaId
+CStakeholder.partner mSetImages_PartnerId
+CStakeholder.partner* mGetImages_PartnerId
+CRegulator.nationalRegulator mSetImages_NatRegId
+CRegulator.nationalRegulator* mGetImages_NatRegId
+CRegulator.stateBasedRegulator mSetImages_StateBasedRegId
+CRegulator.stateBasedRegulator* mGetImages_StateBasedRegId
+CProperty.propertyInspectionResidential mSetImages_PropertyInspectionResId
+CProperty.propertyInspectionResidential* mGetImages_PropertyInspectionResId
+CProperty.propertyInspectionCommercial mSetImages_PropertyInspectionCommercId
+CProperty.propertyInspectionCommercial* mGetImages_PropertyInspectionCommercId
+ArrayOf<CAdministration.service> mSetImages_ServiceIds
+ArrayOf<CAdministration.service>* mGetImages_ServiceIds
+ArrayOf<CAdministration.item> mSetImages_ItemIds
+ArrayOf<CAdministration.item>* mGetImages_ItemIds
+ArrayOf<CAdministration.job> mSetImages_JobIds
+ArrayOf<CAdministration.job>* mGetImages_JobIds
+ArrayOf<CAdministration.documents> mSetImages_DocRefIds
+ArrayOf<CAdministration.documents>* mGetImages_DocRefIds
+ArrayOf<CAdministration.images> mSetImages_ImageRefIds
+ArrayOf<CAdministration.images>* mGetImages_ImageRefIds
+ArrayOf<CAdministration.audio> mSetImages_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetImages_AudioRefIds
+ArrayOf<CAdministration.video> mSetImages_VideoRefIds
+ArrayOf<CAdministration.video>* mGetImages_VideoRefIds
+const String& mSetAudio_AudioRefId
+String* mGetAudio_AudioRefId
+const String& mSetAudio_AudioHash
+String* mGetAudio_AudioHash
+CRegister.businessChannelOwner mSetAudio_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetAudio_BusinessChannelOwnerId
+CAdministration.branch mSetAudio_BranchId
+CAdministration.branch* mGetAudio_BranchId
+CAdministration.mapOfdepartments mSetAudio_DeptMapId
+CAdministration.mapOfdepartments* mGetAudio_DeptMapId
+ArrayOf<CFinance.SetRegister> mSetAudio_GenSetIds
+ArrayOf<CFinance.SetRegister>* mGetAudio_GenSetIds
+ArrayOf<CAdministration.staff> mSetAudio_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetAudio_EmployeeIds
+ArrayOf<CCustomer.customer> mSetAudio_CustomerIds
+ArrayOf<CCustomer.customer>* mGetAudio_CustomerIds
+ArrayOf<CSupplier.supplier> mSetAudio_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetAudio_SupplierIds
+ArrayOf<CSolicitor.solicitor> mSetAudio_SolicitorIds
+ArrayOf<CSolicitor.solicitor>* mGetAudio_SolicitorIds
+ArrayOf<CStakeholder.agent> mSetAudio_AgentIds
+ArrayOf<CStakeholder.agent>* mGetAudio_AgentIds
+ArrayOf<CStakeholder.nonGovStakeholder> mSetAudio_NonGovStakeholderIds
+ArrayOf<CStakeholder.nonGovStakeholder>* mGetAudio_NonGovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder> mSetAudio_GovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder>* mGetAudio_GovStakeholderIds
+CRegulator.nCAT mSetAudio_NCATId
+CRegulator.nCAT* mGetAudio_NCATId
+CStakeholder.community mSetAudio_CommunityId
+CStakeholder.community* mGetAudio_CommunityId
+CStakeholder.media mSetAudio_MediaId
+CStakeholder.media* mGetAudio_MediaId
+CStakeholder.partner mSetAudio_PartnerId
+CStakeholder.partner* mGetAudio_PartnerId
+CRegulator.nationalRegulator mSetAudio_NatRegId
+CRegulator.nationalRegulator* mGetAudio_NatRegId
+CRegulator.stateBasedRegulator mSetAudio_StateBasedRegId
+CRegulator.stateBasedRegulator* mGetAudio_StateBasedRegId
 asCARAPI mSetAudio.SetInspectionCommercId
 asCARAPI mGetAudio.SetInspectionCommercId
-ArrayOf<CAdministration.service> mSetAudio.ServiceIds
-ArrayOf<CAdministration.service>* mGetAudio.ServiceIds
-ArrayOf<CAdministration.item> mSetAudio.ItemIds
-ArrayOf<CAdministration.item>* mGetAudio.ItemIds
-ArrayOf<CAdministration.job> mSetAudio.JobIds
-ArrayOf<CAdministration.job>* mGetAudio.JobIds
-ArrayOf<CAdministration.documents> mSetAudio.DocRefIds
-ArrayOf<CAdministration.documents>* mGetAudio.DocRefIds
-ArrayOf<CAdministration.images> mSetAudio.ImageRefIds
-ArrayOf<CAdministration.images>* mGetAudio.ImageRefIds
-ArrayOf<CAdministration.audio> mSetAudio.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetAudio.AudioRefIds
-ArrayOf<CAdministration.video> mSetAudio.VideoRefIds
-ArrayOf<CAdministration.video>* mGetAudio.VideoRefIds
-const String& mSetVideo.VideoRefId
-String* mGetVideo.VideoRefId
-const String& mSetVideo.VideoHash
-String* mGetVideo.VideoHash
-CRegister.businessChannelOwner mSetVideo.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetVideo.BusinessChannelOwnerId
-CAdministration.branch mSetVideo.BranchId
-CAdministration.branch* mGetVideo.BranchId
-CAdministration.department mSetVideo.DeptId
-CAdministration.department* mGetVideo.DeptId
-ArrayOf<CProperty.property> mSetVideo.PropertyIds
-ArrayOf<CProperty.property>* mGetVideo.PropertyIds
-ArrayOf<CProperty.propertyOwner> mSetVideo.PropOwners
-ArrayOf<CProperty.propertyOwner>* mGetVideo.PropOwners
-ArrayOf<CAdministration.staff> mSetVideo.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetVideo.EmployeeIds
-ArrayOf<CProperty.tenant> mSetVideo.TenancyIds
-ArrayOf<CProperty.tenant>* mGetVideo.TenancyIds
-ArrayOf<CCustomer.customer> mSetVideo.CustomerIds
-ArrayOf<CCustomer.customer>* mGetVideo.CustomerIds
-ArrayOf<CSupplier.supplier> mSetVideo.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetVideo.SupplierIds
-ArrayOf<CSolicitor.solicitor> mSetVideo.SolicitorIds
-ArrayOf<CSolicitor.solicitor>* mGetVideo.SolicitorIds
-ArrayOf<CStakeholder.agent> mSetVideo.AgentIds
-ArrayOf<CStakeholder.agent>* mGetVideo.AgentIds
-ArrayOf<CStakeholder.nonGovStakeholder> mSetVideo.NonGovStakeholderIds
-ArrayOf<CStakeholder.nonGovStakeholder>* mGetVideo.NonGovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder> mSetVideo.GovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder>* mGetVideo.GovStakeholderIds
-CStakeholder.stateLAHAuthority mSetVideo.StateLAHCId
-CStakeholder.stateLAHAuthority* mGetVideo.StateLAHCId
-CStakeholder.statePublicHousingAuthority mSetVideo.StatePublicHousingAuthorityId
-CStakeholder.statePublicHousingAuthority* mGetVideo.StatePublicHousingAuthorityId
-CRegulator.nCAT mSetVideo.NCATId
-CRegulator.nCAT* mGetVideo.NCATId
-CRegulator.rentalBondAuthority mSetVideo.RentalBondAuthorityId
-CRegulator.rentalBondAuthority* mGetVideo.RentalBondAuthorityId
-CRegulator.communityHousingRegulator mSetVideo.CommunityHousingRegulatorId
-CRegulator.communityHousingRegulator* mGetVideo.CommunityHousingRegulatorId
-CStakeholder.community mSetVideo.CommunityId
-CStakeholder.community* mGetVideo.CommunityId
-CStakeholder.media mSetVideo.MediaId
-CStakeholder.media* mGetVideo.MediaId
-CStakeholder.partner mSetVideo.PartnerId
-CStakeholder.partner* mGetVideo.PartnerId
-CRegulator.nationalRegulator mSetVideo.NatRegId
-CRegulator.nationalRegulator* mGetVideo.NatRegId
-CRegulator.stateBasedRegulator mSetVideo.StateBasedRegId
-CRegulator.stateBasedRegulator* mGetVideo.StateBasedRegId
-CProperty.propertyInspectionResidential mSetVideo.PropertyInspectionResId
-CProperty.propertyInspectionResidential* mGetVideo.PropertyInspectionResId
-CProperty.propertyInspectionCommercial mSetVideo.PropertyInspectionCommercId
-CProperty.propertyInspectionCommercial* mGetVideo.PropertyInspectionCommercId
-ArrayOf<CAdministration.service> mSetVideo.ServiceIds
-ArrayOf<CAdministration.service>* mGetVideo.ServiceIds
-ArrayOf<CAdministration.item> mSetVideo.ItemIds
-ArrayOf<CAdministration.item>* mGetVideo.ItemIds
-ArrayOf<CAdministration.job> mSetVideo.JobIds
-ArrayOf<CAdministration.job>* mGetVideo.JobIds
-ArrayOf<CAdministration.documents> mSetVideo.DocRefIds
-ArrayOf<CAdministration.documents>* mGetVideo.DocRefIds
-ArrayOf<CAdministration.images> mSetVideo.ImageRefIds
-ArrayOf<CAdministration.images>* mGetVideo.ImageRefIds
-ArrayOf<CAdministration.audio> mSetVideo.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetVideo.AudioRefIds
-ArrayOf<CAdministration.video> mSetVideo.VideoRefIds
-ArrayOf<CAdministration.video>* mGetVideo.VideoRefIds
-const String& mSetItemType.ItemTypeId
-String* mGetItemType.ItemTypeId
-const String& mSetItemType.ItemTypeDescription
-String* mGetItemType.ItemTypeDescription
-const String& mSetItemType.ItemModelNumber
-String* mGetItemType.ItemModelNumber
-const String& mSetItemType.ItemName
-String* mGetItemType.ItemName
+ArrayOf<CAdministration.service> mSetAudio_ServiceIds
+ArrayOf<CAdministration.service>* mGetAudio_ServiceIds
+ArrayOf<CAdministration.item> mSetAudio_ItemIds
+ArrayOf<CAdministration.item>* mGetAudio_ItemIds
+ArrayOf<CAdministration.job> mSetAudio_JobIds
+ArrayOf<CAdministration.job>* mGetAudio_JobIds
+ArrayOf<CAdministration.documents> mSetAudio_DocRefIds
+ArrayOf<CAdministration.documents>* mGetAudio_DocRefIds
+ArrayOf<CAdministration.images> mSetAudio_ImageRefIds
+ArrayOf<CAdministration.images>* mGetAudio_ImageRefIds
+ArrayOf<CAdministration.audio> mSetAudio_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetAudio_AudioRefIds
+ArrayOf<CAdministration.video> mSetAudio_VideoRefIds
+ArrayOf<CAdministration.video>* mGetAudio_VideoRefIds
+const String& mSetVideo_VideoRefId
+String* mGetVideo_VideoRefId
+const String& mSetVideo_VideoHash
+String* mGetVideo_VideoHash
+CRegister.businessChannelOwner mSetVideo_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetVideo_BusinessChannelOwnerId
+CAdministration.branch mSetVideo_BranchId
+CAdministration.branch* mGetVideo_BranchId
+CAdministration.department mSetVideo_DeptId
+CAdministration.department* mGetVideo_DeptId
+ArrayOf<CProperty.property> mSetVideo_PropertyIds
+ArrayOf<CProperty.property>* mGetVideo_PropertyIds
+ArrayOf<CProperty.propertyOwner> mSetVideo_PropOwners
+ArrayOf<CProperty.propertyOwner>* mGetVideo_PropOwners
+ArrayOf<CAdministration.staff> mSetVideo_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetVideo_EmployeeIds
+ArrayOf<CProperty.tenant> mSetVideo_TenancyIds
+ArrayOf<CProperty.tenant>* mGetVideo_TenancyIds
+ArrayOf<CCustomer.customer> mSetVideo_CustomerIds
+ArrayOf<CCustomer.customer>* mGetVideo_CustomerIds
+ArrayOf<CSupplier.supplier> mSetVideo_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetVideo_SupplierIds
+ArrayOf<CSolicitor.solicitor> mSetVideo_SolicitorIds
+ArrayOf<CSolicitor.solicitor>* mGetVideo_SolicitorIds
+ArrayOf<CStakeholder.agent> mSetVideo_AgentIds
+ArrayOf<CStakeholder.agent>* mGetVideo_AgentIds
+ArrayOf<CStakeholder.nonGovStakeholder> mSetVideo_NonGovStakeholderIds
+ArrayOf<CStakeholder.nonGovStakeholder>* mGetVideo_NonGovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder> mSetVideo_GovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder>* mGetVideo_GovStakeholderIds
+CStakeholder.stateLAHAuthority mSetVideo_StateLAHCId
+CStakeholder.stateLAHAuthority* mGetVideo_StateLAHCId
+CStakeholder.statePublicHousingAuthority mSetVideo_StatePublicHousingAuthorityId
+CStakeholder.statePublicHousingAuthority* mGetVideo_StatePublicHousingAuthorityId
+CRegulator.nCAT mSetVideo_NCATId
+CRegulator.nCAT* mGetVideo_NCATId
+CRegulator.rentalBondAuthority mSetVideo_RentalBondAuthorityId
+CRegulator.rentalBondAuthority* mGetVideo_RentalBondAuthorityId
+CRegulator.communityHousingRegulator mSetVideo_CommunityHousingRegulatorId
+CRegulator.communityHousingRegulator* mGetVideo_CommunityHousingRegulatorId
+CStakeholder.community mSetVideo_CommunityId
+CStakeholder.community* mGetVideo_CommunityId
+CStakeholder.media mSetVideo_MediaId
+CStakeholder.media* mGetVideo_MediaId
+CStakeholder.partner mSetVideo_PartnerId
+CStakeholder.partner* mGetVideo_PartnerId
+CRegulator.nationalRegulator mSetVideo_NatRegId
+CRegulator.nationalRegulator* mGetVideo_NatRegId
+CRegulator.stateBasedRegulator mSetVideo_StateBasedRegId
+CRegulator.stateBasedRegulator* mGetVideo_StateBasedRegId
+CProperty.propertyInspectionResidential mSetVideo_PropertyInspectionResId
+CProperty.propertyInspectionResidential* mGetVideo_PropertyInspectionResId
+CProperty.propertyInspectionCommercial mSetVideo_PropertyInspectionCommercId
+CProperty.propertyInspectionCommercial* mGetVideo_PropertyInspectionCommercId
+ArrayOf<CAdministration.service> mSetVideo_ServiceIds
+ArrayOf<CAdministration.service>* mGetVideo_ServiceIds
+ArrayOf<CAdministration.item> mSetVideo_ItemIds
+ArrayOf<CAdministration.item>* mGetVideo_ItemIds
+ArrayOf<CAdministration.job> mSetVideo_JobIds
+ArrayOf<CAdministration.job>* mGetVideo_JobIds
+ArrayOf<CAdministration.documents> mSetVideo_DocRefIds
+ArrayOf<CAdministration.documents>* mGetVideo_DocRefIds
+ArrayOf<CAdministration.images> mSetVideo_ImageRefIds
+ArrayOf<CAdministration.images>* mGetVideo_ImageRefIds
+ArrayOf<CAdministration.audio> mSetVideo_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetVideo_AudioRefIds
+ArrayOf<CAdministration.video> mSetVideo_VideoRefIds
+ArrayOf<CAdministration.video>* mGetVideo_VideoRefIds
+const String& mSetItemType_ItemTypeId
+String* mGetItemType_ItemTypeId
+const String& mSetItemType_ItemTypeDescription
+String* mGetItemType_ItemTypeDescription
+const String& mSetItemType_ItemModelNumber
+String* mGetItemType_ItemModelNumber
+const String& mSetItemType_ItemName
+String* mGetItemType_ItemName
 Int32 mSetItemType.NumberInInventory
 Int32* mGetItemType.NumberInInventory
-CRegister.businessChannelOwner mSetItemType.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetItemType.BusinessChannelOwnerId
-CFactory.productType mSetItemType.OurProductTypeId
-CFactory.productType* mGetItemType.OurProductTypeId
-CAdministration.branch mSetItemType.BranchId
-CAdministration.branch* mGetItemType.BranchId
-CAdministration.department mSetItemType.DeptId
-CAdministration.department* mGetItemType.DeptId
-ArrayOf<CSupplier.supplier> mSetItemType.Suppliers
-ArrayOf<CSupplier.supplier>* mGetItemType.Suppliers
-ArrayOf<CAdministration.service> mSetItemType.ServiceIds
-ArrayOf<CAdministration.service>* mGetItemType.ServiceIds
-ArrayOf<CSupplier.supplierType> mSetItemType.SupplierTypeIds
-ArrayOf<CSupplier.supplierType>* mGetItemType.SupplierTypeIds
-ArrayOf<CAdministration.documents> mSetItemType.DocRefIds
-ArrayOf<CAdministration.documents>* mGetItemType.DocRefIds
-ArrayOf<CAdministration.images> mSetItemType.ImageRefIds
-ArrayOf<CAdministration.images>* mGetItemType.ImageRefIds
-ArrayOf<CAdministration.video> mSetItemType.VideoRefIds
-ArrayOf<CAdministration.video>* mGetItemType.VideoRefIds
-const String& mSetItem.ItemId
-String* mGetItem.ItemId
-const String& mSetItem.ItemName
-String* mGetItem.ItemName
-const String& mSetItem.ItemDescription
-String* mGetItem.ItemDescription
+CRegister.businessChannelOwner mSetItemType_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetItemType_BusinessChannelOwnerId
+CFactory.productType mSetItemType_OurProductTypeId
+CFactory.productType* mGetItemType_OurProductTypeId
+CAdministration.branch mSetItemType_BranchId
+CAdministration.branch* mGetItemType_BranchId
+CAdministration.department mSetItemType_DeptId
+CAdministration.department* mGetItemType_DeptId
+ArrayOf<CSupplier.supplier> mSetItemType_Suppliers
+ArrayOf<CSupplier.supplier>* mGetItemType_Suppliers
+ArrayOf<CAdministration.service> mSetItemType_ServiceIds
+ArrayOf<CAdministration.service>* mGetItemType_ServiceIds
+ArrayOf<CSupplier.supplierType> mSetItemType_SupplierTypeIds
+ArrayOf<CSupplier.supplierType>* mGetItemType_SupplierTypeIds
+ArrayOf<CAdministration.documents> mSetItemType_DocRefIds
+ArrayOf<CAdministration.documents>* mGetItemType_DocRefIds
+ArrayOf<CAdministration.images> mSetItemType_ImageRefIds
+ArrayOf<CAdministration.images>* mGetItemType_ImageRefIds
+ArrayOf<CAdministration.video> mSetItemType_VideoRefIds
+ArrayOf<CAdministration.video>* mGetItemType_VideoRefIds
+const String& mSetItem_ItemId
+String* mGetItem_ItemId
+const String& mSetItem_ItemName
+String* mGetItem_ItemName
+const String& mSetItem_ItemDescription
+String* mGetItem_ItemDescription
 Boolean mSetItem.Fragile
 Boolean* mGetItem.Fragile
 Boolean mSetItem.Toxic
 Boolean* mGetItem.Toxic
 Boolean mSetItem.Corrosive
 Boolean* mGetItem.Corrosive
-const String& mSetItem.ItemModelNumber
-String* mGetItem.ItemModelNumber
-const String& mSetItem.ItemSerialNumber
-String* mGetItem.ItemSerialNumber
+const String& mSetItem_ItemModelNumber
+String* mGetItem_ItemModelNumber
+const String& mSetItem_ItemSerialNumber
+String* mGetItem_ItemSerialNumber
 Boolean mSetItem.ItemQualityDimensionsCheckedPassed
 Boolean* mGetItem.ItemQualityDimensionsCheckedPassed
-const String& mSetItem.PricePerItem
-String* mGetItem.PricePerItem
-CRegister.businessChannelOwner mSetItem.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetItem.BusinessChannelOwnerId
-CFactory.product mSetItem.OurProductId
-CFactory.product* mGetItem.OurProductId
-CAdministration.branch mSetItem.BranchId
-CAdministration.branch* mGetItem.BranchId
-CAdministration.department mSetItem.DeptId
-CAdministration.department* mGetItem.DeptId
-CSupplier.supplier mSetItem.SupplierId
-CSupplier.supplier* mGetItem.SupplierId
-CAdministration.itemType mSetItem.ItemTypeId
-CAdministration.itemType* mGetItem.ItemTypeId
-ArrayOf<CAdministration.jobType> mSetItem.JobTypeIds
-ArrayOf<CAdministration.jobType>* mGetItem.JobTypeIds
-ArrayOf<CAdministration.documents> mSetItem.DocRefIds
-ArrayOf<CAdministration.documents>* mGetItem.DocRefIds
-ArrayOf<CAdministration.images> mSetItem.ImageRefIds
-ArrayOf<CAdministration.images>* mGetItem.ImageRefIds
-ArrayOf<CAdministration.video> mSetItem.VideoRefIds
-ArrayOf<CAdministration.video>* mGetItem.VideoRefIds
-const String& mSetJobType.JobTypeId
-String* mGetJobType.JobTypeId
-const String& mSetJobType.JobDescription
-String* mGetJobType.JobDescription
-const String& mSetJobType.JobCode
-String* mGetJobType.JobCode
-const String& mSetJobType.JobName
-String* mGetJobType.JobName
-ArrayOf<const String&> mSetJobType.TaskSequence
-ArrayOf<String>* mGetJobType.TaskSequence
-ArrayOf<const String&> mSetJobType.NatRegId
-ArrayOf<String>* mGetJobType.NatRegId
-ArrayOf<const String&> mSetJobType.StateBasedRegId
-ArrayOf<String>* mGetJobType.StateBasedRegId
-CRegister.businessChannelOwner mSetJobType.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetJobType.BusinessChannelOwnerId
-CAdministration.branch mSetJobType.BranchId
-CAdministration.branch* mGetJobType.BranchId
-CAdministration.department mSetJobType.DeptId
-CAdministration.department* mGetJobType.DeptId
-ArrayOf<CSupplier.supplier> mSetJobType.Suppliers
-ArrayOf<CSupplier.supplier>* mGetJobType.Suppliers
-ArrayOf<CAdministration.itemType> mSetJobType.ItemTypeIds
-ArrayOf<CAdministration.itemType>* mGetJobType.ItemTypeIds
-ArrayOf<CAdministration.documents> mSetJobType.DocRefIds
-ArrayOf<CAdministration.documents>* mGetJobType.DocRefIds
-ArrayOf<CAdministration.images> mSetJobType.ImageRefIds
-ArrayOf<CAdministration.images>* mGetJobType.ImageRefIds
-ArrayOf<CAdministration.video> mSetJobType.VideoRefIds
-ArrayOf<CAdministration.video>* mGetJobType.VideoRefIds
-const String& mSetJob.JobId
-String* mGetJob.JobId
-const String& mSetJob.JobDescription
-String* mGetJob.JobDescription
-ArrayOf<const String&> mSetJob.TaskDescriptionSequence
-ArrayOf<String>* mGetJob.TaskDescriptionSequence
-const String& mSetJob.JobCode
-String* mGetJob.JobCode
-const String& mSetJob.JobName
-String* mGetJob.JobName
+const String& mSetItem_PricePerItem
+String* mGetItem_PricePerItem
+CRegister.businessChannelOwner mSetItem_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetItem_BusinessChannelOwnerId
+CFactory.product mSetItem_OurProductId
+CFactory.product* mGetItem_OurProductId
+CAdministration.branch mSetItem_BranchId
+CAdministration.branch* mGetItem_BranchId
+CAdministration.department mSetItem_DeptId
+CAdministration.department* mGetItem_DeptId
+CSupplier.supplier mSetItem_SupplierId
+CSupplier.supplier* mGetItem_SupplierId
+CAdministration.itemType mSetItem_ItemTypeId
+CAdministration.itemType* mGetItem_ItemTypeId
+ArrayOf<CAdministration.jobType> mSetItem_JobTypeIds
+ArrayOf<CAdministration.jobType>* mGetItem_JobTypeIds
+ArrayOf<CAdministration.documents> mSetItem_DocRefIds
+ArrayOf<CAdministration.documents>* mGetItem_DocRefIds
+ArrayOf<CAdministration.images> mSetItem_ImageRefIds
+ArrayOf<CAdministration.images>* mGetItem_ImageRefIds
+ArrayOf<CAdministration.video> mSetItem_VideoRefIds
+ArrayOf<CAdministration.video>* mGetItem_VideoRefIds
+const String& mSetJobType_JobTypeId
+String* mGetJobType_JobTypeId
+const String& mSetJobType_JobDescription
+String* mGetJobType_JobDescription
+const String& mSetJobType_JobCode
+String* mGetJobType_JobCode
+const String& mSetJobType_JobName
+String* mGetJobType_JobName
+ArrayOf<const String&> mSetJobType_TaskSequence
+ArrayOf<String>* mGetJobType_TaskSequence
+ArrayOf<const String&> mSetJobType_NatRegId
+ArrayOf<String>* mGetJobType_NatRegId
+ArrayOf<const String&> mSetJobType_StateBasedRegId
+ArrayOf<String>* mGetJobType_StateBasedRegId
+CRegister.businessChannelOwner mSetJobType_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetJobType_BusinessChannelOwnerId
+CAdministration.branch mSetJobType_BranchId
+CAdministration.branch* mGetJobType_BranchId
+CAdministration.department mSetJobType_DeptId
+CAdministration.department* mGetJobType_DeptId
+ArrayOf<CSupplier.supplier> mSetJobType_Suppliers
+ArrayOf<CSupplier.supplier>* mGetJobType_Suppliers
+ArrayOf<CAdministration.itemType> mSetJobType_ItemTypeIds
+ArrayOf<CAdministration.itemType>* mGetJobType_ItemTypeIds
+ArrayOf<CAdministration.documents> mSetJobType_DocRefIds
+ArrayOf<CAdministration.documents>* mGetJobType_DocRefIds
+ArrayOf<CAdministration.images> mSetJobType_ImageRefIds
+ArrayOf<CAdministration.images>* mGetJobType_ImageRefIds
+ArrayOf<CAdministration.video> mSetJobType_VideoRefIds
+ArrayOf<CAdministration.video>* mGetJobType_VideoRefIds
+const String& mSetJob_JobId
+String* mGetJob_JobId
+const String& mSetJob_JobDescription
+String* mGetJob_JobDescription
+ArrayOf<const String&> mSetJob_TaskDescriptionSequence
+ArrayOf<String>* mGetJob_TaskDescriptionSequence
+const String& mSetJob_JobCode
+String* mGetJob_JobCode
+const String& mSetJob_JobName
+String* mGetJob_JobName
 Int32 mSetJob.JobNum
 Int32* mGetJob.JobNum
 Boolean mSetJob.ResponsiveMaintenance
 Boolean* mGetJob.ResponsiveMaintenance
 Boolean mSetJob.PlannedMaintenance
 Boolean* mGetJob.PlannedMaintenance
-ArrayOf<Int32> mSetJob.ImmediatePrevJobNums
-ArrayOf<Int32>* mGetJob.ImmediatePrevJobNums
-ArrayOf<Boolean> mSetJob.ImmediatePrevJobsQCPass
-ArrayOf<Boolean>* mGetJob.ImmediatePrevJobsQCPass
-ArrayOf<const String&> mSetJob.DateTimeTaskStartSequence
-ArrayOf<String>* mGetJob.DateTimeTaskStartSequence
-ArrayOf<const String&> mSetJob.DateTimeTaskEndSequence
-ArrayOf<String>* mGetJob.DateTimeTaskEndSequence
-ArrayOf<const String&> mSetJob.ActualTaskStartTime
-ArrayOf<String>* mGetJob.ActualTaskStartTime
-ArrayOf<const String&> mSetJob.ActualTaskCompleteTime
-ArrayOf<String>* mGetJob.ActualTaskCompleteTime
-ArrayOf<Boolean> mSetJob.TaskCompletionQCPasses
-ArrayOf<Boolean>* mGetJob.TaskCompletionQCPasses
+ArrayOf<Int32> mSetJob_ImmediatePrevJobNums
+ArrayOf<Int32>* mGetJob_ImmediatePrevJobNums
+ArrayOf<Boolean> mSetJob_ImmediatePrevJobsQCPass
+ArrayOf<Boolean>* mGetJob_ImmediatePrevJobsQCPass
+ArrayOf<const String&> mSetJob_DateTimeTaskStartSequence
+ArrayOf<String>* mGetJob_DateTimeTaskStartSequence
+ArrayOf<const String&> mSetJob_DateTimeTaskEndSequence
+ArrayOf<String>* mGetJob_DateTimeTaskEndSequence
+ArrayOf<const String&> mSetJob_ActualTaskStartTime
+ArrayOf<String>* mGetJob_ActualTaskStartTime
+ArrayOf<const String&> mSetJob_ActualTaskCompleteTime
+ArrayOf<String>* mGetJob_ActualTaskCompleteTime
+ArrayOf<Boolean> mSetJob_TaskCompletionQCPasses
+ArrayOf<Boolean>* mGetJob_TaskCompletionQCPasses
 Boolean mSetJob.JobCompletionQCPass
 Boolean* mGetJob.JobCompletionQCPass
-const String& mSetJob.NextJobTypeId
-String* mGetJob.NextJobTypeId
-ArrayOf<Boolean> mSetJob.TenantDamages
-ArrayOf<Boolean>* mGetJob.TenantDamages
-ArrayOf<Boolean> mSetJob.LesseeCustomerDamage
-ArrayOf<Boolean>* mGetJob.LesseeCustomerDamage
-CRegister.businessChannelOwner mSetJob.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetJob.BusinessChannelOwnerId
-CAdministration.branch mSetJob.BranchId
-CAdministration.branch* mGetJob.BranchId
-CAdministration.department mSetJob.DeptId
-CAdministration.department* mGetJob.DeptId
-ArrayOf<CAdministration.documents> mSetJob.DocRefIds
-ArrayOf<CAdministration.documents>* mGetJob.DocRefIds
-ArrayOf<CAdministration.images> mSetJob.ImageRefIds
-ArrayOf<CAdministration.images>* mGetJob.ImageRefIds
-ArrayOf<CProperty.property> mSetJob.PropertyIds
-ArrayOf<CProperty.property>* mGetJob.PropertyIds
-CFinance.SetRegister mSetJob.MasterLedgerSetId
-CFinance.SetRegister* mGetJob.MasterLedgerSetId
-ArrayOf<CCustomer.customer> mSetJob.CustomerIds
-ArrayOf<CCustomer.customer>* mGetJob.CustomerIds
-ArrayOf<CAdministration.staff> mSetJob.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetJob.EmployeeIds
-ArrayOf<CSupplier.supplier> mSetJob.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetJob.SupplierIds
-CAdministration.jobType mSetJob.JobTypeId
-CAdministration.jobType* mGetJob.JobTypeId
-ArrayOf<CAdministration.itemType> mSetJob.ItemTypeIds
-ArrayOf<CAdministration.itemType>* mGetJob.ItemTypeIds
-ArrayOf<CAdministration.item> mSetJob.ItemIds
-ArrayOf<CAdministration.item>* mGetJob.ItemIds
-ArrayOf<CAdministration.serviceType> mSetJob.ServiceTypeIds
-ArrayOf<CAdministration.serviceType>* mGetJob.ServiceTypeIds
-ArrayOf<CAdministration.service> mSetJob.ServiceIds
-ArrayOf<CAdministration.service>* mGetJob.ServiceIds
-ArrayOf<CFactory.materialType> mSetJob.MaterialTypeIds
-ArrayOf<CFactory.materialType>* mGetJob.MaterialTypeIds
-ArrayOf<CFactory.material> mSetJob.MaterialIds
-ArrayOf<CFactory.material>* mGetJob.MaterialIds
-ArrayOf<CFactory.partType> mSetJob.PartTypeIds
-ArrayOf<CFactory.partType>* mGetJob.PartTypeIds
-ArrayOf<CFactory.part> mSetJob.PartIds
-ArrayOf<CFactory.part>* mGetJob.PartIds
-ArrayOf<CFactory.minorsubassemblyType> mSetJob.MinorSubAssemblyTypeIds
-ArrayOf<CFactory.minorsubassemblyType>* mGetJob.MinorSubAssemblyTypeIds
-ArrayOf<CFactory.minorsubassembly> mSetJob.MinorSubAssemblyIds
-ArrayOf<CFactory.minorsubassembly>* mGetJob.MinorSubAssemblyIds
-ArrayOf<CFactory.subassemblyType> mSetJob.SubAssemblyTypeIds
-ArrayOf<CFactory.subassemblyType>* mGetJob.SubAssemblyTypeIds
-ArrayOf<CFactory.subassembly> mSetJob.SubAssemblyIds
-ArrayOf<CFactory.subassembly>* mGetJob.SubAssemblyIds
-ArrayOf<CFactory.majorsubassemblyType> mSetJob.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.majorsubassemblyType>* mGetJob.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.majorsubassembly> mSetJob.MajorSubAssemblyIds
-ArrayOf<CFactory.majorsubassembly>* mGetJob.MajorSubAssemblyIds
-ArrayOf<CFactory.lesserassemblyType> mSetJob.LesserAssemblyTypeIds
-ArrayOf<CFactory.lesserassemblyType>* mGetJob.LesserAssemblyTypeIds
-ArrayOf<CFactory.lesserassembly> mSetJob.LesserAssemblyIds
-ArrayOf<CFactory.lesserassembly>* mGetJob.LesserAssemblyIds
-ArrayOf<CFactory.assemblyType> mSetJob.AssemblyTypeIds
-ArrayOf<CFactory.assemblyType>* mGetJob.AssemblyTypeIds
-ArrayOf<CFactory.assembly> mSetJob.AssemblyIds
-ArrayOf<CFactory.assembly>* mGetJob.AssemblyIds
-ArrayOf<CFactory.greaterassemblyType> mSetJob.GreaterAssemblyTypeIds
-ArrayOf<CFactory.greaterassemblyType>* mGetJob.GreaterAssemblyTypeIds
-ArrayOf<CFactory.greaterassembly> mSetJob.GreaterAssemblyIds
-ArrayOf<CFactory.greaterassembly>* mGetJob.GreaterAssemblyIds
-ArrayOf<CFactory.productType> mSetJob.ProductTypeIds
-ArrayOf<CFactory.productType>* mGetJob.ProductTypeIds
-ArrayOf<CFactory.product> mSetJob.ProductIds
-ArrayOf<CFactory.product>* mGetJob.ProductIds
-CFinance.masterSalesOrder mSetJob.MasterSalesOrderId
-CFinance.masterSalesOrder* mGetJob.MasterSalesOrderId
+const String& mSetJob_NextJobTypeId
+String* mGetJob_NextJobTypeId
+ArrayOf<Boolean> mSetJob_TenantDamages
+ArrayOf<Boolean>* mGetJob_TenantDamages
+ArrayOf<Boolean> mSetJob_LesseeCustomerDamage
+ArrayOf<Boolean>* mGetJob_LesseeCustomerDamage
+CRegister.businessChannelOwner mSetJob_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetJob_BusinessChannelOwnerId
+CAdministration.branch mSetJob_BranchId
+CAdministration.branch* mGetJob_BranchId
+CAdministration.department mSetJob_DeptId
+CAdministration.department* mGetJob_DeptId
+ArrayOf<CAdministration.documents> mSetJob_DocRefIds
+ArrayOf<CAdministration.documents>* mGetJob_DocRefIds
+ArrayOf<CAdministration.images> mSetJob_ImageRefIds
+ArrayOf<CAdministration.images>* mGetJob_ImageRefIds
+ArrayOf<CProperty.property> mSetJob_PropertyIds
+ArrayOf<CProperty.property>* mGetJob_PropertyIds
+CFinance.SetRegister mSetJob_MasterLedgerSetId
+CFinance.SetRegister* mGetJob_MasterLedgerSetId
+ArrayOf<CCustomer.customer> mSetJob_CustomerIds
+ArrayOf<CCustomer.customer>* mGetJob_CustomerIds
+ArrayOf<CAdministration.staff> mSetJob_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetJob_EmployeeIds
+ArrayOf<CSupplier.supplier> mSetJob_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetJob_SupplierIds
+CAdministration.jobType mSetJob_JobTypeId
+CAdministration.jobType* mGetJob_JobTypeId
+ArrayOf<CAdministration.itemType> mSetJob_ItemTypeIds
+ArrayOf<CAdministration.itemType>* mGetJob_ItemTypeIds
+ArrayOf<CAdministration.item> mSetJob_ItemIds
+ArrayOf<CAdministration.item>* mGetJob_ItemIds
+ArrayOf<CAdministration.serviceType> mSetJob_ServiceTypeIds
+ArrayOf<CAdministration.serviceType>* mGetJob_ServiceTypeIds
+ArrayOf<CAdministration.service> mSetJob_ServiceIds
+ArrayOf<CAdministration.service>* mGetJob_ServiceIds
+ArrayOf<CFactory.materialType> mSetJob_MaterialTypeIds
+ArrayOf<CFactory.materialType>* mGetJob_MaterialTypeIds
+ArrayOf<CFactory.material> mSetJob_MaterialIds
+ArrayOf<CFactory.material>* mGetJob_MaterialIds
+ArrayOf<CFactory.partType> mSetJob_PartTypeIds
+ArrayOf<CFactory.partType>* mGetJob_PartTypeIds
+ArrayOf<CFactory.part> mSetJob_PartIds
+ArrayOf<CFactory.part>* mGetJob_PartIds
+ArrayOf<CFactory.minorsubassemblyType> mSetJob_MinorSubAssemblyTypeIds
+ArrayOf<CFactory.minorsubassemblyType>* mGetJob_MinorSubAssemblyTypeIds
+ArrayOf<CFactory.minorsubassembly> mSetJob_MinorSubAssemblyIds
+ArrayOf<CFactory.minorsubassembly>* mGetJob_MinorSubAssemblyIds
+ArrayOf<CFactory.subassemblyType> mSetJob_SubAssemblyTypeIds
+ArrayOf<CFactory.subassemblyType>* mGetJob_SubAssemblyTypeIds
+ArrayOf<CFactory.subassembly> mSetJob_SubAssemblyIds
+ArrayOf<CFactory.subassembly>* mGetJob_SubAssemblyIds
+ArrayOf<CFactory.majorsubassemblyType> mSetJob_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.majorsubassemblyType>* mGetJob_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.majorsubassembly> mSetJob_MajorSubAssemblyIds
+ArrayOf<CFactory.majorsubassembly>* mGetJob_MajorSubAssemblyIds
+ArrayOf<CFactory.lesserassemblyType> mSetJob_LesserAssemblyTypeIds
+ArrayOf<CFactory.lesserassemblyType>* mGetJob_LesserAssemblyTypeIds
+ArrayOf<CFactory.lesserassembly> mSetJob_LesserAssemblyIds
+ArrayOf<CFactory.lesserassembly>* mGetJob_LesserAssemblyIds
+ArrayOf<CFactory.assemblyType> mSetJob_AssemblyTypeIds
+ArrayOf<CFactory.assemblyType>* mGetJob_AssemblyTypeIds
+ArrayOf<CFactory.assembly> mSetJob_AssemblyIds
+ArrayOf<CFactory.assembly>* mGetJob_AssemblyIds
+ArrayOf<CFactory.greaterassemblyType> mSetJob_GreaterAssemblyTypeIds
+ArrayOf<CFactory.greaterassemblyType>* mGetJob_GreaterAssemblyTypeIds
+ArrayOf<CFactory.greaterassembly> mSetJob_GreaterAssemblyIds
+ArrayOf<CFactory.greaterassembly>* mGetJob_GreaterAssemblyIds
+ArrayOf<CFactory.productType> mSetJob_ProductTypeIds
+ArrayOf<CFactory.productType>* mGetJob_ProductTypeIds
+ArrayOf<CFactory.product> mSetJob_ProductIds
+ArrayOf<CFactory.product>* mGetJob_ProductIds
+CFinance.masterSalesOrder mSetJob_MasterSalesOrderId
+CFinance.masterSalesOrder* mGetJob_MasterSalesOrderId
 realEstatePurchOrders mSetJob.PurchOrderId
 realEstatePurchOrders* mGetJob.PurchOrderId
-CRegulator.nationalRegulator mSetJob.NatRegId
-CRegulator.nationalRegulator* mGetJob.NatRegId
-CRegulator.stateBasedRegulator mSetJob.StateBasedRegId
-CRegulator.stateBasedRegulator* mGetJob.StateBasedRegId
-const String& mSetLeaveTypesCodes.LeaveId
-String* mGetLeaveTypesCodes.LeaveId
-const String& mSetLeaveTypesCodes.LeaveCode
-String* mGetLeaveTypesCodes.LeaveCode
-const String& mSetLeaveTypesCodes.LeaveDescription
-String* mGetLeaveTypesCodes.LeaveDescription
-const String& mSetLeaveTypesCodes.AwardName
-String* mGetLeaveTypesCodes.AwardName
-const String& mSetLeaveTypesCodes.Notes
-String* mGetLeaveTypesCodes.Notes
-CRegister.businessChannelOwner mSetLeaveTypesCodes.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetLeaveTypesCodes.BusinessChannelOwnerId
-CAdministration.branch mSetLeaveTypesCodes.BranchId
-CAdministration.branch* mGetLeaveTypesCodes.BranchId
-CAdministration.department mSetLeaveTypesCodes.DeptId
-CAdministration.department* mGetLeaveTypesCodes.DeptId
-ArrayOf<CAdministration.documents> mSetLeaveTypesCodes.DocRefIds
-ArrayOf<CAdministration.documents>* mGetLeaveTypesCodes.DocRefIds
-const String& mSetQuoteIn.QuoteInId
-String* mGetQuoteIn.QuoteInId
-ArrayOf<const String&> mSetQuoteIn.JobDescription
-ArrayOf<String>* mGetQuoteIn.JobDescription
-ArrayOf<const String&> mSetQuoteIn.JobTypeId
-ArrayOf<String>* mGetQuoteIn.JobTypeId
-ArrayOf<const String&> mSetQuoteIn.JobName
-ArrayOf<String>* mGetQuoteIn.JobName
-ArrayOf<const String&> mSetQuoteIn.ItemId
-ArrayOf<String>* mGetQuoteIn.ItemId
-ArrayOf<const String&> mSetQuoteIn.ConditionsUponCustomer
-ArrayOf<String>* mGetQuoteIn.ConditionsUponCustomer
-ArrayOf<Double> mSetQuoteIn.QuoteAmountEachJob
-ArrayOf<Double>* mGetQuoteIn.QuoteAmountEachJob
+CRegulator.nationalRegulator mSetJob_NatRegId
+CRegulator.nationalRegulator* mGetJob_NatRegId
+CRegulator.stateBasedRegulator mSetJob_StateBasedRegId
+CRegulator.stateBasedRegulator* mGetJob_StateBasedRegId
+const String& mSetLeaveTypesCodes_LeaveId
+String* mGetLeaveTypesCodes_LeaveId
+const String& mSetLeaveTypesCodes_LeaveCode
+String* mGetLeaveTypesCodes_LeaveCode
+const String& mSetLeaveTypesCodes_LeaveDescription
+String* mGetLeaveTypesCodes_LeaveDescription
+const String& mSetLeaveTypesCodes_AwardName
+String* mGetLeaveTypesCodes_AwardName
+const String& mSetLeaveTypesCodes_Notes
+String* mGetLeaveTypesCodes_Notes
+CRegister.businessChannelOwner mSetLeaveTypesCodes_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetLeaveTypesCodes_BusinessChannelOwnerId
+CAdministration.branch mSetLeaveTypesCodes_BranchId
+CAdministration.branch* mGetLeaveTypesCodes_BranchId
+CAdministration.department mSetLeaveTypesCodes_DeptId
+CAdministration.department* mGetLeaveTypesCodes_DeptId
+ArrayOf<CAdministration.documents> mSetLeaveTypesCodes_DocRefIds
+ArrayOf<CAdministration.documents>* mGetLeaveTypesCodes_DocRefIds
+const String& mSetQuoteIn_QuoteInId
+String* mGetQuoteIn_QuoteInId
+ArrayOf<const String&> mSetQuoteIn_JobDescription
+ArrayOf<String>* mGetQuoteIn_JobDescription
+ArrayOf<const String&> mSetQuoteIn_JobTypeId
+ArrayOf<String>* mGetQuoteIn_JobTypeId
+ArrayOf<const String&> mSetQuoteIn_JobName
+ArrayOf<String>* mGetQuoteIn_JobName
+ArrayOf<const String&> mSetQuoteIn_ItemId
+ArrayOf<String>* mGetQuoteIn_ItemId
+ArrayOf<const String&> mSetQuoteIn_ConditionsUponCustomer
+ArrayOf<String>* mGetQuoteIn_ConditionsUponCustomer
+ArrayOf<Double> mSetQuoteIn_QuoteAmountEachJob
+ArrayOf<Double>* mGetQuoteIn_QuoteAmountEachJob
 Double mSetQuoteIn.QuoteTotalForOrder
-Double* mGetQuoteIn.QuoteTotalForOrder
-CRegister.businessChannelOwner mSetQuoteIn.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetQuoteIn.BusinessChannelOwnerId
-CAdministration.branch mSetQuoteIn.BranchId
-CAdministration.branch* mGetQuoteIn.BranchId
-CAdministration.department mSetQuoteIn.DeptId
-CAdministration.department* mGetQuoteIn.DeptId
-CSupplier.supplier mSetQuoteIn.SupplierId
-CSupplier.supplier* mGetQuoteIn.SupplierId
-ArrayOf<CAdministration.documents> mSetQuoteIn.DocRefIds
-ArrayOf<CAdministration.documents>* mGetQuoteIn.DocRefIds
-ArrayOf<CAdministration.images> mSetQuoteIn.ImageRefIds
-ArrayOf<CAdministration.images>* mGetQuoteIn.ImageRefIds
-ArrayOf<CAdministration.video> mSetQuoteIn.VideoRefIds
-ArrayOf<CAdministration.video>* mGetQuoteIn.VideoRefIds
+Double* mGetQuoteIn_QuoteTotalForOrder
+CRegister.businessChannelOwner mSetQuoteIn_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetQuoteIn_BusinessChannelOwnerId
+CAdministration.branch mSetQuoteIn_BranchId
+CAdministration.branch* mGetQuoteIn_BranchId
+CAdministration.department mSetQuoteIn_DeptId
+CAdministration.department* mGetQuoteIn_DeptId
+CSupplier.supplier mSetQuoteIn_SupplierId
+CSupplier.supplier* mGetQuoteIn_SupplierId
+ArrayOf<CAdministration.documents> mSetQuoteIn_DocRefIds
+ArrayOf<CAdministration.documents>* mGetQuoteIn_DocRefIds
+ArrayOf<CAdministration.images> mSetQuoteIn_ImageRefIds
+ArrayOf<CAdministration.images>* mGetQuoteIn_ImageRefIds
+ArrayOf<CAdministration.video> mSetQuoteIn_VideoRefIds
+ArrayOf<CAdministration.video>* mGetQuoteIn_VideoRefIds
 realEstatePurchOrders mSetQuoteIn.PurchOrderId
 realEstatePurchOrders* mGetQuoteIn.PurchOrderId
-const String& mSetQuoteOut.QuoteOutId
-String* mGetQuoteOut.QuoteOutId
-ArrayOf<const String&> mSetQuoteOut.JobDescription
-ArrayOf<String>* mGetQuoteOut.JobDescription
-ArrayOf<const String&> mSetQuoteOut.JobTypeId
-ArrayOf<String>* mGetQuoteOut.JobTypeId
-ArrayOf<const String&> mSetQuoteOut.JobName
-ArrayOf<String>* mGetQuoteOut.JobName
-ArrayOf<const String&> mSetQuoteOut.ItemId
-ArrayOf<String>* mGetQuoteOut.ItemId
-ArrayOf<const String&> mSetQuoteOut.ConditionsUponCustomer
-ArrayOf<String>* mGetQuoteOut.ConditionsUponCustomer
-ArrayOf<Double> mSetQuoteOut.QuoteAmountEachJobItem
-ArrayOf<Double>* mGetQuoteOut.QuoteAmountEachJobItem
+const String& mSetQuoteOut_QuoteOutId
+String* mGetQuoteOut_QuoteOutId
+ArrayOf<const String&> mSetQuoteOut_JobDescription
+ArrayOf<String>* mGetQuoteOut_JobDescription
+ArrayOf<const String&> mSetQuoteOut_JobTypeId
+ArrayOf<String>* mGetQuoteOut_JobTypeId
+ArrayOf<const String&> mSetQuoteOut_JobName
+ArrayOf<String>* mGetQuoteOut_JobName
+ArrayOf<const String&> mSetQuoteOut_ItemId
+ArrayOf<String>* mGetQuoteOut_ItemId
+ArrayOf<const String&> mSetQuoteOut_ConditionsUponCustomer
+ArrayOf<String>* mGetQuoteOut_ConditionsUponCustomer
+ArrayOf<Double> mSetQuoteOut_QuoteAmountEachJobItem
+ArrayOf<Double>* mGetQuoteOut_QuoteAmountEachJobItem
 Double mSetQuoteOut.QuoteTotalForOrder
-Double* mGetQuoteOut.QuoteTotalForOrder
-CRegister.businessChannelOwner mSetQuoteOut.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetQuoteOut.BusinessChannelOwnerId
-CAdministration.branch mSetQuoteOut.BranchId
-CAdministration.branch* mGetQuoteOut.BranchId
-CAdministration.department mSetQuoteOut.DeptId
-CAdministration.department* mGetQuoteOut.DeptId
-ArrayOf<CAdministration.documents> mSetQuoteOut.DocRefIds
-ArrayOf<CAdministration.documents>* mGetQuoteOut.DocRefIds
-ArrayOf<CAdministration.images> mSetQuoteOut.ImageRefIds
-ArrayOf<CAdministration.images>* mGetQuoteOut.ImageRefIds
-ArrayOf<CAdministration.video> mSetQuoteOut.VideoRefIds
-ArrayOf<CAdministration.video>* mGetQuoteOut.VideoRefIds
-ArrayOf<CCustomer.customer> mSetQuoteOut.Customers
-ArrayOf<CCustomer.customer>* mGetQuoteOut.Customers
-CFinance.masterSalesOrder mSetQuoteOut.MasterSalesOrderId
-CFinance.masterSalesOrder* mGetQuoteOut.MasterSalesOrderId
-const String& mSetRiskRegister.RiskId
-String* mGetRiskRegister.RiskId
-CHelper.propertyType mSetRiskRegister.PropertyType
-CHelper.propertyType* mGetRiskRegister.PropertyType
-ArrayOf<const String&> mSetRiskRegister.RiskDescriptionSequence
-ArrayOf<String>* mGetRiskRegister.RiskDescriptionSequence
-ArrayOf<const String&> mSetRiskRegister.RiskMitigationSequence
-ArrayOf<String>* mGetRiskRegister.RiskMitigationSequence
-ArrayOf<const String&> mSetRiskRegister.StatementsOfRisksAssociated
-ArrayOf<String>* mGetRiskRegister.StatementsOfRisksAssociated
-CHelper.riskLikelihoodOfOccurrenceRating mSetRiskRegister.RiskLikelihoodRating
-CHelper.riskLikelihoodOfOccurrenceRating* mGetRiskRegister.RiskLikelihoodRating
-CHelper.riskConsequence mSetRiskRegister.RiskConsequenceRating
-CHelper.riskConsequence* mGetRiskRegister.RiskConsequenceRating
-CHelper.residualRiskLevel mSetRiskRegister.ResidualRiskLevel
-CHelper.residualRiskLevel* mGetRiskRegister.ResidualRiskLevel
-CRegister.businessChannelOwner mSetRiskRegister.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetRiskRegister.BusinessChannelOwnerId
-CAdministration.branch mSetRiskRegister.BranchId
-CAdministration.branch* mGetRiskRegister.BranchId
-CAdministration.department mSetRiskRegister.DeptId
-CAdministration.department* mGetRiskRegister.DeptId
-CAdministration.role mSetRiskRegister.RoleId
-CAdministration.role* mGetRiskRegister.RoleId
-CProperty.property mSetRiskRegister.PropertyId
-CProperty.property* mGetRiskRegister.PropertyId
-CProperty.propertyConstructionType mSetRiskRegister.PropertyConstructionTypeId
-CProperty.propertyConstructionType* mGetRiskRegister.PropertyConstructionTypeId
-CFinance.SetType mSetRiskRegister.SetTypeId
-CFinance.SetType* mGetRiskRegister.SetTypeId
-CFinance.SetRegister mSetRiskRegister.SetId
-CFinance.SetRegister* mGetRiskRegister.SetId
-CProperty.program mSetRiskRegister.ProgramId
-CProperty.program* mGetRiskRegister.ProgramId
-CProperty.project mSetRiskRegister.ProjectId
-CProperty.project* mGetRiskRegister.ProjectId
-CAdministration.jobType mSetRiskRegister.JobTypeId
-CAdministration.jobType* mGetRiskRegister.JobTypeId
-CAdministration.job mSetRiskRegister.JobId
-CAdministration.job* mGetRiskRegister.JobId
+Double* mGetQuoteOut_QuoteTotalForOrder
+CRegister.businessChannelOwner mSetQuoteOut_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetQuoteOut_BusinessChannelOwnerId
+CAdministration.branch mSetQuoteOut_BranchId
+CAdministration.branch* mGetQuoteOut_BranchId
+CAdministration.department mSetQuoteOut_DeptId
+CAdministration.department* mGetQuoteOut_DeptId
+ArrayOf<CAdministration.documents> mSetQuoteOut_DocRefIds
+ArrayOf<CAdministration.documents>* mGetQuoteOut_DocRefIds
+ArrayOf<CAdministration.images> mSetQuoteOut_ImageRefIds
+ArrayOf<CAdministration.images>* mGetQuoteOut_ImageRefIds
+ArrayOf<CAdministration.video> mSetQuoteOut_VideoRefIds
+ArrayOf<CAdministration.video>* mGetQuoteOut_VideoRefIds
+ArrayOf<CCustomer.customer> mSetQuoteOut_Customers
+ArrayOf<CCustomer.customer>* mGetQuoteOut_Customers
+CFinance.masterSalesOrder mSetQuoteOut_MasterSalesOrderId
+CFinance.masterSalesOrder* mGetQuoteOut_MasterSalesOrderId
+const String& mSetRiskRegister_RiskId
+String* mGetRiskRegister_RiskId
+CHelper.propertyType mSetRiskRegister_PropertyType
+CHelper.propertyType* mGetRiskRegister_PropertyType
+ArrayOf<const String&> mSetRiskRegister_RiskDescriptionSequence
+ArrayOf<String>* mGetRiskRegister_RiskDescriptionSequence
+ArrayOf<const String&> mSetRiskRegister_RiskMitigationSequence
+ArrayOf<String>* mGetRiskRegister_RiskMitigationSequence
+ArrayOf<const String&> mSetRiskRegister_StatementsOfRisksAssociated
+ArrayOf<String>* mGetRiskRegister_StatementsOfRisksAssociated
+CHelper.riskLikelihoodOfOccurrenceRating mSetRiskRegister_RiskLikelihoodRating
+CHelper.riskLikelihoodOfOccurrenceRating* mGetRiskRegister_RiskLikelihoodRating
+CHelper.riskConsequence mSetRiskRegister_RiskConsequenceRating
+CHelper.riskConsequence* mGetRiskRegister_RiskConsequenceRating
+CHelper.residualRiskLevel mSetRiskRegister_ResidualRiskLevel
+CHelper.residualRiskLevel* mGetRiskRegister_ResidualRiskLevel
+CRegister.businessChannelOwner mSetRiskRegister_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetRiskRegister_BusinessChannelOwnerId
+CAdministration.branch mSetRiskRegister_BranchId
+CAdministration.branch* mGetRiskRegister_BranchId
+CAdministration.department mSetRiskRegister_DeptId
+CAdministration.department* mGetRiskRegister_DeptId
+CAdministration.role mSetRiskRegister_RoleId
+CAdministration.role* mGetRiskRegister_RoleId
+CProperty.property mSetRiskRegister_PropertyId
+CProperty.property* mGetRiskRegister_PropertyId
+CProperty.propertyConstructionType mSetRiskRegister_PropertyConstructionTypeId
+CProperty.propertyConstructionType* mGetRiskRegister_PropertyConstructionTypeId
+CFinance.SetType mSetRiskRegister_SetTypeId
+CFinance.SetType* mGetRiskRegister_SetTypeId
+CFinance.SetRegister mSetRiskRegister_SetId
+CFinance.SetRegister* mGetRiskRegister_SetId
+CProperty.program mSetRiskRegister_ProgramId
+CProperty.program* mGetRiskRegister_ProgramId
+CProperty.project mSetRiskRegister_ProjectId
+CProperty.project* mGetRiskRegister_ProjectId
+CAdministration.jobType mSetRiskRegister_JobTypeId
+CAdministration.jobType* mGetRiskRegister_JobTypeId
+CAdministration.job mSetRiskRegister_JobId
+CAdministration.job* mGetRiskRegister_JobId
 realEstatePurchOrders mSetRiskRegister.PurchaseOrderId
 realEstatePurchOrders* mGetRiskRegister.PurchaseOrderId
-CFinance.masterSalesOrder mSetRiskRegister.MasterSalesOrderId
-CFinance.masterSalesOrder* mGetRiskRegister.MasterSalesOrderId
-CProperty.allocation mSetRiskRegister.AllocationId
-CProperty.allocation* mGetRiskRegister.AllocationId
-CCustomer.complaint mSetRiskRegister.ComplaintId
-CCustomer.complaint* mGetRiskRegister.ComplaintId
-CAdministration.serviceType mSetRiskRegister.ServiceTypeId
-CAdministration.serviceType* mGetRiskRegister.ServiceTypeId
-CAdministration.itemType mSetRiskRegister.ItemTypeId
-CAdministration.itemType* mGetRiskRegister.ItemTypeId
-CAdministration.item mSetRiskRegister.ItemId
-CAdministration.item* mGetRiskRegister.ItemId
-CFactory.materialType mSetRiskRegister.MaterialTypeId
-CFactory.materialType* mGetRiskRegister.MaterialTypeId
-CFactory.material mSetRiskRegister.MaterialId
-CFactory.material* mGetRiskRegister.MaterialId
-CFactory.partType mSetRiskRegister.PartTypeId
-CFactory.partType* mGetRiskRegister.PartTypeId
-CFactory.part mSetRiskRegister.PartId
-CFactory.part* mGetRiskRegister.PartId
-CFactory.minorsubassemblyType mSetRiskRegister.MinorSubAssemblyTypeId
-CFactory.minorsubassemblyType* mGetRiskRegister.MinorSubAssemblyTypeId
-CFactory.minorsubassembly mSetRiskRegister.MinorSubAssemblyId
-CFactory.minorsubassembly* mGetRiskRegister.MinorSubAssemblyId
-CFactory.subassemblyType mSetRiskRegister.SubAssemblyTypeId
-CFactory.subassemblyType* mGetRiskRegister.SubAssemblyTypeId
-CFactory.subassembly mSetRiskRegister.SubAssemblyId
-CFactory.subassembly* mGetRiskRegister.SubAssemblyId
-CFactory.majorsubassemblyType mSetRiskRegister.MajorSubAssemblyTypeId
-CFactory.majorsubassemblyType* mGetRiskRegister.MajorSubAssemblyTypeId
-CFactory.majorsubassembly mSetRiskRegister.MajorSubAssemblyId
-CFactory.majorsubassembly* mGetRiskRegister.MajorSubAssemblyId
-CFactory.lesserassemblyType mSetRiskRegister.LesserAssemblyTypeId
-CFactory.lesserassemblyType* mGetRiskRegister.LesserAssemblyTypeId
-CFactory.lesserassembly mSetRiskRegister.LesserAssemblyId
-CFactory.lesserassembly* mGetRiskRegister.LesserAssemblyId
-CFactory.assemblyType mSetRiskRegister.AssemblyTypeId
-CFactory.assemblyType* mGetRiskRegister.AssemblyTypeId
-CFactory.assembly mSetRiskRegister.AssemblyId
-CFactory.assembly* mGetRiskRegister.AssemblyId
-CFactory.greaterassemblyType mSetRiskRegister.GreaterAssemblyTypeId
-CFactory.greaterassemblyType* mGetRiskRegister.GreaterAssemblyTypeId
-CFactory.greaterassembly mSetRiskRegister.GreaterAssemblyId
-CFactory.greaterassembly* mGetRiskRegister.GreaterAssemblyId
-CFactory.productType mSetRiskRegister.ProductTypeId
-CFactory.productType* mGetRiskRegister.ProductTypeId
-CFactory.product mSetRiskRegister.ProductId
-CFactory.product* mGetRiskRegister.ProductId
-CCustomer.customer mSetRiskRegister.CustomerId
-CCustomer.customer* mGetRiskRegister.CustomerId
-CCustomer.customerType mSetRiskRegister.CustomerTypeId
-CCustomer.customerType* mGetRiskRegister.CustomerTypeId
-CSupplier.supplier mSetRiskRegister.SupplierId
-CSupplier.supplier* mGetRiskRegister.SupplierId
-CSupplier.supplierType mSetRiskRegister.SupplierTypeId
-CSupplier.supplierType* mGetRiskRegister.SupplierTypeId
-CStakeholder.partner mSetRiskRegister.PartnerId
-CStakeholder.partner* mGetRiskRegister.PartnerId
-CStakeholder.media mSetRiskRegister.MediaId
-CStakeholder.media* mGetRiskRegister.MediaId
-CStakeholder.community mSetRiskRegister.CommunityId
-CStakeholder.community* mGetRiskRegister.CommunityId
-CFinance.bank mSetRiskRegister.BankId
-CFinance.bank* mGetRiskRegister.BankId
-CProperty.propertyOwner mSetRiskRegister.PropertyOwnerId
-CProperty.propertyOwner* mGetRiskRegister.PropertyOwnerId
-CCustomer.applicant mSetRiskRegister.ApplicantId
-CCustomer.applicant* mGetRiskRegister.ApplicantId
-CProperty.tenant mSetRiskRegister.TenancyId
-CProperty.tenant* mGetRiskRegister.TenancyId
-CAdministration.staff mSetRiskRegister.EmployeeId
-CAdministration.staff* mGetRiskRegister.EmployeeId
-CSupplier.superannuationFund mSetRiskRegister.SuperFundId
-CSupplier.superannuationFund* mGetRiskRegister.SuperFundId
-ArrayOf<CSolicitor.solicitor> mSetRiskRegister.SolicitorIds
-ArrayOf<CSolicitor.solicitor>* mGetRiskRegister.SolicitorIds
-ArrayOf<CStakeholder.agentType> mSetRiskRegister.AgentTypeIds
-ArrayOf<CStakeholder.agentType>* mGetRiskRegister.AgentTypeIds
-ArrayOf<CStakeholder.agent> mSetRiskRegister.AgentIds
-ArrayOf<CStakeholder.agent>* mGetRiskRegister.AgentIds
-ArrayOf<CStakeholder.nonGovStakeholder>* mSetRiskRegister.NonGovStakeholderIds
-ArrayOf<CStakeholder.nonGovStakeholder>* mGetRiskRegister.NonGovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder> mSetRiskRegister.GovStakeholderIds
-ArrayOf<CStakeholder.govStakeholder>* mGetRiskRegister.GovStakeholderIds
-CFinance.centrelink mSetRiskRegister.CentrelinkId
-CFinance.centrelink* mGetRiskRegister.CentrelinkId
-CStakeholder.stateLAHAuthority mSetRiskRegister.StateLAHAuthorityId
-CStakeholder.stateLAHAuthority* mGetRiskRegister.StateLAHAuthorityId
-CStakeholder.statePublicHousingAuthority mSetRiskRegister.StatePublicHousingAuthorityId
-CStakeholder.statePublicHousingAuthority* mGetRiskRegister.StatePublicHousingAuthorityId
-CRegulator.communityHousingRegulator mSetRiskRegister.CommunityHousingRegulatorId
-CRegulator.communityHousingRegulator* mGetRiskRegister.CommunityHousingRegulatorId
-CRegulator.aTO mSetRiskRegister.ATOId
-CRegulator.aTO* mGetRiskRegister.ATOId
-CRegulator.nationalRegulator mSetRiskRegister.NatRegId
-CRegulator.nationalRegulator* mGetRiskRegister.NatRegId
-CRegulator.nCAT mSetRiskRegister.TribunalId
-CRegulator.nCAT* mGetRiskRegister.TribunalId
-CCustomer.application mSetRiskRegister.ApplicationId
-CCustomer.application* mGetRiskRegister.ApplicationId
-CRegulator.stateBasedRegulator mSetRiskRegister.StateBasedRegId
-CRegulator.stateBasedRegulator* mGetRiskRegister.StateBasedRegId
+CFinance.masterSalesOrder mSetRiskRegister_MasterSalesOrderId
+CFinance.masterSalesOrder* mGetRiskRegister_MasterSalesOrderId
+CProperty.allocation mSetRiskRegister_AllocationId
+CProperty.allocation* mGetRiskRegister_AllocationId
+CCustomer.complaint mSetRiskRegister_ComplaintId
+CCustomer.complaint* mGetRiskRegister_ComplaintId
+CAdministration.serviceType mSetRiskRegister_ServiceTypeId
+CAdministration.serviceType* mGetRiskRegister_ServiceTypeId
+CAdministration.itemType mSetRiskRegister_ItemTypeId
+CAdministration.itemType* mGetRiskRegister_ItemTypeId
+CAdministration.item mSetRiskRegister_ItemId
+CAdministration.item* mGetRiskRegister_ItemId
+CFactory.materialType mSetRiskRegister_MaterialTypeId
+CFactory.materialType* mGetRiskRegister_MaterialTypeId
+CFactory.material mSetRiskRegister_MaterialId
+CFactory.material* mGetRiskRegister_MaterialId
+CFactory.partType mSetRiskRegister_PartTypeId
+CFactory.partType* mGetRiskRegister_PartTypeId
+CFactory.part mSetRiskRegister_PartId
+CFactory.part* mGetRiskRegister_PartId
+CFactory.minorsubassemblyType mSetRiskRegister_MinorSubAssemblyTypeId
+CFactory.minorsubassemblyType* mGetRiskRegister_MinorSubAssemblyTypeId
+CFactory.minorsubassembly mSetRiskRegister_MinorSubAssemblyId
+CFactory.minorsubassembly* mGetRiskRegister_MinorSubAssemblyId
+CFactory.subassemblyType mSetRiskRegister_SubAssemblyTypeId
+CFactory.subassemblyType* mGetRiskRegister_SubAssemblyTypeId
+CFactory.subassembly mSetRiskRegister_SubAssemblyId
+CFactory.subassembly* mGetRiskRegister_SubAssemblyId
+CFactory.majorsubassemblyType mSetRiskRegister_MajorSubAssemblyTypeId
+CFactory.majorsubassemblyType* mGetRiskRegister_MajorSubAssemblyTypeId
+CFactory.majorsubassembly mSetRiskRegister_MajorSubAssemblyId
+CFactory.majorsubassembly* mGetRiskRegister_MajorSubAssemblyId
+CFactory.lesserassemblyType mSetRiskRegister_LesserAssemblyTypeId
+CFactory.lesserassemblyType* mGetRiskRegister_LesserAssemblyTypeId
+CFactory.lesserassembly mSetRiskRegister_LesserAssemblyId
+CFactory.lesserassembly* mGetRiskRegister_LesserAssemblyId
+CFactory.assemblyType mSetRiskRegister_AssemblyTypeId
+CFactory.assemblyType* mGetRiskRegister_AssemblyTypeId
+CFactory.assembly mSetRiskRegister_AssemblyId
+CFactory.assembly* mGetRiskRegister_AssemblyId
+CFactory.greaterassemblyType mSetRiskRegister_GreaterAssemblyTypeId
+CFactory.greaterassemblyType* mGetRiskRegister_GreaterAssemblyTypeId
+CFactory.greaterassembly mSetRiskRegister_GreaterAssemblyId
+CFactory.greaterassembly* mGetRiskRegister_GreaterAssemblyId
+CFactory.productType mSetRiskRegister_ProductTypeId
+CFactory.productType* mGetRiskRegister_ProductTypeId
+CFactory.product mSetRiskRegister_ProductId
+CFactory.product* mGetRiskRegister_ProductId
+CCustomer.customer mSetRiskRegister_CustomerId
+CCustomer.customer* mGetRiskRegister_CustomerId
+CCustomer.customerType mSetRiskRegister_CustomerTypeId
+CCustomer.customerType* mGetRiskRegister_CustomerTypeId
+CSupplier.supplier mSetRiskRegister_SupplierId
+CSupplier.supplier* mGetRiskRegister_SupplierId
+CSupplier.supplierType mSetRiskRegister_SupplierTypeId
+CSupplier.supplierType* mGetRiskRegister_SupplierTypeId
+CStakeholder.partner mSetRiskRegister_PartnerId
+CStakeholder.partner* mGetRiskRegister_PartnerId
+CStakeholder.media mSetRiskRegister_MediaId
+CStakeholder.media* mGetRiskRegister_MediaId
+CStakeholder.community mSetRiskRegister_CommunityId
+CStakeholder.community* mGetRiskRegister_CommunityId
+CFinance.bank mSetRiskRegister_BankId
+CFinance.bank* mGetRiskRegister_BankId
+CProperty.propertyOwner mSetRiskRegister_PropertyOwnerId
+CProperty.propertyOwner* mGetRiskRegister_PropertyOwnerId
+CCustomer.applicant mSetRiskRegister_ApplicantId
+CCustomer.applicant* mGetRiskRegister_ApplicantId
+CProperty.tenant mSetRiskRegister_TenancyId
+CProperty.tenant* mGetRiskRegister_TenancyId
+CAdministration.staff mSetRiskRegister_EmployeeId
+CAdministration.staff* mGetRiskRegister_EmployeeId
+CSupplier.superannuationFund mSetRiskRegister_SuperFundId
+CSupplier.superannuationFund* mGetRiskRegister_SuperFundId
+ArrayOf<CSolicitor.solicitor> mSetRiskRegister_SolicitorIds
+ArrayOf<CSolicitor.solicitor>* mGetRiskRegister_SolicitorIds
+ArrayOf<CStakeholder.agentType> mSetRiskRegister_AgentTypeIds
+ArrayOf<CStakeholder.agentType>* mGetRiskRegister_AgentTypeIds
+ArrayOf<CStakeholder.agent> mSetRiskRegister_AgentIds
+ArrayOf<CStakeholder.agent>* mGetRiskRegister_AgentIds
+ArrayOf<CStakeholder.nonGovStakeholder>* mSetRiskRegister_NonGovStakeholderIds
+ArrayOf<CStakeholder.nonGovStakeholder>* mGetRiskRegister_NonGovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder> mSetRiskRegister_GovStakeholderIds
+ArrayOf<CStakeholder.govStakeholder>* mGetRiskRegister_GovStakeholderIds
+CFinance.centrelink mSetRiskRegister_CentrelinkId
+CFinance.centrelink* mGetRiskRegister_CentrelinkId
+CStakeholder.stateLAHAuthority mSetRiskRegister_StateLAHAuthorityId
+CStakeholder.stateLAHAuthority* mGetRiskRegister_StateLAHAuthorityId
+CStakeholder.statePublicHousingAuthority mSetRiskRegister_StatePublicHousingAuthorityId
+CStakeholder.statePublicHousingAuthority* mGetRiskRegister_StatePublicHousingAuthorityId
+CRegulator.communityHousingRegulator mSetRiskRegister_CommunityHousingRegulatorId
+CRegulator.communityHousingRegulator* mGetRiskRegister_CommunityHousingRegulatorId
+CRegulator.aTO mSetRiskRegister_ATOId
+CRegulator.aTO* mGetRiskRegister_ATOId
+CRegulator.nationalRegulator mSetRiskRegister_NatRegId
+CRegulator.nationalRegulator* mGetRiskRegister_NatRegId
+CRegulator.nCAT mSetRiskRegister_TribunalId
+CRegulator.nCAT* mGetRiskRegister_TribunalId
+CCustomer.application mSetRiskRegister_ApplicationId
+CCustomer.application* mGetRiskRegister_ApplicationId
+CRegulator.stateBasedRegulator mSetRiskRegister_StateBasedRegId
+CRegulator.stateBasedRegulator* mGetRiskRegister_StateBasedRegId
 itemTrader mSetRiskRegister.ItemTraderId
 itemTrader* mGetRiskRegister.ItemTraderId
-CProperty.tenancyCaseManagement mSetRiskRegister.TenancyCaseMngmntId
-CProperty.tenancyCaseManagement* mGetRiskRegister.TenancyCaseMngmntId
-ArrayOf<CAdministration.documents> mSetRiskRegister.DocRefIds
-ArrayOf<CAdministration.documents>* mGetRiskRegister.DocRefIds
-ArrayOf<CAdministration.images> mSetRiskRegister.ImageRefIds
-ArrayOf<CAdministration.images>* mGetRiskRegister.ImageRefIds
-const String& mSetRole.RoleId
-String* mGetRole.RoleId
-const String& mSetRole.RoleTitle
-String* mGetRole.RoleTitle
-const String& mSetRole.RoleDescription
-String* mGetRole.RoleDescription
-ArrayOf<CAdministration.staff> mSetRole.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetRole.EmployeeIds
-CRegister.businessChannelOwner mSetRole.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetRole.BusinessChannelOwnerId
-ArrayOf<CAdministration.branch> mSetRole.BranchIds
-ArrayOf<CAdministration.branch>* mGetRole.BranchIds
-ArrayOf<CAdministration.department> mSetRole.DeptIds
-ArrayOf<CAdministration.department>* mGetRole.DeptIds
-ArrayOf<CAdministration.subdepartment> mSetRole.SubDeptIds
-ArrayOf<CAdministration.subdepartment>* mGetRole.SubDeptIds
-ArrayOf<CAdministration.subdepartmentLevel2> mSetRole.SubDeptLevel2Ids
-ArrayOf<CAdministration.subdepartmentLevel2>* mGetRole.SubDeptLevel2Ids
-ArrayOf<CAdministration.subdepartmentLevel3> mSetRole.SubDeptLevel3Ids
-ArrayOf<CAdministration.subdepartmentLevel3>* mGetRole.SubDeptLevel3Ids
-ArrayOf<CAdministration.documents> mSetRole.DocRefIds
-ArrayOf<CAdministration.documents>* mGetRole.DocRefIds
-ArrayOf<CAdministration.images> mSetRole.ImageRefIds
-ArrayOf<CAdministration.images>* mGetRole.ImageRefIds
-ArrayOf<CAdministration.video> mSetRole.VideoRefIds
-ArrayOf<CAdministration.video>* mGetRole.VideoRefIds
-const String& mSetStaffRoleJoins.StaffRoleJoinsId
-String* mGetStaffRoleJoins.StaffRoleJoinsId
-CAdministration.role mSetStaffRoleJoins.RoleId
-CAdministration.role* mGetStaffRoleJoins.RoleId
-CAdministration.staff mSetStaffRoleJoins.EmployeeId
-CAdministration.staff* mGetStaffRoleJoins.EmployeeId
-const String& mSetBusinessDirector.BusinessDirectorId
-String* mGetBusinessDirector.BusinessDirectorId
-const String& mSetBusinessDirector.FirstName
-String* mGetBusinessDirector.FirstName
-const String& mSetBusinessDirector.LastName
-String* mGetBusinessDirector.LastName
-const String& mSetBusinessDirector.ResidentialAddress
-String* mGetBusinessDirector.ResidentialAddress
-const String& mSetBusinessDirector.PostalAddress
-String* mGetBusinessDirector.PostalAddress
-const String& mSetBusinessDirector.Email
-String* mGetBusinessDirector.Email
+CProperty.tenancyCaseManagement mSetRiskRegister_TenancyCaseMngmntId
+CProperty.tenancyCaseManagement* mGetRiskRegister_TenancyCaseMngmntId
+ArrayOf<CAdministration.documents> mSetRiskRegister_DocRefIds
+ArrayOf<CAdministration.documents>* mGetRiskRegister_DocRefIds
+ArrayOf<CAdministration.images> mSetRiskRegister_ImageRefIds
+ArrayOf<CAdministration.images>* mGetRiskRegister_ImageRefIds
+const String& mSetRole_RoleId
+String* mGetRole_RoleId
+const String& mSetRole_RoleTitle
+String* mGetRole_RoleTitle
+const String& mSetRole_RoleDescription
+String* mGetRole_RoleDescription
+ArrayOf<CAdministration.staff> mSetRole_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetRole_EmployeeIds
+CRegister.businessChannelOwner mSetRole_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetRole_BusinessChannelOwnerId
+ArrayOf<CAdministration.branch> mSetRole_BranchIds
+ArrayOf<CAdministration.branch>* mGetRole_BranchIds
+ArrayOf<CAdministration.department> mSetRole_DeptIds
+ArrayOf<CAdministration.department>* mGetRole_DeptIds
+ArrayOf<CAdministration.subdepartment> mSetRole_SubDeptIds
+ArrayOf<CAdministration.subdepartment>* mGetRole_SubDeptIds
+ArrayOf<CAdministration.subdepartmentLevel2> mSetRole_SubDeptLevel2Ids
+ArrayOf<CAdministration.subdepartmentLevel2>* mGetRole_SubDeptLevel2Ids
+ArrayOf<CAdministration.subdepartmentLevel3> mSetRole_SubDeptLevel3Ids
+ArrayOf<CAdministration.subdepartmentLevel3>* mGetRole_SubDeptLevel3Ids
+ArrayOf<CAdministration.documents> mSetRole_DocRefIds
+ArrayOf<CAdministration.documents>* mGetRole_DocRefIds
+ArrayOf<CAdministration.images> mSetRole_ImageRefIds
+ArrayOf<CAdministration.images>* mGetRole_ImageRefIds
+ArrayOf<CAdministration.video> mSetRole_VideoRefIds
+ArrayOf<CAdministration.video>* mGetRole_VideoRefIds
+const String& mSetStaffRoleJoins_StaffRoleJoinsId
+String* mGetStaffRoleJoins_StaffRoleJoinsId
+CAdministration.role mSetStaffRoleJoins_RoleId
+CAdministration.role* mGetStaffRoleJoins_RoleId
+CAdministration.staff mSetStaffRoleJoins_EmployeeId
+CAdministration.staff* mGetStaffRoleJoins_EmployeeId
+const String& mSetBusinessDirector_BusinessDirectorId
+String* mGetBusinessDirector_BusinessDirectorId
+const String& mSetBusinessDirector_FirstName
+String* mGetBusinessDirector_FirstName
+const String& mSetBusinessDirector_LastName
+String* mGetBusinessDirector_LastName
+const String& mSetBusinessDirector_ResidentialAddress
+String* mGetBusinessDirector_ResidentialAddress
+const String& mSetBusinessDirector_PostalAddress
+String* mGetBusinessDirector_PostalAddress
+const String& mSetBusinessDirector_Email
+String* mGetBusinessDirector_Email
 Int32 mSetBusinessDirector.HomePhone
 Int32* mGetBusinessDirector.HomePhone
 Int32 mSetBusinessDirector.MobilePhone
 Int32* mGetBusinessDirector.MobilePhone
 Int32 mSetBusinessDirector.WorkPhone
 Int32* mGetBusinessDirector.WorkPhone
-ArrayOf<const String&> mSetBusinessDirector.ContactedWithDetails
-ArrayOf<String>* mGetBusinessDirector.ContactedWithDetails
-CRegister.businessChannelOwner mSetBusinessDirector.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetBusinessDirector.BusinessChannelOwnerId
-ArrayOf<CAdministration.documents> mSetBusinessDirector.DocRefIds
-ArrayOf<CAdministration.documents>* mGetBusinessDirector.DocRefIds
-ArrayOf<CAdministration.images> mSetBusinessDirector.ImageRefIds
-ArrayOf<CAdministration.images>* mGetBusinessDirector.ImageRefIds
-const String& mSetStaff.EmployeeId
-String* mGetStaff.EmployeeId
-const String& mSetStaff.OurBranchId
-String* mGetStaff.OurBranchId
-const String& mSetStaff.FirstName
-String* mGetStaff.FirstName
-const String& mSetStaff.LastName
-String* mGetStaff.LastName
-const String& mSetStaff.ResidentialAddress
-String* mGetStaff.ResidentialAddress
-const String& mSetStaff.PostalAddress
-String* mGetStaff.PostalAddress
-const String& mSetStaff.Email
-String* mGetStaff.Email
+ArrayOf<const String&> mSetBusinessDirector_ContactedWithDetails
+ArrayOf<String>* mGetBusinessDirector_ContactedWithDetails
+CRegister.businessChannelOwner mSetBusinessDirector_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetBusinessDirector_BusinessChannelOwnerId
+ArrayOf<CAdministration.documents> mSetBusinessDirector_DocRefIds
+ArrayOf<CAdministration.documents>* mGetBusinessDirector_DocRefIds
+ArrayOf<CAdministration.images> mSetBusinessDirector_ImageRefIds
+ArrayOf<CAdministration.images>* mGetBusinessDirector_ImageRefIds
+const String& mSetStaff_EmployeeId
+String* mGetStaff_EmployeeId
+const String& mSetStaff_OurBranchId
+String* mGetStaff_OurBranchId
+const String& mSetStaff_FirstName
+String* mGetStaff_FirstName
+const String& mSetStaff_LastName
+String* mGetStaff_LastName
+const String& mSetStaff_ResidentialAddress
+String* mGetStaff_ResidentialAddress
+const String& mSetStaff_PostalAddress
+String* mGetStaff_PostalAddress
+const String& mSetStaff_Email
+String* mGetStaff_Email
 Int32 mSetStaff.HomePhone
 Int32* mGetStaff.HomePhone
 Int32 mSetStaff.MobilePhone
@@ -5889,124 +5889,124 @@ Int32 mSetStaff.ATOTFN
 Int32* mGetStaff.ATOTFN
 Boolean mSetStaff.TaxFreeThreshold
 Boolean* mGetStaff.TaxFreeThreshold
-ArrayOf<const String&> mSetStaff.DocRefIds
-ArrayOf<String>* mGetStaff.DocRefIds
-ArrayOf<const String&> mSetStaff.ContactedWithDetails
-ArrayOf<String>* mGetStaff.ContactedWithDetails
-CAdministration.role mSetStaff.StaffImmedSuperRoleId
-CAdministration.role* mGetStaff.StaffImmedSuperRoleId
-ArrayOf<CAdministration.documents> mSetStaff.PerformanceAgreementDocRefs
-ArrayOf<CAdministration.documents>* mGetStaff.PerformanceAgreementDocRefs
-ArrayOf<CAdministration.role> mSetStaff.RoleIds
-ArrayOf<CAdministration.role>* mGetStaff.RoleIds
-ArrayOf<CAdministration.images> mSetStaff.ImageRefIds
-ArrayOf<CAdministration.images>* mGetStaff.ImageRefIds
-CRegister.businessChannelOwner mSetStaff.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetStaff.BusinessChannelOwnerId
-const String& mSetServicePurchaseRequest.ServicePurchRequestId
-String* mGetServicePurchaseRequest.ServicePurchRequestId
-const String& mSetServicePurchaseRequest.MRQIdIfRentalProperty
-String* mGetServicePurchaseRequest.MRQIdIfRentalProperty
+ArrayOf<const String&> mSetStaff_DocRefIds
+ArrayOf<String>* mGetStaff_DocRefIds
+ArrayOf<const String&> mSetStaff_ContactedWithDetails
+ArrayOf<String>* mGetStaff_ContactedWithDetails
+CAdministration.role mSetStaff_StaffImmedSuperRoleId
+CAdministration.role* mGetStaff_StaffImmedSuperRoleId
+ArrayOf<CAdministration.documents> mSetStaff_PerformanceAgreementDocRefs
+ArrayOf<CAdministration.documents>* mGetStaff_PerformanceAgreementDocRefs
+ArrayOf<CAdministration.role> mSetStaff_RoleIds
+ArrayOf<CAdministration.role>* mGetStaff_RoleIds
+ArrayOf<CAdministration.images> mSetStaff_ImageRefIds
+ArrayOf<CAdministration.images>* mGetStaff_ImageRefIds
+CRegister.businessChannelOwner mSetStaff_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetStaff_BusinessChannelOwnerId
+const String& mSetServicePurchaseRequest_ServicePurchRequestId
+String* mGetServicePurchaseRequest_ServicePurchRequestId
+const String& mSetServicePurchaseRequest_MRQIdIfRentalProperty
+String* mGetServicePurchaseRequest_MRQIdIfRentalProperty
 Boolean mSetServicePurchaseRequest.DamageCausedByCustomerTenantOthers
 Boolean* mGetServicePurchaseRequest.DamageCausedByCustomerTenantOthers
 Boolean mSetServicePurchaseRequest.OwnerResponsible
 Boolean* mGetServicePurchaseRequest.OwnerResponsible
-ArrayOf<const String&> mSetServicePurchaseRequest.SummaryDescriptionOfProblemItemised
-ArrayOf<String>* mGetServicePurchaseRequest.SummaryDescriptionOfProblemItemised
-ArrayOf<const String&> mSetServicePurchaseRequest.JobTypeSequence
-ArrayOf<String>* mGetServicePurchaseRequest.JobTypeSequence
-ArrayOf<const String&> mSetServicePurchaseRequest.QuoteIdsIn
-ArrayOf<String>* mGetServicePurchaseRequest.QuoteIdsIn
-ArrayOf<Double> mSetServicePurchaseRequest.MostAppropriateQuotesReceived
-ArrayOf<Double>* mGetServicePurchaseRequest.MostAppropriateQuotesReceived
-const String& mSetServicePurchaseRequest.QuotesFinalised
-String* mGetServicePurchaseRequest.QuotesFinalised
-ArrayOf<const String&> mSetServicePurchaseRequest.RequestsToLandlordDocRefs
-ArrayOf<String>* mGetServicePurchaseRequest.RequestsToLandlordDocRefs
-ArrayOf<const String&> mSetServicePurchaseRequest.RequestsSentDates
-ArrayOf<String>* mGetServicePurchaseRequest.RequestsSentDates
-ArrayOf<const String&> mSetServicePurchaseRequest.JobTypeSequenceApproved
-ArrayOf<String>* mGetServicePurchaseRequest.JobTypeSequenceApproved
-ArrayOf<const String&> mSetServicePurchaseRequest.TribunalIds
-ArrayOf<String>* mGetServicePurchaseRequest.TribunalIds
-ArrayOf<const String&> mSetServicePurchaseRequest.JobIds
-ArrayOf<String>* mGetServicePurchaseRequest.JobIds
-ArrayOf<const String&> mSetServicePurchaseRequest.PurchaseOrderIdSequence
-ArrayOf<String>* mGetServicePurchaseRequest.PurchaseOrderIdSequence
-ArrayOf<const String&> mSetServicePurchaseRequest.PurchaseOrderSupplierIdSequence
-ArrayOf<String>* mGetServicePurchaseRequest.PurchaseOrderSupplierIdSequence
-const String& mSetServicePurchaseRequest.ExpectedCompletionDate
-String* mGetServicePurchaseRequest.ExpectedCompletionDate
-ArrayOf<Boolean> mSetServicePurchaseRequest.WorkCheckedPassed
-ArrayOf<Boolean>* mGetServicePurchaseRequest.WorkCheckedPassed
+ArrayOf<const String&> mSetServicePurchaseRequest_SummaryDescriptionOfProblemItemised
+ArrayOf<String>* mGetServicePurchaseRequest_SummaryDescriptionOfProblemItemised
+ArrayOf<const String&> mSetServicePurchaseRequest_JobTypeSequence
+ArrayOf<String>* mGetServicePurchaseRequest_JobTypeSequence
+ArrayOf<const String&> mSetServicePurchaseRequest_QuoteIdsIn
+ArrayOf<String>* mGetServicePurchaseRequest_QuoteIdsIn
+ArrayOf<Double> mSetServicePurchaseRequest_MostAppropriateQuotesReceived
+ArrayOf<Double>* mGetServicePurchaseRequest_MostAppropriateQuotesReceived
+const String& mSetServicePurchaseRequest_QuotesFinalised
+String* mGetServicePurchaseRequest_QuotesFinalised
+ArrayOf<const String&> mSetServicePurchaseRequest_RequestsToLandlordDocRefs
+ArrayOf<String>* mGetServicePurchaseRequest_RequestsToLandlordDocRefs
+ArrayOf<const String&> mSetServicePurchaseRequest_RequestsSentDates
+ArrayOf<String>* mGetServicePurchaseRequest_RequestsSentDates
+ArrayOf<const String&> mSetServicePurchaseRequest_JobTypeSequenceApproved
+ArrayOf<String>* mGetServicePurchaseRequest_JobTypeSequenceApproved
+ArrayOf<const String&> mSetServicePurchaseRequest_TribunalIds
+ArrayOf<String>* mGetServicePurchaseRequest_TribunalIds
+ArrayOf<const String&> mSetServicePurchaseRequest_JobIds
+ArrayOf<String>* mGetServicePurchaseRequest_JobIds
+ArrayOf<const String&> mSetServicePurchaseRequest_PurchaseOrderIdSequence
+ArrayOf<String>* mGetServicePurchaseRequest_PurchaseOrderIdSequence
+ArrayOf<const String&> mSetServicePurchaseRequest_PurchaseOrderSupplierIdSequence
+ArrayOf<String>* mGetServicePurchaseRequest_PurchaseOrderSupplierIdSequence
+const String& mSetServicePurchaseRequest_ExpectedCompletionDate
+String* mGetServicePurchaseRequest_ExpectedCompletionDate
+ArrayOf<Boolean> mSetServicePurchaseRequest_WorkCheckedPassed
+ArrayOf<Boolean>* mGetServicePurchaseRequest_WorkCheckedPassed
 Double mSetServicePurchaseRequest.TotalMaintPurchOrderAmount
-Double* mGetServicePurchaseRequest.TotalMaintPurchOrderAmount
-ArrayOf<Int32> mSetServicePurchaseRequest.MasLedgeFinTxNumsReturned
-ArrayOf<Int32>* mGetServicePurchaseRequest.MasLedgeFinTxNumsReturned
-CRegister.businessChannelOwner mSetServicePurchaseRequest.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetServicePurchaseRequest.BusinessChannelOwnerId
-CProperty.property mSetServicePurchaseRequest.PropertyId
-CProperty.property* mGetServicePurchaseRequest.PropertyId
-CAdministration.branch mSetServicePurchaseRequest.BranchId
-CAdministration.branch* mGetServicePurchaseRequest.BranchId
-CAdministration.department mSetServicePurchaseRequest.DeptId
-CAdministration.department* mGetServicePurchaseRequest.DeptId
-ArrayOf<CSupplier.supplier> mSetServicePurchaseRequest.SupplierIds
-ArrayOf<CSupplier.supplier>* mGetServicePurchaseRequest.SupplierIds
-ArrayOf<CAdministration.itemType> mSetServicePurchaseRequest.ItemTypeIds
-ArrayOf<CAdministration.itemType>* mGetServicePurchaseRequest.ItemTypeIds
-ArrayOf<CAdministration.jobType> mSetServicePurchaseRequest.JobTypeIds
-ArrayOf<CAdministration.jobType>* mGetServicePurchaseRequest.JobTypeIds
-ArrayOf<CAdministration.serviceType> mSetServicePurchaseRequest.ServiceTypeIds
-ArrayOf<CAdministration.serviceType>* mGetServicePurchaseRequest.ServiceTypeIds
-ArrayOf<CAdministration.staff> mSetServicePurchaseRequest.EmployeesRequestingIds
-ArrayOf<CAdministration.staff>* mGetServicePurchaseRequest.EmployeesRequestingIds
-ArrayOf<CAdministration.documents> mSetServicePurchaseRequest.DocRefIds
-ArrayOf<CAdministration.documents>* mGetServicePurchaseRequest.DocRefIds
-ArrayOf<CAdministration.images> mSetServicePurchaseRequest.ImageRefIds
-ArrayOf<CAdministration.images>* mGetServicePurchaseRequest.ImageRefIds
-ArrayOf<CAdministration.audio> mSetServicePurchaseRequest.AudioRefIds
-ArrayOf<CAdministration.audio>* mGetServicePurchaseRequest.AudioRefIds
-const String& mSetTimesheet.TimesheetId
-String* mGetTimesheet.TimesheetId
-ArrayOf<const String&> mSetTimesheet.RosteredStarts
-ArrayOf<String>* mGetTimesheet.RosteredStarts
-ArrayOf<const String&> mSetTimesheet.RosteredFinishes
-ArrayOf<String>* mGetTimesheet.RosteredFinishes
-ArrayOf<const String&> mSetTimesheet.ActualStarts
-ArrayOf<String>* mGetTimesheet.ActualStarts
-ArrayOf<const String&> mSetTimesheet.ActualFinishes
-ArrayOf<String>* mGetTimesheet.ActualFinishes
-const String& mSetTimesheet.Submitted
-String* mGetTimesheet.Submitted
-const String& mSetTimesheet.Checked
-String* mGetTimesheet.Checked
+Double* mGetServicePurchaseRequest_TotalMaintPurchOrderAmount
+ArrayOf<Int32> mSetServicePurchaseRequest_MasLedgeFinTxNumsReturned
+ArrayOf<Int32>* mGetServicePurchaseRequest_MasLedgeFinTxNumsReturned
+CRegister.businessChannelOwner mSetServicePurchaseRequest_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetServicePurchaseRequest_BusinessChannelOwnerId
+CProperty.property mSetServicePurchaseRequest_PropertyId
+CProperty.property* mGetServicePurchaseRequest_PropertyId
+CAdministration.branch mSetServicePurchaseRequest_BranchId
+CAdministration.branch* mGetServicePurchaseRequest_BranchId
+CAdministration.department mSetServicePurchaseRequest_DeptId
+CAdministration.department* mGetServicePurchaseRequest_DeptId
+ArrayOf<CSupplier.supplier> mSetServicePurchaseRequest_SupplierIds
+ArrayOf<CSupplier.supplier>* mGetServicePurchaseRequest_SupplierIds
+ArrayOf<CAdministration.itemType> mSetServicePurchaseRequest_ItemTypeIds
+ArrayOf<CAdministration.itemType>* mGetServicePurchaseRequest_ItemTypeIds
+ArrayOf<CAdministration.jobType> mSetServicePurchaseRequest_JobTypeIds
+ArrayOf<CAdministration.jobType>* mGetServicePurchaseRequest_JobTypeIds
+ArrayOf<CAdministration.serviceType> mSetServicePurchaseRequest_ServiceTypeIds
+ArrayOf<CAdministration.serviceType>* mGetServicePurchaseRequest_ServiceTypeIds
+ArrayOf<CAdministration.staff> mSetServicePurchaseRequest_EmployeesRequestingIds
+ArrayOf<CAdministration.staff>* mGetServicePurchaseRequest_EmployeesRequestingIds
+ArrayOf<CAdministration.documents> mSetServicePurchaseRequest_DocRefIds
+ArrayOf<CAdministration.documents>* mGetServicePurchaseRequest_DocRefIds
+ArrayOf<CAdministration.images> mSetServicePurchaseRequest_ImageRefIds
+ArrayOf<CAdministration.images>* mGetServicePurchaseRequest_ImageRefIds
+ArrayOf<CAdministration.audio> mSetServicePurchaseRequest_AudioRefIds
+ArrayOf<CAdministration.audio>* mGetServicePurchaseRequest_AudioRefIds
+const String& mSetTimesheet_TimesheetId
+String* mGetTimesheet_TimesheetId
+ArrayOf<const String&> mSetTimesheet_RosteredStarts
+ArrayOf<String>* mGetTimesheet_RosteredStarts
+ArrayOf<const String&> mSetTimesheet_RosteredFinishes
+ArrayOf<String>* mGetTimesheet_RosteredFinishes
+ArrayOf<const String&> mSetTimesheet_ActualStarts
+ArrayOf<String>* mGetTimesheet_ActualStarts
+ArrayOf<const String&> mSetTimesheet_ActualFinishes
+ArrayOf<String>* mGetTimesheet_ActualFinishes
+const String& mSetTimesheet_Submitted
+String* mGetTimesheet_Submitted
+const String& mSetTimesheet_Checked
+String* mGetTimesheet_Checked
 Boolean mSetTimesheet.Passed
 Boolean* mGetTimesheet.Passed
-CRegister.businessChannelOwner mSetTimesheet.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetTimesheet.BusinessChannelOwnerId
-ArrayOf<CAdministration.staff> mSetTimesheet.EmployeeIds
-ArrayOf<CAdministration.staff>* mGetTimesheet.EmployeeIds
-ArrayOf<CAdministration.documents> mSetTimesheet.DocRefIds
-ArrayOf<CAdministration.documents>* mGetTimesheet.DocRefIds
-CAdministration.branch mSetTimesheet.BranchId
-CAdministration.branch* mGetTimesheet.BranchId
-const String& mSetWaitQueue.WaitQueueId
-String* mGetWaitQueue.WaitQueueId
-const String& mSetWaitQueue.QueueName
-String* mGetWaitQueue.QueueName
-const String& mSetWaitQueue.QueueCode
-String* mGetWaitQueue.QueueCode
-const String& mSetWaitQueue.QueueDescription
-String* mGetWaitQueue.QueueDescription
-const String& mSetWaitQueue.Notes
-String* mGetWaitQueue.Notes
-CHelper.ausState mSetWaitQueue.AusState
-CHelper.ausState* mGetWaitQueue.AusState
-CRegister.businessChannelOwner mSetWaitQueue.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetWaitQueue.BusinessChannelOwnerId
-ArrayOf<CAdministration.documents> mSetWaitQueue.DocRefIds
-ArrayOf<CAdministration.documents>* mGetWaitQueue.DocRefIds
+CRegister.businessChannelOwner mSetTimesheet_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetTimesheet_BusinessChannelOwnerId
+ArrayOf<CAdministration.staff> mSetTimesheet_EmployeeIds
+ArrayOf<CAdministration.staff>* mGetTimesheet_EmployeeIds
+ArrayOf<CAdministration.documents> mSetTimesheet_DocRefIds
+ArrayOf<CAdministration.documents>* mGetTimesheet_DocRefIds
+CAdministration.branch mSetTimesheet_BranchId
+CAdministration.branch* mGetTimesheet_BranchId
+const String& mSetWaitQueue_WaitQueueId
+String* mGetWaitQueue_WaitQueueId
+const String& mSetWaitQueue_QueueName
+String* mGetWaitQueue_QueueName
+const String& mSetWaitQueue_QueueCode
+String* mGetWaitQueue_QueueCode
+const String& mSetWaitQueue_QueueDescription
+String* mGetWaitQueue_QueueDescription
+const String& mSetWaitQueue_Notes
+String* mGetWaitQueue_Notes
+CHelper.ausState mSetWaitQueue_AusState
+CHelper.ausState* mGetWaitQueue_AusState
+CRegister.businessChannelOwner mSetWaitQueue_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetWaitQueue_BusinessChannelOwnerId
+ArrayOf<CAdministration.documents> mSetWaitQueue_DocRefIds
+ArrayOf<CAdministration.documents>* mGetWaitQueue_DocRefIds
 };
 
 } // ChubbaMorris
