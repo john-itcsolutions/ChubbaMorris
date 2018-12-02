@@ -48,1065 +48,1065 @@ public:
 
     // ICH interface function
     //
-   CARAPI SetAuditorFinancial.AuditorFinancialId(
+   CARAPI SetAuditorFinancial_AuditorFinancialId(
      /* [in] */ const String& CRegulator.auditorFinancial.auditorFinancialId);
 
-    CARAPI GetAuditorFinancial.AuditorFinancialId(
+    CARAPI GetAuditorFinancial_AuditorFinancialId(
      /* [out] */ String* CRegulator.auditorFinancial.auditorFinancialId);
 
-   CARAPI SetAuditorFinancial.Name(
+   CARAPI SetAuditorFinancial_Name(
      /* [in] */ const String& CRegulator.auditorFinancial.name);
 
-    CARAPI GetAuditorFinancial.AuditorFinancialId(
+    CARAPI GetAuditorFinancial_AuditorFinancialId(
      /* [out] */ String* CRegulator.auditorFinancial.auditorFinancialId);
 
-   CARAPI SetAuditorFinancial.ContactFirstNameList(
+   CARAPI SetAuditorFinancial_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.auditorFinancial.contactFirstNameList);
 
-    CARAPI GetAuditorFinancial.ContactFirstNameList(
+    CARAPI GetAuditorFinancial_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.auditorFinancial.contactFirstNameList);
 
 
-   CARAPI SetAuditorFinancial.ContactLastNameList(
+   CARAPI SetAuditorFinancial_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.auditorFinancial.contactLastNameList);
 
-    CARAPI GetAuditorFinancial.ContactLastNameList(
+    CARAPI GetAuditorFinancial_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.auditorFinancial.contactLastNameList);
 
 
-   CARAPI SetAuditorFinancial.StreetAddress(
+   CARAPI SetAuditorFinancial_StreetAddress(
      /* [in] */ const String& CRegulator.auditorFinancial.streetAddress);
 
-    CARAPI GetAuditorFinancial.StreetAddress(
+    CARAPI GetAuditorFinancial_StreetAddress(
      /* [out] */ String* CRegulator.auditorFinancial.streetAddress);
 
 
-   CARAPI SetAuditorFinancial.PostalAddress(
+   CARAPI SetAuditorFinancial_PostalAddress(
      /* [in] */ const String& CRegulator.auditorFinancial.postalAddress);
 
-    CARAPI GetAuditorFinancial.PostalAddress(
+    CARAPI GetAuditorFinancial_PostalAddress(
      /* [out] */ String* CRegulator.auditorFinancial.postalAddress);
 
 
-   CARAPI SetAuditorFinancial.EmailAddresses(
+   CARAPI SetAuditorFinancial_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.auditorFinancial.emailAddresses);
 
-    CARAPI GetAuditorFinancial.EmailAddresses(
+    CARAPI GetAuditorFinancial_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.auditorFinancial.emailAddresses);
 
 
-   CARAPI SetAuditorFinancial.MobilePhone(
+   CARAPI SetAuditorFinancial_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.auditorFinancial.mobilePhone);
 
-    CARAPI GetAuditorFinancial.MobilePhone(
+    CARAPI GetAuditorFinancial_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.auditorFinancial.mobilePhone);
 
 
-   CARAPI SetAuditorFinancial.WorkPhone(
+   CARAPI SetAuditorFinancial_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.auditorFinancial.workPhone);
 
-    CARAPI GetAuditorFinancial.WorkPhone(
+    CARAPI GetAuditorFinancial_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.auditorFinancial.workPhone);
 
 
-   CARAPI SetAuditorFinancial.ContactedWithDetails(
+   CARAPI SetAuditorFinancial_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.auditorFinancial.contactedWithDetails);
 
-    CARAPI GetAuditorFinancial.ContactedWithDetails(
+    CARAPI GetAuditorFinancial_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.auditorFinancial.contactedWithDetails);
 
 
-   CARAPI SetAuditorFinancial.DocRefIds(
+   CARAPI SetAuditorFinancial_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.auditorFinancial.docRefIds);
 
-    CARAPI GetAuditorFinancial.DocRefIds(
+    CARAPI GetAuditorFinancial_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.auditorFinancial.docRefIds);
 
 
-   CARAPI SetAuditorFinancial.BusinessChannelOwnerId(
+   CARAPI SetAuditorFinancial_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.auditorFinancial.businessChannelOwnerId);
 
-    CARAPI GetAuditorFinancial.BusinessChannelOwnerId(
+    CARAPI GetAuditorFinancial_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.auditorFinancial.businessChannelOwnerId);
 
 
-   CARAPI SetSecurityAuditor.SecurityAuditorId(
+   CARAPI SetSecurityAuditor_SecurityAuditorId(
      /* [in] */ const String& CRegulator.securityAuditor.securityAuditorId);
 
-    CARAPI GetSecurityAuditor.SecurityAuditorId(
+    CARAPI GetSecurityAuditor_SecurityAuditorId(
      /* [out] */ String* CRegulator.securityAuditor.securityAuditorId);
 
 
-   CARAPI SetSecurityAuditor.Name(
+   CARAPI SetSecurityAuditor_Name(
      /* [in] */ const String& CRegulator.securityAuditor.name);
 
 
-   CARAPI SetSecurityAuditor.ContactFirstNameList(
+   CARAPI SetSecurityAuditor_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.securityAuditor.contactFirstNameList);
 
-    CARAPI GetSecurityAuditor.ContactFirstNameList(
+    CARAPI GetSecurityAuditor_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.securityAuditor.contactFirstNameList);
 
 
-   CARAPI SetSecurityAuditor.ContactLastNameList(
+   CARAPI SetSecurityAuditor_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.securityAuditor.contactLastNameList);
 
-    CARAPI GetSecurityAuditor.ContactLastNameList(
+    CARAPI GetSecurityAuditor_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.securityAuditor.contactLastNameList);
 
 
-   CARAPI SetSecurityAuditor.StreetAddress(
+   CARAPI SetSecurityAuditor_StreetAddress(
      /* [in] */ const String& CRegulator.securityAuditor.streetAddress);
 
-    CARAPI GetSecurityAuditor.StreetAddress(
+    CARAPI GetSecurityAuditor_StreetAddress(
      /* [out] */ String* CRegulator.securityAuditor.streetAddress);
 
 
-   CARAPI SetSecurityAuditor.PostalAddress(
+   CARAPI SetSecurityAuditor_PostalAddress(
      /* [in] */ const String& CRegulator.securityAuditor.postalAddress);
 
-    CARAPI GetSecurityAuditor.PostalAddress(
+    CARAPI GetSecurityAuditor_PostalAddress(
      /* [out] */ String* CRegulator.securityAuditor.postalAddress);
 
 
-   CARAPI SetSecurityAuditor.EmailAddresses(
+   CARAPI SetSecurityAuditor_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.securityAuditor.emailAddresses);
 
-    CARAPI GetSecurityAuditor.EmailAddresses(
+    CARAPI GetSecurityAuditor_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.securityAuditor.emailAddresses);
 
 
-   CARAPI SetSecurityAuditor.MobilePhone(
+   CARAPI SetSecurityAuditor_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.securityAuditor.mobilePhone);
 
-    CARAPI GetSecurityAuditor.MobilePhone(
+    CARAPI GetSecurityAuditor_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.securityAuditor.mobilePhone);
 
 
-   CARAPI SetSecurityAuditor.WorkPhone(
+   CARAPI SetSecurityAuditor_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.securityAuditor.workPhone);
 
-    CARAPI GetSecurityAuditor.WorkPhone(
+    CARAPI GetSecurityAuditor_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.securityAuditor.workPhone);
 
 
-   CARAPI SetSecurityAuditor.ContactedWithDetails(
+   CARAPI SetSecurityAuditor_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.securityAuditor.contactedWithDetails);
 
-    CARAPI GetSecurityAuditor.ContactedWithDetails(
+    CARAPI GetSecurityAuditor_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.securityAuditor.contactedWithDetails);
 
 
-   CARAPI SetSecurityAuditor.DocRefIds(
+   CARAPI SetSecurityAuditor_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.securityAuditor.docRefIds);
 
-    CARAPI GetSecurityAuditor.DocRefIds(
+    CARAPI GetSecurityAuditor_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.securityAuditor.docRefIds);
 
 
-   CARAPI SetSecurityAuditor.BusinessChannelOwnerId(
+   CARAPI SetSecurityAuditor_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.securityAuditor.businessChannelOwnerId);
 
-    CARAPI GetSecurityAuditor.BusinessChannelOwnerId(
+    CARAPI GetSecurityAuditor_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.securityAuditor.businessChannelOwnerId);
 
 
-   CARAPI SetCommunityHousingRegulator.CommunityHousingRegulatorId(
+   CARAPI SetCommunityHousingRegulator_CommunityHousingRegulatorId(
      /* [in] */ const String& CRegulator.communityHousingRegulator.communityHousingRegulatorId);
 
-    CARAPI GetCommunityHousingRegulator.CommunityHousingRegulatorId(
+    CARAPI GetCommunityHousingRegulator_CommunityHousingRegulatorId(
      /* [out] */ String* CRegulator.communityHousingRegulator.communityHousingRegulatorId);
 
 
-   CARAPI SetCommunityHousingRegulator.AuthorityName(
+   CARAPI SetCommunityHousingRegulator_AuthorityName(
      /* [in] */ const String& CRegulator.communityHousingRegulator.authorityName);
 
-    CARAPI GetCommunityHousingRegulator.AuthorityName(
+    CARAPI GetCommunityHousingRegulator_AuthorityName(
      /* [out] */ String* CRegulator.communityHousingRegulator.authorityName);
 
 
-   CARAPI SetCommunityHousingRegulator.ContactFirstNameList(
+   CARAPI SetCommunityHousingRegulator_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.communityHousingRegulator.contactFirstNameList);
 
-    CARAPI GetCommunityHousingRegulator.ContactFirstNameList(
+    CARAPI GetCommunityHousingRegulator_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.communityHousingRegulator.contactFirstNameList);
 
 
-   CARAPI SetCommunityHousingRegulator.ContactLastNameList(
+   CARAPI SetCommunityHousingRegulator_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.communityHousingRegulator.contactLastNameList);
 
-    CARAPI GetCommunityHousingRegulator.ContactLastNameList(
+    CARAPI GetCommunityHousingRegulator_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.communityHousingRegulator.contactLastNameList);
 
 
-   CARAPI SetCommunityHousingRegulator.StreetAddress(
+   CARAPI SetCommunityHousingRegulator_StreetAddress(
      /* [in] */ const String& CRegulator.communityHousingRegulator.streetAddress);
 
-    CARAPI GetCommunityHousingRegulator.StreetAddress(
+    CARAPI GetCommunityHousingRegulator_StreetAddress(
      /* [out] */ String* CRegulator.communityHousingRegulator.streetAddress);
 
 
-   CARAPI SetCommunityHousingRegulator.PostalAddress(
+   CARAPI SetCommunityHousingRegulator_PostalAddress(
      /* [in] */ const String& CRegulator.communityHousingRegulator.postalAddress);
 
-    CARAPI GetCommunityHousingRegulator.PostalAddress(
+    CARAPI GetCommunityHousingRegulator_PostalAddress(
      /* [out] */ String* CRegulator.communityHousingRegulator.postalAddress);
 
 
-   CARAPI SetCommunityHousingRegulator.EmailAddresses(
+   CARAPI SetCommunityHousingRegulator_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.communityHousingRegulator.emailAddresses);
 
-    CARAPI GetCommunityHousingRegulator.EmailAddresses(
+    CARAPI GetCommunityHousingRegulator_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.communityHousingRegulator.emailAddresses);
 
 
-   CARAPI SetCommunityHousingRegulator.MobilePhone(
+   CARAPI SetCommunityHousingRegulator_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.communityHousingRegulator.mobilePhone);
 
-    CARAPI GetCommunityHousingRegulator.MobilePhone(
+    CARAPI GetCommunityHousingRegulator_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.communityHousingRegulator.mobilePhone);
 
 
-   CARAPI SetCommunityHousingRegulator.WorkPhone(
+   CARAPI SetCommunityHousingRegulator_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.communityHousingRegulator.workPhone);
 
-    CARAPI GetCommunityHousingRegulator.WorkPhone(
+    CARAPI GetCommunityHousingRegulator_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.communityHousingRegulator.workPhone);
 
 
-   CARAPI SetCommunityHousingRegulator.ContactedWithDetails(
+   CARAPI SetCommunityHousingRegulator_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.communityHousingRegulator.contactedWithDetails);
 
-    CARAPI GetCommunityHousingRegulator.ContactedWithDetails(
+    CARAPI GetCommunityHousingRegulator_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.communityHousingRegulator.contactedWithDetails);
 
 
-   CARAPI SetCommunityHousingRegulator.AusStates(
+   CARAPI SetCommunityHousingRegulator_AusStates(
      /* [in] */ ArrayOf<CHelper.ausState> CRegulator.communityHousingRegulator.ausStates);
 
-    CARAPI GetCommunityHousingRegulator.AusStates(
+    CARAPI GetCommunityHousingRegulator_AusStates(
      /* [out, callee] */ ArrayOf<CHelper.ausState>* CRegulator.communityHousingRegulator.ausStates);
 
 
-   CARAPI SetCommunityHousingRegulator.DocRefIds(
+   CARAPI SetCommunityHousingRegulator_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.communityHousingRegulator.docRefIds);
 
-    CARAPI GetCommunityHousingRegulator.DocRefIds(
+    CARAPI GetCommunityHousingRegulator_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.communityHousingRegulator.docRefIds);
 
 
-   CARAPI SetCommunityHousingRegulator.ImageRefIds(
+   CARAPI SetCommunityHousingRegulator_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegulator.communityHousingRegulator.imageRefIds);
 
-    CARAPI GetCommunityHousingRegulator.ImageRefIds(
+    CARAPI GetCommunityHousingRegulator_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegulator.communityHousingRegulator.imageRefIds);
 
 
-   CARAPI SetCommunityHousingRegulator.BusinessChannelOwnerId(
+   CARAPI SetCommunityHousingRegulator_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.communityHousingRegulator.businessChannelOwnerId);
 
-    CARAPI GetCommunityHousingRegulator.BusinessChannelOwnerId(
+    CARAPI GetCommunityHousingRegulator_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.communityHousingRegulator.businessChannelOwnerId);
 
 
 
 
 
-   CARAPI SetRentalBondAuthority.RentalBondAuthorityId(
+   CARAPI SetRentalBondAuthority_RentalBondAuthorityId(
      /* [in] */ const String& CRegulator.rentalBondAuthority.rentalBondAuthorityId);
 
-    CARAPI GetRentalBondAuthority.RentalBondAuthorityId(
+    CARAPI GetRentalBondAuthority_RentalBondAuthorityId(
      /* [out] */ String* CRegulator.rentalBondAuthority.rentalBondAuthorityId);
 
 
-   CARAPI SetRentalBondAuthority.AuthorityName(
+   CARAPI SetRentalBondAuthority_AuthorityName(
      /* [in] */ const String& CRegulator.rentalBondAuthority.authorityName);
 
-    CARAPI GetRentalBondAuthority.AuthorityName(
+    CARAPI GetRentalBondAuthority_AuthorityName(
      /* [out] */ String* CRegulator.rentalBondAuthority.authorityName);
 
 
-   CARAPI SetRentalBondAuthority.AusState(
+   CARAPI SetRentalBondAuthority_AusState(
      /* [in] */ CHelper.ausState CRegulator.rentalBondAuthority.ausState);
 
-    CARAPI GetRentalBondAuthority.AusState(
+    CARAPI GetRentalBondAuthority_AusState(
      /* [out] */ CHelper.ausState* CRegulator.rentalBondAuthority.ausState);
 
 
-   CARAPI SetRentalBondAuthority.ContactFirstNameList(
+   CARAPI SetRentalBondAuthority_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.rentalBondAuthority.contactFirstNameList);
 
-    CARAPI GetRentalBondAuthority.ContactFirstNameList(
+    CARAPI GetRentalBondAuthority_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.rentalBondAuthority.contactFirstNameList);
 
 
-   CARAPI SetRentalBondAuthority.ContactLastNameList(
+   CARAPI SetRentalBondAuthority_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.rentalBondAuthority.contactLastNameList);
 
-    CARAPI GetRentalBondAuthority.ContactLastNameList(
+    CARAPI GetRentalBondAuthority_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.rentalBondAuthority.contactLastNameList);
 
 
-   CARAPI SetRentalBondAuthority.StreetAddress(
+   CARAPI SetRentalBondAuthority_StreetAddress(
      /* [in] */ const String& CRegulator.rentalBondAuthority.streetAddress);
 
-    CARAPI GetRentalBondAuthority.StreetAddress(
+    CARAPI GetRentalBondAuthority_StreetAddress(
      /* [out] */ String* CRegulator.rentalBondAuthority.streetAddress);
 
 
-   CARAPI SetRentalBondAuthority.PostalAddress(
+   CARAPI SetRentalBondAuthority_PostalAddress(
      /* [in] */ const String& CRegulator.rentalBondAuthority.postalAddress);
 
-    CARAPI GetRentalBondAuthority.PostalAddress(
+    CARAPI GetRentalBondAuthority_PostalAddress(
      /* [out] */ String* CRegulator.rentalBondAuthority.postalAddress);
 
 
-   CARAPI SetRentalBondAuthority.EmailAddresses(
+   CARAPI SetRentalBondAuthority_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.rentalBondAuthority.emailAddresses);
 
-    CARAPI GetRentalBondAuthority.EmailAddresses(
+    CARAPI GetRentalBondAuthority_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.rentalBondAuthority.emailAddresses);
 
 
-   CARAPI SetRentalBondAuthority.MobilePhone(
+   CARAPI SetRentalBondAuthority_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.rentalBondAuthority.mobilePhone);
 
-    CARAPI GetRentalBondAuthority.MobilePhone(
+    CARAPI GetRentalBondAuthority_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.rentalBondAuthority.mobilePhone);
 
 
-   CARAPI SetRentalBondAuthority.WorkPhone(
+   CARAPI SetRentalBondAuthority_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.rentalBondAuthority.workPhone);
 
-    CARAPI GetRentalBondAuthority.WorkPhone(
+    CARAPI GetRentalBondAuthority_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.rentalBondAuthority.workPhone);
 
 
-   CARAPI SetRentalBondAuthority.ContactedWithDetails(
+   CARAPI SetRentalBondAuthority_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.rentalBondAuthority.contactedWithDetails);
 
-    CARAPI GetRentalBondAuthority.ContactedWithDetails(
+    CARAPI GetRentalBondAuthority_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.rentalBondAuthority.contactedWithDetails);
 
 
-   CARAPI SetRentalBondAuthority.BusinessChannelOwnerId(
+   CARAPI SetRentalBondAuthority_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.rentalBondAuthority.businessChannelOwnerId);
 
-    CARAPI GetRentalBondAuthority.BusinessChannelOwnerId(
+    CARAPI GetRentalBondAuthority_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.rentalBondAuthority.businessChannelOwnerId);
 
 
-   CARAPI SetRentalBondAuthority.PropertyId(
+   CARAPI SetRentalBondAuthority_PropertyId(
      /* [in] */ CProperty.property CRegulator.rentalBondAuthority.propertyId);
 
-    CARAPI GetRentalBondAuthority.PropertyId(
+    CARAPI GetRentalBondAuthority_PropertyId(
      /* [out] */ CProperty.property* CRegulator.rentalBondAuthority.propertyId);
 
 
-   CARAPI SetRentalBondAuthority.TenancyId(
+   CARAPI SetRentalBondAuthority_TenancyId(
      /* [in] */ CProperty.tenant CRegulator.rentalBondAuthority.tenancyId);
 
-    CARAPI GetRentalBondAuthority.TenancyId(
+    CARAPI GetRentalBondAuthority_TenancyId(
      /* [out] */ CProperty.tenant* CRegulator.rentalBondAuthority.tenancyId);
 
 
-   CARAPI SetRentalBondAuthority.DocRefIds(
+   CARAPI SetRentalBondAuthority_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.rentalBondAuthority.docRefIds);
 
-    CARAPI GetRentalBondAuthority.DocRefIds(
+    CARAPI GetRentalBondAuthority_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.rentalBondAuthority.docRefIds);
 
 
-   CARAPI SetRentalBondAuthority.ImageRefIds(
+   CARAPI SetRentalBondAuthority_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegulator.rentalBondAuthority.imageRefIds);
 
-    CARAPI GetRentalBondAuthority.ImageRefIds(
+    CARAPI GetRentalBondAuthority_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegulator.rentalBondAuthority.imageRefIds);
 
 
-   CARAPI SetATO.ATOId(
+   CARAPI SetATO_ATOId(
      /* [in] */ const String& CRegulator.aTO.ATOId);
 
-    CARAPI GetATO.ATOId(
+    CARAPI GetATO_ATOId(
      /* [out] */ String* CRegulator.aTO.ATOId);
 
 
-   CARAPI SetATO.ContactFirstNameList(
+   CARAPI SetATO_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.aTO.contactFirstNameList);
 
-    CARAPI GetATO.ContactFirstNameList(
+    CARAPI GetATO_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aTO.contactFirstNameList);
 
 
-   CARAPI SetATO.ContactLastNameList(
+   CARAPI SetATO_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.aTO.contactLastNameList);
 
-    CARAPI GetATO.ContactLastNameList(
+    CARAPI GetATO_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aTO.contactLastNameList);
 
 
-   CARAPI SetATO.StreetAddress(
+   CARAPI SetATO_StreetAddress(
      /* [in] */ const String& CRegulator.aTO.streetAddress);
 
-    CARAPI GetATO.StreetAddress(
+    CARAPI GetATO_StreetAddress(
      /* [out] */ String* CRegulator.aTO.streetAddress);
 
 
-   CARAPI SetATO.PostalAddress(
+   CARAPI SetATO_PostalAddress(
      /* [in] */ const String& CRegulator.aTO.postalAddress);
 
-    CARAPI GetATO.PostalAddress(
+    CARAPI GetATO_PostalAddress(
      /* [out] */ String* CRegulator.aTO.postalAddress);
 
 
-   CARAPI SetATO.EmailAddresses(
+   CARAPI SetATO_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.aTO.emailAddresses);
 
-    CARAPI GetATO.EmailAddresses(
+    CARAPI GetATO_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aTO.emailAddresses);
 
 
-   CARAPI SetATO.MobilePhone(
+   CARAPI SetATO_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.aTO.mobilePhone);
 
-    CARAPI GetATO.MobilePhone(
+    CARAPI GetATO_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.aTO.mobilePhone);
 
 
-   CARAPI SetATO.WorkPhone(
+   CARAPI SetATO_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.aTO.workPhone);
 
-    CARAPI GetATO.WorkPhone(
+    CARAPI GetATO_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.aTO.workPhone);
 
 
-   CARAPI SetATO.ContactedWithDetails(
+   CARAPI SetATO_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.aTO.contactedWithDetails);
 
-    CARAPI GetATO.ContactedWithDetails(
+    CARAPI GetATO_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aTO.contactedWithDetails);
 
 
-   CARAPI SetATO.DocRefIds(
+   CARAPI SetATO_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.aTO.docRefIds);
 
-    CARAPI GetATO.DocRefIds(
+    CARAPI GetATO_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.aTO.docRefIds);
 
 
-   CARAPI SetATO.BusinessChannelOwnerId(
+   CARAPI SetATO_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.aTO.businessChannelOwnerId);
 
-    CARAPI GetATO.BusinessChannelOwnerId(
+    CARAPI GetATO_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.aTO.businessChannelOwnerId);
 
 
-   CARAPI SetASIC.ASICId(
+   CARAPI SetASIC_ASICId(
      /* [in] */ const String& CRegulator.aSIC.aSICId);
 
-    CARAPI GetASIC.ASICId(
+    CARAPI GetASIC_ASICId(
      /* [out] */ String* CRegulator.aSIC.aSICId);
 
 
-   CARAPI SetASIC.ContactFirstNameList(
+   CARAPI SetASIC_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.aSIC.contactFirstNameList);
 
-    CARAPI GetASIC.ContactFirstNameList(
+    CARAPI GetASIC_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aSIC.contactFirstNameList);
 
 
-   CARAPI SetASIC.ContactLastNameList(
+   CARAPI SetASIC_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.aSIC.contactLastNameList);
 
-    CARAPI GetASIC.ContactLastNameList(
+    CARAPI GetASIC_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aSIC.contactLastNameList);
 
 
-   CARAPI SetASIC.StreetAddress(
+   CARAPI SetASIC_StreetAddress(
      /* [in] */ const String& CRegulator.aSIC.streetAddress);
 
-    CARAPI GetASIC.StreetAddress(
+    CARAPI GetASIC_StreetAddress(
      /* [out] */ String* CRegulator.aSIC.streetAddress);
 
 
-   CARAPI SetASIC.PostalAddress(
+   CARAPI SetASIC_PostalAddress(
      /* [in] */ const String& CRegulator.aSIC.postalAddress);
 
-    CARAPI GetASIC.PostalAddress(
+    CARAPI GetASIC_PostalAddress(
      /* [out] */ String* CRegulator.aSIC.postalAddress);
 
 
-   CARAPI SetASIC.EmailAddresses(
+   CARAPI SetASIC_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.aSIC.emailAddresses);
 
-    CARAPI GetASIC.EmailAddresses(
+    CARAPI GetASIC_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aSIC.emailAddresses);
 
 
-   CARAPI SetASIC.MobilePhone(
+   CARAPI SetASIC_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.aSIC.mobilePhone);
 
-    CARAPI GetASIC.MobilePhone(
+    CARAPI GetASIC_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.aSIC.mobilePhone);
 
 
-   CARAPI SetASIC.WorkPhone(
+   CARAPI SetASIC_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.aSIC.workPhone);
 
-    CARAPI GetASIC.WorkPhone(
+    CARAPI GetASIC_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.aSIC.workPhone);
 
 
-   CARAPI SetASIC.ContactedWithDetails(
+   CARAPI SetASIC_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.aSIC.contactedWithDetails);
 
-    CARAPI GetASIC.ContactedWithDetails(
+    CARAPI GetASIC_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aSIC.contactedWithDetails);
 
 
-   CARAPI SetASIC.DocRefIds(
+   CARAPI SetASIC_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.aSIC.docRefIds);
 
-    CARAPI GetASIC.DocRefIds(
+    CARAPI GetASIC_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.aSIC.docRefIds);
 
 
-   CARAPI SetASIC.ImageRefIds(
+   CARAPI SetASIC_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegulator.aSIC.imageRefIds);
 
-    CARAPI GetASIC.ImageRefIds(
+    CARAPI GetASIC_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegulator.aSIC.imageRefIds);
 
 
-   CARAPI SetASIC.BusinessChannelOwnerId(
+   CARAPI SetASIC_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.aSIC.businessChannelOwnerId);
 
-    CARAPI GetASIC.BusinessChannelOwnerId(
+    CARAPI GetASIC_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.aSIC.businessChannelOwnerId);
 
 
-   CARAPI SetACNC.ACNCId(
+   CARAPI SetACNC_ACNCId(
      /* [in] */ const String& CRegulator.aCNC.aCNCId);
 
-    CARAPI GetACNC.ACNCId(
+    CARAPI GetACNC_ACNCId(
      /* [out] */ String* CRegulator.aCNC.aCNCId);
 
 
-   CARAPI SetACNC.ContactFirstNameList(
+   CARAPI SetACNC_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.aCNC.contactFirstNameList);
 
-    CARAPI GetACNC.ContactFirstNameList(
+    CARAPI GetACNC_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aCNC.contactFirstNameList);
 
 
-   CARAPI SetACNC.ContactLastNameList(
+   CARAPI SetACNC_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.aCNC.contactLastNameList);
 
-    CARAPI GetACNC.ContactLastNameList(
+    CARAPI GetACNC_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aCNC.contactLastNameList);
 
 
-   CARAPI SetACNC.StreetAddress(
+   CARAPI SetACNC_StreetAddress(
      /* [in] */ const String& CRegulator.aCNC.streetAddress);
 
-    CARAPI GetACNC.StreetAddress(
+    CARAPI GetACNC_StreetAddress(
      /* [out] */ String* CRegulator.aCNC.streetAddress);
 
 
-   CARAPI SetACNC.PostalAddress(
+   CARAPI SetACNC_PostalAddress(
      /* [in] */ const String& CRegulator.aCNC.postalAddress);
 
-    CARAPI GetACNC.PostalAddress(
+    CARAPI GetACNC_PostalAddress(
      /* [out] */ String* CRegulator.aCNC.postalAddress);
 
 
-   CARAPI SetACNC.EmailAddresses(
+   CARAPI SetACNC_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.aCNC.emailAddresses);
 
-    CARAPI GetACNC.EmailAddresses(
+    CARAPI GetACNC_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aCNC.emailAddresses);
 
 
-   CARAPI SetACNC.MobilePhone(
+   CARAPI SetACNC_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.aCNC.mobilePhone);
 
-    CARAPI GetACNC.MobilePhone(
+    CARAPI GetACNC_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.aCNC.mobilePhone);
 
 
-   CARAPI SetACNC.WorkPhone(
+   CARAPI SetACNC_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.aCNC.workPhone);
 
-    CARAPI GetACNC.WorkPhone(
+    CARAPI GetACNC_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.aCNC.workPhone);
 
 
-   CARAPI SetACNC.ContactedWithDetails(
+   CARAPI SetACNC_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.aCNC.contactedWithDetails);
 
-    CARAPI GetACNC.ContactedWithDetails(
+    CARAPI GetACNC_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.aCNC.contactedWithDetails);
 
 
-   CARAPI SetACNC.DocRefIds(
+   CARAPI SetACNC_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.aCNC.docRefIds);
 
-    CARAPI GetACNC.DocRefIds(
+    CARAPI GetACNC_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.aCNC.docRefIds);
 
 
-   CARAPI SetACNC.ImageRefIds(
+   CARAPI SetACNC_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegulator.aCNC.imageRefIds);
 
-    CARAPI GetACNC.ImageRefIds(
+    CARAPI GetACNC_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegulator.aCNC.imageRefIds);
 
 
-   CARAPI SetACNC.BusinessChannelOwnerId(
+   CARAPI SetACNC_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.aCNC.businessChannelOwnerId);
 
-    CARAPI GetACNC.BusinessChannelOwnerId(
+    CARAPI GetACNC_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.aCNC.businessChannelOwnerId);
 
 
-   CARAPI SetNationalRegulator.NatRegId(
+   CARAPI SetNationalRegulator_NatRegId(
      /* [in] */ const String& CRegulator.nationalRegulator.natRegId);
 
-    CARAPI GetNationalRegulator.NatRegId(
+    CARAPI GetNationalRegulator_NatRegId(
      /* [out] */ String* CRegulator.nationalRegulator.natRegId);
 
 
-   CARAPI SetNationalRegulator.NatRegName(
+   CARAPI SetNationalRegulator_NatRegName(
      /* [in] */ const String& CRegulator.nationalRegulator.natRegName);
 
-    CARAPI GetNationalRegulator.NatRegName(
+    CARAPI GetNationalRegulator_NatRegName(
      /* [out] */ String* CRegulator.nationalRegulator.natRegName);
 
 
-   CARAPI SetNationalRegulator.ContactFirstNameList(
+   CARAPI SetNationalRegulator_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.nationalRegulator.contactFirstNameList);
 
-    CARAPI GetNationalRegulator.ContactFirstNameList(
+    CARAPI GetNationalRegulator_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nationalRegulator.contactFirstNameList);
 
 
-   CARAPI SetNationalRegulator.ContactLastNameList(
+   CARAPI SetNationalRegulator_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.nationalRegulator.contactLastNameList);
 
-    CARAPI GetNationalRegulator.ContactLastNameList(
+    CARAPI GetNationalRegulator_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nationalRegulator.contactLastNameList);
 
 
-   CARAPI SetNationalRegulator.StreetAddress(
+   CARAPI SetNationalRegulator_StreetAddress(
      /* [in] */ const String& CRegulator.nationalRegulator.streetAddress);
 
-    CARAPI GetNationalRegulator.StreetAddress(
+    CARAPI GetNationalRegulator_StreetAddress(
      /* [out] */ String* CRegulator.nationalRegulator.streetAddress);
 
 
-   CARAPI SetNationalRegulator.PostalAddress(
+   CARAPI SetNationalRegulator_PostalAddress(
      /* [in] */ const String& CRegulator.nationalRegulator.postalAddress);
 
-    CARAPI GetNationalRegulator.PostalAddress(
+    CARAPI GetNationalRegulator_PostalAddress(
      /* [out] */ String* CRegulator.nationalRegulator.postalAddress);
 
 
-   CARAPI SetNationalRegulator.EmailAddresses(
+   CARAPI SetNationalRegulator_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.nationalRegulator.emailAddresses);
 
-    CARAPI GetNationalRegulator.EmailAddresses(
+    CARAPI GetNationalRegulator_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nationalRegulator.emailAddresses);
 
 
-   CARAPI SetNationalRegulator.MobilePhone(
+   CARAPI SetNationalRegulator_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.nationalRegulator.mobilePhone);
 
-    CARAPI GetNationalRegulator.MobilePhone(
+    CARAPI GetNationalRegulator_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.nationalRegulator.mobilePhone);
 
 
-   CARAPI SetNationalRegulator.WorkPhone(
+   CARAPI SetNationalRegulator_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.nationalRegulator.workPhone);
 
-    CARAPI GetNationalRegulator.WorkPhone(
+    CARAPI GetNationalRegulator_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.nationalRegulator.workPhone);
 
 
-   CARAPI SetNationalRegulator.ContactedWithDetails(
+   CARAPI SetNationalRegulator_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.nationalRegulator.contactedWithDetails);
 
-    CARAPI GetNationalRegulator.ContactedWithDetails(
+    CARAPI GetNationalRegulator_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nationalRegulator.contactedWithDetails);
 
 
-   CARAPI SetNationalRegulator.DocRefIds(
+   CARAPI SetNationalRegulator_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.nationalRegulator.docRefIds);
 
-    CARAPI GetNationalRegulator.DocRefIds(
+    CARAPI GetNationalRegulator_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.nationalRegulator.docRefIds);
 
 
-   CARAPI SetNationalRegulator.ImageRefIds(
+   CARAPI SetNationalRegulator_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegulator.nationalRegulator.imageRefIds);
 
-    CARAPI GetNationalRegulator.ImageRefIds(
+    CARAPI GetNationalRegulator_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegulator.nationalRegulator.imageRefIds);
 
 
-   CARAPI SetNationalRegulator.BusinessChannelOwnerId(
+   CARAPI SetNationalRegulator_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.nationalRegulator.businessChannelOwnerId);
 
-    CARAPI GetNationalRegulator.BusinessChannelOwnerId(
+    CARAPI GetNationalRegulator_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.nationalRegulator.businessChannelOwnerId);
 
 
-   CARAPI SetStateBasedRegulator.StateBasedRegId(
+   CARAPI SetStateBasedRegulator_StateBasedRegId(
      /* [in] */ const String& CRegulator.stateBasedRegulator.stateBasedRegId);
 
-    CARAPI GetStateBasedRegulator.StateBasedRegId(
+    CARAPI GetStateBasedRegulator_StateBasedRegId(
      /* [out] */ String* CRegulator.stateBasedRegulator.stateBasedRegId);
 
 
-   CARAPI SetStateBasedRegulator.StateBasedRegName(
+   CARAPI SetStateBasedRegulator_StateBasedRegName(
      /* [in] */ const String& CRegulator.stateBasedRegulator.stateBasedRegName);
 
-    CARAPI GetStateBasedRegulator.StateBasedRegName(
+    CARAPI GetStateBasedRegulator_StateBasedRegName(
      /* [out] */ String* CRegulator.stateBasedRegulator.stateBasedRegName);
 
 
-   CARAPI SetStateBasedRegulator.AusState(
+   CARAPI SetStateBasedRegulator_AusState(
      /* [in] */ CHelper.ausState CRegulator.stateBasedRegulator.ausState);
 
-    CARAPI GetStateBasedRegulator.AusState(
+    CARAPI GetStateBasedRegulator_AusState(
      /* [out] */ CHelper.ausState* CRegulator.stateBasedRegulator.ausState);
 
 
-   CARAPI SetStateBasedRegulator.ContactFirstNameList(
+   CARAPI SetStateBasedRegulator_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.stateBasedRegulator.contactFirstNameList);
 
-    CARAPI GetStateBasedRegulator.ContactFirstNameList(
+    CARAPI GetStateBasedRegulator_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.stateBasedRegulator.contactFirstNameList);
 
 
-   CARAPI SetStateBasedRegulator.ContactLastNameList(
+   CARAPI SetStateBasedRegulator_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.stateBasedRegulator.contactLastNameList);
 
-    CARAPI GetStateBasedRegulator.ContactLastNameList(
+    CARAPI GetStateBasedRegulator_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.stateBasedRegulator.contactLastNameList);
 
 
-   CARAPI SetStateBasedRegulator.StreetAddress(
+   CARAPI SetStateBasedRegulator_StreetAddress(
      /* [in] */ const String& CRegulator.stateBasedRegulator.streetAddress);
 
-    CARAPI GetStateBasedRegulator.StreetAddress(
+    CARAPI GetStateBasedRegulator_StreetAddress(
      /* [out] */ String* CRegulator.stateBasedRegulator.streetAddress);
 
 
-   CARAPI SetStateBasedRegulator.PostalAddress(
+   CARAPI SetStateBasedRegulator_PostalAddress(
      /* [in] */ const String& CRegulator.stateBasedRegulator.postalAddress);
 
-    CARAPI GetStateBasedRegulator.PostalAddress(
+    CARAPI GetStateBasedRegulator_PostalAddress(
      /* [out] */ String* CRegulator.stateBasedRegulator.postalAddress);
 
 
-   CARAPI SetStateBasedRegulator.EmailAddresses(
+   CARAPI SetStateBasedRegulator_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CRegulator.stateBasedRegulator.emailAddresses);
 
-    CARAPI GetStateBasedRegulator.EmailAddresses(
+    CARAPI GetStateBasedRegulator_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CRegulator.stateBasedRegulator.emailAddresses);
 
 
-   CARAPI SetStateBasedRegulator.MobilePhone(
+   CARAPI SetStateBasedRegulator_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegulator.stateBasedRegulator.mobilePhone);
 
-    CARAPI GetStateBasedRegulator.MobilePhone(
+    CARAPI GetStateBasedRegulator_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.stateBasedRegulator.mobilePhone);
 
 
-   CARAPI SetStateBasedRegulator.WorkPhone(
+   CARAPI SetStateBasedRegulator_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegulator.stateBasedRegulator.workPhone);
 
-    CARAPI GetStateBasedRegulator.WorkPhone(
+    CARAPI GetStateBasedRegulator_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegulator.stateBasedRegulator.workPhone);
 
 
-   CARAPI SetStateBasedRegulator.ContactedWithDetails(
+   CARAPI SetStateBasedRegulator_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.stateBasedRegulator.contactedWithDetails);
 
-    CARAPI GetStateBasedRegulator.ContactedWithDetails(
+    CARAPI GetStateBasedRegulator_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.stateBasedRegulator.contactedWithDetails);
 
 
-   CARAPI SetStateBasedRegulator.DocRefIds(
+   CARAPI SetStateBasedRegulator_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.stateBasedRegulator.docRefIds);
 
-    CARAPI GetStateBasedRegulator.DocRefIds(
+    CARAPI GetStateBasedRegulator_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.stateBasedRegulator.docRefIds);
 
 
-   CARAPI SetStateBasedRegulator.ImageRefIds(
+   CARAPI SetStateBasedRegulator_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegulator.stateBasedRegulator.imageRefIds);
 
-    CARAPI GetStateBasedRegulator.ImageRefIds(
+    CARAPI GetStateBasedRegulator_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegulator.stateBasedRegulator.imageRefIds);
 
 
-   CARAPI SetStateBasedRegulator.BusinessChannelOwnerId(
+   CARAPI SetStateBasedRegulator_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.stateBasedRegulator.businessChannelOwnerId);
 
-    CARAPI GetStateBasedRegulator.BusinessChannelOwnerId(
+    CARAPI GetStateBasedRegulator_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.stateBasedRegulator.businessChannelOwnerId);
 
 
-   CARAPI SetStateLandTitleRegistry.LandTitleRegistryId(
+   CARAPI SetStateLandTitleRegistry_LandTitleRegistryId(
      /* [in] */ const String& CRegulator.stateLandTitleRegistry.landTitleRegistryId);
 
-    CARAPI GetStateLandTitleRegistry.LandTitleRegistryId(
+    CARAPI GetStateLandTitleRegistry_LandTitleRegistryId(
      /* [out] */ String* CRegulator.stateLandTitleRegistry.landTitleRegistryId);
 
 
-   CARAPI SetStateLandTitleRegistry.AuthorityName(
+   CARAPI SetStateLandTitleRegistry_AuthorityName(
      /* [in] */ const String& CRegulator.stateLandTitleRegistry.authorityName);
 
-    CARAPI GetStateLandTitleRegistry.AuthorityName(
+    CARAPI GetStateLandTitleRegistry_AuthorityName(
      /* [out] */ String* CRegulator.stateLandTitleRegistry.authorityName);
 
 
-   CARAPI SetStateLandTitleRegistry.AusState(
+   CARAPI SetStateLandTitleRegistry_AusState(
      /* [in] */ CHelper.ausState CRegulator.stateLandTitleRegistry.ausState);
 
-    CARAPI GetStateLandTitleRegistry.AusState(
+    CARAPI GetStateLandTitleRegistry_AusState(
      /* [out] */ CHelper.ausState* CRegulator.stateLandTitleRegistry.ausState);
 
 
-   CARAPI SetStateLandTitleRegistry.ContactFirstNameList(
+   CARAPI SetStateLandTitleRegistry_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.stateLandTitleRegistry.contactFirstNameList);
 
-    CARAPI GetStateLandTitleRegistry.ContactFirstNameList(
+    CARAPI GetStateLandTitleRegistry_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.stateLandTitleRegistry.contactFirstNameList);
 
 
-   CARAPI SetStateLandTitleRegistry.ContactLastNameList(
+   CARAPI SetStateLandTitleRegistry_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.stateLandTitleRegistry.contactLastNameList);
 
-    CARAPI GetStateLandTitleRegistry.ContactLastNameList(
+    CARAPI GetStateLandTitleRegistry_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.stateLandTitleRegistry.contactLastNameList);
 
 
-   CARAPI SetStateLandTitleRegistry.StreetAddress(
+   CARAPI SetStateLandTitleRegistry_StreetAddress(
      /* [in] */ const String& CRegulator.stateLandTitleRegistry.streetAddress);
 
-    CARAPI GetStateLandTitleRegistry.StreetAddress(
+    CARAPI GetStateLandTitleRegistry_StreetAddress(
      /* [out] */ String* CRegulator.stateLandTitleRegistry.streetAddress);
 
 
-   CARAPI SetStateLandTitleRegistry.PostalAddress(
+   CARAPI SetStateLandTitleRegistry_PostalAddress(
      /* [in] */ const String& CRegulator.stateLandTitleRegistry.postalAddress);
 
-    CARAPI GetStateLandTitleRegistry.PostalAddress(
+    CARAPI GetStateLandTitleRegistry_PostalAddress(
      /* [out] */ String* CRegulator.stateLandTitleRegistry.postalAddress);
 
 
-   CARAPI SetStateLandTitleRegistry.Email(
+   CARAPI SetStateLandTitleRegistry_Email(
      /* [in] */ const String& CRegulator.stateLandTitleRegistry.email);
 
-    CARAPI GetStateLandTitleRegistry.Email(
+    CARAPI GetStateLandTitleRegistry_Email(
      /* [out] */ String* CRegulator.stateLandTitleRegistry.email);
 
 
-   CARAPI SetStateLandTitleRegistry.MobilePhone(
+   CARAPI SetStateLandTitleRegistry_MobilePhone(
      /* [in] */ Int32 CRegulator.stateLandTitleRegistry.mobilePhone);
 
-    CARAPI GetStateLandTitleRegistry.MobilePhone(
+    CARAPI GetStateLandTitleRegistry_MobilePhone(
      /* [out] */ Int32* CRegulator.stateLandTitleRegistry.mobilePhone);
 
 
-   CARAPI SetStateLandTitleRegistry.WorkPhone(
+   CARAPI SetStateLandTitleRegistry_WorkPhone(
      /* [in] */ Int32 CRegulator.stateLandTitleRegistry.workPhone);
 
-    CARAPI GetStateLandTitleRegistry.WorkPhone(
+    CARAPI GetStateLandTitleRegistry_WorkPhone(
      /* [out] */ Int32* CRegulator.stateLandTitleRegistry.workPhone);
 
 
-   CARAPI SetStateLandTitleRegistry.ContactedWithDetails(
+   CARAPI SetStateLandTitleRegistry_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.stateLandTitleRegistry.contactedWithDetails);
 
-    CARAPI GetStateLandTitleRegistry.ContactedWithDetails(
+    CARAPI GetStateLandTitleRegistry_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.stateLandTitleRegistry.contactedWithDetails);
 
 
-   CARAPI SetStateLandTitleRegistry.BusinessChannelOwnerId(
+   CARAPI SetStateLandTitleRegistry_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.stateLandTitleRegistry.businessChannelOwnerId);
 
-    CARAPI GetStateLandTitleRegistry.BusinessChannelOwnerId(
+    CARAPI GetStateLandTitleRegistry_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.stateLandTitleRegistry.businessChannelOwnerId);
 
 
-   CARAPI SetStateLandTitleRegistry.PropertyId(
+   CARAPI SetStateLandTitleRegistry_PropertyId(
      /* [in] */ CProperty.property CRegulator.stateLandTitleRegistry.propertyId);
 
-    CARAPI GetStateLandTitleRegistry.PropertyId(
+    CARAPI GetStateLandTitleRegistry_PropertyId(
      /* [out] */ CProperty.property* CRegulator.stateLandTitleRegistry.propertyId);
 
 
-   CARAPI SetStateLandTitleRegistry.DocRefIds(
+   CARAPI SetStateLandTitleRegistry_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.stateLandTitleRegistry.docRefIds);
 
-    CARAPI GetStateLandTitleRegistry.DocRefIds(
+    CARAPI GetStateLandTitleRegistry_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.stateLandTitleRegistry.docRefIds);
 
 
-   CARAPI SetStateLandTitleRegistry.ImageRefIds(
+   CARAPI SetStateLandTitleRegistry_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegulator.stateLandTitleRegistry.imageRefIds);
 
-    CARAPI GetStateLandTitleRegistry.ImageRefIds(
+    CARAPI GetStateLandTitleRegistry_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegulator.stateLandTitleRegistry.imageRefIds);
 
 
-   CARAPI SetNCAT.TribunalId(
+   CARAPI SetNCAT_TribunalId(
      /* [in] */ const String& CRegulator.nCAT.tribunalId);
 
-    CARAPI GetNCAT.TribunalId(
+    CARAPI GetNCAT_TribunalId(
      /* [out] */ String* CRegulator.nCAT.tribunalId);
 
 
-   CARAPI SetNCAT.AuthorityName(
+   CARAPI SetNCAT_AuthorityName(
      /* [in] */ const String& CRegulator.nCAT.authorityName);
 
-    CARAPI GetNCAT.AuthorityName(
+    CARAPI GetNCAT_AuthorityName(
      /* [out] */ String* CRegulator.nCAT.authorityName);
 
 
-   CARAPI SetNCAT.AusState(
+   CARAPI SetNCAT_AusState(
      /* [in] */ CHelper.ausState CRegulator.nCAT.ausState);
 
-    CARAPI GetNCAT.AusState(
+    CARAPI GetNCAT_AusState(
      /* [out] */ CHelper.ausState* CRegulator.nCAT.ausState);
 
 
-   CARAPI SetNCAT.ContactFirstNameList(
+   CARAPI SetNCAT_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.nCAT.contactFirstNameList);
 
-    CARAPI GetNCAT.ContactFirstNameList(
+    CARAPI GetNCAT_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nCAT.contactFirstNameList);
 
 
-   CARAPI SetNCAT.ContactLastNameList(
+   CARAPI SetNCAT_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegulator.nCAT.contactLastNameList);
 
-    CARAPI GetNCAT.ContactLastNameList(
+    CARAPI GetNCAT_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nCAT.contactLastNameList);
 
 
-   CARAPI SetNCAT.StreetAddress(
+   CARAPI SetNCAT_StreetAddress(
      /* [in] */ const String& CRegulator.nCAT.streetAddress);
 
-    CARAPI GetNCAT.StreetAddress(
+    CARAPI GetNCAT_StreetAddress(
      /* [out] */ String* CRegulator.nCAT.streetAddress);
 
 
-   CARAPI SetNCAT.PostalAddress(
+   CARAPI SetNCAT_PostalAddress(
      /* [in] */ const String& CRegulator.nCAT.postalAddress);
 
-    CARAPI GetNCAT.PostalAddress(
+    CARAPI GetNCAT_PostalAddress(
      /* [out] */ String* CRegulator.nCAT.postalAddress);
 
 
-   CARAPI SetNCAT.Email(
+   CARAPI SetNCAT_Email(
      /* [in] */ const String& CRegulator.nCAT.email);
 
-    CARAPI GetNCAT.Email(
+    CARAPI GetNCAT_Email(
      /* [out] */ String* CRegulator.nCAT.email);
 
 
-   CARAPI SetNCAT.MobilePhone(
+   CARAPI SetNCAT_MobilePhone(
      /* [in] */ Int32 CRegulator.nCAT.mobilePhone);
 
-    CARAPI GetNCAT.MobilePhone(
+    CARAPI GetNCAT_MobilePhone(
      /* [out] */ Int32* CRegulator.nCAT.mobilePhone);
 
 
-   CARAPI SetNCAT.WorkPhone(
+   CARAPI SetNCAT_WorkPhone(
      /* [in] */ Int32 CRegulator.nCAT.workPhone);
 
-    CARAPI GetNCAT.WorkPhone(
+    CARAPI GetNCAT_WorkPhone(
      /* [out] */ Int32* CRegulator.nCAT.workPhone);
 
 
-   CARAPI SetNCAT.CaseDetailsActsResponsesAllegationsRebuttals(
+   CARAPI SetNCAT_CaseDetailsActsResponsesAllegationsRebuttals(
      /* [in] */ ArrayOf<const String&> CRegulator.nCAT.caseDetailsActsResponsesAllegationsRebuttals);
 
-    CARAPI GetNCAT.CaseDetailsActsResponsesAllegationsRebuttals(
+    CARAPI GetNCAT_CaseDetailsActsResponsesAllegationsRebuttals(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nCAT.caseDetailsActsResponsesAllegationsRebuttals);
 
 
-   CARAPI SetNCAT.DateTimeDetailsInChronologicalOrder(
+   CARAPI SetNCAT_DateTimeDetailsInChronologicalOrder(
      /* [in] */ ArrayOf<const String&> CRegulator.nCAT.dateTimeDetailsInChronologicalOrder);
 
-    CARAPI GetNCAT.DateTimeDetailsInChronologicalOrder(
+    CARAPI GetNCAT_DateTimeDetailsInChronologicalOrder(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nCAT.dateTimeDetailsInChronologicalOrder);
 
 
-   CARAPI SetNCAT.AdjournedOn(
+   CARAPI SetNCAT_AdjournedOn(
      /* [in] */ ArrayOf<const String&> CRegulator.nCAT.adjournedOn);
 
-    CARAPI GetNCAT.AdjournedOn(
+    CARAPI GetNCAT_AdjournedOn(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nCAT.adjournedOn);
 
 
-   CARAPI SetNCAT.AdjournedUntil(
+   CARAPI SetNCAT_AdjournedUntil(
      /* [in] */ ArrayOf<const String&> CRegulator.nCAT.adjournedUntil);
 
-    CARAPI GetNCAT.AdjournedUntil(
+    CARAPI GetNCAT_AdjournedUntil(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nCAT.adjournedUntil);
 
 
-   CARAPI SetNCAT.ContactedWithDetails(
+   CARAPI SetNCAT_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegulator.nCAT.contactedWithDetails);
 
-    CARAPI GetNCAT.ContactedWithDetails(
+    CARAPI GetNCAT_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegulator.nCAT.contactedWithDetails);
 
 
-   CARAPI SetNCAT.BusinessChannelOwnerId(
+   CARAPI SetNCAT_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CRegulator.nCAT.businessChannelOwnerId);
 
-    CARAPI GetNCAT.BusinessChannelOwnerId(
+    CARAPI GetNCAT_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CRegulator.nCAT.businessChannelOwnerId);
 
 
-   CARAPI SetNCAT.PropertyId(
+   CARAPI SetNCAT_PropertyId(
      /* [in] */ CProperty.property CRegulator.nCAT.propertyId);
 
-    CARAPI GetNCAT.PropertyId(
+    CARAPI GetNCAT_PropertyId(
      /* [out] */ CProperty.property* CRegulator.nCAT.propertyId);
 
 
-   CARAPI SetNCAT.TenancyId(
+   CARAPI SetNCAT_TenancyId(
      /* [in] */ CProperty.tenant CRegulator.nCAT.tenancyId);
 
-    CARAPI GetNCAT.TenancyId(
+    CARAPI GetNCAT_TenancyId(
      /* [out] */ CProperty.tenant* CRegulator.nCAT.tenancyId);
 
 
-   CARAPI SetNCAT.BranchId(
+   CARAPI SetNCAT_BranchId(
      /* [in] */ CAdministration.branch CRegulator.nCAT.branchId);
 
-    CARAPI GetNCAT.BranchId(
+    CARAPI GetNCAT_BranchId(
      /* [out] */ CAdministration.branch* CRegulator.nCAT.branchId);
 
 
-   CARAPI SetNCAT.DocRefIds(
+   CARAPI SetNCAT_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegulator.nCAT.docRefIds);
 
-    CARAPI GetNCAT.DocRefIds(
+    CARAPI GetNCAT_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegulator.nCAT.docRefIds);
 
 
-   CARAPI SetNCAT.ImageRefIds(
+   CARAPI SetNCAT_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegulator.nCAT.imageRefIds);
 
-    CARAPI GetNCAT.ImageRefIds(
+    CARAPI GetNCAT_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegulator.nCAT.imageRefIds);
  
  
@@ -1114,309 +1114,309 @@ public:
 
 protected:
     // Member variables
-const String& mSetAuditorFinancial.AuditorFinancialId
-String* mGetAuditorFinancial.AuditorFinancialId
-const String& mSetAuditorFinancial.Name
-String* mGetAuditorFinancial.AuditorFinancialId
-ArrayOf<const String&> mSetAuditorFinancial.ContactFirstNameList
-ArrayOf<String>* mGetAuditorFinancial.ContactFirstNameList
-ArrayOf<const String&> mSetAuditorFinancial.ContactLastNameList
-ArrayOf<String>* mGetAuditorFinancial.ContactLastNameList
-const String& mSetAuditorFinancial.StreetAddress
-String* mGetAuditorFinancial.StreetAddress
-const String& mSetAuditorFinancial.PostalAddress
-String* mGetAuditorFinancial.PostalAddress
-ArrayOf<const String&> mSetAuditorFinancial.EmailAddresses
-ArrayOf<String>* mGetAuditorFinancial.EmailAddresses
-ArrayOf<Int32> mSetAuditorFinancial.MobilePhone
-ArrayOf<Int32>* mGetAuditorFinancial.MobilePhone
-ArrayOf<Int32> mSetAuditorFinancial.WorkPhone
-ArrayOf<Int32>* mGetAuditorFinancial.WorkPhone
-ArrayOf<const String&> mSetAuditorFinancial.ContactedWithDetails
-ArrayOf<String>* mGetAuditorFinancial.ContactedWithDetails
-ArrayOf<CAdministration.documents> mSetAuditorFinancial.DocRefIds
-ArrayOf<CAdministration.documents>* mGetAuditorFinancial.DocRefIds
-CRegister.businessChannelOwner mSetAuditorFinancial.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetAuditorFinancial.BusinessChannelOwnerId
-const String& mSetSecurityAuditor.SecurityAuditorId
-String* mGetSecurityAuditor.SecurityAuditorId
-const String& mSetSecurityAuditor.Name
-ArrayOf<const String&> mSetSecurityAuditor.ContactFirstNameList
-ArrayOf<String>* mGetSecurityAuditor.ContactFirstNameList
-ArrayOf<const String&> mSetSecurityAuditor.ContactLastNameList
-ArrayOf<String>* mGetSecurityAuditor.ContactLastNameList
-const String& mSetSecurityAuditor.StreetAddress
-String* mGetSecurityAuditor.StreetAddress
-const String& mSetSecurityAuditor.PostalAddress
-String* mGetSecurityAuditor.PostalAddress
-ArrayOf<const String&> mSetSecurityAuditor.EmailAddresses
-ArrayOf<String>* mGetSecurityAuditor.EmailAddresses
-ArrayOf<Int32> mSetSecurityAuditor.MobilePhone
-ArrayOf<Int32>* mGetSecurityAuditor.MobilePhone
-ArrayOf<Int32> mSetSecurityAuditor.WorkPhone
-ArrayOf<Int32>* mGetSecurityAuditor.WorkPhone
-ArrayOf<const String&> mSetSecurityAuditor.ContactedWithDetails
-ArrayOf<String>* mGetSecurityAuditor.ContactedWithDetails
-ArrayOf<CAdministration.documents> mSetSecurityAuditor.DocRefIds
-ArrayOf<CAdministration.documents>* mGetSecurityAuditor.DocRefIds
-CRegister.businessChannelOwner mSetSecurityAuditor.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetSecurityAuditor.BusinessChannelOwnerId
-const String& mSetCommunityHousingRegulator.CommunityHousingRegulatorId
-String* mGetCommunityHousingRegulator.CommunityHousingRegulatorId
-const String& mSetCommunityHousingRegulator.AuthorityName
-String* mGetCommunityHousingRegulator.AuthorityName
-ArrayOf<const String&> mSetCommunityHousingRegulator.ContactFirstNameList
-ArrayOf<String>* mGetCommunityHousingRegulator.ContactFirstNameList
-ArrayOf<const String&> mSetCommunityHousingRegulator.ContactLastNameList
-ArrayOf<String>* mGetCommunityHousingRegulator.ContactLastNameList
-const String& mSetCommunityHousingRegulator.StreetAddress
-String* mGetCommunityHousingRegulator.StreetAddress
-const String& mSetCommunityHousingRegulator.PostalAddress
-String* mGetCommunityHousingRegulator.PostalAddress
-ArrayOf<const String&> mSetCommunityHousingRegulator.EmailAddresses
-ArrayOf<String>* mGetCommunityHousingRegulator.EmailAddresses
-ArrayOf<Int32> mSetCommunityHousingRegulator.MobilePhone
-ArrayOf<Int32>* mGetCommunityHousingRegulator.MobilePhone
-ArrayOf<Int32> mSetCommunityHousingRegulator.WorkPhone
-ArrayOf<Int32>* mGetCommunityHousingRegulator.WorkPhone
-ArrayOf<const String&> mSetCommunityHousingRegulator.ContactedWithDetails
-ArrayOf<String>* mGetCommunityHousingRegulator.ContactedWithDetails
-ArrayOf<CHelper.ausState> mSetCommunityHousingRegulator.AusStates
-ArrayOf<CHelper.ausState>* mGetCommunityHousingRegulator.AusStates
-ArrayOf<CAdministration.documents> mSetCommunityHousingRegulator.DocRefIds
-ArrayOf<CAdministration.documents>* mGetCommunityHousingRegulator.DocRefIds
-ArrayOf<CAdministration.images> mSetCommunityHousingRegulator.ImageRefIds
-ArrayOf<CAdministration.images>* mGetCommunityHousingRegulator.ImageRefIds
-CRegister.businessChannelOwner mSetCommunityHousingRegulator.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetCommunityHousingRegulator.BusinessChannelOwnerId
-const String& mSetRentalBondAuthority.RentalBondAuthorityId
-String* mGetRentalBondAuthority.RentalBondAuthorityId
-const String& mSetRentalBondAuthority.AuthorityName
-String* mGetRentalBondAuthority.AuthorityName
-CHelper.ausState mSetRentalBondAuthority.AusState
-CHelper.ausState* mGetRentalBondAuthority.AusState
-ArrayOf<const String&> mSetRentalBondAuthority.ContactFirstNameList
-ArrayOf<String>* mGetRentalBondAuthority.ContactFirstNameList
-ArrayOf<const String&> mSetRentalBondAuthority.ContactLastNameList
-ArrayOf<String>* mGetRentalBondAuthority.ContactLastNameList
-const String& mSetRentalBondAuthority.StreetAddress
-String* mGetRentalBondAuthority.StreetAddress
-const String& mSetRentalBondAuthority.PostalAddress
-String* mGetRentalBondAuthority.PostalAddress
-ArrayOf<const String&> mSetRentalBondAuthority.EmailAddresses
-ArrayOf<String>* mGetRentalBondAuthority.EmailAddresses
-ArrayOf<Int32> mSetRentalBondAuthority.MobilePhone
-ArrayOf<Int32>* mGetRentalBondAuthority.MobilePhone
-ArrayOf<Int32> mSetRentalBondAuthority.WorkPhone
-ArrayOf<Int32>* mGetRentalBondAuthority.WorkPhone
-ArrayOf<const String&> mSetRentalBondAuthority.ContactedWithDetails
-ArrayOf<String>* mGetRentalBondAuthority.ContactedWithDetails
-CRegister.businessChannelOwner mSetRentalBondAuthority.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetRentalBondAuthority.BusinessChannelOwnerId
-CProperty.property mSetRentalBondAuthority.PropertyId
-CProperty.property* mGetRentalBondAuthority.PropertyId
-CProperty.tenant mSetRentalBondAuthority.TenancyId
-CProperty.tenant* mGetRentalBondAuthority.TenancyId
-ArrayOf<CAdministration.documents> mSetRentalBondAuthority.DocRefIds
-ArrayOf<CAdministration.documents>* mGetRentalBondAuthority.DocRefIds
-ArrayOf<CAdministration.images> mSetRentalBondAuthority.ImageRefIds
-ArrayOf<CAdministration.images>* mGetRentalBondAuthority.ImageRefIds
-const String& mSetATO.ATOId
-String* mGetATO.ATOId
-ArrayOf<const String&> mSetATO.ContactFirstNameList
-ArrayOf<String>* mGetATO.ContactFirstNameList
-ArrayOf<const String&> mSetATO.ContactLastNameList
-ArrayOf<String>* mGetATO.ContactLastNameList
-const String& mSetATO.StreetAddress
-String* mGetATO.StreetAddress
-const String& mSetATO.PostalAddress
-String* mGetATO.PostalAddress
-ArrayOf<const String&> mSetATO.EmailAddresses
-ArrayOf<String>* mGetATO.EmailAddresses
-ArrayOf<Int32> mSetATO.MobilePhone
-ArrayOf<Int32>* mGetATO.MobilePhone
-ArrayOf<Int32> mSetATO.WorkPhone
-ArrayOf<Int32>* mGetATO.WorkPhone
-ArrayOf<const String&> mSetATO.ContactedWithDetails
-ArrayOf<String>* mGetATO.ContactedWithDetails
-ArrayOf<CAdministration.documents> mSetATO.DocRefIds
-ArrayOf<CAdministration.documents>* mGetATO.DocRefIds
-CRegister.businessChannelOwner mSetATO.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetATO.BusinessChannelOwnerId
-const String& mSetASIC.ASICId
-String* mGetASIC.ASICId
-ArrayOf<const String&> mSetASIC.ContactFirstNameList
-ArrayOf<String>* mGetASIC.ContactFirstNameList
-ArrayOf<const String&> mSetASIC.ContactLastNameList
-ArrayOf<String>* mGetASIC.ContactLastNameList
-const String& mSetASIC.StreetAddress
-String* mGetASIC.StreetAddress
-const String& mSetASIC.PostalAddress
-String* mGetASIC.PostalAddress
-ArrayOf<const String&> mSetASIC.EmailAddresses
-ArrayOf<String>* mGetASIC.EmailAddresses
-ArrayOf<Int32> mSetASIC.MobilePhone
-ArrayOf<Int32>* mGetASIC.MobilePhone
-ArrayOf<Int32> mSetASIC.WorkPhone
-ArrayOf<Int32>* mGetASIC.WorkPhone
-ArrayOf<const String&> mSetASIC.ContactedWithDetails
-ArrayOf<String>* mGetASIC.ContactedWithDetails
-ArrayOf<CAdministration.documents> mSetASIC.DocRefIds
-ArrayOf<CAdministration.documents>* mGetASIC.DocRefIds
-ArrayOf<CAdministration.images> mSetASIC.ImageRefIds
-ArrayOf<CAdministration.images>* mGetASIC.ImageRefIds
-CRegister.businessChannelOwner mSetASIC.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetASIC.BusinessChannelOwnerId
-const String& mSetACNC.ACNCId
-String* mGetACNC.ACNCId
-ArrayOf<const String&> mSetACNC.ContactFirstNameList
-ArrayOf<String>* mGetACNC.ContactFirstNameList
-ArrayOf<const String&> mSetACNC.ContactLastNameList
-ArrayOf<String>* mGetACNC.ContactLastNameList
-const String& mSetACNC.StreetAddress
-String* mGetACNC.StreetAddress
-const String& mSetACNC.PostalAddress
-String* mGetACNC.PostalAddress
-ArrayOf<const String&> mSetACNC.EmailAddresses
-ArrayOf<String>* mGetACNC.EmailAddresses
-ArrayOf<Int32> mSetACNC.MobilePhone
-ArrayOf<Int32>* mGetACNC.MobilePhone
-ArrayOf<Int32> mSetACNC.WorkPhone
-ArrayOf<Int32>* mGetACNC.WorkPhone
-ArrayOf<const String&> mSetACNC.ContactedWithDetails
-ArrayOf<String>* mGetACNC.ContactedWithDetails
-ArrayOf<CAdministration.documents> mSetACNC.DocRefIds
-ArrayOf<CAdministration.documents>* mGetACNC.DocRefIds
-ArrayOf<CAdministration.images> mSetACNC.ImageRefIds
-ArrayOf<CAdministration.images>* mGetACNC.ImageRefIds
-CRegister.businessChannelOwner mSetACNC.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetACNC.BusinessChannelOwnerId
-const String& mSetNationalRegulator.NatRegId
-String* mGetNationalRegulator.NatRegId
-const String& mSetNationalRegulator.NatRegName
-String* mGetNationalRegulator.NatRegName
-ArrayOf<const String&> mSetNationalRegulator.ContactFirstNameList
-ArrayOf<String>* mGetNationalRegulator.ContactFirstNameList
-ArrayOf<const String&> mSetNationalRegulator.ContactLastNameList
-ArrayOf<String>* mGetNationalRegulator.ContactLastNameList
-const String& mSetNationalRegulator.StreetAddress
-String* mGetNationalRegulator.StreetAddress
-const String& mSetNationalRegulator.PostalAddress
-String* mGetNationalRegulator.PostalAddress
-ArrayOf<const String&> mSetNationalRegulator.EmailAddresses
-ArrayOf<String>* mGetNationalRegulator.EmailAddresses
-ArrayOf<Int32> mSetNationalRegulator.MobilePhone
-ArrayOf<Int32>* mGetNationalRegulator.MobilePhone
-ArrayOf<Int32> mSetNationalRegulator.WorkPhone
-ArrayOf<Int32>* mGetNationalRegulator.WorkPhone
-ArrayOf<const String&> mSetNationalRegulator.ContactedWithDetails
-ArrayOf<String>* mGetNationalRegulator.ContactedWithDetails
-ArrayOf<CAdministration.documents> mSetNationalRegulator.DocRefIds
-ArrayOf<CAdministration.documents>* mGetNationalRegulator.DocRefIds
-ArrayOf<CAdministration.images> mSetNationalRegulator.ImageRefIds
-ArrayOf<CAdministration.images>* mGetNationalRegulator.ImageRefIds
-CRegister.businessChannelOwner mSetNationalRegulator.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetNationalRegulator.BusinessChannelOwnerId
-const String& mSetStateBasedRegulator.StateBasedRegId
-String* mGetStateBasedRegulator.StateBasedRegId
-const String& mSetStateBasedRegulator.StateBasedRegName
-String* mGetStateBasedRegulator.StateBasedRegName
-CHelper.ausState mSetStateBasedRegulator.AusState
-CHelper.ausState* mGetStateBasedRegulator.AusState
-ArrayOf<const String&> mSetStateBasedRegulator.ContactFirstNameList
-ArrayOf<String>* mGetStateBasedRegulator.ContactFirstNameList
-ArrayOf<const String&> mSetStateBasedRegulator.ContactLastNameList
-ArrayOf<String>* mGetStateBasedRegulator.ContactLastNameList
-const String& mSetStateBasedRegulator.StreetAddress
-String* mGetStateBasedRegulator.StreetAddress
-const String& mSetStateBasedRegulator.PostalAddress
-String* mGetStateBasedRegulator.PostalAddress
-ArrayOf<const String&> mSetStateBasedRegulator.EmailAddresses
-ArrayOf<String>* mGetStateBasedRegulator.EmailAddresses
-ArrayOf<Int32> mSetStateBasedRegulator.MobilePhone
-ArrayOf<Int32>* mGetStateBasedRegulator.MobilePhone
-ArrayOf<Int32> mSetStateBasedRegulator.WorkPhone
-ArrayOf<Int32>* mGetStateBasedRegulator.WorkPhone
-ArrayOf<const String&> mSetStateBasedRegulator.ContactedWithDetails
-ArrayOf<String>* mGetStateBasedRegulator.ContactedWithDetails
-ArrayOf<CAdministration.documents> mSetStateBasedRegulator.DocRefIds
-ArrayOf<CAdministration.documents>* mGetStateBasedRegulator.DocRefIds
-ArrayOf<CAdministration.images> mSetStateBasedRegulator.ImageRefIds
-ArrayOf<CAdministration.images>* mGetStateBasedRegulator.ImageRefIds
-CRegister.businessChannelOwner mSetStateBasedRegulator.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetStateBasedRegulator.BusinessChannelOwnerId
-const String& mSetStateLandTitleRegistry.LandTitleRegistryId
-String* mGetStateLandTitleRegistry.LandTitleRegistryId
-const String& mSetStateLandTitleRegistry.AuthorityName
-String* mGetStateLandTitleRegistry.AuthorityName
-CHelper.ausState mSetStateLandTitleRegistry.AusState
-CHelper.ausState* mGetStateLandTitleRegistry.AusState
-ArrayOf<const String&> mSetStateLandTitleRegistry.ContactFirstNameList
-ArrayOf<String>* mGetStateLandTitleRegistry.ContactFirstNameList
-ArrayOf<const String&> mSetStateLandTitleRegistry.ContactLastNameList
-ArrayOf<String>* mGetStateLandTitleRegistry.ContactLastNameList
-const String& mSetStateLandTitleRegistry.StreetAddress
-String* mGetStateLandTitleRegistry.StreetAddress
-const String& mSetStateLandTitleRegistry.PostalAddress
-String* mGetStateLandTitleRegistry.PostalAddress
-const String& mSetStateLandTitleRegistry.Email
-String* mGetStateLandTitleRegistry.Email
-Int32 mSetStateLandTitleRegistry.MobilePhone
-Int32* mGetStateLandTitleRegistry.MobilePhone
-Int32 mSetStateLandTitleRegistry.WorkPhone
-Int32* mGetStateLandTitleRegistry.WorkPhone
-ArrayOf<const String&> mSetStateLandTitleRegistry.ContactedWithDetails
-ArrayOf<String>* mGetStateLandTitleRegistry.ContactedWithDetails
-CRegister.businessChannelOwner mSetStateLandTitleRegistry.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetStateLandTitleRegistry.BusinessChannelOwnerId
-CProperty.property mSetStateLandTitleRegistry.PropertyId
-CProperty.property* mGetStateLandTitleRegistry.PropertyId
-ArrayOf<CAdministration.documents> mSetStateLandTitleRegistry.DocRefIds
-ArrayOf<CAdministration.documents>* mGetStateLandTitleRegistry.DocRefIds
-ArrayOf<CAdministration.images> mSetStateLandTitleRegistry.ImageRefIds
-ArrayOf<CAdministration.images>* mGetStateLandTitleRegistry.ImageRefIds
-const String& mSetNCAT.TribunalId
-String* mGetNCAT.TribunalId
-const String& mSetNCAT.AuthorityName
-String* mGetNCAT.AuthorityName
-CHelper.ausState mSetNCAT.AusState
-CHelper.ausState* mGetNCAT.AusState
-ArrayOf<const String&> mSetNCAT.ContactFirstNameList
-ArrayOf<String>* mGetNCAT.ContactFirstNameList
-ArrayOf<const String&> mSetNCAT.ContactLastNameList
-ArrayOf<String>* mGetNCAT.ContactLastNameList
-const String& mSetNCAT.StreetAddress
-String* mGetNCAT.StreetAddress
-const String& mSetNCAT.PostalAddress
-String* mGetNCAT.PostalAddress
-const String& mSetNCAT.Email
-String* mGetNCAT.Email
-Int32 mSetNCAT.MobilePhone
-Int32* mGetNCAT.MobilePhone
-Int32 mSetNCAT.WorkPhone
-Int32* mGetNCAT.WorkPhone
-ArrayOf<const String&> mSetNCAT.CaseDetailsActsResponsesAllegationsRebuttals
-ArrayOf<String>* mGetNCAT.CaseDetailsActsResponsesAllegationsRebuttals
-ArrayOf<const String&> mSetNCAT.DateTimeDetailsInChronologicalOrder
-ArrayOf<String>* mGetNCAT.DateTimeDetailsInChronologicalOrder
-ArrayOf<const String&> mSetNCAT.AdjournedOn
-ArrayOf<String>* mGetNCAT.AdjournedOn
-ArrayOf<const String&> mSetNCAT.AdjournedUntil
-ArrayOf<String>* mGetNCAT.AdjournedUntil
-ArrayOf<const String&> mSetNCAT.ContactedWithDetails
-ArrayOf<String>* mGetNCAT.ContactedWithDetails
-CRegister.businessChannelOwner mSetNCAT.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetNCAT.BusinessChannelOwnerId
-CProperty.property mSetNCAT.PropertyId
-CProperty.property* mGetNCAT.PropertyId
-CProperty.tenant mSetNCAT.TenancyId
-CProperty.tenant* mGetNCAT.TenancyId
-CAdministration.branch mSetNCAT.BranchId
-CAdministration.branch* mGetNCAT.BranchId
-ArrayOf<CAdministration.documents> mSetNCAT.DocRefIds
-ArrayOf<CAdministration.documents>* mGetNCAT.DocRefIds
-ArrayOf<CAdministration.images> mSetNCAT.ImageRefIds
-ArrayOf<CAdministration.images>* mGetNCAT.ImageRefIds
+const String& mSetAuditorFinancial_AuditorFinancialId
+String* mGetAuditorFinancial_AuditorFinancialId
+const String& mSetAuditorFinancial_Name
+String* mGetAuditorFinancial_AuditorFinancialId
+ArrayOf<const String&> mSetAuditorFinancial_ContactFirstNameList
+ArrayOf<String>* mGetAuditorFinancial_ContactFirstNameList
+ArrayOf<const String&> mSetAuditorFinancial_ContactLastNameList
+ArrayOf<String>* mGetAuditorFinancial_ContactLastNameList
+const String& mSetAuditorFinancial_StreetAddress
+String* mGetAuditorFinancial_StreetAddress
+const String& mSetAuditorFinancial_PostalAddress
+String* mGetAuditorFinancial_PostalAddress
+ArrayOf<const String&> mSetAuditorFinancial_EmailAddresses
+ArrayOf<String>* mGetAuditorFinancial_EmailAddresses
+ArrayOf<Int32> mSetAuditorFinancial_MobilePhone
+ArrayOf<Int32>* mGetAuditorFinancial_MobilePhone
+ArrayOf<Int32> mSetAuditorFinancial_WorkPhone
+ArrayOf<Int32>* mGetAuditorFinancial_WorkPhone
+ArrayOf<const String&> mSetAuditorFinancial_ContactedWithDetails
+ArrayOf<String>* mGetAuditorFinancial_ContactedWithDetails
+ArrayOf<CAdministration.documents> mSetAuditorFinancial_DocRefIds
+ArrayOf<CAdministration.documents>* mGetAuditorFinancial_DocRefIds
+CRegister.businessChannelOwner mSetAuditorFinancial_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetAuditorFinancial_BusinessChannelOwnerId
+const String& mSetSecurityAuditor_SecurityAuditorId
+String* mGetSecurityAuditor_SecurityAuditorId
+const String& mSetSecurityAuditor_Name
+ArrayOf<const String&> mSetSecurityAuditor_ContactFirstNameList
+ArrayOf<String>* mGetSecurityAuditor_ContactFirstNameList
+ArrayOf<const String&> mSetSecurityAuditor_ContactLastNameList
+ArrayOf<String>* mGetSecurityAuditor_ContactLastNameList
+const String& mSetSecurityAuditor_StreetAddress
+String* mGetSecurityAuditor_StreetAddress
+const String& mSetSecurityAuditor_PostalAddress
+String* mGetSecurityAuditor_PostalAddress
+ArrayOf<const String&> mSetSecurityAuditor_EmailAddresses
+ArrayOf<String>* mGetSecurityAuditor_EmailAddresses
+ArrayOf<Int32> mSetSecurityAuditor_MobilePhone
+ArrayOf<Int32>* mGetSecurityAuditor_MobilePhone
+ArrayOf<Int32> mSetSecurityAuditor_WorkPhone
+ArrayOf<Int32>* mGetSecurityAuditor_WorkPhone
+ArrayOf<const String&> mSetSecurityAuditor_ContactedWithDetails
+ArrayOf<String>* mGetSecurityAuditor_ContactedWithDetails
+ArrayOf<CAdministration.documents> mSetSecurityAuditor_DocRefIds
+ArrayOf<CAdministration.documents>* mGetSecurityAuditor_DocRefIds
+CRegister.businessChannelOwner mSetSecurityAuditor_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetSecurityAuditor_BusinessChannelOwnerId
+const String& mSetCommunityHousingRegulator_CommunityHousingRegulatorId
+String* mGetCommunityHousingRegulator_CommunityHousingRegulatorId
+const String& mSetCommunityHousingRegulator_AuthorityName
+String* mGetCommunityHousingRegulator_AuthorityName
+ArrayOf<const String&> mSetCommunityHousingRegulator_ContactFirstNameList
+ArrayOf<String>* mGetCommunityHousingRegulator_ContactFirstNameList
+ArrayOf<const String&> mSetCommunityHousingRegulator_ContactLastNameList
+ArrayOf<String>* mGetCommunityHousingRegulator_ContactLastNameList
+const String& mSetCommunityHousingRegulator_StreetAddress
+String* mGetCommunityHousingRegulator_StreetAddress
+const String& mSetCommunityHousingRegulator_PostalAddress
+String* mGetCommunityHousingRegulator_PostalAddress
+ArrayOf<const String&> mSetCommunityHousingRegulator_EmailAddresses
+ArrayOf<String>* mGetCommunityHousingRegulator_EmailAddresses
+ArrayOf<Int32> mSetCommunityHousingRegulator_MobilePhone
+ArrayOf<Int32>* mGetCommunityHousingRegulator_MobilePhone
+ArrayOf<Int32> mSetCommunityHousingRegulator_WorkPhone
+ArrayOf<Int32>* mGetCommunityHousingRegulator_WorkPhone
+ArrayOf<const String&> mSetCommunityHousingRegulator_ContactedWithDetails
+ArrayOf<String>* mGetCommunityHousingRegulator_ContactedWithDetails
+ArrayOf<CHelper.ausState> mSetCommunityHousingRegulator_AusStates
+ArrayOf<CHelper.ausState>* mGetCommunityHousingRegulator_AusStates
+ArrayOf<CAdministration.documents> mSetCommunityHousingRegulator_DocRefIds
+ArrayOf<CAdministration.documents>* mGetCommunityHousingRegulator_DocRefIds
+ArrayOf<CAdministration.images> mSetCommunityHousingRegulator_ImageRefIds
+ArrayOf<CAdministration.images>* mGetCommunityHousingRegulator_ImageRefIds
+CRegister.businessChannelOwner mSetCommunityHousingRegulator_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetCommunityHousingRegulator_BusinessChannelOwnerId
+const String& mSetRentalBondAuthority_RentalBondAuthorityId
+String* mGetRentalBondAuthority_RentalBondAuthorityId
+const String& mSetRentalBondAuthority_AuthorityName
+String* mGetRentalBondAuthority_AuthorityName
+CHelper.ausState mSetRentalBondAuthority_AusState
+CHelper.ausState* mGetRentalBondAuthority_AusState
+ArrayOf<const String&> mSetRentalBondAuthority_ContactFirstNameList
+ArrayOf<String>* mGetRentalBondAuthority_ContactFirstNameList
+ArrayOf<const String&> mSetRentalBondAuthority_ContactLastNameList
+ArrayOf<String>* mGetRentalBondAuthority_ContactLastNameList
+const String& mSetRentalBondAuthority_StreetAddress
+String* mGetRentalBondAuthority_StreetAddress
+const String& mSetRentalBondAuthority_PostalAddress
+String* mGetRentalBondAuthority_PostalAddress
+ArrayOf<const String&> mSetRentalBondAuthority_EmailAddresses
+ArrayOf<String>* mGetRentalBondAuthority_EmailAddresses
+ArrayOf<Int32> mSetRentalBondAuthority_MobilePhone
+ArrayOf<Int32>* mGetRentalBondAuthority_MobilePhone
+ArrayOf<Int32> mSetRentalBondAuthority_WorkPhone
+ArrayOf<Int32>* mGetRentalBondAuthority_WorkPhone
+ArrayOf<const String&> mSetRentalBondAuthority_ContactedWithDetails
+ArrayOf<String>* mGetRentalBondAuthority_ContactedWithDetails
+CRegister.businessChannelOwner mSetRentalBondAuthority_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetRentalBondAuthority_BusinessChannelOwnerId
+CProperty.property mSetRentalBondAuthority_PropertyId
+CProperty.property* mGetRentalBondAuthority_PropertyId
+CProperty.tenant mSetRentalBondAuthority_TenancyId
+CProperty.tenant* mGetRentalBondAuthority_TenancyId
+ArrayOf<CAdministration.documents> mSetRentalBondAuthority_DocRefIds
+ArrayOf<CAdministration.documents>* mGetRentalBondAuthority_DocRefIds
+ArrayOf<CAdministration.images> mSetRentalBondAuthority_ImageRefIds
+ArrayOf<CAdministration.images>* mGetRentalBondAuthority_ImageRefIds
+const String& mSetATO_ATOId
+String* mGetATO_ATOId
+ArrayOf<const String&> mSetATO_ContactFirstNameList
+ArrayOf<String>* mGetATO_ContactFirstNameList
+ArrayOf<const String&> mSetATO_ContactLastNameList
+ArrayOf<String>* mGetATO_ContactLastNameList
+const String& mSetATO_StreetAddress
+String* mGetATO_StreetAddress
+const String& mSetATO_PostalAddress
+String* mGetATO_PostalAddress
+ArrayOf<const String&> mSetATO_EmailAddresses
+ArrayOf<String>* mGetATO_EmailAddresses
+ArrayOf<Int32> mSetATO_MobilePhone
+ArrayOf<Int32>* mGetATO_MobilePhone
+ArrayOf<Int32> mSetATO_WorkPhone
+ArrayOf<Int32>* mGetATO_WorkPhone
+ArrayOf<const String&> mSetATO_ContactedWithDetails
+ArrayOf<String>* mGetATO_ContactedWithDetails
+ArrayOf<CAdministration.documents> mSetATO_DocRefIds
+ArrayOf<CAdministration.documents>* mGetATO_DocRefIds
+CRegister.businessChannelOwner mSetATO_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetATO_BusinessChannelOwnerId
+const String& mSetASIC_ASICId
+String* mGetASIC_ASICId
+ArrayOf<const String&> mSetASIC_ContactFirstNameList
+ArrayOf<String>* mGetASIC_ContactFirstNameList
+ArrayOf<const String&> mSetASIC_ContactLastNameList
+ArrayOf<String>* mGetASIC_ContactLastNameList
+const String& mSetASIC_StreetAddress
+String* mGetASIC_StreetAddress
+const String& mSetASIC_PostalAddress
+String* mGetASIC_PostalAddress
+ArrayOf<const String&> mSetASIC_EmailAddresses
+ArrayOf<String>* mGetASIC_EmailAddresses
+ArrayOf<Int32> mSetASIC_MobilePhone
+ArrayOf<Int32>* mGetASIC_MobilePhone
+ArrayOf<Int32> mSetASIC_WorkPhone
+ArrayOf<Int32>* mGetASIC_WorkPhone
+ArrayOf<const String&> mSetASIC_ContactedWithDetails
+ArrayOf<String>* mGetASIC_ContactedWithDetails
+ArrayOf<CAdministration.documents> mSetASIC_DocRefIds
+ArrayOf<CAdministration.documents>* mGetASIC_DocRefIds
+ArrayOf<CAdministration.images> mSetASIC_ImageRefIds
+ArrayOf<CAdministration.images>* mGetASIC_ImageRefIds
+CRegister.businessChannelOwner mSetASIC_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetASIC_BusinessChannelOwnerId
+const String& mSetACNC_ACNCId
+String* mGetACNC_ACNCId
+ArrayOf<const String&> mSetACNC_ContactFirstNameList
+ArrayOf<String>* mGetACNC_ContactFirstNameList
+ArrayOf<const String&> mSetACNC_ContactLastNameList
+ArrayOf<String>* mGetACNC_ContactLastNameList
+const String& mSetACNC_StreetAddress
+String* mGetACNC_StreetAddress
+const String& mSetACNC_PostalAddress
+String* mGetACNC_PostalAddress
+ArrayOf<const String&> mSetACNC_EmailAddresses
+ArrayOf<String>* mGetACNC_EmailAddresses
+ArrayOf<Int32> mSetACNC_MobilePhone
+ArrayOf<Int32>* mGetACNC_MobilePhone
+ArrayOf<Int32> mSetACNC_WorkPhone
+ArrayOf<Int32>* mGetACNC_WorkPhone
+ArrayOf<const String&> mSetACNC_ContactedWithDetails
+ArrayOf<String>* mGetACNC_ContactedWithDetails
+ArrayOf<CAdministration.documents> mSetACNC_DocRefIds
+ArrayOf<CAdministration.documents>* mGetACNC_DocRefIds
+ArrayOf<CAdministration.images> mSetACNC_ImageRefIds
+ArrayOf<CAdministration.images>* mGetACNC_ImageRefIds
+CRegister.businessChannelOwner mSetACNC_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetACNC_BusinessChannelOwnerId
+const String& mSetNationalRegulator_NatRegId
+String* mGetNationalRegulator_NatRegId
+const String& mSetNationalRegulator_NatRegName
+String* mGetNationalRegulator_NatRegName
+ArrayOf<const String&> mSetNationalRegulator_ContactFirstNameList
+ArrayOf<String>* mGetNationalRegulator_ContactFirstNameList
+ArrayOf<const String&> mSetNationalRegulator_ContactLastNameList
+ArrayOf<String>* mGetNationalRegulator_ContactLastNameList
+const String& mSetNationalRegulator_StreetAddress
+String* mGetNationalRegulator_StreetAddress
+const String& mSetNationalRegulator_PostalAddress
+String* mGetNationalRegulator_PostalAddress
+ArrayOf<const String&> mSetNationalRegulator_EmailAddresses
+ArrayOf<String>* mGetNationalRegulator_EmailAddresses
+ArrayOf<Int32> mSetNationalRegulator_MobilePhone
+ArrayOf<Int32>* mGetNationalRegulator_MobilePhone
+ArrayOf<Int32> mSetNationalRegulator_WorkPhone
+ArrayOf<Int32>* mGetNationalRegulator_WorkPhone
+ArrayOf<const String&> mSetNationalRegulator_ContactedWithDetails
+ArrayOf<String>* mGetNationalRegulator_ContactedWithDetails
+ArrayOf<CAdministration.documents> mSetNationalRegulator_DocRefIds
+ArrayOf<CAdministration.documents>* mGetNationalRegulator_DocRefIds
+ArrayOf<CAdministration.images> mSetNationalRegulator_ImageRefIds
+ArrayOf<CAdministration.images>* mGetNationalRegulator_ImageRefIds
+CRegister.businessChannelOwner mSetNationalRegulator_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetNationalRegulator_BusinessChannelOwnerId
+const String& mSetStateBasedRegulator_StateBasedRegId
+String* mGetStateBasedRegulator_StateBasedRegId
+const String& mSetStateBasedRegulator_StateBasedRegName
+String* mGetStateBasedRegulator_StateBasedRegName
+CHelper.ausState mSetStateBasedRegulator_AusState
+CHelper.ausState* mGetStateBasedRegulator_AusState
+ArrayOf<const String&> mSetStateBasedRegulator_ContactFirstNameList
+ArrayOf<String>* mGetStateBasedRegulator_ContactFirstNameList
+ArrayOf<const String&> mSetStateBasedRegulator_ContactLastNameList
+ArrayOf<String>* mGetStateBasedRegulator_ContactLastNameList
+const String& mSetStateBasedRegulator_StreetAddress
+String* mGetStateBasedRegulator_StreetAddress
+const String& mSetStateBasedRegulator_PostalAddress
+String* mGetStateBasedRegulator_PostalAddress
+ArrayOf<const String&> mSetStateBasedRegulator_EmailAddresses
+ArrayOf<String>* mGetStateBasedRegulator_EmailAddresses
+ArrayOf<Int32> mSetStateBasedRegulator_MobilePhone
+ArrayOf<Int32>* mGetStateBasedRegulator_MobilePhone
+ArrayOf<Int32> mSetStateBasedRegulator_WorkPhone
+ArrayOf<Int32>* mGetStateBasedRegulator_WorkPhone
+ArrayOf<const String&> mSetStateBasedRegulator_ContactedWithDetails
+ArrayOf<String>* mGetStateBasedRegulator_ContactedWithDetails
+ArrayOf<CAdministration.documents> mSetStateBasedRegulator_DocRefIds
+ArrayOf<CAdministration.documents>* mGetStateBasedRegulator_DocRefIds
+ArrayOf<CAdministration.images> mSetStateBasedRegulator_ImageRefIds
+ArrayOf<CAdministration.images>* mGetStateBasedRegulator_ImageRefIds
+CRegister.businessChannelOwner mSetStateBasedRegulator_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetStateBasedRegulator_BusinessChannelOwnerId
+const String& mSetStateLandTitleRegistry_LandTitleRegistryId
+String* mGetStateLandTitleRegistry_LandTitleRegistryId
+const String& mSetStateLandTitleRegistry_AuthorityName
+String* mGetStateLandTitleRegistry_AuthorityName
+CHelper.ausState mSetStateLandTitleRegistry_AusState
+CHelper.ausState* mGetStateLandTitleRegistry_AusState
+ArrayOf<const String&> mSetStateLandTitleRegistry_ContactFirstNameList
+ArrayOf<String>* mGetStateLandTitleRegistry_ContactFirstNameList
+ArrayOf<const String&> mSetStateLandTitleRegistry_ContactLastNameList
+ArrayOf<String>* mGetStateLandTitleRegistry_ContactLastNameList
+const String& mSetStateLandTitleRegistry_StreetAddress
+String* mGetStateLandTitleRegistry_StreetAddress
+const String& mSetStateLandTitleRegistry_PostalAddress
+String* mGetStateLandTitleRegistry_PostalAddress
+const String& mSetStateLandTitleRegistry_Email
+String* mGetStateLandTitleRegistry_Email
+Int32 mSetStateLandTitleRegistry_MobilePhone
+Int32* mGetStateLandTitleRegistry_MobilePhone
+Int32 mSetStateLandTitleRegistry_WorkPhone
+Int32* mGetStateLandTitleRegistry_WorkPhone
+ArrayOf<const String&> mSetStateLandTitleRegistry_ContactedWithDetails
+ArrayOf<String>* mGetStateLandTitleRegistry_ContactedWithDetails
+CRegister.businessChannelOwner mSetStateLandTitleRegistry_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetStateLandTitleRegistry_BusinessChannelOwnerId
+CProperty.property mSetStateLandTitleRegistry_PropertyId
+CProperty.property* mGetStateLandTitleRegistry_PropertyId
+ArrayOf<CAdministration.documents> mSetStateLandTitleRegistry_DocRefIds
+ArrayOf<CAdministration.documents>* mGetStateLandTitleRegistry_DocRefIds
+ArrayOf<CAdministration.images> mSetStateLandTitleRegistry_ImageRefIds
+ArrayOf<CAdministration.images>* mGetStateLandTitleRegistry_ImageRefIds
+const String& mSetNCAT_TribunalId
+String* mGetNCAT_TribunalId
+const String& mSetNCAT_AuthorityName
+String* mGetNCAT_AuthorityName
+CHelper.ausState mSetNCAT_AusState
+CHelper.ausState* mGetNCAT_AusState
+ArrayOf<const String&> mSetNCAT_ContactFirstNameList
+ArrayOf<String>* mGetNCAT_ContactFirstNameList
+ArrayOf<const String&> mSetNCAT_ContactLastNameList
+ArrayOf<String>* mGetNCAT_ContactLastNameList
+const String& mSetNCAT_StreetAddress
+String* mGetNCAT_StreetAddress
+const String& mSetNCAT_PostalAddress
+String* mGetNCAT_PostalAddress
+const String& mSetNCAT_Email
+String* mGetNCAT_Email
+Int32 mSetNCAT_MobilePhone
+Int32* mGetNCAT_MobilePhone
+Int32 mSetNCAT_WorkPhone
+Int32* mGetNCAT_WorkPhone
+ArrayOf<const String&> mSetNCAT_CaseDetailsActsResponsesAllegationsRebuttals
+ArrayOf<String>* mGetNCAT_CaseDetailsActsResponsesAllegationsRebuttals
+ArrayOf<const String&> mSetNCAT_DateTimeDetailsInChronologicalOrder
+ArrayOf<String>* mGetNCAT_DateTimeDetailsInChronologicalOrder
+ArrayOf<const String&> mSetNCAT_AdjournedOn
+ArrayOf<String>* mGetNCAT_AdjournedOn
+ArrayOf<const String&> mSetNCAT_AdjournedUntil
+ArrayOf<String>* mGetNCAT_AdjournedUntil
+ArrayOf<const String&> mSetNCAT_ContactedWithDetails
+ArrayOf<String>* mGetNCAT_ContactedWithDetails
+CRegister.businessChannelOwner mSetNCAT_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetNCAT_BusinessChannelOwnerId
+CProperty.property mSetNCAT_PropertyId
+CProperty.property* mGetNCAT_PropertyId
+CProperty.tenant mSetNCAT_TenancyId
+CProperty.tenant* mGetNCAT_TenancyId
+CAdministration.branch mSetNCAT_BranchId
+CAdministration.branch* mGetNCAT_BranchId
+ArrayOf<CAdministration.documents> mSetNCAT_DocRefIds
+ArrayOf<CAdministration.documents>* mGetNCAT_DocRefIds
+ArrayOf<CAdministration.images> mSetNCAT_ImageRefIds
+ArrayOf<CAdministration.images>* mGetNCAT_ImageRefIds
 };
 
 } // ChubbaMorris
