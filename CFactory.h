@@ -50,2922 +50,2922 @@ public:
     //
   
 
-   CARAPI SetMaterial.MaterialId(
+   CARAPI SetMaterial_MaterialId(
      /* [in] */ const String& CFactory.material.materialId);
 
-    CARAPI GetMaterial.MaterialId(
+    CARAPI GetMaterial_MaterialId(
      /* [out] */ String* CFactory.material.materialId);
 
 
-   CARAPI SetMaterial.Hazardous(
+   CARAPI SetMaterial_Hazardous(
      /* [in] */ Boolean CFactory.material.hazardous);
 
-    CARAPI GetMaterial.Hazardous(
+    CARAPI GetMaterial_Hazardous(
      /* [out] */ Boolean* CFactory.material.hazardous);
 
 
-   CARAPI SetMaterial.MaterialName(
+   CARAPI SetMaterial_MaterialName(
      /* [in] */ const String& CFactory.material.materialName);
 
-    CARAPI GetMaterial.MaterialName(
+    CARAPI GetMaterial_MaterialName(
      /* [out] */ String* CFactory.material.materialName);
 
 
-   CARAPI SetMaterial.MaterialDescription(
+   CARAPI SetMaterial_MaterialDescription(
      /* [in] */ const String& CFactory.material.materialDescription);
 
-    CARAPI GetMaterial.MaterialDescription(
+    CARAPI GetMaterial_MaterialDescription(
      /* [out] */ String* CFactory.material.materialDescription);
 
 
-   CARAPI SetMaterial.QCCheckedPassed(
+   CARAPI SetMaterial_QCCheckedPassed(
      /* [in] */ Boolean CFactory.material.qCCheckedPassed);
 
-    CARAPI GetMaterial.QCCheckedPassed(
+    CARAPI GetMaterial_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.material.qCCheckedPassed);
 
 
-   CARAPI SetMaterial.BusinessChannelOwnerId(
+   CARAPI SetMaterial_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.material.businessChannelOwnerId);
 
-    CARAPI GetMaterial.BusinessChannelOwnerId(
+    CARAPI GetMaterial_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.material.businessChannelOwnerId);
 
 
-   CARAPI SetMaterial.ItemId(
+   CARAPI SetMaterial_ItemId(
      /* [in] */ CAdministration.item CFactory.material.itemId);
 
-    CARAPI GetMaterial.ItemId(
+    CARAPI GetMaterial_ItemId(
      /* [out] */ CAdministration.item* CFactory.material.itemId);
 
 
-   CARAPI SetMaterial.SupplierId(
+   CARAPI SetMaterial_SupplierId(
      /* [in] */ CSupplier.supplier CFactory.material.supplierId);
 
-    CARAPI GetMaterial.SupplierId(
+    CARAPI GetMaterial_SupplierId(
      /* [out] */ CSupplier.supplier* CFactory.material.supplierId);
 
 
-   CARAPI SetMaterial.MaterialTypeId(
+   CARAPI SetMaterial_MaterialTypeId(
      /* [in] */ CFactory.materialType CFactory.material.materialTypeId);
 
-    CARAPI GetMaterial.MaterialTypeId(
+    CARAPI GetMaterial_MaterialTypeId(
      /* [out] */ CFactory.materialType* CFactory.material.materialTypeId);
 
 
-   CARAPI SetMaterial.PartId(
+   CARAPI SetMaterial_PartId(
      /* [in] */ CFactory.part CFactory.material.PartId);
 
-    CARAPI GetMaterial.PartId(
+    CARAPI GetMaterial_PartId(
      /* [out] */ CFactory.part* CFactory.material.PartId);
 
 
-   CARAPI SetMaterial.MinorSubAssemblyId(
+   CARAPI SetMaterial_MinorSubAssemblyId(
      /* [in] */ CFactory.minorsubassembly CFactory.material.minorsubassemblyId);
 
-    CARAPI GetMaterial.MinorSubAssemblyId(
+    CARAPI GetMaterial_MinorSubAssemblyId(
      /* [out] */ CFactory.minorsubassembly* CFactory.material.minorsubassemblyId);
 
 
-   CARAPI SetMaterial.SubAssemblyId(
+   CARAPI SetMaterial_SubAssemblyId(
      /* [in] */ CFactory.subassembly CFactory.material.subassemblyId);
 
-    CARAPI GetMaterial.SubAssemblyId(
+    CARAPI GetMaterial_SubAssemblyId(
      /* [out] */ CFactory.subassembly* CFactory.material.subassemblyId);
 
 
-   CARAPI SetMaterial.MajorSubAssemblyId(
+   CARAPI SetMaterial_MajorSubAssemblyId(
      /* [in] */ CFactory.majorsubassembly CFactory.material.majorsubassemblyId);
 
-    CARAPI GetMaterial.MajorSubAssemblyId(
+    CARAPI GetMaterial_MajorSubAssemblyId(
      /* [out] */ CFactory.majorsubassembly* CFactory.material.majorsubassemblyId);
 
 
-   CARAPI SetMaterial.LesserAssemblyId(
+   CARAPI SetMaterial_LesserAssemblyId(
      /* [in] */ CFactory.lesserassembly CFactory.material.lesserassemblyId);
 
-    CARAPI GetMaterial.LesserAssemblyId(
+    CARAPI GetMaterial_LesserAssemblyId(
      /* [out] */ CFactory.lesserassembly* CFactory.material.lesserassemblyId);
 
 
-   CARAPI SetMaterial.AssemblyId(
+   CARAPI SetMaterial_AssemblyId(
      /* [in] */ CFactory.assembly CFactory.material.assemblyId);
 
-    CARAPI GetMaterial.AssemblyId(
+    CARAPI GetMaterial_AssemblyId(
      /* [out] */ CFactory.assembly* CFactory.material.assemblyId);
 
 
-   CARAPI SetMaterial.GreaterAssemblyId(
+   CARAPI SetMaterial_GreaterAssemblyId(
      /* [in] */ CFactory.greaterassembly CFactory.material.greaterassemblyId);
 
-    CARAPI GetMaterial.GreaterAssemblyId(
+    CARAPI GetMaterial_GreaterAssemblyId(
      /* [out] */ CFactory.greaterassembly* CFactory.material.greaterassemblyId);
 
 
-   CARAPI SetMaterial.ProductId(
+   CARAPI SetMaterial_ProductId(
      /* [in] */ CFactory.product CFactory.material.productId);
 
-    CARAPI GetMaterial.ProductId(
+    CARAPI GetMaterial_ProductId(
      /* [out] */ CFactory.product* CFactory.material.productId);
 
 
-   CARAPI SetMaterial.DocRefIds(
+   CARAPI SetMaterial_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.material.docRefIds);
 
-    CARAPI GetMaterial.DocRefIds(
+    CARAPI GetMaterial_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.material.docRefIds);
 
 
-   CARAPI SetMaterial.ImageRefIds(
+   CARAPI SetMaterial_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.material.imageRefIds);
 
-    CARAPI GetMaterial.ImageRefIds(
+    CARAPI GetMaterial_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.material.imageRefIds);
 
 
-   CARAPI SetMaterial.VideoRefIds(
+   CARAPI SetMaterial_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.material.videoRefIds);
 
-    CARAPI GetMaterial.VideoRefIds(
+    CARAPI GetMaterial_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.material.videoRefIds);
 
 
-   CARAPI SetMaterialType.MaterialTypeId(
+   CARAPI SetMaterialType_MaterialTypeId(
      /* [in] */ const String& CFactory.materialType.materialTypeId);
 
-    CARAPI GetMaterialType.MaterialTypeId(
+    CARAPI GetMaterialType_MaterialTypeId(
      /* [out] */ String* CFactory.materialType.materialTypeId);
 
 
-   CARAPI SetMaterialType.MaterialDescription(
+   CARAPI SetMaterialType_MaterialDescription(
      /* [in] */ const String& CFactory.materialType.materialDescription);
 
-    CARAPI GetMaterialType.MaterialDescription(
+    CARAPI GetMaterialType_MaterialDescription(
      /* [out] */ String* CFactory.materialType.materialDescription);
 
 
-   CARAPI SetMaterialType.MaterialSafetyDataRefs(
+   CARAPI SetMaterialType_MaterialSafetyDataRefs(
      /* [in] */ ArrayOf<const String&> CFactory.materialType.materialSafetyDataRefs);
 
-    CARAPI GetMaterialType.MaterialSafetyDataRefs(
+    CARAPI GetMaterialType_MaterialSafetyDataRefs(
      /* [out, callee] */ ArrayOf<String>* CFactory.materialType.materialSafetyDataRefs);
 
 
-   CARAPI SetMaterialType.MaterialCode(
+   CARAPI SetMaterialType_MaterialCode(
      /* [in] */ const String& CFactory.materialType.materialCode);
 
-    CARAPI GetMaterialType.MaterialCode(
+    CARAPI GetMaterialType_MaterialCode(
      /* [out] */ String* CFactory.materialType.materialCode);
 
 
-   CARAPI SetMaterialType.UnitsOfMeasurement(
+   CARAPI SetMaterialType_UnitsOfMeasurement(
      /* [in] */ const String& CFactory.materialType.UnitsOfMeasurement);
 
-    CARAPI GetMaterialType.UnitsOfMeasurement(
+    CARAPI GetMaterialType_UnitsOfMeasurement(
      /* [out] */ String* CFactory.materialType.UnitsOfMeasurement);
 
 
-   CARAPI SetMaterialType.RemainingAmount(
+   CARAPI SetMaterialType_RemainingAmount(
      /* [in] */ Double CFactory.materialType.remainingAmount);
 
-    CARAPI GetMaterialType.RemainingAmount(
+    CARAPI GetMaterialType_RemainingAmount(
      /* [out] */ Double* CFactory.materialType.remainingAmount);
 
 
-   CARAPI SetMaterialType.Corrosiveness(
+   CARAPI SetMaterialType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.materialType.corrosiveness);
 
-    CARAPI GetMaterialType.Corrosiveness(
+    CARAPI GetMaterialType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.materialType.corrosiveness);
 
 
-   CARAPI SetMaterialType.Toxicity(
+   CARAPI SetMaterialType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.materialType.toxicity);
 
-    CARAPI GetMaterialType.Toxicity(
+    CARAPI GetMaterialType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.materialType.toxicity);
 
 
-   CARAPI SetMaterialType.Fragility(
+   CARAPI SetMaterialType_Fragility(
      /* [in] */ CHelper.fragility CFactory.materialType.fragility);
 
-    CARAPI GetMaterialType.Fragility(
+    CARAPI GetMaterialType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.materialType.fragility);
 
 
-   CARAPI SetMaterialType.PhysicalStateWhenIdle(
+   CARAPI SetMaterialType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.materialType.PhysicalStateWhenIdle);
 
-    CARAPI GetMaterialType.PhysicalStateWhenIdle(
+    CARAPI GetMaterialType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.materialType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetMaterialType.RemainingNum(
+   CARAPI SetMaterialType_RemainingNum(
      /* [in] */ Double CFactory.materialType.remainingNum);
 
-    CARAPI GetMaterialType.RemainingNum(
+    CARAPI GetMaterialType_RemainingNum(
      /* [out] */ Double* CFactory.materialType.remainingNum);
 
 
-   CARAPI SetMaterialType.RawMaterialStockReorderCARAPI SetPoint(
+   CARAPI SetMaterialType_RawMaterialStockReorderCARAPI
      /* [in] */ Double CFactory.materialType.materialReorderCARAPI SetPoint);
 
-    CARAPI GetMaterialType.RawMaterialStockReorderCARAPI SetPoint(
+    CARAPI GetMaterialType_RawMaterialStockReorderCARAPI
      /* [out] */ Double* CFactory.materialType.materialReorderCARAPI SetPoint);
 
 
-   CARAPI SetMaterialType.RawMaterialStockReorderCode(
+   CARAPI SetMaterialType_RawMaterialStockReorderCode(
      /* [in] */ const String& CFactory.materialType.materialReorderCode);
 
-    CARAPI GetMaterialType.RawMaterialStockReorderCode(
+    CARAPI GetMaterialType_RawMaterialStockReorderCode(
      /* [out] */ String* CFactory.materialType.materialReorderCode);
 
 
-   CARAPI SetMaterialType.BusinessChannelOwnerId(
+   CARAPI SetMaterialType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.materialType.businessChannelOwnerId);
 
-    CARAPI GetMaterialType.BusinessChannelOwnerId(
+    CARAPI GetMaterialType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.materialType.businessChannelOwnerId);
 
 
-   CARAPI SetMaterialType.ItemTypeId(
+   CARAPI SetMaterialType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.materialType.itemTypeId);
 
-    CARAPI GetMaterialType.ItemTypeId(
+    CARAPI GetMaterialType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.materialType.itemTypeId);
 
 
-   CARAPI SetMaterialType.SupplierIds(
+   CARAPI SetMaterialType_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.materialType.supplierIds);
 
-    CARAPI GetMaterialType.SupplierIds(
+    CARAPI GetMaterialType_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.materialType.supplierIds);
 
 
-   CARAPI SetMaterialType.PartTypeIds(
+   CARAPI SetMaterialType_PartTypeIds(
      /* [in] */ ArrayOf<CFactory.partType> CFactory.materialType.partTypeIds);
 
-    CARAPI GetMaterialType.PartTypeIds(
+    CARAPI GetMaterialType_PartTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.partType>* CFactory.materialType.partTypeIds);
 
 
-   CARAPI SetMaterialType.MinorSubAssemblyTypeIds(
+   CARAPI SetMaterialType_MinorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.minorsubassemblyType> CFactory.materialType.minorsubassemblyTypeIds);
 
-    CARAPI GetMaterialType.MinorSubAssemblyTypeIds(
+    CARAPI GetMaterialType_MinorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassemblyType>* CFactory.materialType.minorsubassemblyTypeIds);
 
 
-   CARAPI SetMaterialType.SubAssemblyTypeIds(
+   CARAPI SetMaterialType_SubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.subassemblyType> CFactory.materialType.subassemblyTypeIds);
 
-    CARAPI GetMaterialType.SubAssemblyTypeIds(
+    CARAPI GetMaterialType_SubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.subassemblyType>* CFactory.materialType.subassemblyTypeIds);
 
 
-   CARAPI SetMaterialType.MajorSubAssemblyTypeIds(
+   CARAPI SetMaterialType_MajorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.majorsubassemblyType> CFactory.materialType.majorsubassemblyTypeIds);
 
-    CARAPI GetMaterialType.MajorSubAssemblyTypeIds(
+    CARAPI GetMaterialType_MajorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassemblyType>* CFactory.materialType.majorsubassemblyTypeIds);
 
 
-   CARAPI SetMaterialType.LesserAssemblyTypeIds(
+   CARAPI SetMaterialType_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CFactory.materialType.lesserassemblyTypeIds);
 
-    CARAPI GetMaterialType.LesserAssemblyTypeIds(
+    CARAPI GetMaterialType_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CFactory.materialType.lesserassemblyTypeIds);
 
 
-   CARAPI SetMaterialType.AssemblyTypeIds(
+   CARAPI SetMaterialType_AssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.assemblyType> CFactory.materialType.assemblyTypeIds);
 
-    CARAPI GetMaterialType.AssemblyTypeIds(
+    CARAPI GetMaterialType_AssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.assemblyType>* CFactory.materialType.assemblyTypeIds);
 
 
-   CARAPI SetMaterialType.GreaterAssemblyTypeIds(
+   CARAPI SetMaterialType_GreaterAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.greaterassemblyType> CFactory.materialType.greaterassemblyTypeIds);
 
-    CARAPI GetMaterialType.GreaterAssemblyTypeIds(
+    CARAPI GetMaterialType_GreaterAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassemblyType>* CFactory.materialType.greaterassemblyTypeIds);
 
 
-   CARAPI SetMaterialType.ProductTypeIds(
+   CARAPI SetMaterialType_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CFactory.materialType.productTypeIds);
 
-    CARAPI GetMaterialType.ProductTypeIds(
+    CARAPI GetMaterialType_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CFactory.materialType.productTypeIds);
 
 
-   CARAPI SetMaterialType.DocRefIds(
+   CARAPI SetMaterialType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.materialType.docRefIds);
 
-    CARAPI GetMaterialType.DocRefIds(
+    CARAPI GetMaterialType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.materialType.docRefIds);
 
 
-   CARAPI SetMaterialType.ImageRefIds(
+   CARAPI SetMaterialType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.materialType.imageRefIds);
 
-    CARAPI GetMaterialType.ImageRefIds(
+    CARAPI GetMaterialType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.materialType.imageRefIds);
 
 
-   CARAPI SetMaterialType.VideoRefIds(
+   CARAPI SetMaterialType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.materialType.videoRefIds);
 
-    CARAPI GetMaterialType.VideoRefIds(
+    CARAPI GetMaterialType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.materialType.videoRefIds);
 
 
-   CARAPI SetPart.PartId(
+   CARAPI SetPart_PartId(
      /* [in] */ const String& CFactory.part.partId);
 
-    CARAPI GetPart.PartId(
+    CARAPI GetPart_PartId(
      /* [out] */ String* CFactory.part.partId);
 
 
-   CARAPI SetPart.Hazardous(
+   CARAPI SetPart_Hazardous(
      /* [in] */ Boolean CFactory.part.hazardous);
 
-    CARAPI GetPart.Hazardous(
+    CARAPI GetPart_Hazardous(
      /* [out] */ Boolean* CFactory.part.hazardous);
 
 
-   CARAPI SetPart.PartName(
+   CARAPI SetPart_PartName(
      /* [in] */ const String& CFactory.part.partName);
 
-    CARAPI GetPart.PartName(
+    CARAPI GetPart_PartName(
      /* [out] */ String* CFactory.part.partName);
 
 
-   CARAPI SetPart.PartDescription(
+   CARAPI SetPart_PartDescription(
      /* [in] */ const String& CFactory.part.partDescription);
 
-    CARAPI GetPart.PartDescription(
+    CARAPI GetPart_PartDescription(
      /* [out] */ String* CFactory.part.partDescription);
 
 
-   CARAPI SetPart.QCCheckedPassed(
+   CARAPI SetPart_QCCheckedPassed(
      /* [in] */ Boolean CFactory.part.qCCheckedPassed);
 
-    CARAPI GetPart.QCCheckedPassed(
+    CARAPI GetPart_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.part.qCCheckedPassed);
 
 
-   CARAPI SetPart.BusinessChannelOwnerId(
+   CARAPI SetPart_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.part.businessChannelOwnerId);
 
-    CARAPI GetPart.BusinessChannelOwnerId(
+    CARAPI GetPart_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.part.businessChannelOwnerId);
 
 
-   CARAPI SetPart.MaterialIds(
+   CARAPI SetPart_MaterialIds(
      /* [in] */ ArrayOf<CFactory.material> CFactory.part.materialIds);
 
-    CARAPI GetPart.MaterialIds(
+    CARAPI GetPart_MaterialIds(
      /* [out, callee] */ ArrayOf<CFactory.material>* CFactory.part.materialIds);
 
 
-   CARAPI SetPart.PartTypeId(
+   CARAPI SetPart_PartTypeId(
      /* [in] */ CFactory.partType CFactory.part.partTypeId);
 
-    CARAPI GetPart.PartTypeId(
+    CARAPI GetPart_PartTypeId(
      /* [out] */ CFactory.partType* CFactory.part.partTypeId);
 
 
-   CARAPI SetPart.ItemId(
+   CARAPI SetPart_ItemId(
      /* [in] */ CAdministration.item CFactory.part.itemId);
 
-    CARAPI GetPart.ItemId(
+    CARAPI GetPart_ItemId(
      /* [out] */ CAdministration.item* CFactory.part.itemId);
 
 
-   CARAPI SetPart.SupplierIds(
+   CARAPI SetPart_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.part.supplierIds);
 
-    CARAPI GetPart.SupplierIds(
+    CARAPI GetPart_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.part.supplierIds);
 
 
-   CARAPI SetPart.MinorSubAssemblyId(
+   CARAPI SetPart_MinorSubAssemblyId(
      /* [in] */ CFactory.minorsubassembly CFactory.part.minorsubassemblyId);
 
-    CARAPI GetPart.MinorSubAssemblyId(
+    CARAPI GetPart_MinorSubAssemblyId(
      /* [out] */ CFactory.minorsubassembly* CFactory.part.minorsubassemblyId);
 
 
-   CARAPI SetPart.SubAssemblyId(
+   CARAPI SetPart_SubAssemblyId(
      /* [in] */ CFactory.subassembly CFactory.part.subassemblyId);
 
-    CARAPI GetPart.SubAssemblyId(
+    CARAPI GetPart_SubAssemblyId(
      /* [out] */ CFactory.subassembly* CFactory.part.subassemblyId);
 
 
-   CARAPI SetPart.MajorSubAssemblyId(
+   CARAPI SetPart_MajorSubAssemblyId(
      /* [in] */ CFactory.majorsubassembly CFactory.part.majorsubassemblyId);
 
-    CARAPI GetPart.MajorSubAssemblyId(
+    CARAPI GetPart_MajorSubAssemblyId(
      /* [out] */ CFactory.majorsubassembly* CFactory.part.majorsubassemblyId);
 
 
-   CARAPI SetPart.LesserAssemblyId(
+   CARAPI SetPart_LesserAssemblyId(
      /* [in] */ CFactory.lesserassembly CFactory.part.lesserassemblyId);
 
-    CARAPI GetPart.LesserAssemblyId(
+    CARAPI GetPart_LesserAssemblyId(
      /* [out] */ CFactory.lesserassembly* CFactory.part.lesserassemblyId);
 
 
-   CARAPI SetPart.AssemblyId(
+   CARAPI SetPart_AssemblyId(
      /* [in] */ CFactory.assembly CFactory.part.assemblyId);
 
-    CARAPI GetPart.AssemblyId(
+    CARAPI GetPart_AssemblyId(
      /* [out] */ CFactory.assembly* CFactory.part.assemblyId);
 
 
-   CARAPI SetPart.GreaterAssemblyId(
+   CARAPI SetPart_GreaterAssemblyId(
      /* [in] */ CFactory.greaterassembly CFactory.part.greaterassemblyId);
 
-    CARAPI GetPart.GreaterAssemblyId(
+    CARAPI GetPart_GreaterAssemblyId(
      /* [out] */ CFactory.greaterassembly* CFactory.part.greaterassemblyId);
 
 
-   CARAPI SetPart.ProductId(
+   CARAPI SetPart_ProductId(
      /* [in] */ CFactory.product CFactory.part.productId);
 
-    CARAPI GetPart.ProductId(
+    CARAPI GetPart_ProductId(
      /* [out] */ CFactory.product* CFactory.part.productId);
 
 
-   CARAPI SetPart.DocRefIds(
+   CARAPI SetPart_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.part.docRefIds);
 
-    CARAPI GetPart.DocRefIds(
+    CARAPI GetPart_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.part.docRefIds);
 
 
-   CARAPI SetPart.ImageRefIds(
+   CARAPI SetPart_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.part.imageRefIds);
 
-    CARAPI GetPart.ImageRefIds(
+    CARAPI GetPart_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.part.imageRefIds);
 
 
-   CARAPI SetPart.VideoRefIds(
+   CARAPI SetPart_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.part.videoRefIds);
 
-    CARAPI GetPart.VideoRefIds(
+    CARAPI GetPart_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.part.videoRefIds);
 
 
-   CARAPI SetPartType.PartTypeId(
+   CARAPI SetPartType_PartTypeId(
      /* [in] */ const String& CFactory.partType.partTypeId);
 
-    CARAPI GetPartType.PartTypeId(
+    CARAPI GetPartType_PartTypeId(
      /* [out] */ String* CFactory.partType.partTypeId);
 
 
-   CARAPI SetPartType.PartDescription(
+   CARAPI SetPartType_PartDescription(
      /* [in] */ const String& CFactory.partType.partDescription);
 
-    CARAPI GetPartType.PartDescription(
+    CARAPI GetPartType_PartDescription(
      /* [out] */ String* CFactory.partType.partDescription);
 
 
-   CARAPI SetPartType.PartCode(
+   CARAPI SetPartType_PartCode(
      /* [in] */ const String& CFactory.partType.partCode);
 
-    CARAPI GetPartType.PartCode(
+    CARAPI GetPartType_PartCode(
      /* [out] */ String* CFactory.partType.partCode);
 
 
-   CARAPI SetPartType.Corrosiveness(
+   CARAPI SetPartType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.partType.corrosiveness);
 
-    CARAPI GetPartType.Corrosiveness(
+    CARAPI GetPartType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.partType.corrosiveness);
 
 
-   CARAPI SetPartType.Toxicity(
+   CARAPI SetPartType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.partType.toxicity);
 
-    CARAPI GetPartType.Toxicity(
+    CARAPI GetPartType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.partType.toxicity);
 
 
-   CARAPI SetPartType.Fragility(
+   CARAPI SetPartType_Fragility(
      /* [in] */ CHelper.fragility CFactory.partType.fragility);
 
-    CARAPI GetPartType.Fragility(
+    CARAPI GetPartType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.partType.fragility);
 
 
-   CARAPI SetPartType.PhysicalStateWhenIdle(
+   CARAPI SetPartType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.partType.PhysicalStateWhenIdle);
 
-    CARAPI GetPartType.PhysicalStateWhenIdle(
+    CARAPI GetPartType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.partType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetPartType.RemainingNum(
+   CARAPI SetPartType_RemainingNum(
      /* [in] */ Int32 CFactory.partType.remainingNum);
 
-    CARAPI GetPartType.RemainingNum(
+    CARAPI GetPartType_RemainingNum(
      /* [out] */ Int32* CFactory.partType.remainingNum);
 
 
-   CARAPI SetPartType.PartReorderCARAPI SetPoint(
+   CARAPI SetPartType_PartReorderCARAPI
      /* [in] */ Int32 CFactory.partType.partReorderCARAPI SetPoint);
 
-    CARAPI GetPartType.PartReorderCARAPI SetPoint(
+    CARAPI GetPartType_PartReorderCARAPI
      /* [out] */ Int32* CFactory.partType.partReorderCARAPI SetPoint);
 
 
-   CARAPI SetPartType.PartReorderCode(
+   CARAPI SetPartType_PartReorderCode(
      /* [in] */ const String& CFactory.partType.partReorderCode);
 
-    CARAPI GetPartType.PartReorderCode(
+    CARAPI GetPartType_PartReorderCode(
      /* [out] */ String* CFactory.partType.partReorderCode);
 
 
-   CARAPI SetPartType.BusinessChannelOwnerId(
+   CARAPI SetPartType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.partType.businessChannelOwnerId);
 
-    CARAPI GetPartType.BusinessChannelOwnerId(
+    CARAPI GetPartType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.partType.businessChannelOwnerId);
 
 
-   CARAPI SetPartType.ItemTypeId(
+   CARAPI SetPartType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.partType.itemTypeId);
 
-    CARAPI GetPartType.ItemTypeId(
+    CARAPI GetPartType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.partType.itemTypeId);
 
 
-   CARAPI SetPartType.SupplierIds(
+   CARAPI SetPartType_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.partType.supplierIds);
 
-    CARAPI GetPartType.SupplierIds(
+    CARAPI GetPartType_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.partType.supplierIds);
 
 
-   CARAPI SetPartType.MaterialTypeIds(
+   CARAPI SetPartType_MaterialTypeIds(
      /* [in] */ ArrayOf<CFactory.materialType> CFactory.partType.materialTypeIds);
 
-    CARAPI GetPartType.MaterialTypeIds(
+    CARAPI GetPartType_MaterialTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.materialType>* CFactory.partType.materialTypeIds);
 
 
-   CARAPI SetPartType.MinorSubAssemblyTypeIds(
+   CARAPI SetPartType_MinorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.minorsubassemblyType> CFactory.partType.minorsubassemblyTypeIds);
 
-    CARAPI GetPartType.MinorSubAssemblyTypeIds(
+    CARAPI GetPartType_MinorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassemblyType>* CFactory.partType.minorsubassemblyTypeIds);
 
 
-   CARAPI SetPartType.SubAssemblyTypeIds(
+   CARAPI SetPartType_SubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.subassemblyType> CFactory.partType.subassemblyTypeIds);
 
-    CARAPI GetPartType.SubAssemblyTypeIds(
+    CARAPI GetPartType_SubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.subassemblyType>* CFactory.partType.subassemblyTypeIds);
 
 
-   CARAPI SetPartType.MajorSubAssemblyTypeIds(
+   CARAPI SetPartType_MajorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.majorsubassemblyType> CFactory.partType.majorsubassemblyTypeIds);
 
-    CARAPI GetPartType.MajorSubAssemblyTypeIds(
+    CARAPI GetPartType_MajorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassemblyType>* CFactory.partType.majorsubassemblyTypeIds);
 
 
-   CARAPI SetPartType.LesserAssemblyTypeIds(
+   CARAPI SetPartType_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CFactory.partType.lesserassemblyTypeIds);
 
-    CARAPI GetPartType.LesserAssemblyTypeIds(
+    CARAPI GetPartType_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CFactory.partType.lesserassemblyTypeIds);
 
 
-   CARAPI SetPartType.AssemblyTypeIds(
+   CARAPI SetPartType_AssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.assemblyType> CFactory.partType.assemblyTypeIds);
 
-    CARAPI GetPartType.AssemblyTypeIds(
+    CARAPI GetPartType_AssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.assemblyType>* CFactory.partType.assemblyTypeIds);
 
 
-   CARAPI SetPartType.GreaterAssemblyTypeIds(
+   CARAPI SetPartType_GreaterAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.greaterassemblyType> CFactory.partType.greaterassemblyTypeIds);
 
-    CARAPI GetPartType.GreaterAssemblyTypeIds(
+    CARAPI GetPartType_GreaterAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassemblyType>* CFactory.partType.greaterassemblyTypeIds);
 
 
-   CARAPI SetPartType.ProductTypeIds(
+   CARAPI SetPartType_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CFactory.partType.productTypeIds);
 
-    CARAPI GetPartType.ProductTypeIds(
+    CARAPI GetPartType_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CFactory.partType.productTypeIds);
 
 
-   CARAPI SetPartType.DocRefIds(
+   CARAPI SetPartType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.partType.docRefIds);
 
-    CARAPI GetPartType.DocRefIds(
+    CARAPI GetPartType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.partType.docRefIds);
 
 
-   CARAPI SetPartType.ImageRefIds(
+   CARAPI SetPartType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.partType.imageRefIds);
 
-    CARAPI GetPartType.ImageRefIds(
+    CARAPI GetPartType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.partType.imageRefIds);
 
 
-   CARAPI SetPartType.VideoRefIds(
+   CARAPI SetPartType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.partType.videoRefIds);
 
-    CARAPI GetPartType.VideoRefIds(
+    CARAPI GetPartType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.partType.videoRefIds);
 
 
-   CARAPI SetMinorSubAssembly.MinorSubAssyId(
+   CARAPI SetMinorSubAssembly_MinorSubAssyId(
      /* [in] */ const String& CFactory.minorsubassembly.minorSubAssyId);
 
-    CARAPI GetMinorSubAssembly.MinorSubAssyId(
+    CARAPI GetMinorSubAssembly_MinorSubAssyId(
      /* [out] */ String* CFactory.minorsubassembly.minorSubAssyId);
 
 
-   CARAPI SetMinorSubAssembly.Hazardous(
+   CARAPI SetMinorSubAssembly_Hazardous(
      /* [in] */ Boolean CFactory.minorsubassembly.hazardous);
 
-    CARAPI GetMinorSubAssembly.Hazardous(
+    CARAPI GetMinorSubAssembly_Hazardous(
      /* [out] */ Boolean* CFactory.minorsubassembly.hazardous);
 
 
-   CARAPI SetMinorSubAssembly.MinorSubAssemblyName(
+   CARAPI SetMinorSubAssembly_MinorSubAssemblyName(
      /* [in] */ const String& CFactory.minorsubassembly.minorsubassemblyName);
 
-    CARAPI GetMinorSubAssembly.MinorSubAssemblyName(
+    CARAPI GetMinorSubAssembly_MinorSubAssemblyName(
      /* [out] */ String* CFactory.minorsubassembly.minorsubassemblyName);
 
 
-   CARAPI SetMinorSubAssembly.MinorSubAssemblyDescription(
+   CARAPI SetMinorSubAssembly_MinorSubAssemblyDescription(
      /* [in] */ const String& CFactory.minorsubassembly.minorsubassemblyDescription);
 
-    CARAPI GetMinorSubAssembly.MinorSubAssemblyDescription(
+    CARAPI GetMinorSubAssembly_MinorSubAssemblyDescription(
      /* [out] */ String* CFactory.minorsubassembly.minorsubassemblyDescription);
 
 
-   CARAPI SetMinorSubAssembly.QCCheckedPassed(
+   CARAPI SetMinorSubAssembly_QCCheckedPassed(
      /* [in] */ Boolean CFactory.minorsubassembly.qCCheckedPassed);
 
-    CARAPI GetMinorSubAssembly.QCCheckedPassed(
+    CARAPI GetMinorSubAssembly_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.minorsubassembly.qCCheckedPassed);
 
 
-   CARAPI SetMinorSubAssembly.BusinessChannelOwnerId(
+   CARAPI SetMinorSubAssembly_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.minorsubassembly.businessChannelOwnerId);
 
-    CARAPI GetMinorSubAssembly.BusinessChannelOwnerId(
+    CARAPI GetMinorSubAssembly_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.minorsubassembly.businessChannelOwnerId);
 
 
-   CARAPI SetMinorSubAssembly.MinorSubAssemblyTypeId(
+   CARAPI SetMinorSubAssembly_MinorSubAssemblyTypeId(
      /* [in] */ CFactory.minorsubassembly CFactory.minorsubassembly.minorsubassemblyTypeId);
 
-    CARAPI GetMinorSubAssembly.MinorSubAssemblyTypeId(
+    CARAPI GetMinorSubAssembly_MinorSubAssemblyTypeId(
      /* [out] */ CFactory.minorsubassembly* CFactory.minorsubassembly.minorsubassemblyTypeId);
 
 
-   CARAPI SetMinorSubAssembly.ItemId(
+   CARAPI SetMinorSubAssembly_ItemId(
      /* [in] */ CAdministration.item CFactory.minorsubassembly.itemId);
 
-    CARAPI GetMinorSubAssembly.ItemId(
+    CARAPI GetMinorSubAssembly_ItemId(
      /* [out] */ CAdministration.item* CFactory.minorsubassembly.itemId);
 
 
-   CARAPI SetMinorSubAssembly.SupplierIds(
+   CARAPI SetMinorSubAssembly_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.minorsubassembly.supplierIds);
 
-    CARAPI GetMinorSubAssembly.SupplierIds(
+    CARAPI GetMinorSubAssembly_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.minorsubassembly.supplierIds);
 
 
-   CARAPI SetMinorSubAssembly.MaterialIds(
+   CARAPI SetMinorSubAssembly_MaterialIds(
      /* [in] */ ArrayOf<CFactory.material> CFactory.minorsubassembly.materialIds);
 
-    CARAPI GetMinorSubAssembly.MaterialIds(
+    CARAPI GetMinorSubAssembly_MaterialIds(
      /* [out, callee] */ ArrayOf<CFactory.material>* CFactory.minorsubassembly.materialIds);
 
 
-   CARAPI SetMinorSubAssembly.PartIds(
+   CARAPI SetMinorSubAssembly_PartIds(
      /* [in] */ ArrayOf<CFactory.part> CFactory.minorsubassembly.partIds);
 
-    CARAPI GetMinorSubAssembly.PartIds(
+    CARAPI GetMinorSubAssembly_PartIds(
      /* [out, callee] */ ArrayOf<CFactory.part>* CFactory.minorsubassembly.partIds);
 
 
-   CARAPI SetMinorSubAssembly.SubAssemblyId(
+   CARAPI SetMinorSubAssembly_SubAssemblyId(
      /* [in] */ CFactory.subassembly CFactory.minorsubassembly.subassemblyId);
 
-    CARAPI GetMinorSubAssembly.SubAssemblyId(
+    CARAPI GetMinorSubAssembly_SubAssemblyId(
      /* [out] */ CFactory.subassembly* CFactory.minorsubassembly.subassemblyId);
 
 
-   CARAPI SetMinorSubAssembly.MajorSubAssemblyId(
+   CARAPI SetMinorSubAssembly_MajorSubAssemblyId(
      /* [in] */ CFactory.majorsubassembly CFactory.minorsubassembly.majorsubassemblyId);
 
-    CARAPI GetMinorSubAssembly.MajorSubAssemblyId(
+    CARAPI GetMinorSubAssembly_MajorSubAssemblyId(
      /* [out] */ CFactory.majorsubassembly* CFactory.minorsubassembly.majorsubassemblyId);
 
 
-   CARAPI SetMinorSubAssembly.LesserAssemblyId(
+   CARAPI SetMinorSubAssembly_LesserAssemblyId(
      /* [in] */ CFactory.lesserassembly CFactory.minorsubassembly.lesserassemblyId);
 
-    CARAPI GetMinorSubAssembly.LesserAssemblyId(
+    CARAPI GetMinorSubAssembly_LesserAssemblyId(
      /* [out] */ CFactory.lesserassembly* CFactory.minorsubassembly.lesserassemblyId);
 
 
-   CARAPI SetMinorSubAssembly.AssemblyId(
+   CARAPI SetMinorSubAssembly_AssemblyId(
      /* [in] */ CFactory.assembly CFactory.minorsubassembly.assemblyId);
 
-    CARAPI GetMinorSubAssembly.AssemblyId(
+    CARAPI GetMinorSubAssembly_AssemblyId(
      /* [out] */ CFactory.assembly* CFactory.minorsubassembly.assemblyId);
 
 
-   CARAPI SetMinorSubAssembly.GreaterAssemblyId(
+   CARAPI SetMinorSubAssembly_GreaterAssemblyId(
      /* [in] */ CFactory.greaterassembly CFactory.minorsubassembly.greaterassemblyId);
 
-    CARAPI GetMinorSubAssembly.GreaterAssemblyId(
+    CARAPI GetMinorSubAssembly_GreaterAssemblyId(
      /* [out] */ CFactory.greaterassembly* CFactory.minorsubassembly.greaterassemblyId);
 
 
-   CARAPI SetMinorSubAssembly.ProductId(
+   CARAPI SetMinorSubAssembly_ProductId(
      /* [in] */ CFactory.product CFactory.minorsubassembly.productId);
 
-    CARAPI GetMinorSubAssembly.ProductId(
+    CARAPI GetMinorSubAssembly_ProductId(
      /* [out] */ CFactory.product* CFactory.minorsubassembly.productId);
 
 
-   CARAPI SetMinorSubAssembly.DocRefIds(
+   CARAPI SetMinorSubAssembly_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.minorsubassembly.docRefIds);
 
-    CARAPI GetMinorSubAssembly.DocRefIds(
+    CARAPI GetMinorSubAssembly_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.minorsubassembly.docRefIds);
 
 
-   CARAPI SetMinorSubAssembly.ImageRefIds(
+   CARAPI SetMinorSubAssembly_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.minorsubassembly.imageRefIds);
 
-    CARAPI GetMinorSubAssembly.ImageRefIds(
+    CARAPI GetMinorSubAssembly_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.minorsubassembly.imageRefIds);
 
 
-   CARAPI SetMinorSubAssembly.VideoRefIds(
+   CARAPI SetMinorSubAssembly_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.minorsubassembly.videoRefIds);
 
-    CARAPI GetMinorSubAssembly.VideoRefIds(
+    CARAPI GetMinorSubAssembly_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.minorsubassembly.videoRefIds);
 
 
-   CARAPI SetMinorSubAssemblyType.MinorSubAssemblyTypeId(
+   CARAPI SetMinorSubAssemblyType_MinorSubAssemblyTypeId(
      /* [in] */ const String& CFactory.minorsubassemblyType.minorsubassemblyTypeId);
 
-    CARAPI GetMinorSubAssemblyType.MinorSubAssemblyTypeId(
+    CARAPI GetMinorSubAssemblyType_MinorSubAssemblyTypeId(
      /* [out] */ String* CFactory.minorsubassemblyType.minorsubassemblyTypeId);
 
 
-   CARAPI SetMinorSubAssemblyType.MinorSubAssemblyDescription(
+   CARAPI SetMinorSubAssemblyType_MinorSubAssemblyDescription(
      /* [in] */ const String& CFactory.minorsubassemblyType.minorsubassemblyDescription);
 
-    CARAPI GetMinorSubAssemblyType.MinorSubAssemblyDescription(
+    CARAPI GetMinorSubAssemblyType_MinorSubAssemblyDescription(
      /* [out] */ String* CFactory.minorsubassemblyType.minorsubassemblyDescription);
 
 
-   CARAPI SetMinorSubAssemblyType.MinorSubAssemblyCode(
+   CARAPI SetMinorSubAssemblyType_MinorSubAssemblyCode(
      /* [in] */ const String& CFactory.minorsubassemblyType.minorsubassemblyCode);
 
-    CARAPI GetMinorSubAssemblyType.MinorSubAssemblyCode(
+    CARAPI GetMinorSubAssemblyType_MinorSubAssemblyCode(
      /* [out] */ String* CFactory.minorsubassemblyType.minorsubassemblyCode);
 
 
-   CARAPI SetMinorSubAssemblyType.Corrosiveness(
+   CARAPI SetMinorSubAssemblyType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.minorsubassemblyType.corrosiveness);
 
-    CARAPI GetMinorSubAssemblyType.Corrosiveness(
+    CARAPI GetMinorSubAssemblyType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.minorsubassemblyType.corrosiveness);
 
 
-   CARAPI SetMinorSubAssemblyType.Toxicity(
+   CARAPI SetMinorSubAssemblyType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.minorsubassemblyType.toxicity);
 
-    CARAPI GetMinorSubAssemblyType.Toxicity(
+    CARAPI GetMinorSubAssemblyType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.minorsubassemblyType.toxicity);
 
 
-   CARAPI SetMinorSubAssemblyType.Fragility(
+   CARAPI SetMinorSubAssemblyType_Fragility(
      /* [in] */ CHelper.fragility CFactory.minorsubassemblyType.fragility);
 
-    CARAPI GetMinorSubAssemblyType.Fragility(
+    CARAPI GetMinorSubAssemblyType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.minorsubassemblyType.fragility);
 
 
-   CARAPI SetMinorSubAssemblyType.PhysicalStateWhenIdle(
+   CARAPI SetMinorSubAssemblyType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.minorsubassemblyType.PhysicalStateWhenIdle);
 
-    CARAPI GetMinorSubAssemblyType.PhysicalStateWhenIdle(
+    CARAPI GetMinorSubAssemblyType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.minorsubassemblyType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetMinorSubAssemblyType.RemainingNum(
+   CARAPI SetMinorSubAssemblyType_RemainingNum(
      /* [in] */ Int32 CFactory.minorsubassemblyType.remainingNum);
 
-    CARAPI GetMinorSubAssemblyType.RemainingNum(
+    CARAPI GetMinorSubAssemblyType_RemainingNum(
      /* [out] */ Int32* CFactory.minorsubassemblyType.remainingNum);
 
 
-   CARAPI SetMinorSubAssemblyType.MinorSubAssemblyReorderCARAPI SetPoint(
+   CARAPI SetMinorSubAssemblyType_MinorSubAssemblyReorderCARAPI
      /* [in] */ Int32 CFactory.minorsubassemblyType.minorsubassemblyReorderCARAPI SetPoint);
 
-    CARAPI GetMinorSubAssemblyType.MinorSubAssemblyReorderCARAPI SetPoint(
+    CARAPI GetMinorSubAssemblyType_MinorSubAssemblyReorderCARAPI
      /* [out] */ Int32* CFactory.minorsubassemblyType.minorsubassemblyReorderCARAPI SetPoint);
 
 
-   CARAPI SetMinorSubAssemblyType.MinorSubAssemblyReorderCode(
+   CARAPI SetMinorSubAssemblyType_MinorSubAssemblyReorderCode(
      /* [in] */ const String& CFactory.minorsubassemblyType.minorsubassemblyReorderCode);
 
-    CARAPI GetMinorSubAssemblyType.MinorSubAssemblyReorderCode(
+    CARAPI GetMinorSubAssemblyType_MinorSubAssemblyReorderCode(
      /* [out] */ String* CFactory.minorsubassemblyType.minorsubassemblyReorderCode);
 
 
-   CARAPI SetMinorSubAssemblyType.BusinessChannelOwnerId(
+   CARAPI SetMinorSubAssemblyType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.minorsubassemblyType.businessChannelOwnerId);
 
-    CARAPI GetMinorSubAssemblyType.BusinessChannelOwnerId(
+    CARAPI GetMinorSubAssemblyType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.minorsubassemblyType.businessChannelOwnerId);
 
 
-   CARAPI SetMinorSubAssemblyType.ItemTypeId(
+   CARAPI SetMinorSubAssemblyType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.minorsubassemblyType.itemTypeId);
 
-    CARAPI GetMinorSubAssemblyType.ItemTypeId(
+    CARAPI GetMinorSubAssemblyType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.minorsubassemblyType.itemTypeId);
 
 
-   CARAPI SetMinorSubAssemblyType.SupplierIds(
+   CARAPI SetMinorSubAssemblyType_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.minorsubassemblyType.supplierIds);
 
-    CARAPI GetMinorSubAssemblyType.SupplierIds(
+    CARAPI GetMinorSubAssemblyType_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.minorsubassemblyType.supplierIds);
 
 
-   CARAPI SetMinorSubAssemblyType.MaterialTypeIds(
+   CARAPI SetMinorSubAssemblyType_MaterialTypeIds(
      /* [in] */ ArrayOf<CFactory.materialType> CFactory.minorsubassemblyType.materialTypeIds);
 
-    CARAPI GetMinorSubAssemblyType.MaterialTypeIds(
+    CARAPI GetMinorSubAssemblyType_MaterialTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.materialType>* CFactory.minorsubassemblyType.materialTypeIds);
 
 
-   CARAPI SetMinorSubAssemblyType.PartTypeIds(
+   CARAPI SetMinorSubAssemblyType_PartTypeIds(
      /* [in] */ ArrayOf<CFactory.partType> CFactory.minorsubassemblyType.partTypeIds);
 
-    CARAPI GetMinorSubAssemblyType.PartTypeIds(
+    CARAPI GetMinorSubAssemblyType_PartTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.partType>* CFactory.minorsubassemblyType.partTypeIds);
 
 
-   CARAPI SetMinorSubAssemblyType.SubAssemblyTypeIds(
+   CARAPI SetMinorSubAssemblyType_SubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.subassemblyType> CFactory.minorsubassemblyType.subassemblyTypeIds);
 
-    CARAPI GetMinorSubAssemblyType.SubAssemblyTypeIds(
+    CARAPI GetMinorSubAssemblyType_SubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.subassemblyType>* CFactory.minorsubassemblyType.subassemblyTypeIds);
 
 
-   CARAPI SetMinorSubAssemblyType.MajorSubAssemblyTypeIds(
+   CARAPI SetMinorSubAssemblyType_MajorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.majorsubassemblyType> CFactory.minorsubassemblyType.majorsubassemblyTypeIds);
 
-    CARAPI GetMinorSubAssemblyType.MajorSubAssemblyTypeIds(
+    CARAPI GetMinorSubAssemblyType_MajorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassemblyType>* CFactory.minorsubassemblyType.majorsubassemblyTypeIds);
 
 
-   CARAPI SetMinorSubAssemblyType.LesserAssemblyTypeIds(
+   CARAPI SetMinorSubAssemblyType_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CFactory.minorsubassemblyType.lesserassemblyTypeIds);
 
-    CARAPI GetMinorSubAssemblyType.LesserAssemblyTypeIds(
+    CARAPI GetMinorSubAssemblyType_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CFactory.minorsubassemblyType.lesserassemblyTypeIds);
 
 
-   CARAPI SetMinorSubAssemblyType.AssemblyTypeIds(
+   CARAPI SetMinorSubAssemblyType_AssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.assemblyType> CFactory.minorsubassemblyType.assemblyTypeIds);
 
-    CARAPI GetMinorSubAssemblyType.AssemblyTypeIds(
+    CARAPI GetMinorSubAssemblyType_AssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.assemblyType>* CFactory.minorsubassemblyType.assemblyTypeIds);
 
 
-   CARAPI SetMinorSubAssemblyType.GreaterAssemblyTypeIds(
+   CARAPI SetMinorSubAssemblyType_GreaterAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.greaterassemblyType> CFactory.minorsubassemblyType.greaterassemblyTypeIds);
 
-    CARAPI GetMinorSubAssemblyType.GreaterAssemblyTypeIds(
+    CARAPI GetMinorSubAssemblyType_GreaterAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassemblyType>* CFactory.minorsubassemblyType.greaterassemblyTypeIds);
 
 
-   CARAPI SetMinorSubAssemblyType.ProductTypeIds(
+   CARAPI SetMinorSubAssemblyType_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CFactory.minorsubassemblyType.productTypeIds);
 
-    CARAPI GetMinorSubAssemblyType.ProductTypeIds(
+    CARAPI GetMinorSubAssemblyType_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CFactory.minorsubassemblyType.productTypeIds);
 
 
-   CARAPI SetMinorSubAssemblyType.DocRefIds(
+   CARAPI SetMinorSubAssemblyType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.minorsubassemblyType.docRefIds);
 
-    CARAPI GetMinorSubAssemblyType.DocRefIds(
+    CARAPI GetMinorSubAssemblyType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.minorsubassemblyType.docRefIds);
 
 
-   CARAPI SetMinorSubAssemblyType.ImageRefIds(
+   CARAPI SetMinorSubAssemblyType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.minorsubassemblyType.imageRefIds);
 
-    CARAPI GetMinorSubAssemblyType.ImageRefIds(
+    CARAPI GetMinorSubAssemblyType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.minorsubassemblyType.imageRefIds);
 
 
-   CARAPI SetMinorSubAssemblyType.VideoRefIds(
+   CARAPI SetMinorSubAssemblyType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.minorsubassemblyType.videoRefIds);
 
-    CARAPI GetMinorSubAssemblyType.VideoRefIds(
+    CARAPI GetMinorSubAssemblyType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.minorsubassemblyType.videoRefIds);
 
 
-   CARAPI SetSubAssembly.SubAssyId(
+   CARAPI SetSubAssembly_SubAssyId(
      /* [in] */ const String& CFactory.subassembly.subAssyId);
 
-    CARAPI GetSubAssembly.SubAssyId(
+    CARAPI GetSubAssembly_SubAssyId(
      /* [out] */ String* CFactory.subassembly.subAssyId);
 
 
-   CARAPI SetSubAssembly.Hazardous(
+   CARAPI SetSubAssembly_Hazardous(
      /* [in] */ Boolean CFactory.subassembly.hazardous);
 
-    CARAPI GetSubAssembly.Hazardous(
+    CARAPI GetSubAssembly_Hazardous(
      /* [out] */ Boolean* CFactory.subassembly.hazardous);
 
 
-   CARAPI SetSubAssembly.SubAssemblyName(
+   CARAPI SetSubAssembly_SubAssemblyName(
      /* [in] */ const String& CFactory.subassembly.subassemblyName);
 
-    CARAPI GetSubAssembly.SubAssemblyName(
+    CARAPI GetSubAssembly_SubAssemblyName(
      /* [out] */ String* CFactory.subassembly.subassemblyName);
 
 
-   CARAPI SetSubAssembly.SubAssemblyDescription(
+   CARAPI SetSubAssembly_SubAssemblyDescription(
      /* [in] */ const String& CFactory.subassembly.subassemblyDescription);
 
-    CARAPI GetSubAssembly.SubAssemblyDescription(
+    CARAPI GetSubAssembly_SubAssemblyDescription(
      /* [out] */ String* CFactory.subassembly.subassemblyDescription);
 
 
-   CARAPI SetSubAssembly.QCCheckedPassed(
+   CARAPI SetSubAssembly_QCCheckedPassed(
      /* [in] */ Boolean CFactory.subassembly.qCCheckedPassed);
 
-    CARAPI GetSubAssembly.QCCheckedPassed(
+    CARAPI GetSubAssembly_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.subassembly.qCCheckedPassed);
 
 
-   CARAPI SetSubAssembly.MaterialIds(
+   CARAPI SetSubAssembly_MaterialIds(
      /* [in] */ ArrayOf<CFactory.material> CFactory.subassembly.materialIds);
 
-    CARAPI GetSubAssembly.MaterialIds(
+    CARAPI GetSubAssembly_MaterialIds(
      /* [out, callee] */ ArrayOf<CFactory.material>* CFactory.subassembly.materialIds);
 
 
-   CARAPI SetSubAssembly.PartIds(
+   CARAPI SetSubAssembly_PartIds(
      /* [in] */ ArrayOf<CFactory.part> CFactory.subassembly.partIds);
 
-    CARAPI GetSubAssembly.PartIds(
+    CARAPI GetSubAssembly_PartIds(
      /* [out, callee] */ ArrayOf<CFactory.part>* CFactory.subassembly.partIds);
 
 
-   CARAPI SetSubAssembly.MinorSubAssemblyIds(
+   CARAPI SetSubAssembly_MinorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.minorsubassembly> CFactory.subassembly.minorsubassemblyIds);
 
-    CARAPI GetSubAssembly.MinorSubAssemblyIds(
+    CARAPI GetSubAssembly_MinorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassembly>* CFactory.subassembly.minorsubassemblyIds);
 
 
-   CARAPI SetSubAssembly.MajorSubAssemblyId(
+   CARAPI SetSubAssembly_MajorSubAssemblyId(
      /* [in] */ CFactory.majorsubassembly CFactory.subassembly.majorsubassemblyId);
 
-    CARAPI GetSubAssembly.MajorSubAssemblyId(
+    CARAPI GetSubAssembly_MajorSubAssemblyId(
      /* [out] */ CFactory.majorsubassembly* CFactory.subassembly.majorsubassemblyId);
 
 
-   CARAPI SetSubAssembly.LesserAssemblyId(
+   CARAPI SetSubAssembly_LesserAssemblyId(
      /* [in] */ CFactory.lesserassembly CFactory.subassembly.lesserassemblyId);
 
-    CARAPI GetSubAssembly.LesserAssemblyId(
+    CARAPI GetSubAssembly_LesserAssemblyId(
      /* [out] */ CFactory.lesserassembly* CFactory.subassembly.lesserassemblyId);
 
 
-   CARAPI SetSubAssembly.AssemblyId(
+   CARAPI SetSubAssembly_AssemblyId(
      /* [in] */ CFactory.assembly CFactory.subassembly.assemblyId);
 
-    CARAPI GetSubAssembly.AssemblyId(
+    CARAPI GetSubAssembly_AssemblyId(
      /* [out] */ CFactory.assembly* CFactory.subassembly.assemblyId);
 
 
-   CARAPI SetSubAssembly.GreaterAssemblyId(
+   CARAPI SetSubAssembly_GreaterAssemblyId(
      /* [in] */ CFactory.greaterassembly CFactory.subassembly.greaterassemblyId);
 
-    CARAPI GetSubAssembly.GreaterAssemblyId(
+    CARAPI GetSubAssembly_GreaterAssemblyId(
      /* [out] */ CFactory.greaterassembly* CFactory.subassembly.greaterassemblyId);
 
 
-   CARAPI SetSubAssembly.ProductId(
+   CARAPI SetSubAssembly_ProductId(
      /* [in] */ CFactory.product CFactory.subassembly.productId);
 
-    CARAPI GetSubAssembly.ProductId(
+    CARAPI GetSubAssembly_ProductId(
      /* [out] */ CFactory.product* CFactory.subassembly.productId);
 
 
-   CARAPI SetSubAssembly.BusinessChannelOwnerId(
+   CARAPI SetSubAssembly_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.subassembly.businessChannelOwnerId);
 
-    CARAPI GetSubAssembly.BusinessChannelOwnerId(
+    CARAPI GetSubAssembly_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.subassembly.businessChannelOwnerId);
 
 
-   CARAPI SetSubAssembly.SubAssemblyTypeId(
+   CARAPI SetSubAssembly_SubAssemblyTypeId(
      /* [in] */ CFactory.subassemblyType CFactory.subassembly.subassemblyTypeId);
 
-    CARAPI GetSubAssembly.SubAssemblyTypeId(
+    CARAPI GetSubAssembly_SubAssemblyTypeId(
      /* [out] */ CFactory.subassemblyType* CFactory.subassembly.subassemblyTypeId);
 
 
-   CARAPI SetSubAssembly.ItemId(
+   CARAPI SetSubAssembly_ItemId(
      /* [in] */ CAdministration.item CFactory.subassembly.itemId);
 
-    CARAPI GetSubAssembly.ItemId(
+    CARAPI GetSubAssembly_ItemId(
      /* [out] */ CAdministration.item* CFactory.subassembly.itemId);
 
 
-   CARAPI SetSubAssembly.SupplierIds(
+   CARAPI SetSubAssembly_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.subassembly.supplierIds);
 
-    CARAPI GetSubAssembly.SupplierIds(
+    CARAPI GetSubAssembly_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.subassembly.supplierIds);
 
 
-   CARAPI SetSubAssembly.DocRefIds(
+   CARAPI SetSubAssembly_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.subassembly.docRefIds);
 
-    CARAPI GetSubAssembly.DocRefIds(
+    CARAPI GetSubAssembly_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.subassembly.docRefIds);
 
 
-   CARAPI SetSubAssembly.ImageRefIds(
+   CARAPI SetSubAssembly_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.subassembly.imageRefIds);
 
-    CARAPI GetSubAssembly.ImageRefIds(
+    CARAPI GetSubAssembly_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.subassembly.imageRefIds);
 
 
-   CARAPI SetSubAssembly.VideoRefIds(
+   CARAPI SetSubAssembly_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.subassembly.videoRefIds);
 
-    CARAPI GetSubAssembly.VideoRefIds(
+    CARAPI GetSubAssembly_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.subassembly.videoRefIds);
 
 
-   CARAPI SetSubAssemblyType.SubAssemblyTypeId(
+   CARAPI SetSubAssemblyType_SubAssemblyTypeId(
      /* [in] */ const String& CFactory.subassemblyType.subassemblyTypeId);
 
-    CARAPI GetSubAssemblyType.SubAssemblyTypeId(
+    CARAPI GetSubAssemblyType_SubAssemblyTypeId(
      /* [out] */ String* CFactory.subassemblyType.subassemblyTypeId);
 
 
-   CARAPI SetSubAssemblyType.SubAssemblyCode(
+   CARAPI SetSubAssemblyType_SubAssemblyCode(
      /* [in] */ const String& CFactory.subassemblyType.subassemblyCode);
 
-    CARAPI GetSubAssemblyType.SubAssemblyCode(
+    CARAPI GetSubAssemblyType_SubAssemblyCode(
      /* [out] */ String* CFactory.subassemblyType.subassemblyCode);
 
 
-   CARAPI SetSubAssemblyType.SubAssemblyDescription(
+   CARAPI SetSubAssemblyType_SubAssemblyDescription(
      /* [in] */ const String& CFactory.subassemblyType.subassemblyDescription);
 
-    CARAPI GetSubAssemblyType.SubAssemblyDescription(
+    CARAPI GetSubAssemblyType_SubAssemblyDescription(
      /* [out] */ String* CFactory.subassemblyType.subassemblyDescription);
 
 
-   CARAPI SetSubAssemblyType.Corrosiveness(
+   CARAPI SetSubAssemblyType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.subassemblyType.corrosiveness);
 
-    CARAPI GetSubAssemblyType.Corrosiveness(
+    CARAPI GetSubAssemblyType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.subassemblyType.corrosiveness);
 
 
-   CARAPI SetSubAssemblyType.Toxicity(
+   CARAPI SetSubAssemblyType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.subassemblyType.toxicity);
 
-    CARAPI GetSubAssemblyType.Toxicity(
+    CARAPI GetSubAssemblyType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.subassemblyType.toxicity);
 
 
-   CARAPI SetSubAssemblyType.Fragility(
+   CARAPI SetSubAssemblyType_Fragility(
      /* [in] */ CHelper.fragility CFactory.subassemblyType.fragility);
 
-    CARAPI GetSubAssemblyType.Fragility(
+    CARAPI GetSubAssemblyType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.subassemblyType.fragility);
 
 
-   CARAPI SetSubAssemblyType.PhysicalStateWhenIdle(
+   CARAPI SetSubAssemblyType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.subassemblyType.PhysicalStateWhenIdle);
 
-    CARAPI GetSubAssemblyType.PhysicalStateWhenIdle(
+    CARAPI GetSubAssemblyType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.subassemblyType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetSubAssemblyType.RemainingNum(
+   CARAPI SetSubAssemblyType_RemainingNum(
      /* [in] */ Int32 CFactory.subassemblyType.remainingNum);
 
-    CARAPI GetSubAssemblyType.RemainingNum(
+    CARAPI GetSubAssemblyType_RemainingNum(
      /* [out] */ Int32* CFactory.subassemblyType.remainingNum);
 
 
-   CARAPI SetSubAssemblyType.SubAssemblyReorderCARAPI SetPoint(
+   CARAPI SetSubAssemblyType_SubAssemblyReorderCARAPI
      /* [in] */ Int32 CFactory.subassemblyType.subassemblyReorderCARAPI SetPoint);
 
-    CARAPI GetSubAssemblyType.SubAssemblyReorderCARAPI SetPoint(
+    CARAPI GetSubAssemblyType_SubAssemblyReorderCARAPI
      /* [out] */ Int32* CFactory.subassemblyType.subassemblyReorderCARAPI SetPoint);
 
 
-   CARAPI SetSubAssemblyType.SubAssemblyReorderCode(
+   CARAPI SetSubAssemblyType_SubAssemblyReorderCode(
      /* [in] */ const String& CFactory.subassemblyType.subassemblyReorderCode);
 
-    CARAPI GetSubAssemblyType.SubAssemblyReorderCode(
+    CARAPI GetSubAssemblyType_SubAssemblyReorderCode(
      /* [out] */ String* CFactory.subassemblyType.subassemblyReorderCode);
 
 
-   CARAPI SetSubAssemblyType.BusinessChannelOwnerId(
+   CARAPI SetSubAssemblyType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.subassemblyType.businessChannelOwnerId);
 
-    CARAPI GetSubAssemblyType.BusinessChannelOwnerId(
+    CARAPI GetSubAssemblyType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.subassemblyType.businessChannelOwnerId);
 
 
-   CARAPI SetSubAssemblyType.ItemTypeId(
+   CARAPI SetSubAssemblyType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.subassemblyType.itemTypeId);
 
-    CARAPI GetSubAssemblyType.ItemTypeId(
+    CARAPI GetSubAssemblyType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.subassemblyType.itemTypeId);
 
 
-   CARAPI SetSubAssemblyType.SupplierIds(
+   CARAPI SetSubAssemblyType_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.subassemblyType.supplierIds);
 
-    CARAPI GetSubAssemblyType.SupplierIds(
+    CARAPI GetSubAssemblyType_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.subassemblyType.supplierIds);
 
 
-   CARAPI SetSubAssemblyType.MaterialTypeIds(
+   CARAPI SetSubAssemblyType_MaterialTypeIds(
      /* [in] */ ArrayOf<CFactory.materialType> CFactory.subassemblyType.materialTypeIds);
 
-    CARAPI GetSubAssemblyType.MaterialTypeIds(
+    CARAPI GetSubAssemblyType_MaterialTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.materialType>* CFactory.subassemblyType.materialTypeIds);
 
 
-   CARAPI SetSubAssemblyType.PartTypeId(
+   CARAPI SetSubAssemblyType_PartTypeId(
      /* [in] */ ArrayOf<CFactory.partType> CFactory.subassemblyType.partTypeId);
 
-    CARAPI GetSubAssemblyType.PartTypeId(
+    CARAPI GetSubAssemblyType_PartTypeId(
      /* [out, callee] */ ArrayOf<CFactory.partType>* CFactory.subassemblyType.partTypeId);
 
 
-   CARAPI SetSubAssemblyType.MinorSubAssemblyTypeIds(
+   CARAPI SetSubAssemblyType_MinorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.minorsubassemblyType> CFactory.subassemblyType.minorsubassemblyTypeIds);
 
-    CARAPI GetSubAssemblyType.MinorSubAssemblyTypeIds(
+    CARAPI GetSubAssemblyType_MinorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassemblyType>* CFactory.subassemblyType.minorsubassemblyTypeIds);
 
 
-   CARAPI SetSubAssemblyType.MajorSubAssemblyTypeIds(
+   CARAPI SetSubAssemblyType_MajorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.majorsubassemblyType> CFactory.subassemblyType.majorsubassemblyTypeIds);
 
-    CARAPI GetSubAssemblyType.MajorSubAssemblyTypeIds(
+    CARAPI GetSubAssemblyType_MajorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassemblyType>* CFactory.subassemblyType.majorsubassemblyTypeIds);
 
 
-   CARAPI SetSubAssemblyType.LesserAssemblyTypeIds(
+   CARAPI SetSubAssemblyType_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CFactory.subassemblyType.lesserassemblyTypeIds);
 
-    CARAPI GetSubAssemblyType.LesserAssemblyTypeIds(
+    CARAPI GetSubAssemblyType_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CFactory.subassemblyType.lesserassemblyTypeIds);
 
 
-   CARAPI SetSubAssemblyType.AssemblyTypeIds(
+   CARAPI SetSubAssemblyType_AssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.assemblyType> CFactory.subassemblyType.assemblyTypeIds);
 
-    CARAPI GetSubAssemblyType.AssemblyTypeIds(
+    CARAPI GetSubAssemblyType_AssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.assemblyType>* CFactory.subassemblyType.assemblyTypeIds);
 
 
-   CARAPI SetSubAssemblyType.GreaterAssemblyTypeIds(
+   CARAPI SetSubAssemblyType_GreaterAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.greaterassemblyType> CFactory.subassemblyType.greaterassemblyTypeIds);
 
-    CARAPI GetSubAssemblyType.GreaterAssemblyTypeIds(
+    CARAPI GetSubAssemblyType_GreaterAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassemblyType>* CFactory.subassemblyType.greaterassemblyTypeIds);
 
 
-   CARAPI SetSubAssemblyType.ProductTypeIds(
+   CARAPI SetSubAssemblyType_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CFactory.subassemblyType.productTypeIds);
 
-    CARAPI GetSubAssemblyType.ProductTypeIds(
+    CARAPI GetSubAssemblyType_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CFactory.subassemblyType.productTypeIds);
 
 
-   CARAPI SetSubAssemblyType.DocRefIds(
+   CARAPI SetSubAssemblyType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.subassemblyType.docRefIds);
 
-    CARAPI GetSubAssemblyType.DocRefIds(
+    CARAPI GetSubAssemblyType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.subassemblyType.docRefIds);
 
 
-   CARAPI SetSubAssemblyType.ImageRefIds(
+   CARAPI SetSubAssemblyType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.subassemblyType.imageRefIds);
 
-    CARAPI GetSubAssemblyType.ImageRefIds(
+    CARAPI GetSubAssemblyType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.subassemblyType.imageRefIds);
 
 
-   CARAPI SetSubAssemblyType.VideoRefIds(
+   CARAPI SetSubAssemblyType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.subassemblyType.videoRefIds);
 
-    CARAPI GetSubAssemblyType.VideoRefIds(
+    CARAPI GetSubAssemblyType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.subassemblyType.videoRefIds);
 
 
-   CARAPI SetMajorSubAssembly.MajorSubAssyId(
+   CARAPI SetMajorSubAssembly_MajorSubAssyId(
      /* [in] */ const String& CFactory.majorsubassembly.majorSubAssyId);
 
-    CARAPI GetMajorSubAssembly.MajorSubAssyId(
+    CARAPI GetMajorSubAssembly_MajorSubAssyId(
      /* [out] */ String* CFactory.majorsubassembly.majorSubAssyId);
 
 
-   CARAPI SetMajorSubAssembly.Hazardous(
+   CARAPI SetMajorSubAssembly_Hazardous(
      /* [in] */ Boolean CFactory.majorsubassembly.hazardous);
 
-    CARAPI GetMajorSubAssembly.Hazardous(
+    CARAPI GetMajorSubAssembly_Hazardous(
      /* [out] */ Boolean* CFactory.majorsubassembly.hazardous);
 
 
-   CARAPI SetMajorSubAssembly.MajorSubAssemblyName(
+   CARAPI SetMajorSubAssembly_MajorSubAssemblyName(
      /* [in] */ const String& CFactory.majorsubassembly.majorsubassemblyName);
 
-    CARAPI GetMajorSubAssembly.MajorSubAssemblyName(
+    CARAPI GetMajorSubAssembly_MajorSubAssemblyName(
      /* [out] */ String* CFactory.majorsubassembly.majorsubassemblyName);
 
 
-   CARAPI SetMajorSubAssembly.MajorSubAssemblyDescription(
+   CARAPI SetMajorSubAssembly_MajorSubAssemblyDescription(
      /* [in] */ const String& CFactory.majorsubassembly.majorsubassemblyDescription);
 
-    CARAPI GetMajorSubAssembly.MajorSubAssemblyDescription(
+    CARAPI GetMajorSubAssembly_MajorSubAssemblyDescription(
      /* [out] */ String* CFactory.majorsubassembly.majorsubassemblyDescription);
 
 
-   CARAPI SetMajorSubAssembly.QCCheckedPassed(
+   CARAPI SetMajorSubAssembly_QCCheckedPassed(
      /* [in] */ Boolean CFactory.majorsubassembly.qCCheckedPassed);
 
-    CARAPI GetMajorSubAssembly.QCCheckedPassed(
+    CARAPI GetMajorSubAssembly_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.majorsubassembly.qCCheckedPassed);
 
 
-   CARAPI SetMajorSubAssembly.MajorSubAssemblyCode(
+   CARAPI SetMajorSubAssembly_MajorSubAssemblyCode(
      /* [in] */ const String& CFactory.majorsubassembly.majorsubassemblyCode);
 
-    CARAPI GetMajorSubAssembly.MajorSubAssemblyCode(
+    CARAPI GetMajorSubAssembly_MajorSubAssemblyCode(
      /* [out] */ String* CFactory.majorsubassembly.majorsubassemblyCode);
 
 
-   CARAPI SetMajorSubAssembly.MaterialIds(
+   CARAPI SetMajorSubAssembly_MaterialIds(
      /* [in] */ ArrayOf<CFactory.material> CFactory.majorsubassembly.materialIds);
 
-    CARAPI GetMajorSubAssembly.MaterialIds(
+    CARAPI GetMajorSubAssembly_MaterialIds(
      /* [out, callee] */ ArrayOf<CFactory.material>* CFactory.majorsubassembly.materialIds);
 
 
-   CARAPI SetMajorSubAssembly.PartIds(
+   CARAPI SetMajorSubAssembly_PartIds(
      /* [in] */ ArrayOf<CFactory.part> CFactory.majorsubassembly.partIds);
 
-    CARAPI GetMajorSubAssembly.PartIds(
+    CARAPI GetMajorSubAssembly_PartIds(
      /* [out, callee] */ ArrayOf<CFactory.part>* CFactory.majorsubassembly.partIds);
 
 
-   CARAPI SetMajorSubAssembly.MinorSubAssemblyIds(
+   CARAPI SetMajorSubAssembly_MinorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.minorsubassembly> CFactory.majorsubassembly.minorsubassemblyIds);
 
-    CARAPI GetMajorSubAssembly.MinorSubAssemblyIds(
+    CARAPI GetMajorSubAssembly_MinorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassembly>* CFactory.majorsubassembly.minorsubassemblyIds);
 
 
-   CARAPI SetMajorSubAssembly.SubAssemblyIds(
+   CARAPI SetMajorSubAssembly_SubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.subassembly> CFactory.majorsubassembly.subassemblyIds);
 
-    CARAPI GetMajorSubAssembly.SubAssemblyIds(
+    CARAPI GetMajorSubAssembly_SubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.subassembly>* CFactory.majorsubassembly.subassemblyIds);
 
 
-   CARAPI SetMajorSubAssembly.LesserAssemblyId(
+   CARAPI SetMajorSubAssembly_LesserAssemblyId(
      /* [in] */ CFactory.lesserassembly CFactory.majorsubassembly.lesserassemblyId);
 
-    CARAPI GetMajorSubAssembly.LesserAssemblyId(
+    CARAPI GetMajorSubAssembly_LesserAssemblyId(
      /* [out] */ CFactory.lesserassembly* CFactory.majorsubassembly.lesserassemblyId);
 
 
-   CARAPI SetMajorSubAssembly.AssemblyId(
+   CARAPI SetMajorSubAssembly_AssemblyId(
      /* [in] */ CFactory.assembly CFactory.majorsubassembly.assemblyId);
 
-    CARAPI GetMajorSubAssembly.AssemblyId(
+    CARAPI GetMajorSubAssembly_AssemblyId(
      /* [out] */ CFactory.assembly* CFactory.majorsubassembly.assemblyId);
 
 
-   CARAPI SetMajorSubAssembly.GreaterAssembly(
+   CARAPI SetMajorSubAssembly_GreaterAssembly(
      /* [in] */ CFactory.greaterassembly CFactory.majorsubassembly.greaterassembly);
 
-    CARAPI GetMajorSubAssembly.GreaterAssembly(
+    CARAPI GetMajorSubAssembly_GreaterAssembly(
      /* [out] */ CFactory.greaterassembly* CFactory.majorsubassembly.greaterassembly);
 
 
-   CARAPI SetMajorSubAssembly.ProductIds(
+   CARAPI SetMajorSubAssembly_ProductIds(
      /* [in] */ CFactory.product CFactory.majorsubassembly.productIds);
 
-    CARAPI GetMajorSubAssembly.ProductIds(
+    CARAPI GetMajorSubAssembly_ProductIds(
      /* [out] */ CFactory.product* CFactory.majorsubassembly.productIds);
 
 
-   CARAPI SetMajorSubAssembly.BusinessChannelOwnerId(
+   CARAPI SetMajorSubAssembly_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.majorsubassembly.businessChannelOwnerId);
 
-    CARAPI GetMajorSubAssembly.BusinessChannelOwnerId(
+    CARAPI GetMajorSubAssembly_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.majorsubassembly.businessChannelOwnerId);
 
 
-   CARAPI SetMajorSubAssembly.MajorSubAssemblyTypeId(
+   CARAPI SetMajorSubAssembly_MajorSubAssemblyTypeId(
      /* [in] */ CFactory.majorsubassemblyType CFactory.majorsubassembly.majorsubassemblyTypeId);
 
-    CARAPI GetMajorSubAssembly.MajorSubAssemblyTypeId(
+    CARAPI GetMajorSubAssembly_MajorSubAssemblyTypeId(
      /* [out] */ CFactory.majorsubassemblyType* CFactory.majorsubassembly.majorsubassemblyTypeId);
 
 
-   CARAPI SetMajorSubAssembly.ItemId(
+   CARAPI SetMajorSubAssembly_ItemId(
      /* [in] */ CAdministration.item CFactory.majorsubassembly.itemId);
 
-    CARAPI GetMajorSubAssembly.ItemId(
+    CARAPI GetMajorSubAssembly_ItemId(
      /* [out] */ CAdministration.item* CFactory.majorsubassembly.itemId);
 
 
-   CARAPI SetMajorSubAssembly.SupplierIds(
+   CARAPI SetMajorSubAssembly_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.majorsubassembly.supplierIds);
 
-    CARAPI GetMajorSubAssembly.SupplierIds(
+    CARAPI GetMajorSubAssembly_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.majorsubassembly.supplierIds);
 
 
-   CARAPI SetMajorSubAssembly.DocRefIds(
+   CARAPI SetMajorSubAssembly_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.majorsubassembly.docRefIds);
 
-    CARAPI GetMajorSubAssembly.DocRefIds(
+    CARAPI GetMajorSubAssembly_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.majorsubassembly.docRefIds);
 
 
-   CARAPI SetMajorSubAssembly.ImageRefIds(
+   CARAPI SetMajorSubAssembly_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.majorsubassembly.imageRefIds);
 
-    CARAPI GetMajorSubAssembly.ImageRefIds(
+    CARAPI GetMajorSubAssembly_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.majorsubassembly.imageRefIds);
 
 
-   CARAPI SetMajorSubAssembly.VideoRefIds(
+   CARAPI SetMajorSubAssembly_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.majorsubassembly.videoRefIds);
 
-    CARAPI GetMajorSubAssembly.VideoRefIds(
+    CARAPI GetMajorSubAssembly_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.majorsubassembly.videoRefIds);
 
 
-   CARAPI SetMajorSubAssemblyType.MajorSubAssemblyTypeId(
+   CARAPI SetMajorSubAssemblyType_MajorSubAssemblyTypeId(
      /* [in] */ const String& CFactory.majorsubassemblyType.majorsubassemblyTypeId);
 
-    CARAPI GetMajorSubAssemblyType.MajorSubAssemblyTypeId(
+    CARAPI GetMajorSubAssemblyType_MajorSubAssemblyTypeId(
      /* [out] */ String* CFactory.majorsubassemblyType.majorsubassemblyTypeId);
 
 
-   CARAPI SetMajorSubAssemblyType.MajorSubAssemblyDescription(
+   CARAPI SetMajorSubAssemblyType_MajorSubAssemblyDescription(
      /* [in] */ const String& CFactory.majorsubassemblyType.majorsubassemblyDescription);
 
-    CARAPI GetMajorSubAssemblyType.MajorSubAssemblyDescription(
+    CARAPI GetMajorSubAssemblyType_MajorSubAssemblyDescription(
      /* [out] */ String* CFactory.majorsubassemblyType.majorsubassemblyDescription);
 
 
-   CARAPI SetMajorSubAssemblyType.Corrosiveness(
+   CARAPI SetMajorSubAssemblyType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.majorsubassemblyType.corrosiveness);
 
-    CARAPI GetMajorSubAssemblyType.Corrosiveness(
+    CARAPI GetMajorSubAssemblyType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.majorsubassemblyType.corrosiveness);
 
 
-   CARAPI SetMajorSubAssemblyType.Toxicity(
+   CARAPI SetMajorSubAssemblyType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.majorsubassemblyType.toxicity);
 
-    CARAPI GetMajorSubAssemblyType.Toxicity(
+    CARAPI GetMajorSubAssemblyType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.majorsubassemblyType.toxicity);
 
 
-   CARAPI SetMajorSubAssemblyType.Fragility(
+   CARAPI SetMajorSubAssemblyType_Fragility(
      /* [in] */ CHelper.fragility CFactory.majorsubassemblyType.fragility);
 
-    CARAPI GetMajorSubAssemblyType.Fragility(
+    CARAPI GetMajorSubAssemblyType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.majorsubassemblyType.fragility);
 
 
-   CARAPI SetMajorSubAssemblyType.PhysicalStateWhenIdle(
+   CARAPI SetMajorSubAssemblyType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.majorsubassemblyType.PhysicalStateWhenIdle);
 
-    CARAPI GetMajorSubAssemblyType.PhysicalStateWhenIdle(
+    CARAPI GetMajorSubAssemblyType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.majorsubassemblyType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetMajorSubAssemblyType.RemainingNum(
+   CARAPI SetMajorSubAssemblyType_RemainingNum(
      /* [in] */ Int32 CFactory.majorsubassemblyType.remainingNum);
 
-    CARAPI GetMajorSubAssemblyType.RemainingNum(
+    CARAPI GetMajorSubAssemblyType_RemainingNum(
      /* [out] */ Int32* CFactory.majorsubassemblyType.remainingNum);
 
 
-   CARAPI SetMajorSubAssemblyType.MajorSubAssemblyReorderCARAPI SetPoint(
+   CARAPI SetMajorSubAssemblyType_MajorSubAssemblyReorderCARAPI
      /* [in] */ Int32 CFactory.majorsubassemblyType.majorsubassemblyReorderCARAPI SetPoint);
 
-    CARAPI GetMajorSubAssemblyType.MajorSubAssemblyReorderCARAPI SetPoint(
+    CARAPI GetMajorSubAssemblyType_MajorSubAssemblyReorderCARAPI
      /* [out] */ Int32* CFactory.majorsubassemblyType.majorsubassemblyReorderCARAPI SetPoint);
 
 
-   CARAPI SetMajorSubAssemblyType.MajorSubAssemblyReorderCode(
+   CARAPI SetMajorSubAssemblyType_MajorSubAssemblyReorderCode(
      /* [in] */ const String& CFactory.majorsubassemblyType.majorsubassemblyReorderCode);
 
-    CARAPI GetMajorSubAssemblyType.MajorSubAssemblyReorderCode(
+    CARAPI GetMajorSubAssemblyType_MajorSubAssemblyReorderCode(
      /* [out] */ String* CFactory.majorsubassemblyType.majorsubassemblyReorderCode);
 
 
-   CARAPI SetMajorSubAssemblyType.MaterialTypeIds(
+   CARAPI SetMajorSubAssemblyType_MaterialTypeIds(
      /* [in] */ ArrayOf<CFactory.materialType> CFactory.majorsubassemblyType.materialTypeIds);
 
-    CARAPI GetMajorSubAssemblyType.MaterialTypeIds(
+    CARAPI GetMajorSubAssemblyType_MaterialTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.materialType>* CFactory.majorsubassemblyType.materialTypeIds);
 
 
-   CARAPI SetMajorSubAssemblyType.PartTypeId(
+   CARAPI SetMajorSubAssemblyType_PartTypeId(
      /* [in] */ ArrayOf<CFactory.partType> CFactory.majorsubassemblyType.partTypeId);
 
-    CARAPI GetMajorSubAssemblyType.PartTypeId(
+    CARAPI GetMajorSubAssemblyType_PartTypeId(
      /* [out, callee] */ ArrayOf<CFactory.partType>* CFactory.majorsubassemblyType.partTypeId);
 
 
-   CARAPI SetMajorSubAssemblyType.MinorSubAssemblyTypeIds(
+   CARAPI SetMajorSubAssemblyType_MinorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.minorsubassemblyType> CFactory.majorsubassemblyType.minorsubassemblyTypeIds);
 
-    CARAPI GetMajorSubAssemblyType.MinorSubAssemblyTypeIds(
+    CARAPI GetMajorSubAssemblyType_MinorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassemblyType>* CFactory.majorsubassemblyType.minorsubassemblyTypeIds);
 
 
-   CARAPI SetMajorSubAssemblyType.SubAssemblyTypeIds(
+   CARAPI SetMajorSubAssemblyType_SubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.subassemblyType> CFactory.majorsubassemblyType.subassemblyTypeIds);
 
-    CARAPI GetMajorSubAssemblyType.SubAssemblyTypeIds(
+    CARAPI GetMajorSubAssemblyType_SubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.subassemblyType>* CFactory.majorsubassemblyType.subassemblyTypeIds);
 
 
-   CARAPI SetMajorSubAssemblyType.LesserAssemblyTypeIds(
+   CARAPI SetMajorSubAssemblyType_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CFactory.majorsubassemblyType.lesserassemblyTypeIds);
 
-    CARAPI GetMajorSubAssemblyType.LesserAssemblyTypeIds(
+    CARAPI GetMajorSubAssemblyType_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CFactory.majorsubassemblyType.lesserassemblyTypeIds);
 
 
-   CARAPI SetMajorSubAssemblyType.AssemblyTypeIds(
+   CARAPI SetMajorSubAssemblyType_AssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.assemblyType> CFactory.majorsubassemblyType.assemblyTypeIds);
 
-    CARAPI GetMajorSubAssemblyType.AssemblyTypeIds(
+    CARAPI GetMajorSubAssemblyType_AssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.assemblyType>* CFactory.majorsubassemblyType.assemblyTypeIds);
 
 
-   CARAPI SetMajorSubAssemblyType.GreaterAssemblyTypeIds(
+   CARAPI SetMajorSubAssemblyType_GreaterAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.greaterassemblyType> CFactory.majorsubassemblyType.greaterassemblyTypeIds);
 
-    CARAPI GetMajorSubAssemblyType.GreaterAssemblyTypeIds(
+    CARAPI GetMajorSubAssemblyType_GreaterAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassemblyType>* CFactory.majorsubassemblyType.greaterassemblyTypeIds);
 
 
-   CARAPI SetMajorSubAssemblyType.ProductTypeIds(
+   CARAPI SetMajorSubAssemblyType_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CFactory.majorsubassemblyType.productTypeIds);
 
-    CARAPI GetMajorSubAssemblyType.ProductTypeIds(
+    CARAPI GetMajorSubAssemblyType_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CFactory.majorsubassemblyType.productTypeIds);
 
 
-   CARAPI SetMajorSubAssemblyType.BusinessChannelOwnerId(
+   CARAPI SetMajorSubAssemblyType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.majorsubassemblyType.businessChannelOwnerId);
 
-    CARAPI GetMajorSubAssemblyType.BusinessChannelOwnerId(
+    CARAPI GetMajorSubAssemblyType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.majorsubassemblyType.businessChannelOwnerId);
 
 
-   CARAPI SetMajorSubAssemblyType.ItemTypeId(
+   CARAPI SetMajorSubAssemblyType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.majorsubassemblyType.itemTypeId);
 
-    CARAPI GetMajorSubAssemblyType.ItemTypeId(
+    CARAPI GetMajorSubAssemblyType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.majorsubassemblyType.itemTypeId);
 
 
-   CARAPI SetMajorSubAssemblyType.SupplierIds(
+   CARAPI SetMajorSubAssemblyType_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.majorsubassemblyType.supplierIds);
 
-    CARAPI GetMajorSubAssemblyType.SupplierIds(
+    CARAPI GetMajorSubAssemblyType_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.majorsubassemblyType.supplierIds);
 
 
-   CARAPI SetMajorSubAssemblyType.DocRefIds(
+   CARAPI SetMajorSubAssemblyType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.majorsubassemblyType.docRefIds);
 
-    CARAPI GetMajorSubAssemblyType.DocRefIds(
+    CARAPI GetMajorSubAssemblyType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.majorsubassemblyType.docRefIds);
 
 
-   CARAPI SetMajorSubAssemblyType.ImageRefIds(
+   CARAPI SetMajorSubAssemblyType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.majorsubassemblyType.imageRefIds);
 
-    CARAPI GetMajorSubAssemblyType.ImageRefIds(
+    CARAPI GetMajorSubAssemblyType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.majorsubassemblyType.imageRefIds);
 
 
-   CARAPI SetMajorSubAssemblyType.VideoRefIds(
+   CARAPI SetMajorSubAssemblyType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.majorsubassemblyType.videoRefIds);
 
-    CARAPI GetMajorSubAssemblyType.VideoRefIds(
+    CARAPI GetMajorSubAssemblyType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.majorsubassemblyType.videoRefIds);
 
 
-   CARAPI SetLesserAssembly.LesserAssyId(
+   CARAPI SetLesserAssembly_LesserAssyId(
      /* [in] */ const String& CFactory.lesserassembly.lesserAssyId);
 
-    CARAPI GetLesserAssembly.LesserAssyId(
+    CARAPI GetLesserAssembly_LesserAssyId(
      /* [out] */ String* CFactory.lesserassembly.lesserAssyId);
 
 
-   CARAPI SetLesserAssembly.Hazardous(
+   CARAPI SetLesserAssembly_Hazardous(
      /* [in] */ Boolean CFactory.lesserassembly.hazardous);
 
-    CARAPI GetLesserAssembly.Hazardous(
+    CARAPI GetLesserAssembly_Hazardous(
      /* [out] */ Boolean* CFactory.lesserassembly.hazardous);
 
 
-   CARAPI SetLesserAssembly.LesserAssemblyName(
+   CARAPI SetLesserAssembly_LesserAssemblyName(
      /* [in] */ const String& CFactory.lesserassembly.lesserassemblyName);
 
-    CARAPI GetLesserAssembly.LesserAssemblyName(
+    CARAPI GetLesserAssembly_LesserAssemblyName(
      /* [out] */ String* CFactory.lesserassembly.lesserassemblyName);
 
 
-   CARAPI SetLesserAssembly.LesserAssemblyDescription(
+   CARAPI SetLesserAssembly_LesserAssemblyDescription(
      /* [in] */ const String& CFactory.lesserassembly.lesserassemblyDescription);
 
-    CARAPI GetLesserAssembly.LesserAssemblyDescription(
+    CARAPI GetLesserAssembly_LesserAssemblyDescription(
      /* [out] */ String* CFactory.lesserassembly.lesserassemblyDescription);
 
 
-   CARAPI SetLesserAssembly.QCCheckedPassed(
+   CARAPI SetLesserAssembly_QCCheckedPassed(
      /* [in] */ Boolean CFactory.lesserassembly.qCCheckedPassed);
 
-    CARAPI GetLesserAssembly.QCCheckedPassed(
+    CARAPI GetLesserAssembly_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.lesserassembly.qCCheckedPassed);
 
 
-   CARAPI SetLesserAssembly.MaterialIds(
+   CARAPI SetLesserAssembly_MaterialIds(
      /* [in] */ ArrayOf<CFactory.material> CFactory.lesserassembly.materialIds);
 
-    CARAPI GetLesserAssembly.MaterialIds(
+    CARAPI GetLesserAssembly_MaterialIds(
      /* [out, callee] */ ArrayOf<CFactory.material>* CFactory.lesserassembly.materialIds);
 
 
-   CARAPI SetLesserAssembly.PartIds(
+   CARAPI SetLesserAssembly_PartIds(
      /* [in] */ ArrayOf<CFactory.part> CFactory.lesserassembly.partIds);
 
-    CARAPI GetLesserAssembly.PartIds(
+    CARAPI GetLesserAssembly_PartIds(
      /* [out, callee] */ ArrayOf<CFactory.part>* CFactory.lesserassembly.partIds);
 
 
-   CARAPI SetLesserAssembly.MinorSubAssemblyIds(
+   CARAPI SetLesserAssembly_MinorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.minorsubassembly> CFactory.lesserassembly.minorsubassemblyIds);
 
-    CARAPI GetLesserAssembly.MinorSubAssemblyIds(
+    CARAPI GetLesserAssembly_MinorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassembly>* CFactory.lesserassembly.minorsubassemblyIds);
 
 
-   CARAPI SetLesserAssembly.SubAssemblyIds(
+   CARAPI SetLesserAssembly_SubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.subassembly> CFactory.lesserassembly.subassemblyIds);
 
-    CARAPI GetLesserAssembly.SubAssemblyIds(
+    CARAPI GetLesserAssembly_SubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.subassembly>* CFactory.lesserassembly.subassemblyIds);
 
 
-   CARAPI SetLesserAssembly.MajorSubAssemblyIds(
+   CARAPI SetLesserAssembly_MajorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.majorsubassembly> CFactory.lesserassembly.majorsubassemblyIds);
 
-    CARAPI GetLesserAssembly.MajorSubAssemblyIds(
+    CARAPI GetLesserAssembly_MajorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassembly>* CFactory.lesserassembly.majorsubassemblyIds);
 
 
-   CARAPI SetLesserAssembly.AssemblyId(
+   CARAPI SetLesserAssembly_AssemblyId(
      /* [in] */ CFactory.assembly CFactory.lesserassembly.assemblyId);
 
-    CARAPI GetLesserAssembly.AssemblyId(
+    CARAPI GetLesserAssembly_AssemblyId(
      /* [out] */ CFactory.assembly* CFactory.lesserassembly.assemblyId);
 
 
-   CARAPI SetLesserAssembly.GreaterAssemblyId(
+   CARAPI SetLesserAssembly_GreaterAssemblyId(
      /* [in] */ CFactory.greaterassembly CFactory.lesserassembly.greaterassemblyId);
 
-    CARAPI GetLesserAssembly.GreaterAssemblyId(
+    CARAPI GetLesserAssembly_GreaterAssemblyId(
      /* [out] */ CFactory.greaterassembly* CFactory.lesserassembly.greaterassemblyId);
 
 
-   CARAPI SetLesserAssembly.LesserAssemblyTypeId(
+   CARAPI SetLesserAssembly_LesserAssemblyTypeId(
      /* [in] */ CFactory.lesserassemblyType CFactory.lesserassembly.lesserassemblyTypeId);
 
-    CARAPI GetLesserAssembly.LesserAssemblyTypeId(
+    CARAPI GetLesserAssembly_LesserAssemblyTypeId(
      /* [out] */ CFactory.lesserassemblyType* CFactory.lesserassembly.lesserassemblyTypeId);
 
 
-   CARAPI SetLesserAssembly.ProductId(
+   CARAPI SetLesserAssembly_ProductId(
      /* [in] */ CFactory.product CFactory.lesserassembly.productId);
 
-    CARAPI GetLesserAssembly.ProductId(
+    CARAPI GetLesserAssembly_ProductId(
      /* [out] */ CFactory.product* CFactory.lesserassembly.productId);
 
 
-   CARAPI SetLesserAssembly.BusinessChannelOwnerId(
+   CARAPI SetLesserAssembly_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.lesserassembly.businessChannelOwnerId);
 
-    CARAPI GetLesserAssembly.BusinessChannelOwnerId(
+    CARAPI GetLesserAssembly_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.lesserassembly.businessChannelOwnerId);
 
 
-   CARAPI SetLesserAssembly.ItemId(
+   CARAPI SetLesserAssembly_ItemId(
      /* [in] */ CAdministration.item CFactory.lesserassembly.itemId);
 
-    CARAPI GetLesserAssembly.ItemId(
+    CARAPI GetLesserAssembly_ItemId(
      /* [out] */ CAdministration.item* CFactory.lesserassembly.itemId);
 
 
-   CARAPI SetLesserAssembly.SupplierIds(
+   CARAPI SetLesserAssembly_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.lesserassembly.supplierIds);
 
-    CARAPI GetLesserAssembly.SupplierIds(
+    CARAPI GetLesserAssembly_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.lesserassembly.supplierIds);
 
 
-   CARAPI SetLesserAssembly.DocRefIds(
+   CARAPI SetLesserAssembly_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.lesserassembly.docRefIds);
 
-    CARAPI GetLesserAssembly.DocRefIds(
+    CARAPI GetLesserAssembly_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.lesserassembly.docRefIds);
 
 
-   CARAPI SetLesserAssembly.ImageRefIds(
+   CARAPI SetLesserAssembly_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.lesserassembly.imageRefIds);
 
-    CARAPI GetLesserAssembly.ImageRefIds(
+    CARAPI GetLesserAssembly_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.lesserassembly.imageRefIds);
 
 
-   CARAPI SetLesserAssembly.VideoRefIds(
+   CARAPI SetLesserAssembly_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.lesserassembly.videoRefIds);
 
-    CARAPI GetLesserAssembly.VideoRefIds(
+    CARAPI GetLesserAssembly_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.lesserassembly.videoRefIds);
 
 
-   CARAPI SetLesserAssemblyType.LesserAssemblyTypeId(
+   CARAPI SetLesserAssemblyType_LesserAssemblyTypeId(
      /* [in] */ const String& CFactory.lesserassemblyType.lesserassemblyTypeId);
 
-    CARAPI GetLesserAssemblyType.LesserAssemblyTypeId(
+    CARAPI GetLesserAssemblyType_LesserAssemblyTypeId(
      /* [out] */ String* CFactory.lesserassemblyType.lesserassemblyTypeId);
 
 
-   CARAPI SetLesserAssemblyType.LesseAssemblyDescription(
+   CARAPI SetLesserAssemblyType_LesseAssemblyDescription(
      /* [in] */ const String& CFactory.lesserassemblyType.lesseAssemblyDescription);
 
-    CARAPI GetLesserAssemblyType.LesseAssemblyDescription(
+    CARAPI GetLesserAssemblyType_LesseAssemblyDescription(
      /* [out] */ String* CFactory.lesserassemblyType.lesseAssemblyDescription);
 
 
-   CARAPI SetLesserAssemblyType.LesserAssemblyCode(
+   CARAPI SetLesserAssemblyType_LesserAssemblyCode(
      /* [in] */ const String& CFactory.lesserassemblyType.lesserassemblyCode);
 
-    CARAPI GetLesserAssemblyType.LesserAssemblyCode(
+    CARAPI GetLesserAssemblyType_LesserAssemblyCode(
      /* [out] */ String* CFactory.lesserassemblyType.lesserassemblyCode);
 
 
-   CARAPI SetLesserAssemblyType.Corrosiveness(
+   CARAPI SetLesserAssemblyType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.lesserassemblyType.corrosiveness);
 
-    CARAPI GetLesserAssemblyType.Corrosiveness(
+    CARAPI GetLesserAssemblyType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.lesserassemblyType.corrosiveness);
 
 
-   CARAPI SetLesserAssemblyType.Toxicity(
+   CARAPI SetLesserAssemblyType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.lesserassemblyType.toxicity);
 
-    CARAPI GetLesserAssemblyType.Toxicity(
+    CARAPI GetLesserAssemblyType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.lesserassemblyType.toxicity);
 
 
-   CARAPI SetLesserAssemblyType.Fragility(
+   CARAPI SetLesserAssemblyType_Fragility(
      /* [in] */ CHelper.fragility CFactory.lesserassemblyType.fragility);
 
-    CARAPI GetLesserAssemblyType.Fragility(
+    CARAPI GetLesserAssemblyType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.lesserassemblyType.fragility);
 
 
-   CARAPI SetLesserAssemblyType.PhysicalStateWhenIdle(
+   CARAPI SetLesserAssemblyType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.lesserassemblyType.PhysicalStateWhenIdle);
 
-    CARAPI GetLesserAssemblyType.PhysicalStateWhenIdle(
+    CARAPI GetLesserAssemblyType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.lesserassemblyType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetLesserAssemblyType.RemainingNum(
+   CARAPI SetLesserAssemblyType_RemainingNum(
      /* [in] */ Int32 CFactory.lesserassemblyType.remainingNum);
 
-    CARAPI GetLesserAssemblyType.RemainingNum(
+    CARAPI GetLesserAssemblyType_RemainingNum(
      /* [out] */ Int32* CFactory.lesserassemblyType.remainingNum);
 
 
-   CARAPI SetLesserAssemblyType.LesserAssemblyReorderCARAPI SetPoint(
+   CARAPI SetLesserAssemblyType_LesserAssemblyReorderCARAPI
      /* [in] */ Int32 CFactory.lesserassemblyType.lesserassemblyReorderCARAPI SetPoint);
 
-    CARAPI GetLesserAssemblyType.LesserAssemblyReorderCARAPI SetPoint(
+    CARAPI GetLesserAssemblyType_LesserAssemblyReorderCARAPI
      /* [out] */ Int32* CFactory.lesserassemblyType.lesserassemblyReorderCARAPI SetPoint);
 
 
-   CARAPI SetLesserAssemblyType.LesserAssemblyReorderCode(
+   CARAPI SetLesserAssemblyType_LesserAssemblyReorderCode(
      /* [in] */ const String& CFactory.lesserassemblyType.lesserassemblyReorderCode);
 
-    CARAPI GetLesserAssemblyType.LesserAssemblyReorderCode(
+    CARAPI GetLesserAssemblyType_LesserAssemblyReorderCode(
      /* [out] */ String* CFactory.lesserassemblyType.lesserassemblyReorderCode);
 
 
-   CARAPI SetLesserAssemblyType.MaterialTypeIds(
+   CARAPI SetLesserAssemblyType_MaterialTypeIds(
      /* [in] */ ArrayOf<CFactory.materialType> CFactory.lesserassemblyType.materialTypeIds);
 
-    CARAPI GetLesserAssemblyType.MaterialTypeIds(
+    CARAPI GetLesserAssemblyType_MaterialTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.materialType>* CFactory.lesserassemblyType.materialTypeIds);
 
 
-   CARAPI SetLesserAssemblyType.PartTypeId(
+   CARAPI SetLesserAssemblyType_PartTypeId(
      /* [in] */ ArrayOf<CFactory.partType> CFactory.lesserassemblyType.partTypeId);
 
-    CARAPI GetLesserAssemblyType.PartTypeId(
+    CARAPI GetLesserAssemblyType_PartTypeId(
      /* [out, callee] */ ArrayOf<CFactory.partType>* CFactory.lesserassemblyType.partTypeId);
 
 
-   CARAPI SetLesserAssemblyType.MinorSubAssemblyTypeIds(
+   CARAPI SetLesserAssemblyType_MinorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.minorsubassemblyType> CFactory.lesserassemblyType.minorsubassemblyTypeIds);
 
-    CARAPI GetLesserAssemblyType.MinorSubAssemblyTypeIds(
+    CARAPI GetLesserAssemblyType_MinorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassemblyType>* CFactory.lesserassemblyType.minorsubassemblyTypeIds);
 
 
-   CARAPI SetLesserAssemblyType.SubAssemblyTypeIds(
+   CARAPI SetLesserAssemblyType_SubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.subassemblyType> CFactory.lesserassemblyType.subassemblyTypeIds);
 
-    CARAPI GetLesserAssemblyType.SubAssemblyTypeIds(
+    CARAPI GetLesserAssemblyType_SubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.subassemblyType>* CFactory.lesserassemblyType.subassemblyTypeIds);
 
 
-   CARAPI SetLesserAssemblyType.MajorSubAssemblyTypeIds(
+   CARAPI SetLesserAssemblyType_MajorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.majorsubassemblyType> CFactory.lesserassemblyType.majorsubassemblyTypeIds);
 
-    CARAPI GetLesserAssemblyType.MajorSubAssemblyTypeIds(
+    CARAPI GetLesserAssemblyType_MajorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassemblyType>* CFactory.lesserassemblyType.majorsubassemblyTypeIds);
 
 
-   CARAPI SetLesserAssemblyType.LesserAssemblyTypeIds(
+   CARAPI SetLesserAssemblyType_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CFactory.lesserassemblyType.lesserassemblyTypeIds);
 
-    CARAPI GetLesserAssemblyType.LesserAssemblyTypeIds(
+    CARAPI GetLesserAssemblyType_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CFactory.lesserassemblyType.lesserassemblyTypeIds);
 
 
-   CARAPI SetLesserAssemblyType.GreaterAssemblyTypeIds(
+   CARAPI SetLesserAssemblyType_GreaterAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.greaterassemblyType> CFactory.lesserassemblyType.greaterassemblyTypeIds);
 
-    CARAPI GetLesserAssemblyType.GreaterAssemblyTypeIds(
+    CARAPI GetLesserAssemblyType_GreaterAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassemblyType>* CFactory.lesserassemblyType.greaterassemblyTypeIds);
 
 
-   CARAPI SetLesserAssemblyType.ProductTypeIds(
+   CARAPI SetLesserAssemblyType_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CFactory.lesserassemblyType.productTypeIds);
 
-    CARAPI GetLesserAssemblyType.ProductTypeIds(
+    CARAPI GetLesserAssemblyType_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CFactory.lesserassemblyType.productTypeIds);
 
 
-   CARAPI SetLesserAssemblyType.BusinessChannelOwnerId(
+   CARAPI SetLesserAssemblyType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.lesserassemblyType.businessChannelOwnerId);
 
-    CARAPI GetLesserAssemblyType.BusinessChannelOwnerId(
+    CARAPI GetLesserAssemblyType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.lesserassemblyType.businessChannelOwnerId);
 
 
-   CARAPI SetLesserAssemblyType.ItemTypeId(
+   CARAPI SetLesserAssemblyType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.lesserassemblyType.itemTypeId);
 
-    CARAPI GetLesserAssemblyType.ItemTypeId(
+    CARAPI GetLesserAssemblyType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.lesserassemblyType.itemTypeId);
 
 
-   CARAPI SetLesserAssemblyType.SupplierIds(
+   CARAPI SetLesserAssemblyType_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.lesserassemblyType.supplierIds);
 
-    CARAPI GetLesserAssemblyType.SupplierIds(
+    CARAPI GetLesserAssemblyType_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.lesserassemblyType.supplierIds);
 
 
-   CARAPI SetLesserAssemblyType.DocRefIds(
+   CARAPI SetLesserAssemblyType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.lesserassemblyType.docRefIds);
 
-    CARAPI GetLesserAssemblyType.DocRefIds(
+    CARAPI GetLesserAssemblyType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.lesserassemblyType.docRefIds);
 
 
-   CARAPI SetLesserAssemblyType.ImageRefIds(
+   CARAPI SetLesserAssemblyType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.lesserassemblyType.imageRefIds);
 
-    CARAPI GetLesserAssemblyType.ImageRefIds(
+    CARAPI GetLesserAssemblyType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.lesserassemblyType.imageRefIds);
 
 
-   CARAPI SetLesserAssemblyType.VideoRefIds(
+   CARAPI SetLesserAssemblyType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.lesserassemblyType.videoRefIds);
 
-    CARAPI GetLesserAssemblyType.VideoRefIds(
+    CARAPI GetLesserAssemblyType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.lesserassemblyType.videoRefIds);
 
 
-   CARAPI SetAssembly.AssyId(
+   CARAPI SetAssembly_AssyId(
      /* [in] */ const String& CFactory.assembly.assyId);
 
-    CARAPI GetAssembly.AssyId(
+    CARAPI GetAssembly_AssyId(
      /* [out] */ String* CFactory.assembly.assyId);
 
 
-   CARAPI SetAssembly.Hazardous(
+   CARAPI SetAssembly_Hazardous(
      /* [in] */ Boolean CFactory.assembly.hazardous);
 
-    CARAPI GetAssembly.Hazardous(
+    CARAPI GetAssembly_Hazardous(
      /* [out] */ Boolean* CFactory.assembly.hazardous);
 
 
-   CARAPI SetAssembly.AssemblyName(
+   CARAPI SetAssembly_AssemblyName(
      /* [in] */ const String& CFactory.assembly.assemblyName);
 
-    CARAPI GetAssembly.AssemblyName(
+    CARAPI GetAssembly_AssemblyName(
      /* [out] */ String* CFactory.assembly.assemblyName);
 
 
-   CARAPI SetAssembly.AssemblyDescription(
+   CARAPI SetAssembly_AssemblyDescription(
      /* [in] */ const String& CFactory.assembly.assemblyDescription);
 
-    CARAPI GetAssembly.AssemblyDescription(
+    CARAPI GetAssembly_AssemblyDescription(
      /* [out] */ String* CFactory.assembly.assemblyDescription);
 
 
-   CARAPI SetAssembly.QCCheckedPassed(
+   CARAPI SetAssembly_QCCheckedPassed(
      /* [in] */ Boolean CFactory.assembly.qCCheckedPassed);
 
-    CARAPI GetAssembly.QCCheckedPassed(
+    CARAPI GetAssembly_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.assembly.qCCheckedPassed);
 
 
-   CARAPI SetAssembly.MaterialIds(
+   CARAPI SetAssembly_MaterialIds(
      /* [in] */ ArrayOf<CFactory.material> CFactory.assembly.materialIds);
 
-    CARAPI GetAssembly.MaterialIds(
+    CARAPI GetAssembly_MaterialIds(
      /* [out, callee] */ ArrayOf<CFactory.material>* CFactory.assembly.materialIds);
 
 
-   CARAPI SetAssembly.PartIds(
+   CARAPI SetAssembly_PartIds(
      /* [in] */ ArrayOf<CFactory.part> CFactory.assembly.partIds);
 
-    CARAPI GetAssembly.PartIds(
+    CARAPI GetAssembly_PartIds(
      /* [out, callee] */ ArrayOf<CFactory.part>* CFactory.assembly.partIds);
 
 
-   CARAPI SetAssembly.MinorSubAssemblyIds(
+   CARAPI SetAssembly_MinorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.minorsubassembly> CFactory.assembly.minorsubassemblyIds);
 
-    CARAPI GetAssembly.MinorSubAssemblyIds(
+    CARAPI GetAssembly_MinorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassembly>* CFactory.assembly.minorsubassemblyIds);
 
 
-   CARAPI SetAssembly.SubAssemblyIds(
+   CARAPI SetAssembly_SubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.subassembly> CFactory.assembly.subassemblyIds);
 
-    CARAPI GetAssembly.SubAssemblyIds(
+    CARAPI GetAssembly_SubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.subassembly>* CFactory.assembly.subassemblyIds);
 
 
-   CARAPI SetAssembly.MajorSubAssemblyIds(
+   CARAPI SetAssembly_MajorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.majorsubassembly> CFactory.assembly.majorsubassemblyIds);
 
-    CARAPI GetAssembly.MajorSubAssemblyIds(
+    CARAPI GetAssembly_MajorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassembly>* CFactory.assembly.majorsubassemblyIds);
 
 
-   CARAPI SetAssembly.LesserAssemblyIds(
+   CARAPI SetAssembly_LesserAssemblyIds(
      /* [in] */ ArrayOf<CFactory.lesserassembly> CFactory.assembly.lesserassemblyIds);
 
-    CARAPI GetAssembly.LesserAssemblyIds(
+    CARAPI GetAssembly_LesserAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassembly>* CFactory.assembly.lesserassemblyIds);
 
 
-   CARAPI SetAssembly.AssemblyTypeId(
+   CARAPI SetAssembly_AssemblyTypeId(
      /* [in] */ CFactory.assemblyType CFactory.assembly.assemblyTypeId);
 
-    CARAPI GetAssembly.AssemblyTypeId(
+    CARAPI GetAssembly_AssemblyTypeId(
      /* [out] */ CFactory.assemblyType* CFactory.assembly.assemblyTypeId);
 
 
-   CARAPI SetAssembly.GreaterAssemblyId(
+   CARAPI SetAssembly_GreaterAssemblyId(
      /* [in] */ CFactory.greaterassembly CFactory.assembly.greaterassemblyId);
 
-    CARAPI GetAssembly.GreaterAssemblyId(
+    CARAPI GetAssembly_GreaterAssemblyId(
      /* [out] */ CFactory.greaterassembly* CFactory.assembly.greaterassemblyId);
 
 
-   CARAPI SetAssembly.ProductId(
+   CARAPI SetAssembly_ProductId(
      /* [in] */ CFactory.product CFactory.assembly.productId);
 
-    CARAPI GetAssembly.ProductId(
+    CARAPI GetAssembly_ProductId(
      /* [out] */ CFactory.product* CFactory.assembly.productId);
 
 
-   CARAPI SetAssembly.BusinessChannelOwnerId(
+   CARAPI SetAssembly_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.assembly.businessChannelOwnerId);
 
-    CARAPI GetAssembly.BusinessChannelOwnerId(
+    CARAPI GetAssembly_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.assembly.businessChannelOwnerId);
 
 
-   CARAPI SetAssembly.ItemId(
+   CARAPI SetAssembly_ItemId(
      /* [in] */ CAdministration.item CFactory.assembly.itemId);
 
-    CARAPI GetAssembly.ItemId(
+    CARAPI GetAssembly_ItemId(
      /* [out] */ CAdministration.item* CFactory.assembly.itemId);
 
 
-   CARAPI SetAssembly.SupplierIds(
+   CARAPI SetAssembly_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.assembly.supplierIds);
 
-    CARAPI GetAssembly.SupplierIds(
+    CARAPI GetAssembly_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.assembly.supplierIds);
 
 
-   CARAPI SetAssembly.DocRefIds(
+   CARAPI SetAssembly_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.assembly.docRefIds);
 
-    CARAPI GetAssembly.DocRefIds(
+    CARAPI GetAssembly_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.assembly.docRefIds);
 
 
-   CARAPI SetAssembly.ImageRefIds(
+   CARAPI SetAssembly_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.assembly.imageRefIds);
 
-    CARAPI GetAssembly.ImageRefIds(
+    CARAPI GetAssembly_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.assembly.imageRefIds);
 
 
-   CARAPI SetAssembly.VideoRefIds(
+   CARAPI SetAssembly_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.assembly.videoRefIds);
 
-    CARAPI GetAssembly.VideoRefIds(
+    CARAPI GetAssembly_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.assembly.videoRefIds);
 
 
-   CARAPI SetAssemblyType.AssemblyTypeId(
+   CARAPI SetAssemblyType_AssemblyTypeId(
      /* [in] */ const String& CFactory.assemblyType.assemblyTypeId);
 
-    CARAPI GetAssemblyType.AssemblyTypeId(
+    CARAPI GetAssemblyType_AssemblyTypeId(
      /* [out] */ String* CFactory.assemblyType.assemblyTypeId);
 
 
-   CARAPI SetAssemblyType.AssemblyDescription(
+   CARAPI SetAssemblyType_AssemblyDescription(
      /* [in] */ const String& CFactory.assemblyType.assemblyDescription);
 
-    CARAPI GetAssemblyType.AssemblyDescription(
+    CARAPI GetAssemblyType_AssemblyDescription(
      /* [out] */ String* CFactory.assemblyType.assemblyDescription);
 
 
-   CARAPI SetAssemblyType.AssemblyCode(
+   CARAPI SetAssemblyType_AssemblyCode(
      /* [in] */ const String& CFactory.assemblyType.assemblyCode);
 
-    CARAPI GetAssemblyType.AssemblyCode(
+    CARAPI GetAssemblyType_AssemblyCode(
      /* [out] */ String* CFactory.assemblyType.assemblyCode);
 
 
-   CARAPI SetAssemblyType.Corrosiveness(
+   CARAPI SetAssemblyType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.assemblyType.corrosiveness);
 
-    CARAPI GetAssemblyType.Corrosiveness(
+    CARAPI GetAssemblyType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.assemblyType.corrosiveness);
 
 
-   CARAPI SetAssemblyType.Toxicity(
+   CARAPI SetAssemblyType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.assemblyType.toxicity);
 
-    CARAPI GetAssemblyType.Toxicity(
+    CARAPI GetAssemblyType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.assemblyType.toxicity);
 
 
-   CARAPI SetAssemblyType.Fragility(
+   CARAPI SetAssemblyType_Fragility(
      /* [in] */ CHelper.fragility CFactory.assemblyType.fragility);
 
-    CARAPI GetAssemblyType.Fragility(
+    CARAPI GetAssemblyType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.assemblyType.fragility);
 
 
-   CARAPI SetAssemblyType.PhysicalStateWhenIdle(
+   CARAPI SetAssemblyType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.assemblyType.PhysicalStateWhenIdle);
 
-    CARAPI GetAssemblyType.PhysicalStateWhenIdle(
+    CARAPI GetAssemblyType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.assemblyType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetAssemblyType.RemainingNum(
+   CARAPI SetAssemblyType_RemainingNum(
      /* [in] */ Int32 CFactory.assemblyType.remainingNum);
 
-    CARAPI GetAssemblyType.RemainingNum(
+    CARAPI GetAssemblyType_RemainingNum(
      /* [out] */ Int32* CFactory.assemblyType.remainingNum);
 
 
-   CARAPI SetAssemblyType.AssemblyReorderCARAPI SetPoint(
+   CARAPI SetAssemblyType_AssemblyReorderCARAPI
      /* [in] */ Int32 CFactory.assemblyType.assemblyReorderCARAPI SetPoint);
 
-    CARAPI GetAssemblyType.AssemblyReorderCARAPI SetPoint(
+    CARAPI GetAssemblyType_AssemblyReorderCARAPI
      /* [out] */ Int32* CFactory.assemblyType.assemblyReorderCARAPI SetPoint);
 
 
-   CARAPI SetAssemblyType.AssemblyReorderCode(
+   CARAPI SetAssemblyType_AssemblyReorderCode(
      /* [in] */ const String& CFactory.assemblyType.assemblyReorderCode);
 
-    CARAPI GetAssemblyType.AssemblyReorderCode(
+    CARAPI GetAssemblyType_AssemblyReorderCode(
      /* [out] */ String* CFactory.assemblyType.assemblyReorderCode);
 
 
-   CARAPI SetAssemblyType.MaterialTypeIds(
+   CARAPI SetAssemblyType_MaterialTypeIds(
      /* [in] */ ArrayOf<CFactory.materialType> CFactory.assemblyType.materialTypeIds);
 
-    CARAPI GetAssemblyType.MaterialTypeIds(
+    CARAPI GetAssemblyType_MaterialTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.materialType>* CFactory.assemblyType.materialTypeIds);
 
 
-   CARAPI SetAssemblyType.PartTypeId(
+   CARAPI SetAssemblyType_PartTypeId(
      /* [in] */ ArrayOf<CFactory.partType> CFactory.assemblyType.partTypeId);
 
-    CARAPI GetAssemblyType.PartTypeId(
+    CARAPI GetAssemblyType_PartTypeId(
      /* [out, callee] */ ArrayOf<CFactory.partType>* CFactory.assemblyType.partTypeId);
 
 
-   CARAPI SetAssemblyType.MinorSubAssemblyTypeIds(
+   CARAPI SetAssemblyType_MinorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.minorsubassemblyType> CFactory.assemblyType.minorsubassemblyTypeIds);
 
-    CARAPI GetAssemblyType.MinorSubAssemblyTypeIds(
+    CARAPI GetAssemblyType_MinorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassemblyType>* CFactory.assemblyType.minorsubassemblyTypeIds);
 
 
-   CARAPI SetAssemblyType.SubAssemblyTypeIds(
+   CARAPI SetAssemblyType_SubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.subassemblyType> CFactory.assemblyType.subassemblyTypeIds);
 
-    CARAPI GetAssemblyType.SubAssemblyTypeIds(
+    CARAPI GetAssemblyType_SubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.subassemblyType>* CFactory.assemblyType.subassemblyTypeIds);
 
 
-   CARAPI SetAssemblyType.MajorSubAssemblyTypeIds(
+   CARAPI SetAssemblyType_MajorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.majorsubassemblyType> CFactory.assemblyType.majorsubassemblyTypeIds);
 
-    CARAPI GetAssemblyType.MajorSubAssemblyTypeIds(
+    CARAPI GetAssemblyType_MajorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassemblyType>* CFactory.assemblyType.majorsubassemblyTypeIds);
 
 
-   CARAPI SetAssemblyType.LesserAssemblyTypeIds(
+   CARAPI SetAssemblyType_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CFactory.assemblyType.lesserassemblyTypeIds);
 
-    CARAPI GetAssemblyType.LesserAssemblyTypeIds(
+    CARAPI GetAssemblyType_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CFactory.assemblyType.lesserassemblyTypeIds);
 
 
-   CARAPI SetAssemblyType.GreaterAssemblyTypeIds(
+   CARAPI SetAssemblyType_GreaterAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.greaterassemblyType> CFactory.assemblyType.greaterassemblyTypeIds);
 
-    CARAPI GetAssemblyType.GreaterAssemblyTypeIds(
+    CARAPI GetAssemblyType_GreaterAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.greaterassemblyType>* CFactory.assemblyType.greaterassemblyTypeIds);
 
 
-   CARAPI SetAssemblyType.ProductTypeIds(
+   CARAPI SetAssemblyType_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CFactory.assemblyType.productTypeIds);
 
-    CARAPI GetAssemblyType.ProductTypeIds(
+    CARAPI GetAssemblyType_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CFactory.assemblyType.productTypeIds);
 
 
-   CARAPI SetAssemblyType.BusinessChannelOwnerId(
+   CARAPI SetAssemblyType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.assemblyType.businessChannelOwnerId);
 
-    CARAPI GetAssemblyType.BusinessChannelOwnerId(
+    CARAPI GetAssemblyType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.assemblyType.businessChannelOwnerId);
 
 
-   CARAPI SetAssemblyType.ItemTypeId(
+   CARAPI SetAssemblyType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.assemblyType.itemTypeId);
 
-    CARAPI GetAssemblyType.ItemTypeId(
+    CARAPI GetAssemblyType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.assemblyType.itemTypeId);
 
 
-   CARAPI SetAssemblyType.SupplierIds(
+   CARAPI SetAssemblyType_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.assemblyType.supplierIds);
 
-    CARAPI GetAssemblyType.SupplierIds(
+    CARAPI GetAssemblyType_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.assemblyType.supplierIds);
 
 
-   CARAPI SetAssemblyType.DocRefIds(
+   CARAPI SetAssemblyType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.assemblyType.docRefIds);
 
-    CARAPI GetAssemblyType.DocRefIds(
+    CARAPI GetAssemblyType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.assemblyType.docRefIds);
 
 
-   CARAPI SetAssemblyType.ImageRefIds(
+   CARAPI SetAssemblyType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.assemblyType.imageRefIds);
 
-    CARAPI GetAssemblyType.ImageRefIds(
+    CARAPI GetAssemblyType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.assemblyType.imageRefIds);
 
 
-   CARAPI SetAssemblyType.VideoRefIds(
+   CARAPI SetAssemblyType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.assemblyType.videoRefIds);
 
-    CARAPI GetAssemblyType.VideoRefIds(
+    CARAPI GetAssemblyType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.assemblyType.videoRefIds);
 
 
-   CARAPI SetGreaterAssembly.GreaterAssyId(
+   CARAPI SetGreaterAssembly_GreaterAssyId(
      /* [in] */ const String& CFactory.greaterassembly.greaterAssyId);
 
-    CARAPI GetGreaterAssembly.GreaterAssyId(
+    CARAPI GetGreaterAssembly_GreaterAssyId(
      /* [out] */ String* CFactory.greaterassembly.greaterAssyId);
 
 
-   CARAPI SetGreaterAssembly.Hazardous(
+   CARAPI SetGreaterAssembly_Hazardous(
      /* [in] */ Boolean CFactory.greaterassembly.hazardous);
 
-    CARAPI GetGreaterAssembly.Hazardous(
+    CARAPI GetGreaterAssembly_Hazardous(
      /* [out] */ Boolean* CFactory.greaterassembly.hazardous);
 
 
-   CARAPI SetGreaterAssembly.GreaterAssemblyName(
+   CARAPI SetGreaterAssembly_GreaterAssemblyName(
      /* [in] */ const String& CFactory.greaterassembly.greaterassemblyName);
 
-    CARAPI GetGreaterAssembly.GreaterAssemblyName(
+    CARAPI GetGreaterAssembly_GreaterAssemblyName(
      /* [out] */ String* CFactory.greaterassembly.greaterassemblyName);
 
 
-   CARAPI SetGreaterAssembly.GreaterAssemblyDescription(
+   CARAPI SetGreaterAssembly_GreaterAssemblyDescription(
      /* [in] */ const String& CFactory.greaterassembly.greaterassemblyDescription);
 
-    CARAPI GetGreaterAssembly.GreaterAssemblyDescription(
+    CARAPI GetGreaterAssembly_GreaterAssemblyDescription(
      /* [out] */ String* CFactory.greaterassembly.greaterassemblyDescription);
 
 
-   CARAPI SetGreaterAssembly.PhysicalStateWhenIdle(
+   CARAPI SetGreaterAssembly_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.greaterassembly.PhysicalStateWhenIdle);
 
-    CARAPI GetGreaterAssembly.PhysicalStateWhenIdle(
+    CARAPI GetGreaterAssembly_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.greaterassembly.PhysicalStateWhenIdle);
 
 
-   CARAPI SetGreaterAssembly.QCCheckedPassed(
+   CARAPI SetGreaterAssembly_QCCheckedPassed(
      /* [in] */ Boolean CFactory.greaterassembly.qCCheckedPassed);
 
-    CARAPI GetGreaterAssembly.QCCheckedPassed(
+    CARAPI GetGreaterAssembly_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.greaterassembly.qCCheckedPassed);
 
 
-   CARAPI SetGreaterAssembly.GreaterAssemblyCode(
+   CARAPI SetGreaterAssembly_GreaterAssemblyCode(
      /* [in] */ const String& CFactory.greaterassembly.greaterassemblyCode);
 
-    CARAPI GetGreaterAssembly.GreaterAssemblyCode(
+    CARAPI GetGreaterAssembly_GreaterAssemblyCode(
      /* [out] */ String* CFactory.greaterassembly.greaterassemblyCode);
 
 
-   CARAPI SetGreaterAssembly.GreaterAssemblyReorderCode(
+   CARAPI SetGreaterAssembly_GreaterAssemblyReorderCode(
      /* [in] */ const String& CFactory.greaterassembly.greaterassemblyReorderCode);
 
-    CARAPI GetGreaterAssembly.GreaterAssemblyReorderCode(
+    CARAPI GetGreaterAssembly_GreaterAssemblyReorderCode(
      /* [out] */ String* CFactory.greaterassembly.greaterassemblyReorderCode);
 
 
-   CARAPI SetGreaterAssembly.GreaterAssemblyReorderCARAPI SetPoint(
+   CARAPI SetGreaterAssembly_GreaterAssemblyReorderCARAPI
      /* [in] */ Int32 CFactory.greaterassembly.greaterassemblyReorderCARAPI SetPoint);
 
-    CARAPI GetGreaterAssembly.GreaterAssemblyReorderCARAPI SetPoint(
+    CARAPI GetGreaterAssembly_GreaterAssemblyReorderCARAPI
      /* [out] */ Int32* CFactory.greaterassembly.greaterassemblyReorderCARAPI SetPoint);
 
 
-   CARAPI SetGreaterAssembly.MaterialIds(
+   CARAPI SetGreaterAssembly_MaterialIds(
      /* [in] */ ArrayOf<CFactory.material> CFactory.greaterassembly.materialIds);
 
-    CARAPI GetGreaterAssembly.MaterialIds(
+    CARAPI GetGreaterAssembly_MaterialIds(
      /* [out, callee] */ ArrayOf<CFactory.material>* CFactory.greaterassembly.materialIds);
 
 
-   CARAPI SetGreaterAssembly.PartIds(
+   CARAPI SetGreaterAssembly_PartIds(
      /* [in] */ ArrayOf<CFactory.part> CFactory.greaterassembly.partIds);
 
-    CARAPI GetGreaterAssembly.PartIds(
+    CARAPI GetGreaterAssembly_PartIds(
      /* [out, callee] */ ArrayOf<CFactory.part>* CFactory.greaterassembly.partIds);
 
 
-   CARAPI SetGreaterAssembly.MinorSubAssemblyIds(
+   CARAPI SetGreaterAssembly_MinorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.minorsubassembly> CFactory.greaterassembly.minorsubassemblyIds);
 
-    CARAPI GetGreaterAssembly.MinorSubAssemblyIds(
+    CARAPI GetGreaterAssembly_MinorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassembly>* CFactory.greaterassembly.minorsubassemblyIds);
 
 
-   CARAPI SetGreaterAssembly.SubAssemblyIds(
+   CARAPI SetGreaterAssembly_SubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.subassembly> CFactory.greaterassembly.subassemblyIds);
 
-    CARAPI GetGreaterAssembly.SubAssemblyIds(
+    CARAPI GetGreaterAssembly_SubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.subassembly>* CFactory.greaterassembly.subassemblyIds);
 
 
-   CARAPI SetGreaterAssembly.MajorSubAssemblyIds(
+   CARAPI SetGreaterAssembly_MajorSubAssemblyIds(
      /* [in] */ ArrayOf<CFactory.majorsubassembly> CFactory.greaterassembly.majorsubassemblyIds);
 
-    CARAPI GetGreaterAssembly.MajorSubAssemblyIds(
+    CARAPI GetGreaterAssembly_MajorSubAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassembly>* CFactory.greaterassembly.majorsubassemblyIds);
 
 
-   CARAPI SetGreaterAssembly.LesserAssemblyIds(
+   CARAPI SetGreaterAssembly_LesserAssemblyIds(
      /* [in] */ ArrayOf<CFactory.lesserassembly> CFactory.greaterassembly.lesserassemblyIds);
 
-    CARAPI GetGreaterAssembly.LesserAssemblyIds(
+    CARAPI GetGreaterAssembly_LesserAssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassembly>* CFactory.greaterassembly.lesserassemblyIds);
 
 
-   CARAPI SetGreaterAssembly.AssemblyIds(
+   CARAPI SetGreaterAssembly_AssemblyIds(
      /* [in] */ ArrayOf<CFactory.assembly> CFactory.greaterassembly.assemblyIds);
 
-    CARAPI GetGreaterAssembly.AssemblyIds(
+    CARAPI GetGreaterAssembly_AssemblyIds(
      /* [out, callee] */ ArrayOf<CFactory.assembly>* CFactory.greaterassembly.assemblyIds);
 
 
-   CARAPI SetGreaterAssembly.GreaterAssemblyTypeId(
+   CARAPI SetGreaterAssembly_GreaterAssemblyTypeId(
      /* [in] */ CFactory.greaterassemblyType CFactory.greaterassembly.greaterassemblyTypeId);
 
-    CARAPI GetGreaterAssembly.GreaterAssemblyTypeId(
+    CARAPI GetGreaterAssembly_GreaterAssemblyTypeId(
      /* [out] */ CFactory.greaterassemblyType* CFactory.greaterassembly.greaterassemblyTypeId);
 
 
-   CARAPI SetGreaterAssembly.ProductId(
+   CARAPI SetGreaterAssembly_ProductId(
      /* [in] */ CFactory.product CFactory.greaterassembly.productId);
 
-    CARAPI GetGreaterAssembly.ProductId(
+    CARAPI GetGreaterAssembly_ProductId(
      /* [out] */ CFactory.product* CFactory.greaterassembly.productId);
 
 
-   CARAPI SetGreaterAssembly.BusinessChannelOwnerId(
+   CARAPI SetGreaterAssembly_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.greaterassembly.businessChannelOwnerId);
 
-    CARAPI GetGreaterAssembly.BusinessChannelOwnerId(
+    CARAPI GetGreaterAssembly_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.greaterassembly.businessChannelOwnerId);
 
 
-   CARAPI SetGreaterAssembly.ItemId(
+   CARAPI SetGreaterAssembly_ItemId(
      /* [in] */ CAdministration.item CFactory.greaterassembly.itemId);
 
-    CARAPI GetGreaterAssembly.ItemId(
+    CARAPI GetGreaterAssembly_ItemId(
      /* [out] */ CAdministration.item* CFactory.greaterassembly.itemId);
 
 
-   CARAPI SetGreaterAssembly.SupplierIds(
+   CARAPI SetGreaterAssembly_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.greaterassembly.supplierIds);
 
-    CARAPI GetGreaterAssembly.SupplierIds(
+    CARAPI GetGreaterAssembly_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.greaterassembly.supplierIds);
 
 
-   CARAPI SetGreaterAssembly.DocRefIds(
+   CARAPI SetGreaterAssembly_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.greaterassembly.docRefIds);
 
-    CARAPI GetGreaterAssembly.DocRefIds(
+    CARAPI GetGreaterAssembly_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.greaterassembly.docRefIds);
 
 
-   CARAPI SetGreaterAssembly.ImageRefIds(
+   CARAPI SetGreaterAssembly_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.greaterassembly.imageRefIds);
 
-    CARAPI GetGreaterAssembly.ImageRefIds(
+    CARAPI GetGreaterAssembly_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.greaterassembly.imageRefIds);
 
 
-   CARAPI SetGreaterAssembly.VideoRefIds(
+   CARAPI SetGreaterAssembly_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.greaterassembly.videoRefIds);
 
-    CARAPI GetGreaterAssembly.VideoRefIds(
+    CARAPI GetGreaterAssembly_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.greaterassembly.videoRefIds);
 
 
-   CARAPI SetGreaterAssemblyType.GreaterAssemblyTypeId(
+   CARAPI SetGreaterAssemblyType_GreaterAssemblyTypeId(
      /* [in] */ const String& CFactory.greaterassemblyType.greaterassemblyTypeId);
 
-    CARAPI GetGreaterAssemblyType.GreaterAssemblyTypeId(
+    CARAPI GetGreaterAssemblyType_GreaterAssemblyTypeId(
      /* [out] */ String* CFactory.greaterassemblyType.greaterassemblyTypeId);
 
 
-   CARAPI SetGreaterAssemblyType.GreaterAssemblyDescription(
+   CARAPI SetGreaterAssemblyType_GreaterAssemblyDescription(
      /* [in] */ const String& CFactory.greaterassemblyType.greaterassemblyDescription);
 
-    CARAPI GetGreaterAssemblyType.GreaterAssemblyDescription(
+    CARAPI GetGreaterAssemblyType_GreaterAssemblyDescription(
      /* [out] */ String* CFactory.greaterassemblyType.greaterassemblyDescription);
 
 
-   CARAPI SetGreaterAssemblyType.GreaterAssemblyCode(
+   CARAPI SetGreaterAssemblyType_GreaterAssemblyCode(
      /* [in] */ const String& CFactory.greaterassemblyType.greaterassemblyCode);
 
-    CARAPI GetGreaterAssemblyType.GreaterAssemblyCode(
+    CARAPI GetGreaterAssemblyType_GreaterAssemblyCode(
      /* [out] */ String* CFactory.greaterassemblyType.greaterassemblyCode);
 
 
-   CARAPI SetGreaterAssemblyType.Corrosiveness(
+   CARAPI SetGreaterAssemblyType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.greaterassemblyType.corrosiveness);
 
-    CARAPI GetGreaterAssemblyType.Corrosiveness(
+    CARAPI GetGreaterAssemblyType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.greaterassemblyType.corrosiveness);
 
 
-   CARAPI SetGreaterAssemblyType.Toxicity(
+   CARAPI SetGreaterAssemblyType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.greaterassemblyType.toxicity);
 
-    CARAPI GetGreaterAssemblyType.Toxicity(
+    CARAPI GetGreaterAssemblyType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.greaterassemblyType.toxicity);
 
 
-   CARAPI SetGreaterAssemblyType.Fragility(
+   CARAPI SetGreaterAssemblyType_Fragility(
      /* [in] */ CHelper.fragility CFactory.greaterassemblyType.fragility);
 
-    CARAPI GetGreaterAssemblyType.Fragility(
+    CARAPI GetGreaterAssemblyType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.greaterassemblyType.fragility);
 
 
-   CARAPI SetGreaterAssemblyType.PhysicalStateWhenIdle(
+   CARAPI SetGreaterAssemblyType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.greaterassemblyType.PhysicalStateWhenIdle);
 
-    CARAPI GetGreaterAssemblyType.PhysicalStateWhenIdle(
+    CARAPI GetGreaterAssemblyType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.greaterassemblyType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetGreaterAssemblyType.RemainingNum(
+   CARAPI SetGreaterAssemblyType_RemainingNum(
      /* [in] */ Int32 CFactory.greaterassemblyType.remainingNum);
 
-    CARAPI GetGreaterAssemblyType.RemainingNum(
+    CARAPI GetGreaterAssemblyType_RemainingNum(
      /* [out] */ Int32* CFactory.greaterassemblyType.remainingNum);
 
 
-   CARAPI SetGreaterAssemblyType.GreaterAssemblyReorderCARAPI SetPoint(
+   CARAPI SetGreaterAssemblyType_GreaterAssemblyReorderCARAPI
      /* [in] */ Int32 CFactory.greaterassemblyType.greaterassemblyReorderCARAPI SetPoint);
 
-    CARAPI GetGreaterAssemblyType.GreaterAssemblyReorderCARAPI SetPoint(
+    CARAPI GetGreaterAssemblyType_GreaterAssemblyReorderCARAPI
      /* [out] */ Int32* CFactory.greaterassemblyType.greaterassemblyReorderCARAPI SetPoint);
 
 
-   CARAPI SetGreaterAssemblyType.GreaterAssemblyReorderCode(
+   CARAPI SetGreaterAssemblyType_GreaterAssemblyReorderCode(
      /* [in] */ const String& CFactory.greaterassemblyType.greaterassemblyReorderCode);
 
-    CARAPI GetGreaterAssemblyType.GreaterAssemblyReorderCode(
+    CARAPI GetGreaterAssemblyType_GreaterAssemblyReorderCode(
      /* [out] */ String* CFactory.greaterassemblyType.greaterassemblyReorderCode);
 
 
-   CARAPI SetGreaterAssemblyType.MaterialTypeIds(
+   CARAPI SetGreaterAssemblyType_MaterialTypeIds(
      /* [in] */ ArrayOf<CFactory.materialType> CFactory.greaterassemblyType.materialTypeIds);
 
-    CARAPI GetGreaterAssemblyType.MaterialTypeIds(
+    CARAPI GetGreaterAssemblyType_MaterialTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.materialType>* CFactory.greaterassemblyType.materialTypeIds);
 
 
-   CARAPI SetGreaterAssemblyType.PartTypeId(
+   CARAPI SetGreaterAssemblyType_PartTypeId(
      /* [in] */ ArrayOf<CFactory.partType> CFactory.greaterassemblyType.partTypeId);
 
-    CARAPI GetGreaterAssemblyType.PartTypeId(
+    CARAPI GetGreaterAssemblyType_PartTypeId(
      /* [out, callee] */ ArrayOf<CFactory.partType>* CFactory.greaterassemblyType.partTypeId);
 
 
-   CARAPI SetGreaterAssemblyType.MinorSubAssemblyTypeIds(
+   CARAPI SetGreaterAssemblyType_MinorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.minorsubassemblyType> CFactory.greaterassemblyType.minorsubassemblyTypeIds);
 
-    CARAPI GetGreaterAssemblyType.MinorSubAssemblyTypeIds(
+    CARAPI GetGreaterAssemblyType_MinorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.minorsubassemblyType>* CFactory.greaterassemblyType.minorsubassemblyTypeIds);
 
 
-   CARAPI SetGreaterAssemblyType.SubAssemblyTypeIds(
+   CARAPI SetGreaterAssemblyType_SubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.subassemblyType> CFactory.greaterassemblyType.subassemblyTypeIds);
 
-    CARAPI GetGreaterAssemblyType.SubAssemblyTypeIds(
+    CARAPI GetGreaterAssemblyType_SubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.subassemblyType>* CFactory.greaterassemblyType.subassemblyTypeIds);
 
 
-   CARAPI SetGreaterAssemblyType.MajorSubAssemblyTypeIds(
+   CARAPI SetGreaterAssemblyType_MajorSubAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.majorsubassemblyType> CFactory.greaterassemblyType.majorsubassemblyTypeIds);
 
-    CARAPI GetGreaterAssemblyType.MajorSubAssemblyTypeIds(
+    CARAPI GetGreaterAssemblyType_MajorSubAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.majorsubassemblyType>* CFactory.greaterassemblyType.majorsubassemblyTypeIds);
 
 
-   CARAPI SetGreaterAssemblyType.LesserAssemblyTypeIds(
+   CARAPI SetGreaterAssemblyType_LesserAssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.lesserassemblyType> CFactory.greaterassemblyType.lesserassemblyTypeIds);
 
-    CARAPI GetGreaterAssemblyType.LesserAssemblyTypeIds(
+    CARAPI GetGreaterAssemblyType_LesserAssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.lesserassemblyType>* CFactory.greaterassemblyType.lesserassemblyTypeIds);
 
 
-   CARAPI SetGreaterAssemblyType.AssemblyTypeIds(
+   CARAPI SetGreaterAssemblyType_AssemblyTypeIds(
      /* [in] */ ArrayOf<CFactory.assemblyType> CFactory.greaterassemblyType.assemblyTypeIds);
 
-    CARAPI GetGreaterAssemblyType.AssemblyTypeIds(
+    CARAPI GetGreaterAssemblyType_AssemblyTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.assemblyType>* CFactory.greaterassemblyType.assemblyTypeIds);
 
 
-   CARAPI SetGreaterAssemblyType.ProductTypeIds(
+   CARAPI SetGreaterAssemblyType_ProductTypeIds(
      /* [in] */ ArrayOf<CFactory.productType> CFactory.greaterassemblyType.productTypeIds);
 
-    CARAPI GetGreaterAssemblyType.ProductTypeIds(
+    CARAPI GetGreaterAssemblyType_ProductTypeIds(
      /* [out, callee] */ ArrayOf<CFactory.productType>* CFactory.greaterassemblyType.productTypeIds);
 
 
-   CARAPI SetGreaterAssemblyType.BusinessChannelOwnerId(
+   CARAPI SetGreaterAssemblyType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.greaterassemblyType.businessChannelOwnerId);
 
-    CARAPI GetGreaterAssemblyType.BusinessChannelOwnerId(
+    CARAPI GetGreaterAssemblyType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.greaterassemblyType.businessChannelOwnerId);
 
 
-   CARAPI SetGreaterAssemblyType.ItemTypeId(
+   CARAPI SetGreaterAssemblyType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.greaterassemblyType.itemTypeId);
 
-    CARAPI GetGreaterAssemblyType.ItemTypeId(
+    CARAPI GetGreaterAssemblyType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.greaterassemblyType.itemTypeId);
 
 
-   CARAPI SetGreaterAssemblyType.SupplierIds(
+   CARAPI SetGreaterAssemblyType_SupplierIds(
      /* [in] */ ArrayOf<CSupplier.supplier> CFactory.greaterassemblyType.supplierIds);
 
-    CARAPI GetGreaterAssemblyType.SupplierIds(
+    CARAPI GetGreaterAssemblyType_SupplierIds(
      /* [out, callee] */ ArrayOf<CSupplier.supplier>* CFactory.greaterassemblyType.supplierIds);
 
 
-   CARAPI SetGreaterAssemblyType.DocRefIds(
+   CARAPI SetGreaterAssemblyType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.greaterassemblyType.docRefIds);
 
-    CARAPI GetGreaterAssemblyType.DocRefIds(
+    CARAPI GetGreaterAssemblyType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.greaterassemblyType.docRefIds);
 
 
-   CARAPI SetGreaterAssemblyType.ImageRefIds(
+   CARAPI SetGreaterAssemblyType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.greaterassemblyType.imageRefIds);
 
-    CARAPI GetGreaterAssemblyType.ImageRefIds(
+    CARAPI GetGreaterAssemblyType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.greaterassemblyType.imageRefIds);
 
 
-   CARAPI SetGreaterAssemblyType.VideoRefIds(
+   CARAPI SetGreaterAssemblyType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.greaterassemblyType.videoRefIds);
 
-    CARAPI GetGreaterAssemblyType.VideoRefIds(
+    CARAPI GetGreaterAssemblyType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.greaterassemblyType.videoRefIds);
 
 
-   CARAPI SetProduct.ProductId(
+   CARAPI SetProduct_ProductId(
      /* [in] */ const String& CFactory.product.productId);
 
-    CARAPI GetProduct.ProductId(
+    CARAPI GetProduct_ProductId(
      /* [out] */ String* CFactory.product.productId);
 
 
-   CARAPI SetProduct.Hazardous(
+   CARAPI SetProduct_Hazardous(
      /* [in] */ Boolean CFactory.product.hazardous);
 
-    CARAPI GetProduct.Hazardous(
+    CARAPI GetProduct_Hazardous(
      /* [out] */ Boolean* CFactory.product.hazardous);
 
 
-   CARAPI SetProduct.MasLedgeFinTxIds(
+   CARAPI SetProduct_MasLedgeFinTxIds(
      /* [in] */ ArrayOf<const String&> CFactory.product.masLedgeFinTxIds);
 
-    CARAPI GetProduct.MasLedgeFinTxIds(
+    CARAPI GetProduct_MasLedgeFinTxIds(
      /* [out, callee] */ ArrayOf<String>* CFactory.product.masLedgeFinTxIds);
 
 
-   CARAPI SetProduct.MasLedgeFinTxNums(
+   CARAPI SetProduct_MasLedgeFinTxNums(
      /* [in] */ ArrayOf<Int32> CFactory.product.masLedgeFinTxNums);
 
-    CARAPI GetProduct.MasLedgeFinTxNums(
+    CARAPI GetProduct_MasLedgeFinTxNums(
      /* [out, callee] */ ArrayOf<Int32>* CFactory.product.masLedgeFinTxNums);
 
 
-   CARAPI SetProduct.GenLedgeFinTxIds(
+   CARAPI SetProduct_GenLedgeFinTxIds(
      /* [in] */ ArrayOf<const String&> CFactory.product.genLedgeFinTxIds);
 
-    CARAPI GetProduct.GenLedgeFinTxIds(
+    CARAPI GetProduct_GenLedgeFinTxIds(
      /* [out, callee] */ ArrayOf<String>* CFactory.product.genLedgeFinTxIds);
 
 
-   CARAPI SetProduct.GenLedgeFinTxNums(
+   CARAPI SetProduct_GenLedgeFinTxNums(
      /* [in] */ ArrayOf<Int32> CFactory.product.genLedgeFinTxNums);
 
-    CARAPI GetProduct.GenLedgeFinTxNums(
+    CARAPI GetProduct_GenLedgeFinTxNums(
      /* [out, callee] */ ArrayOf<Int32>* CFactory.product.genLedgeFinTxNums);
 
 
-   CARAPI SetProduct.ProductName(
+   CARAPI SetProduct_ProductName(
      /* [in] */ const String& CFactory.product.productName);
 
-    CARAPI GetProduct.ProductName(
+    CARAPI GetProduct_ProductName(
      /* [out] */ String* CFactory.product.productName);
 
 
-   CARAPI SetProduct.ModelNumber(
+   CARAPI SetProduct_ModelNumber(
      /* [in] */ const String& CFactory.product.modelNumber);
 
-    CARAPI GetProduct.ModelNumber(
+    CARAPI GetProduct_ModelNumber(
      /* [out] */ String* CFactory.product.modelNumber);
 
 
-   CARAPI SetProduct.SerialNumber(
+   CARAPI SetProduct_SerialNumber(
      /* [in] */ const String& CFactory.product.serialNumber);
 
-    CARAPI GetProduct.SerialNumber(
+    CARAPI GetProduct_SerialNumber(
      /* [out] */ String* CFactory.product.serialNumber);
 
 
-   CARAPI SetProduct.QCCheckedPassed(
+   CARAPI SetProduct_QCCheckedPassed(
      /* [in] */ Boolean CFactory.product.qCCheckedPassed);
 
-    CARAPI GetProduct.QCCheckedPassed(
+    CARAPI GetProduct_QCCheckedPassed(
      /* [out] */ Boolean* CFactory.product.qCCheckedPassed);
 
 
-   CARAPI SetProduct.BestBeforeDate(
+   CARAPI SetProduct_BestBeforeDate(
      /* [in] */ const String& CFactory.product.BestBeforeDate);
 
-    CARAPI GetProduct.BestBeforeDate(
+    CARAPI GetProduct_BestBeforeDate(
      /* [out] */ String* CFactory.product.BestBeforeDate);
 
 
-   CARAPI SetProduct.BusinessChannelOwnerId(
+   CARAPI SetProduct_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.product.businessChannelOwnerId);
 
-    CARAPI GetProduct.BusinessChannelOwnerId(
+    CARAPI GetProduct_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.product.businessChannelOwnerId);
 
 
-   CARAPI SetProduct.ProductTypeId(
+   CARAPI SetProduct_ProductTypeId(
      /* [in] */ CFactory.productType CFactory.product.productTypeId);
 
-    CARAPI GetProduct.ProductTypeId(
+    CARAPI GetProduct_ProductTypeId(
      /* [out] */ CFactory.productType* CFactory.product.productTypeId);
 
 
-   CARAPI SetProduct.ItemId(
+   CARAPI SetProduct_ItemId(
      /* [in] */ CAdministration.item CFactory.product.itemId);
 
-    CARAPI GetProduct.ItemId(
+    CARAPI GetProduct_ItemId(
      /* [out] */ CAdministration.item* CFactory.product.itemId);
 
 
-   CARAPI SetProduct.CustomerId(
+   CARAPI SetProduct_CustomerId(
      /* [in] */ CCustomer.customer CFactory.product.customerId);
 
-    CARAPI GetProduct.CustomerId(
+    CARAPI GetProduct_CustomerId(
      /* [out] */ CCustomer.customer* CFactory.product.customerId);
 
 
-   CARAPI SetProduct.DocRefIds(
+   CARAPI SetProduct_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.product.docRefIds);
 
-    CARAPI GetProduct.DocRefIds(
+    CARAPI GetProduct_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.product.docRefIds);
 
 
-   CARAPI SetProduct.ImageRefIds(
+   CARAPI SetProduct_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.product.imageRefIds);
 
-    CARAPI GetProduct.ImageRefIds(
+    CARAPI GetProduct_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.product.imageRefIds);
 
 
-   CARAPI SetProduct.VideoRefIds(
+   CARAPI SetProduct_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.product.videoRefIds);
 
-    CARAPI GetProduct.VideoRefIds(
+    CARAPI GetProduct_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.product.videoRefIds);
 
 
-   CARAPI SetProductType.ProductTypeId(
+   CARAPI SetProductType_ProductTypeId(
      /* [in] */ const String& CFactory.productType.productTypeId);
 
-    CARAPI GetProductType.ProductTypeId(
+    CARAPI GetProductType_ProductTypeId(
      /* [out] */ String* CFactory.productType.productTypeId);
 
 
-   CARAPI SetProductType.ProductDescription(
+   CARAPI SetProductType_ProductDescription(
      /* [in] */ const String& CFactory.productType.productDescription);
 
-    CARAPI GetProductType.ProductDescription(
+    CARAPI GetProductType_ProductDescription(
      /* [out] */ String* CFactory.productType.productDescription);
 
 
-   CARAPI SetProductType.Corrosiveness(
+   CARAPI SetProductType_Corrosiveness(
      /* [in] */ CHelper.corrosiveness CFactory.productType.corrosiveness);
 
-    CARAPI GetProductType.Corrosiveness(
+    CARAPI GetProductType_Corrosiveness(
      /* [out] */ CHelper.corrosiveness* CFactory.productType.corrosiveness);
 
 
-   CARAPI SetProductType.Toxicity(
+   CARAPI SetProductType_Toxicity(
      /* [in] */ CHelper.toxicity CFactory.productType.toxicity);
 
-    CARAPI GetProductType.Toxicity(
+    CARAPI GetProductType_Toxicity(
      /* [out] */ CHelper.toxicity* CFactory.productType.toxicity);
 
 
-   CARAPI SetProductType.Fragility(
+   CARAPI SetProductType_Fragility(
      /* [in] */ CHelper.fragility CFactory.productType.fragility);
 
-    CARAPI GetProductType.Fragility(
+    CARAPI GetProductType_Fragility(
      /* [out] */ CHelper.fragility* CFactory.productType.fragility);
 
 
-   CARAPI SetProductType.PhysicalStateWhenIdle(
+   CARAPI SetProductType_PhysicalStateWhenIdle(
      /* [in] */ CHelper.physicalStateWhenIdle CFactory.productType.PhysicalStateWhenIdle);
 
-    CARAPI GetProductType.PhysicalStateWhenIdle(
+    CARAPI GetProductType_PhysicalStateWhenIdle(
      /* [out] */ CHelper.physicalStateWhenIdle* CFactory.productType.PhysicalStateWhenIdle);
 
 
-   CARAPI SetProductType.RemainingNum(
+   CARAPI SetProductType_RemainingNum(
      /* [in] */ Int32 CFactory.productType.remainingNum);
 
-    CARAPI GetProductType.RemainingNum(
+    CARAPI GetProductType_RemainingNum(
      /* [out] */ Int32* CFactory.productType.remainingNum);
 
 
-   CARAPI SetProductType.LesserAssemblyReorderCARAPI SetPoint(
+   CARAPI SetProductType_LesserAssemblyReorderCARAPI
      /* [in] */ Int32 CFactory.productType.lesserassemblyReorderCARAPI SetPoint);
 
-    CARAPI GetProductType.LesserAssemblyReorderCARAPI SetPoint(
+    CARAPI GetProductType_LesserAssemblyReorderCARAPI
      /* [out] */ Int32* CFactory.productType.lesserassemblyReorderCARAPI SetPoint);
 
 
-   CARAPI SetProductType.LesserAssemblyReorderCode(
+   CARAPI SetProductType_LesserAssemblyReorderCode(
      /* [in] */ const String& CFactory.productType.lesserassemblyReorderCode);
 
-    CARAPI GetProductType.LesserAssemblyReorderCode(
+    CARAPI GetProductType_LesserAssemblyReorderCode(
      /* [out] */ String* CFactory.productType.lesserassemblyReorderCode);
 
 
-   CARAPI SetProductType.BusinessChannelOwnerId(
+   CARAPI SetProductType_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.productType.businessChannelOwnerId);
 
-    CARAPI GetProductType.BusinessChannelOwnerId(
+    CARAPI GetProductType_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.productType.businessChannelOwnerId);
 
 
-   CARAPI SetProductType.ItemTypeId(
+   CARAPI SetProductType_ItemTypeId(
      /* [in] */ CAdministration.itemType CFactory.productType.itemTypeId);
 
-    CARAPI GetProductType.ItemTypeId(
+    CARAPI GetProductType_ItemTypeId(
      /* [out] */ CAdministration.itemType* CFactory.productType.itemTypeId);
 
 
-   CARAPI SetProductType.DocRefIds(
+   CARAPI SetProductType_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.productType.docRefIds);
 
-    CARAPI GetProductType.DocRefIds(
+    CARAPI GetProductType_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.productType.docRefIds);
 
 
-   CARAPI SetProductType.ImageRefIds(
+   CARAPI SetProductType_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.productType.imageRefIds);
 
-    CARAPI GetProductType.ImageRefIds(
+    CARAPI GetProductType_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.productType.imageRefIds);
 
 
-   CARAPI SetProductType.VideoRefIds(
+   CARAPI SetProductType_VideoRefIds(
      /* [in] */ ArrayOf<CAdministration.video> CFactory.productType.videoRefIds);
 
-    CARAPI GetProductType.VideoRefIds(
+    CARAPI GetProductType_VideoRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CFactory.productType.videoRefIds);
 
 
-   CARAPI SetShipment.ShipmentId(
+   CARAPI SetShipment_ShipmentId(
      /* [in] */ const String& CFactory.shipment.shipmentId);
 
-    CARAPI GetShipment.ShipmentId(
+    CARAPI GetShipment_ShipmentId(
      /* [out] */ String* CFactory.shipment.shipmentId);
 
 
-   CARAPI SetShipment.DistributorId(
+   CARAPI SetShipment_DistributorId(
      /* [in] */ const String& CFactory.shipment.distributorId);
 
-    CARAPI GetShipment.DistributorId(
+    CARAPI GetShipment_DistributorId(
      /* [out] */ String* CFactory.shipment.distributorId);
 
 
-   CARAPI SetShipment.SalesOrderIds(
+   CARAPI SetShipment_SalesOrderIds(
      /* [in] */ ArrayOf<const String&> CFactory.shipment.salesOrderIds);
 
-    CARAPI GetShipment.SalesOrderIds(
+    CARAPI GetShipment_SalesOrderIds(
      /* [out, callee] */ ArrayOf<String>* CFactory.shipment.salesOrderIds);
 
 
-   CARAPI SetShipment.PurchaseOrderIds(
+   CARAPI SetShipment_PurchaseOrderIds(
      /* [in] */ ArrayOf<const String&> CFactory.shipment.purchaseOrderIds);
 
-    CARAPI GetShipment.PurchaseOrderIds(
+    CARAPI GetShipment_PurchaseOrderIds(
      /* [out, callee] */ ArrayOf<String>* CFactory.shipment.purchaseOrderIds);
 
 
-   CARAPI SetShipment.ReceiverDeliveryAddress(
+   CARAPI SetShipment_ReceiverDeliveryAddress(
      /* [in] */ ArrayOf<const String&> CFactory.shipment.receiverDeliveryAddress);
 
-    CARAPI GetShipment.ReceiverDeliveryAddress(
+    CARAPI GetShipment_ReceiverDeliveryAddress(
      /* [out, callee] */ ArrayOf<String>* CFactory.shipment.receiverDeliveryAddress);
 
 
-   CARAPI SetShipment.SenderSourceAddress(
+   CARAPI SetShipment_SenderSourceAddress(
      /* [in] */ ArrayOf<const String&> CFactory.shipment.senderSourceAddress);
 
-    CARAPI GetShipment.SenderSourceAddress(
+    CARAPI GetShipment_SenderSourceAddress(
      /* [out, callee] */ ArrayOf<String>* CFactory.shipment.senderSourceAddress);
 
 
-   CARAPI SetShipment.ReceivedAtSourceTerminal(
+   CARAPI SetShipment_ReceivedAtSourceTerminal(
      /* [in] */ const String& CFactory.shipment.receivedAtSourceTerminal);
 
-    CARAPI GetShipment.ReceivedAtSourceTerminal(
+    CARAPI GetShipment_ReceivedAtSourceTerminal(
      /* [out] */ String* CFactory.shipment.receivedAtSourceTerminal);
 
 
-   CARAPI SetShipment.TrackingNumber(
+   CARAPI SetShipment_TrackingNumber(
      /* [in] */ const String& CFactory.shipment.trackingNumber);
 
-    CARAPI GetShipment.TrackingNumber(
+    CARAPI GetShipment_TrackingNumber(
      /* [out] */ String* CFactory.shipment.trackingNumber);
 
 
-   CARAPI SetShipment.TrackingURL(
+   CARAPI SetShipment_TrackingURL(
      /* [in] */ const String& CFactory.shipment.trackingURL);
 
-    CARAPI GetShipment.TrackingURL(
+    CARAPI GetShipment_TrackingURL(
      /* [out] */ String* CFactory.shipment.trackingURL);
 
 
-   CARAPI SetShipment.ETA(
+   CARAPI SetShipment_ETA(
      /* [in] */ const String& CFactory.shipment.eTA);
 
-    CARAPI GetShipment.ETA(
+    CARAPI GetShipment_ETA(
      /* [out] */ String* CFactory.shipment.eTA);
 
 
-   CARAPI SetShipment.JourneyPoints(
+   CARAPI SetShipment_JourneyPoints(
      /* [in] */ ArrayOf<const String&> CFactory.shipment.journeyPoints);
 
-    CARAPI GetShipment.JourneyPoints(
+    CARAPI GetShipment_JourneyPoints(
      /* [out, callee] */ ArrayOf<String>* CFactory.shipment.journeyPoints);
 
 
-   CARAPI SetShipment.JourneyPointNames(
+   CARAPI SetShipment_JourneyPointNames(
      /* [in] */ ArrayOf<const String&> CFactory.shipment.journeyPointNames);
 
-    CARAPI GetShipment.JourneyPointNames(
+    CARAPI GetShipment_JourneyPointNames(
      /* [out, callee] */ ArrayOf<String>* CFactory.shipment.journeyPointNames);
 
 
-   CARAPI SetShipment.DeliveredGPSLat(
+   CARAPI SetShipment_DeliveredGPSLat(
      /* [in] */ Double CFactory.shipment.deliveredGPSLat);
 
-    CARAPI GetShipment.DeliveredGPSLat(
+    CARAPI GetShipment_DeliveredGPSLat(
      /* [out] */ Double* CFactory.shipment.deliveredGPSLat);
 
 
-   CARAPI SetShipment.DeliveredGPSLong(
+   CARAPI SetShipment_DeliveredGPSLong(
      /* [in] */ Double CFactory.shipment.deliveredGPSLong);
 
-    CARAPI GetShipment.DeliveredGPSLong(
+    CARAPI GetShipment_DeliveredGPSLong(
      /* [out] */ Double* CFactory.shipment.deliveredGPSLong);
 
 
-   CARAPI SetShipment.DeliveryAddress(
+   CARAPI SetShipment_DeliveryAddress(
      /* [in] */ const String& CFactory.shipment.deliveryAddress);
 
-    CARAPI GetShipment.DeliveryAddress(
+    CARAPI GetShipment_DeliveryAddress(
      /* [out] */ String* CFactory.shipment.deliveryAddress);
 
 
-   CARAPI SetShipment.AddressesMatch(
+   CARAPI SetShipment_AddressesMatch(
      /* [in] */ Boolean CFactory.shipment.addressesMatch);
 
-    CARAPI GetShipment.AddressesMatch(
+    CARAPI GetShipment_AddressesMatch(
      /* [out] */ Boolean* CFactory.shipment.addressesMatch);
 
 
-   CARAPI SetShipment.BusinessChannelOwnerId(
+   CARAPI SetShipment_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFactory.shipment.businessChannelOwnerId);
 
-    CARAPI GetShipment.BusinessChannelOwnerId(
+    CARAPI GetShipment_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFactory.shipment.businessChannelOwnerId);
 
 
-   CARAPI SetShipment.SupplierId(
+   CARAPI SetShipment_SupplierId(
      /* [in] */ CSupplier.supplier CFactory.shipment.supplierId);
 
-    CARAPI GetShipment.SupplierId(
+    CARAPI GetShipment_SupplierId(
      /* [out] */ CSupplier.supplier* CFactory.shipment.supplierId);
 
 
-   CARAPI SetShipment.SupplierTypeId(
+   CARAPI SetShipment_SupplierTypeId(
      /* [in] */ CSupplier.supplierType CFactory.shipment.supplierTypeId);
 
-    CARAPI GetShipment.SupplierTypeId(
+    CARAPI GetShipment_SupplierTypeId(
      /* [out] */ CSupplier.supplierType* CFactory.shipment.supplierTypeId);
 
 
-   CARAPI SetShipment.DocRefIds(
+   CARAPI SetShipment_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CFactory.shipment.docRefIds);
 
-    CARAPI GetShipment.DocRefIds(
+    CARAPI GetShipment_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CFactory.shipment.docRefIds);
 
 
-   CARAPI SetShipment.DeliveryImageIds(
+   CARAPI SetShipment_DeliveryImageIds(
      /* [in] */ ArrayOf<CAdministration.images> CFactory.shipment.deliveryImageIds);
 
-    CARAPI GetShipment.DeliveryImageIds(
+    CARAPI GetShipment_DeliveryImageIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CFactory.shipment.deliveryImageIds);
 
 
-   CARAPI SetShipment.ItemIds(
+   CARAPI SetShipment_ItemIds(
      /* [in] */ ArrayOf<CAdministration.item> CFactory.shipment.itemIds);
 
-    CARAPI GetShipment.ItemIds(
+    CARAPI GetShipment_ItemIds(
      /* [out, callee] */ ArrayOf<CAdministration.item>* CFactory.shipment.itemIds);
 
 
-   CARAPI SetShipment.ItemTypeIds(
+   CARAPI SetShipment_ItemTypeIds(
      /* [in] */ ArrayOf<CAdministration.itemType> CFactory.shipment.itemTypeIds);
 
-    CARAPI GetShipment.ItemTypeIds(
+    CARAPI GetShipment_ItemTypeIds(
      /* [out, callee] */ ArrayOf<CAdministration.itemType>* CFactory.shipment.itemTypeIds);
 
 
-   CARAPI SetShipment.CustomerId(
+   CARAPI SetShipment_CustomerId(
      /* [in] */ CCustomer.customer CFactory.shipment.customerId);
 
-    CARAPI GetShipment.CustomerId(
+    CARAPI GetShipment_CustomerId(
      /* [out] */ CCustomer.customer* CFactory.shipment.customerId);
 
 
-   CARAPI SetShipment.NextDistributorId(
+   CARAPI SetShipment_NextDistributorId(
      /* [in] */ CSupplier.distributor CFactory.shipment.nextDistributorId);
 
-    CARAPI GetShipment.NextDistributorId(
+    CARAPI GetShipment_NextDistributorId(
      /* [out] */ CSupplier.distributor* CFactory.shipment.nextDistributorId);
 
 
-   CARAPI SetShipment.ContinuationShipmentId(
+   CARAPI SetShipment_ContinuationShipmentId(
      /* [in] */ CFactory.shipment CFactory.shipment.continuationShipmentId);
 
-    CARAPI GetShipment.ContinuationShipmentId(
+    CARAPI GetShipment_ContinuationShipmentId(
      /* [out] */ CFactory.shipment* CFactory.shipment.continuationShipmentId);
 
 
@@ -2974,820 +2974,820 @@ public:
 
 protected:
     // Member variables
-const String& mSetMaterial.MaterialId
-String* mGetMaterial.MaterialId
-Boolean mSetMaterial.Hazardous
-Boolean* mGetMaterial.Hazardous
-const String& mSetMaterial.MaterialName
-String* mGetMaterial.MaterialName
-const String& mSetMaterial.MaterialDescription
-String* mGetMaterial.MaterialDescription
-Boolean mSetMaterial.QCCheckedPassed
-Boolean* mGetMaterial.QCCheckedPassed
-CRegister.businessChannelOwner mSetMaterial.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetMaterial.BusinessChannelOwnerId
-CAdministration.item mSetMaterial.ItemId
-CAdministration.item* mGetMaterial.ItemId
-CSupplier.supplier mSetMaterial.SupplierId
-CSupplier.supplier* mGetMaterial.SupplierId
-CFactory.materialType mSetMaterial.MaterialTypeId
-CFactory.materialType* mGetMaterial.MaterialTypeId
-CFactory.part mSetMaterial.PartId
-CFactory.part* mGetMaterial.PartId
-CFactory.minorsubassembly mSetMaterial.MinorSubAssemblyId
-CFactory.minorsubassembly* mGetMaterial.MinorSubAssemblyId
-CFactory.subassembly mSetMaterial.SubAssemblyId
-CFactory.subassembly* mGetMaterial.SubAssemblyId
-CFactory.majorsubassembly mSetMaterial.MajorSubAssemblyId
-CFactory.majorsubassembly* mGetMaterial.MajorSubAssemblyId
-CFactory.lesserassembly mSetMaterial.LesserAssemblyId
-CFactory.lesserassembly* mGetMaterial.LesserAssemblyId
-CFactory.assembly mSetMaterial.AssemblyId
-CFactory.assembly* mGetMaterial.AssemblyId
-CFactory.greaterassembly mSetMaterial.GreaterAssemblyId
-CFactory.greaterassembly* mGetMaterial.GreaterAssemblyId
-CFactory.product mSetMaterial.ProductId
-CFactory.product* mGetMaterial.ProductId
-ArrayOf<CAdministration.documents> mSetMaterial.DocRefIds
-ArrayOf<CAdministration.documents>* mGetMaterial.DocRefIds
-ArrayOf<CAdministration.images> mSetMaterial.ImageRefIds
-ArrayOf<CAdministration.images>* mGetMaterial.ImageRefIds
-ArrayOf<CAdministration.video> mSetMaterial.VideoRefIds
-ArrayOf<CAdministration.video>* mGetMaterial.VideoRefIds
-const String& mSetMaterialType.MaterialTypeId
-String* mGetMaterialType.MaterialTypeId
-const String& mSetMaterialType.MaterialDescription
-String* mGetMaterialType.MaterialDescription
-ArrayOf<const String&> mSetMaterialType.MaterialSafetyDataRefs
-ArrayOf<String>* mGetMaterialType.MaterialSafetyDataRefs
-const String& mSetMaterialType.MaterialCode
-String* mGetMaterialType.MaterialCode
-const String& mSetMaterialType.UnitsOfMeasurement
-String* mGetMaterialType.UnitsOfMeasurement
-Double mSetMaterialType.RemainingAmount
-Double* mGetMaterialType.RemainingAmount
-CHelper.corrosiveness mSetMaterialType.Corrosiveness
-CHelper.corrosiveness* mGetMaterialType.Corrosiveness
-CHelper.toxicity mSetMaterialType.Toxicity
-CHelper.toxicity* mGetMaterialType.Toxicity
-CHelper.fragility mSetMaterialType.Fragility
-CHelper.fragility* mGetMaterialType.Fragility
-CHelper.physicalStateWhenIdle mSetMaterialType.PhysicalStateWhenIdle
-CHelper.physicalStateWhenIdle* mGetMaterialType.PhysicalStateWhenIdle
-Double mSetMaterialType.RemainingNum
-Double* mGetMaterialType.RemainingNum
-Double mSetMaterialType.RawMaterialStockReorderCode
-Double* mGetMaterialType.RawMaterialStockReorderCode
-const String& mSetMaterialType.BusinessChannelOwnerId
-String* mGetMaterialType.BusinessChannelOwnerId
-CRegister.businessChannelOwner mSetMaterialType.ItemTypeId
-CRegister.businessChannelOwner* mGetMaterialType.ItemTypeId
-CAdministration.itemType mSetMaterialType.SupplierIds
-CAdministration.itemType* mGetMaterialType.SupplierIds
-ArrayOf<CSupplier.supplier> mSetMaterialType.PartTypeIds
-ArrayOf<CSupplier.supplier>* mGetMaterialType.PartTypeIds
-ArrayOf<CFactory.partType> mSetMaterialType.MinorSubAssemblyTypeIds
-ArrayOf<CFactory.partType>* mGetMaterialType.MinorSubAssemblyTypeIds
-ArrayOf<CFactory.minorsubassemblyType> mSetMaterialType.SubAssemblyTypeIds
-ArrayOf<CFactory.minorsubassemblyType>* mGetMaterialType.SubAssemblyTypeIds
-ArrayOf<CFactory.subassemblyType> mSetMaterialType.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.subassemblyType>* mGetMaterialType.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.majorsubassemblyType> mSetMaterialType.LesserAssemblyTypeIds
-ArrayOf<CFactory.majorsubassemblyType>* mGetMaterialType.LesserAssemblyTypeIds
-ArrayOf<CFactory.lesserassemblyType> mSetMaterialType.AssemblyTypeIds
-ArrayOf<CFactory.lesserassemblyType>* mGetMaterialType.AssemblyTypeIds
-ArrayOf<CFactory.assemblyType> mSetMaterialType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.assemblyType>* mGetMaterialType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.greaterassemblyType> mSetMaterialType.ProductTypeIds
-ArrayOf<CFactory.greaterassemblyType>* mGetMaterialType.ProductTypeIds
-ArrayOf<CFactory.productType> mSetMaterialType.DocRefIds
-ArrayOf<CFactory.productType>* mGetMaterialType.DocRefIds
-ArrayOf<CAdministration.documents> mSetMaterialType.ImageRefIds
-ArrayOf<CAdministration.documents>* mGetMaterialType.ImageRefIds
-ArrayOf<CAdministration.images> mSetMaterialType.VideoRefIds
-ArrayOf<CAdministration.images>* mGetMaterialType.VideoRefIds
-ArrayOf<CAdministration.video> mSetPart.PartId
-ArrayOf<CAdministration.video>* mGetPart.PartId
-const String& mSetPart.Hazardous
-String* mGetPart.Hazardous
-Boolean mSetPart.PartName
-Boolean* mGetPart.PartName
-const String& mSetPart.PartDescription
-String* mGetPart.PartDescription
-const String& mSetPart.QCCheckedPassed
-String* mGetPart.QCCheckedPassed
-Boolean mSetPart.BusinessChannelOwnerId
-Boolean* mGetPart.BusinessChannelOwnerId
-CRegister.businessChannelOwner mSetPart.MaterialIds
-CRegister.businessChannelOwner* mGetPart.MaterialIds
-ArrayOf<CFactory.material> mSetPart.PartTypeId
-ArrayOf<CFactory.material>* mGetPart.PartTypeId
-CFactory.partType mSetPart.ItemId
-CFactory.partType* mGetPart.ItemId
-CAdministration.item mSetPart.SupplierIds
-CAdministration.item* mGetPart.SupplierIds
-ArrayOf<CSupplier.supplier> mSetPart.MinorSubAssemblyId
-ArrayOf<CSupplier.supplier>* mGetPart.MinorSubAssemblyId
-CFactory.minorsubassembly mSetPart.SubAssemblyId
-CFactory.minorsubassembly* mGetPart.SubAssemblyId
-CFactory.subassembly mSetPart.MajorSubAssemblyId
-CFactory.subassembly* mGetPart.MajorSubAssemblyId
-CFactory.majorsubassembly mSetPart.LesserAssemblyId
-CFactory.majorsubassembly* mGetPart.LesserAssemblyId
-CFactory.lesserassembly mSetPart.AssemblyId
-CFactory.lesserassembly* mGetPart.AssemblyId
-CFactory.assembly mSetPart.GreaterAssemblyId
-CFactory.assembly* mGetPart.GreaterAssemblyId
-CFactory.greaterassembly mSetPart.ProductId
-CFactory.greaterassembly* mGetPart.ProductId
-CFactory.product mSetPart.DocRefIds
-CFactory.product* mGetPart.DocRefIds
-ArrayOf<CAdministration.documents> mSetPart.ImageRefIds
-ArrayOf<CAdministration.documents>* mGetPart.ImageRefIds
-ArrayOf<CAdministration.images> mSetPart.VideoRefIds
-ArrayOf<CAdministration.images>* mGetPart.VideoRefIds
-ArrayOf<CAdministration.video> mSetPartType.PartTypeId
-ArrayOf<CAdministration.video>* mGetPartType.PartTypeId
-const String& mSetPartType.PartDescription
-String* mGetPartType.PartDescription
-const String& mSetPartType.PartCode
-String* mGetPartType.PartCode
-const String& mSetPartType.Corrosiveness
-String* mGetPartType.Corrosiveness
-CHelper.corrosiveness mSetPartType.Toxicity
-CHelper.corrosiveness* mGetPartType.Toxicity
-CHelper.toxicity mSetPartType.Fragility
-CHelper.toxicity* mGetPartType.Fragility
-CHelper.fragility mSetPartType.PhysicalStateWhenIdle
-CHelper.fragility* mGetPartType.PhysicalStateWhenIdle
-CHelper.physicalStateWhenIdle mSetPartType.RemainingNum
-CHelper.physicalStateWhenIdle* mGetPartType.RemainingNum
-Int32 mSetPartType.PartReorderCode
-Int32* mGetPartType.PartReorderCode
-Int32 mSetPartType.BusinessChannelOwnerId
-Int32* mGetPartType.BusinessChannelOwnerId
-const String& mSetPartType.ItemTypeId
-String* mGetPartType.ItemTypeId
-CRegister.businessChannelOwner mSetPartType.SupplierIds
-CRegister.businessChannelOwner* mGetPartType.SupplierIds
-CAdministration.itemType mSetPartType.MaterialTypeIds
-CAdministration.itemType* mGetPartType.MaterialTypeIds
-ArrayOf<CSupplier.supplier> mSetPartType.MinorSubAssemblyTypeIds
-ArrayOf<CSupplier.supplier>* mGetPartType.MinorSubAssemblyTypeIds
-ArrayOf<CFactory.materialType> mSetPartType.SubAssemblyTypeIds
-ArrayOf<CFactory.materialType>* mGetPartType.SubAssemblyTypeIds
-ArrayOf<CFactory.minorsubassemblyType> mSetPartType.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.minorsubassemblyType>* mGetPartType.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.subassemblyType> mSetPartType.LesserAssemblyTypeIds
-ArrayOf<CFactory.subassemblyType>* mGetPartType.LesserAssemblyTypeIds
-ArrayOf<CFactory.majorsubassemblyType> mSetPartType.AssemblyTypeIds
-ArrayOf<CFactory.majorsubassemblyType>* mGetPartType.AssemblyTypeIds
-ArrayOf<CFactory.lesserassemblyType> mSetPartType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.lesserassemblyType>* mGetPartType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.assemblyType> mSetPartType.ProductTypeIds
-ArrayOf<CFactory.assemblyType>* mGetPartType.ProductTypeIds
-ArrayOf<CFactory.greaterassemblyType> mSetPartType.DocRefIds
-ArrayOf<CFactory.greaterassemblyType>* mGetPartType.DocRefIds
-ArrayOf<CFactory.productType> mSetPartType.ImageRefIds
-ArrayOf<CFactory.productType>* mGetPartType.ImageRefIds
-ArrayOf<CAdministration.documents> mSetPartType.VideoRefIds
-ArrayOf<CAdministration.documents>* mGetPartType.VideoRefIds
-ArrayOf<CAdministration.images> mSetMinorSubAssembly.MinorSubAssyId
-ArrayOf<CAdministration.images>* mGetMinorSubAssembly.MinorSubAssyId
-ArrayOf<CAdministration.video> mSetMinorSubAssembly.Hazardous
-ArrayOf<CAdministration.video>* mGetMinorSubAssembly.Hazardous
-const String& mSetMinorSubAssembly.MinorSubAssemblyName
-String* mGetMinorSubAssembly.MinorSubAssemblyName
-Boolean mSetMinorSubAssembly.MinorSubAssemblyDescription
-Boolean* mGetMinorSubAssembly.MinorSubAssemblyDescription
-const String& mSetMinorSubAssembly.QCCheckedPassed
-String* mGetMinorSubAssembly.QCCheckedPassed
-const String& mSetMinorSubAssembly.BusinessChannelOwnerId
-String* mGetMinorSubAssembly.BusinessChannelOwnerId
-Boolean mSetMinorSubAssembly.MinorSubAssemblyTypeId
-Boolean* mGetMinorSubAssembly.MinorSubAssemblyTypeId
-CRegister.businessChannelOwner mSetMinorSubAssembly.ItemId
-CRegister.businessChannelOwner* mGetMinorSubAssembly.ItemId
-CFactory.minorsubassembly mSetMinorSubAssembly.SupplierIds
-CFactory.minorsubassembly* mGetMinorSubAssembly.SupplierIds
-CAdministration.item mSetMinorSubAssembly.MaterialIds
-CAdministration.item* mGetMinorSubAssembly.MaterialIds
-ArrayOf<CSupplier.supplier> mSetMinorSubAssembly.PartIds
-ArrayOf<CSupplier.supplier>* mGetMinorSubAssembly.PartIds
-ArrayOf<CFactory.material> mSetMinorSubAssembly.SubAssemblyId
-ArrayOf<CFactory.material>* mGetMinorSubAssembly.SubAssemblyId
-ArrayOf<CFactory.part> mSetMinorSubAssembly.MajorSubAssemblyId
-ArrayOf<CFactory.part>* mGetMinorSubAssembly.MajorSubAssemblyId
-CFactory.subassembly mSetMinorSubAssembly.LesserAssemblyId
-CFactory.subassembly* mGetMinorSubAssembly.LesserAssemblyId
-CFactory.majorsubassembly mSetMinorSubAssembly.AssemblyId
-CFactory.majorsubassembly* mGetMinorSubAssembly.AssemblyId
-CFactory.lesserassembly mSetMinorSubAssembly.GreaterAssemblyId
-CFactory.lesserassembly* mGetMinorSubAssembly.GreaterAssemblyId
-CFactory.assembly mSetMinorSubAssembly.ProductId
-CFactory.assembly* mGetMinorSubAssembly.ProductId
-CFactory.greaterassembly mSetMinorSubAssembly.DocRefIds
-CFactory.greaterassembly* mGetMinorSubAssembly.DocRefIds
-CFactory.product mSetMinorSubAssembly.ImageRefIds
-CFactory.product* mGetMinorSubAssembly.ImageRefIds
-ArrayOf<CAdministration.documents> mSetMinorSubAssembly.VideoRefIds
-ArrayOf<CAdministration.documents>* mGetMinorSubAssembly.VideoRefIds
-ArrayOf<CAdministration.images> mSetMinorSubAssemblyType.MinorSubAssemblyTypeId
-ArrayOf<CAdministration.images>* mGetMinorSubAssemblyType.MinorSubAssemblyTypeId
-ArrayOf<CAdministration.video> mSetMinorSubAssemblyType.MinorSubAssemblyDescription
-ArrayOf<CAdministration.video>* mGetMinorSubAssemblyType.MinorSubAssemblyDescription
-const String& mSetMinorSubAssemblyType.MinorSubAssemblyCode
-String* mGetMinorSubAssemblyType.MinorSubAssemblyCode
-const String& mSetMinorSubAssemblyType.Corrosiveness
-String* mGetMinorSubAssemblyType.Corrosiveness
-const String& mSetMinorSubAssemblyType.Toxicity
-String* mGetMinorSubAssemblyType.Toxicity
-CHelper.corrosiveness mSetMinorSubAssemblyType.Fragility
-CHelper.corrosiveness* mGetMinorSubAssemblyType.Fragility
-CHelper.toxicity mSetMinorSubAssemblyType.PhysicalStateWhenIdle
-CHelper.toxicity* mGetMinorSubAssemblyType.PhysicalStateWhenIdle
-CHelper.fragility mSetMinorSubAssemblyType.RemainingNum
-CHelper.fragility* mGetMinorSubAssemblyType.RemainingNum
-CHelper.physicalStateWhenIdle mSetMinorSubAssemblyType.MinorSubAssemblyReorderCode
-CHelper.physicalStateWhenIdle* mGetMinorSubAssemblyType.MinorSubAssemblyReorderCode
-Int32 mSetMinorSubAssemblyType.BusinessChannelOwnerId
-Int32* mGetMinorSubAssemblyType.BusinessChannelOwnerId
-Int32 mSetMinorSubAssemblyType.ItemTypeId
-Int32* mGetMinorSubAssemblyType.ItemTypeId
-const String& mSetMinorSubAssemblyType.SupplierIds
-String* mGetMinorSubAssemblyType.SupplierIds
-CRegister.businessChannelOwner mSetMinorSubAssemblyType.MaterialTypeIds
-CRegister.businessChannelOwner* mGetMinorSubAssemblyType.MaterialTypeIds
-CAdministration.itemType mSetMinorSubAssemblyType.PartTypeIds
-CAdministration.itemType* mGetMinorSubAssemblyType.PartTypeIds
-ArrayOf<CSupplier.supplier> mSetMinorSubAssemblyType.SubAssemblyTypeIds
-ArrayOf<CSupplier.supplier>* mGetMinorSubAssemblyType.SubAssemblyTypeIds
-ArrayOf<CFactory.materialType> mSetMinorSubAssemblyType.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.materialType>* mGetMinorSubAssemblyType.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.partType> mSetMinorSubAssemblyType.LesserAssemblyTypeIds
-ArrayOf<CFactory.partType>* mGetMinorSubAssemblyType.LesserAssemblyTypeIds
-ArrayOf<CFactory.subassemblyType> mSetMinorSubAssemblyType.AssemblyTypeIds
-ArrayOf<CFactory.subassemblyType>* mGetMinorSubAssemblyType.AssemblyTypeIds
-ArrayOf<CFactory.majorsubassemblyType> mSetMinorSubAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.majorsubassemblyType>* mGetMinorSubAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.lesserassemblyType> mSetMinorSubAssemblyType.ProductTypeIds
-ArrayOf<CFactory.lesserassemblyType>* mGetMinorSubAssemblyType.ProductTypeIds
-ArrayOf<CFactory.assemblyType> mSetMinorSubAssemblyType.DocRefIds
-ArrayOf<CFactory.assemblyType>* mGetMinorSubAssemblyType.DocRefIds
-ArrayOf<CFactory.greaterassemblyType> mSetMinorSubAssemblyType.ImageRefIds
-ArrayOf<CFactory.greaterassemblyType>* mGetMinorSubAssemblyType.ImageRefIds
-ArrayOf<CFactory.productType> mSetMinorSubAssemblyType.VideoRefIds
-ArrayOf<CFactory.productType>* mGetMinorSubAssemblyType.VideoRefIds
-ArrayOf<CAdministration.documents> mSetSubAssembly.SubAssyId
-ArrayOf<CAdministration.documents>* mGetSubAssembly.SubAssyId
-ArrayOf<CAdministration.images> mSetSubAssembly.Hazardous
-ArrayOf<CAdministration.images>* mGetSubAssembly.Hazardous
-ArrayOf<CAdministration.video> mSetSubAssembly.SubAssemblyName
-ArrayOf<CAdministration.video>* mGetSubAssembly.SubAssemblyName
-const String& mSetSubAssembly.SubAssemblyDescription
-String* mGetSubAssembly.SubAssemblyDescription
-Boolean mSetSubAssembly.QCCheckedPassed
-Boolean* mGetSubAssembly.QCCheckedPassed
-const String& mSetSubAssembly.MaterialIds
-String* mGetSubAssembly.MaterialIds
-const String& mSetSubAssembly.PartIds
-String* mGetSubAssembly.PartIds
-Boolean mSetSubAssembly.MinorSubAssemblyIds
-Boolean* mGetSubAssembly.MinorSubAssemblyIds
-ArrayOf<CFactory.material> mSetSubAssembly.MajorSubAssemblyId
-ArrayOf<CFactory.material>* mGetSubAssembly.MajorSubAssemblyId
-ArrayOf<CFactory.part> mSetSubAssembly.LesserAssemblyId
-ArrayOf<CFactory.part>* mGetSubAssembly.LesserAssemblyId
-ArrayOf<CFactory.minorsubassembly> mSetSubAssembly.AssemblyId
-ArrayOf<CFactory.minorsubassembly>* mGetSubAssembly.AssemblyId
-CFactory.majorsubassembly mSetSubAssembly.GreaterAssemblyId
-CFactory.majorsubassembly* mGetSubAssembly.GreaterAssemblyId
-CFactory.lesserassembly mSetSubAssembly.ProductId
-CFactory.lesserassembly* mGetSubAssembly.ProductId
-CFactory.assembly mSetSubAssembly.BusinessChannelOwnerId
-CFactory.assembly* mGetSubAssembly.BusinessChannelOwnerId
-CFactory.greaterassembly mSetSubAssembly.SubAssemblyTypeId
-CFactory.greaterassembly* mGetSubAssembly.SubAssemblyTypeId
-CFactory.product mSetSubAssembly.ItemId
-CFactory.product* mGetSubAssembly.ItemId
-CRegister.businessChannelOwner mSetSubAssembly.SupplierIds
-CRegister.businessChannelOwner* mGetSubAssembly.SupplierIds
-CFactory.subassemblyType mSetSubAssembly.DocRefIds
-CFactory.subassemblyType* mGetSubAssembly.DocRefIds
-CAdministration.item mSetSubAssembly.ImageRefIds
-CAdministration.item* mGetSubAssembly.ImageRefIds
-ArrayOf<CSupplier.supplier> mSetSubAssembly.VideoRefIds
-ArrayOf<CSupplier.supplier>* mGetSubAssembly.VideoRefIds
-ArrayOf<CAdministration.documents> mSetSubAssemblyType.SubAssemblyTypeId
-ArrayOf<CAdministration.documents>* mGetSubAssemblyType.SubAssemblyTypeId
-ArrayOf<CAdministration.images> mSetSubAssemblyType.SubAssemblyCode
-ArrayOf<CAdministration.images>* mGetSubAssemblyType.SubAssemblyCode
-ArrayOf<CAdministration.video> mSetSubAssemblyType.SubAssemblyDescription
-ArrayOf<CAdministration.video>* mGetSubAssemblyType.SubAssemblyDescription
-const String& mSetSubAssemblyType.Corrosiveness
-String* mGetSubAssemblyType.Corrosiveness
-const String& mSetSubAssemblyType.Toxicity
-String* mGetSubAssemblyType.Toxicity
-const String& mSetSubAssemblyType.Fragility
-String* mGetSubAssemblyType.Fragility
-CHelper.corrosiveness mSetSubAssemblyType.PhysicalStateWhenIdle
-CHelper.corrosiveness* mGetSubAssemblyType.PhysicalStateWhenIdle
-CHelper.toxicity mSetSubAssemblyType.RemainingNum
-CHelper.toxicity* mGetSubAssemblyType.RemainingNum
-CHelper.fragility mSetSubAssemblyType.SubAssemblyReorderCode
-CHelper.fragility* mGetSubAssemblyType.SubAssemblyReorderCode
-CHelper.physicalStateWhenIdle mSetSubAssemblyType.BusinessChannelOwnerId
-CHelper.physicalStateWhenIdle* mGetSubAssemblyType.BusinessChannelOwnerId
-Int32 mSetSubAssemblyType.ItemTypeId
-Int32* mGetSubAssemblyType.ItemTypeId
-Int32 mSetSubAssemblyType.SupplierIds
-Int32* mGetSubAssemblyType.SupplierIds
-const String& mSetSubAssemblyType.MaterialTypeIds
-String* mGetSubAssemblyType.MaterialTypeIds
-CRegister.businessChannelOwner mSetSubAssemblyType.PartTypeId
-CRegister.businessChannelOwner* mGetSubAssemblyType.PartTypeId
-CAdministration.itemType mSetSubAssemblyType.MinorSubAssemblyTypeIds
-CAdministration.itemType* mGetSubAssemblyType.MinorSubAssemblyTypeIds
-ArrayOf<CSupplier.supplier> mSetSubAssemblyType.MajorSubAssemblyTypeIds
-ArrayOf<CSupplier.supplier>* mGetSubAssemblyType.MajorSubAssemblyTypeIds
-ArrayOf<CFactory.materialType> mSetSubAssemblyType.LesserAssemblyTypeIds
-ArrayOf<CFactory.materialType>* mGetSubAssemblyType.LesserAssemblyTypeIds
-ArrayOf<CFactory.partType> mSetSubAssemblyType.AssemblyTypeIds
-ArrayOf<CFactory.partType>* mGetSubAssemblyType.AssemblyTypeIds
-ArrayOf<CFactory.minorsubassemblyType> mSetSubAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.minorsubassemblyType>* mGetSubAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.majorsubassemblyType> mSetSubAssemblyType.ProductTypeIds
-ArrayOf<CFactory.majorsubassemblyType>* mGetSubAssemblyType.ProductTypeIds
-ArrayOf<CFactory.lesserassemblyType> mSetSubAssemblyType.DocRefIds
-ArrayOf<CFactory.lesserassemblyType>* mGetSubAssemblyType.DocRefIds
-ArrayOf<CFactory.assemblyType> mSetSubAssemblyType.ImageRefIds
-ArrayOf<CFactory.assemblyType>* mGetSubAssemblyType.ImageRefIds
-ArrayOf<CFactory.greaterassemblyType> mSetSubAssemblyType.VideoRefIds
-ArrayOf<CFactory.greaterassemblyType>* mGetSubAssemblyType.VideoRefIds
-ArrayOf<CFactory.productType> mSetMajorSubAssembly.MajorSubAssyId
-ArrayOf<CFactory.productType>* mGetMajorSubAssembly.MajorSubAssyId
-ArrayOf<CAdministration.documents> mSetMajorSubAssembly.Hazardous
-ArrayOf<CAdministration.documents>* mGetMajorSubAssembly.Hazardous
-ArrayOf<CAdministration.images> mSetMajorSubAssembly.MajorSubAssemblyName
-ArrayOf<CAdministration.images>* mGetMajorSubAssembly.MajorSubAssemblyName
-ArrayOf<CAdministration.video> mSetMajorSubAssembly.MajorSubAssemblyDescription
-ArrayOf<CAdministration.video>* mGetMajorSubAssembly.MajorSubAssemblyDescription
-const String& mSetMajorSubAssembly.QCCheckedPassed
-String* mGetMajorSubAssembly.QCCheckedPassed
-Boolean mSetMajorSubAssembly.MajorSubAssemblyCode
-Boolean* mGetMajorSubAssembly.MajorSubAssemblyCode
-const String& mSetMajorSubAssembly.MaterialIds
-String* mGetMajorSubAssembly.MaterialIds
-const String& mSetMajorSubAssembly.PartIds
-String* mGetMajorSubAssembly.PartIds
-Boolean mSetMajorSubAssembly.MinorSubAssemblyIds
-Boolean* mGetMajorSubAssembly.MinorSubAssemblyIds
-const String& mSetMajorSubAssembly.SubAssemblyIds
-String* mGetMajorSubAssembly.SubAssemblyIds
-ArrayOf<CFactory.material> mSetMajorSubAssembly.LesserAssemblyId
-ArrayOf<CFactory.material>* mGetMajorSubAssembly.LesserAssemblyId
-ArrayOf<CFactory.part> mSetMajorSubAssembly.AssemblyId
-ArrayOf<CFactory.part>* mGetMajorSubAssembly.AssemblyId
-ArrayOf<CFactory.minorsubassembly> mSetMajorSubAssembly.GreaterAssembly
-ArrayOf<CFactory.minorsubassembly>* mGetMajorSubAssembly.GreaterAssembly
-ArrayOf<CFactory.subassembly> mSetMajorSubAssembly.ProductIds
-ArrayOf<CFactory.subassembly>* mGetMajorSubAssembly.ProductIds
-CFactory.lesserassembly mSetMajorSubAssembly.BusinessChannelOwnerId
-CFactory.lesserassembly* mGetMajorSubAssembly.BusinessChannelOwnerId
-CFactory.assembly mSetMajorSubAssembly.MajorSubAssemblyTypeId
-CFactory.assembly* mGetMajorSubAssembly.MajorSubAssemblyTypeId
-CFactory.greaterassembly mSetMajorSubAssembly.ItemId
-CFactory.greaterassembly* mGetMajorSubAssembly.ItemId
-CFactory.product mSetMajorSubAssembly.SupplierIds
-CFactory.product* mGetMajorSubAssembly.SupplierIds
-CRegister.businessChannelOwner mSetMajorSubAssembly.DocRefIds
-CRegister.businessChannelOwner* mGetMajorSubAssembly.DocRefIds
-CFactory.majorsubassemblyType mSetMajorSubAssembly.ImageRefIds
-CFactory.majorsubassemblyType* mGetMajorSubAssembly.ImageRefIds
-CAdministration.item mSetMajorSubAssembly.VideoRefIds
-CAdministration.item* mGetMajorSubAssembly.VideoRefIds
-ArrayOf<CSupplier.supplier> mSetMajorSubAssemblyType.MajorSubAssemblyTypeId
-ArrayOf<CSupplier.supplier>* mGetMajorSubAssemblyType.MajorSubAssemblyTypeId
-ArrayOf<CAdministration.documents> mSetMajorSubAssemblyType.MajorSubAssemblyDescription
-ArrayOf<CAdministration.documents>* mGetMajorSubAssemblyType.MajorSubAssemblyDescription
-ArrayOf<CAdministration.images> mSetMajorSubAssemblyType.Corrosiveness
-ArrayOf<CAdministration.images>* mGetMajorSubAssemblyType.Corrosiveness
-ArrayOf<CAdministration.video> mSetMajorSubAssemblyType.Toxicity
-ArrayOf<CAdministration.video>* mGetMajorSubAssemblyType.Toxicity
-const String& mSetMajorSubAssemblyType.Fragility
-String* mGetMajorSubAssemblyType.Fragility
-const String& mSetMajorSubAssemblyType.PhysicalStateWhenIdle
-String* mGetMajorSubAssemblyType.PhysicalStateWhenIdle
-CHelper.corrosiveness mSetMajorSubAssemblyType.RemainingNum
-CHelper.corrosiveness* mGetMajorSubAssemblyType.RemainingNum
-CHelper.toxicity mSetMajorSubAssemblyType.MajorSubAssemblyReorderCode
-CHelper.toxicity* mGetMajorSubAssemblyType.MajorSubAssemblyReorderCode
-CHelper.fragility mSetMajorSubAssemblyType.MaterialTypeIds
-CHelper.fragility* mGetMajorSubAssemblyType.MaterialTypeIds
-CHelper.physicalStateWhenIdle mSetMajorSubAssemblyType.PartTypeId
-CHelper.physicalStateWhenIdle* mGetMajorSubAssemblyType.PartTypeId
-Int32 mSetMajorSubAssemblyType.MinorSubAssemblyTypeIds
-Int32* mGetMajorSubAssemblyType.MinorSubAssemblyTypeIds
-Int32 mSetMajorSubAssemblyType.SubAssemblyTypeIds
-Int32* mGetMajorSubAssemblyType.SubAssemblyTypeIds
-const String& mSetMajorSubAssemblyType.LesserAssemblyTypeIds
-String* mGetMajorSubAssemblyType.LesserAssemblyTypeIds
-ArrayOf<CFactory.materialType> mSetMajorSubAssemblyType.AssemblyTypeIds
-ArrayOf<CFactory.materialType>* mGetMajorSubAssemblyType.AssemblyTypeIds
-ArrayOf<CFactory.partType> mSetMajorSubAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.partType>* mGetMajorSubAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.minorsubassemblyType> mSetMajorSubAssemblyType.ProductTypeIds
-ArrayOf<CFactory.minorsubassemblyType>* mGetMajorSubAssemblyType.ProductTypeIds
-ArrayOf<CFactory.subassemblyType> mSetMajorSubAssemblyType.BusinessChannelOwnerId
-ArrayOf<CFactory.subassemblyType>* mGetMajorSubAssemblyType.BusinessChannelOwnerId
-ArrayOf<CFactory.lesserassemblyType> mSetMajorSubAssemblyType.ItemTypeId
-ArrayOf<CFactory.lesserassemblyType>* mGetMajorSubAssemblyType.ItemTypeId
-ArrayOf<CFactory.assemblyType> mSetMajorSubAssemblyType.SupplierIds
-ArrayOf<CFactory.assemblyType>* mGetMajorSubAssemblyType.SupplierIds
-ArrayOf<CFactory.greaterassemblyType> mSetMajorSubAssemblyType.DocRefIds
-ArrayOf<CFactory.greaterassemblyType>* mGetMajorSubAssemblyType.DocRefIds
-ArrayOf<CFactory.productType> mSetMajorSubAssemblyType.ImageRefIds
-ArrayOf<CFactory.productType>* mGetMajorSubAssemblyType.ImageRefIds
-CRegister.businessChannelOwner mSetMajorSubAssemblyType.VideoRefIds
-CRegister.businessChannelOwner* mGetMajorSubAssemblyType.VideoRefIds
-CAdministration.itemType mSetLesserAssembly.LesserAssyId
-CAdministration.itemType* mGetLesserAssembly.LesserAssyId
-ArrayOf<CSupplier.supplier> mSetLesserAssembly.Hazardous
-ArrayOf<CSupplier.supplier>* mGetLesserAssembly.Hazardous
-ArrayOf<CAdministration.documents> mSetLesserAssembly.LesserAssemblyName
-ArrayOf<CAdministration.documents>* mGetLesserAssembly.LesserAssemblyName
-ArrayOf<CAdministration.images> mSetLesserAssembly.LesserAssemblyDescription
-ArrayOf<CAdministration.images>* mGetLesserAssembly.LesserAssemblyDescription
-ArrayOf<CAdministration.video> mSetLesserAssembly.QCCheckedPassed
-ArrayOf<CAdministration.video>* mGetLesserAssembly.QCCheckedPassed
-const String& mSetLesserAssembly.MaterialIds
-String* mGetLesserAssembly.MaterialIds
-Boolean mSetLesserAssembly.PartIds
-Boolean* mGetLesserAssembly.PartIds
-const String& mSetLesserAssembly.MinorSubAssemblyIds
-String* mGetLesserAssembly.MinorSubAssemblyIds
-const String& mSetLesserAssembly.SubAssemblyIds
-String* mGetLesserAssembly.SubAssemblyIds
-Boolean mSetLesserAssembly.MajorSubAssemblyIds
-Boolean* mGetLesserAssembly.MajorSubAssemblyIds
-ArrayOf<CFactory.material> mSetLesserAssembly.AssemblyId
-ArrayOf<CFactory.material>* mGetLesserAssembly.AssemblyId
-ArrayOf<CFactory.part> mSetLesserAssembly.GreaterAssemblyId
-ArrayOf<CFactory.part>* mGetLesserAssembly.GreaterAssemblyId
-ArrayOf<CFactory.minorsubassembly> mSetLesserAssembly.LesserAssemblyTypeId
-ArrayOf<CFactory.minorsubassembly>* mGetLesserAssembly.LesserAssemblyTypeId
-ArrayOf<CFactory.subassembly> mSetLesserAssembly.ProductId
-ArrayOf<CFactory.subassembly>* mGetLesserAssembly.ProductId
-ArrayOf<CFactory.majorsubassembly> mSetLesserAssembly.BusinessChannelOwnerId
-ArrayOf<CFactory.majorsubassembly>* mGetLesserAssembly.BusinessChannelOwnerId
-CFactory.assembly mSetLesserAssembly.ItemId
-CFactory.assembly* mGetLesserAssembly.ItemId
-CFactory.greaterassembly mSetLesserAssembly.SupplierIds
-CFactory.greaterassembly* mGetLesserAssembly.SupplierIds
-CFactory.lesserassemblyType mSetLesserAssembly.DocRefIds
-CFactory.lesserassemblyType* mGetLesserAssembly.DocRefIds
-CFactory.product mSetLesserAssembly.ImageRefIds
-CFactory.product* mGetLesserAssembly.ImageRefIds
-CRegister.businessChannelOwner mSetLesserAssembly.VideoRefIds
-CRegister.businessChannelOwner* mGetLesserAssembly.VideoRefIds
-CAdministration.item mSetLesserAssemblyType.LesserAssemblyTypeId
-CAdministration.item* mGetLesserAssemblyType.LesserAssemblyTypeId
-ArrayOf<CSupplier.supplier> mSetLesserAssemblyType.LesseAssemblyDescription
-ArrayOf<CSupplier.supplier>* mGetLesserAssemblyType.LesseAssemblyDescription
-ArrayOf<CAdministration.documents> mSetLesserAssemblyType.LesserAssemblyCode
-ArrayOf<CAdministration.documents>* mGetLesserAssemblyType.LesserAssemblyCode
-ArrayOf<CAdministration.images> mSetLesserAssemblyType.Corrosiveness
-ArrayOf<CAdministration.images>* mGetLesserAssemblyType.Corrosiveness
-ArrayOf<CAdministration.video> mSetLesserAssemblyType.Toxicity
-ArrayOf<CAdministration.video>* mGetLesserAssemblyType.Toxicity
-const String& mSetLesserAssemblyType.Fragility
-String* mGetLesserAssemblyType.Fragility
-const String& mSetLesserAssemblyType.PhysicalStateWhenIdle
-String* mGetLesserAssemblyType.PhysicalStateWhenIdle
-const String& mSetLesserAssemblyType.RemainingNum
-String* mGetLesserAssemblyType.RemainingNum
-CHelper.corrosiveness mSetLesserAssemblyType.LesserAssemblyReorderCode
-CHelper.corrosiveness* mGetLesserAssemblyType.LesserAssemblyReorderCode
-CHelper.toxicity mSetLesserAssemblyType.MaterialTypeIds
-CHelper.toxicity* mGetLesserAssemblyType.MaterialTypeIds
-CHelper.fragility mSetLesserAssemblyType.PartTypeId
-CHelper.fragility* mGetLesserAssemblyType.PartTypeId
-CHelper.physicalStateWhenIdle mSetLesserAssemblyType.MinorSubAssemblyTypeIds
-CHelper.physicalStateWhenIdle* mGetLesserAssemblyType.MinorSubAssemblyTypeIds
-Int32 mSetLesserAssemblyType.SubAssemblyTypeIds
-Int32* mGetLesserAssemblyType.SubAssemblyTypeIds
-Int32 mSetLesserAssemblyType.MajorSubAssemblyTypeIds
-Int32* mGetLesserAssemblyType.MajorSubAssemblyTypeIds
-const String& mSetLesserAssemblyType.LesserAssemblyTypeIds
-String* mGetLesserAssemblyType.LesserAssemblyTypeIds
-ArrayOf<CFactory.materialType> mSetLesserAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.materialType>* mGetLesserAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.partType> mSetLesserAssemblyType.ProductTypeIds
-ArrayOf<CFactory.partType>* mGetLesserAssemblyType.ProductTypeIds
-ArrayOf<CFactory.minorsubassemblyType> mSetLesserAssemblyType.BusinessChannelOwnerId
-ArrayOf<CFactory.minorsubassemblyType>* mGetLesserAssemblyType.BusinessChannelOwnerId
-ArrayOf<CFactory.subassemblyType> mSetLesserAssemblyType.ItemTypeId
-ArrayOf<CFactory.subassemblyType>* mGetLesserAssemblyType.ItemTypeId
-ArrayOf<CFactory.majorsubassemblyType> mSetLesserAssemblyType.SupplierIds
-ArrayOf<CFactory.majorsubassemblyType>* mGetLesserAssemblyType.SupplierIds
-ArrayOf<CFactory.lesserassemblyType> mSetLesserAssemblyType.DocRefIds
-ArrayOf<CFactory.lesserassemblyType>* mGetLesserAssemblyType.DocRefIds
-ArrayOf<CFactory.greaterassemblyType> mSetLesserAssemblyType.ImageRefIds
-ArrayOf<CFactory.greaterassemblyType>* mGetLesserAssemblyType.ImageRefIds
-ArrayOf<CFactory.productType> mSetLesserAssemblyType.VideoRefIds
-ArrayOf<CFactory.productType>* mGetLesserAssemblyType.VideoRefIds
-CRegister.businessChannelOwner mSetAssembly.AssyId
-CRegister.businessChannelOwner* mGetAssembly.AssyId
-CAdministration.itemType mSetAssembly.Hazardous
-CAdministration.itemType* mGetAssembly.Hazardous
-ArrayOf<CSupplier.supplier> mSetAssembly.AssemblyName
-ArrayOf<CSupplier.supplier>* mGetAssembly.AssemblyName
-ArrayOf<CAdministration.documents> mSetAssembly.AssemblyDescription
-ArrayOf<CAdministration.documents>* mGetAssembly.AssemblyDescription
-ArrayOf<CAdministration.images> mSetAssembly.QCCheckedPassed
-ArrayOf<CAdministration.images>* mGetAssembly.QCCheckedPassed
-ArrayOf<CAdministration.video> mSetAssembly.MaterialIds
-ArrayOf<CAdministration.video>* mGetAssembly.MaterialIds
-const String& mSetAssembly.PartIds
-String* mGetAssembly.PartIds
-Boolean mSetAssembly.MinorSubAssemblyIds
-Boolean* mGetAssembly.MinorSubAssemblyIds
-const String& mSetAssembly.SubAssemblyIds
-String* mGetAssembly.SubAssemblyIds
-const String& mSetAssembly.MajorSubAssemblyIds
-String* mGetAssembly.MajorSubAssemblyIds
-Boolean mSetAssembly.LesserAssemblyIds
-Boolean* mGetAssembly.LesserAssemblyIds
-ArrayOf<CFactory.material> mSetAssembly.AssemblyTypeId
-ArrayOf<CFactory.material>* mGetAssembly.AssemblyTypeId
-ArrayOf<CFactory.part> mSetAssembly.GreaterAssemblyId
-ArrayOf<CFactory.part>* mGetAssembly.GreaterAssemblyId
-ArrayOf<CFactory.minorsubassembly> mSetAssembly.ProductId
-ArrayOf<CFactory.minorsubassembly>* mGetAssembly.ProductId
-ArrayOf<CFactory.subassembly> mSetAssembly.BusinessChannelOwnerId
-ArrayOf<CFactory.subassembly>* mGetAssembly.BusinessChannelOwnerId
-ArrayOf<CFactory.majorsubassembly> mSetAssembly.ItemId
-ArrayOf<CFactory.majorsubassembly>* mGetAssembly.ItemId
-ArrayOf<CFactory.lesserassembly> mSetAssembly.SupplierIds
-ArrayOf<CFactory.lesserassembly>* mGetAssembly.SupplierIds
-CFactory.assemblyType mSetAssembly.DocRefIds
-CFactory.assemblyType* mGetAssembly.DocRefIds
-CFactory.greaterassembly mSetAssembly.ImageRefIds
-CFactory.greaterassembly* mGetAssembly.ImageRefIds
-CFactory.product mSetAssembly.VideoRefIds
-CFactory.product* mGetAssembly.VideoRefIds
-CRegister.businessChannelOwner mSetAssemblyType.AssemblyTypeId
-CRegister.businessChannelOwner* mGetAssemblyType.AssemblyTypeId
-CAdministration.item mSetAssemblyType.AssemblyDescription
-CAdministration.item* mGetAssemblyType.AssemblyDescription
-ArrayOf<CSupplier.supplier> mSetAssemblyType.AssemblyCode
-ArrayOf<CSupplier.supplier>* mGetAssemblyType.AssemblyCode
-ArrayOf<CAdministration.documents> mSetAssemblyType.Corrosiveness
-ArrayOf<CAdministration.documents>* mGetAssemblyType.Corrosiveness
-ArrayOf<CAdministration.images> mSetAssemblyType.Toxicity
-ArrayOf<CAdministration.images>* mGetAssemblyType.Toxicity
-ArrayOf<CAdministration.video> mSetAssemblyType.Fragility
-ArrayOf<CAdministration.video>* mGetAssemblyType.Fragility
-const String& mSetAssemblyType.PhysicalStateWhenIdle
-String* mGetAssemblyType.PhysicalStateWhenIdle
-const String& mSetAssemblyType.RemainingNum
-String* mGetAssemblyType.RemainingNum
-const String& mSetAssemblyType.AssemblyReorderCode
-String* mGetAssemblyType.AssemblyReorderCode
-CHelper.corrosiveness mSetAssemblyType.MaterialTypeIds
-CHelper.corrosiveness* mGetAssemblyType.MaterialTypeIds
-CHelper.toxicity mSetAssemblyType.PartTypeId
-CHelper.toxicity* mGetAssemblyType.PartTypeId
-CHelper.fragility mSetAssemblyType.MinorSubAssemblyTypeIds
-CHelper.fragility* mGetAssemblyType.MinorSubAssemblyTypeIds
-CHelper.physicalStateWhenIdle mSetAssemblyType.SubAssemblyTypeIds
-CHelper.physicalStateWhenIdle* mGetAssemblyType.SubAssemblyTypeIds
-Int32 mSetAssemblyType.MajorSubAssemblyTypeIds
-Int32* mGetAssemblyType.MajorSubAssemblyTypeIds
-Int32 mSetAssemblyType.LesserAssemblyTypeIds
-Int32* mGetAssemblyType.LesserAssemblyTypeIds
-const String& mSetAssemblyType.GreaterAssemblyTypeIds
-String* mGetAssemblyType.GreaterAssemblyTypeIds
-ArrayOf<CFactory.materialType> mSetAssemblyType.ProductTypeIds
-ArrayOf<CFactory.materialType>* mGetAssemblyType.ProductTypeIds
-ArrayOf<CFactory.partType> mSetAssemblyType.BusinessChannelOwnerId
-ArrayOf<CFactory.partType>* mGetAssemblyType.BusinessChannelOwnerId
-ArrayOf<CFactory.minorsubassemblyType> mSetAssemblyType.ItemTypeId
-ArrayOf<CFactory.minorsubassemblyType>* mGetAssemblyType.ItemTypeId
-ArrayOf<CFactory.subassemblyType> mSetAssemblyType.SupplierIds
-ArrayOf<CFactory.subassemblyType>* mGetAssemblyType.SupplierIds
-ArrayOf<CFactory.majorsubassemblyType> mSetAssemblyType.DocRefIds
-ArrayOf<CFactory.majorsubassemblyType>* mGetAssemblyType.DocRefIds
-ArrayOf<CFactory.lesserassemblyType> mSetAssemblyType.ImageRefIds
-ArrayOf<CFactory.lesserassemblyType>* mGetAssemblyType.ImageRefIds
-ArrayOf<CFactory.greaterassemblyType> mSetAssemblyType.VideoRefIds
-ArrayOf<CFactory.greaterassemblyType>* mGetAssemblyType.VideoRefIds
-ArrayOf<CFactory.productType> mSetGreaterAssembly.GreaterAssyId
-ArrayOf<CFactory.productType>* mGetGreaterAssembly.GreaterAssyId
-CRegister.businessChannelOwner mSetGreaterAssembly.Hazardous
-CRegister.businessChannelOwner* mGetGreaterAssembly.Hazardous
-CAdministration.itemType mSetGreaterAssembly.GreaterAssemblyName
-CAdministration.itemType* mGetGreaterAssembly.GreaterAssemblyName
-ArrayOf<CSupplier.supplier> mSetGreaterAssembly.GreaterAssemblyDescription
-ArrayOf<CSupplier.supplier>* mGetGreaterAssembly.GreaterAssemblyDescription
-ArrayOf<CAdministration.documents> mSetGreaterAssembly.PhysicalStateWhenIdle
-ArrayOf<CAdministration.documents>* mGetGreaterAssembly.PhysicalStateWhenIdle
-ArrayOf<CAdministration.images> mSetGreaterAssembly.QCCheckedPassed
-ArrayOf<CAdministration.images>* mGetGreaterAssembly.QCCheckedPassed
-ArrayOf<CAdministration.video> mSetGreaterAssembly.GreaterAssemblyCode
-ArrayOf<CAdministration.video>* mGetGreaterAssembly.GreaterAssemblyCode
-const String& mSetGreaterAssembly.GreaterAssemblyReorderCode
-String* mGetGreaterAssembly.GreaterAssemblyReorderCode
-Boolean mSetGreaterAssembly.MaterialIds
-Boolean* mGetGreaterAssembly.MaterialIds
-const String& mSetGreaterAssembly.PartIds
-String* mGetGreaterAssembly.PartIds
-const String& mSetGreaterAssembly.MinorSubAssemblyIds
-String* mGetGreaterAssembly.MinorSubAssemblyIds
-CHelper.physicalStateWhenIdle mSetGreaterAssembly.SubAssemblyIds
-CHelper.physicalStateWhenIdle* mGetGreaterAssembly.SubAssemblyIds
-Boolean mSetGreaterAssembly.MajorSubAssemblyIds
-Boolean* mGetGreaterAssembly.MajorSubAssemblyIds
-const String& mSetGreaterAssembly.LesserAssemblyIds
-String* mGetGreaterAssembly.LesserAssemblyIds
-const String& mSetGreaterAssembly.AssemblyIds
-String* mGetGreaterAssembly.AssemblyIds
-Int32 mSetGreaterAssembly.GreaterAssemblyTypeId
-Int32* mGetGreaterAssembly.GreaterAssemblyTypeId
-ArrayOf<CFactory.material> mSetGreaterAssembly.ProductId
-ArrayOf<CFactory.material>* mGetGreaterAssembly.ProductId
-ArrayOf<CFactory.part> mSetGreaterAssembly.BusinessChannelOwnerId
-ArrayOf<CFactory.part>* mGetGreaterAssembly.BusinessChannelOwnerId
-ArrayOf<CFactory.minorsubassembly> mSetGreaterAssembly.ItemId
-ArrayOf<CFactory.minorsubassembly>* mGetGreaterAssembly.ItemId
-ArrayOf<CFactory.subassembly> mSetGreaterAssembly.SupplierIds
-ArrayOf<CFactory.subassembly>* mGetGreaterAssembly.SupplierIds
-ArrayOf<CFactory.majorsubassembly> mSetGreaterAssembly.DocRefIds
-ArrayOf<CFactory.majorsubassembly>* mGetGreaterAssembly.DocRefIds
-ArrayOf<CFactory.lesserassembly> mSetGreaterAssembly.ImageRefIds
-ArrayOf<CFactory.lesserassembly>* mGetGreaterAssembly.ImageRefIds
-ArrayOf<CFactory.assembly> mSetGreaterAssembly.VideoRefIds
-ArrayOf<CFactory.assembly>* mGetGreaterAssembly.VideoRefIds
-CFactory.greaterassemblyType mSetGreaterAssemblyType.GreaterAssemblyTypeId
-CFactory.greaterassemblyType* mGetGreaterAssemblyType.GreaterAssemblyTypeId
-CFactory.product mSetGreaterAssemblyType.GreaterAssemblyDescription
-CFactory.product* mGetGreaterAssemblyType.GreaterAssemblyDescription
-CRegister.businessChannelOwner mSetGreaterAssemblyType.GreaterAssemblyCode
-CRegister.businessChannelOwner* mGetGreaterAssemblyType.GreaterAssemblyCode
-CAdministration.item mSetGreaterAssemblyType.Corrosiveness
-CAdministration.item* mGetGreaterAssemblyType.Corrosiveness
-ArrayOf<CSupplier.supplier> mSetGreaterAssemblyType.Toxicity
-ArrayOf<CSupplier.supplier>* mGetGreaterAssemblyType.Toxicity
-ArrayOf<CAdministration.documents> mSetGreaterAssemblyType.Fragility
-ArrayOf<CAdministration.documents>* mGetGreaterAssemblyType.Fragility
-ArrayOf<CAdministration.images> mSetGreaterAssemblyType.PhysicalStateWhenIdle
-ArrayOf<CAdministration.images>* mGetGreaterAssemblyType.PhysicalStateWhenIdle
-ArrayOf<CAdministration.video> mSetGreaterAssemblyType.RemainingNum
-ArrayOf<CAdministration.video>* mGetGreaterAssemblyType.RemainingNum
-const String& mSetGreaterAssemblyType.GreaterAssemblyReorderCode
-String* mGetGreaterAssemblyType.GreaterAssemblyReorderCode
-const String& mSetGreaterAssemblyType.MaterialTypeIds
-String* mGetGreaterAssemblyType.MaterialTypeIds
-const String& mSetGreaterAssemblyType.PartTypeId
-String* mGetGreaterAssemblyType.PartTypeId
-CHelper.corrosiveness mSetGreaterAssemblyType.MinorSubAssemblyTypeIds
-CHelper.corrosiveness* mGetGreaterAssemblyType.MinorSubAssemblyTypeIds
-CHelper.toxicity mSetGreaterAssemblyType.SubAssemblyTypeIds
-CHelper.toxicity* mGetGreaterAssemblyType.SubAssemblyTypeIds
-CHelper.fragility mSetGreaterAssemblyType.MajorSubAssemblyTypeIds
-CHelper.fragility* mGetGreaterAssemblyType.MajorSubAssemblyTypeIds
-CHelper.physicalStateWhenIdle mSetGreaterAssemblyType.LesserAssemblyTypeIds
-CHelper.physicalStateWhenIdle* mGetGreaterAssemblyType.LesserAssemblyTypeIds
-Int32 mSetGreaterAssemblyType.AssemblyTypeIds
-Int32* mGetGreaterAssemblyType.AssemblyTypeIds
-Int32 mSetGreaterAssemblyType.ProductTypeIds
-Int32* mGetGreaterAssemblyType.ProductTypeIds
-const String& mSetGreaterAssemblyType.BusinessChannelOwnerId
-String* mGetGreaterAssemblyType.BusinessChannelOwnerId
-ArrayOf<CFactory.materialType> mSetGreaterAssemblyType.ItemTypeId
-ArrayOf<CFactory.materialType>* mGetGreaterAssemblyType.ItemTypeId
-ArrayOf<CFactory.partType> mSetGreaterAssemblyType.SupplierIds
-ArrayOf<CFactory.partType>* mGetGreaterAssemblyType.SupplierIds
-ArrayOf<CFactory.minorsubassemblyType> mSetGreaterAssemblyType.DocRefIds
-ArrayOf<CFactory.minorsubassemblyType>* mGetGreaterAssemblyType.DocRefIds
-ArrayOf<CFactory.subassemblyType> mSetGreaterAssemblyType.ImageRefIds
-ArrayOf<CFactory.subassemblyType>* mGetGreaterAssemblyType.ImageRefIds
-ArrayOf<CFactory.majorsubassemblyType> mSetGreaterAssemblyType.VideoRefIds
-ArrayOf<CFactory.majorsubassemblyType>* mGetGreaterAssemblyType.VideoRefIds
-ArrayOf<CFactory.lesserassemblyType> mSetProduct.ProductId
-ArrayOf<CFactory.lesserassemblyType>* mGetProduct.ProductId
-ArrayOf<CFactory.assemblyType> mSetProduct.Hazardous
-ArrayOf<CFactory.assemblyType>* mGetProduct.Hazardous
-ArrayOf<CFactory.productType> mSetProduct.MasLedgeFinTxIds
-ArrayOf<CFactory.productType>* mGetProduct.MasLedgeFinTxIds
-CRegister.businessChannelOwner mSetProduct.MasLedgeFinTxNums
-CRegister.businessChannelOwner* mGetProduct.MasLedgeFinTxNums
-CAdministration.itemType mSetProduct.GenLedgeFinTxIds
-CAdministration.itemType* mGetProduct.GenLedgeFinTxIds
-ArrayOf<CSupplier.supplier> mSetProduct.GenLedgeFinTxNums
-ArrayOf<CSupplier.supplier>* mGetProduct.GenLedgeFinTxNums
-ArrayOf<CAdministration.documents> mSetProduct.ProductName
-ArrayOf<CAdministration.documents>* mGetProduct.ProductName
-ArrayOf<CAdministration.images> mSetProduct.ModelNumber
-ArrayOf<CAdministration.images>* mGetProduct.ModelNumber
-ArrayOf<CAdministration.video> mSetProduct.SerialNumber
-ArrayOf<CAdministration.video>* mGetProduct.SerialNumber
-const String& mSetProduct.QCCheckedPassed
-String* mGetProduct.QCCheckedPassed
-Boolean mSetProduct.BestBeforeDate
-Boolean* mGetProduct.BestBeforeDate
-ArrayOf<const String&> mSetProduct.BusinessChannelOwnerId
-ArrayOf<String>* mGetProduct.BusinessChannelOwnerId
-ArrayOf<Int32> mSetProduct.ProductTypeId
-ArrayOf<Int32>* mGetProduct.ProductTypeId
-ArrayOf<const String&> mSetProduct.ItemId
-ArrayOf<String>* mGetProduct.ItemId
-ArrayOf<Int32> mSetProduct.CustomerId
-ArrayOf<Int32>* mGetProduct.CustomerId
-const String& mSetProduct.DocRefIds
-String* mGetProduct.DocRefIds
-const String& mSetProduct.ImageRefIds
-String* mGetProduct.ImageRefIds
-const String& mSetProduct.VideoRefIds
-String* mGetProduct.VideoRefIds
-Boolean mSetProductType.ProductTypeId
-Boolean* mGetProductType.ProductTypeId
-const String& mSetProductType.ProductDescription
-String* mGetProductType.ProductDescription
-CRegister.businessChannelOwner mSetProductType.Corrosiveness
-CRegister.businessChannelOwner* mGetProductType.Corrosiveness
-CFactory.productType mSetProductType.Toxicity
-CFactory.productType* mGetProductType.Toxicity
-CAdministration.item mSetProductType.Fragility
-CAdministration.item* mGetProductType.Fragility
-CCustomer.customer mSetProductType.PhysicalStateWhenIdle
-CCustomer.customer* mGetProductType.PhysicalStateWhenIdle
-ArrayOf<CAdministration.documents> mSetProductType.RemainingNum
-ArrayOf<CAdministration.documents>* mGetProductType.RemainingNum
-ArrayOf<CAdministration.images> mSetProductType.LesserAssemblyReorderCode
-ArrayOf<CAdministration.images>* mGetProductType.LesserAssemblyReorderCode
-ArrayOf<CAdministration.video> mSetProductType.BusinessChannelOwnerId
-ArrayOf<CAdministration.video>* mGetProductType.BusinessChannelOwnerId
-const String& mSetProductType.ItemTypeId
-String* mGetProductType.ItemTypeId
-const String& mSetProductType.DocRefIds
-String* mGetProductType.DocRefIds
-CHelper.corrosiveness mSetProductType.ImageRefIds
-CHelper.corrosiveness* mGetProductType.ImageRefIds
-CHelper.toxicity mSetProductType.VideoRefIds
-CHelper.toxicity* mGetProductType.VideoRefIds
-CHelper.fragility mSetShipment.ShipmentId
-CHelper.fragility* mGetShipment.ShipmentId
-CHelper.physicalStateWhenIdle mSetShipment.DistributorId
-CHelper.physicalStateWhenIdle* mGetShipment.DistributorId
-Int32 mSetShipment.SalesOrderIds
-Int32* mGetShipment.SalesOrderIds
-Int32 mSetShipment.PurchaseOrderIds
-Int32* mGetShipment.PurchaseOrderIds
-const String& mSetShipment.ReceiverDeliveryAddress
-String* mGetShipment.ReceiverDeliveryAddress
-CRegister.businessChannelOwner mSetShipment.SenderSourceAddress
-CRegister.businessChannelOwner* mGetShipment.SenderSourceAddress
-CAdministration.itemType mSetShipment.ReceivedAtSourceTerminal
-CAdministration.itemType* mGetShipment.ReceivedAtSourceTerminal
-ArrayOf<CAdministration.documents> mSetShipment.TrackingNumber
-ArrayOf<CAdministration.documents>* mGetShipment.TrackingNumber
-ArrayOf<CAdministration.images> mSetShipment.TrackingURL
-ArrayOf<CAdministration.images>* mGetShipment.TrackingURL
-ArrayOf<CAdministration.video> mSetShipment.ETA
-ArrayOf<CAdministration.video>* mGetShipment.ETA
-const String& mSetShipment.JourneyPoints
-String* mGetShipment.JourneyPoints
-const String& mSetShipment.JourneyPointNames
-String* mGetShipment.JourneyPointNames
-ArrayOf<const String&> mSetShipment.DeliveredGPSLat
-ArrayOf<String>* mGetShipment.DeliveredGPSLat
-ArrayOf<const String&> mSetShipment.DeliveredGPSLong
-ArrayOf<String>* mGetShipment.DeliveredGPSLong
-ArrayOf<const String&> mSetShipment.DeliveryAddress
-ArrayOf<String>* mGetShipment.DeliveryAddress
-ArrayOf<const String&> mSetShipment.AddressesMatch
-ArrayOf<String>* mGetShipment.AddressesMatch
-const String& mSetShipment.BusinessChannelOwnerId
-String* mGetShipment.BusinessChannelOwnerId
-const String& mSetShipment.SupplierId
-String* mGetShipment.SupplierId
-const String& mSetShipment.SupplierTypeId
-String* mGetShipment.SupplierTypeId
-const String& mSetShipment.DocRefIds
-String* mGetShipment.DocRefIds
-ArrayOf<const String&> mSetShipment.DeliveryImageIds
-ArrayOf<String>* mGetShipment.DeliveryImageIds
-ArrayOf<const String&> mSetShipment.ItemIds
-ArrayOf<String>* mGetShipment.ItemIds
-Double mSetShipment.ItemTypeIds
-Double* mGetShipment.ItemTypeIds
-Double mSetShipment.CustomerId
-Double* mGetShipment.CustomerId
-const String& mSetShipment.NextDistributorId
-String* mGetShipment.NextDistributorId
-Boolean mSetShipment.ContinuationShipmentId
-Boolean* mGetShipment.ContinuationShipmentId
+const String& mSetMaterial_MaterialId
+String* mGetMaterial_MaterialId
+Boolean mSetMaterial_Hazardous
+Boolean* mGetMaterial_Hazardous
+const String& mSetMaterial_MaterialName
+String* mGetMaterial_MaterialName
+const String& mSetMaterial_MaterialDescription
+String* mGetMaterial_MaterialDescription
+Boolean mSetMaterial_QCCheckedPassed
+Boolean* mGetMaterial_QCCheckedPassed
+CRegister.businessChannelOwner mSetMaterial_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetMaterial_BusinessChannelOwnerId
+CAdministration.item mSetMaterial_ItemId
+CAdministration.item* mGetMaterial_ItemId
+CSupplier.supplier mSetMaterial_SupplierId
+CSupplier.supplier* mGetMaterial_SupplierId
+CFactory.materialType mSetMaterial_MaterialTypeId
+CFactory.materialType* mGetMaterial_MaterialTypeId
+CFactory.part mSetMaterial_PartId
+CFactory.part* mGetMaterial_PartId
+CFactory.minorsubassembly mSetMaterial_MinorSubAssemblyId
+CFactory.minorsubassembly* mGetMaterial_MinorSubAssemblyId
+CFactory.subassembly mSetMaterial_SubAssemblyId
+CFactory.subassembly* mGetMaterial_SubAssemblyId
+CFactory.majorsubassembly mSetMaterial_MajorSubAssemblyId
+CFactory.majorsubassembly* mGetMaterial_MajorSubAssemblyId
+CFactory.lesserassembly mSetMaterial_LesserAssemblyId
+CFactory.lesserassembly* mGetMaterial_LesserAssemblyId
+CFactory.assembly mSetMaterial_AssemblyId
+CFactory.assembly* mGetMaterial_AssemblyId
+CFactory.greaterassembly mSetMaterial_GreaterAssemblyId
+CFactory.greaterassembly* mGetMaterial_GreaterAssemblyId
+CFactory.product mSetMaterial_ProductId
+CFactory.product* mGetMaterial_ProductId
+ArrayOf<CAdministration.documents> mSetMaterial_DocRefIds
+ArrayOf<CAdministration.documents>* mGetMaterial_DocRefIds
+ArrayOf<CAdministration.images> mSetMaterial_ImageRefIds
+ArrayOf<CAdministration.images>* mGetMaterial_ImageRefIds
+ArrayOf<CAdministration.video> mSetMaterial_VideoRefIds
+ArrayOf<CAdministration.video>* mGetMaterial_VideoRefIds
+const String& mSetMaterialType_MaterialTypeId
+String* mGetMaterialType_MaterialTypeId
+const String& mSetMaterialType_MaterialDescription
+String* mGetMaterialType_MaterialDescription
+ArrayOf<const String&> mSetMaterialType_MaterialSafetyDataRefs
+ArrayOf<String>* mGetMaterialType_MaterialSafetyDataRefs
+const String& mSetMaterialType_MaterialCode
+String* mGetMaterialType_MaterialCode
+const String& mSetMaterialType_UnitsOfMeasurement
+String* mGetMaterialType_UnitsOfMeasurement
+Double mSetMaterialType_RemainingAmount
+Double* mGetMaterialType_RemainingAmount
+CHelper.corrosiveness mSetMaterialType_Corrosiveness
+CHelper.corrosiveness* mGetMaterialType_Corrosiveness
+CHelper.toxicity mSetMaterialType_Toxicity
+CHelper.toxicity* mGetMaterialType_Toxicity
+CHelper.fragility mSetMaterialType_Fragility
+CHelper.fragility* mGetMaterialType_Fragility
+CHelper.physicalStateWhenIdle mSetMaterialType_PhysicalStateWhenIdle
+CHelper.physicalStateWhenIdle* mGetMaterialType_PhysicalStateWhenIdle
+Double mSetMaterialType_RemainingNum
+Double* mGetMaterialType_RemainingNum
+Double mSetMaterialType_RawMaterialStockReorderCode
+Double* mGetMaterialType_RawMaterialStockReorderCode
+const String& mSetMaterialType_BusinessChannelOwnerId
+String* mGetMaterialType_BusinessChannelOwnerId
+CRegister.businessChannelOwner mSetMaterialType_ItemTypeId
+CRegister.businessChannelOwner* mGetMaterialType_ItemTypeId
+CAdministration.itemType mSetMaterialType_SupplierIds
+CAdministration.itemType* mGetMaterialType_SupplierIds
+ArrayOf<CSupplier.supplier> mSetMaterialType_PartTypeIds
+ArrayOf<CSupplier.supplier>* mGetMaterialType_PartTypeIds
+ArrayOf<CFactory.partType> mSetMaterialType_MinorSubAssemblyTypeIds
+ArrayOf<CFactory.partType>* mGetMaterialType_MinorSubAssemblyTypeIds
+ArrayOf<CFactory.minorsubassemblyType> mSetMaterialType_SubAssemblyTypeIds
+ArrayOf<CFactory.minorsubassemblyType>* mGetMaterialType_SubAssemblyTypeIds
+ArrayOf<CFactory.subassemblyType> mSetMaterialType_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.subassemblyType>* mGetMaterialType_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.majorsubassemblyType> mSetMaterialType_LesserAssemblyTypeIds
+ArrayOf<CFactory.majorsubassemblyType>* mGetMaterialType_LesserAssemblyTypeIds
+ArrayOf<CFactory.lesserassemblyType> mSetMaterialType_AssemblyTypeIds
+ArrayOf<CFactory.lesserassemblyType>* mGetMaterialType_AssemblyTypeIds
+ArrayOf<CFactory.assemblyType> mSetMaterialType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.assemblyType>* mGetMaterialType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.greaterassemblyType> mSetMaterialType_ProductTypeIds
+ArrayOf<CFactory.greaterassemblyType>* mGetMaterialType_ProductTypeIds
+ArrayOf<CFactory.productType> mSetMaterialType_DocRefIds
+ArrayOf<CFactory.productType>* mGetMaterialType_DocRefIds
+ArrayOf<CAdministration.documents> mSetMaterialType_ImageRefIds
+ArrayOf<CAdministration.documents>* mGetMaterialType_ImageRefIds
+ArrayOf<CAdministration.images> mSetMaterialType_VideoRefIds
+ArrayOf<CAdministration.images>* mGetMaterialType_VideoRefIds
+ArrayOf<CAdministration.video> mSetPart_PartId
+ArrayOf<CAdministration.video>* mGetPart_PartId
+const String& mSetPart_Hazardous
+String* mGetPart_Hazardous
+Boolean mSetPart_PartName
+Boolean* mGetPart_PartName
+const String& mSetPart_PartDescription
+String* mGetPart_PartDescription
+const String& mSetPart_QCCheckedPassed
+String* mGetPart_QCCheckedPassed
+Boolean mSetPart_BusinessChannelOwnerId
+Boolean* mGetPart_BusinessChannelOwnerId
+CRegister.businessChannelOwner mSetPart_MaterialIds
+CRegister.businessChannelOwner* mGetPart_MaterialIds
+ArrayOf<CFactory.material> mSetPart_PartTypeId
+ArrayOf<CFactory.material>* mGetPart_PartTypeId
+CFactory.partType mSetPart_ItemId
+CFactory.partType* mGetPart_ItemId
+CAdministration.item mSetPart_SupplierIds
+CAdministration.item* mGetPart_SupplierIds
+ArrayOf<CSupplier.supplier> mSetPart_MinorSubAssemblyId
+ArrayOf<CSupplier.supplier>* mGetPart_MinorSubAssemblyId
+CFactory.minorsubassembly mSetPart_SubAssemblyId
+CFactory.minorsubassembly* mGetPart_SubAssemblyId
+CFactory.subassembly mSetPart_MajorSubAssemblyId
+CFactory.subassembly* mGetPart_MajorSubAssemblyId
+CFactory.majorsubassembly mSetPart_LesserAssemblyId
+CFactory.majorsubassembly* mGetPart_LesserAssemblyId
+CFactory.lesserassembly mSetPart_AssemblyId
+CFactory.lesserassembly* mGetPart_AssemblyId
+CFactory.assembly mSetPart_GreaterAssemblyId
+CFactory.assembly* mGetPart_GreaterAssemblyId
+CFactory.greaterassembly mSetPart_ProductId
+CFactory.greaterassembly* mGetPart_ProductId
+CFactory.product mSetPart_DocRefIds
+CFactory.product* mGetPart_DocRefIds
+ArrayOf<CAdministration.documents> mSetPart_ImageRefIds
+ArrayOf<CAdministration.documents>* mGetPart_ImageRefIds
+ArrayOf<CAdministration.images> mSetPart_VideoRefIds
+ArrayOf<CAdministration.images>* mGetPart_VideoRefIds
+ArrayOf<CAdministration.video> mSetPartType_PartTypeId
+ArrayOf<CAdministration.video>* mGetPartType_PartTypeId
+const String& mSetPartType_PartDescription
+String* mGetPartType_PartDescription
+const String& mSetPartType_PartCode
+String* mGetPartType_PartCode
+const String& mSetPartType_Corrosiveness
+String* mGetPartType_Corrosiveness
+CHelper.corrosiveness mSetPartType_Toxicity
+CHelper.corrosiveness* mGetPartType_Toxicity
+CHelper.toxicity mSetPartType_Fragility
+CHelper.toxicity* mGetPartType_Fragility
+CHelper.fragility mSetPartType_PhysicalStateWhenIdle
+CHelper.fragility* mGetPartType_PhysicalStateWhenIdle
+CHelper.physicalStateWhenIdle mSetPartType_RemainingNum
+CHelper.physicalStateWhenIdle* mGetPartType_RemainingNum
+Int32 mSetPartType_PartReorderCode
+Int32* mGetPartType_PartReorderCode
+Int32 mSetPartType_BusinessChannelOwnerId
+Int32* mGetPartType_BusinessChannelOwnerId
+const String& mSetPartType_ItemTypeId
+String* mGetPartType_ItemTypeId
+CRegister.businessChannelOwner mSetPartType_SupplierIds
+CRegister.businessChannelOwner* mGetPartType_SupplierIds
+CAdministration.itemType mSetPartType_MaterialTypeIds
+CAdministration.itemType* mGetPartType_MaterialTypeIds
+ArrayOf<CSupplier.supplier> mSetPartType_MinorSubAssemblyTypeIds
+ArrayOf<CSupplier.supplier>* mGetPartType_MinorSubAssemblyTypeIds
+ArrayOf<CFactory.materialType> mSetPartType_SubAssemblyTypeIds
+ArrayOf<CFactory.materialType>* mGetPartType_SubAssemblyTypeIds
+ArrayOf<CFactory.minorsubassemblyType> mSetPartType_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.minorsubassemblyType>* mGetPartType_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.subassemblyType> mSetPartType_LesserAssemblyTypeIds
+ArrayOf<CFactory.subassemblyType>* mGetPartType_LesserAssemblyTypeIds
+ArrayOf<CFactory.majorsubassemblyType> mSetPartType_AssemblyTypeIds
+ArrayOf<CFactory.majorsubassemblyType>* mGetPartType_AssemblyTypeIds
+ArrayOf<CFactory.lesserassemblyType> mSetPartType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.lesserassemblyType>* mGetPartType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.assemblyType> mSetPartType_ProductTypeIds
+ArrayOf<CFactory.assemblyType>* mGetPartType_ProductTypeIds
+ArrayOf<CFactory.greaterassemblyType> mSetPartType_DocRefIds
+ArrayOf<CFactory.greaterassemblyType>* mGetPartType_DocRefIds
+ArrayOf<CFactory.productType> mSetPartType_ImageRefIds
+ArrayOf<CFactory.productType>* mGetPartType_ImageRefIds
+ArrayOf<CAdministration.documents> mSetPartType_VideoRefIds
+ArrayOf<CAdministration.documents>* mGetPartType_VideoRefIds
+ArrayOf<CAdministration.images> mSetMinorSubAssembly_MinorSubAssyId
+ArrayOf<CAdministration.images>* mGetMinorSubAssembly_MinorSubAssyId
+ArrayOf<CAdministration.video> mSetMinorSubAssembly_Hazardous
+ArrayOf<CAdministration.video>* mGetMinorSubAssembly_Hazardous
+const String& mSetMinorSubAssembly_MinorSubAssemblyName
+String* mGetMinorSubAssembly_MinorSubAssemblyName
+Boolean mSetMinorSubAssembly_MinorSubAssemblyDescription
+Boolean* mGetMinorSubAssembly_MinorSubAssemblyDescription
+const String& mSetMinorSubAssembly_QCCheckedPassed
+String* mGetMinorSubAssembly_QCCheckedPassed
+const String& mSetMinorSubAssembly_BusinessChannelOwnerId
+String* mGetMinorSubAssembly_BusinessChannelOwnerId
+Boolean mSetMinorSubAssembly_MinorSubAssemblyTypeId
+Boolean* mGetMinorSubAssembly_MinorSubAssemblyTypeId
+CRegister.businessChannelOwner mSetMinorSubAssembly_ItemId
+CRegister.businessChannelOwner* mGetMinorSubAssembly_ItemId
+CFactory.minorsubassembly mSetMinorSubAssembly_SupplierIds
+CFactory.minorsubassembly* mGetMinorSubAssembly_SupplierIds
+CAdministration.item mSetMinorSubAssembly_MaterialIds
+CAdministration.item* mGetMinorSubAssembly_MaterialIds
+ArrayOf<CSupplier.supplier> mSetMinorSubAssembly_PartIds
+ArrayOf<CSupplier.supplier>* mGetMinorSubAssembly_PartIds
+ArrayOf<CFactory.material> mSetMinorSubAssembly_SubAssemblyId
+ArrayOf<CFactory.material>* mGetMinorSubAssembly_SubAssemblyId
+ArrayOf<CFactory.part> mSetMinorSubAssembly_MajorSubAssemblyId
+ArrayOf<CFactory.part>* mGetMinorSubAssembly_MajorSubAssemblyId
+CFactory.subassembly mSetMinorSubAssembly_LesserAssemblyId
+CFactory.subassembly* mGetMinorSubAssembly_LesserAssemblyId
+CFactory.majorsubassembly mSetMinorSubAssembly_AssemblyId
+CFactory.majorsubassembly* mGetMinorSubAssembly_AssemblyId
+CFactory.lesserassembly mSetMinorSubAssembly_GreaterAssemblyId
+CFactory.lesserassembly* mGetMinorSubAssembly_GreaterAssemblyId
+CFactory.assembly mSetMinorSubAssembly_ProductId
+CFactory.assembly* mGetMinorSubAssembly_ProductId
+CFactory.greaterassembly mSetMinorSubAssembly_DocRefIds
+CFactory.greaterassembly* mGetMinorSubAssembly_DocRefIds
+CFactory.product mSetMinorSubAssembly_ImageRefIds
+CFactory.product* mGetMinorSubAssembly_ImageRefIds
+ArrayOf<CAdministration.documents> mSetMinorSubAssembly_VideoRefIds
+ArrayOf<CAdministration.documents>* mGetMinorSubAssembly_VideoRefIds
+ArrayOf<CAdministration.images> mSetMinorSubAssemblyType_MinorSubAssemblyTypeId
+ArrayOf<CAdministration.images>* mGetMinorSubAssemblyType_MinorSubAssemblyTypeId
+ArrayOf<CAdministration.video> mSetMinorSubAssemblyType_MinorSubAssemblyDescription
+ArrayOf<CAdministration.video>* mGetMinorSubAssemblyType_MinorSubAssemblyDescription
+const String& mSetMinorSubAssemblyType_MinorSubAssemblyCode
+String* mGetMinorSubAssemblyType_MinorSubAssemblyCode
+const String& mSetMinorSubAssemblyType_Corrosiveness
+String* mGetMinorSubAssemblyType_Corrosiveness
+const String& mSetMinorSubAssemblyType_Toxicity
+String* mGetMinorSubAssemblyType_Toxicity
+CHelper.corrosiveness mSetMinorSubAssemblyType_Fragility
+CHelper.corrosiveness* mGetMinorSubAssemblyType_Fragility
+CHelper.toxicity mSetMinorSubAssemblyType_PhysicalStateWhenIdle
+CHelper.toxicity* mGetMinorSubAssemblyType_PhysicalStateWhenIdle
+CHelper.fragility mSetMinorSubAssemblyType_RemainingNum
+CHelper.fragility* mGetMinorSubAssemblyType_RemainingNum
+CHelper.physicalStateWhenIdle mSetMinorSubAssemblyType_MinorSubAssemblyReorderCode
+CHelper.physicalStateWhenIdle* mGetMinorSubAssemblyType_MinorSubAssemblyReorderCode
+Int32 mSetMinorSubAssemblyType_BusinessChannelOwnerId
+Int32* mGetMinorSubAssemblyType_BusinessChannelOwnerId
+Int32 mSetMinorSubAssemblyType_ItemTypeId
+Int32* mGetMinorSubAssemblyType_ItemTypeId
+const String& mSetMinorSubAssemblyType_SupplierIds
+String* mGetMinorSubAssemblyType_SupplierIds
+CRegister.businessChannelOwner mSetMinorSubAssemblyType_MaterialTypeIds
+CRegister.businessChannelOwner* mGetMinorSubAssemblyType_MaterialTypeIds
+CAdministration.itemType mSetMinorSubAssemblyType_PartTypeIds
+CAdministration.itemType* mGetMinorSubAssemblyType_PartTypeIds
+ArrayOf<CSupplier.supplier> mSetMinorSubAssemblyType_SubAssemblyTypeIds
+ArrayOf<CSupplier.supplier>* mGetMinorSubAssemblyType_SubAssemblyTypeIds
+ArrayOf<CFactory.materialType> mSetMinorSubAssemblyType_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.materialType>* mGetMinorSubAssemblyType_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.partType> mSetMinorSubAssemblyType_LesserAssemblyTypeIds
+ArrayOf<CFactory.partType>* mGetMinorSubAssemblyType_LesserAssemblyTypeIds
+ArrayOf<CFactory.subassemblyType> mSetMinorSubAssemblyType_AssemblyTypeIds
+ArrayOf<CFactory.subassemblyType>* mGetMinorSubAssemblyType_AssemblyTypeIds
+ArrayOf<CFactory.majorsubassemblyType> mSetMinorSubAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.majorsubassemblyType>* mGetMinorSubAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.lesserassemblyType> mSetMinorSubAssemblyType_ProductTypeIds
+ArrayOf<CFactory.lesserassemblyType>* mGetMinorSubAssemblyType_ProductTypeIds
+ArrayOf<CFactory.assemblyType> mSetMinorSubAssemblyType_DocRefIds
+ArrayOf<CFactory.assemblyType>* mGetMinorSubAssemblyType_DocRefIds
+ArrayOf<CFactory.greaterassemblyType> mSetMinorSubAssemblyType_ImageRefIds
+ArrayOf<CFactory.greaterassemblyType>* mGetMinorSubAssemblyType_ImageRefIds
+ArrayOf<CFactory.productType> mSetMinorSubAssemblyType_VideoRefIds
+ArrayOf<CFactory.productType>* mGetMinorSubAssemblyType_VideoRefIds
+ArrayOf<CAdministration.documents> mSetSubAssembly_SubAssyId
+ArrayOf<CAdministration.documents>* mGetSubAssembly_SubAssyId
+ArrayOf<CAdministration.images> mSetSubAssembly_Hazardous
+ArrayOf<CAdministration.images>* mGetSubAssembly_Hazardous
+ArrayOf<CAdministration.video> mSetSubAssembly_SubAssemblyName
+ArrayOf<CAdministration.video>* mGetSubAssembly_SubAssemblyName
+const String& mSetSubAssembly_SubAssemblyDescription
+String* mGetSubAssembly_SubAssemblyDescription
+Boolean mSetSubAssembly_QCCheckedPassed
+Boolean* mGetSubAssembly_QCCheckedPassed
+const String& mSetSubAssembly_MaterialIds
+String* mGetSubAssembly_MaterialIds
+const String& mSetSubAssembly_PartIds
+String* mGetSubAssembly_PartIds
+Boolean mSetSubAssembly_MinorSubAssemblyIds
+Boolean* mGetSubAssembly_MinorSubAssemblyIds
+ArrayOf<CFactory.material> mSetSubAssembly_MajorSubAssemblyId
+ArrayOf<CFactory.material>* mGetSubAssembly_MajorSubAssemblyId
+ArrayOf<CFactory.part> mSetSubAssembly_LesserAssemblyId
+ArrayOf<CFactory.part>* mGetSubAssembly_LesserAssemblyId
+ArrayOf<CFactory.minorsubassembly> mSetSubAssembly_AssemblyId
+ArrayOf<CFactory.minorsubassembly>* mGetSubAssembly_AssemblyId
+CFactory.majorsubassembly mSetSubAssembly_GreaterAssemblyId
+CFactory.majorsubassembly* mGetSubAssembly_GreaterAssemblyId
+CFactory.lesserassembly mSetSubAssembly_ProductId
+CFactory.lesserassembly* mGetSubAssembly_ProductId
+CFactory.assembly mSetSubAssembly_BusinessChannelOwnerId
+CFactory.assembly* mGetSubAssembly_BusinessChannelOwnerId
+CFactory.greaterassembly mSetSubAssembly_SubAssemblyTypeId
+CFactory.greaterassembly* mGetSubAssembly_SubAssemblyTypeId
+CFactory.product mSetSubAssembly_ItemId
+CFactory.product* mGetSubAssembly_ItemId
+CRegister.businessChannelOwner mSetSubAssembly_SupplierIds
+CRegister.businessChannelOwner* mGetSubAssembly_SupplierIds
+CFactory.subassemblyType mSetSubAssembly_DocRefIds
+CFactory.subassemblyType* mGetSubAssembly_DocRefIds
+CAdministration.item mSetSubAssembly_ImageRefIds
+CAdministration.item* mGetSubAssembly_ImageRefIds
+ArrayOf<CSupplier.supplier> mSetSubAssembly_VideoRefIds
+ArrayOf<CSupplier.supplier>* mGetSubAssembly_VideoRefIds
+ArrayOf<CAdministration.documents> mSetSubAssemblyType_SubAssemblyTypeId
+ArrayOf<CAdministration.documents>* mGetSubAssemblyType_SubAssemblyTypeId
+ArrayOf<CAdministration.images> mSetSubAssemblyType_SubAssemblyCode
+ArrayOf<CAdministration.images>* mGetSubAssemblyType_SubAssemblyCode
+ArrayOf<CAdministration.video> mSetSubAssemblyType_SubAssemblyDescription
+ArrayOf<CAdministration.video>* mGetSubAssemblyType_SubAssemblyDescription
+const String& mSetSubAssemblyType_Corrosiveness
+String* mGetSubAssemblyType_Corrosiveness
+const String& mSetSubAssemblyType_Toxicity
+String* mGetSubAssemblyType_Toxicity
+const String& mSetSubAssemblyType_Fragility
+String* mGetSubAssemblyType_Fragility
+CHelper.corrosiveness mSetSubAssemblyType_PhysicalStateWhenIdle
+CHelper.corrosiveness* mGetSubAssemblyType_PhysicalStateWhenIdle
+CHelper.toxicity mSetSubAssemblyType_RemainingNum
+CHelper.toxicity* mGetSubAssemblyType_RemainingNum
+CHelper.fragility mSetSubAssemblyType_SubAssemblyReorderCode
+CHelper.fragility* mGetSubAssemblyType_SubAssemblyReorderCode
+CHelper.physicalStateWhenIdle mSetSubAssemblyType_BusinessChannelOwnerId
+CHelper.physicalStateWhenIdle* mGetSubAssemblyType_BusinessChannelOwnerId
+Int32 mSetSubAssemblyType_ItemTypeId
+Int32* mGetSubAssemblyType_ItemTypeId
+Int32 mSetSubAssemblyType_SupplierIds
+Int32* mGetSubAssemblyType_SupplierIds
+const String& mSetSubAssemblyType_MaterialTypeIds
+String* mGetSubAssemblyType_MaterialTypeIds
+CRegister.businessChannelOwner mSetSubAssemblyType_PartTypeId
+CRegister.businessChannelOwner* mGetSubAssemblyType_PartTypeId
+CAdministration.itemType mSetSubAssemblyType_MinorSubAssemblyTypeIds
+CAdministration.itemType* mGetSubAssemblyType_MinorSubAssemblyTypeIds
+ArrayOf<CSupplier.supplier> mSetSubAssemblyType_MajorSubAssemblyTypeIds
+ArrayOf<CSupplier.supplier>* mGetSubAssemblyType_MajorSubAssemblyTypeIds
+ArrayOf<CFactory.materialType> mSetSubAssemblyType_LesserAssemblyTypeIds
+ArrayOf<CFactory.materialType>* mGetSubAssemblyType_LesserAssemblyTypeIds
+ArrayOf<CFactory.partType> mSetSubAssemblyType_AssemblyTypeIds
+ArrayOf<CFactory.partType>* mGetSubAssemblyType_AssemblyTypeIds
+ArrayOf<CFactory.minorsubassemblyType> mSetSubAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.minorsubassemblyType>* mGetSubAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.majorsubassemblyType> mSetSubAssemblyType_ProductTypeIds
+ArrayOf<CFactory.majorsubassemblyType>* mGetSubAssemblyType_ProductTypeIds
+ArrayOf<CFactory.lesserassemblyType> mSetSubAssemblyType_DocRefIds
+ArrayOf<CFactory.lesserassemblyType>* mGetSubAssemblyType_DocRefIds
+ArrayOf<CFactory.assemblyType> mSetSubAssemblyType_ImageRefIds
+ArrayOf<CFactory.assemblyType>* mGetSubAssemblyType_ImageRefIds
+ArrayOf<CFactory.greaterassemblyType> mSetSubAssemblyType_VideoRefIds
+ArrayOf<CFactory.greaterassemblyType>* mGetSubAssemblyType_VideoRefIds
+ArrayOf<CFactory.productType> mSetMajorSubAssembly_MajorSubAssyId
+ArrayOf<CFactory.productType>* mGetMajorSubAssembly_MajorSubAssyId
+ArrayOf<CAdministration.documents> mSetMajorSubAssembly_Hazardous
+ArrayOf<CAdministration.documents>* mGetMajorSubAssembly_Hazardous
+ArrayOf<CAdministration.images> mSetMajorSubAssembly_MajorSubAssemblyName
+ArrayOf<CAdministration.images>* mGetMajorSubAssembly_MajorSubAssemblyName
+ArrayOf<CAdministration.video> mSetMajorSubAssembly_MajorSubAssemblyDescription
+ArrayOf<CAdministration.video>* mGetMajorSubAssembly_MajorSubAssemblyDescription
+const String& mSetMajorSubAssembly_QCCheckedPassed
+String* mGetMajorSubAssembly_QCCheckedPassed
+Boolean mSetMajorSubAssembly_MajorSubAssemblyCode
+Boolean* mGetMajorSubAssembly_MajorSubAssemblyCode
+const String& mSetMajorSubAssembly_MaterialIds
+String* mGetMajorSubAssembly_MaterialIds
+const String& mSetMajorSubAssembly_PartIds
+String* mGetMajorSubAssembly_PartIds
+Boolean mSetMajorSubAssembly_MinorSubAssemblyIds
+Boolean* mGetMajorSubAssembly_MinorSubAssemblyIds
+const String& mSetMajorSubAssembly_SubAssemblyIds
+String* mGetMajorSubAssembly_SubAssemblyIds
+ArrayOf<CFactory.material> mSetMajorSubAssembly_LesserAssemblyId
+ArrayOf<CFactory.material>* mGetMajorSubAssembly_LesserAssemblyId
+ArrayOf<CFactory.part> mSetMajorSubAssembly_AssemblyId
+ArrayOf<CFactory.part>* mGetMajorSubAssembly_AssemblyId
+ArrayOf<CFactory.minorsubassembly> mSetMajorSubAssembly_GreaterAssembly
+ArrayOf<CFactory.minorsubassembly>* mGetMajorSubAssembly_GreaterAssembly
+ArrayOf<CFactory.subassembly> mSetMajorSubAssembly_ProductIds
+ArrayOf<CFactory.subassembly>* mGetMajorSubAssembly_ProductIds
+CFactory.lesserassembly mSetMajorSubAssembly_BusinessChannelOwnerId
+CFactory.lesserassembly* mGetMajorSubAssembly_BusinessChannelOwnerId
+CFactory.assembly mSetMajorSubAssembly_MajorSubAssemblyTypeId
+CFactory.assembly* mGetMajorSubAssembly_MajorSubAssemblyTypeId
+CFactory.greaterassembly mSetMajorSubAssembly_ItemId
+CFactory.greaterassembly* mGetMajorSubAssembly_ItemId
+CFactory.product mSetMajorSubAssembly_SupplierIds
+CFactory.product* mGetMajorSubAssembly_SupplierIds
+CRegister.businessChannelOwner mSetMajorSubAssembly_DocRefIds
+CRegister.businessChannelOwner* mGetMajorSubAssembly_DocRefIds
+CFactory.majorsubassemblyType mSetMajorSubAssembly_ImageRefIds
+CFactory.majorsubassemblyType* mGetMajorSubAssembly_ImageRefIds
+CAdministration.item mSetMajorSubAssembly_VideoRefIds
+CAdministration.item* mGetMajorSubAssembly_VideoRefIds
+ArrayOf<CSupplier.supplier> mSetMajorSubAssemblyType_MajorSubAssemblyTypeId
+ArrayOf<CSupplier.supplier>* mGetMajorSubAssemblyType_MajorSubAssemblyTypeId
+ArrayOf<CAdministration.documents> mSetMajorSubAssemblyType_MajorSubAssemblyDescription
+ArrayOf<CAdministration.documents>* mGetMajorSubAssemblyType_MajorSubAssemblyDescription
+ArrayOf<CAdministration.images> mSetMajorSubAssemblyType_Corrosiveness
+ArrayOf<CAdministration.images>* mGetMajorSubAssemblyType_Corrosiveness
+ArrayOf<CAdministration.video> mSetMajorSubAssemblyType_Toxicity
+ArrayOf<CAdministration.video>* mGetMajorSubAssemblyType_Toxicity
+const String& mSetMajorSubAssemblyType_Fragility
+String* mGetMajorSubAssemblyType_Fragility
+const String& mSetMajorSubAssemblyType_PhysicalStateWhenIdle
+String* mGetMajorSubAssemblyType_PhysicalStateWhenIdle
+CHelper.corrosiveness mSetMajorSubAssemblyType_RemainingNum
+CHelper.corrosiveness* mGetMajorSubAssemblyType_RemainingNum
+CHelper.toxicity mSetMajorSubAssemblyType_MajorSubAssemblyReorderCode
+CHelper.toxicity* mGetMajorSubAssemblyType_MajorSubAssemblyReorderCode
+CHelper.fragility mSetMajorSubAssemblyType_MaterialTypeIds
+CHelper.fragility* mGetMajorSubAssemblyType_MaterialTypeIds
+CHelper.physicalStateWhenIdle mSetMajorSubAssemblyType_PartTypeId
+CHelper.physicalStateWhenIdle* mGetMajorSubAssemblyType_PartTypeId
+Int32 mSetMajorSubAssemblyType_MinorSubAssemblyTypeIds
+Int32* mGetMajorSubAssemblyType_MinorSubAssemblyTypeIds
+Int32 mSetMajorSubAssemblyType_SubAssemblyTypeIds
+Int32* mGetMajorSubAssemblyType_SubAssemblyTypeIds
+const String& mSetMajorSubAssemblyType_LesserAssemblyTypeIds
+String* mGetMajorSubAssemblyType_LesserAssemblyTypeIds
+ArrayOf<CFactory.materialType> mSetMajorSubAssemblyType_AssemblyTypeIds
+ArrayOf<CFactory.materialType>* mGetMajorSubAssemblyType_AssemblyTypeIds
+ArrayOf<CFactory.partType> mSetMajorSubAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.partType>* mGetMajorSubAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.minorsubassemblyType> mSetMajorSubAssemblyType_ProductTypeIds
+ArrayOf<CFactory.minorsubassemblyType>* mGetMajorSubAssemblyType_ProductTypeIds
+ArrayOf<CFactory.subassemblyType> mSetMajorSubAssemblyType_BusinessChannelOwnerId
+ArrayOf<CFactory.subassemblyType>* mGetMajorSubAssemblyType_BusinessChannelOwnerId
+ArrayOf<CFactory.lesserassemblyType> mSetMajorSubAssemblyType_ItemTypeId
+ArrayOf<CFactory.lesserassemblyType>* mGetMajorSubAssemblyType_ItemTypeId
+ArrayOf<CFactory.assemblyType> mSetMajorSubAssemblyType_SupplierIds
+ArrayOf<CFactory.assemblyType>* mGetMajorSubAssemblyType_SupplierIds
+ArrayOf<CFactory.greaterassemblyType> mSetMajorSubAssemblyType_DocRefIds
+ArrayOf<CFactory.greaterassemblyType>* mGetMajorSubAssemblyType_DocRefIds
+ArrayOf<CFactory.productType> mSetMajorSubAssemblyType_ImageRefIds
+ArrayOf<CFactory.productType>* mGetMajorSubAssemblyType_ImageRefIds
+CRegister.businessChannelOwner mSetMajorSubAssemblyType_VideoRefIds
+CRegister.businessChannelOwner* mGetMajorSubAssemblyType_VideoRefIds
+CAdministration.itemType mSetLesserAssembly_LesserAssyId
+CAdministration.itemType* mGetLesserAssembly_LesserAssyId
+ArrayOf<CSupplier.supplier> mSetLesserAssembly_Hazardous
+ArrayOf<CSupplier.supplier>* mGetLesserAssembly_Hazardous
+ArrayOf<CAdministration.documents> mSetLesserAssembly_LesserAssemblyName
+ArrayOf<CAdministration.documents>* mGetLesserAssembly_LesserAssemblyName
+ArrayOf<CAdministration.images> mSetLesserAssembly_LesserAssemblyDescription
+ArrayOf<CAdministration.images>* mGetLesserAssembly_LesserAssemblyDescription
+ArrayOf<CAdministration.video> mSetLesserAssembly_QCCheckedPassed
+ArrayOf<CAdministration.video>* mGetLesserAssembly_QCCheckedPassed
+const String& mSetLesserAssembly_MaterialIds
+String* mGetLesserAssembly_MaterialIds
+Boolean mSetLesserAssembly_PartIds
+Boolean* mGetLesserAssembly_PartIds
+const String& mSetLesserAssembly_MinorSubAssemblyIds
+String* mGetLesserAssembly_MinorSubAssemblyIds
+const String& mSetLesserAssembly_SubAssemblyIds
+String* mGetLesserAssembly_SubAssemblyIds
+Boolean mSetLesserAssembly_MajorSubAssemblyIds
+Boolean* mGetLesserAssembly_MajorSubAssemblyIds
+ArrayOf<CFactory.material> mSetLesserAssembly_AssemblyId
+ArrayOf<CFactory.material>* mGetLesserAssembly_AssemblyId
+ArrayOf<CFactory.part> mSetLesserAssembly_GreaterAssemblyId
+ArrayOf<CFactory.part>* mGetLesserAssembly_GreaterAssemblyId
+ArrayOf<CFactory.minorsubassembly> mSetLesserAssembly_LesserAssemblyTypeId
+ArrayOf<CFactory.minorsubassembly>* mGetLesserAssembly_LesserAssemblyTypeId
+ArrayOf<CFactory.subassembly> mSetLesserAssembly_ProductId
+ArrayOf<CFactory.subassembly>* mGetLesserAssembly_ProductId
+ArrayOf<CFactory.majorsubassembly> mSetLesserAssembly_BusinessChannelOwnerId
+ArrayOf<CFactory.majorsubassembly>* mGetLesserAssembly_BusinessChannelOwnerId
+CFactory.assembly mSetLesserAssembly_ItemId
+CFactory.assembly* mGetLesserAssembly_ItemId
+CFactory.greaterassembly mSetLesserAssembly_SupplierIds
+CFactory.greaterassembly* mGetLesserAssembly_SupplierIds
+CFactory.lesserassemblyType mSetLesserAssembly_DocRefIds
+CFactory.lesserassemblyType* mGetLesserAssembly_DocRefIds
+CFactory.product mSetLesserAssembly_ImageRefIds
+CFactory.product* mGetLesserAssembly_ImageRefIds
+CRegister.businessChannelOwner mSetLesserAssembly_VideoRefIds
+CRegister.businessChannelOwner* mGetLesserAssembly_VideoRefIds
+CAdministration.item mSetLesserAssemblyType_LesserAssemblyTypeId
+CAdministration.item* mGetLesserAssemblyType_LesserAssemblyTypeId
+ArrayOf<CSupplier.supplier> mSetLesserAssemblyType_LesseAssemblyDescription
+ArrayOf<CSupplier.supplier>* mGetLesserAssemblyType_LesseAssemblyDescription
+ArrayOf<CAdministration.documents> mSetLesserAssemblyType_LesserAssemblyCode
+ArrayOf<CAdministration.documents>* mGetLesserAssemblyType_LesserAssemblyCode
+ArrayOf<CAdministration.images> mSetLesserAssemblyType_Corrosiveness
+ArrayOf<CAdministration.images>* mGetLesserAssemblyType_Corrosiveness
+ArrayOf<CAdministration.video> mSetLesserAssemblyType_Toxicity
+ArrayOf<CAdministration.video>* mGetLesserAssemblyType_Toxicity
+const String& mSetLesserAssemblyType_Fragility
+String* mGetLesserAssemblyType_Fragility
+const String& mSetLesserAssemblyType_PhysicalStateWhenIdle
+String* mGetLesserAssemblyType_PhysicalStateWhenIdle
+const String& mSetLesserAssemblyType_RemainingNum
+String* mGetLesserAssemblyType_RemainingNum
+CHelper.corrosiveness mSetLesserAssemblyType_LesserAssemblyReorderCode
+CHelper.corrosiveness* mGetLesserAssemblyType_LesserAssemblyReorderCode
+CHelper.toxicity mSetLesserAssemblyType_MaterialTypeIds
+CHelper.toxicity* mGetLesserAssemblyType_MaterialTypeIds
+CHelper.fragility mSetLesserAssemblyType_PartTypeId
+CHelper.fragility* mGetLesserAssemblyType_PartTypeId
+CHelper.physicalStateWhenIdle mSetLesserAssemblyType_MinorSubAssemblyTypeIds
+CHelper.physicalStateWhenIdle* mGetLesserAssemblyType_MinorSubAssemblyTypeIds
+Int32 mSetLesserAssemblyType_SubAssemblyTypeIds
+Int32* mGetLesserAssemblyType_SubAssemblyTypeIds
+Int32 mSetLesserAssemblyType_MajorSubAssemblyTypeIds
+Int32* mGetLesserAssemblyType_MajorSubAssemblyTypeIds
+const String& mSetLesserAssemblyType_LesserAssemblyTypeIds
+String* mGetLesserAssemblyType_LesserAssemblyTypeIds
+ArrayOf<CFactory.materialType> mSetLesserAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.materialType>* mGetLesserAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.partType> mSetLesserAssemblyType_ProductTypeIds
+ArrayOf<CFactory.partType>* mGetLesserAssemblyType_ProductTypeIds
+ArrayOf<CFactory.minorsubassemblyType> mSetLesserAssemblyType_BusinessChannelOwnerId
+ArrayOf<CFactory.minorsubassemblyType>* mGetLesserAssemblyType_BusinessChannelOwnerId
+ArrayOf<CFactory.subassemblyType> mSetLesserAssemblyType_ItemTypeId
+ArrayOf<CFactory.subassemblyType>* mGetLesserAssemblyType_ItemTypeId
+ArrayOf<CFactory.majorsubassemblyType> mSetLesserAssemblyType_SupplierIds
+ArrayOf<CFactory.majorsubassemblyType>* mGetLesserAssemblyType_SupplierIds
+ArrayOf<CFactory.lesserassemblyType> mSetLesserAssemblyType_DocRefIds
+ArrayOf<CFactory.lesserassemblyType>* mGetLesserAssemblyType_DocRefIds
+ArrayOf<CFactory.greaterassemblyType> mSetLesserAssemblyType_ImageRefIds
+ArrayOf<CFactory.greaterassemblyType>* mGetLesserAssemblyType_ImageRefIds
+ArrayOf<CFactory.productType> mSetLesserAssemblyType_VideoRefIds
+ArrayOf<CFactory.productType>* mGetLesserAssemblyType_VideoRefIds
+CRegister.businessChannelOwner mSetAssembly_AssyId
+CRegister.businessChannelOwner* mGetAssembly_AssyId
+CAdministration.itemType mSetAssembly_Hazardous
+CAdministration.itemType* mGetAssembly_Hazardous
+ArrayOf<CSupplier.supplier> mSetAssembly_AssemblyName
+ArrayOf<CSupplier.supplier>* mGetAssembly_AssemblyName
+ArrayOf<CAdministration.documents> mSetAssembly_AssemblyDescription
+ArrayOf<CAdministration.documents>* mGetAssembly_AssemblyDescription
+ArrayOf<CAdministration.images> mSetAssembly_QCCheckedPassed
+ArrayOf<CAdministration.images>* mGetAssembly_QCCheckedPassed
+ArrayOf<CAdministration.video> mSetAssembly_MaterialIds
+ArrayOf<CAdministration.video>* mGetAssembly_MaterialIds
+const String& mSetAssembly_PartIds
+String* mGetAssembly_PartIds
+Boolean mSetAssembly_MinorSubAssemblyIds
+Boolean* mGetAssembly_MinorSubAssemblyIds
+const String& mSetAssembly_SubAssemblyIds
+String* mGetAssembly_SubAssemblyIds
+const String& mSetAssembly_MajorSubAssemblyIds
+String* mGetAssembly_MajorSubAssemblyIds
+Boolean mSetAssembly_LesserAssemblyIds
+Boolean* mGetAssembly_LesserAssemblyIds
+ArrayOf<CFactory.material> mSetAssembly_AssemblyTypeId
+ArrayOf<CFactory.material>* mGetAssembly_AssemblyTypeId
+ArrayOf<CFactory.part> mSetAssembly_GreaterAssemblyId
+ArrayOf<CFactory.part>* mGetAssembly_GreaterAssemblyId
+ArrayOf<CFactory.minorsubassembly> mSetAssembly_ProductId
+ArrayOf<CFactory.minorsubassembly>* mGetAssembly_ProductId
+ArrayOf<CFactory.subassembly> mSetAssembly_BusinessChannelOwnerId
+ArrayOf<CFactory.subassembly>* mGetAssembly_BusinessChannelOwnerId
+ArrayOf<CFactory.majorsubassembly> mSetAssembly_ItemId
+ArrayOf<CFactory.majorsubassembly>* mGetAssembly_ItemId
+ArrayOf<CFactory.lesserassembly> mSetAssembly_SupplierIds
+ArrayOf<CFactory.lesserassembly>* mGetAssembly_SupplierIds
+CFactory.assemblyType mSetAssembly_DocRefIds
+CFactory.assemblyType* mGetAssembly_DocRefIds
+CFactory.greaterassembly mSetAssembly_ImageRefIds
+CFactory.greaterassembly* mGetAssembly_ImageRefIds
+CFactory.product mSetAssembly_VideoRefIds
+CFactory.product* mGetAssembly_VideoRefIds
+CRegister.businessChannelOwner mSetAssemblyType_AssemblyTypeId
+CRegister.businessChannelOwner* mGetAssemblyType_AssemblyTypeId
+CAdministration.item mSetAssemblyType_AssemblyDescription
+CAdministration.item* mGetAssemblyType_AssemblyDescription
+ArrayOf<CSupplier.supplier> mSetAssemblyType_AssemblyCode
+ArrayOf<CSupplier.supplier>* mGetAssemblyType_AssemblyCode
+ArrayOf<CAdministration.documents> mSetAssemblyType_Corrosiveness
+ArrayOf<CAdministration.documents>* mGetAssemblyType_Corrosiveness
+ArrayOf<CAdministration.images> mSetAssemblyType_Toxicity
+ArrayOf<CAdministration.images>* mGetAssemblyType_Toxicity
+ArrayOf<CAdministration.video> mSetAssemblyType_Fragility
+ArrayOf<CAdministration.video>* mGetAssemblyType_Fragility
+const String& mSetAssemblyType_PhysicalStateWhenIdle
+String* mGetAssemblyType_PhysicalStateWhenIdle
+const String& mSetAssemblyType_RemainingNum
+String* mGetAssemblyType_RemainingNum
+const String& mSetAssemblyType_AssemblyReorderCode
+String* mGetAssemblyType_AssemblyReorderCode
+CHelper.corrosiveness mSetAssemblyType_MaterialTypeIds
+CHelper.corrosiveness* mGetAssemblyType_MaterialTypeIds
+CHelper.toxicity mSetAssemblyType_PartTypeId
+CHelper.toxicity* mGetAssemblyType_PartTypeId
+CHelper.fragility mSetAssemblyType_MinorSubAssemblyTypeIds
+CHelper.fragility* mGetAssemblyType_MinorSubAssemblyTypeIds
+CHelper.physicalStateWhenIdle mSetAssemblyType_SubAssemblyTypeIds
+CHelper.physicalStateWhenIdle* mGetAssemblyType_SubAssemblyTypeIds
+Int32 mSetAssemblyType_MajorSubAssemblyTypeIds
+Int32* mGetAssemblyType_MajorSubAssemblyTypeIds
+Int32 mSetAssemblyType_LesserAssemblyTypeIds
+Int32* mGetAssemblyType_LesserAssemblyTypeIds
+const String& mSetAssemblyType_GreaterAssemblyTypeIds
+String* mGetAssemblyType_GreaterAssemblyTypeIds
+ArrayOf<CFactory.materialType> mSetAssemblyType_ProductTypeIds
+ArrayOf<CFactory.materialType>* mGetAssemblyType_ProductTypeIds
+ArrayOf<CFactory.partType> mSetAssemblyType_BusinessChannelOwnerId
+ArrayOf<CFactory.partType>* mGetAssemblyType_BusinessChannelOwnerId
+ArrayOf<CFactory.minorsubassemblyType> mSetAssemblyType_ItemTypeId
+ArrayOf<CFactory.minorsubassemblyType>* mGetAssemblyType_ItemTypeId
+ArrayOf<CFactory.subassemblyType> mSetAssemblyType_SupplierIds
+ArrayOf<CFactory.subassemblyType>* mGetAssemblyType_SupplierIds
+ArrayOf<CFactory.majorsubassemblyType> mSetAssemblyType_DocRefIds
+ArrayOf<CFactory.majorsubassemblyType>* mGetAssemblyType_DocRefIds
+ArrayOf<CFactory.lesserassemblyType> mSetAssemblyType_ImageRefIds
+ArrayOf<CFactory.lesserassemblyType>* mGetAssemblyType_ImageRefIds
+ArrayOf<CFactory.greaterassemblyType> mSetAssemblyType_VideoRefIds
+ArrayOf<CFactory.greaterassemblyType>* mGetAssemblyType_VideoRefIds
+ArrayOf<CFactory.productType> mSetGreaterAssembly_GreaterAssyId
+ArrayOf<CFactory.productType>* mGetGreaterAssembly_GreaterAssyId
+CRegister.businessChannelOwner mSetGreaterAssembly_Hazardous
+CRegister.businessChannelOwner* mGetGreaterAssembly_Hazardous
+CAdministration.itemType mSetGreaterAssembly_GreaterAssemblyName
+CAdministration.itemType* mGetGreaterAssembly_GreaterAssemblyName
+ArrayOf<CSupplier.supplier> mSetGreaterAssembly_GreaterAssemblyDescription
+ArrayOf<CSupplier.supplier>* mGetGreaterAssembly_GreaterAssemblyDescription
+ArrayOf<CAdministration.documents> mSetGreaterAssembly_PhysicalStateWhenIdle
+ArrayOf<CAdministration.documents>* mGetGreaterAssembly_PhysicalStateWhenIdle
+ArrayOf<CAdministration.images> mSetGreaterAssembly_QCCheckedPassed
+ArrayOf<CAdministration.images>* mGetGreaterAssembly_QCCheckedPassed
+ArrayOf<CAdministration.video> mSetGreaterAssembly_GreaterAssemblyCode
+ArrayOf<CAdministration.video>* mGetGreaterAssembly_GreaterAssemblyCode
+const String& mSetGreaterAssembly_GreaterAssemblyReorderCode
+String* mGetGreaterAssembly_GreaterAssemblyReorderCode
+Boolean mSetGreaterAssembly_MaterialIds
+Boolean* mGetGreaterAssembly_MaterialIds
+const String& mSetGreaterAssembly_PartIds
+String* mGetGreaterAssembly_PartIds
+const String& mSetGreaterAssembly_MinorSubAssemblyIds
+String* mGetGreaterAssembly_MinorSubAssemblyIds
+CHelper.physicalStateWhenIdle mSetGreaterAssembly_SubAssemblyIds
+CHelper.physicalStateWhenIdle* mGetGreaterAssembly_SubAssemblyIds
+Boolean mSetGreaterAssembly_MajorSubAssemblyIds
+Boolean* mGetGreaterAssembly_MajorSubAssemblyIds
+const String& mSetGreaterAssembly_LesserAssemblyIds
+String* mGetGreaterAssembly_LesserAssemblyIds
+const String& mSetGreaterAssembly_AssemblyIds
+String* mGetGreaterAssembly_AssemblyIds
+Int32 mSetGreaterAssembly_GreaterAssemblyTypeId
+Int32* mGetGreaterAssembly_GreaterAssemblyTypeId
+ArrayOf<CFactory.material> mSetGreaterAssembly_ProductId
+ArrayOf<CFactory.material>* mGetGreaterAssembly_ProductId
+ArrayOf<CFactory.part> mSetGreaterAssembly_BusinessChannelOwnerId
+ArrayOf<CFactory.part>* mGetGreaterAssembly_BusinessChannelOwnerId
+ArrayOf<CFactory.minorsubassembly> mSetGreaterAssembly_ItemId
+ArrayOf<CFactory.minorsubassembly>* mGetGreaterAssembly_ItemId
+ArrayOf<CFactory.subassembly> mSetGreaterAssembly_SupplierIds
+ArrayOf<CFactory.subassembly>* mGetGreaterAssembly_SupplierIds
+ArrayOf<CFactory.majorsubassembly> mSetGreaterAssembly_DocRefIds
+ArrayOf<CFactory.majorsubassembly>* mGetGreaterAssembly_DocRefIds
+ArrayOf<CFactory.lesserassembly> mSetGreaterAssembly_ImageRefIds
+ArrayOf<CFactory.lesserassembly>* mGetGreaterAssembly_ImageRefIds
+ArrayOf<CFactory.assembly> mSetGreaterAssembly_VideoRefIds
+ArrayOf<CFactory.assembly>* mGetGreaterAssembly_VideoRefIds
+CFactory.greaterassemblyType mSetGreaterAssemblyType_GreaterAssemblyTypeId
+CFactory.greaterassemblyType* mGetGreaterAssemblyType_GreaterAssemblyTypeId
+CFactory.product mSetGreaterAssemblyType_GreaterAssemblyDescription
+CFactory.product* mGetGreaterAssemblyType_GreaterAssemblyDescription
+CRegister.businessChannelOwner mSetGreaterAssemblyType_GreaterAssemblyCode
+CRegister.businessChannelOwner* mGetGreaterAssemblyType_GreaterAssemblyCode
+CAdministration.item mSetGreaterAssemblyType_Corrosiveness
+CAdministration.item* mGetGreaterAssemblyType_Corrosiveness
+ArrayOf<CSupplier.supplier> mSetGreaterAssemblyType_Toxicity
+ArrayOf<CSupplier.supplier>* mGetGreaterAssemblyType_Toxicity
+ArrayOf<CAdministration.documents> mSetGreaterAssemblyType_Fragility
+ArrayOf<CAdministration.documents>* mGetGreaterAssemblyType_Fragility
+ArrayOf<CAdministration.images> mSetGreaterAssemblyType_PhysicalStateWhenIdle
+ArrayOf<CAdministration.images>* mGetGreaterAssemblyType_PhysicalStateWhenIdle
+ArrayOf<CAdministration.video> mSetGreaterAssemblyType_RemainingNum
+ArrayOf<CAdministration.video>* mGetGreaterAssemblyType_RemainingNum
+const String& mSetGreaterAssemblyType_GreaterAssemblyReorderCode
+String* mGetGreaterAssemblyType_GreaterAssemblyReorderCode
+const String& mSetGreaterAssemblyType_MaterialTypeIds
+String* mGetGreaterAssemblyType_MaterialTypeIds
+const String& mSetGreaterAssemblyType_PartTypeId
+String* mGetGreaterAssemblyType_PartTypeId
+CHelper.corrosiveness mSetGreaterAssemblyType_MinorSubAssemblyTypeIds
+CHelper.corrosiveness* mGetGreaterAssemblyType_MinorSubAssemblyTypeIds
+CHelper.toxicity mSetGreaterAssemblyType_SubAssemblyTypeIds
+CHelper.toxicity* mGetGreaterAssemblyType_SubAssemblyTypeIds
+CHelper.fragility mSetGreaterAssemblyType_MajorSubAssemblyTypeIds
+CHelper.fragility* mGetGreaterAssemblyType_MajorSubAssemblyTypeIds
+CHelper.physicalStateWhenIdle mSetGreaterAssemblyType_LesserAssemblyTypeIds
+CHelper.physicalStateWhenIdle* mGetGreaterAssemblyType_LesserAssemblyTypeIds
+Int32 mSetGreaterAssemblyType_AssemblyTypeIds
+Int32* mGetGreaterAssemblyType_AssemblyTypeIds
+Int32 mSetGreaterAssemblyType_ProductTypeIds
+Int32* mGetGreaterAssemblyType_ProductTypeIds
+const String& mSetGreaterAssemblyType_BusinessChannelOwnerId
+String* mGetGreaterAssemblyType_BusinessChannelOwnerId
+ArrayOf<CFactory.materialType> mSetGreaterAssemblyType_ItemTypeId
+ArrayOf<CFactory.materialType>* mGetGreaterAssemblyType_ItemTypeId
+ArrayOf<CFactory.partType> mSetGreaterAssemblyType_SupplierIds
+ArrayOf<CFactory.partType>* mGetGreaterAssemblyType_SupplierIds
+ArrayOf<CFactory.minorsubassemblyType> mSetGreaterAssemblyType_DocRefIds
+ArrayOf<CFactory.minorsubassemblyType>* mGetGreaterAssemblyType_DocRefIds
+ArrayOf<CFactory.subassemblyType> mSetGreaterAssemblyType_ImageRefIds
+ArrayOf<CFactory.subassemblyType>* mGetGreaterAssemblyType_ImageRefIds
+ArrayOf<CFactory.majorsubassemblyType> mSetGreaterAssemblyType_VideoRefIds
+ArrayOf<CFactory.majorsubassemblyType>* mGetGreaterAssemblyType_VideoRefIds
+ArrayOf<CFactory.lesserassemblyType> mSetProduct_ProductId
+ArrayOf<CFactory.lesserassemblyType>* mGetProduct_ProductId
+ArrayOf<CFactory.assemblyType> mSetProduct_Hazardous
+ArrayOf<CFactory.assemblyType>* mGetProduct_Hazardous
+ArrayOf<CFactory.productType> mSetProduct_MasLedgeFinTxIds
+ArrayOf<CFactory.productType>* mGetProduct_MasLedgeFinTxIds
+CRegister.businessChannelOwner mSetProduct_MasLedgeFinTxNums
+CRegister.businessChannelOwner* mGetProduct_MasLedgeFinTxNums
+CAdministration.itemType mSetProduct_GenLedgeFinTxIds
+CAdministration.itemType* mGetProduct_GenLedgeFinTxIds
+ArrayOf<CSupplier.supplier> mSetProduct_GenLedgeFinTxNums
+ArrayOf<CSupplier.supplier>* mGetProduct_GenLedgeFinTxNums
+ArrayOf<CAdministration.documents> mSetProduct_ProductName
+ArrayOf<CAdministration.documents>* mGetProduct_ProductName
+ArrayOf<CAdministration.images> mSetProduct_ModelNumber
+ArrayOf<CAdministration.images>* mGetProduct_ModelNumber
+ArrayOf<CAdministration.video> mSetProduct_SerialNumber
+ArrayOf<CAdministration.video>* mGetProduct_SerialNumber
+const String& mSetProduct_QCCheckedPassed
+String* mGetProduct_QCCheckedPassed
+Boolean mSetProduct_BestBeforeDate
+Boolean* mGetProduct_BestBeforeDate
+ArrayOf<const String&> mSetProduct_BusinessChannelOwnerId
+ArrayOf<String>* mGetProduct_BusinessChannelOwnerId
+ArrayOf<Int32> mSetProduct_ProductTypeId
+ArrayOf<Int32>* mGetProduct_ProductTypeId
+ArrayOf<const String&> mSetProduct_ItemId
+ArrayOf<String>* mGetProduct_ItemId
+ArrayOf<Int32> mSetProduct_CustomerId
+ArrayOf<Int32>* mGetProduct_CustomerId
+const String& mSetProduct_DocRefIds
+String* mGetProduct_DocRefIds
+const String& mSetProduct_ImageRefIds
+String* mGetProduct_ImageRefIds
+const String& mSetProduct_VideoRefIds
+String* mGetProduct_VideoRefIds
+Boolean mSetProductType_ProductTypeId
+Boolean* mGetProductType_ProductTypeId
+const String& mSetProductType_ProductDescription
+String* mGetProductType_ProductDescription
+CRegister.businessChannelOwner mSetProductType_Corrosiveness
+CRegister.businessChannelOwner* mGetProductType_Corrosiveness
+CFactory.productType mSetProductType_Toxicity
+CFactory.productType* mGetProductType_Toxicity
+CAdministration.item mSetProductType_Fragility
+CAdministration.item* mGetProductType_Fragility
+CCustomer.customer mSetProductType_PhysicalStateWhenIdle
+CCustomer.customer* mGetProductType_PhysicalStateWhenIdle
+ArrayOf<CAdministration.documents> mSetProductType_RemainingNum
+ArrayOf<CAdministration.documents>* mGetProductType_RemainingNum
+ArrayOf<CAdministration.images> mSetProductType_LesserAssemblyReorderCode
+ArrayOf<CAdministration.images>* mGetProductType_LesserAssemblyReorderCode
+ArrayOf<CAdministration.video> mSetProductType_BusinessChannelOwnerId
+ArrayOf<CAdministration.video>* mGetProductType_BusinessChannelOwnerId
+const String& mSetProductType_ItemTypeId
+String* mGetProductType_ItemTypeId
+const String& mSetProductType_DocRefIds
+String* mGetProductType_DocRefIds
+CHelper.corrosiveness mSetProductType_ImageRefIds
+CHelper.corrosiveness* mGetProductType_ImageRefIds
+CHelper.toxicity mSetProductType_VideoRefIds
+CHelper.toxicity* mGetProductType_VideoRefIds
+CHelper.fragility mSetShipment_ShipmentId
+CHelper.fragility* mGetShipment_ShipmentId
+CHelper.physicalStateWhenIdle mSetShipment_DistributorId
+CHelper.physicalStateWhenIdle* mGetShipment_DistributorId
+Int32 mSetShipment_SalesOrderIds
+Int32* mGetShipment_SalesOrderIds
+Int32 mSetShipment_PurchaseOrderIds
+Int32* mGetShipment_PurchaseOrderIds
+const String& mSetShipment_ReceiverDeliveryAddress
+String* mGetShipment_ReceiverDeliveryAddress
+CRegister.businessChannelOwner mSetShipment_SenderSourceAddress
+CRegister.businessChannelOwner* mGetShipment_SenderSourceAddress
+CAdministration.itemType mSetShipment_ReceivedAtSourceTerminal
+CAdministration.itemType* mGetShipment_ReceivedAtSourceTerminal
+ArrayOf<CAdministration.documents> mSetShipment_TrackingNumber
+ArrayOf<CAdministration.documents>* mGetShipment_TrackingNumber
+ArrayOf<CAdministration.images> mSetShipment_TrackingURL
+ArrayOf<CAdministration.images>* mGetShipment_TrackingURL
+ArrayOf<CAdministration.video> mSetShipment_ETA
+ArrayOf<CAdministration.video>* mGetShipment_ETA
+const String& mSetShipment_JourneyPoints
+String* mGetShipment_JourneyPoints
+const String& mSetShipment_JourneyPointNames
+String* mGetShipment_JourneyPointNames
+ArrayOf<const String&> mSetShipment_DeliveredGPSLat
+ArrayOf<String>* mGetShipment_DeliveredGPSLat
+ArrayOf<const String&> mSetShipment_DeliveredGPSLong
+ArrayOf<String>* mGetShipment_DeliveredGPSLong
+ArrayOf<const String&> mSetShipment_DeliveryAddress
+ArrayOf<String>* mGetShipment_DeliveryAddress
+ArrayOf<const String&> mSetShipment_AddressesMatch
+ArrayOf<String>* mGetShipment_AddressesMatch
+const String& mSetShipment_BusinessChannelOwnerId
+String* mGetShipment_BusinessChannelOwnerId
+const String& mSetShipment_SupplierId
+String* mGetShipment_SupplierId
+const String& mSetShipment_SupplierTypeId
+String* mGetShipment_SupplierTypeId
+const String& mSetShipment_DocRefIds
+String* mGetShipment_DocRefIds
+ArrayOf<const String&> mSetShipment_DeliveryImageIds
+ArrayOf<String>* mGetShipment_DeliveryImageIds
+ArrayOf<const String&> mSetShipment_ItemIds
+ArrayOf<String>* mGetShipment_ItemIds
+Double mSetShipment_ItemTypeIds
+Double* mGetShipment_ItemTypeIds
+Double mSetShipment_CustomerId
+Double* mGetShipment_CustomerId
+const String& mSetShipment_NextDistributorId
+String* mGetShipment_NextDistributorId
+Boolean mSetShipment_ContinuationShipmentId
+Boolean* mGetShipment_ContinuationShipmentId
 };
 
 } // ChubbaMorris
