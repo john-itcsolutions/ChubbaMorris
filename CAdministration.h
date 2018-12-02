@@ -407,10 +407,10 @@ public:
      /* [out, callee] */ ArrayOf<CProperty.property>* CAdministration.serviceRequest.propertyIds);
 
 
-   CARAPI SetServiceRequest.MasterAsCARAPI SetIds(
+   CARAPI SetServiceRequest_MasterAsCARAPI
      /* [in] */ ArrayOf<CFinance.masterAsCARAPI SetRegister> CAdministration.serviceRequest.masterAsCARAPI SetIds);
 
-    CARAPI GetServiceRequest.MasterAsCARAPI SetIds(
+    CARAPI GetServiceRequest_MasterAsCARAPI
      /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.serviceRequest.masterAsCARAPI SetIds);
 
 
@@ -750,10 +750,10 @@ public:
      /* [out, callee] */ ArrayOf<String>* CAdministration.advertisingTemplatesPlans.accountsPayableIds);
 
 
-   CARAPI SetAdvertisingTemplatesPlans.BudCARAPI GetedAmount(
+   CARAPI SetAdvertisingTemplatesPlans_BudCARAPI
      /* [in] */ Double CAdministration.advertisingTemplatesPlans.budCARAPI GetedAmount);
 
-    CARAPI GetAdvertisingTemplatesPlans.BudCARAPI GetedAmount(
+    CARAPI GetAdvertisingTemplatesPlans_BudCARAPI
      /* [out] */ Double* CAdministration.advertisingTemplatesPlans.budCARAPI GetedAmount);
 
 
@@ -1551,10 +1551,10 @@ public:
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.documents.propOwners);
 
 
-   CARAPI SetDocuments.MasterLedgerAsCARAPI SetIds(
+   CARAPI SetDocuments_MasterLedgerAsCARAPI
      /* [in] */ ArrayOf<CFinance.masterAsCARAPI SetRegister> CAdministration.documents.masterLedgerAsCARAPI SetIds);
 
-    CARAPI GetDocuments.MasterLedgerAsCARAPI SetIds(
+    CARAPI GetDocuments_MasterLedgerAsCARAPI
      /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.documents.masterLedgerAsCARAPI SetIds);
 
 
@@ -1796,10 +1796,10 @@ public:
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.images.propOwners);
 
 
-   CARAPI SetImages.MasterLedgerAsCARAPI SetIds(
+   CARAPI SetImages_MasterLedgerAsCARAPI
      /* [in] */ ArrayOf<CFinance.masterAsCARAPI SetRegister> CAdministration.images.masterLedgerAsCARAPI SetIds);
 
-    CARAPI GetImages.MasterLedgerAsCARAPI SetIds(
+    CARAPI GetImages_MasterLedgerAsCARAPI
      /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.images.masterLedgerAsCARAPI SetIds);
 
 
@@ -2027,10 +2027,10 @@ public:
      /* [out] */ CAdministration.mapOfdepartments* CAdministration.audio.deptMapId);
 
 
-   CARAPI SetAudio.GenAsCARAPI SetIds(
+   CARAPI SetAudio_GenAsCARAPI
      /* [in] */ ArrayOf<CFinance.masterAsCARAPI SetRegister> CAdministration.audio.genAsCARAPI SetIds);
 
-    CARAPI GetAudio.GenAsCARAPI SetIds(
+    CARAPI GetAudio_GenAsCARAPI
      /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.audio.genAsCARAPI SetIds);
 
 
@@ -2125,10 +2125,10 @@ public:
      /* [out] */ CRegulator.stateBasedRegulator* CAdministration.audio.stateBasedRegId);
 
 
-   CARAPI SetAudio.AsCARAPI SetInspectionCommercId(
+   CARAPI SetAudio_AsCARAPI
      /* [in] */ asCARAPI SetInspectionCommercial CAdministration.audio.asCARAPI SetInspectionCommercId);
 
-    CARAPI GetAudio.AsCARAPI SetInspectionCommercId(
+    CARAPI GetAudio_AsCARAPI
      /* [out] */ asCARAPI SetInspectionCommercial* CAdministration.audio.asCARAPI SetInspectionCommercId);
 
 
@@ -2947,10 +2947,10 @@ public:
      /* [out, callee] */ ArrayOf<CProperty.property>* CAdministration.job.propertyIds);
 
 
-   CARAPI SetJob.MasterLedgerAsCARAPI SetId(
+   CARAPI SetJob_MasterLedgerAsCARAPI
      /* [in] */ CFinance.masterAsCARAPI SetRegister CAdministration.job.masterLedgerAsCARAPI SetId);
 
-    CARAPI GetJob.MasterLedgerAsCARAPI SetId(
+    CARAPI GetJob_MasterLedgerAsCARAPI
      /* [out] */ CFinance.masterAsCARAPI SetRegister* CAdministration.job.masterLedgerAsCARAPI SetId);
 
 
@@ -3549,17 +3549,17 @@ public:
      /* [out] */ CProperty.propertyConstructionType* CAdministration.riskRegister.propertyConstructionTypeId);
 
 
-   CARAPI SetRiskRegister.MasterAsCARAPI SetTypeId(
+   CARAPI SetRiskRegister_MasterAsCARAPI
      /* [in] */ CFinance.masterAsCARAPI SetType CAdministration.riskRegister.masterAsCARAPI SetTypeId);
 
-    CARAPI GetRiskRegister.MasterAsCARAPI SetTypeId(
+    CARAPI GetRiskRegister_MasterAsCARAPI
      /* [out] */ CFinance.masterAsCARAPI SetType* CAdministration.riskRegister.masterAsCARAPI SetTypeId);
 
 
-   CARAPI SetRiskRegister.MasterAsCARAPI SetId(
+   CARAPI SetRiskRegister_MasterAsCARAPI
      /* [in] */ CFinance.masterAsCARAPI SetRegister CAdministration.riskRegister.masterAsCARAPI SetId);
 
-    CARAPI GetRiskRegister.MasterAsCARAPI SetId(
+    CARAPI GetRiskRegister_MasterAsCARAPI
      /* [out] */ CFinance.masterAsCARAPI SetRegister* CAdministration.riskRegister.masterAsCARAPI SetId);
 
 
@@ -4691,11 +4691,11 @@ const String& mSetService_ServiceName
 String* mGetService_ServiceName
 const String& mSetService_Description
 String* mGetService_Description
-Double mSetService.ServiceUnitsSupplied
+Double mSetService_ServiceUnitsSupplied
 Double* mGetService_ServiceUnitsSupplied
 const String& mSetService_PricingUnits
 String* mGetService_PricingUnits
-Double mSetService.PriceRatePerUnit
+Double mSetService_PriceRatePerUnit
 Double* mGetService_PriceRatePerUnit
 ArrayOf<const String&> mSetService_ItemIdsSupplied
 ArrayOf<String>* mGetService_ItemIdsSupplied
@@ -4725,7 +4725,7 @@ const String& mSetServiceType_Description
 String* mGetServiceType_Description
 const String& mSetServiceType_PriceRateUnits
 String* mGetServiceType_PriceRateUnits
-Double mSetServiceType.PriceRate
+Double mSetServiceType_PriceRate
 Double* mGetServiceType_PriceRate
 ArrayOf<CAdministration.role> mSetServiceType_ProviderRoleIdsWithinEnterprise
 ArrayOf<CAdministration.role>* mGetServiceType_ProviderRoleIdsWithinEnterprise
@@ -4885,7 +4885,7 @@ ArrayOf<const String&> mSetAdvertisingTemplatesPlans_AccountsReceivableIds
 ArrayOf<String>* mGetAdvertisingTemplatesPlans_AccountsReceivableIds
 ArrayOf<const String&> mSetAdvertisingTemplatesPlans_AccountsPayableIds
 ArrayOf<String>* mGetAdvertisingTemplatesPlans_AccountsPayableIds
-Double mSetAdvertisingTemplatesPlans.BudgetedAmount
+Double mSetAdvertisingTemplatesPlans_BudgetedAmount
 Double* mGetAdvertisingTemplatesPlans_BudgetedAmount
 ArrayOf<const String&> mSetAdvertisingTemplatesPlans_DocRefsAdvertisingTemplatesPlans
 ArrayOf<String>* mGetAdvertisingTemplatesPlans_DocRefsAdvertisingTemplatesPlans
@@ -5099,10 +5099,10 @@ const String& mSetDocuments_MasLedgeFinTxId
 String* mGetDocuments_MasLedgeFinTxId
 const String& mSetDocuments_GenLedgeFinTxId
 String* mGetDocuments_GenLedgeFinTxId
-Int32 mSetDocuments.MasLedgeFinTxNum
-Int32* mGetDocuments.MasLedgeFinTxNum
-Int32 mSetDocuments.GenLedgeFinTxNum
-Int32* mGetDocuments.GenLedgeFinTxNum
+Int32 mSetDocuments_MasLedgeFinTxNum
+Int32* mGetDocuments_MasLedgeFinTxNum
+Int32 mSetDocuments_GenLedgeFinTxNum
+Int32* mGetDocuments_GenLedgeFinTxNum
 CRegister.businessChannelOwner mSetDocuments_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetDocuments_BusinessChannelOwnerId
 CAdministration.branch mSetDocuments_BranchId
@@ -5277,8 +5277,8 @@ CRegulator.nationalRegulator mSetAudio_NatRegId
 CRegulator.nationalRegulator* mGetAudio_NatRegId
 CRegulator.stateBasedRegulator mSetAudio_StateBasedRegId
 CRegulator.stateBasedRegulator* mGetAudio_StateBasedRegId
-asCARAPI mSetAudio.SetInspectionCommercId
-asCARAPI mGetAudio.SetInspectionCommercId
+asCARAPI mSetAudio_SetInspectionCommercId
+asCARAPI mGetAudio_SetInspectionCommercId
 ArrayOf<CAdministration.service> mSetAudio_ServiceIds
 ArrayOf<CAdministration.service>* mGetAudio_ServiceIds
 ArrayOf<CAdministration.item> mSetAudio_ItemIds
@@ -5369,8 +5369,8 @@ const String& mSetItemType_ItemModelNumber
 String* mGetItemType_ItemModelNumber
 const String& mSetItemType_ItemName
 String* mGetItemType_ItemName
-Int32 mSetItemType.NumberInInventory
-Int32* mGetItemType.NumberInInventory
+Int32 mSetItemType_NumberInInventory
+Int32* mGetItemType_NumberInInventory
 CRegister.businessChannelOwner mSetItemType_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetItemType_BusinessChannelOwnerId
 CFactory.productType mSetItemType_OurProductTypeId
@@ -5397,18 +5397,18 @@ const String& mSetItem_ItemName
 String* mGetItem_ItemName
 const String& mSetItem_ItemDescription
 String* mGetItem_ItemDescription
-Boolean mSetItem.Fragile
-Boolean* mGetItem.Fragile
-Boolean mSetItem.Toxic
-Boolean* mGetItem.Toxic
-Boolean mSetItem.Corrosive
-Boolean* mGetItem.Corrosive
+Boolean mSetItem_Fragile
+Boolean* mGetItem_Fragile
+Boolean mSetItem_Toxic
+Boolean* mGetItem_Toxic
+Boolean mSetItem_Corrosive
+Boolean* mGetItem_Corrosive
 const String& mSetItem_ItemModelNumber
 String* mGetItem_ItemModelNumber
 const String& mSetItem_ItemSerialNumber
 String* mGetItem_ItemSerialNumber
-Boolean mSetItem.ItemQualityDimensionsCheckedPassed
-Boolean* mGetItem.ItemQualityDimensionsCheckedPassed
+Boolean mSetItem_ItemQualityDimensionsCheckedPassed
+Boolean* mGetItem_ItemQualityDimensionsCheckedPassed
 const String& mSetItem_PricePerItem
 String* mGetItem_PricePerItem
 CRegister.businessChannelOwner mSetItem_BusinessChannelOwnerId
@@ -5471,12 +5471,12 @@ const String& mSetJob_JobCode
 String* mGetJob_JobCode
 const String& mSetJob_JobName
 String* mGetJob_JobName
-Int32 mSetJob.JobNum
-Int32* mGetJob.JobNum
-Boolean mSetJob.ResponsiveMaintenance
-Boolean* mGetJob.ResponsiveMaintenance
-Boolean mSetJob.PlannedMaintenance
-Boolean* mGetJob.PlannedMaintenance
+Int32 mSetJob_JobNum
+Int32* mGetJob_JobNum
+Boolean mSetJob_ResponsiveMaintenance
+Boolean* mGetJob_ResponsiveMaintenance
+Boolean mSetJob_PlannedMaintenance
+Boolean* mGetJob_PlannedMaintenance
 ArrayOf<Int32> mSetJob_ImmediatePrevJobNums
 ArrayOf<Int32>* mGetJob_ImmediatePrevJobNums
 ArrayOf<Boolean> mSetJob_ImmediatePrevJobsQCPass
@@ -5491,8 +5491,8 @@ ArrayOf<const String&> mSetJob_ActualTaskCompleteTime
 ArrayOf<String>* mGetJob_ActualTaskCompleteTime
 ArrayOf<Boolean> mSetJob_TaskCompletionQCPasses
 ArrayOf<Boolean>* mGetJob_TaskCompletionQCPasses
-Boolean mSetJob.JobCompletionQCPass
-Boolean* mGetJob.JobCompletionQCPass
+Boolean mSetJob_JobCompletionQCPass
+Boolean* mGetJob_JobCompletionQCPass
 const String& mSetJob_NextJobTypeId
 String* mGetJob_NextJobTypeId
 ArrayOf<Boolean> mSetJob_TenantDamages
@@ -5567,8 +5567,8 @@ ArrayOf<CFactory.product> mSetJob_ProductIds
 ArrayOf<CFactory.product>* mGetJob_ProductIds
 CFinance.masterSalesOrder mSetJob_MasterSalesOrderId
 CFinance.masterSalesOrder* mGetJob_MasterSalesOrderId
-realEstatePurchOrders mSetJob.PurchOrderId
-realEstatePurchOrders* mGetJob.PurchOrderId
+realEstatePurchOrders mSetJob_PurchOrderId
+realEstatePurchOrders* mGetJob_PurchOrderId
 CRegulator.nationalRegulator mSetJob_NatRegId
 CRegulator.nationalRegulator* mGetJob_NatRegId
 CRegulator.stateBasedRegulator mSetJob_StateBasedRegId
@@ -5605,7 +5605,7 @@ ArrayOf<const String&> mSetQuoteIn_ConditionsUponCustomer
 ArrayOf<String>* mGetQuoteIn_ConditionsUponCustomer
 ArrayOf<Double> mSetQuoteIn_QuoteAmountEachJob
 ArrayOf<Double>* mGetQuoteIn_QuoteAmountEachJob
-Double mSetQuoteIn.QuoteTotalForOrder
+Double mSetQuoteIn_QuoteTotalForOrder
 Double* mGetQuoteIn_QuoteTotalForOrder
 CRegister.businessChannelOwner mSetQuoteIn_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetQuoteIn_BusinessChannelOwnerId
@@ -5621,8 +5621,8 @@ ArrayOf<CAdministration.images> mSetQuoteIn_ImageRefIds
 ArrayOf<CAdministration.images>* mGetQuoteIn_ImageRefIds
 ArrayOf<CAdministration.video> mSetQuoteIn_VideoRefIds
 ArrayOf<CAdministration.video>* mGetQuoteIn_VideoRefIds
-realEstatePurchOrders mSetQuoteIn.PurchOrderId
-realEstatePurchOrders* mGetQuoteIn.PurchOrderId
+realEstatePurchOrders mSetQuoteIn_PurchOrderId
+realEstatePurchOrders* mGetQuoteIn_PurchOrderId
 const String& mSetQuoteOut_QuoteOutId
 String* mGetQuoteOut_QuoteOutId
 ArrayOf<const String&> mSetQuoteOut_JobDescription
@@ -5637,7 +5637,7 @@ ArrayOf<const String&> mSetQuoteOut_ConditionsUponCustomer
 ArrayOf<String>* mGetQuoteOut_ConditionsUponCustomer
 ArrayOf<Double> mSetQuoteOut_QuoteAmountEachJobItem
 ArrayOf<Double>* mGetQuoteOut_QuoteAmountEachJobItem
-Double mSetQuoteOut.QuoteTotalForOrder
+Double mSetQuoteOut_QuoteTotalForOrder
 Double* mGetQuoteOut_QuoteTotalForOrder
 CRegister.businessChannelOwner mSetQuoteOut_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetQuoteOut_BusinessChannelOwnerId
@@ -5695,8 +5695,8 @@ CAdministration.jobType mSetRiskRegister_JobTypeId
 CAdministration.jobType* mGetRiskRegister_JobTypeId
 CAdministration.job mSetRiskRegister_JobId
 CAdministration.job* mGetRiskRegister_JobId
-realEstatePurchOrders mSetRiskRegister.PurchaseOrderId
-realEstatePurchOrders* mGetRiskRegister.PurchaseOrderId
+realEstatePurchOrders mSetRiskRegister_PurchaseOrderId
+realEstatePurchOrders* mGetRiskRegister_PurchaseOrderId
 CFinance.masterSalesOrder mSetRiskRegister_MasterSalesOrderId
 CFinance.masterSalesOrder* mGetRiskRegister_MasterSalesOrderId
 CProperty.allocation mSetRiskRegister_AllocationId
@@ -5799,8 +5799,8 @@ CCustomer.application mSetRiskRegister_ApplicationId
 CCustomer.application* mGetRiskRegister_ApplicationId
 CRegulator.stateBasedRegulator mSetRiskRegister_StateBasedRegId
 CRegulator.stateBasedRegulator* mGetRiskRegister_StateBasedRegId
-itemTrader mSetRiskRegister.ItemTraderId
-itemTrader* mGetRiskRegister.ItemTraderId
+itemTrader mSetRiskRegister_ItemTraderId
+itemTrader* mGetRiskRegister_ItemTraderId
 CProperty.tenancyCaseManagement mSetRiskRegister_TenancyCaseMngmntId
 CProperty.tenancyCaseManagement* mGetRiskRegister_TenancyCaseMngmntId
 ArrayOf<CAdministration.documents> mSetRiskRegister_DocRefIds
@@ -5851,12 +5851,12 @@ const String& mSetBusinessDirector_PostalAddress
 String* mGetBusinessDirector_PostalAddress
 const String& mSetBusinessDirector_Email
 String* mGetBusinessDirector_Email
-Int32 mSetBusinessDirector.HomePhone
-Int32* mGetBusinessDirector.HomePhone
-Int32 mSetBusinessDirector.MobilePhone
-Int32* mGetBusinessDirector.MobilePhone
-Int32 mSetBusinessDirector.WorkPhone
-Int32* mGetBusinessDirector.WorkPhone
+Int32 mSetBusinessDirector_HomePhone
+Int32* mGetBusinessDirector_HomePhone
+Int32 mSetBusinessDirector_MobilePhone
+Int32* mGetBusinessDirector_MobilePhone
+Int32 mSetBusinessDirector_WorkPhone
+Int32* mGetBusinessDirector_WorkPhone
 ArrayOf<const String&> mSetBusinessDirector_ContactedWithDetails
 ArrayOf<String>* mGetBusinessDirector_ContactedWithDetails
 CRegister.businessChannelOwner mSetBusinessDirector_BusinessChannelOwnerId
@@ -5879,16 +5879,16 @@ const String& mSetStaff_PostalAddress
 String* mGetStaff_PostalAddress
 const String& mSetStaff_Email
 String* mGetStaff_Email
-Int32 mSetStaff.HomePhone
-Int32* mGetStaff.HomePhone
-Int32 mSetStaff.MobilePhone
-Int32* mGetStaff.MobilePhone
-Int32 mSetStaff.WorkPhone
-Int32* mGetStaff.WorkPhone
-Int32 mSetStaff.ATOTFN
-Int32* mGetStaff.ATOTFN
-Boolean mSetStaff.TaxFreeThreshold
-Boolean* mGetStaff.TaxFreeThreshold
+Int32 mSetStaff_HomePhone
+Int32* mGetStaff_HomePhone
+Int32 mSetStaff_MobilePhone
+Int32* mGetStaff_MobilePhone
+Int32 mSetStaff_WorkPhone
+Int32* mGetStaff_WorkPhone
+Int32 mSetStaff_ATOTFN
+Int32* mGetStaff_ATOTFN
+Boolean mSetStaff_TaxFreeThreshold
+Boolean* mGetStaff_TaxFreeThreshold
 ArrayOf<const String&> mSetStaff_DocRefIds
 ArrayOf<String>* mGetStaff_DocRefIds
 ArrayOf<const String&> mSetStaff_ContactedWithDetails
@@ -5907,10 +5907,10 @@ const String& mSetServicePurchaseRequest_ServicePurchRequestId
 String* mGetServicePurchaseRequest_ServicePurchRequestId
 const String& mSetServicePurchaseRequest_MRQIdIfRentalProperty
 String* mGetServicePurchaseRequest_MRQIdIfRentalProperty
-Boolean mSetServicePurchaseRequest.DamageCausedByCustomerTenantOthers
-Boolean* mGetServicePurchaseRequest.DamageCausedByCustomerTenantOthers
-Boolean mSetServicePurchaseRequest.OwnerResponsible
-Boolean* mGetServicePurchaseRequest.OwnerResponsible
+Boolean mSetServicePurchaseRequest_DamageCausedByCustomerTenantOthers
+Boolean* mGetServicePurchaseRequest_DamageCausedByCustomerTenantOthers
+Boolean mSetServicePurchaseRequest_OwnerResponsible
+Boolean* mGetServicePurchaseRequest_OwnerResponsible
 ArrayOf<const String&> mSetServicePurchaseRequest_SummaryDescriptionOfProblemItemised
 ArrayOf<String>* mGetServicePurchaseRequest_SummaryDescriptionOfProblemItemised
 ArrayOf<const String&> mSetServicePurchaseRequest_JobTypeSequence
@@ -5939,7 +5939,7 @@ const String& mSetServicePurchaseRequest_ExpectedCompletionDate
 String* mGetServicePurchaseRequest_ExpectedCompletionDate
 ArrayOf<Boolean> mSetServicePurchaseRequest_WorkCheckedPassed
 ArrayOf<Boolean>* mGetServicePurchaseRequest_WorkCheckedPassed
-Double mSetServicePurchaseRequest.TotalMaintPurchOrderAmount
+Double mSetServicePurchaseRequest_TotalMaintPurchOrderAmount
 Double* mGetServicePurchaseRequest_TotalMaintPurchOrderAmount
 ArrayOf<Int32> mSetServicePurchaseRequest_MasLedgeFinTxNumsReturned
 ArrayOf<Int32>* mGetServicePurchaseRequest_MasLedgeFinTxNumsReturned
@@ -5981,8 +5981,8 @@ const String& mSetTimesheet_Submitted
 String* mGetTimesheet_Submitted
 const String& mSetTimesheet_Checked
 String* mGetTimesheet_Checked
-Boolean mSetTimesheet.Passed
-Boolean* mGetTimesheet.Passed
+Boolean mSetTimesheet_Passed
+Boolean* mGetTimesheet_Passed
 CRegister.businessChannelOwner mSetTimesheet_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetTimesheet_BusinessChannelOwnerId
 ArrayOf<CAdministration.staff> mSetTimesheet_EmployeeIds
