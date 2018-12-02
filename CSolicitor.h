@@ -50,115 +50,115 @@ public:
     //
    
 
-   CARAPI SetSolicitor.SolicitorId(
+   CARAPI SetSolicitor_SolicitorId(
      /* [in] */ const String& CSolicitor.solicitor.solicitorId);
 
-    CARAPI GetSolicitor.SolicitorId(
+    CARAPI GetSolicitor_SolicitorId(
      /* [out] */ String* CSolicitor.solicitor.solicitorId);
 
 
-   CARAPI SetSolicitor.ABN(
+   CARAPI SetSolicitor_ABN(
      /* [in] */ const String& CSolicitor.solicitor.aBN);
 
-    CARAPI GetSolicitor.ABN(
+    CARAPI GetSolicitor_ABN(
      /* [out] */ String* CSolicitor.solicitor.aBN);
 
 
-   CARAPI SetSolicitor.CompanyName(
+   CARAPI SetSolicitor_CompanyName(
      /* [in] */ const String& CSolicitor.solicitor.companyName);
 
-    CARAPI GetSolicitor.CompanyName(
+    CARAPI GetSolicitor_CompanyName(
      /* [out] */ String* CSolicitor.solicitor.companyName);
 
 
-   CARAPI SetSolicitor.ContactFirstNameList(
+   CARAPI SetSolicitor_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CSolicitor.solicitor.contactFirstNameList);
 
-    CARAPI GetSolicitor.ContactFirstNameList(
+    CARAPI GetSolicitor_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CSolicitor.solicitor.contactFirstNameList);
 
 
-   CARAPI SetSolicitor.ContactLastNameList(
+   CARAPI SetSolicitor_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CSolicitor.solicitor.contactLastNameList);
 
-    CARAPI GetSolicitor.ContactLastNameList(
+    CARAPI GetSolicitor_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CSolicitor.solicitor.contactLastNameList);
 
 
-   CARAPI SetSolicitor.OfficelAddresses(
+   CARAPI SetSolicitor_OfficelAddresses(
      /* [in] */ ArrayOf<const String&> CSolicitor.solicitor.officelAddresses);
 
-    CARAPI GetSolicitor.OfficelAddresses(
+    CARAPI GetSolicitor_OfficelAddresses(
      /* [out, callee] */ ArrayOf<String>* CSolicitor.solicitor.officelAddresses);
 
 
-   CARAPI SetSolicitor.PostalAddresses(
+   CARAPI SetSolicitor_PostalAddresses(
      /* [in] */ ArrayOf<const String&> CSolicitor.solicitor.postalAddresses);
 
-    CARAPI GetSolicitor.PostalAddresses(
+    CARAPI GetSolicitor_PostalAddresses(
      /* [out, callee] */ ArrayOf<String>* CSolicitor.solicitor.postalAddresses);
 
 
-   CARAPI SetSolicitor.EmailAddresses(
+   CARAPI SetSolicitor_EmailAddresses(
      /* [in] */ ArrayOf<const String&> CSolicitor.solicitor.emailAddresses);
 
-    CARAPI GetSolicitor.EmailAddresses(
+    CARAPI GetSolicitor_EmailAddresses(
      /* [out, callee] */ ArrayOf<String>* CSolicitor.solicitor.emailAddresses);
 
 
-   CARAPI SetSolicitor.MobilePhone(
+   CARAPI SetSolicitor_MobilePhone(
      /* [in] */ ArrayOf<Int32> CSolicitor.solicitor.mobilePhone);
 
-    CARAPI GetSolicitor.MobilePhone(
+    CARAPI GetSolicitor_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CSolicitor.solicitor.mobilePhone);
 
 
-   CARAPI SetSolicitor.WorkPhone(
+   CARAPI SetSolicitor_WorkPhone(
      /* [in] */ ArrayOf<Int32> CSolicitor.solicitor.workPhone);
 
-    CARAPI GetSolicitor.WorkPhone(
+    CARAPI GetSolicitor_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CSolicitor.solicitor.workPhone);
 
 
-   CARAPI SetSolicitor.ContactedWithDetails(
+   CARAPI SetSolicitor_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CSolicitor.solicitor.contactedWithDetails);
 
-    CARAPI GetSolicitor.ContactedWithDetails(
+    CARAPI GetSolicitor_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CSolicitor.solicitor.contactedWithDetails);
 
 
-   CARAPI SetSolicitor.PropertyId(
+   CARAPI SetSolicitor_PropertyId(
      /* [in] */ CProperty.property CSolicitor.solicitor.propertyId);
 
-    CARAPI GetSolicitor.PropertyId(
+    CARAPI GetSolicitor_PropertyId(
      /* [out] */ CProperty.property* CSolicitor.solicitor.propertyId);
 
 
-   CARAPI SetSolicitor.DocRefIds(
+   CARAPI SetSolicitor_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CSolicitor.solicitor.docRefIds);
 
-    CARAPI GetSolicitor.DocRefIds(
+    CARAPI GetSolicitor_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CSolicitor.solicitor.docRefIds);
 
 
-   CARAPI SetSolicitor.ImageRefIds(
+   CARAPI SetSolicitor_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CSolicitor.solicitor.imageRefIds);
 
-    CARAPI GetSolicitor.ImageRefIds(
+    CARAPI GetSolicitor_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CSolicitor.solicitor.imageRefIds);
 
 
-   CARAPI SetSolicitor.BusinessDirectorIds(
+   CARAPI SetSolicitor_BusinessDirectorIds(
      /* [in] */ ArrayOf<CAdministration.businessDirector> CSolicitor.solicitor.businessDirectorIds);
 
-    CARAPI GetSolicitor.BusinessDirectorIds(
+    CARAPI GetSolicitor_BusinessDirectorIds(
      /* [out, callee] */ ArrayOf<CAdministration.businessDirector>* CSolicitor.solicitor.businessDirectorIds);
 
 
-   CARAPI SetSolicitor.BusinessChannelOwnerId(
+   CARAPI SetSolicitor_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CSolicitor.solicitor.businessChannelOwnerId);
 
-    CARAPI GetSolicitor.BusinessChannelOwnerId(
+    CARAPI GetSolicitor_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CSolicitor.solicitor.businessChannelOwnerId);
 
 
@@ -166,38 +166,38 @@ public:
 
 protected:
     // Member variables
-const String& mSetSolicitor.SolicitorId
-String* mGetSolicitor.SolicitorId
-const String& mSetSolicitor.ABN
-String* mGetSolicitor.ABN
-const String& mSetSolicitor.CompanyName
-String* mGetSolicitor.CompanyName
-ArrayOf<const String&> mSetSolicitor.ContactFirstNameList
-ArrayOf<String>* mGetSolicitor.ContactFirstNameList
-ArrayOf<const String&> mSetSolicitor.ContactLastNameList
-ArrayOf<String>* mGetSolicitor.ContactLastNameList
-ArrayOf<const String&> mSetSolicitor.OfficelAddresses
-ArrayOf<String>* mGetSolicitor.OfficelAddresses
-ArrayOf<const String&> mSetSolicitor.PostalAddresses
-ArrayOf<String>* mGetSolicitor.PostalAddresses
-ArrayOf<const String&> mSetSolicitor.EmailAddresses
-ArrayOf<String>* mGetSolicitor.EmailAddresses
-ArrayOf<Int32> mSetSolicitor.MobilePhone
-ArrayOf<Int32>* mGetSolicitor.MobilePhone
-ArrayOf<Int32> mSetSolicitor.WorkPhone
-ArrayOf<Int32>* mGetSolicitor.WorkPhone
-ArrayOf<const String&> mSetSolicitor.ContactedWithDetails
-ArrayOf<String>* mGetSolicitor.ContactedWithDetails
-CProperty.property mSetSolicitor.PropertyId
-CProperty.property* mGetSolicitor.PropertyId
-ArrayOf<CAdministration.documents> mSetSolicitor.DocRefIds
-ArrayOf<CAdministration.documents>* mGetSolicitor.DocRefIds
-ArrayOf<CAdministration.images> mSetSolicitor.ImageRefIds
-ArrayOf<CAdministration.images>* mGetSolicitor.ImageRefIds
-ArrayOf<CAdministration.businessDirector> mSetSolicitor.BusinessDirectorIds
-ArrayOf<CAdministration.businessDirector>* mGetSolicitor.BusinessDirectorIds
-CRegister.businessChannelOwner mSetSolicitor.BusinessChannelOwnerId
-CRegister.businessChannelOwner* mGetSolicitor.BusinessChannelOwnerId
+const String& mSetSolicitor_SolicitorId
+String* mGetSolicitor_SolicitorId
+const String& mSetSolicitor_ABN
+String* mGetSolicitor_ABN
+const String& mSetSolicitor_CompanyName
+String* mGetSolicitor_CompanyName
+ArrayOf<const String&> mSetSolicitor_ContactFirstNameList
+ArrayOf<String>* mGetSolicitor_ContactFirstNameList
+ArrayOf<const String&> mSetSolicitor_ContactLastNameList
+ArrayOf<String>* mGetSolicitor_ContactLastNameList
+ArrayOf<const String&> mSetSolicitor_OfficelAddresses
+ArrayOf<String>* mGetSolicitor_OfficelAddresses
+ArrayOf<const String&> mSetSolicitor_PostalAddresses
+ArrayOf<String>* mGetSolicitor_PostalAddresses
+ArrayOf<const String&> mSetSolicitor_EmailAddresses
+ArrayOf<String>* mGetSolicitor_EmailAddresses
+ArrayOf<Int32> mSetSolicitor_MobilePhone
+ArrayOf<Int32>* mGetSolicitor_MobilePhone
+ArrayOf<Int32> mSetSolicitor_WorkPhone
+ArrayOf<Int32>* mGetSolicitor_WorkPhone
+ArrayOf<const String&> mSetSolicitor_ContactedWithDetails
+ArrayOf<String>* mGetSolicitor_ContactedWithDetails
+CProperty.property mSetSolicitor_PropertyId
+CProperty.property* mGetSolicitor_PropertyId
+ArrayOf<CAdministration.documents> mSetSolicitor_DocRefIds
+ArrayOf<CAdministration.documents>* mGetSolicitor_DocRefIds
+ArrayOf<CAdministration.images> mSetSolicitor_ImageRefIds
+ArrayOf<CAdministration.images>* mGetSolicitor_ImageRefIds
+ArrayOf<CAdministration.businessDirector> mSetSolicitor_BusinessDirectorIds
+ArrayOf<CAdministration.businessDirector>* mGetSolicitor_BusinessDirectorIds
+CRegister.businessChannelOwner mSetSolicitor_BusinessChannelOwnerId
+CRegister.businessChannelOwner* mGetSolicitor_BusinessChannelOwnerId
 };
 
 } // ChubbaMorris
