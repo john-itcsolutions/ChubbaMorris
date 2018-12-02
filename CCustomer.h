@@ -1955,23 +1955,23 @@ ArrayOf<const String&> mSetCustomer_BillingAddress
 ArrayOf<String>* mGetCustomer_BillingAddress
 const String& mSetCustomer_Email
 String* mGetCustomer_Email
-Int32 mSetCustomer.HomePhone
-Int32* mGetCustomer.HomePhone
-Int32 mSetCustomer.MobilePhone
-Int32* mGetCustomer.MobilePhone
-Int32 mSetCustomer.WorkPhone
-Int32* mGetCustomer.WorkPhone
+Int32 mSetCustomer_HomePhone
+Int32* mGetCustomer_HomePhone
+Int32 mSetCustomer_MobilePhone
+Int32* mGetCustomer_MobilePhone
+Int32 mSetCustomer_WorkPhone
+Int32* mGetCustomer_WorkPhone
 ArrayOf<const String&> mSetCustomer_AmenitiesRequired
 ArrayOf<String>* mGetCustomer_AmenitiesRequired
 ArrayOf<const String&> mSetCustomer_StreetsDesired
 ArrayOf<String>* mGetCustomer_StreetsDesired
 ArrayOf<Int32> mSetCustomer_PostcodesDesired
 ArrayOf<Int32>* mGetCustomer_PostcodesDesired
-Int32 mSetCustomer.BedroomsRequired
-Int32* mGetCustomer.BedroomsRequired
-Double mSetCustomer.MaxPriceOffering
+Int32 mSetCustomer_BedroomsRequired
+Int32* mGetCustomer_BedroomsRequired
+Double mSetCustomer_MaxPriceOffering
 Double* mGetCustomer_MaxPriceOffering
-Double mSetCustomer.MinPriceOffering
+Double mSetCustomer_MinPriceOffering
 Double* mGetCustomer_MinPriceOffering
 ArrayOf<Double> mSetCustomer_MaxPriceAsking
 ArrayOf<Double>* mGetCustomer_MaxPriceAsking
@@ -1979,8 +1979,8 @@ ArrayOf<Double> mSetCustomer_MinPriceAsking
 ArrayOf<Double>* mGetCustomer_MinPriceAsking
 const String& mSetCustomer_CentrelinkCRN
 String* mGetCustomer_CentrelinkCRN
-Int32 mSetCustomer.ATOTFN
-Int32* mGetCustomer.ATOTFN
+Int32 mSetCustomer_ATOTFN
+Int32* mGetCustomer_ATOTFN
 const String& mSetCustomer_ABN
 String* mGetCustomer_ABN
 ArrayOf<const String&> mSetCustomer_ContactedWithDetails
@@ -2033,8 +2033,8 @@ const String& mSetApplicant_ApplicantId
 String* mGetApplicant_ApplicantId
 ArrayOf<Int32> mSetApplicant_PostcodesAppliedFor
 ArrayOf<Int32>* mGetApplicant_PostcodesAppliedFor
-Int32 mSetApplicant.BedroomsSought
-Int32* mGetApplicant.BedroomsSought
+Int32 mSetApplicant_BedroomsSought
+Int32* mGetApplicant_BedroomsSought
 ArrayOf<const String&> mSetApplicant_AmenitiesRequested
 ArrayOf<String>* mGetApplicant_AmenitiesRequested
 const String& mSetApplicant_FirstName
@@ -2047,12 +2047,12 @@ const String& mSetApplicant_PostalAddress
 String* mGetApplicant_PostalAddress
 const String& mSetApplicant_Email
 String* mGetApplicant_Email
-Int32 mSetApplicant.HomePhone
-Int32* mGetApplicant.HomePhone
-Int32 mSetApplicant.MobilePhone
-Int32* mGetApplicant.MobilePhone
-Int32 mSetApplicant.WorkPhone
-Int32* mGetApplicant.WorkPhone
+Int32 mSetApplicant_HomePhone
+Int32* mGetApplicant_HomePhone
+Int32 mSetApplicant_MobilePhone
+Int32* mGetApplicant_MobilePhone
+Int32 mSetApplicant_WorkPhone
+Int32* mGetApplicant_WorkPhone
 ArrayOf<const String&> mSetApplicant_ContactedWithDetails
 ArrayOf<String>* mGetApplicant_ContactedWithDetails
 CCustomer.application mSetApplicant_ApplicationId
@@ -2073,18 +2073,18 @@ CRegister.businessChannelOwner mSetApplicant_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetApplicant_BusinessChannelOwnerId
 const String& mSetApplication_ApplicationId
 String* mGetApplication_ApplicationId
-Boolean mSetApplication.SocialHousingApplication
-Boolean* mGetApplication.SocialHousingApplication
-Boolean mSetApplication.NDIS
-Boolean* mGetApplication.NDIS
-Boolean mSetApplication.AffordableHousingApplication
-Boolean* mGetApplication.AffordableHousingApplication
-Boolean mSetApplication.SharedEquityHousingApplication
-Boolean* mGetApplication.SharedEquityHousingApplication
-Boolean mSetApplication.RentToBuyApplication
-Boolean* mGetApplication.RentToBuyApplication
-Boolean mSetApplication.MarketRateHousingApplication
-Boolean* mGetApplication.MarketRateHousingApplication
+Boolean mSetApplication_SocialHousingApplication
+Boolean* mGetApplication_SocialHousingApplication
+Boolean mSetApplication_NDIS
+Boolean* mGetApplication_NDIS
+Boolean mSetApplication_AffordableHousingApplication
+Boolean* mGetApplication_AffordableHousingApplication
+Boolean mSetApplication_SharedEquityHousingApplication
+Boolean* mGetApplication_SharedEquityHousingApplication
+Boolean mSetApplication_RentToBuyApplication
+Boolean* mGetApplication_RentToBuyApplication
+Boolean mSetApplication_MarketRateHousingApplication
+Boolean* mGetApplication_MarketRateHousingApplication
 const String& mSetApplication_HeadApplicantFirstName
 String* mGetApplication_HeadApplicantFirstName
 const String& mSetApplication_HeadApplicantLastName
@@ -2161,7 +2161,7 @@ const String& mSetStudentAccommodationBookings_PostInspected
 String* mGetStudentAccommodationBookings_PostInspected
 CHelper.billingInterval mSetStudentAccommodationBookings_PaymentInterval
 CHelper.billingInterval* mGetStudentAccommodationBookings_PaymentInterval
-Double mSetStudentAccommodationBookings.RentalAmountAgreed
+Double mSetStudentAccommodationBookings_RentalAmountAgreed
 Double* mGetStudentAccommodationBookings_RentalAmountAgreed
 CRegister.businessChannelOwner mSetStudentAccommodationBookings_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetStudentAccommodationBookings_BusinessChannelOwnerId
@@ -2201,7 +2201,7 @@ const String& mSetStudentAccommodationBookings_PostInspected
 String* mGetStudentAccommodationBookings_PostInspected
 CHelper.billingInterval mSetStudentAccommodationBookings_PaymentInterval
 CHelper.billingInterval* mGetStudentAccommodationBookings_PaymentInterval
-Double mSetStudentAccommodationBookings.RentalAmountAgreed
+Double mSetStudentAccommodationBookings_RentalAmountAgreed
 Double* mGetStudentAccommodationBookings_RentalAmountAgreed
 CRegister.businessChannelOwner mSetStudentAccommodationBookings_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetStudentAccommodationBookings_BusinessChannelOwnerId
@@ -2249,7 +2249,7 @@ const String& mSetTemporaryAccommodationBookings_PostInspected
 String* mGetTemporaryAccommodationBookings_PostInspected
 CHelper.billingInterval mSetTemporaryAccommodationBookings_PaymentInterval
 CHelper.billingInterval* mGetTemporaryAccommodationBookings_PaymentInterval
-Double mSetTemporaryAccommodationBookings.RentalAmountAgreed
+Double mSetTemporaryAccommodationBookings_RentalAmountAgreed
 Double* mGetTemporaryAccommodationBookings_RentalAmountAgreed
 CRegister.businessChannelOwner mSetTemporaryAccommodationBookings_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetTemporaryAccommodationBookings_BusinessChannelOwnerId
@@ -2289,7 +2289,7 @@ const String& mSetTemporaryAccommodationBookings_PostInspected
 String* mGetTemporaryAccommodationBookings_PostInspected
 CHelper.billingInterval mSetTemporaryAccommodationBookings_PaymentInterval
 CHelper.billingInterval* mGetTemporaryAccommodationBookings_PaymentInterval
-Double mSetTemporaryAccommodationBookings.RentalAmountAgreed
+Double mSetTemporaryAccommodationBookings_RentalAmountAgreed
 Double* mGetTemporaryAccommodationBookings_RentalAmountAgreed
 CRegister.businessChannelOwner mSetTemporaryAccommodationBookings_BusinessChannelOwnerId
 CRegister.businessChannelOwner* mGetTemporaryAccommodationBookings_BusinessChannelOwnerId
@@ -2335,12 +2335,12 @@ const String& mSetComplaint_ParticipantIdComplainant
 String* mGetComplaint_ParticipantIdComplainant
 const String& mSetComplaint_Description
 String* mGetComplaint_Description
-Boolean mSetComplaint.NonTenantRelated
-Boolean* mGetComplaint.NonTenantRelated
-Boolean mSetComplaint.AgainstTenant
-Boolean* mGetComplaint.AgainstTenant
-Boolean mSetComplaint.ByTenant
-Boolean* mGetComplaint.ByTenant
+Boolean mSetComplaint_NonTenantRelated
+Boolean* mGetComplaint_NonTenantRelated
+Boolean mSetComplaint_AgainstTenant
+Boolean* mGetComplaint_AgainstTenant
+Boolean mSetComplaint_ByTenant
+Boolean* mGetComplaint_ByTenant
 ArrayOf<const String&> mSetComplaint_DetailsInChronologicalOrder
 ArrayOf<String>* mGetComplaint_DetailsInChronologicalOrder
 ArrayOf<const String&> mSetComplaint_DatesTimesOfEvents
@@ -2403,12 +2403,12 @@ const String& mSetCompliment_ParticipantIdComplimenting
 String* mGetCompliment_ParticipantIdComplimenting
 const String& mSetCompliment_Description
 String* mGetCompliment_Description
-Boolean mSetCompliment.NonTenantRelated
-Boolean* mGetCompliment.NonTenantRelated
-Boolean mSetCompliment.ProTenant
-Boolean* mGetCompliment.ProTenant
-Boolean mSetCompliment.ByTenant
-Boolean* mGetCompliment.ByTenant
+Boolean mSetCompliment_NonTenantRelated
+Boolean* mGetCompliment_NonTenantRelated
+Boolean mSetCompliment_ProTenant
+Boolean* mGetCompliment_ProTenant
+Boolean mSetCompliment_ByTenant
+Boolean* mGetCompliment_ByTenant
 ArrayOf<const String&> mSetCompliment_DetailsInChronologicalOrder
 ArrayOf<String>* mGetCompliment_DetailsInChronologicalOrder
 ArrayOf<const String&> mSetCompliment_DatesTimesOfEvents
