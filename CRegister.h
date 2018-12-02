@@ -49,565 +49,565 @@ public:
     // ICH interface function
     //
   
-   CARAPI SetSideChainOperator.SideChainOperatorId(
+   CARAPI SetSideChainOperator_SideChainOperatorId(
      /* [in] */ const String& CRegister.sideChainOperator.sideChainOperatorId);
 
-    CARAPI GetSideChainOperator.SideChainOperatorId(
+    CARAPI GetSideChainOperator_SideChainOperatorId(
      /* [out] */ String* CRegister.sideChainOperator.sideChainOperatorId);
 
 
-   CARAPI SetSideChainOperator.EquivalentBusinessChannelOwnerId(
+   CARAPI SetSideChainOperator_EquivalentBusinessChannelOwnerId(
      /* [in] */ const String& CRegister.sideChainOperator.equivalentBusinessChannelOwnerId);
 
-    CARAPI GetSideChainOperator.EquivalentBusinessChannelOwnerId(
+    CARAPI GetSideChainOperator_EquivalentBusinessChannelOwnerId(
      /* [out] */ String* CRegister.sideChainOperator.equivalentBusinessChannelOwnerId);
 
 
-   CARAPI SetSideChainOperator.BankName(
+   CARAPI SetSideChainOperator_BankName(
      /* [in] */ const String& CRegister.sideChainOperator.bankName);
 
-    CARAPI GetSideChainOperator.BankName(
+    CARAPI GetSideChainOperator_BankName(
      /* [out] */ String* CRegister.sideChainOperator.bankName);
 
 
-   CARAPI SetSideChainOperator.BankBSB(
+   CARAPI SetSideChainOperator_BankBSB(
      /* [in] */ const String& CRegister.sideChainOperator.bankBSB);
 
-    CARAPI GetSideChainOperator.BankBSB(
+    CARAPI GetSideChainOperator_BankBSB(
      /* [out] */ String* CRegister.sideChainOperator.bankBSB);
 
 
-   CARAPI SetSideChainOperator.BankAccNum(
+   CARAPI SetSideChainOperator_BankAccNum(
      /* [in] */ const String& CRegister.sideChainOperator.bankAccNum);
 
-    CARAPI GetSideChainOperator.BankAccNum(
+    CARAPI GetSideChainOperator_BankAccNum(
      /* [out] */ String* CRegister.sideChainOperator.bankAccNum);
 
 
-   CARAPI SetSideChainOperator.BusinessName(
+   CARAPI SetSideChainOperator_BusinessName(
      /* [in] */ const String& CRegister.sideChainOperator.businessName);
 
-    CARAPI GetSideChainOperator.BusinessName(
+    CARAPI GetSideChainOperator_BusinessName(
      /* [out] */ String* CRegister.sideChainOperator.businessName);
 
 
-   CARAPI SetSideChainOperator.ContactFirstNameList(
+   CARAPI SetSideChainOperator_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegister.sideChainOperator.contactFirstNameList);
 
-    CARAPI GetSideChainOperator.ContactFirstNameList(
+    CARAPI GetSideChainOperator_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegister.sideChainOperator.contactFirstNameList);
 
 
-   CARAPI SetSideChainOperator.ContactLastNameList(
+   CARAPI SetSideChainOperator_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegister.sideChainOperator.contactLastNameList);
 
-    CARAPI GetSideChainOperator.ContactLastNameList(
+    CARAPI GetSideChainOperator_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegister.sideChainOperator.contactLastNameList);
 
 
-   CARAPI SetSideChainOperator.StreetAddress(
+   CARAPI SetSideChainOperator_StreetAddress(
      /* [in] */ const String& CRegister.sideChainOperator.streetAddress);
 
-    CARAPI GetSideChainOperator.StreetAddress(
+    CARAPI GetSideChainOperator_StreetAddress(
      /* [out] */ String* CRegister.sideChainOperator.streetAddress);
 
 
-   CARAPI SetSideChainOperator.PostalAddress(
+   CARAPI SetSideChainOperator_PostalAddress(
      /* [in] */ const String& CRegister.sideChainOperator.postalAddress);
 
-    CARAPI GetSideChainOperator.PostalAddress(
+    CARAPI GetSideChainOperator_PostalAddress(
      /* [out] */ String* CRegister.sideChainOperator.postalAddress);
 
 
-   CARAPI SetSideChainOperator.EmailAddressList(
+   CARAPI SetSideChainOperator_EmailAddressList(
      /* [in] */ ArrayOf<const String&> CRegister.sideChainOperator.emailAddressList);
 
-    CARAPI GetSideChainOperator.EmailAddressList(
+    CARAPI GetSideChainOperator_EmailAddressList(
      /* [out, callee] */ ArrayOf<String>* CRegister.sideChainOperator.emailAddressList);
 
 
-   CARAPI SetSideChainOperator.WorkPhone(
+   CARAPI SetSideChainOperator_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegister.sideChainOperator.workPhone);
 
-    CARAPI GetSideChainOperator.WorkPhone(
+    CARAPI GetSideChainOperator_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegister.sideChainOperator.workPhone);
 
 
-   CARAPI SetSideChainOperator.MobilePhone(
+   CARAPI SetSideChainOperator_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegister.sideChainOperator.mobilePhone);
 
-    CARAPI GetSideChainOperator.MobilePhone(
+    CARAPI GetSideChainOperator_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegister.sideChainOperator.mobilePhone);
 
 
-   CARAPI SetSideChainOperator.HomePhone(
+   CARAPI SetSideChainOperator_HomePhone(
      /* [in] */ ArrayOf<Int32> CRegister.sideChainOperator.homePhone);
 
-    CARAPI GetSideChainOperator.HomePhone(
+    CARAPI GetSideChainOperator_HomePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegister.sideChainOperator.homePhone);
 
 
-   CARAPI SetSideChainOperator.ATOTFN(
+   CARAPI SetSideChainOperator_ATOTFN(
      /* [in] */ const String& CRegister.sideChainOperator.aTOTFN);
 
-    CARAPI GetSideChainOperator.ATOTFN(
+    CARAPI GetSideChainOperator_ATOTFN(
      /* [out] */ String* CRegister.sideChainOperator.aTOTFN);
 
 
-   CARAPI SetSideChainOperator.ABN(
+   CARAPI SetSideChainOperator_ABN(
      /* [in] */ const String& CRegister.sideChainOperator.aBN);
 
-    CARAPI GetSideChainOperator.ABN(
+    CARAPI GetSideChainOperator_ABN(
      /* [out] */ String* CRegister.sideChainOperator.aBN);
 
 
-   CARAPI SetSideChainOperator.ACN(
+   CARAPI SetSideChainOperator_ACN(
      /* [in] */ const String& CRegister.sideChainOperator.aCN);
 
-    CARAPI GetSideChainOperator.ACN(
+    CARAPI GetSideChainOperator_ACN(
      /* [out] */ String* CRegister.sideChainOperator.aCN);
 
 
-   CARAPI SetSideChainOperator.StartTaxYear(
+   CARAPI SetSideChainOperator_StartTaxYear(
      /* [in] */ const String& CRegister.sideChainOperator.startTaxYear);
 
-    CARAPI GetSideChainOperator.StartTaxYear(
+    CARAPI GetSideChainOperator_StartTaxYear(
      /* [out] */ String* CRegister.sideChainOperator.startTaxYear);
 
 
-   CARAPI SetSideChainOperator.NextFinTxNum(
+   CARAPI SetSideChainOperator_NextFinTxNum(
      /* [in] */ Int32 CRegister.sideChainOperator.nextFinTxNum);
 
-    CARAPI GetSideChainOperator.NextFinTxNum(
+    CARAPI GetSideChainOperator_NextFinTxNum(
      /* [out] */ Int32* CRegister.sideChainOperator.nextFinTxNum);
 
 
-   CARAPI SetSideChainOperator.NextJobNumPerformed(
+   CARAPI SetSideChainOperator_NextJobNumPerformed(
      /* [in] */ Int32 CRegister.sideChainOperator.nextJobNumPerformed);
 
-    CARAPI GetSideChainOperator.NextJobNumPerformed(
+    CARAPI GetSideChainOperator_NextJobNumPerformed(
      /* [out] */ Int32* CRegister.sideChainOperator.nextJobNumPerformed);
 
 
-   CARAPI SetSideChainOperator.NextLinkingInternalBudgetNum(
+   CARAPI SetSideChainOperator_NextLinkingInternalBudgetNum(
      /* [in] */ Int32 CRegister.sideChainOperator.nextLinkingInternalBudgetNum);
 
-    CARAPI GetSideChainOperator.NextLinkingInternalBudgetNum(
+    CARAPI GetSideChainOperator_NextLinkingInternalBudgetNum(
      /* [out] */ Int32* CRegister.sideChainOperator.nextLinkingInternalBudgetNum);
 
 
-   CARAPI SetSideChainOperator.ChartOfAccountsIds(
+   CARAPI SetSideChainOperator_ChartOfAccountsIds(
      /* [in] */ ArrayOf<CFinance.chartOfAccounts> CRegister.sideChainOperator.chartOfAccountsIds);
 
-    CARAPI GetSideChainOperator.ChartOfAccountsIds(
+    CARAPI GetSideChainOperator_ChartOfAccountsIds(
      /* [out, callee] */ ArrayOf<CFinance.chartOfAccounts>* CRegister.sideChainOperator.chartOfAccountsIds);
 
 
-   CARAPI SetSideChainOperator.ChartOfClassesIds(
+   CARAPI SetSideChainOperator_ChartOfClassesIds(
      /* [in] */ ArrayOf<CFinance.chartOfClasses> CRegister.sideChainOperator.chartOfClassesIds);
 
-    CARAPI GetSideChainOperator.ChartOfClassesIds(
+    CARAPI GetSideChainOperator_ChartOfClassesIds(
      /* [out, callee] */ ArrayOf<CFinance.chartOfClasses>* CRegister.sideChainOperator.chartOfClassesIds);
 
 
-   CARAPI SetSideChainOperator.BusinessDirectorIds(
+   CARAPI SetSideChainOperator_BusinessDirectorIds(
      /* [in] */ ArrayOf<CAdministration.businessDirector> CRegister.sideChainOperator.businessDirectorIds);
 
-    CARAPI GetSideChainOperator.BusinessDirectorIds(
+    CARAPI GetSideChainOperator_BusinessDirectorIds(
      /* [out, callee] */ ArrayOf<CAdministration.businessDirector>* CRegister.sideChainOperator.businessDirectorIds);
 
 
-   CARAPI SetSideChainOperator.DocRefIds(
+   CARAPI SetSideChainOperator_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegister.sideChainOperator.docRefIds);
 
-    CARAPI GetSideChainOperator.DocRefIds(
+    CARAPI GetSideChainOperator_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegister.sideChainOperator.docRefIds);
 
 
-   CARAPI SetSideChainOperator.ImageRefIds(
+   CARAPI SetSideChainOperator_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegister.sideChainOperator.imageRefIds);
 
-    CARAPI GetSideChainOperator.ImageRefIds(
+    CARAPI GetSideChainOperator_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegister.sideChainOperator.imageRefIds);
 
 
-   CARAPI SetBusinessChannelOwner.BusinessChannelOwnerId(
+   CARAPI SetBusinessChannelOwner_BusinessChannelOwnerId(
      /* [in] */ const String& CRegister.businessChannelOwner.businessChannelOwnerId);
 
-    CARAPI GetBusinessChannelOwner.BusinessChannelOwnerId(
+    CARAPI GetBusinessChannelOwner_BusinessChannelOwnerId(
      /* [out] */ String* CRegister.businessChannelOwner.businessChannelOwnerId);
 
 
-   CARAPI SetBusinessChannelOwner.LinkedToThisSideChainOperatorId(
+   CARAPI SetBusinessChannelOwner_LinkedToThisSideChainOperatorId(
      /* [in] */ const String& CRegister.businessChannelOwner.linkedToThisSideChainOperatorId);
 
-    CARAPI GetBusinessChannelOwner.LinkedToThisSideChainOperatorId(
+    CARAPI GetBusinessChannelOwner_LinkedToThisSideChainOperatorId(
      /* [out] */ String* CRegister.businessChannelOwner.linkedToThisSideChainOperatorId);
 
 
-   CARAPI SetBusinessChannelOwner.LinkedToThisSupplierId(
+   CARAPI SetBusinessChannelOwner_LinkedToThisSupplierId(
      /* [in] */ const String& CRegister.businessChannelOwner.linkedToThisSupplierId);
 
-    CARAPI GetBusinessChannelOwner.LinkedToThisSupplierId(
+    CARAPI GetBusinessChannelOwner_LinkedToThisSupplierId(
      /* [out] */ String* CRegister.businessChannelOwner.linkedToThisSupplierId);
 
 
-   CARAPI SetBusinessChannelOwner.LinkedToThisSolicitorId(
+   CARAPI SetBusinessChannelOwner_LinkedToThisSolicitorId(
      /* [in] */ const String& CRegister.businessChannelOwner.linkedToThisSolicitorId);
 
-    CARAPI GetBusinessChannelOwner.LinkedToThisSolicitorId(
+    CARAPI GetBusinessChannelOwner_LinkedToThisSolicitorId(
      /* [out] */ String* CRegister.businessChannelOwner.linkedToThisSolicitorId);
 
 
-   CARAPI SetBusinessChannelOwner.LinkedToThisEmployeeId(
+   CARAPI SetBusinessChannelOwner_LinkedToThisEmployeeId(
      /* [in] */ const String& CRegister.businessChannelOwner.linkedToThisEmployeeId);
 
-    CARAPI GetBusinessChannelOwner.LinkedToThisEmployeeId(
+    CARAPI GetBusinessChannelOwner_LinkedToThisEmployeeId(
      /* [out] */ String* CRegister.businessChannelOwner.linkedToThisEmployeeId);
 
 
-   CARAPI SetBusinessChannelOwner.LinkedToThisCustomerId(
+   CARAPI SetBusinessChannelOwner_LinkedToThisCustomerId(
      /* [in] */ const String& CRegister.businessChannelOwner.linkedToThisCustomerId);
 
-    CARAPI GetBusinessChannelOwner.LinkedToThisCustomerId(
+    CARAPI GetBusinessChannelOwner_LinkedToThisCustomerId(
      /* [out] */ String* CRegister.businessChannelOwner.linkedToThisCustomerId);
 
 
-   CARAPI SetBusinessChannelOwner.LinkedToThisStakeholderId(
+   CARAPI SetBusinessChannelOwner_LinkedToThisStakeholderId(
      /* [in] */ const String& CRegister.businessChannelOwner.linkedToThisStakeholderId);
 
-    CARAPI GetBusinessChannelOwner.LinkedToThisStakeholderId(
+    CARAPI GetBusinessChannelOwner_LinkedToThisStakeholderId(
      /* [out] */ String* CRegister.businessChannelOwner.linkedToThisStakeholderId);
 
 
-   CARAPI SetBusinessChannelOwner.LinkedToThisRegulatorId(
+   CARAPI SetBusinessChannelOwner_LinkedToThisRegulatorId(
      /* [in] */ const String& CRegister.businessChannelOwner.linkedToThisRegulatorId);
 
-    CARAPI GetBusinessChannelOwner.LinkedToThisRegulatorId(
+    CARAPI GetBusinessChannelOwner_LinkedToThisRegulatorId(
      /* [out] */ String* CRegister.businessChannelOwner.linkedToThisRegulatorId);
 
-   CARAPI SetBusinessChannelOwner.LinkedToThisBankId(
+   CARAPI SetBusinessChannelOwner_LinkedToThisBankId(
      /* [in] */ const String& CRegister.businessChannelOwner.linkedToThisBankId);
 
-    CARAPI GetBusinessChannelOwner.LinkedToThisBankId(
+    CARAPI GetBusinessChannelOwner_LinkedToThisBankId(
      /* [out] */ String* CRegister.businessChannelOwner.linkedToThisBankId);
 
 
-   CARAPI SetBusinessChannelOwner.BankName(
+   CARAPI SetBusinessChannelOwner_BankName(
      /* [in] */ const String& CRegister.businessChannelOwner.bankName);
 
-    CARAPI GetBusinessChannelOwner.BankName(
+    CARAPI GetBusinessChannelOwner_BankName(
      /* [out] */ String* CRegister.businessChannelOwner.bankName);
 
 
-   CARAPI SetBusinessChannelOwner.BankBSB(
+   CARAPI SetBusinessChannelOwner_BankBSB(
      /* [in] */ const String& CRegister.businessChannelOwner.bankBSB);
 
-    CARAPI GetBusinessChannelOwner.BankBSB(
+    CARAPI GetBusinessChannelOwner_BankBSB(
      /* [out] */ String* CRegister.businessChannelOwner.bankBSB);
 
 
-   CARAPI SetBusinessChannelOwner.BankAccNum(
+   CARAPI SetBusinessChannelOwner_BankAccNum(
      /* [in] */ const String& CRegister.businessChannelOwner.bankAccNum);
 
-    CARAPI GetBusinessChannelOwner.BankAccNum(
+    CARAPI GetBusinessChannelOwner_BankAccNum(
      /* [out] */ String* CRegister.businessChannelOwner.bankAccNum);
 
 
-   CARAPI SetBusinessChannelOwner.AllBranchIds(
+   CARAPI SetBusinessChannelOwner_AllBranchIds(
      /* [in] */ ArrayOf<const String&> CRegister.businessChannelOwner.allBranchIds);
 
-    CARAPI GetBusinessChannelOwner.AllBranchIds(
+    CARAPI GetBusinessChannelOwner_AllBranchIds(
      /* [out, callee] */ ArrayOf<String>* CRegister.businessChannelOwner.allBranchIds);
 
 
-   CARAPI SetBusinessChannelOwner.BusinessName(
+   CARAPI SetBusinessChannelOwner_BusinessName(
      /* [in] */ const String& CRegister.businessChannelOwner.businessName);
 
-    CARAPI GetBusinessChannelOwner.BusinessName(
+    CARAPI GetBusinessChannelOwner_BusinessName(
      /* [out] */ String* CRegister.businessChannelOwner.businessName);
 
 
-   CARAPI SetBusinessChannelOwner.ContactFirstNameList(
+   CARAPI SetBusinessChannelOwner_ContactFirstNameList(
      /* [in] */ ArrayOf<const String&> CRegister.businessChannelOwner.contactFirstNameList);
 
-    CARAPI GetBusinessChannelOwner.ContactFirstNameList(
+    CARAPI GetBusinessChannelOwner_ContactFirstNameList(
      /* [out, callee] */ ArrayOf<String>* CRegister.businessChannelOwner.contactFirstNameList);
 
 
-   CARAPI SetBusinessChannelOwner.ContactLastNameList(
+   CARAPI SetBusinessChannelOwner_ContactLastNameList(
      /* [in] */ ArrayOf<const String&> CRegister.businessChannelOwner.contactLastNameList);
 
-    CARAPI GetBusinessChannelOwner.ContactLastNameList(
+    CARAPI GetBusinessChannelOwner_ContactLastNameList(
      /* [out, callee] */ ArrayOf<String>* CRegister.businessChannelOwner.contactLastNameList);
 
 
-   CARAPI SetBusinessChannelOwner.StreetAddress(
+   CARAPI SetBusinessChannelOwner_StreetAddress(
      /* [in] */ const String& CRegister.businessChannelOwner.streetAddress);
 
-    CARAPI GetBusinessChannelOwner.StreetAddress(
+    CARAPI GetBusinessChannelOwner_StreetAddress(
      /* [out] */ String* CRegister.businessChannelOwner.streetAddress);
 
 
-   CARAPI SetBusinessChannelOwner.PostalAddress(
+   CARAPI SetBusinessChannelOwner_PostalAddress(
      /* [in] */ const String& CRegister.businessChannelOwner.postalAddress);
 
-    CARAPI GetBusinessChannelOwner.PostalAddress(
+    CARAPI GetBusinessChannelOwner_PostalAddress(
      /* [out] */ String* CRegister.businessChannelOwner.postalAddress);
 
 
-   CARAPI SetBusinessChannelOwner.EmailAddressList(
+   CARAPI SetBusinessChannelOwner_EmailAddressList(
      /* [in] */ ArrayOf<const String&> CRegister.businessChannelOwner.emailAddressList);
 
-    CARAPI GetBusinessChannelOwner.EmailAddressList(
+    CARAPI GetBusinessChannelOwner_EmailAddressList(
      /* [out, callee] */ ArrayOf<String>* CRegister.businessChannelOwner.emailAddressList);
 
 
-   CARAPI SetBusinessChannelOwner.WorkPhone(
+   CARAPI SetBusinessChannelOwner_WorkPhone(
      /* [in] */ ArrayOf<Int32> CRegister.businessChannelOwner.workPhone);
 
-    CARAPI GetBusinessChannelOwner.WorkPhone(
+    CARAPI GetBusinessChannelOwner_WorkPhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegister.businessChannelOwner.workPhone);
 
 
-   CARAPI SetBusinessChannelOwner.MobilePhone(
+   CARAPI SetBusinessChannelOwner_MobilePhone(
      /* [in] */ ArrayOf<Int32> CRegister.businessChannelOwner.mobilePhone);
 
-    CARAPI GetBusinessChannelOwner.MobilePhone(
+    CARAPI GetBusinessChannelOwner_MobilePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegister.businessChannelOwner.mobilePhone);
 
 
-   CARAPI SetBusinessChannelOwner.HomePhone(
+   CARAPI SetBusinessChannelOwner_HomePhone(
      /* [in] */ ArrayOf<Int32> CRegister.businessChannelOwner.homePhone);
 
-    CARAPI GetBusinessChannelOwner.HomePhone(
+    CARAPI GetBusinessChannelOwner_HomePhone(
      /* [out, callee] */ ArrayOf<Int32>* CRegister.businessChannelOwner.homePhone);
 
 
-   CARAPI SetBusinessChannelOwner.ATOTFN(
+   CARAPI SetBusinessChannelOwner_ATOTFN(
      /* [in] */ const String& CRegister.businessChannelOwner.aTOTFN);
 
-    CARAPI GetBusinessChannelOwner.ATOTFN(
+    CARAPI GetBusinessChannelOwner_ATOTFN(
      /* [out] */ String* CRegister.businessChannelOwner.aTOTFN);
 
 
-   CARAPI SetBusinessChannelOwner.ABN(
+   CARAPI SetBusinessChannelOwner_ABN(
      /* [in] */ const String& CRegister.businessChannelOwner.aBN);
 
-    CARAPI GetBusinessChannelOwner.ABN(
+    CARAPI GetBusinessChannelOwner_ABN(
      /* [out] */ String* CRegister.businessChannelOwner.aBN);
 
 
-   CARAPI SetBusinessChannelOwner.ACN(
+   CARAPI SetBusinessChannelOwner_ACN(
      /* [in] */ const String& CRegister.businessChannelOwner.aCN);
 
-    CARAPI GetBusinessChannelOwner.ACN(
+    CARAPI GetBusinessChannelOwner_ACN(
      /* [out] */ String* CRegister.businessChannelOwner.aCN);
 
 
-   CARAPI SetBusinessChannelOwner.StartTaxYear(
+   CARAPI SetBusinessChannelOwner_StartTaxYear(
      /* [in] */ const String& CRegister.businessChannelOwner.startTaxYear);
 
-    CARAPI GetBusinessChannelOwner.StartTaxYear(
+    CARAPI GetBusinessChannelOwner_StartTaxYear(
      /* [out] */ String* CRegister.businessChannelOwner.startTaxYear);
 
 
-   CARAPI SetBusinessChannelOwner.NextFinTxNum(
+   CARAPI SetBusinessChannelOwner_NextFinTxNum(
      /* [in] */ Int32 CRegister.businessChannelOwner.nextFinTxNum);
 
-    CARAPI GetBusinessChannelOwner.NextFinTxNum(
+    CARAPI GetBusinessChannelOwner_NextFinTxNum(
      /* [out] */ Int32* CRegister.businessChannelOwner.nextFinTxNum);
 
 
-   CARAPI SetBusinessChannelOwner.NextJobNumPerformed(
+   CARAPI SetBusinessChannelOwner_NextJobNumPerformed(
      /* [in] */ Int32 CRegister.businessChannelOwner.nextJobNumPerformed);
 
-    CARAPI GetBusinessChannelOwner.NextJobNumPerformed(
+    CARAPI GetBusinessChannelOwner_NextJobNumPerformed(
      /* [out] */ Int32* CRegister.businessChannelOwner.nextJobNumPerformed);
 
 
-   CARAPI SetBusinessChannelOwner.NextLinkingInternalBudgetNum(
+   CARAPI SetBusinessChannelOwner_NextLinkingInternalBudgetNum(
      /* [in] */ Int32 CRegister.businessChannelOwner.nextLinkingInternalBudgetNum);
 
-    CARAPI GetBusinessChannelOwner.NextLinkingInternalBudgetNum(
+    CARAPI GetBusinessChannelOwner_NextLinkingInternalBudgetNum(
      /* [out] */ Int32* CRegister.businessChannelOwner.nextLinkingInternalBudgetNum);
 
 
-   CARAPI SetBusinessChannelOwner.ContactedWithDetails(
+   CARAPI SetBusinessChannelOwner_ContactedWithDetails(
      /* [in] */ ArrayOf<const String&> CRegister.businessChannelOwner.contactedWithDetails);
 
-    CARAPI GetBusinessChannelOwner.ContactedWithDetails(
+    CARAPI GetBusinessChannelOwner_ContactedWithDetails(
      /* [out, callee] */ ArrayOf<String>* CRegister.businessChannelOwner.contactedWithDetails);
 
 
-   CARAPI SetBusinessChannelOwner.Active(
+   CARAPI SetBusinessChannelOwner_Active(
      /* [in] */ Boolean CRegister.businessChannelOwner.active);
 
-    CARAPI GetBusinessChannelOwner.Active(
+    CARAPI GetBusinessChannelOwner_Active(
      /* [out] */ Boolean* CRegister.businessChannelOwner.active);
 
 
-   CARAPI SetBusinessChannelOwner.ChartOfAccountsIds(
+   CARAPI SetBusinessChannelOwner_ChartOfAccountsIds(
      /* [in] */ ArrayOf<CFinance.chartOfAccounts> CRegister.businessChannelOwner.chartOfAccountsIds);
 
-    CARAPI GetBusinessChannelOwner.ChartOfAccountsIds(
+    CARAPI GetBusinessChannelOwner_ChartOfAccountsIds(
      /* [out, callee] */ ArrayOf<CFinance.chartOfAccounts>* CRegister.businessChannelOwner.chartOfAccountsIds);
 
 
-   CARAPI SetBusinessChannelOwner.ChartOfClassesIds(
+   CARAPI SetBusinessChannelOwner_ChartOfClassesIds(
      /* [in] */ ArrayOf<CFinance.chartOfClasses> CRegister.businessChannelOwner.chartOfClassesIds);
 
-    CARAPI GetBusinessChannelOwner.ChartOfClassesIds(
+    CARAPI GetBusinessChannelOwner_ChartOfClassesIds(
      /* [out, callee] */ ArrayOf<CFinance.chartOfClasses>* CRegister.businessChannelOwner.chartOfClassesIds);
 
 
-   CARAPI SetBusinessChannelOwner.BusinessDirectorIds(
+   CARAPI SetBusinessChannelOwner_BusinessDirectorIds(
      /* [in] */ ArrayOf<CAdministration.businessDirector> CRegister.businessChannelOwner.businessDirectorIds);
 
-    CARAPI GetBusinessChannelOwner.BusinessDirectorIds(
+    CARAPI GetBusinessChannelOwner_BusinessDirectorIds(
      /* [out, callee] */ ArrayOf<CAdministration.businessDirector>* CRegister.businessChannelOwner.businessDirectorIds);
 
 
-   CARAPI SetBusinessChannelOwner.DocRefIds(
+   CARAPI SetBusinessChannelOwner_DocRefIds(
      /* [in] */ ArrayOf<CAdministration.documents> CRegister.businessChannelOwner.docRefIds);
 
-    CARAPI GetBusinessChannelOwner.DocRefIds(
+    CARAPI GetBusinessChannelOwner_DocRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.documents>* CRegister.businessChannelOwner.docRefIds);
 
 
-   CARAPI SetBusinessChannelOwner.ImageRefIds(
+   CARAPI SetBusinessChannelOwner_ImageRefIds(
      /* [in] */ ArrayOf<CAdministration.images> CRegister.businessChannelOwner.imageRefIds);
 
-    CARAPI GetBusinessChannelOwner.ImageRefIds(
+    CARAPI GetBusinessChannelOwner_ImageRefIds(
      /* [out, callee] */ ArrayOf<CAdministration.images>* CRegister.businessChannelOwner.imageRefIds);
 
 
 protected:
     // Member variables
-const String& mSetSideChainOperator.SideChainOperatorId
-String* mGetSideChainOperator.SideChainOperatorId
-const String& mSetSideChainOperator.EquivalentBusinessChannelOwnerId
-String* mGetSideChainOperator.EquivalentBusinessChannelOwnerId
-const String& mSetSideChainOperator.BankName
-String* mGetSideChainOperator.BankName
-const String& mSetSideChainOperator.BankBSB
-String* mGetSideChainOperator.BankBSB
-const String& mSetSideChainOperator.BankAccNum
-String* mGetSideChainOperator.BankAccNum
-const String& mSetSideChainOperator.BusinessName
-String* mGetSideChainOperator.BusinessName
-ArrayOf<const String&> mSetSideChainOperator.ContactFirstNameList
-ArrayOf<String>* mGetSideChainOperator.ContactFirstNameList
-ArrayOf<const String&> mSetSideChainOperator.ContactLastNameList
-ArrayOf<String>* mGetSideChainOperator.ContactLastNameList
-const String& mSetSideChainOperator.StreetAddress
-String* mGetSideChainOperator.StreetAddress
-const String& mSetSideChainOperator.PostalAddress
-String* mGetSideChainOperator.PostalAddress
-ArrayOf<const String&> mSetSideChainOperator.EmailAddressList
-ArrayOf<String>* mGetSideChainOperator.EmailAddressList
-ArrayOf<Int32> mSetSideChainOperator.WorkPhone
-ArrayOf<Int32>* mGetSideChainOperator.WorkPhone
-ArrayOf<Int32> mSetSideChainOperator.MobilePhone
-ArrayOf<Int32>* mGetSideChainOperator.MobilePhone
-ArrayOf<Int32> mSetSideChainOperator.HomePhone
-ArrayOf<Int32>* mGetSideChainOperator.HomePhone
-const String& mSetSideChainOperator.ATOTFN
-String* mGetSideChainOperator.ATOTFN
-const String& mSetSideChainOperator.ABN
-String* mGetSideChainOperator.ABN
-const String& mSetSideChainOperator.ACN
-String* mGetSideChainOperator.ACN
-const String& mSetSideChainOperator.StartTaxYear
-String* mGetSideChainOperator.StartTaxYear
-Int32 mSetSideChainOperator.NextFinTxNum
-Int32* mGetSideChainOperator.NextFinTxNum
-Int32 mSetSideChainOperator.NextJobNumPerformed
-Int32* mGetSideChainOperator.NextJobNumPerformed
-Int32 mSetSideChainOperator.NextLinkingInternalBudgetNum
-Int32* mGetSideChainOperator.NextLinkingInternalBudgetNum
-ArrayOf<CFinance.chartOfAccounts> mSetSideChainOperator.ChartOfAccountsIds
-ArrayOf<CFinance.chartOfAccounts>* mGetSideChainOperator.ChartOfAccountsIds
-ArrayOf<CFinance.chartOfClasses> mSetSideChainOperator.ChartOfClassesIds
-ArrayOf<CFinance.chartOfClasses>* mGetSideChainOperator.ChartOfClassesIds
-ArrayOf<CAdministration.businessDirector> mSetSideChainOperator.BusinessDirectorIds
-ArrayOf<CAdministration.businessDirector>* mGetSideChainOperator.BusinessDirectorIds
-ArrayOf<CAdministration.documents> mSetSideChainOperator.DocRefIds
-ArrayOf<CAdministration.documents>* mGetSideChainOperator.DocRefIds
-ArrayOf<CAdministration.images> mSetSideChainOperator.ImageRefIds
-ArrayOf<CAdministration.images>* mGetSideChainOperator.ImageRefIds
-const String& mSetBusinessChannelOwner.BusinessChannelOwnerId
-String* mGetBusinessChannelOwner.BusinessChannelOwnerId
-const String& mSetBusinessChannelOwner.LinkedToThisSideChainOperatorId
-String* mGetBusinessChannelOwner.LinkedToThisSideChainOperatorId
-const String& mSetBusinessChannelOwner.LinkedToThisSupplierId
-String* mGetBusinessChannelOwner.LinkedToThisSupplierId
-const String& mSetBusinessChannelOwner.LinkedToThisSolicitorId
-String* mGetBusinessChannelOwner.LinkedToThisSolicitorId
-const String& mSetBusinessChannelOwner.LinkedToThisEmployeeId
-String* mGetBusinessChannelOwner.LinkedToThisEmployeeId
-const String& mSetBusinessChannelOwner.LinkedToThisCustomerId
-String* mGetBusinessChannelOwner.LinkedToThisCustomerId
-const String& mSetBusinessChannelOwner.LinkedToThisStakeholderId
-String* mGetBusinessChannelOwner.LinkedToThisStakeholderId
-const String& mSetBusinessChannelOwner.LinkedToThisRegulatorId
-String* mGetBusinessChannelOwner.LinkedToThisRegulatorId
-const String& mSetBusinessChannelOwner.LinkedToThisBankId
-String* mGetBusinessChannelOwner.LinkedToThisBankId
-const String& mSetBusinessChannelOwner.BankName
-String* mGetBusinessChannelOwner.BankName
-const String& mSetBusinessChannelOwner.BankBSB
-String* mGetBusinessChannelOwner.BankBSB
-const String& mSetBusinessChannelOwner.BankAccNum
-String* mGetBusinessChannelOwner.BankAccNum
-ArrayOf<const String&> mSetBusinessChannelOwner.AllBranchIds
-ArrayOf<String>* mGetBusinessChannelOwner.AllBranchIds
-const String& mSetBusinessChannelOwner.BusinessName
-String* mGetBusinessChannelOwner.BusinessName
-ArrayOf<const String&> mSetBusinessChannelOwner.ContactFirstNameList
-ArrayOf<String>* mGetBusinessChannelOwner.ContactFirstNameList
-ArrayOf<const String&> mSetBusinessChannelOwner.ContactLastNameList
-ArrayOf<String>* mGetBusinessChannelOwner.ContactLastNameList
-const String& mSetBusinessChannelOwner.StreetAddress
-String* mGetBusinessChannelOwner.StreetAddress
-const String& mSetBusinessChannelOwner.PostalAddress
-String* mGetBusinessChannelOwner.PostalAddress
-ArrayOf<const String&> mSetBusinessChannelOwner.EmailAddressList
-ArrayOf<String>* mGetBusinessChannelOwner.EmailAddressList
-ArrayOf<Int32> mSetBusinessChannelOwner.WorkPhone
-ArrayOf<Int32>* mGetBusinessChannelOwner.WorkPhone
-ArrayOf<Int32> mSetBusinessChannelOwner.MobilePhone
-ArrayOf<Int32>* mGetBusinessChannelOwner.MobilePhone
-ArrayOf<Int32> mSetBusinessChannelOwner.HomePhone
-ArrayOf<Int32>* mGetBusinessChannelOwner.HomePhone
-const String& mSetBusinessChannelOwner.ATOTFN
-String* mGetBusinessChannelOwner.ATOTFN
-const String& mSetBusinessChannelOwner.ABN
-String* mGetBusinessChannelOwner.ABN
-const String& mSetBusinessChannelOwner.ACN
-String* mGetBusinessChannelOwner.ACN
-const String& mSetBusinessChannelOwner.StartTaxYear
-String* mGetBusinessChannelOwner.StartTaxYear
-Int32 mSetBusinessChannelOwner.NextFinTxNum
-Int32* mGetBusinessChannelOwner.NextFinTxNum
-Int32 mSetBusinessChannelOwner.NextJobNumPerformed
-Int32* mGetBusinessChannelOwner.NextJobNumPerformed
-Int32 mSetBusinessChannelOwner.NextLinkingInternalBudgetNum
-Int32* mGetBusinessChannelOwner.NextLinkingInternalBudgetNum
-ArrayOf<const String&> mSetBusinessChannelOwner.ContactedWithDetails
-ArrayOf<String>* mGetBusinessChannelOwner.ContactedWithDetails
-Boolean mSetBusinessChannelOwner.Active
-Boolean* mGetBusinessChannelOwner.Active
-ArrayOf<CFinance.chartOfAccounts> mSetBusinessChannelOwner.ChartOfAccountsIds
-ArrayOf<CFinance.chartOfAccounts>* mGetBusinessChannelOwner.ChartOfAccountsIds
-ArrayOf<CFinance.chartOfClasses> mSetBusinessChannelOwner.ChartOfClassesIds
-ArrayOf<CFinance.chartOfClasses>* mGetBusinessChannelOwner.ChartOfClassesIds
-ArrayOf<CAdministration.businessDirector> mSetBusinessChannelOwner.BusinessDirectorIds
-ArrayOf<CAdministration.businessDirector>* mGetBusinessChannelOwner.BusinessDirectorIds
-ArrayOf<CAdministration.documents> mSetBusinessChannelOwner.DocRefIds
-ArrayOf<CAdministration.documents>* mGetBusinessChannelOwner.DocRefIds
-ArrayOf<CAdministration.images> mSetBusinessChannelOwner.ImageRefIds
-ArrayOf<CAdministration.images>* mGetBusinessChannelOwner.ImageRefIds
+const String& mSetSideChainOperator_SideChainOperatorId
+String* mGetSideChainOperator_SideChainOperatorId
+const String& mSetSideChainOperator_EquivalentBusinessChannelOwnerId
+String* mGetSideChainOperator_EquivalentBusinessChannelOwnerId
+const String& mSetSideChainOperator_BankName
+String* mGetSideChainOperator_BankName
+const String& mSetSideChainOperator_BankBSB
+String* mGetSideChainOperator_BankBSB
+const String& mSetSideChainOperator_BankAccNum
+String* mGetSideChainOperator_BankAccNum
+const String& mSetSideChainOperator_BusinessName
+String* mGetSideChainOperator_BusinessName
+ArrayOf<const String&> mSetSideChainOperator_ContactFirstNameList
+ArrayOf<String>* mGetSideChainOperator_ContactFirstNameList
+ArrayOf<const String&> mSetSideChainOperator_ContactLastNameList
+ArrayOf<String>* mGetSideChainOperator_ContactLastNameList
+const String& mSetSideChainOperator_StreetAddress
+String* mGetSideChainOperator_StreetAddress
+const String& mSetSideChainOperator_PostalAddress
+String* mGetSideChainOperator_PostalAddress
+ArrayOf<const String&> mSetSideChainOperator_EmailAddressList
+ArrayOf<String>* mGetSideChainOperator_EmailAddressList
+ArrayOf<Int32> mSetSideChainOperator_WorkPhone
+ArrayOf<Int32>* mGetSideChainOperator_WorkPhone
+ArrayOf<Int32> mSetSideChainOperator_MobilePhone
+ArrayOf<Int32>* mGetSideChainOperator_MobilePhone
+ArrayOf<Int32> mSetSideChainOperator_HomePhone
+ArrayOf<Int32>* mGetSideChainOperator_HomePhone
+const String& mSetSideChainOperator_ATOTFN
+String* mGetSideChainOperator_ATOTFN
+const String& mSetSideChainOperator_ABN
+String* mGetSideChainOperator_ABN
+const String& mSetSideChainOperator_ACN
+String* mGetSideChainOperator_ACN
+const String& mSetSideChainOperator_StartTaxYear
+String* mGetSideChainOperator_StartTaxYear
+Int32 mSetSideChainOperator_NextFinTxNum
+Int32* mGetSideChainOperator_NextFinTxNum
+Int32 mSetSideChainOperator_NextJobNumPerformed
+Int32* mGetSideChainOperator_NextJobNumPerformed
+Int32 mSetSideChainOperator_NextLinkingInternalBudgetNum
+Int32* mGetSideChainOperator_NextLinkingInternalBudgetNum
+ArrayOf<CFinance.chartOfAccounts> mSetSideChainOperator_ChartOfAccountsIds
+ArrayOf<CFinance.chartOfAccounts>* mGetSideChainOperator_ChartOfAccountsIds
+ArrayOf<CFinance.chartOfClasses> mSetSideChainOperator_ChartOfClassesIds
+ArrayOf<CFinance.chartOfClasses>* mGetSideChainOperator_ChartOfClassesIds
+ArrayOf<CAdministration.businessDirector> mSetSideChainOperator_BusinessDirectorIds
+ArrayOf<CAdministration.businessDirector>* mGetSideChainOperator_BusinessDirectorIds
+ArrayOf<CAdministration.documents> mSetSideChainOperator_DocRefIds
+ArrayOf<CAdministration.documents>* mGetSideChainOperator_DocRefIds
+ArrayOf<CAdministration.images> mSetSideChainOperator_ImageRefIds
+ArrayOf<CAdministration.images>* mGetSideChainOperator_ImageRefIds
+const String& mSetBusinessChannelOwner_BusinessChannelOwnerId
+String* mGetBusinessChannelOwner_BusinessChannelOwnerId
+const String& mSetBusinessChannelOwner_LinkedToThisSideChainOperatorId
+String* mGetBusinessChannelOwner_LinkedToThisSideChainOperatorId
+const String& mSetBusinessChannelOwner_LinkedToThisSupplierId
+String* mGetBusinessChannelOwner_LinkedToThisSupplierId
+const String& mSetBusinessChannelOwner_LinkedToThisSolicitorId
+String* mGetBusinessChannelOwner_LinkedToThisSolicitorId
+const String& mSetBusinessChannelOwner_LinkedToThisEmployeeId
+String* mGetBusinessChannelOwner_LinkedToThisEmployeeId
+const String& mSetBusinessChannelOwner_LinkedToThisCustomerId
+String* mGetBusinessChannelOwner_LinkedToThisCustomerId
+const String& mSetBusinessChannelOwner_LinkedToThisStakeholderId
+String* mGetBusinessChannelOwner_LinkedToThisStakeholderId
+const String& mSetBusinessChannelOwner_LinkedToThisRegulatorId
+String* mGetBusinessChannelOwner_LinkedToThisRegulatorId
+const String& mSetBusinessChannelOwner_LinkedToThisBankId
+String* mGetBusinessChannelOwner_LinkedToThisBankId
+const String& mSetBusinessChannelOwner_BankName
+String* mGetBusinessChannelOwner_BankName
+const String& mSetBusinessChannelOwner_BankBSB
+String* mGetBusinessChannelOwner_BankBSB
+const String& mSetBusinessChannelOwner_BankAccNum
+String* mGetBusinessChannelOwner_BankAccNum
+ArrayOf<const String&> mSetBusinessChannelOwner_AllBranchIds
+ArrayOf<String>* mGetBusinessChannelOwner_AllBranchIds
+const String& mSetBusinessChannelOwner_BusinessName
+String* mGetBusinessChannelOwner_BusinessName
+ArrayOf<const String&> mSetBusinessChannelOwner_ContactFirstNameList
+ArrayOf<String>* mGetBusinessChannelOwner_ContactFirstNameList
+ArrayOf<const String&> mSetBusinessChannelOwner_ContactLastNameList
+ArrayOf<String>* mGetBusinessChannelOwner_ContactLastNameList
+const String& mSetBusinessChannelOwner_StreetAddress
+String* mGetBusinessChannelOwner_StreetAddress
+const String& mSetBusinessChannelOwner_PostalAddress
+String* mGetBusinessChannelOwner_PostalAddress
+ArrayOf<const String&> mSetBusinessChannelOwner_EmailAddressList
+ArrayOf<String>* mGetBusinessChannelOwner_EmailAddressList
+ArrayOf<Int32> mSetBusinessChannelOwner_WorkPhone
+ArrayOf<Int32>* mGetBusinessChannelOwner_WorkPhone
+ArrayOf<Int32> mSetBusinessChannelOwner_MobilePhone
+ArrayOf<Int32>* mGetBusinessChannelOwner_MobilePhone
+ArrayOf<Int32> mSetBusinessChannelOwner_HomePhone
+ArrayOf<Int32>* mGetBusinessChannelOwner_HomePhone
+const String& mSetBusinessChannelOwner_ATOTFN
+String* mGetBusinessChannelOwner_ATOTFN
+const String& mSetBusinessChannelOwner_ABN
+String* mGetBusinessChannelOwner_ABN
+const String& mSetBusinessChannelOwner_ACN
+String* mGetBusinessChannelOwner_ACN
+const String& mSetBusinessChannelOwner_StartTaxYear
+String* mGetBusinessChannelOwner_StartTaxYear
+Int32 mSetBusinessChannelOwner_NextFinTxNum
+Int32* mGetBusinessChannelOwner_NextFinTxNum
+Int32 mSetBusinessChannelOwner_NextJobNumPerformed
+Int32* mGetBusinessChannelOwner_NextJobNumPerformed
+Int32 mSetBusinessChannelOwner_NextLinkingInternalBudgetNum
+Int32* mGetBusinessChannelOwner_NextLinkingInternalBudgetNum
+ArrayOf<const String&> mSetBusinessChannelOwner_ContactedWithDetails
+ArrayOf<String>* mGetBusinessChannelOwner_ContactedWithDetails
+Boolean mSetBusinessChannelOwner_Active
+Boolean* mGetBusinessChannelOwner_Active
+ArrayOf<CFinance.chartOfAccounts> mSetBusinessChannelOwner_ChartOfAccountsIds
+ArrayOf<CFinance.chartOfAccounts>* mGetBusinessChannelOwner_ChartOfAccountsIds
+ArrayOf<CFinance.chartOfClasses> mSetBusinessChannelOwner_ChartOfClassesIds
+ArrayOf<CFinance.chartOfClasses>* mGetBusinessChannelOwner_ChartOfClassesIds
+ArrayOf<CAdministration.businessDirector> mSetBusinessChannelOwner_BusinessDirectorIds
+ArrayOf<CAdministration.businessDirector>* mGetBusinessChannelOwner_BusinessDirectorIds
+ArrayOf<CAdministration.documents> mSetBusinessChannelOwner_DocRefIds
+ArrayOf<CAdministration.documents>* mGetBusinessChannelOwner_DocRefIds
+ArrayOf<CAdministration.images> mSetBusinessChannelOwner_ImageRefIds
+ArrayOf<CAdministration.images>* mGetBusinessChannelOwner_ImageRefIds
 };
 
 } // ChubbaMorris
