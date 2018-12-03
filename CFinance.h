@@ -1057,325 +1057,325 @@ public:
      /* [out] */ CRegister.businessChannelOwner* CFinance.masterLedgerFinTxJoin.businessChannelOwnerId);
 
 
-   CARAPI SetMasterLedgerAsset.MasterLedgerAssetId(
+   CARAPI SetMasterLedgerAsset_MasterLedgerAssetId(
      /* [in] */ const String& CFinance.masterLedgerAsset.masterLedgerAssetId);
 
-    CARAPI GetMasterLedgerAsset.MasterLedgerAssetId(
+    CARAPI GetMasterLedgerAsset_MasterLedgerAssetId(
      /* [out] */ String* CFinance.masterLedgerAsset.masterLedgerAssetId);
 
 
-   CARAPI SetMasterLedgerAsset.BankBSB(
+   CARAPI SetMasterLedgerAsset_BankBSB(
      /* [in] */ const String& CFinance.masterLedgerAsset.bankBSB);
 
-    CARAPI GetMasterLedgerAsset.BankBSB(
+    CARAPI GetMasterLedgerAsset_BankBSB(
      /* [out] */ String* CFinance.masterLedgerAsset.bankBSB);
 
 
-   CARAPI SetMasterLedgerAsset.BankAccountNumber(
+   CARAPI SetMasterLedgerAsset_BankAccountNumber(
      /* [in] */ const String& CFinance.masterLedgerAsset.bankAccountNumber);
 
-    CARAPI GetMasterLedgerAsset.BankAccountNumber(
+    CARAPI GetMasterLedgerAsset_BankAccountNumber(
      /* [out] */ String* CFinance.masterLedgerAsset.bankAccountNumber);
 
 
-   CARAPI SetMasterLedgerAsset.NameOnBankAccount(
+   CARAPI SetMasterLedgerAsset_NameOnBankAccount(
      /* [in] */ const String& CFinance.masterLedgerAsset.nameOnBankAccount);
 
-    CARAPI GetMasterLedgerAsset.NameOnBankAccount(
+    CARAPI GetMasterLedgerAsset_NameOnBankAccount(
      /* [out] */ String* CFinance.masterLedgerAsset.nameOnBankAccount);
 
 
-   CARAPI SetMasterLedgerAsset.Description(
+   CARAPI SetMasterLedgerAsset_Description(
      /* [in] */ const String& CFinance.masterLedgerAsset.description);
 
-    CARAPI GetMasterLedgerAsset.Description(
+    CARAPI GetMasterLedgerAsset_Description(
      /* [out] */ String* CFinance.masterLedgerAsset.description);
 
 
-   CARAPI SetMasterLedgerAsset.DocRefs(
+   CARAPI SetMasterLedgerAsset_DocRefs(
      /* [in] */ ArrayOf<const String&> CFinance.masterLedgerAsset.docRefs);
 
-    CARAPI GetMasterLedgerAsset.DocRefs(
+    CARAPI GetMasterLedgerAsset_DocRefs(
      [out, callee] ArrayOf<String>* CFinance.masterLedgerAsset.docRefs);
 
 
-   CARAPI SetMasterLedgerAsset.FeeId(
+   CARAPI SetMasterLedgerAsset_FeeId(
      /* [in] */ const String& CFinance.masterLedgerAsset.feeId);
 
-    CARAPI GetMasterLedgerAsset.FeeId(
+    CARAPI GetMasterLedgerAsset_FeeId(
      /* [out] */ String* CFinance.masterLedgerAsset.feeId);
 
 
-   CARAPI SetMasterLedgerAsset.MasLedgeFinTxNum(
+   CARAPI SetMasterLedgerAsset_MasLedgeFinTxNum(
      /* [in] */ Int32 CFinance.masterLedgerAsset.masLedgeFinTxNum);
 
-    CARAPI GetMasterLedgerAsset.MasLedgeFinTxNum(
+    CARAPI GetMasterLedgerAsset_MasLedgeFinTxNum(
      /* [out] */ Int32* CFinance.masterLedgerAsset.masLedgeFinTxNum);
 
 
-   CARAPI SetMasterLedgerAsset.Level1AccountName(
+   CARAPI SetMasterLedgerAsset_Level1AccountName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level1AccountName);
 
-    CARAPI GetMasterLedgerAsset.Level1AccountName(
+    CARAPI GetMasterLedgerAsset_Level1AccountName(
      /* [out] */ String* CFinance.masterLedgerAsset.level1AccountName);
 
 
-   CARAPI SetMasterLedgerAsset.Level1AccountNum(
+   CARAPI SetMasterLedgerAsset_Level1AccountNum(
      /* [in] */ const String& CFinance.masterLedgerAsset.level1AccountNum);
 
-    CARAPI GetMasterLedgerAsset.Level1AccountNum(
+    CARAPI GetMasterLedgerAsset_Level1AccountNum(
      /* [out] */ String* CFinance.masterLedgerAsset.level1AccountNum);
 
 
-   CARAPI SetMasterLedgerAsset.Level2AccountName(
+   CARAPI SetMasterLedgerAsset_Level2AccountName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level2AccountName);
 
-    CARAPI GetMasterLedgerAsset.Level2AccountName(
+    CARAPI GetMasterLedgerAsset_Level2AccountName(
      /* [out] */ String* CFinance.masterLedgerAsset.level2AccountName);
 
 
-   CARAPI SetMasterLedgerAsset.Level2AccountNum(
+   CARAPI SetMasterLedgerAsset_Level2AccountNum(
      /* [in] */ const String& CFinance.masterLedgerAsset.level2AccountNum);
 
-    CARAPI GetMasterLedgerAsset.Level2AccountNum(
+    CARAPI GetMasterLedgerAsset_Level2AccountNum(
      /* [out] */ String* CFinance.masterLedgerAsset.level2AccountNum);
 
 
-   CARAPI SetMasterLedgerAsset.Level3AccountName(
+   CARAPI SetMasterLedgerAsset_Level3AccountName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level3AccountName);
 
-    CARAPI GetMasterLedgerAsset.Level3AccountName(
+    CARAPI GetMasterLedgerAsset_Level3AccountName(
      /* [out] */ String* CFinance.masterLedgerAsset.level3AccountName);
 
 
-   CARAPI SetMasterLedgerAsset.Level3AccountNum(
+   CARAPI SetMasterLedgerAsset_Level3AccountNum(
      /* [in] */ const String& CFinance.masterLedgerAsset.level3AccountNum);
 
-    CARAPI GetMasterLedgerAsset.Level3AccountNum(
+    CARAPI GetMasterLedgerAsset_Level3AccountNum(
      /* [out] */ String* CFinance.masterLedgerAsset.level3AccountNum);
 
 
-   CARAPI SetMasterLedgerAsset.Level4AccountName(
+   CARAPI SetMasterLedgerAsset_Level4AccountName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level4AccountName);
 
-    CARAPI GetMasterLedgerAsset.Level4AccountName(
+    CARAPI GetMasterLedgerAsset_Level4AccountName(
      /* [out] */ String* CFinance.masterLedgerAsset.level4AccountName);
 
 
-   CARAPI SetMasterLedgerAsset.Level4AccountNum(
+   CARAPI SetMasterLedgerAsset_Level4AccountNum(
      /* [in] */ const String& CFinance.masterLedgerAsset.level4AccountNum);
 
-    CARAPI GetMasterLedgerAsset.Level4AccountNum(
+    CARAPI GetMasterLedgerAsset_Level4AccountNum(
      /* [out] */ String* CFinance.masterLedgerAsset.level4AccountNum);
 
 
-   CARAPI SetMasterLedgerAsset.Level5AccountName(
+   CARAPI SetMasterLedgerAsset_Level5AccountName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level5AccountName);
 
-    CARAPI GetMasterLedgerAsset.Level5AccountName(
+    CARAPI GetMasterLedgerAsset_Level5AccountName(
      /* [out] */ String* CFinance.masterLedgerAsset.level5AccountName);
 
 
-   CARAPI SetMasterLedgerAsset.Level5AccountNum(
+   CARAPI SetMasterLedgerAsset_Level5AccountNum(
      /* [in] */ const String& CFinance.masterLedgerAsset.level5AccountNum);
 
-    CARAPI GetMasterLedgerAsset.Level5AccountNum(
+    CARAPI GetMasterLedgerAsset_Level5AccountNum(
      /* [out] */ String* CFinance.masterLedgerAsset.level5AccountNum);
 
 
-   CARAPI SetMasterLedgerAsset.Level6AccountName(
+   CARAPI SetMasterLedgerAsset_Level6AccountName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level6AccountName);
 
-    CARAPI GetMasterLedgerAsset.Level6AccountName(
+    CARAPI GetMasterLedgerAsset_Level6AccountName(
      /* [out] */ String* CFinance.masterLedgerAsset.level6AccountName);
 
 
-   CARAPI SetMasterLedgerAsset.Level6AccountNum(
+   CARAPI SetMasterLedgerAsset_Level6AccountNum(
      /* [in] */ const String& CFinance.masterLedgerAsset.level6AccountNum);
 
-    CARAPI GetMasterLedgerAsset.Level6AccountNum(
+    CARAPI GetMasterLedgerAsset_Level6AccountNum(
      /* [out] */ String* CFinance.masterLedgerAsset.level6AccountNum);
 
 
-   CARAPI SetMasterLedgerAsset.Level1ClassName(
+   CARAPI SetMasterLedgerAsset_Level1ClassName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level1ClassName);
 
-    CARAPI GetMasterLedgerAsset.Level1ClassName(
+    CARAPI GetMasterLedgerAsset_Level1ClassName(
      /* [out] */ String* CFinance.masterLedgerAsset.level1ClassName);
 
 
-   CARAPI SetMasterLedgerAsset.Level2ClassName(
+   CARAPI SetMasterLedgerAsset_Level2ClassName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level2ClassName);
 
-    CARAPI GetMasterLedgerAsset.Level2ClassName(
+    CARAPI GetMasterLedgerAsset_Level2ClassName(
      /* [out] */ String* CFinance.masterLedgerAsset.level2ClassName);
 
 
-   CARAPI SetMasterLedgerAsset.Level3ClassName(
+   CARAPI SetMasterLedgerAsset_Level3ClassName(
      /* [in] */ const String& CFinance.masterLedgerAsset.level3ClassName);
 
-    CARAPI GetMasterLedgerAsset.Level3ClassName(
+    CARAPI GetMasterLedgerAsset_Level3ClassName(
      /* [out] */ String* CFinance.masterLedgerAsset.level3ClassName);
 
 
-   CARAPI SetMasterLedgerAsset.TransactionEffective(
+   CARAPI SetMasterLedgerAsset_TransactionEffective(
      /* [in] */ const String& CFinance.masterLedgerAsset.transactionEffective);
 
-    CARAPI GetMasterLedgerAsset.TransactionEffective(
+    CARAPI GetMasterLedgerAsset_TransactionEffective(
      /* [out] */ String* CFinance.masterLedgerAsset.transactionEffective);
 
 
-   CARAPI SetMasterLedgerAsset.MasLedgeFinTxId(
+   CARAPI SetMasterLedgerAsset_MasLedgeFinTxId(
      /* [in] */ const String& CFinance.masterLedgerAsset.masLedgeFinTxId);
 
-    CARAPI GetMasterLedgerAsset.MasLedgeFinTxId(
+    CARAPI GetMasterLedgerAsset_MasLedgeFinTxId(
      /* [out] */ String* CFinance.masterLedgerAsset.masLedgeFinTxId);
 
 
-   CARAPI SetMasterLedgerAsset.Cr(
+   CARAPI SetMasterLedgerAsset_Cr(
      /* [in] */ Double CFinance.masterLedgerAsset.cr);
 
-    CARAPI GetMasterLedgerAsset.Cr(
+    CARAPI GetMasterLedgerAsset_Cr(
      /* [out] */ Double* CFinance.masterLedgerAsset.cr);
 
 
-   CARAPI SetMasterLedgerAsset.Dr(
+   CARAPI SetMasterLedgerAsset_Dr(
      /* [in] */ Double CFinance.masterLedgerAsset.dr);
 
-    CARAPI GetMasterLedgerAsset.Dr(
+    CARAPI GetMasterLedgerAsset_Dr(
      /* [out] */ Double* CFinance.masterLedgerAsset.dr);
 
 
-   CARAPI SetMasterLedgerAsset.Bal(
+   CARAPI SetMasterLedgerAsset_Bal(
      /* [in] */ Double CFinance.masterLedgerAsset.bal);
 
-    CARAPI GetMasterLedgerAsset.Bal(
+    CARAPI GetMasterLedgerAsset_Bal(
      /* [out] */ Double* CFinance.masterLedgerAsset.bal);
 
 
-   CARAPI SetMasterLedgerAsset.BusinessChannelOwnerId(
+   CARAPI SetMasterLedgerAsset_BusinessChannelOwnerId(
      /* [in] */ CRegister.businessChannelOwner CFinance.masterLedgerAsset.businessChannelOwnerId);
 
-    CARAPI GetMasterLedgerAsset.BusinessChannelOwnerId(
+    CARAPI GetMasterLedgerAsset_BusinessChannelOwnerId(
      /* [out] */ CRegister.businessChannelOwner* CFinance.masterLedgerAsset.businessChannelOwnerId);
 
 
-   CARAPI SetMasterLedgerAsset.MasLedgeFinTxJoinId(
+   CARAPI SetMasterLedgerAsset_MasLedgeFinTxJoinId(
      /* [in] */ masLedgeFinTxJoin CFinance.masterLedgerAsset.masLedgeFinTxJoinId);
 
-    CARAPI GetMasterLedgerAsset.MasLedgeFinTxJoinId(
+    CARAPI GetMasterLedgerAsset_MasLedgeFinTxJoinId(
      /* [out] */ masLedgeFinTxJoin* CFinance.masterLedgerAsset.masLedgeFinTxJoinId);
 
 
-   CARAPI SetMasterLedgerAsset.ChartOfAccountsId(
+   CARAPI SetMasterLedgerAsset_ChartOfAccountsId(
      /* [in] */ CFinance.chartOfAccounts CFinance.masterLedgerAsset.chartOfAccountsId);
 
-    CARAPI GetMasterLedgerAsset.ChartOfAccountsId(
+    CARAPI GetMasterLedgerAsset_ChartOfAccountsId(
      /* [out] */ CFinance.chartOfAccounts* CFinance.masterLedgerAsset.chartOfAccountsId);
 
 
-   CARAPI SetMasterLedgerAsset.ChartOfClassesId(
+   CARAPI SetMasterLedgerAsset_ChartOfClassesId(
      /* [in] */ CFinance.chartOfClasses CFinance.masterLedgerAsset.chartOfClassesId);
 
-    CARAPI GetMasterLedgerAsset.ChartOfClassesId(
+    CARAPI GetMasterLedgerAsset_ChartOfClassesId(
      /* [out] */ CFinance.chartOfClasses* CFinance.masterLedgerAsset.chartOfClassesId);
 
 
-   CARAPI SetMasterLedgerAsset.BranchId(
+   CARAPI SetMasterLedgerAsset_BranchId(
      /* [in] */ CAdministration.branch CFinance.masterLedgerAsset.branchId);
 
-    CARAPI GetMasterLedgerAsset.BranchId(
+    CARAPI GetMasterLedgerAsset_BranchId(
      /* [out] */ CAdministration.branch* CFinance.masterLedgerAsset.branchId);
 
 
-   CARAPI SetMasterLedgerAsset.DepartmentId(
+   CARAPI SetMasterLedgerAsset_DepartmentId(
      /* [in] */ CAdministration.department CFinance.masterLedgerAsset.departmentId);
 
-    CARAPI GetMasterLedgerAsset.DepartmentId(
+    CARAPI GetMasterLedgerAsset_DepartmentId(
      /* [out] */ CAdministration.department* CFinance.masterLedgerAsset.departmentId);
 
 
-   CARAPI SetMasterLedgerAsset.BankId(
+   CARAPI SetMasterLedgerAsset_BankId(
      /* [in] */ CFinance.bank CFinance.masterLedgerAsset.bankId);
 
-    CARAPI GetMasterLedgerAsset.BankId(
+    CARAPI GetMasterLedgerAsset_BankId(
      /* [out] */ CFinance.bank* CFinance.masterLedgerAsset.bankId);
 
 
-   CARAPI SetMasterLedgerAsset.ProgramId(
+   CARAPI SetMasterLedgerAsset_ProgramId(
      /* [in] */ CProperty.program CFinance.masterLedgerAsset.programId);
 
-    CARAPI GetMasterLedgerAsset.ProgramId(
+    CARAPI GetMasterLedgerAsset_ProgramId(
      /* [out] */ CProperty.program* CFinance.masterLedgerAsset.programId);
 
 
-   CARAPI SetMasterLedgerAsset.ProjectId(
+   CARAPI SetMasterLedgerAsset_ProjectId(
      /* [in] */ CProperty.project CFinance.masterLedgerAsset.projectId);
 
-    CARAPI GetMasterLedgerAsset.ProjectId(
+    CARAPI GetMasterLedgerAsset_ProjectId(
      /* [out] */ CProperty.project* CFinance.masterLedgerAsset.projectId);
 
 
-   CARAPI SetMasterLedgerAsset.ItemId(
+   CARAPI SetMasterLedgerAsset_ItemId(
      /* [in] */ CAdministration.item CFinance.masterLedgerAsset.itemId);
 
-    CARAPI GetMasterLedgerAsset.ItemId(
+    CARAPI GetMasterLedgerAsset_ItemId(
      /* [out] */ CAdministration.item* CFinance.masterLedgerAsset.itemId);
 
 
-   CARAPI SetMasterLedgerAsset.JobId(
+   CARAPI SetMasterLedgerAsset_JobId(
      /* [in] */ CAdministration.job CFinance.masterLedgerAsset.jobId);
 
-    CARAPI GetMasterLedgerAsset.JobId(
+    CARAPI GetMasterLedgerAsset_JobId(
      /* [out] */ CAdministration.job* CFinance.masterLedgerAsset.jobId);
 
 
-   CARAPI SetMasterLedgerAsset.ServiceId(
+   CARAPI SetMasterLedgerAsset_ServiceId(
      /* [in] */ CAdministration.service CFinance.masterLedgerAsset.serviceId);
 
-    CARAPI GetMasterLedgerAsset.ServiceId(
+    CARAPI GetMasterLedgerAsset_ServiceId(
      /* [out] */ CAdministration.service* CFinance.masterLedgerAsset.serviceId);
 
 
-   CARAPI SetMasterLedgerAsset.CustomerId(
+   CARAPI SetMasterLedgerAsset_CustomerId(
      /* [in] */ CCustomer.customer CFinance.masterLedgerAsset.customerId);
 
-    CARAPI GetMasterLedgerAsset.CustomerId(
+    CARAPI GetMasterLedgerAsset_CustomerId(
      /* [out] */ CCustomer.customer* CFinance.masterLedgerAsset.customerId);
 
 
-   CARAPI SetMasterLedgerAsset.SupplierId(
+   CARAPI SetMasterLedgerAsset_SupplierId(
      /* [in] */ CSupplier.supplier CFinance.masterLedgerAsset.supplierId);
 
-    CARAPI GetMasterLedgerAsset.SupplierId(
+    CARAPI GetMasterLedgerAsset_SupplierId(
      /* [out] */ CSupplier.supplier* CFinance.masterLedgerAsset.supplierId);
 
 
-   CARAPI SetMasterLedgerAsset.PurchOrderId(
+   CARAPI SetMasterLedgerAsset_PurchOrderId(
      /* [in] */ realEstatePurchOrders CFinance.masterLedgerAsset.purchOrderId);
 
-    CARAPI GetMasterLedgerAsset.PurchOrderId(
+    CARAPI GetMasterLedgerAsset_PurchOrderId(
      /* [out] */ realEstatePurchOrders* CFinance.masterLedgerAsset.purchOrderId);
 
 
-   CARAPI SetMasterLedgerAsset.MasterSalesOrderId(
+   CARAPI SetMasterLedgerAsset_MasterSalesOrderId(
      /* [in] */ CFinance.masterSalesOrder CFinance.masterLedgerAsset.masterSalesOrderId);
 
-    CARAPI GetMasterLedgerAsset.MasterSalesOrderId(
+    CARAPI GetMasterLedgerAsset_MasterSalesOrderId(
      /* [out] */ CFinance.masterSalesOrder* CFinance.masterLedgerAsset.masterSalesOrderId);
 
 
-   CARAPI SetMasterLedgerAsset.InvoiceId(
+   CARAPI SetMasterLedgerAsset_InvoiceId(
      /* [in] */ CFinance.invoice CFinance.masterLedgerAsset.invoiceId);
 
-    CARAPI GetMasterLedgerAsset.InvoiceId(
+    CARAPI GetMasterLedgerAsset_InvoiceId(
      /* [out] */ CFinance.invoice* CFinance.masterLedgerAsset.invoiceId);
 
 
-   CARAPI SetMasterLedgerAsset.BillId(
+   CARAPI SetMasterLedgerAsset_BillId(
      /* [in] */ CFinance.bill CFinance.masterLedgerAsset.billId);
 
-    CARAPI GetMasterLedgerAsset.BillId(
+    CARAPI GetMasterLedgerAsset_BillId(
      /* [out] */ CFinance.bill* CFinance.masterLedgerAsset.billId);
 
 
