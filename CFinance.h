@@ -4277,4912 +4277,4912 @@ public:
      /* [out] */ CFinance.bill* CFinance.masterLedgerOtherExpense.billId);
 
 
-   CARAPI SetLevel1BudCARAPI Get.Level1BudCARAPI GetId(
-     /* [in] */ const String& CFinance.level1BudCARAPI Get.level1BudCARAPI GetId);
+   CARAPI SetLevel1Budget_Level1BudgetId(
+     /* [in] */ const String& CFinance.level1Budget.level1BudgetId);
 
-    CARAPI GetLevel1BudCARAPI Get.Level1BudCARAPI GetId(
-     /* [out] */ String* CFinance.level1BudCARAPI Get.level1BudCARAPI GetId);
+    CARAPI GetLevel1Budget_Level1BudgetId(
+     /* [out] */ String* CFinance.level1Budget.level1BudgetId);
 
 
-   CARAPI SetLevel1BudCARAPI Get.BudCARAPI GetName(
-     /* [in] */ const String& CFinance.level1BudCARAPI Get.budCARAPI GetName);
+   CARAPI SetLevel1Budget_BudgetName(
+     /* [in] */ const String& CFinance.level1Budget.budCARAPI GetName);
 
-    CARAPI GetLevel1BudCARAPI Get.BudCARAPI GetName(
-     /* [out] */ String* CFinance.level1BudCARAPI Get.budCARAPI GetName);
+    CARAPI GetLevel1Budget_BudgetName(
+     /* [out] */ String* CFinance.level1Budget.budCARAPI GetName);
 
 
-   CARAPI SetLevel1BudCARAPI Get.EndYearMonthyyyymm(
-     /* [in] */ Int32 CFinance.level1BudCARAPI Get.endYearMonthyyyymm);
+   CARAPI SetLevel1Budget_EndYearMonthyyyymm(
+     /* [in] */ Int32 CFinance.level1Budget.endYearMonthyyyymm);
 
-    CARAPI GetLevel1BudCARAPI Get.EndYearMonthyyyymm(
-     /* [out] */ Int32* CFinance.level1BudCARAPI Get.endYearMonthyyyymm);
+    CARAPI GetLevel1Budget_EndYearMonthyyyymm(
+     /* [out] */ Int32* CFinance.level1Budget.endYearMonthyyyymm);
 
 
-   CARAPI SetLevel1BudCARAPI Get.TwelveMonthSequence(
-     /* [in] */ ArrayOf<CHelper.month> CFinance.level1BudCARAPI Get.twelveMonthSequence);
+   CARAPI SetLevel1Budget_TwelveMonthSequence(
+     /* [in] */ ArrayOf<CHelper.month> CFinance.level1Budget.twelveMonthSequence);
 
-    CARAPI GetLevel1BudCARAPI Get.TwelveMonthSequence(
-     [out, callee] ArrayOf<CHelper.month>* CFinance.level1BudCARAPI Get.twelveMonthSequence);
+    CARAPI GetLevel1Budget_TwelveMonthSequence(
+     [out, callee] ArrayOf<CHelper.month>* CFinance.level1Budget.twelveMonthSequence);
 
 
-   CARAPI SetLevel1BudCARAPI Get.IncomeItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.incomeItemTypeIds);
+   CARAPI SetLevel1Budget_IncomeItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.incomeItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.IncomeItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.incomeItemTypeIds);
+    CARAPI GetLevel1Budget_IncomeItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.incomeItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JanRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.janRevenues);
+   CARAPI SetLevel1Budget_JanRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.janRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.JanRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.janRevenues);
+    CARAPI GetLevel1Budget_JanRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.janRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.FebRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.febRevenues);
+   CARAPI SetLevel1Budget_FebRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.febRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.FebRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.febRevenues);
+    CARAPI GetLevel1Budget_FebRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.febRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MarRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.marRevenues);
+   CARAPI SetLevel1Budget_MarRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.marRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.MarRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.marRevenues);
+    CARAPI GetLevel1Budget_MarRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.marRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AprRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.aprRevenues);
+   CARAPI SetLevel1Budget_AprRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.aprRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.AprRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.aprRevenues);
+    CARAPI GetLevel1Budget_AprRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.aprRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MayRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.mayRevenues);
+   CARAPI SetLevel1Budget_MayRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.mayRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.MayRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.mayRevenues);
+    CARAPI GetLevel1Budget_MayRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.mayRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JunRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.junRevenues);
+   CARAPI SetLevel1Budget_JunRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.junRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.JunRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.junRevenues);
+    CARAPI GetLevel1Budget_JunRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.junRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JulRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.julRevenues);
+   CARAPI SetLevel1Budget_JulRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.julRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.JulRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.julRevenues);
+    CARAPI GetLevel1Budget_JulRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.julRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AugRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.augRevenues);
+   CARAPI SetLevel1Budget_AugRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.augRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.AugRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.augRevenues);
+    CARAPI GetLevel1Budget_AugRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.augRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.SepRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.sepRevenues);
+   CARAPI SetLevel1Budget_SepRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.sepRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.SepRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.sepRevenues);
+    CARAPI GetLevel1Budget_SepRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.sepRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.OctRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.octRevenues);
+   CARAPI SetLevel1Budget_OctRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.octRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.OctRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.octRevenues);
+    CARAPI GetLevel1Budget_OctRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.octRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.NovRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.novRevenues);
+   CARAPI SetLevel1Budget_NovRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.novRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.NovRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.novRevenues);
+    CARAPI GetLevel1Budget_NovRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.novRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.DecRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.decRevenues);
+   CARAPI SetLevel1Budget_DecRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.decRevenues);
 
-    CARAPI GetLevel1BudCARAPI Get.DecRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.decRevenues);
+    CARAPI GetLevel1Budget_DecRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.decRevenues);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JanItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.janItemTypeIds);
+   CARAPI SetLevel1Budget_JanItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.janItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JanItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.janItemTypeIds);
+    CARAPI GetLevel1Budget_JanItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.janItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.FebItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.febItemTypeIds);
+   CARAPI SetLevel1Budget_FebItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.febItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.FebItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.febItemTypeIds);
+    CARAPI GetLevel1Budget_FebItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.febItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MarItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.marItemTypeIds);
+   CARAPI SetLevel1Budget_MarItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.marItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.MarItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.marItemTypeIds);
+    CARAPI GetLevel1Budget_MarItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.marItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AprItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.aprItemTypeIds);
+   CARAPI SetLevel1Budget_AprItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.aprItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.AprItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.aprItemTypeIds);
+    CARAPI GetLevel1Budget_AprItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.aprItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MayItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.mayItemTypeIds);
+   CARAPI SetLevel1Budget_MayItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.mayItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.MayItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.mayItemTypeIds);
+    CARAPI GetLevel1Budget_MayItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.mayItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JunItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.junItemTypeIds);
+   CARAPI SetLevel1Budget_JunItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.junItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JunItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.junItemTypeIds);
+    CARAPI GetLevel1Budget_JunItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.junItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JulItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.julItemTypeIds);
+   CARAPI SetLevel1Budget_JulItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.julItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JulItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.julItemTypeIds);
+    CARAPI GetLevel1Budget_JulItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.julItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AugItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.augItemTypeIds);
+   CARAPI SetLevel1Budget_AugItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.augItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.AugItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.augItemTypeIds);
+    CARAPI GetLevel1Budget_AugItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.augItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.SepItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.sepItemTypeIds);
+   CARAPI SetLevel1Budget_SepItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.sepItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.SepItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.sepItemTypeIds);
+    CARAPI GetLevel1Budget_SepItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.sepItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.OctItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.octItemTypeIds);
+   CARAPI SetLevel1Budget_OctItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.octItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.OctItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.octItemTypeIds);
+    CARAPI GetLevel1Budget_OctItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.octItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.NovItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.novItemTypeIds);
+   CARAPI SetLevel1Budget_NovItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.novItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.NovItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.novItemTypeIds);
+    CARAPI GetLevel1Budget_NovItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.novItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.DecItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.decItemTypeIds);
+   CARAPI SetLevel1Budget_DecItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.decItemTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.DecItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.decItemTypeIds);
+    CARAPI GetLevel1Budget_DecItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.decItemTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JanCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.janCostsItems);
+   CARAPI SetLevel1Budget_JanCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.janCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.JanCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.janCostsItems);
+    CARAPI GetLevel1Budget_JanCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.janCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.FebCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.febCostsItems);
+   CARAPI SetLevel1Budget_FebCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.febCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.FebCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.febCostsItems);
+    CARAPI GetLevel1Budget_FebCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.febCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MarCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.marCostsItems);
+   CARAPI SetLevel1Budget_MarCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.marCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.MarCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.marCostsItems);
+    CARAPI GetLevel1Budget_MarCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.marCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AprCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.aprCostsItems);
+   CARAPI SetLevel1Budget_AprCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.aprCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.AprCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.aprCostsItems);
+    CARAPI GetLevel1Budget_AprCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.aprCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MayCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.mayCostsItems);
+   CARAPI SetLevel1Budget_MayCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.mayCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.MayCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.mayCostsItems);
+    CARAPI GetLevel1Budget_MayCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.mayCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JunCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.junCostsItems);
+   CARAPI SetLevel1Budget_JunCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.junCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.JunCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.junCostsItems);
+    CARAPI GetLevel1Budget_JunCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.junCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JulCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.julCostsItems);
+   CARAPI SetLevel1Budget_JulCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.julCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.JulCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.julCostsItems);
+    CARAPI GetLevel1Budget_JulCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.julCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AugCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.augCostsItems);
+   CARAPI SetLevel1Budget_AugCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.augCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.AugCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.augCostsItems);
+    CARAPI GetLevel1Budget_AugCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.augCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.SepCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.sepCostsItems);
+   CARAPI SetLevel1Budget_SepCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.sepCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.SepCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.sepCostsItems);
+    CARAPI GetLevel1Budget_SepCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.sepCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.OctCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.octCostsItems);
+   CARAPI SetLevel1Budget_OctCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.octCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.OctCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.octCostsItems);
+    CARAPI GetLevel1Budget_OctCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.octCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.NovCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.novCostsItems);
+   CARAPI SetLevel1Budget_NovCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.novCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.NovCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.novCostsItems);
+    CARAPI GetLevel1Budget_NovCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.novCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.DecCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.decCostsItems);
+   CARAPI SetLevel1Budget_DecCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.decCostsItems);
 
-    CARAPI GetLevel1BudCARAPI Get.DecCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.decCostsItems);
+    CARAPI GetLevel1Budget_DecCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.decCostsItems);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JanJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.janJobTypeIds);
+   CARAPI SetLevel1Budget_JanJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.janJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JanJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.janJobTypeIds);
+    CARAPI GetLevel1Budget_JanJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.janJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.FebJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.febJobTypeIds);
+   CARAPI SetLevel1Budget_FebJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.febJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.FebJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.febJobTypeIds);
+    CARAPI GetLevel1Budget_FebJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.febJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MarJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.marJobTypeIds);
+   CARAPI SetLevel1Budget_MarJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.marJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.MarJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.marJobTypeIds);
+    CARAPI GetLevel1Budget_MarJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.marJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AprJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.aprJobTypeIds);
+   CARAPI SetLevel1Budget_AprJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.aprJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.AprJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.aprJobTypeIds);
+    CARAPI GetLevel1Budget_AprJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.aprJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MayJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.mayJobTypeIds);
+   CARAPI SetLevel1Budget_MayJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.mayJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.MayJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.mayJobTypeIds);
+    CARAPI GetLevel1Budget_MayJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.mayJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JunJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.junJobTypeIds);
+   CARAPI SetLevel1Budget_JunJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.junJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JunJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.junJobTypeIds);
+    CARAPI GetLevel1Budget_JunJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.junJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JulJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.julJobTypeIds);
+   CARAPI SetLevel1Budget_JulJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.julJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JulJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.julJobTypeIds);
+    CARAPI GetLevel1Budget_JulJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.julJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AugJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.augJobTypeIds);
+   CARAPI SetLevel1Budget_AugJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.augJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.AugJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.augJobTypeIds);
+    CARAPI GetLevel1Budget_AugJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.augJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.SepJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.sepJobTypeIds);
+   CARAPI SetLevel1Budget_SepJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.sepJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.SepJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.sepJobTypeIds);
+    CARAPI GetLevel1Budget_SepJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.sepJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.OctJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.octJobTypeIds);
+   CARAPI SetLevel1Budget_OctJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.octJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.OctJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.octJobTypeIds);
+    CARAPI GetLevel1Budget_OctJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.octJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.NovJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.novJobTypeIds);
+   CARAPI SetLevel1Budget_NovJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.novJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.NovJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.novJobTypeIds);
+    CARAPI GetLevel1Budget_NovJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.novJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.DecJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.decJobTypeIds);
+   CARAPI SetLevel1Budget_DecJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.decJobTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.DecJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.decJobTypeIds);
+    CARAPI GetLevel1Budget_DecJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.decJobTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JanCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.janCostsJobs);
+   CARAPI SetLevel1Budget_JanCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.janCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.JanCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.janCostsJobs);
+    CARAPI GetLevel1Budget_JanCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.janCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.FebCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.febCostsJobs);
+   CARAPI SetLevel1Budget_FebCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.febCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.FebCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.febCostsJobs);
+    CARAPI GetLevel1Budget_FebCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.febCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MarCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.marCostsJobs);
+   CARAPI SetLevel1Budget_MarCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.marCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.MarCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.marCostsJobs);
+    CARAPI GetLevel1Budget_MarCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.marCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AprCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.aprCostsJobs);
+   CARAPI SetLevel1Budget_AprCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.aprCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.AprCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.aprCostsJobs);
+    CARAPI GetLevel1Budget_AprCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.aprCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MayCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.mayCostsJobs);
+   CARAPI SetLevel1Budget_MayCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.mayCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.MayCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.mayCostsJobs);
+    CARAPI GetLevel1Budget_MayCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.mayCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JunCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.junCostsJobs);
+   CARAPI SetLevel1Budget_JunCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.junCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.JunCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.junCostsJobs);
+    CARAPI GetLevel1Budget_JunCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.junCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JulCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.julCostsJobs);
+   CARAPI SetLevel1Budget_JulCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.julCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.JulCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.julCostsJobs);
+    CARAPI GetLevel1Budget_JulCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.julCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AugCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.augCostsJobs);
+   CARAPI SetLevel1Budget_AugCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.augCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.AugCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.augCostsJobs);
+    CARAPI GetLevel1Budget_AugCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.augCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.SepCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.sepCostsJobs);
+   CARAPI SetLevel1Budget_SepCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.sepCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.SepCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.sepCostsJobs);
+    CARAPI GetLevel1Budget_SepCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.sepCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.OctCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.octCostsJobs);
+   CARAPI SetLevel1Budget_OctCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.octCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.OctCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.octCostsJobs);
+    CARAPI GetLevel1Budget_OctCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.octCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.NovCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.novCostsJobs);
+   CARAPI SetLevel1Budget_NovCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.novCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.NovCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.novCostsJobs);
+    CARAPI GetLevel1Budget_NovCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.novCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.DecCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.decCostsJobs);
+   CARAPI SetLevel1Budget_DecCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.decCostsJobs);
 
-    CARAPI GetLevel1BudCARAPI Get.DecCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.decCostsJobs);
+    CARAPI GetLevel1Budget_DecCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.decCostsJobs);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JanServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.janServiceTypeIds);
+   CARAPI SetLevel1Budget_JanServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.janServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JanServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.janServiceTypeIds);
+    CARAPI GetLevel1Budget_JanServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.janServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.FebServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.febServiceTypeIds);
+   CARAPI SetLevel1Budget_FebServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.febServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.FebServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.febServiceTypeIds);
+    CARAPI GetLevel1Budget_FebServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.febServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MarServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.marServiceTypeIds);
+   CARAPI SetLevel1Budget_MarServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.marServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.MarServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.marServiceTypeIds);
+    CARAPI GetLevel1Budget_MarServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.marServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AprServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.aprServiceTypeIds);
+   CARAPI SetLevel1Budget_AprServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.aprServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.AprServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.aprServiceTypeIds);
+    CARAPI GetLevel1Budget_AprServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.aprServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MayServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.mayServiceTypeIds);
+   CARAPI SetLevel1Budget_MayServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.mayServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.MayServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.mayServiceTypeIds);
+    CARAPI GetLevel1Budget_MayServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.mayServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JunServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.junServiceTypeIds);
+   CARAPI SetLevel1Budget_JunServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.junServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JunServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.junServiceTypeIds);
+    CARAPI GetLevel1Budget_JunServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.junServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JulServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.julServiceTypeIds);
+   CARAPI SetLevel1Budget_JulServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.julServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.JulServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.julServiceTypeIds);
+    CARAPI GetLevel1Budget_JulServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.julServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AugServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.augServiceTypeIds);
+   CARAPI SetLevel1Budget_AugServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.augServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.AugServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.augServiceTypeIds);
+    CARAPI GetLevel1Budget_AugServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.augServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.SepServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.sepServiceTypeIds);
+   CARAPI SetLevel1Budget_SepServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.sepServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.SepServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.sepServiceTypeIds);
+    CARAPI GetLevel1Budget_SepServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.sepServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.OctServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.octServiceTypeIds);
+   CARAPI SetLevel1Budget_OctServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.octServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.OctServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.octServiceTypeIds);
+    CARAPI GetLevel1Budget_OctServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.octServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.NovServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.novServiceTypeIds);
+   CARAPI SetLevel1Budget_NovServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.novServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.NovServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.novServiceTypeIds);
+    CARAPI GetLevel1Budget_NovServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.novServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.DecServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level1BudCARAPI Get.decServiceTypeIds);
+   CARAPI SetLevel1Budget_DecServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level1Budget.decServiceTypeIds);
 
-    CARAPI GetLevel1BudCARAPI Get.DecServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level1BudCARAPI Get.decServiceTypeIds);
+    CARAPI GetLevel1Budget_DecServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level1Budget.decServiceTypeIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JanCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.janCostsServices);
+   CARAPI SetLevel1Budget_JanCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.janCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.JanCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.janCostsServices);
+    CARAPI GetLevel1Budget_JanCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.janCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.FebCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.febCostsServices);
+   CARAPI SetLevel1Budget_FebCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.febCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.FebCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.febCostsServices);
+    CARAPI GetLevel1Budget_FebCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.febCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MarCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.marCostsServices);
+   CARAPI SetLevel1Budget_MarCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.marCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.MarCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.marCostsServices);
+    CARAPI GetLevel1Budget_MarCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.marCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AprCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.aprCostsServices);
+   CARAPI SetLevel1Budget_AprCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.aprCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.AprCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.aprCostsServices);
+    CARAPI GetLevel1Budget_AprCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.aprCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MayCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.mayCostsServices);
+   CARAPI SetLevel1Budget_MayCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.mayCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.MayCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.mayCostsServices);
+    CARAPI GetLevel1Budget_MayCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.mayCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JunCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.junCostsServices);
+   CARAPI SetLevel1Budget_JunCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.junCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.JunCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.junCostsServices);
+    CARAPI GetLevel1Budget_JunCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.junCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.JulCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.julCostsServices);
+   CARAPI SetLevel1Budget_JulCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.julCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.JulCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.julCostsServices);
+    CARAPI GetLevel1Budget_JulCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.julCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.AugCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.augCostsServices);
+   CARAPI SetLevel1Budget_AugCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.augCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.AugCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.augCostsServices);
+    CARAPI GetLevel1Budget_AugCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.augCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.SepCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.sepCostsServices);
+   CARAPI SetLevel1Budget_SepCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.sepCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.SepCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.sepCostsServices);
+    CARAPI GetLevel1Budget_SepCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.sepCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.OctCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.octCostsServices);
+   CARAPI SetLevel1Budget_OctCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.octCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.OctCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.octCostsServices);
+    CARAPI GetLevel1Budget_OctCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.octCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.NovCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.novCostsServices);
+   CARAPI SetLevel1Budget_NovCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.novCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.NovCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.novCostsServices);
+    CARAPI GetLevel1Budget_NovCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.novCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.DecCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.decCostsServices);
+   CARAPI SetLevel1Budget_DecCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.decCostsServices);
 
-    CARAPI GetLevel1BudCARAPI Get.DecCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.decCostsServices);
+    CARAPI GetLevel1Budget_DecCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.decCostsServices);
 
 
-   CARAPI SetLevel1BudCARAPI Get.TwelveTotalMonthlyCosts(
-     /* [in] */ ArrayOf<Double> CFinance.level1BudCARAPI Get.twelveTotalMonthlyCosts);
+   CARAPI SetLevel1Budget_TwelveTotalMonthlyCosts(
+     /* [in] */ ArrayOf<Double> CFinance.level1Budget.twelveTotalMonthlyCosts);
 
-    CARAPI GetLevel1BudCARAPI Get.TwelveTotalMonthlyCosts(
-     [out, callee] ArrayOf<Double>* CFinance.level1BudCARAPI Get.twelveTotalMonthlyCosts);
+    CARAPI GetLevel1Budget_TwelveTotalMonthlyCosts(
+     [out, callee] ArrayOf<Double>* CFinance.level1Budget.twelveTotalMonthlyCosts);
 
 
-   CARAPI SetLevel1BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [in] */ Double CFinance.level1BudCARAPI Get.yearCostThisBudCARAPI GetId);
+   CARAPI SetLevel1Budget_YearCostThisBudgetId(
+     /* [in] */ Double CFinance.level1Budget.yearCostThisBudgetId);
 
-    CARAPI GetLevel1BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [out] */ Double* CFinance.level1BudCARAPI Get.yearCostThisBudCARAPI GetId);
+    CARAPI GetLevel1Budget_YearCostThisBudgetId(
+     /* [out] */ Double* CFinance.level1Budget.yearCostThisBudgetId);
 
 
-   CARAPI SetLevel1BudCARAPI Get.NetProfitLossThisLevel1BudCARAPI GetId(
-     /* [in] */ Double CFinance.level1BudCARAPI Get.netProfitLossThisLevel1BudCARAPI GetId);
+   CARAPI SetLevel1Budget_NetProfitLossThisLevel1BudgetId(
+     /* [in] */ Double CFinance.level1Budget.netProfitLossThisLevel1BudgetId);
 
-    CARAPI GetLevel1BudCARAPI Get.NetProfitLossThisLevel1BudCARAPI GetId(
-     /* [out] */ Double* CFinance.level1BudCARAPI Get.netProfitLossThisLevel1BudCARAPI GetId);
+    CARAPI GetLevel1Budget_NetProfitLossThisLevel1BudgetId(
+     /* [out] */ Double* CFinance.level1Budget.netProfitLossThisLevel1BudgetId);
 
 
-   CARAPI SetLevel1BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [in] */ Int32 CFinance.level1BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+   CARAPI SetLevel1Budget_LinkingInternalBudgetNum(
+     /* [in] */ Int32 CFinance.level1Budget.linkingInternalBudgetNum);
 
-    CARAPI GetLevel1BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [out] */ Int32* CFinance.level1BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+    CARAPI GetLevel1Budget_LinkingInternalBudgetNum(
+     /* [out] */ Int32* CFinance.level1Budget.linkingInternalBudgetNum);
 
 
-   CARAPI SetLevel1BudCARAPI Get.CustomerIds(
-     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level1BudCARAPI Get.customerIds);
+   CARAPI SetLevel1Budget_CustomerIds(
+     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level1Budget.customerIds);
 
-    CARAPI GetLevel1BudCARAPI Get.CustomerIds(
-     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level1BudCARAPI Get.customerIds);
+    CARAPI GetLevel1Budget_CustomerIds(
+     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level1Budget.customerIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.PropertyIds(
-     /* [in] */ ArrayOf<CProperty.property> CFinance.level1BudCARAPI Get.propertyIds);
+   CARAPI SetLevel1Budget_PropertyIds(
+     /* [in] */ ArrayOf<CProperty.property> CFinance.level1Budget.propertyIds);
 
-    CARAPI GetLevel1BudCARAPI Get.PropertyIds(
-     [out, callee] ArrayOf<CProperty.property>* CFinance.level1BudCARAPI Get.propertyIds);
+    CARAPI GetLevel1Budget_PropertyIds(
+     [out, callee] ArrayOf<CProperty.property>* CFinance.level1Budget.propertyIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.ProgramIds(
-     /* [in] */ ArrayOf<CProperty.program> CFinance.level1BudCARAPI Get.programIds);
+   CARAPI SetLevel1Budget_ProgramIds(
+     /* [in] */ ArrayOf<CProperty.program> CFinance.level1Budget.programIds);
 
-    CARAPI GetLevel1BudCARAPI Get.ProgramIds(
-     [out, callee] ArrayOf<CProperty.program>* CFinance.level1BudCARAPI Get.programIds);
+    CARAPI GetLevel1Budget_ProgramIds(
+     [out, callee] ArrayOf<CProperty.program>* CFinance.level1Budget.programIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.ProjectIds(
-     /* [in] */ ArrayOf<CProperty.project> CFinance.level1BudCARAPI Get.projectIds);
+   CARAPI SetLevel1Budget_ProjectIds(
+     /* [in] */ ArrayOf<CProperty.project> CFinance.level1Budget.projectIds);
 
-    CARAPI GetLevel1BudCARAPI Get.ProjectIds(
-     [out, callee] ArrayOf<CProperty.project>* CFinance.level1BudCARAPI Get.projectIds);
+    CARAPI GetLevel1Budget_ProjectIds(
+     [out, callee] ArrayOf<CProperty.project>* CFinance.level1Budget.projectIds);
 
 
-   CARAPI SetLevel1BudCARAPI Get.LinkedToLevel2BudCARAPI GetId(
-     /* [in] */ CFinance.level2BudCARAPI Get CFinance.level1BudCARAPI Get.linkedToLevel2BudCARAPI GetId);
+   CARAPI SetLevel1Budget_LinkedToLevel2BudgetId(
+     /* [in] */ CFinance.level2Budget CFinance.level1Budget.linkedToLevel2BudgetId);
 
-    CARAPI GetLevel1BudCARAPI Get.LinkedToLevel2BudCARAPI GetId(
-     /* [out] */ CFinance.level2BudCARAPI Get* CFinance.level1BudCARAPI Get.linkedToLevel2BudCARAPI GetId);
+    CARAPI GetLevel1Budget_LinkedToLevel2BudgetId(
+     /* [out] */ CFinance.level2Budget* CFinance.level1Budget.linkedToLevel2BudgetId);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MasterAsset( SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level1BudCARAPI Get.masterAssetId);
+   CARAPI SetLevel1Budget_MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level1Budget.masterAssetId);
 
-    CARAPI GetLevel1BudCARAPI Get.MasterAsset( SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level1BudCARAPI Get.masterAssetId);
+    CARAPI GetLevel1Budget_MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level1Budget.masterAssetId);
 
 
-   CARAPI SetLevel1BudCARAPI Get.BusinessChannelOwnerId(
-     /* [in] */ CRegister.businessChannelOwner CFinance.level1BudCARAPI Get.businessChannelOwnerId);
+   CARAPI SetLevel1Budget_BusinessChannelOwnerId(
+     /* [in] */ CRegister.businessChannelOwner CFinance.level1Budget.businessChannelOwnerId);
 
-    CARAPI GetLevel1BudCARAPI Get.BusinessChannelOwnerId(
-     /* [out] */ CRegister.businessChannelOwner* CFinance.level1BudCARAPI Get.businessChannelOwnerId);
+    CARAPI GetLevel1Budget_BusinessChannelOwnerId(
+     /* [out] */ CRegister.businessChannelOwner* CFinance.level1Budget.businessChannelOwnerId);
 
 
 
 
 
-   CARAPI SetLevel2BudCARAPI Get.Level2BudCARAPI GetId(
-     /* [in] */ const String& CFinance.level2BudCARAPI Get.level2BudCARAPI GetId);
+   CARAPI SetLevel2Budget_Level2BudgetId(
+     /* [in] */ const String& CFinance.level2Budget.level2BudgetId);
 
-    CARAPI GetLevel2BudCARAPI Get.Level2BudCARAPI GetId(
-     /* [out] */ String* CFinance.level2BudCARAPI Get.level2BudCARAPI GetId);
+    CARAPI GetLevel2Budget_Level2BudgetId(
+     /* [out] */ String* CFinance.level2Budget.level2BudgetId);
 
 
-   CARAPI SetLevel2BudCARAPI Get.BudCARAPI GetName(
-     /* [in] */ const String& CFinance.level2BudCARAPI Get.budCARAPI GetName);
+   CARAPI SetLevel2Budget_BudgetName(
+     /* [in] */ const String& CFinance.level2Budget.budCARAPI GetName);
 
-    CARAPI GetLevel2BudCARAPI Get.BudCARAPI GetName(
-     /* [out] */ String* CFinance.level2BudCARAPI Get.budCARAPI GetName);
+    CARAPI GetLevel2Budget_BudgetName(
+     /* [out] */ String* CFinance.level2Budget.budCARAPI GetName);
 
 
-   CARAPI SetLevel2BudCARAPI Get.EndYearMonthyyyymm(
-     /* [in] */ Int32 CFinance.level2BudCARAPI Get.endYearMonthyyyymm);
+   CARAPI SetLevel2Budget_EndYearMonthyyyymm(
+     /* [in] */ Int32 CFinance.level2Budget.endYearMonthyyyymm);
 
-    CARAPI GetLevel2BudCARAPI Get.EndYearMonthyyyymm(
-     /* [out] */ Int32* CFinance.level2BudCARAPI Get.endYearMonthyyyymm);
+    CARAPI GetLevel2Budget_EndYearMonthyyyymm(
+     /* [out] */ Int32* CFinance.level2Budget.endYearMonthyyyymm);
 
 
-   CARAPI SetLevel2BudCARAPI Get.TwelveMonthSequence(
-     /* [in] */ ArrayOf<CHelper.month> CFinance.level2BudCARAPI Get.twelveMonthSequence);
+   CARAPI SetLevel2Budget_TwelveMonthSequence(
+     /* [in] */ ArrayOf<CHelper.month> CFinance.level2Budget.twelveMonthSequence);
 
-    CARAPI GetLevel2BudCARAPI Get.TwelveMonthSequence(
-     [out, callee] ArrayOf<CHelper.month>* CFinance.level2BudCARAPI Get.twelveMonthSequence);
+    CARAPI GetLevel2Budget_TwelveMonthSequence(
+     [out, callee] ArrayOf<CHelper.month>* CFinance.level2Budget.twelveMonthSequence);
 
 
-   CARAPI SetLevel2BudCARAPI Get.IncomeItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.incomeItemTypeIds);
+   CARAPI SetLevel2Budget_IncomeItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.incomeItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.IncomeItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.incomeItemTypeIds);
+    CARAPI GetLevel2Budget_IncomeItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.incomeItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JanRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.janRevenues);
+   CARAPI SetLevel2Budget_JanRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.janRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.JanRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.janRevenues);
+    CARAPI GetLevel2Budget_JanRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.janRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.FebRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.febRevenues);
+   CARAPI SetLevel2Budget_FebRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.febRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.FebRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.febRevenues);
+    CARAPI GetLevel2Budget_FebRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.febRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MarRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.marRevenues);
+   CARAPI SetLevel2Budget_MarRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.marRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.MarRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.marRevenues);
+    CARAPI GetLevel2Budget_MarRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.marRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AprRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.aprRevenues);
+   CARAPI SetLevel2Budget_AprRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.aprRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.AprRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.aprRevenues);
+    CARAPI GetLevel2Budget_AprRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.aprRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MayRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.mayRevenues);
+   CARAPI SetLevel2Budget_MayRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.mayRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.MayRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.mayRevenues);
+    CARAPI GetLevel2Budget_MayRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.mayRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JunRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.junRevenues);
+   CARAPI SetLevel2Budget_JunRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.junRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.JunRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.junRevenues);
+    CARAPI GetLevel2Budget_JunRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.junRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JulRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.julRevenues);
+   CARAPI SetLevel2Budget_JulRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.julRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.JulRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.julRevenues);
+    CARAPI GetLevel2Budget_JulRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.julRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AugRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.augRevenues);
+   CARAPI SetLevel2Budget_AugRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.augRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.AugRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.augRevenues);
+    CARAPI GetLevel2Budget_AugRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.augRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.SepRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.sepRevenues);
+   CARAPI SetLevel2Budget_SepRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.sepRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.SepRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.sepRevenues);
+    CARAPI GetLevel2Budget_SepRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.sepRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.OctRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.octRevenues);
+   CARAPI SetLevel2Budget_OctRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.octRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.OctRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.octRevenues);
+    CARAPI GetLevel2Budget_OctRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.octRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.NovRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.novRevenues);
+   CARAPI SetLevel2Budget_NovRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.novRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.NovRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.novRevenues);
+    CARAPI GetLevel2Budget_NovRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.novRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.DecRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.decRevenues);
+   CARAPI SetLevel2Budget_DecRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.decRevenues);
 
-    CARAPI GetLevel2BudCARAPI Get.DecRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.decRevenues);
+    CARAPI GetLevel2Budget_DecRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.decRevenues);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JanItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.janItemTypeIds);
+   CARAPI SetLevel2Budget_JanItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.janItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JanItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.janItemTypeIds);
+    CARAPI GetLevel2Budget_JanItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.janItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.FebItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.febItemTypeIds);
+   CARAPI SetLevel2Budget_FebItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.febItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.FebItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.febItemTypeIds);
+    CARAPI GetLevel2Budget_FebItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.febItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MarItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.marItemTypeIds);
+   CARAPI SetLevel2Budget_MarItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.marItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.MarItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.marItemTypeIds);
+    CARAPI GetLevel2Budget_MarItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.marItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AprItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.aprItemTypeIds);
+   CARAPI SetLevel2Budget_AprItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.aprItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.AprItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.aprItemTypeIds);
+    CARAPI GetLevel2Budget_AprItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.aprItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MayItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.mayItemTypeIds);
+   CARAPI SetLevel2Budget_MayItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.mayItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.MayItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.mayItemTypeIds);
+    CARAPI GetLevel2Budget_MayItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.mayItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JunItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.junItemTypeIds);
+   CARAPI SetLevel2Budget_JunItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.junItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JunItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.junItemTypeIds);
+    CARAPI GetLevel2Budget_JunItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.junItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JulItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.julItemTypeIds);
+   CARAPI SetLevel2Budget_JulItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.julItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JulItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.julItemTypeIds);
+    CARAPI GetLevel2Budget_JulItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.julItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AugItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.augItemTypeIds);
+   CARAPI SetLevel2Budget_AugItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.augItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.AugItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.augItemTypeIds);
+    CARAPI GetLevel2Budget_AugItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.augItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.SepItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.sepItemTypeIds);
+   CARAPI SetLevel2Budget_SepItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.sepItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.SepItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.sepItemTypeIds);
+    CARAPI GetLevel2Budget_SepItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.sepItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.OctItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.octItemTypeIds);
+   CARAPI SetLevel2Budget_OctItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.octItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.OctItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.octItemTypeIds);
+    CARAPI GetLevel2Budget_OctItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.octItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.NovItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.novItemTypeIds);
+   CARAPI SetLevel2Budget_NovItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.novItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.NovItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.novItemTypeIds);
+    CARAPI GetLevel2Budget_NovItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.novItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.DecItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.decItemTypeIds);
+   CARAPI SetLevel2Budget_DecItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.decItemTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.DecItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.decItemTypeIds);
+    CARAPI GetLevel2Budget_DecItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.decItemTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JanCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.janCostsItems);
+   CARAPI SetLevel2Budget_JanCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.janCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.JanCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.janCostsItems);
+    CARAPI GetLevel2Budget_JanCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.janCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.FebCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.febCostsItems);
+   CARAPI SetLevel2Budget_FebCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.febCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.FebCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.febCostsItems);
+    CARAPI GetLevel2Budget_FebCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.febCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MarCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.marCostsItems);
+   CARAPI SetLevel2Budget_MarCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.marCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.MarCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.marCostsItems);
+    CARAPI GetLevel2Budget_MarCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.marCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AprCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.aprCostsItems);
+   CARAPI SetLevel2Budget_AprCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.aprCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.AprCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.aprCostsItems);
+    CARAPI GetLevel2Budget_AprCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.aprCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MayCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.mayCostsItems);
+   CARAPI SetLevel2Budget_MayCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.mayCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.MayCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.mayCostsItems);
+    CARAPI GetLevel2Budget_MayCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.mayCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JunCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.junCostsItems);
+   CARAPI SetLevel2Budget_JunCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.junCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.JunCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.junCostsItems);
+    CARAPI GetLevel2Budget_JunCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.junCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JulCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.julCostsItems);
+   CARAPI SetLevel2Budget_JulCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.julCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.JulCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.julCostsItems);
+    CARAPI GetLevel2Budget_JulCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.julCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AugCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.augCostsItems);
+   CARAPI SetLevel2Budget_AugCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.augCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.AugCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.augCostsItems);
+    CARAPI GetLevel2Budget_AugCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.augCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.SepCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.sepCostsItems);
+   CARAPI SetLevel2Budget_SepCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.sepCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.SepCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.sepCostsItems);
+    CARAPI GetLevel2Budget_SepCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.sepCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.OctCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.octCostsItems);
+   CARAPI SetLevel2Budget_OctCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.octCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.OctCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.octCostsItems);
+    CARAPI GetLevel2Budget_OctCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.octCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.NovCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.novCostsItems);
+   CARAPI SetLevel2Budget_NovCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.novCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.NovCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.novCostsItems);
+    CARAPI GetLevel2Budget_NovCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.novCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.DecCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.decCostsItems);
+   CARAPI SetLevel2Budget_DecCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.decCostsItems);
 
-    CARAPI GetLevel2BudCARAPI Get.DecCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.decCostsItems);
+    CARAPI GetLevel2Budget_DecCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.decCostsItems);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JanJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.janJobTypeIds);
+   CARAPI SetLevel2Budget_JanJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.janJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JanJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.janJobTypeIds);
+    CARAPI GetLevel2Budget_JanJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.janJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.FebJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.febJobTypeIds);
+   CARAPI SetLevel2Budget_FebJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.febJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.FebJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.febJobTypeIds);
+    CARAPI GetLevel2Budget_FebJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.febJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MarJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.marJobTypeIds);
+   CARAPI SetLevel2Budget_MarJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.marJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.MarJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.marJobTypeIds);
+    CARAPI GetLevel2Budget_MarJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.marJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AprJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.aprJobTypeIds);
+   CARAPI SetLevel2Budget_AprJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.aprJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.AprJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.aprJobTypeIds);
+    CARAPI GetLevel2Budget_AprJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.aprJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MayJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.mayJobTypeIds);
+   CARAPI SetLevel2Budget_MayJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.mayJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.MayJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.mayJobTypeIds);
+    CARAPI GetLevel2Budget_MayJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.mayJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JunJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.junJobTypeIds);
+   CARAPI SetLevel2Budget_JunJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.junJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JunJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.junJobTypeIds);
+    CARAPI GetLevel2Budget_JunJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.junJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JulJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.julJobTypeIds);
+   CARAPI SetLevel2Budget_JulJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.julJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JulJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.julJobTypeIds);
+    CARAPI GetLevel2Budget_JulJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.julJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AugJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.augJobTypeIds);
+   CARAPI SetLevel2Budget_AugJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.augJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.AugJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.augJobTypeIds);
+    CARAPI GetLevel2Budget_AugJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.augJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.SepJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.sepJobTypeIds);
+   CARAPI SetLevel2Budget_SepJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.sepJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.SepJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.sepJobTypeIds);
+    CARAPI GetLevel2Budget_SepJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.sepJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.OctJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.octJobTypeIds);
+   CARAPI SetLevel2Budget_OctJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.octJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.OctJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.octJobTypeIds);
+    CARAPI GetLevel2Budget_OctJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.octJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.NovJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.novJobTypeIds);
+   CARAPI SetLevel2Budget_NovJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.novJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.NovJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.novJobTypeIds);
+    CARAPI GetLevel2Budget_NovJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.novJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.DecJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.decJobTypeIds);
+   CARAPI SetLevel2Budget_DecJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.decJobTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.DecJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.decJobTypeIds);
+    CARAPI GetLevel2Budget_DecJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.decJobTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JanCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.janCostsJobs);
+   CARAPI SetLevel2Budget_JanCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.janCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.JanCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.janCostsJobs);
+    CARAPI GetLevel2Budget_JanCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.janCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.FebCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.febCostsJobs);
+   CARAPI SetLevel2Budget_FebCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.febCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.FebCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.febCostsJobs);
+    CARAPI GetLevel2Budget_FebCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.febCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MarCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.marCostsJobs);
+   CARAPI SetLevel2Budget_MarCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.marCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.MarCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.marCostsJobs);
+    CARAPI GetLevel2Budget_MarCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.marCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AprCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.aprCostsJobs);
+   CARAPI SetLevel2Budget_AprCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.aprCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.AprCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.aprCostsJobs);
+    CARAPI GetLevel2Budget_AprCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.aprCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MayCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.mayCostsJobs);
+   CARAPI SetLevel2Budget_MayCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.mayCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.MayCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.mayCostsJobs);
+    CARAPI GetLevel2Budget_MayCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.mayCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JunCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.junCostsJobs);
+   CARAPI SetLevel2Budget_JunCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.junCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.JunCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.junCostsJobs);
+    CARAPI GetLevel2Budget_JunCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.junCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JulCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.julCostsJobs);
+   CARAPI SetLevel2Budget_JulCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.julCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.JulCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.julCostsJobs);
+    CARAPI GetLevel2Budget_JulCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.julCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AugCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.augCostsJobs);
+   CARAPI SetLevel2Budget_AugCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.augCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.AugCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.augCostsJobs);
+    CARAPI GetLevel2Budget_AugCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.augCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.SepCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.sepCostsJobs);
+   CARAPI SetLevel2Budget_SepCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.sepCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.SepCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.sepCostsJobs);
+    CARAPI GetLevel2Budget_SepCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.sepCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.OctCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.octCostsJobs);
+   CARAPI SetLevel2Budget_OctCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.octCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.OctCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.octCostsJobs);
+    CARAPI GetLevel2Budget_OctCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.octCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.NovCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.novCostsJobs);
+   CARAPI SetLevel2Budget_NovCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.novCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.NovCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.novCostsJobs);
+    CARAPI GetLevel2Budget_NovCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.novCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.DecCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.decCostsJobs);
+   CARAPI SetLevel2Budget_DecCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.decCostsJobs);
 
-    CARAPI GetLevel2BudCARAPI Get.DecCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.decCostsJobs);
+    CARAPI GetLevel2Budget_DecCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.decCostsJobs);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JanServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.janServiceTypeIds);
+   CARAPI SetLevel2Budget_JanServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.janServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JanServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.janServiceTypeIds);
+    CARAPI GetLevel2Budget_JanServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.janServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.FebServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.febServiceTypeIds);
+   CARAPI SetLevel2Budget_FebServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.febServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.FebServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.febServiceTypeIds);
+    CARAPI GetLevel2Budget_FebServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.febServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MarServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.marServiceTypeIds);
+   CARAPI SetLevel2Budget_MarServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.marServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.MarServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.marServiceTypeIds);
+    CARAPI GetLevel2Budget_MarServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.marServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AprServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.aprServiceTypeIds);
+   CARAPI SetLevel2Budget_AprServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.aprServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.AprServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.aprServiceTypeIds);
+    CARAPI GetLevel2Budget_AprServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.aprServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MayServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.mayServiceTypeIds);
+   CARAPI SetLevel2Budget_MayServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.mayServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.MayServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.mayServiceTypeIds);
+    CARAPI GetLevel2Budget_MayServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.mayServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JunServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.junServiceTypeIds);
+   CARAPI SetLevel2Budget_JunServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.junServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JunServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.junServiceTypeIds);
+    CARAPI GetLevel2Budget_JunServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.junServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JulServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.julServiceTypeIds);
+   CARAPI SetLevel2Budget_JulServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.julServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.JulServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.julServiceTypeIds);
+    CARAPI GetLevel2Budget_JulServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.julServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AugServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.augServiceTypeIds);
+   CARAPI SetLevel2Budget_AugServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.augServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.AugServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.augServiceTypeIds);
+    CARAPI GetLevel2Budget_AugServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.augServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.SepServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.sepServiceTypeIds);
+   CARAPI SetLevel2Budget_SepServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.sepServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.SepServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.sepServiceTypeIds);
+    CARAPI GetLevel2Budget_SepServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.sepServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.OctServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.octServiceTypeIds);
+   CARAPI SetLevel2Budget_OctServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.octServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.OctServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.octServiceTypeIds);
+    CARAPI GetLevel2Budget_OctServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.octServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.NovServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.novServiceTypeIds);
+   CARAPI SetLevel2Budget_NovServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.novServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.NovServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.novServiceTypeIds);
+    CARAPI GetLevel2Budget_NovServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.novServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.DecServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level2BudCARAPI Get.decServiceTypeIds);
+   CARAPI SetLevel2Budget_DecServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level2Budget.decServiceTypeIds);
 
-    CARAPI GetLevel2BudCARAPI Get.DecServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level2BudCARAPI Get.decServiceTypeIds);
+    CARAPI GetLevel2Budget_DecServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level2Budget.decServiceTypeIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JanCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.janCostsServices);
+   CARAPI SetLevel2Budget_JanCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.janCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.JanCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.janCostsServices);
+    CARAPI GetLevel2Budget_JanCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.janCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.FebCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.febCostsServices);
+   CARAPI SetLevel2Budget_FebCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.febCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.FebCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.febCostsServices);
+    CARAPI GetLevel2Budget_FebCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.febCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MarCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.marCostsServices);
+   CARAPI SetLevel2Budget_MarCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.marCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.MarCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.marCostsServices);
+    CARAPI GetLevel2Budget_MarCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.marCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AprCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.aprCostsServices);
+   CARAPI SetLevel2Budget_AprCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.aprCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.AprCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.aprCostsServices);
+    CARAPI GetLevel2Budget_AprCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.aprCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MayCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.mayCostsServices);
+   CARAPI SetLevel2Budget_MayCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.mayCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.MayCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.mayCostsServices);
+    CARAPI GetLevel2Budget_MayCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.mayCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JunCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.junCostsServices);
+   CARAPI SetLevel2Budget_JunCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.junCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.JunCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.junCostsServices);
+    CARAPI GetLevel2Budget_JunCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.junCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.JulCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.julCostsServices);
+   CARAPI SetLevel2Budget_JulCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.julCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.JulCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.julCostsServices);
+    CARAPI GetLevel2Budget_JulCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.julCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.AugCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.augCostsServices);
+   CARAPI SetLevel2Budget_AugCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.augCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.AugCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.augCostsServices);
+    CARAPI GetLevel2Budget_AugCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.augCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.SepCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.sepCostsServices);
+   CARAPI SetLevel2Budget_SepCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.sepCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.SepCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.sepCostsServices);
+    CARAPI GetLevel2Budget_SepCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.sepCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.OctCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.octCostsServices);
+   CARAPI SetLevel2Budget_OctCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.octCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.OctCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.octCostsServices);
+    CARAPI GetLevel2Budget_OctCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.octCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.NovCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.novCostsServices);
+   CARAPI SetLevel2Budget_NovCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.novCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.NovCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.novCostsServices);
+    CARAPI GetLevel2Budget_NovCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.novCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.DecCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.decCostsServices);
+   CARAPI SetLevel2Budget_DecCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.decCostsServices);
 
-    CARAPI GetLevel2BudCARAPI Get.DecCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.decCostsServices);
+    CARAPI GetLevel2Budget_DecCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.decCostsServices);
 
 
-   CARAPI SetLevel2BudCARAPI Get.TwelveTotalMonthlyCosts(
-     /* [in] */ ArrayOf<Double> CFinance.level2BudCARAPI Get.twelveTotalMonthlyCosts);
+   CARAPI SetLevel2Budget_TwelveTotalMonthlyCosts(
+     /* [in] */ ArrayOf<Double> CFinance.level2Budget.twelveTotalMonthlyCosts);
 
-    CARAPI GetLevel2BudCARAPI Get.TwelveTotalMonthlyCosts(
-     [out, callee] ArrayOf<Double>* CFinance.level2BudCARAPI Get.twelveTotalMonthlyCosts);
+    CARAPI GetLevel2Budget_TwelveTotalMonthlyCosts(
+     [out, callee] ArrayOf<Double>* CFinance.level2Budget.twelveTotalMonthlyCosts);
 
 
-   CARAPI SetLevel2BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [in] */ Double CFinance.level2BudCARAPI Get.yearCostThisBudCARAPI GetId);
+   CARAPI SetLevel2Budget_YearCostThisBudgetId(
+     /* [in] */ Double CFinance.level2Budget.yearCostThisBudgetId);
 
-    CARAPI GetLevel2BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [out] */ Double* CFinance.level2BudCARAPI Get.yearCostThisBudCARAPI GetId);
+    CARAPI GetLevel2Budget_YearCostThisBudgetId(
+     /* [out] */ Double* CFinance.level2Budget.yearCostThisBudgetId);
 
 
-   CARAPI SetLevel2BudCARAPI Get.NetProfitLossThisLevel2BudCARAPI GetId(
-     /* [in] */ Double CFinance.level2BudCARAPI Get.netProfitLossThisLevel2BudCARAPI GetId);
+   CARAPI SetLevel2Budget_NetProfitLossThisLevel2BudgetId(
+     /* [in] */ Double CFinance.level2Budget.netProfitLossThisLevel2BudgetId);
 
-    CARAPI GetLevel2BudCARAPI Get.NetProfitLossThisLevel2BudCARAPI GetId(
-     /* [out] */ Double* CFinance.level2BudCARAPI Get.netProfitLossThisLevel2BudCARAPI GetId);
+    CARAPI GetLevel2Budget_NetProfitLossThisLevel2BudgetId(
+     /* [out] */ Double* CFinance.level2Budget.netProfitLossThisLevel2BudgetId);
 
 
-   CARAPI SetLevel2BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [in] */ Int32 CFinance.level2BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+   CARAPI SetLevel2Budget_LinkingInternalBudgetNum(
+     /* [in] */ Int32 CFinance.level2Budget.linkingInternalBudgetNum);
 
-    CARAPI GetLevel2BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [out] */ Int32* CFinance.level2BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+    CARAPI GetLevel2Budget_LinkingInternalBudgetNum(
+     /* [out] */ Int32* CFinance.level2Budget.linkingInternalBudgetNum);
 
 
-   CARAPI SetLevel2BudCARAPI Get.CustomerIds(
-     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level2BudCARAPI Get.customerIds);
+   CARAPI SetLevel2Budget_CustomerIds(
+     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level2Budget.customerIds);
 
-    CARAPI GetLevel2BudCARAPI Get.CustomerIds(
-     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level2BudCARAPI Get.customerIds);
+    CARAPI GetLevel2Budget_CustomerIds(
+     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level2Budget.customerIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.PropertyIds(
-     /* [in] */ ArrayOf<CProperty.property> CFinance.level2BudCARAPI Get.propertyIds);
+   CARAPI SetLevel2Budget_PropertyIds(
+     /* [in] */ ArrayOf<CProperty.property> CFinance.level2Budget.propertyIds);
 
-    CARAPI GetLevel2BudCARAPI Get.PropertyIds(
-     [out, callee] ArrayOf<CProperty.property>* CFinance.level2BudCARAPI Get.propertyIds);
+    CARAPI GetLevel2Budget_PropertyIds(
+     [out, callee] ArrayOf<CProperty.property>* CFinance.level2Budget.propertyIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.ProgramIds(
-     /* [in] */ ArrayOf<CProperty.program> CFinance.level2BudCARAPI Get.programIds);
+   CARAPI SetLevel2Budget_ProgramIds(
+     /* [in] */ ArrayOf<CProperty.program> CFinance.level2Budget.programIds);
 
-    CARAPI GetLevel2BudCARAPI Get.ProgramIds(
-     [out, callee] ArrayOf<CProperty.program>* CFinance.level2BudCARAPI Get.programIds);
+    CARAPI GetLevel2Budget_ProgramIds(
+     [out, callee] ArrayOf<CProperty.program>* CFinance.level2Budget.programIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.ProjectIds(
-     /* [in] */ ArrayOf<CProperty.project> CFinance.level2BudCARAPI Get.projectIds);
+   CARAPI SetLevel2Budget_ProjectIds(
+     /* [in] */ ArrayOf<CProperty.project> CFinance.level2Budget.projectIds);
 
-    CARAPI GetLevel2BudCARAPI Get.ProjectIds(
-     [out, callee] ArrayOf<CProperty.project>* CFinance.level2BudCARAPI Get.projectIds);
+    CARAPI GetLevel2Budget_ProjectIds(
+     [out, callee] ArrayOf<CProperty.project>* CFinance.level2Budget.projectIds);
 
 
-   CARAPI SetLevel2BudCARAPI Get.LinkedToLevel3BudCARAPI GetId(
-     /* [in] */ CFinance.level3BudCARAPI Get CFinance.level2BudCARAPI Get.linkedToLevel3BudCARAPI GetId);
+   CARAPI SetLevel2Budget_LinkedToLevel3BudgetId(
+     /* [in] */ CFinance.level3Budget CFinance.level2Budget.linkedToLevel3BudgetId);
 
-    CARAPI GetLevel2BudCARAPI Get.LinkedToLevel3BudCARAPI GetId(
-     /* [out] */ CFinance.level3BudCARAPI Get* CFinance.level2BudCARAPI Get.linkedToLevel3BudCARAPI GetId);
+    CARAPI GetLevel2Budget_LinkedToLevel3BudgetId(
+     /* [out] */ CFinance.level3Budget* CFinance.level2Budget.linkedToLevel3BudgetId);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MasterAsset( SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level2BudCARAPI Get.masterAssetId);
+   CARAPI SetLevel2Budget_MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level2Budget.masterAssetId);
 
-    CARAPI GetLevel2BudCARAPI Get.MasterAsset( SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level2BudCARAPI Get.masterAssetId);
+    CARAPI GetLevel2Budget_MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level2Budget.masterAssetId);
 
 
-   CARAPI SetLevel2BudCARAPI Get.BusinessChannelOwnerId(
-     /* [in] */ CRegister.businessChannelOwner CFinance.level2BudCARAPI Get.businessChannelOwnerId);
+   CARAPI SetLevel2Budget_BusinessChannelOwnerId(
+     /* [in] */ CRegister.businessChannelOwner CFinance.level2Budget.businessChannelOwnerId);
 
-    CARAPI GetLevel2BudCARAPI Get.BusinessChannelOwnerId(
-     /* [out] */ CRegister.businessChannelOwner* CFinance.level2BudCARAPI Get.businessChannelOwnerId);
+    CARAPI GetLevel2Budget_BusinessChannelOwnerId(
+     /* [out] */ CRegister.businessChannelOwner* CFinance.level2Budget.businessChannelOwnerId);
 
 
 
 
 
-   CARAPI SetLevel3BudCARAPI Get.Level3BudCARAPI GetId(
-     /* [in] */ const String& CFinance.level3BudCARAPI Get.level3BudCARAPI GetId);
+   CARAPI SetLevel3Budget_Level3BudgetId(
+     /* [in] */ const String& CFinance.level3Budget.level3BudgetId);
 
-    CARAPI GetLevel3BudCARAPI Get.Level3BudCARAPI GetId(
-     /* [out] */ String* CFinance.level3BudCARAPI Get.level3BudCARAPI GetId);
+    CARAPI GetLevel3Budget_Level3BudgetId(
+     /* [out] */ String* CFinance.level3Budget.level3BudgetId);
 
 
-   CARAPI SetLevel3BudCARAPI Get.BudCARAPI GetName(
-     /* [in] */ const String& CFinance.level3BudCARAPI Get.budCARAPI GetName);
+   CARAPI SetLevel3Budget_BudgetName(
+     /* [in] */ const String& CFinance.level3Budget.budCARAPI GetName);
 
-    CARAPI GetLevel3BudCARAPI Get.BudCARAPI GetName(
-     /* [out] */ String* CFinance.level3BudCARAPI Get.budCARAPI GetName);
+    CARAPI GetLevel3Budget_BudgetName(
+     /* [out] */ String* CFinance.level3Budget.budCARAPI GetName);
 
 
-   CARAPI SetLevel3BudCARAPI Get.EndYearMonthyyyymm(
-     /* [in] */ Int32 CFinance.level3BudCARAPI Get.endYearMonthyyyymm);
+   CARAPI SetLevel3Budget_EndYearMonthyyyymm(
+     /* [in] */ Int32 CFinance.level3Budget.endYearMonthyyyymm);
 
-    CARAPI GetLevel3BudCARAPI Get.EndYearMonthyyyymm(
-     /* [out] */ Int32* CFinance.level3BudCARAPI Get.endYearMonthyyyymm);
+    CARAPI GetLevel3Budget_EndYearMonthyyyymm(
+     /* [out] */ Int32* CFinance.level3Budget.endYearMonthyyyymm);
 
 
-   CARAPI SetLevel3BudCARAPI Get.TwelveMonthSequence(
-     /* [in] */ ArrayOf<CHelper.month> CFinance.level3BudCARAPI Get.twelveMonthSequence);
+   CARAPI SetLevel3Budget_TwelveMonthSequence(
+     /* [in] */ ArrayOf<CHelper.month> CFinance.level3Budget.twelveMonthSequence);
 
-    CARAPI GetLevel3BudCARAPI Get.TwelveMonthSequence(
-     [out, callee] ArrayOf<CHelper.month>* CFinance.level3BudCARAPI Get.twelveMonthSequence);
+    CARAPI GetLevel3Budget_TwelveMonthSequence(
+     [out, callee] ArrayOf<CHelper.month>* CFinance.level3Budget.twelveMonthSequence);
 
 
-   CARAPI SetLevel3BudCARAPI Get.IncomeItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.incomeItemTypeIds);
+   CARAPI SetLevel3Budget_IncomeItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.incomeItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.IncomeItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.incomeItemTypeIds);
+    CARAPI GetLevel3Budget_IncomeItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.incomeItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JanRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.janRevenues);
+   CARAPI SetLevel3Budget_JanRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.janRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.JanRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.janRevenues);
+    CARAPI GetLevel3Budget_JanRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.janRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.FebRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.febRevenues);
+   CARAPI SetLevel3Budget_FebRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.febRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.FebRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.febRevenues);
+    CARAPI GetLevel3Budget_FebRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.febRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MarRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.marRevenues);
+   CARAPI SetLevel3Budget_MarRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.marRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.MarRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.marRevenues);
+    CARAPI GetLevel3Budget_MarRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.marRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AprRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.aprRevenues);
+   CARAPI SetLevel3Budget_AprRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.aprRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.AprRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.aprRevenues);
+    CARAPI GetLevel3Budget_AprRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.aprRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MayRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.mayRevenues);
+   CARAPI SetLevel3Budget_MayRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.mayRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.MayRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.mayRevenues);
+    CARAPI GetLevel3Budget_MayRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.mayRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JunRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.junRevenues);
+   CARAPI SetLevel3Budget_JunRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.junRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.JunRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.junRevenues);
+    CARAPI GetLevel3Budget_JunRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.junRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JulRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.julRevenues);
+   CARAPI SetLevel3Budget_JulRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.julRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.JulRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.julRevenues);
+    CARAPI GetLevel3Budget_JulRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.julRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AugRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.augRevenues);
+   CARAPI SetLevel3Budget_AugRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.augRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.AugRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.augRevenues);
+    CARAPI GetLevel3Budget_AugRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.augRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.SepRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.sepRevenues);
+   CARAPI SetLevel3Budget_SepRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.sepRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.SepRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.sepRevenues);
+    CARAPI GetLevel3Budget_SepRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.sepRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.OctRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.octRevenues);
+   CARAPI SetLevel3Budget_OctRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.octRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.OctRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.octRevenues);
+    CARAPI GetLevel3Budget_OctRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.octRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.NovRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.novRevenues);
+   CARAPI SetLevel3Budget_NovRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.novRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.NovRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.novRevenues);
+    CARAPI GetLevel3Budget_NovRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.novRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.DecRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.decRevenues);
+   CARAPI SetLevel3Budget_DecRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.decRevenues);
 
-    CARAPI GetLevel3BudCARAPI Get.DecRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.decRevenues);
+    CARAPI GetLevel3Budget_DecRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.decRevenues);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JanItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.janItemTypeIds);
+   CARAPI SetLevel3Budget_JanItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.janItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JanItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.janItemTypeIds);
+    CARAPI GetLevel3Budget_JanItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.janItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.FebItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.febItemTypeIds);
+   CARAPI SetLevel3Budget_FebItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.febItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.FebItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.febItemTypeIds);
+    CARAPI GetLevel3Budget_FebItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.febItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MarItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.marItemTypeIds);
+   CARAPI SetLevel3Budget_MarItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.marItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.MarItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.marItemTypeIds);
+    CARAPI GetLevel3Budget_MarItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.marItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AprItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.aprItemTypeIds);
+   CARAPI SetLevel3Budget_AprItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.aprItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.AprItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.aprItemTypeIds);
+    CARAPI GetLevel3Budget_AprItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.aprItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MayItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.mayItemTypeIds);
+   CARAPI SetLevel3Budget_MayItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.mayItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.MayItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.mayItemTypeIds);
+    CARAPI GetLevel3Budget_MayItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.mayItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JunItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.junItemTypeIds);
+   CARAPI SetLevel3Budget_JunItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.junItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JunItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.junItemTypeIds);
+    CARAPI GetLevel3Budget_JunItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.junItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JulItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.julItemTypeIds);
+   CARAPI SetLevel3Budget_JulItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.julItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JulItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.julItemTypeIds);
+    CARAPI GetLevel3Budget_JulItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.julItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AugItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.augItemTypeIds);
+   CARAPI SetLevel3Budget_AugItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.augItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.AugItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.augItemTypeIds);
+    CARAPI GetLevel3Budget_AugItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.augItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.SepItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.sepItemTypeIds);
+   CARAPI SetLevel3Budget_SepItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.sepItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.SepItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.sepItemTypeIds);
+    CARAPI GetLevel3Budget_SepItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.sepItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.OctItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.octItemTypeIds);
+   CARAPI SetLevel3Budget_OctItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.octItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.OctItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.octItemTypeIds);
+    CARAPI GetLevel3Budget_OctItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.octItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.NovItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.novItemTypeIds);
+   CARAPI SetLevel3Budget_NovItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.novItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.NovItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.novItemTypeIds);
+    CARAPI GetLevel3Budget_NovItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.novItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.DecItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.decItemTypeIds);
+   CARAPI SetLevel3Budget_DecItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.decItemTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.DecItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.decItemTypeIds);
+    CARAPI GetLevel3Budget_DecItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.decItemTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JanCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.janCostsItems);
+   CARAPI SetLevel3Budget_JanCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.janCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.JanCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.janCostsItems);
+    CARAPI GetLevel3Budget_JanCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.janCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.FebCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.febCostsItems);
+   CARAPI SetLevel3Budget_FebCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.febCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.FebCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.febCostsItems);
+    CARAPI GetLevel3Budget_FebCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.febCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MarCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.marCostsItems);
+   CARAPI SetLevel3Budget_MarCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.marCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.MarCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.marCostsItems);
+    CARAPI GetLevel3Budget_MarCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.marCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AprCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.aprCostsItems);
+   CARAPI SetLevel3Budget_AprCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.aprCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.AprCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.aprCostsItems);
+    CARAPI GetLevel3Budget_AprCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.aprCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MayCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.mayCostsItems);
+   CARAPI SetLevel3Budget_MayCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.mayCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.MayCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.mayCostsItems);
+    CARAPI GetLevel3Budget_MayCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.mayCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JunCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.junCostsItems);
+   CARAPI SetLevel3Budget_JunCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.junCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.JunCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.junCostsItems);
+    CARAPI GetLevel3Budget_JunCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.junCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JulCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.julCostsItems);
+   CARAPI SetLevel3Budget_JulCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.julCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.JulCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.julCostsItems);
+    CARAPI GetLevel3Budget_JulCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.julCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AugCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.augCostsItems);
+   CARAPI SetLevel3Budget_AugCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.augCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.AugCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.augCostsItems);
+    CARAPI GetLevel3Budget_AugCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.augCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.SepCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.sepCostsItems);
+   CARAPI SetLevel3Budget_SepCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.sepCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.SepCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.sepCostsItems);
+    CARAPI GetLevel3Budget_SepCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.sepCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.OctCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.octCostsItems);
+   CARAPI SetLevel3Budget_OctCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.octCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.OctCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.octCostsItems);
+    CARAPI GetLevel3Budget_OctCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.octCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.NovCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.novCostsItems);
+   CARAPI SetLevel3Budget_NovCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.novCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.NovCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.novCostsItems);
+    CARAPI GetLevel3Budget_NovCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.novCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.DecCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.decCostsItems);
+   CARAPI SetLevel3Budget_DecCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.decCostsItems);
 
-    CARAPI GetLevel3BudCARAPI Get.DecCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.decCostsItems);
+    CARAPI GetLevel3Budget_DecCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.decCostsItems);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JanJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.janJobTypeIds);
+   CARAPI SetLevel3Budget_JanJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.janJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JanJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.janJobTypeIds);
+    CARAPI GetLevel3Budget_JanJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.janJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.FebJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.febJobTypeIds);
+   CARAPI SetLevel3Budget_FebJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.febJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.FebJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.febJobTypeIds);
+    CARAPI GetLevel3Budget_FebJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.febJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MarJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.marJobTypeIds);
+   CARAPI SetLevel3Budget_MarJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.marJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.MarJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.marJobTypeIds);
+    CARAPI GetLevel3Budget_MarJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.marJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AprJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.aprJobTypeIds);
+   CARAPI SetLevel3Budget_AprJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.aprJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.AprJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.aprJobTypeIds);
+    CARAPI GetLevel3Budget_AprJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.aprJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MayJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.mayJobTypeIds);
+   CARAPI SetLevel3Budget_MayJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.mayJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.MayJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.mayJobTypeIds);
+    CARAPI GetLevel3Budget_MayJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.mayJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JunJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.junJobTypeIds);
+   CARAPI SetLevel3Budget_JunJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.junJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JunJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.junJobTypeIds);
+    CARAPI GetLevel3Budget_JunJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.junJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JulJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.julJobTypeIds);
+   CARAPI SetLevel3Budget_JulJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.julJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JulJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.julJobTypeIds);
+    CARAPI GetLevel3Budget_JulJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.julJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AugJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.augJobTypeIds);
+   CARAPI SetLevel3Budget_AugJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.augJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.AugJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.augJobTypeIds);
+    CARAPI GetLevel3Budget_AugJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.augJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.SepJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.sepJobTypeIds);
+   CARAPI SetLevel3Budget_SepJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.sepJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.SepJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.sepJobTypeIds);
+    CARAPI GetLevel3Budget_SepJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.sepJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.OctJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.octJobTypeIds);
+   CARAPI SetLevel3Budget_OctJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.octJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.OctJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.octJobTypeIds);
+    CARAPI GetLevel3Budget_OctJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.octJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.NovJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.novJobTypeIds);
+   CARAPI SetLevel3Budget_NovJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.novJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.NovJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.novJobTypeIds);
+    CARAPI GetLevel3Budget_NovJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.novJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.DecJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.decJobTypeIds);
+   CARAPI SetLevel3Budget_DecJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.decJobTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.DecJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.decJobTypeIds);
+    CARAPI GetLevel3Budget_DecJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.decJobTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JanCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.janCostsJobs);
+   CARAPI SetLevel3Budget_JanCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.janCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.JanCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.janCostsJobs);
+    CARAPI GetLevel3Budget_JanCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.janCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.FebCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.febCostsJobs);
+   CARAPI SetLevel3Budget_FebCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.febCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.FebCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.febCostsJobs);
+    CARAPI GetLevel3Budget_FebCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.febCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MarCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.marCostsJobs);
+   CARAPI SetLevel3Budget_MarCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.marCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.MarCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.marCostsJobs);
+    CARAPI GetLevel3Budget_MarCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.marCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AprCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.aprCostsJobs);
+   CARAPI SetLevel3Budget_AprCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.aprCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.AprCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.aprCostsJobs);
+    CARAPI GetLevel3Budget_AprCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.aprCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MayCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.mayCostsJobs);
+   CARAPI SetLevel3Budget_MayCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.mayCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.MayCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.mayCostsJobs);
+    CARAPI GetLevel3Budget_MayCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.mayCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JunCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.junCostsJobs);
+   CARAPI SetLevel3Budget_JunCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.junCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.JunCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.junCostsJobs);
+    CARAPI GetLevel3Budget_JunCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.junCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JulCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.julCostsJobs);
+   CARAPI SetLevel3Budget_JulCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.julCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.JulCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.julCostsJobs);
+    CARAPI GetLevel3Budget_JulCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.julCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AugCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.augCostsJobs);
+   CARAPI SetLevel3Budget_AugCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.augCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.AugCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.augCostsJobs);
+    CARAPI GetLevel3Budget_AugCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.augCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.SepCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.sepCostsJobs);
+   CARAPI SetLevel3Budget_SepCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.sepCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.SepCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.sepCostsJobs);
+    CARAPI GetLevel3Budget_SepCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.sepCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.OctCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.octCostsJobs);
+   CARAPI SetLevel3Budget_OctCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.octCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.OctCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.octCostsJobs);
+    CARAPI GetLevel3Budget_OctCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.octCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.NovCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.novCostsJobs);
+   CARAPI SetLevel3Budget_NovCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.novCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.NovCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.novCostsJobs);
+    CARAPI GetLevel3Budget_NovCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.novCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.DecCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.decCostsJobs);
+   CARAPI SetLevel3Budget_DecCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.decCostsJobs);
 
-    CARAPI GetLevel3BudCARAPI Get.DecCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.decCostsJobs);
+    CARAPI GetLevel3Budget_DecCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.decCostsJobs);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JanServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.janServiceTypeIds);
+   CARAPI SetLevel3Budget_JanServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.janServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JanServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.janServiceTypeIds);
+    CARAPI GetLevel3Budget_JanServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.janServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.FebServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.febServiceTypeIds);
+   CARAPI SetLevel3Budget_FebServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.febServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.FebServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.febServiceTypeIds);
+    CARAPI GetLevel3Budget_FebServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.febServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MarServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.marServiceTypeIds);
+   CARAPI SetLevel3Budget_MarServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.marServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.MarServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.marServiceTypeIds);
+    CARAPI GetLevel3Budget_MarServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.marServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AprServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.aprServiceTypeIds);
+   CARAPI SetLevel3Budget_AprServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.aprServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.AprServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.aprServiceTypeIds);
+    CARAPI GetLevel3Budget_AprServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.aprServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MayServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.mayServiceTypeIds);
+   CARAPI SetLevel3Budget_MayServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.mayServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.MayServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.mayServiceTypeIds);
+    CARAPI GetLevel3Budget_MayServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.mayServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JunServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.junServiceTypeIds);
+   CARAPI SetLevel3Budget_JunServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.junServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JunServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.junServiceTypeIds);
+    CARAPI GetLevel3Budget_JunServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.junServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JulServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.julServiceTypeIds);
+   CARAPI SetLevel3Budget_JulServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.julServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.JulServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.julServiceTypeIds);
+    CARAPI GetLevel3Budget_JulServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.julServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AugServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.augServiceTypeIds);
+   CARAPI SetLevel3Budget_AugServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.augServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.AugServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.augServiceTypeIds);
+    CARAPI GetLevel3Budget_AugServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.augServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.SepServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.sepServiceTypeIds);
+   CARAPI SetLevel3Budget_SepServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.sepServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.SepServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.sepServiceTypeIds);
+    CARAPI GetLevel3Budget_SepServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.sepServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.OctServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.octServiceTypeIds);
+   CARAPI SetLevel3Budget_OctServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.octServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.OctServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.octServiceTypeIds);
+    CARAPI GetLevel3Budget_OctServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.octServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.NovServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.novServiceTypeIds);
+   CARAPI SetLevel3Budget_NovServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.novServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.NovServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.novServiceTypeIds);
+    CARAPI GetLevel3Budget_NovServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.novServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.DecServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level3BudCARAPI Get.decServiceTypeIds);
+   CARAPI SetLevel3Budget_DecServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level3Budget.decServiceTypeIds);
 
-    CARAPI GetLevel3BudCARAPI Get.DecServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level3BudCARAPI Get.decServiceTypeIds);
+    CARAPI GetLevel3Budget_DecServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level3Budget.decServiceTypeIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JanCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.janCostsServices);
+   CARAPI SetLevel3Budget_JanCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.janCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.JanCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.janCostsServices);
+    CARAPI GetLevel3Budget_JanCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.janCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.FebCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.febCostsServices);
+   CARAPI SetLevel3Budget_FebCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.febCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.FebCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.febCostsServices);
+    CARAPI GetLevel3Budget_FebCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.febCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MarCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.marCostsServices);
+   CARAPI SetLevel3Budget_MarCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.marCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.MarCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.marCostsServices);
+    CARAPI GetLevel3Budget_MarCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.marCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AprCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.aprCostsServices);
+   CARAPI SetLevel3Budget_AprCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.aprCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.AprCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.aprCostsServices);
+    CARAPI GetLevel3Budget_AprCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.aprCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MayCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.mayCostsServices);
+   CARAPI SetLevel3Budget_MayCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.mayCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.MayCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.mayCostsServices);
+    CARAPI GetLevel3Budget_MayCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.mayCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JunCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.junCostsServices);
+   CARAPI SetLevel3Budget_JunCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.junCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.JunCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.junCostsServices);
+    CARAPI GetLevel3Budget_JunCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.junCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.JulCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.julCostsServices);
+   CARAPI SetLevel3Budget_JulCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.julCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.JulCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.julCostsServices);
+    CARAPI GetLevel3Budget_JulCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.julCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.AugCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.augCostsServices);
+   CARAPI SetLevel3Budget_AugCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.augCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.AugCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.augCostsServices);
+    CARAPI GetLevel3Budget_AugCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.augCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.SepCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.sepCostsServices);
+   CARAPI SetLevel3Budget_SepCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.sepCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.SepCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.sepCostsServices);
+    CARAPI GetLevel3Budget_SepCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.sepCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.OctCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.octCostsServices);
+   CARAPI SetLevel3Budget_OctCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.octCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.OctCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.octCostsServices);
+    CARAPI GetLevel3Budget_OctCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.octCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.NovCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.novCostsServices);
+   CARAPI SetLevel3Budget_NovCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.novCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.NovCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.novCostsServices);
+    CARAPI GetLevel3Budget_NovCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.novCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.DecCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.decCostsServices);
+   CARAPI SetLevel3Budget_DecCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.decCostsServices);
 
-    CARAPI GetLevel3BudCARAPI Get.DecCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.decCostsServices);
+    CARAPI GetLevel3Budget_DecCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.decCostsServices);
 
 
-   CARAPI SetLevel3BudCARAPI Get.TwelveTotalMonthlyCosts(
-     /* [in] */ ArrayOf<Double> CFinance.level3BudCARAPI Get.twelveTotalMonthlyCosts);
+   CARAPI SetLevel3Budget_TwelveTotalMonthlyCosts(
+     /* [in] */ ArrayOf<Double> CFinance.level3Budget.twelveTotalMonthlyCosts);
 
-    CARAPI GetLevel3BudCARAPI Get.TwelveTotalMonthlyCosts(
-     [out, callee] ArrayOf<Double>* CFinance.level3BudCARAPI Get.twelveTotalMonthlyCosts);
+    CARAPI GetLevel3Budget_TwelveTotalMonthlyCosts(
+     [out, callee] ArrayOf<Double>* CFinance.level3Budget.twelveTotalMonthlyCosts);
 
 
-   CARAPI SetLevel3BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [in] */ Double CFinance.level3BudCARAPI Get.yearCostThisBudCARAPI GetId);
+   CARAPI SetLevel3Budget_YearCostThisBudgetId(
+     /* [in] */ Double CFinance.level3Budget.yearCostThisBudgetId);
 
-    CARAPI GetLevel3BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [out] */ Double* CFinance.level3BudCARAPI Get.yearCostThisBudCARAPI GetId);
+    CARAPI GetLevel3Budget_YearCostThisBudgetId(
+     /* [out] */ Double* CFinance.level3Budget.yearCostThisBudgetId);
 
 
-   CARAPI SetLevel3BudCARAPI Get.NetProfitLossThisLevel3BudCARAPI GetId(
-     /* [in] */ Double CFinance.level3BudCARAPI Get.netProfitLossThisLevel3BudCARAPI GetId);
+   CARAPI SetLevel3Budget_NetProfitLossThisLevel3BudgetId(
+     /* [in] */ Double CFinance.level3Budget.netProfitLossThisLevel3BudgetId);
 
-    CARAPI GetLevel3BudCARAPI Get.NetProfitLossThisLevel3BudCARAPI GetId(
-     /* [out] */ Double* CFinance.level3BudCARAPI Get.netProfitLossThisLevel3BudCARAPI GetId);
+    CARAPI GetLevel3Budget_NetProfitLossThisLevel3BudgetId(
+     /* [out] */ Double* CFinance.level3Budget.netProfitLossThisLevel3BudgetId);
 
 
-   CARAPI SetLevel3BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [in] */ Int32 CFinance.level3BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+   CARAPI SetLevel3Budget_LinkingInternalBudgetNum(
+     /* [in] */ Int32 CFinance.level3Budget.linkingInternalBudgetNum);
 
-    CARAPI GetLevel3BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [out] */ Int32* CFinance.level3BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+    CARAPI GetLevel3Budget_LinkingInternalBudgetNum(
+     /* [out] */ Int32* CFinance.level3Budget.linkingInternalBudgetNum);
 
 
-   CARAPI SetLevel3BudCARAPI Get.CustomerIds(
-     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level3BudCARAPI Get.customerIds);
+   CARAPI SetLevel3Budget_CustomerIds(
+     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level3Budget.customerIds);
 
-    CARAPI GetLevel3BudCARAPI Get.CustomerIds(
-     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level3BudCARAPI Get.customerIds);
+    CARAPI GetLevel3Budget_CustomerIds(
+     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level3Budget.customerIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.PropertyIds(
-     /* [in] */ ArrayOf<CProperty.property> CFinance.level3BudCARAPI Get.propertyIds);
+   CARAPI SetLevel3Budget_PropertyIds(
+     /* [in] */ ArrayOf<CProperty.property> CFinance.level3Budget.propertyIds);
 
-    CARAPI GetLevel3BudCARAPI Get.PropertyIds(
-     [out, callee] ArrayOf<CProperty.property>* CFinance.level3BudCARAPI Get.propertyIds);
+    CARAPI GetLevel3Budget_PropertyIds(
+     [out, callee] ArrayOf<CProperty.property>* CFinance.level3Budget.propertyIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.ProgramIds(
-     /* [in] */ ArrayOf<CProperty.program> CFinance.level3BudCARAPI Get.programIds);
+   CARAPI SetLevel3Budget_ProgramIds(
+     /* [in] */ ArrayOf<CProperty.program> CFinance.level3Budget.programIds);
 
-    CARAPI GetLevel3BudCARAPI Get.ProgramIds(
-     [out, callee] ArrayOf<CProperty.program>* CFinance.level3BudCARAPI Get.programIds);
+    CARAPI GetLevel3Budget_ProgramIds(
+     [out, callee] ArrayOf<CProperty.program>* CFinance.level3Budget.programIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.ProjectIds(
-     /* [in] */ ArrayOf<CProperty.project> CFinance.level3BudCARAPI Get.projectIds);
+   CARAPI SetLevel3Budget_ProjectIds(
+     /* [in] */ ArrayOf<CProperty.project> CFinance.level3Budget.projectIds);
 
-    CARAPI GetLevel3BudCARAPI Get.ProjectIds(
-     [out, callee] ArrayOf<CProperty.project>* CFinance.level3BudCARAPI Get.projectIds);
+    CARAPI GetLevel3Budget_ProjectIds(
+     [out, callee] ArrayOf<CProperty.project>* CFinance.level3Budget.projectIds);
 
 
-   CARAPI SetLevel3BudCARAPI Get.LinkedToLevel4BudCARAPI GetId(
-     /* [in] */ CFinance.level4BudCARAPI Get CFinance.level3BudCARAPI Get.linkedToLevel4BudCARAPI GetId);
+   CARAPI SetLevel3Budget_LinkedToLevel4BudgetId(
+     /* [in] */ CFinance.level4Budget CFinance.level3Budget.linkedToLevel4BudgetId);
 
-    CARAPI GetLevel3BudCARAPI Get.LinkedToLevel4BudCARAPI GetId(
-     /* [out] */ CFinance.level4BudCARAPI Get* CFinance.level3BudCARAPI Get.linkedToLevel4BudCARAPI GetId);
+    CARAPI GetLevel3Budget_LinkedToLevel4BudgetId(
+     /* [out] */ CFinance.level4Budget* CFinance.level3Budget.linkedToLevel4BudgetId);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MasterAsset( SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level3BudCARAPI Get.masterAssetId);
+   CARAPI SetLevel3Budget_MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level3Budget.masterAssetId);
 
-    CARAPI GetLevel3BudCARAPI Get.MasterAsset( SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level3BudCARAPI Get.masterAssetId);
+    CARAPI GetLevel3Budget_MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level3Budget.masterAssetId);
 
 
-   CARAPI SetLevel3BudCARAPI Get.BusinessChannelOwnerId(
-     /* [in] */ CRegister.businessChannelOwner CFinance.level3BudCARAPI Get.businessChannelOwnerId);
+   CARAPI SetLevel3Budget_BusinessChannelOwnerId(
+     /* [in] */ CRegister.businessChannelOwner CFinance.level3Budget.businessChannelOwnerId);
 
-    CARAPI GetLevel3BudCARAPI Get.BusinessChannelOwnerId(
-     /* [out] */ CRegister.businessChannelOwner* CFinance.level3BudCARAPI Get.businessChannelOwnerId);
+    CARAPI GetLevel3Budget_BusinessChannelOwnerId(
+     /* [out] */ CRegister.businessChannelOwner* CFinance.level3Budget.businessChannelOwnerId);
 
 
 
 
 
-   CARAPI SetLevel4BudCARAPI Get.Level4BudCARAPI GetId(
-     /* [in] */ const String& CFinance.level4BudCARAPI Get.level4BudCARAPI GetId);
+   CARAPI SetLevel4Budget_Level4BudgetId(
+     /* [in] */ const String& CFinance.level4Budget.level4BudgetId);
 
-    CARAPI GetLevel4BudCARAPI Get.Level4BudCARAPI GetId(
-     /* [out] */ String* CFinance.level4BudCARAPI Get.level4BudCARAPI GetId);
+    CARAPI GetLevel4Budget_Level4BudgetId(
+     /* [out] */ String* CFinance.level4Budget.level4BudgetId);
 
 
-   CARAPI SetLevel4BudCARAPI Get.BudCARAPI GetName(
-     /* [in] */ const String& CFinance.level4BudCARAPI Get.budCARAPI GetName);
+   CARAPI SetLevel4Budget_BudgetName(
+     /* [in] */ const String& CFinance.level4Budget.budCARAPI GetName);
 
-    CARAPI GetLevel4BudCARAPI Get.BudCARAPI GetName(
-     /* [out] */ String* CFinance.level4BudCARAPI Get.budCARAPI GetName);
+    CARAPI GetLevel4Budget_BudgetName(
+     /* [out] */ String* CFinance.level4Budget.budCARAPI GetName);
 
 
-   CARAPI SetLevel4BudCARAPI Get.EndYearMonthyyyymm(
-     /* [in] */ Int32 CFinance.level4BudCARAPI Get.endYearMonthyyyymm);
+   CARAPI SetLevel4Budget_EndYearMonthyyyymm(
+     /* [in] */ Int32 CFinance.level4Budget.endYearMonthyyyymm);
 
-    CARAPI GetLevel4BudCARAPI Get.EndYearMonthyyyymm(
-     /* [out] */ Int32* CFinance.level4BudCARAPI Get.endYearMonthyyyymm);
+    CARAPI GetLevel4Budget_EndYearMonthyyyymm(
+     /* [out] */ Int32* CFinance.level4Budget.endYearMonthyyyymm);
 
 
-   CARAPI SetLevel4BudCARAPI Get.TwelveMonthSequence(
-     /* [in] */ ArrayOf<CHelper.month> CFinance.level4BudCARAPI Get.twelveMonthSequence);
+   CARAPI SetLevel4Budget_TwelveMonthSequence(
+     /* [in] */ ArrayOf<CHelper.month> CFinance.level4Budget.twelveMonthSequence);
 
-    CARAPI GetLevel4BudCARAPI Get.TwelveMonthSequence(
-     [out, callee] ArrayOf<CHelper.month>* CFinance.level4BudCARAPI Get.twelveMonthSequence);
+    CARAPI GetLevel4Budget_TwelveMonthSequence(
+     [out, callee] ArrayOf<CHelper.month>* CFinance.level4Budget.twelveMonthSequence);
 
 
-   CARAPI SetLevel4BudCARAPI Get.IncomeItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.incomeItemTypeIds);
+   CARAPI SetLevel4Budget_IncomeItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.incomeItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.IncomeItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.incomeItemTypeIds);
+    CARAPI GetLevel4Budget_IncomeItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.incomeItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JanRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.janRevenues);
+   CARAPI SetLevel4Budget_JanRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.janRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.JanRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.janRevenues);
+    CARAPI GetLevel4Budget_JanRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.janRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.FebRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.febRevenues);
+   CARAPI SetLevel4Budget_FebRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.febRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.FebRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.febRevenues);
+    CARAPI GetLevel4Budget_FebRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.febRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MarRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.marRevenues);
+   CARAPI SetLevel4Budget_MarRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.marRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.MarRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.marRevenues);
+    CARAPI GetLevel4Budget_MarRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.marRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AprRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.aprRevenues);
+   CARAPI SetLevel4Budget_AprRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.aprRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.AprRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.aprRevenues);
+    CARAPI GetLevel4Budget_AprRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.aprRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MayRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.mayRevenues);
+   CARAPI SetLevel4Budget_MayRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.mayRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.MayRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.mayRevenues);
+    CARAPI GetLevel4Budget_MayRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.mayRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JunRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.junRevenues);
+   CARAPI SetLevel4Budget_JunRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.junRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.JunRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.junRevenues);
+    CARAPI GetLevel4Budget_JunRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.junRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JulRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.julRevenues);
+   CARAPI SetLevel4Budget_JulRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.julRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.JulRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.julRevenues);
+    CARAPI GetLevel4Budget_JulRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.julRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AugRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.augRevenues);
+   CARAPI SetLevel4Budget_AugRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.augRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.AugRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.augRevenues);
+    CARAPI GetLevel4Budget_AugRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.augRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.SepRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.sepRevenues);
+   CARAPI SetLevel4Budget_SepRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.sepRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.SepRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.sepRevenues);
+    CARAPI GetLevel4Budget_SepRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.sepRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.OctRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.octRevenues);
+   CARAPI SetLevel4Budget_OctRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.octRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.OctRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.octRevenues);
+    CARAPI GetLevel4Budget_OctRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.octRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.NovRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.novRevenues);
+   CARAPI SetLevel4Budget_NovRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.novRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.NovRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.novRevenues);
+    CARAPI GetLevel4Budget_NovRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.novRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.DecRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.decRevenues);
+   CARAPI SetLevel4Budget_DecRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.decRevenues);
 
-    CARAPI GetLevel4BudCARAPI Get.DecRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.decRevenues);
+    CARAPI GetLevel4Budget_DecRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.decRevenues);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JanItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.janItemTypeIds);
+   CARAPI SetLevel4Budget_JanItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.janItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JanItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.janItemTypeIds);
+    CARAPI GetLevel4Budget_JanItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.janItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.FebItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.febItemTypeIds);
+   CARAPI SetLevel4Budget_FebItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.febItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.FebItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.febItemTypeIds);
+    CARAPI GetLevel4Budget_FebItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.febItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MarItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.marItemTypeIds);
+   CARAPI SetLevel4Budget_MarItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.marItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.MarItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.marItemTypeIds);
+    CARAPI GetLevel4Budget_MarItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.marItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AprItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.aprItemTypeIds);
+   CARAPI SetLevel4Budget_AprItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.aprItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.AprItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.aprItemTypeIds);
+    CARAPI GetLevel4Budget_AprItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.aprItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MayItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.mayItemTypeIds);
+   CARAPI SetLevel4Budget_MayItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.mayItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.MayItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.mayItemTypeIds);
+    CARAPI GetLevel4Budget_MayItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.mayItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JunItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.junItemTypeIds);
+   CARAPI SetLevel4Budget_JunItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.junItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JunItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.junItemTypeIds);
+    CARAPI GetLevel4Budget_JunItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.junItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JulItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.julItemTypeIds);
+   CARAPI SetLevel4Budget_JulItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.julItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JulItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.julItemTypeIds);
+    CARAPI GetLevel4Budget_JulItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.julItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AugItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.augItemTypeIds);
+   CARAPI SetLevel4Budget_AugItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.augItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.AugItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.augItemTypeIds);
+    CARAPI GetLevel4Budget_AugItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.augItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.SepItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.sepItemTypeIds);
+   CARAPI SetLevel4Budget_SepItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.sepItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.SepItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.sepItemTypeIds);
+    CARAPI GetLevel4Budget_SepItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.sepItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.OctItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.octItemTypeIds);
+   CARAPI SetLevel4Budget_OctItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.octItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.OctItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.octItemTypeIds);
+    CARAPI GetLevel4Budget_OctItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.octItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.NovItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.novItemTypeIds);
+   CARAPI SetLevel4Budget_NovItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.novItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.NovItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.novItemTypeIds);
+    CARAPI GetLevel4Budget_NovItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.novItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.DecItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.decItemTypeIds);
+   CARAPI SetLevel4Budget_DecItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.decItemTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.DecItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.decItemTypeIds);
+    CARAPI GetLevel4Budget_DecItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.decItemTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JanCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.janCostsItems);
+   CARAPI SetLevel4Budget_JanCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.janCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.JanCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.janCostsItems);
+    CARAPI GetLevel4Budget_JanCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.janCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.FebCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.febCostsItems);
+   CARAPI SetLevel4Budget_FebCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.febCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.FebCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.febCostsItems);
+    CARAPI GetLevel4Budget_FebCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.febCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MarCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.marCostsItems);
+   CARAPI SetLevel4Budget_MarCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.marCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.MarCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.marCostsItems);
+    CARAPI GetLevel4Budget_MarCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.marCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AprCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.aprCostsItems);
+   CARAPI SetLevel4Budget_AprCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.aprCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.AprCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.aprCostsItems);
+    CARAPI GetLevel4Budget_AprCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.aprCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MayCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.mayCostsItems);
+   CARAPI SetLevel4Budget_MayCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.mayCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.MayCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.mayCostsItems);
+    CARAPI GetLevel4Budget_MayCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.mayCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JunCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.junCostsItems);
+   CARAPI SetLevel4Budget_JunCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.junCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.JunCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.junCostsItems);
+    CARAPI GetLevel4Budget_JunCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.junCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JulCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.julCostsItems);
+   CARAPI SetLevel4Budget_JulCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.julCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.JulCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.julCostsItems);
+    CARAPI GetLevel4Budget_JulCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.julCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AugCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.augCostsItems);
+   CARAPI SetLevel4Budget_AugCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.augCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.AugCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.augCostsItems);
+    CARAPI GetLevel4Budget_AugCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.augCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.SepCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.sepCostsItems);
+   CARAPI SetLevel4Budget_SepCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.sepCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.SepCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.sepCostsItems);
+    CARAPI GetLevel4Budget_SepCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.sepCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.OctCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.octCostsItems);
+   CARAPI SetLevel4Budget_OctCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.octCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.OctCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.octCostsItems);
+    CARAPI GetLevel4Budget_OctCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.octCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.NovCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.novCostsItems);
+   CARAPI SetLevel4Budget_NovCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.novCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.NovCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.novCostsItems);
+    CARAPI GetLevel4Budget_NovCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.novCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.DecCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.decCostsItems);
+   CARAPI SetLevel4Budget_DecCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.decCostsItems);
 
-    CARAPI GetLevel4BudCARAPI Get.DecCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.decCostsItems);
+    CARAPI GetLevel4Budget_DecCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.decCostsItems);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JanJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.janJobTypeIds);
+   CARAPI SetLevel4Budget_JanJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.janJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JanJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.janJobTypeIds);
+    CARAPI GetLevel4Budget_JanJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.janJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.FebJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.febJobTypeIds);
+   CARAPI SetLevel4Budget_FebJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.febJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.FebJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.febJobTypeIds);
+    CARAPI GetLevel4Budget_FebJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.febJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MarJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.marJobTypeIds);
+   CARAPI SetLevel4Budget_MarJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.marJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.MarJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.marJobTypeIds);
+    CARAPI GetLevel4Budget_MarJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.marJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AprJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.aprJobTypeIds);
+   CARAPI SetLevel4Budget_AprJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.aprJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.AprJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.aprJobTypeIds);
+    CARAPI GetLevel4Budget_AprJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.aprJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MayJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.mayJobTypeIds);
+   CARAPI SetLevel4Budget_MayJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.mayJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.MayJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.mayJobTypeIds);
+    CARAPI GetLevel4Budget_MayJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.mayJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JunJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.junJobTypeIds);
+   CARAPI SetLevel4Budget_JunJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.junJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JunJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.junJobTypeIds);
+    CARAPI GetLevel4Budget_JunJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.junJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JulJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.julJobTypeIds);
+   CARAPI SetLevel4Budget_JulJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.julJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JulJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.julJobTypeIds);
+    CARAPI GetLevel4Budget_JulJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.julJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AugJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.augJobTypeIds);
+   CARAPI SetLevel4Budget_AugJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.augJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.AugJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.augJobTypeIds);
+    CARAPI GetLevel4Budget_AugJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.augJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.SepJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.sepJobTypeIds);
+   CARAPI SetLevel4Budget_SepJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.sepJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.SepJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.sepJobTypeIds);
+    CARAPI GetLevel4Budget_SepJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.sepJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.OctJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.octJobTypeIds);
+   CARAPI SetLevel4Budget_OctJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.octJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.OctJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.octJobTypeIds);
+    CARAPI GetLevel4Budget_OctJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.octJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.NovJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.novJobTypeIds);
+   CARAPI SetLevel4Budget_NovJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.novJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.NovJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.novJobTypeIds);
+    CARAPI GetLevel4Budget_NovJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.novJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.DecJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.decJobTypeIds);
+   CARAPI SetLevel4Budget_DecJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.decJobTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.DecJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.decJobTypeIds);
+    CARAPI GetLevel4Budget_DecJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.decJobTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JanCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.janCostsJobs);
+   CARAPI SetLevel4Budget_JanCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.janCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.JanCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.janCostsJobs);
+    CARAPI GetLevel4Budget_JanCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.janCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.FebCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.febCostsJobs);
+   CARAPI SetLevel4Budget_FebCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.febCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.FebCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.febCostsJobs);
+    CARAPI GetLevel4Budget_FebCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.febCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MarCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.marCostsJobs);
+   CARAPI SetLevel4Budget_MarCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.marCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.MarCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.marCostsJobs);
+    CARAPI GetLevel4Budget_MarCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.marCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AprCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.aprCostsJobs);
+   CARAPI SetLevel4Budget_AprCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.aprCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.AprCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.aprCostsJobs);
+    CARAPI GetLevel4Budget_AprCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.aprCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MayCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.mayCostsJobs);
+   CARAPI SetLevel4Budget_MayCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.mayCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.MayCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.mayCostsJobs);
+    CARAPI GetLevel4Budget_MayCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.mayCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JunCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.junCostsJobs);
+   CARAPI SetLevel4Budget_JunCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.junCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.JunCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.junCostsJobs);
+    CARAPI GetLevel4Budget_JunCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.junCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JulCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.julCostsJobs);
+   CARAPI SetLevel4Budget_JulCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.julCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.JulCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.julCostsJobs);
+    CARAPI GetLevel4Budget_JulCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.julCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AugCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.augCostsJobs);
+   CARAPI SetLevel4Budget_AugCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.augCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.AugCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.augCostsJobs);
+    CARAPI GetLevel4Budget_AugCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.augCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.SepCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.sepCostsJobs);
+   CARAPI SetLevel4Budget_SepCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.sepCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.SepCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.sepCostsJobs);
+    CARAPI GetLevel4Budget_SepCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.sepCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.OctCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.octCostsJobs);
+   CARAPI SetLevel4Budget_OctCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.octCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.OctCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.octCostsJobs);
+    CARAPI GetLevel4Budget_OctCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.octCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.NovCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.novCostsJobs);
+   CARAPI SetLevel4Budget_NovCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.novCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.NovCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.novCostsJobs);
+    CARAPI GetLevel4Budget_NovCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.novCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.DecCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.decCostsJobs);
+   CARAPI SetLevel4Budget_DecCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.decCostsJobs);
 
-    CARAPI GetLevel4BudCARAPI Get.DecCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.decCostsJobs);
+    CARAPI GetLevel4Budget_DecCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.decCostsJobs);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JanServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.janServiceTypeIds);
+   CARAPI SetLevel4Budget_JanServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.janServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JanServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.janServiceTypeIds);
+    CARAPI GetLevel4Budget_JanServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.janServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.FebServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.febServiceTypeIds);
+   CARAPI SetLevel4Budget_FebServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.febServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.FebServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.febServiceTypeIds);
+    CARAPI GetLevel4Budget_FebServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.febServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MarServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.marServiceTypeIds);
+   CARAPI SetLevel4Budget_MarServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.marServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.MarServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.marServiceTypeIds);
+    CARAPI GetLevel4Budget_MarServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.marServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AprServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.aprServiceTypeIds);
+   CARAPI SetLevel4Budget_AprServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.aprServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.AprServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.aprServiceTypeIds);
+    CARAPI GetLevel4Budget_AprServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.aprServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MayServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.mayServiceTypeIds);
+   CARAPI SetLevel4Budget_MayServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.mayServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.MayServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.mayServiceTypeIds);
+    CARAPI GetLevel4Budget_MayServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.mayServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JunServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.junServiceTypeIds);
+   CARAPI SetLevel4Budget_JunServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.junServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JunServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.junServiceTypeIds);
+    CARAPI GetLevel4Budget_JunServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.junServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JulServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.julServiceTypeIds);
+   CARAPI SetLevel4Budget_JulServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.julServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.JulServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.julServiceTypeIds);
+    CARAPI GetLevel4Budget_JulServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.julServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AugServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.augServiceTypeIds);
+   CARAPI SetLevel4Budget_AugServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.augServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.AugServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.augServiceTypeIds);
+    CARAPI GetLevel4Budget_AugServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.augServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.SepServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.sepServiceTypeIds);
+   CARAPI SetLevel4Budget_SepServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.sepServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.SepServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.sepServiceTypeIds);
+    CARAPI GetLevel4Budget_SepServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.sepServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.OctServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.octServiceTypeIds);
+   CARAPI SetLevel4Budget_OctServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.octServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.OctServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.octServiceTypeIds);
+    CARAPI GetLevel4Budget_OctServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.octServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.NovServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.novServiceTypeIds);
+   CARAPI SetLevel4Budget_NovServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.novServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.NovServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.novServiceTypeIds);
+    CARAPI GetLevel4Budget_NovServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.novServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.DecServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level4BudCARAPI Get.decServiceTypeIds);
+   CARAPI SetLevel4Budget_DecServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level4Budget.decServiceTypeIds);
 
-    CARAPI GetLevel4BudCARAPI Get.DecServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level4BudCARAPI Get.decServiceTypeIds);
+    CARAPI GetLevel4Budget_DecServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level4Budget.decServiceTypeIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JanCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.janCostsServices);
+   CARAPI SetLevel4Budget_JanCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.janCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.JanCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.janCostsServices);
+    CARAPI GetLevel4Budget_JanCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.janCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.FebCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.febCostsServices);
+   CARAPI SetLevel4Budget_FebCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.febCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.FebCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.febCostsServices);
+    CARAPI GetLevel4Budget_FebCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.febCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MarCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.marCostsServices);
+   CARAPI SetLevel4Budget_MarCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.marCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.MarCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.marCostsServices);
+    CARAPI GetLevel4Budget_MarCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.marCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AprCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.aprCostsServices);
+   CARAPI SetLevel4Budget_AprCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.aprCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.AprCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.aprCostsServices);
+    CARAPI GetLevel4Budget_AprCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.aprCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MayCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.mayCostsServices);
+   CARAPI SetLevel4Budget_MayCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.mayCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.MayCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.mayCostsServices);
+    CARAPI GetLevel4Budget_MayCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.mayCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JunCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.junCostsServices);
+   CARAPI SetLevel4Budget_JunCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.junCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.JunCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.junCostsServices);
+    CARAPI GetLevel4Budget_JunCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.junCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.JulCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.julCostsServices);
+   CARAPI SetLevel4Budget_JulCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.julCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.JulCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.julCostsServices);
+    CARAPI GetLevel4Budget_JulCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.julCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.AugCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.augCostsServices);
+   CARAPI SetLevel4Budget_AugCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.augCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.AugCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.augCostsServices);
+    CARAPI GetLevel4Budget_AugCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.augCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.SepCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.sepCostsServices);
+   CARAPI SetLevel4Budget_SepCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.sepCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.SepCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.sepCostsServices);
+    CARAPI GetLevel4Budget_SepCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.sepCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.OctCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.octCostsServices);
+   CARAPI SetLevel4Budget_OctCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.octCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.OctCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.octCostsServices);
+    CARAPI GetLevel4Budget_OctCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.octCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.NovCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.novCostsServices);
+   CARAPI SetLevel4Budget_NovCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.novCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.NovCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.novCostsServices);
+    CARAPI GetLevel4Budget_NovCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.novCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.DecCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.decCostsServices);
+   CARAPI SetLevel4Budget_DecCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.decCostsServices);
 
-    CARAPI GetLevel4BudCARAPI Get.DecCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.decCostsServices);
+    CARAPI GetLevel4Budget_DecCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.decCostsServices);
 
 
-   CARAPI SetLevel4BudCARAPI Get.TwelveTotalMonthlyCosts(
-     /* [in] */ ArrayOf<Double> CFinance.level4BudCARAPI Get.twelveTotalMonthlyCosts);
+   CARAPI SetLevel4Budget_TwelveTotalMonthlyCosts(
+     /* [in] */ ArrayOf<Double> CFinance.level4Budget.twelveTotalMonthlyCosts);
 
-    CARAPI GetLevel4BudCARAPI Get.TwelveTotalMonthlyCosts(
-     [out, callee] ArrayOf<Double>* CFinance.level4BudCARAPI Get.twelveTotalMonthlyCosts);
+    CARAPI GetLevel4Budget_TwelveTotalMonthlyCosts(
+     [out, callee] ArrayOf<Double>* CFinance.level4Budget.twelveTotalMonthlyCosts);
 
 
-   CARAPI SetLevel4BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [in] */ Double CFinance.level4BudCARAPI Get.yearCostThisBudCARAPI GetId);
+   CARAPI SetLevel4Budget_YearCostThisBudgetId(
+     /* [in] */ Double CFinance.level4Budget.yearCostThisBudgetId);
 
-    CARAPI GetLevel4BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [out] */ Double* CFinance.level4BudCARAPI Get.yearCostThisBudCARAPI GetId);
+    CARAPI GetLevel4Budget_YearCostThisBudgetId(
+     /* [out] */ Double* CFinance.level4Budget.yearCostThisBudgetId);
 
 
-   CARAPI SetLevel4BudCARAPI Get.NetProfitLossThisLevel4BudCARAPI GetId(
-     /* [in] */ Double CFinance.level4BudCARAPI Get.netProfitLossThisLevel4BudCARAPI GetId);
+   CARAPI SetLevel4Budget_NetProfitLossThisLevel4BudgetId(
+     /* [in] */ Double CFinance.level4Budget.netProfitLossThisLevel4BudgetId);
 
-    CARAPI GetLevel4BudCARAPI Get.NetProfitLossThisLevel4BudCARAPI GetId(
-     /* [out] */ Double* CFinance.level4BudCARAPI Get.netProfitLossThisLevel4BudCARAPI GetId);
+    CARAPI GetLevel4Budget_NetProfitLossThisLevel4BudgetId(
+     /* [out] */ Double* CFinance.level4Budget.netProfitLossThisLevel4BudgetId);
 
 
-   CARAPI SetLevel4BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [in] */ Int32 CFinance.level4BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+   CARAPI SetLevel4Budget_LinkingInternalBudgetNum(
+     /* [in] */ Int32 CFinance.level4Budget.linkingInternalBudgetNum);
 
-    CARAPI GetLevel4BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [out] */ Int32* CFinance.level4BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+    CARAPI GetLevel4Budget_LinkingInternalBudgetNum(
+     /* [out] */ Int32* CFinance.level4Budget.linkingInternalBudgetNum);
 
 
-   CARAPI SetLevel4BudCARAPI Get.CustomerIds(
-     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level4BudCARAPI Get.customerIds);
+   CARAPI SetLevel4Budget_CustomerIds(
+     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level4Budget.customerIds);
 
-    CARAPI GetLevel4BudCARAPI Get.CustomerIds(
-     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level4BudCARAPI Get.customerIds);
+    CARAPI GetLevel4Budget_CustomerIds(
+     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level4Budget.customerIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.PropertyIds(
-     /* [in] */ ArrayOf<CProperty.property> CFinance.level4BudCARAPI Get.propertyIds);
+   CARAPI SetLevel4Budget_PropertyIds(
+     /* [in] */ ArrayOf<CProperty.property> CFinance.level4Budget.propertyIds);
 
-    CARAPI GetLevel4BudCARAPI Get.PropertyIds(
-     [out, callee] ArrayOf<CProperty.property>* CFinance.level4BudCARAPI Get.propertyIds);
+    CARAPI GetLevel4Budget_PropertyIds(
+     [out, callee] ArrayOf<CProperty.property>* CFinance.level4Budget.propertyIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.ProgramIds(
-     /* [in] */ ArrayOf<CProperty.program> CFinance.level4BudCARAPI Get.programIds);
+   CARAPI SetLevel4Budget_ProgramIds(
+     /* [in] */ ArrayOf<CProperty.program> CFinance.level4Budget.programIds);
 
-    CARAPI GetLevel4BudCARAPI Get.ProgramIds(
-     [out, callee] ArrayOf<CProperty.program>* CFinance.level4BudCARAPI Get.programIds);
+    CARAPI GetLevel4Budget_ProgramIds(
+     [out, callee] ArrayOf<CProperty.program>* CFinance.level4Budget.programIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.ProjectIds(
-     /* [in] */ ArrayOf<CProperty.project> CFinance.level4BudCARAPI Get.projectIds);
+   CARAPI SetLevel4Budget_ProjectIds(
+     /* [in] */ ArrayOf<CProperty.project> CFinance.level4Budget.projectIds);
 
-    CARAPI GetLevel4BudCARAPI Get.ProjectIds(
-     [out, callee] ArrayOf<CProperty.project>* CFinance.level4BudCARAPI Get.projectIds);
+    CARAPI GetLevel4Budget_ProjectIds(
+     [out, callee] ArrayOf<CProperty.project>* CFinance.level4Budget.projectIds);
 
 
-   CARAPI SetLevel4BudCARAPI Get.LinkedToLevel5BudCARAPI GetId(
-     /* [in] */ CFinance.level5BudCARAPI Get CFinance.level4BudCARAPI Get.linkedToLevel5BudCARAPI GetId);
+   CARAPI SetLevel4Budget_LinkedToLevel5BudgetId(
+     /* [in] */ CFinance.level5Budget CFinance.level4Budget.linkedToLevel5BudgetId);
 
-    CARAPI GetLevel4BudCARAPI Get.LinkedToLevel5BudCARAPI GetId(
-     /* [out] */ CFinance.level5BudCARAPI Get* CFinance.level4BudCARAPI Get.linkedToLevel5BudCARAPI GetId);
+    CARAPI GetLevel4Budget_LinkedToLevel5BudgetId(
+     /* [out] */ CFinance.level5Budget* CFinance.level4Budget.linkedToLevel5BudgetId);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MasterAsset( SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level4BudCARAPI Get.masterAssetId);
+   CARAPI SetLevel4Budget_MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level4Budget.masterAssetId);
 
-    CARAPI GetLevel4BudCARAPI Get.MasterAsset( SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level4BudCARAPI Get.masterAssetId);
+    CARAPI GetLevel4Budget_MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level4Budget.masterAssetId);
 
 
-   CARAPI SetLevel4BudCARAPI Get.BusinessChannelOwnerId(
-     /* [in] */ CRegister.businessChannelOwner CFinance.level4BudCARAPI Get.businessChannelOwnerId);
+   CARAPI SetLevel4Budget_BusinessChannelOwnerId(
+     /* [in] */ CRegister.businessChannelOwner CFinance.level4Budget.businessChannelOwnerId);
 
-    CARAPI GetLevel4BudCARAPI Get.BusinessChannelOwnerId(
-     /* [out] */ CRegister.businessChannelOwner* CFinance.level4BudCARAPI Get.businessChannelOwnerId);
+    CARAPI GetLevel4Budget_BusinessChannelOwnerId(
+     /* [out] */ CRegister.businessChannelOwner* CFinance.level4Budget.businessChannelOwnerId);
 
 
-   CARAPI SetLevel5BudCARAPI Get.Level5BudCARAPI GetId(
-     /* [in] */ const String& CFinance.level5BudCARAPI Get.level5BudCARAPI GetId);
+   CARAPI SetLevel5Budget_Level5BudgetId(
+     /* [in] */ const String& CFinance.level5Budget.level5BudgetId);
 
-    CARAPI GetLevel5BudCARAPI Get.Level5BudCARAPI GetId(
-     /* [out] */ String* CFinance.level5BudCARAPI Get.level5BudCARAPI GetId);
+    CARAPI GetLevel5Budget_Level5BudgetId(
+     /* [out] */ String* CFinance.level5Budget.level5BudgetId);
 
 
-   CARAPI SetLevel5BudCARAPI Get.BudCARAPI GetName(
-     /* [in] */ const String& CFinance.level5BudCARAPI Get.budCARAPI GetName);
+   CARAPI SetLevel5Budget_BudgetName(
+     /* [in] */ const String& CFinance.level5Budget.budCARAPI GetName);
 
-    CARAPI GetLevel5BudCARAPI Get.BudCARAPI GetName(
-     /* [out] */ String* CFinance.level5BudCARAPI Get.budCARAPI GetName);
+    CARAPI GetLevel5Budget_BudgetName(
+     /* [out] */ String* CFinance.level5Budget.budCARAPI GetName);
 
 
-   CARAPI SetLevel5BudCARAPI Get.EndYearMonthyyyymm(
-     /* [in] */ Int32 CFinance.level5BudCARAPI Get.endYearMonthyyyymm);
+   CARAPI SetLevel5Budget_EndYearMonthyyyymm(
+     /* [in] */ Int32 CFinance.level5Budget.endYearMonthyyyymm);
 
-    CARAPI GetLevel5BudCARAPI Get.EndYearMonthyyyymm(
-     /* [out] */ Int32* CFinance.level5BudCARAPI Get.endYearMonthyyyymm);
+    CARAPI GetLevel5Budget_EndYearMonthyyyymm(
+     /* [out] */ Int32* CFinance.level5Budget.endYearMonthyyyymm);
 
 
-   CARAPI SetLevel5BudCARAPI Get.TwelveMonthSequence(
-     /* [in] */ ArrayOf<CHelper.month> CFinance.level5BudCARAPI Get.twelveMonthSequence);
+   CARAPI SetLevel5Budget_TwelveMonthSequence(
+     /* [in] */ ArrayOf<CHelper.month> CFinance.level5Budget.twelveMonthSequence);
 
-    CARAPI GetLevel5BudCARAPI Get.TwelveMonthSequence(
-     [out, callee] ArrayOf<CHelper.month>* CFinance.level5BudCARAPI Get.twelveMonthSequence);
+    CARAPI GetLevel5Budget_TwelveMonthSequence(
+     [out, callee] ArrayOf<CHelper.month>* CFinance.level5Budget.twelveMonthSequence);
 
 
-   CARAPI SetLevel5BudCARAPI Get.IncomeItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.incomeItemTypeIds);
+   CARAPI SetLevel5Budget_IncomeItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.incomeItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.IncomeItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.incomeItemTypeIds);
+    CARAPI GetLevel5Budget_IncomeItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.incomeItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JanRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.janRevenues);
+   CARAPI SetLevel5Budget_JanRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.janRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.JanRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.janRevenues);
+    CARAPI GetLevel5Budget_JanRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.janRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.FebRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.febRevenues);
+   CARAPI SetLevel5Budget_FebRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.febRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.FebRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.febRevenues);
+    CARAPI GetLevel5Budget_FebRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.febRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MarRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.marRevenues);
+   CARAPI SetLevel5Budget_MarRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.marRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.MarRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.marRevenues);
+    CARAPI GetLevel5Budget_MarRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.marRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AprRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.aprRevenues);
+   CARAPI SetLevel5Budget_AprRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.aprRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.AprRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.aprRevenues);
+    CARAPI GetLevel5Budget_AprRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.aprRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MayRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.mayRevenues);
+   CARAPI SetLevel5Budget_MayRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.mayRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.MayRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.mayRevenues);
+    CARAPI GetLevel5Budget_MayRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.mayRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JunRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.junRevenues);
+   CARAPI SetLevel5Budget_JunRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.junRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.JunRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.junRevenues);
+    CARAPI GetLevel5Budget_JunRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.junRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JulRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.julRevenues);
+   CARAPI SetLevel5Budget_JulRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.julRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.JulRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.julRevenues);
+    CARAPI GetLevel5Budget_JulRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.julRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AugRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.augRevenues);
+   CARAPI SetLevel5Budget_AugRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.augRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.AugRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.augRevenues);
+    CARAPI GetLevel5Budget_AugRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.augRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.SepRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.sepRevenues);
+   CARAPI SetLevel5Budget_SepRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.sepRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.SepRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.sepRevenues);
+    CARAPI GetLevel5Budget_SepRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.sepRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.OctRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.octRevenues);
+   CARAPI SetLevel5Budget_OctRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.octRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.OctRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.octRevenues);
+    CARAPI GetLevel5Budget_OctRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.octRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.NovRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.novRevenues);
+   CARAPI SetLevel5Budget_NovRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.novRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.NovRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.novRevenues);
+    CARAPI GetLevel5Budget_NovRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.novRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.DecRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.decRevenues);
+   CARAPI SetLevel5Budget_DecRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.decRevenues);
 
-    CARAPI GetLevel5BudCARAPI Get.DecRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.decRevenues);
+    CARAPI GetLevel5Budget_DecRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.decRevenues);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JanItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.janItemTypeIds);
+   CARAPI SetLevel5Budget_JanItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.janItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JanItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.janItemTypeIds);
+    CARAPI GetLevel5Budget_JanItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.janItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.FebItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.febItemTypeIds);
+   CARAPI SetLevel5Budget_FebItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.febItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.FebItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.febItemTypeIds);
+    CARAPI GetLevel5Budget_FebItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.febItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MarItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.marItemTypeIds);
+   CARAPI SetLevel5Budget_MarItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.marItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.MarItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.marItemTypeIds);
+    CARAPI GetLevel5Budget_MarItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.marItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AprItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.aprItemTypeIds);
+   CARAPI SetLevel5Budget_AprItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.aprItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.AprItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.aprItemTypeIds);
+    CARAPI GetLevel5Budget_AprItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.aprItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MayItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.mayItemTypeIds);
+   CARAPI SetLevel5Budget_MayItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.mayItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.MayItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.mayItemTypeIds);
+    CARAPI GetLevel5Budget_MayItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.mayItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JunItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.junItemTypeIds);
+   CARAPI SetLevel5Budget_JunItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.junItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JunItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.junItemTypeIds);
+    CARAPI GetLevel5Budget_JunItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.junItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JulItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.julItemTypeIds);
+   CARAPI SetLevel5Budget_JulItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.julItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JulItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.julItemTypeIds);
+    CARAPI GetLevel5Budget_JulItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.julItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AugItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.augItemTypeIds);
+   CARAPI SetLevel5Budget_AugItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.augItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.AugItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.augItemTypeIds);
+    CARAPI GetLevel5Budget_AugItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.augItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.SepItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.sepItemTypeIds);
+   CARAPI SetLevel5Budget_SepItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.sepItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.SepItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.sepItemTypeIds);
+    CARAPI GetLevel5Budget_SepItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.sepItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.OctItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.octItemTypeIds);
+   CARAPI SetLevel5Budget_OctItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.octItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.OctItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.octItemTypeIds);
+    CARAPI GetLevel5Budget_OctItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.octItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.NovItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.novItemTypeIds);
+   CARAPI SetLevel5Budget_NovItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.novItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.NovItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.novItemTypeIds);
+    CARAPI GetLevel5Budget_NovItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.novItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.DecItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.decItemTypeIds);
+   CARAPI SetLevel5Budget_DecItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.decItemTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.DecItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.decItemTypeIds);
+    CARAPI GetLevel5Budget_DecItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.decItemTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JanCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.janCostsItems);
+   CARAPI SetLevel5Budget_JanCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.janCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.JanCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.janCostsItems);
+    CARAPI GetLevel5Budget_JanCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.janCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.FebCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.febCostsItems);
+   CARAPI SetLevel5Budget_FebCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.febCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.FebCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.febCostsItems);
+    CARAPI GetLevel5Budget_FebCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.febCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MarCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.marCostsItems);
+   CARAPI SetLevel5Budget_MarCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.marCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.MarCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.marCostsItems);
+    CARAPI GetLevel5Budget_MarCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.marCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AprCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.aprCostsItems);
+   CARAPI SetLevel5Budget_AprCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.aprCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.AprCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.aprCostsItems);
+    CARAPI GetLevel5Budget_AprCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.aprCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MayCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.mayCostsItems);
+   CARAPI SetLevel5Budget_MayCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.mayCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.MayCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.mayCostsItems);
+    CARAPI GetLevel5Budget_MayCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.mayCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JunCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.junCostsItems);
+   CARAPI SetLevel5Budget_JunCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.junCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.JunCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.junCostsItems);
+    CARAPI GetLevel5Budget_JunCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.junCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JulCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.julCostsItems);
+   CARAPI SetLevel5Budget_JulCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.julCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.JulCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.julCostsItems);
+    CARAPI GetLevel5Budget_JulCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.julCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AugCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.augCostsItems);
+   CARAPI SetLevel5Budget_AugCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.augCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.AugCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.augCostsItems);
+    CARAPI GetLevel5Budget_AugCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.augCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.SepCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.sepCostsItems);
+   CARAPI SetLevel5Budget_SepCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.sepCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.SepCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.sepCostsItems);
+    CARAPI GetLevel5Budget_SepCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.sepCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.OctCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.octCostsItems);
+   CARAPI SetLevel5Budget_OctCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.octCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.OctCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.octCostsItems);
+    CARAPI GetLevel5Budget_OctCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.octCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.NovCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.novCostsItems);
+   CARAPI SetLevel5Budget_NovCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.novCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.NovCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.novCostsItems);
+    CARAPI GetLevel5Budget_NovCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.novCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.DecCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.decCostsItems);
+   CARAPI SetLevel5Budget_DecCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.decCostsItems);
 
-    CARAPI GetLevel5BudCARAPI Get.DecCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.decCostsItems);
+    CARAPI GetLevel5Budget_DecCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.decCostsItems);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JanJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.janJobTypeIds);
+   CARAPI SetLevel5Budget_JanJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.janJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JanJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.janJobTypeIds);
+    CARAPI GetLevel5Budget_JanJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.janJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.FebJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.febJobTypeIds);
+   CARAPI SetLevel5Budget_FebJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.febJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.FebJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.febJobTypeIds);
+    CARAPI GetLevel5Budget_FebJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.febJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MarJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.marJobTypeIds);
+   CARAPI SetLevel5Budget_MarJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.marJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.MarJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.marJobTypeIds);
+    CARAPI GetLevel5Budget_MarJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.marJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AprJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.aprJobTypeIds);
+   CARAPI SetLevel5Budget_AprJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.aprJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.AprJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.aprJobTypeIds);
+    CARAPI GetLevel5Budget_AprJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.aprJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MayJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.mayJobTypeIds);
+   CARAPI SetLevel5Budget_MayJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.mayJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.MayJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.mayJobTypeIds);
+    CARAPI GetLevel5Budget_MayJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.mayJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JunJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.junJobTypeIds);
+   CARAPI SetLevel5Budget_JunJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.junJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JunJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.junJobTypeIds);
+    CARAPI GetLevel5Budget_JunJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.junJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JulJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.julJobTypeIds);
+   CARAPI SetLevel5Budget_JulJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.julJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JulJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.julJobTypeIds);
+    CARAPI GetLevel5Budget_JulJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.julJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AugJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.augJobTypeIds);
+   CARAPI SetLevel5Budget_AugJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.augJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.AugJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.augJobTypeIds);
+    CARAPI GetLevel5Budget_AugJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.augJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.SepJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.sepJobTypeIds);
+   CARAPI SetLevel5Budget_SepJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.sepJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.SepJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.sepJobTypeIds);
+    CARAPI GetLevel5Budget_SepJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.sepJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.OctJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.octJobTypeIds);
+   CARAPI SetLevel5Budget_OctJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.octJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.OctJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.octJobTypeIds);
+    CARAPI GetLevel5Budget_OctJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.octJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.NovJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.novJobTypeIds);
+   CARAPI SetLevel5Budget_NovJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.novJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.NovJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.novJobTypeIds);
+    CARAPI GetLevel5Budget_NovJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.novJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.DecJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.decJobTypeIds);
+   CARAPI SetLevel5Budget_DecJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.decJobTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.DecJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.decJobTypeIds);
+    CARAPI GetLevel5Budget_DecJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.decJobTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JanCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.janCostsJobs);
+   CARAPI SetLevel5Budget_JanCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.janCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.JanCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.janCostsJobs);
+    CARAPI GetLevel5Budget_JanCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.janCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.FebCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.febCostsJobs);
+   CARAPI SetLevel5Budget_FebCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.febCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.FebCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.febCostsJobs);
+    CARAPI GetLevel5Budget_FebCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.febCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MarCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.marCostsJobs);
+   CARAPI SetLevel5Budget_MarCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.marCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.MarCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.marCostsJobs);
+    CARAPI GetLevel5Budget_MarCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.marCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AprCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.aprCostsJobs);
+   CARAPI SetLevel5Budget_AprCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.aprCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.AprCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.aprCostsJobs);
+    CARAPI GetLevel5Budget_AprCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.aprCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MayCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.mayCostsJobs);
+   CARAPI SetLevel5Budget_MayCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.mayCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.MayCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.mayCostsJobs);
+    CARAPI GetLevel5Budget_MayCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.mayCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JunCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.junCostsJobs);
+   CARAPI SetLevel5Budget_JunCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.junCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.JunCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.junCostsJobs);
+    CARAPI GetLevel5Budget_JunCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.junCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JulCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.julCostsJobs);
+   CARAPI SetLevel5Budget_JulCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.julCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.JulCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.julCostsJobs);
+    CARAPI GetLevel5Budget_JulCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.julCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AugCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.augCostsJobs);
+   CARAPI SetLevel5Budget_AugCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.augCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.AugCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.augCostsJobs);
+    CARAPI GetLevel5Budget_AugCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.augCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.SepCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.sepCostsJobs);
+   CARAPI SetLevel5Budget_SepCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.sepCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.SepCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.sepCostsJobs);
+    CARAPI GetLevel5Budget_SepCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.sepCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.OctCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.octCostsJobs);
+   CARAPI SetLevel5Budget_OctCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.octCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.OctCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.octCostsJobs);
+    CARAPI GetLevel5Budget_OctCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.octCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.NovCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.novCostsJobs);
+   CARAPI SetLevel5Budget_NovCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.novCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.NovCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.novCostsJobs);
+    CARAPI GetLevel5Budget_NovCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.novCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.DecCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.decCostsJobs);
+   CARAPI SetLevel5Budget_DecCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.decCostsJobs);
 
-    CARAPI GetLevel5BudCARAPI Get.DecCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.decCostsJobs);
+    CARAPI GetLevel5Budget_DecCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.decCostsJobs);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JanServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.janServiceTypeIds);
+   CARAPI SetLevel5Budget_JanServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.janServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JanServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.janServiceTypeIds);
+    CARAPI GetLevel5Budget_JanServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.janServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.FebServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.febServiceTypeIds);
+   CARAPI SetLevel5Budget_FebServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.febServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.FebServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.febServiceTypeIds);
+    CARAPI GetLevel5Budget_FebServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.febServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MarServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.marServiceTypeIds);
+   CARAPI SetLevel5Budget_MarServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.marServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.MarServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.marServiceTypeIds);
+    CARAPI GetLevel5Budget_MarServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.marServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AprServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.aprServiceTypeIds);
+   CARAPI SetLevel5Budget_AprServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.aprServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.AprServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.aprServiceTypeIds);
+    CARAPI GetLevel5Budget_AprServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.aprServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MayServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.mayServiceTypeIds);
+   CARAPI SetLevel5Budget_MayServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.mayServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.MayServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.mayServiceTypeIds);
+    CARAPI GetLevel5Budget_MayServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.mayServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JunServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.junServiceTypeIds);
+   CARAPI SetLevel5Budget_JunServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.junServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JunServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.junServiceTypeIds);
+    CARAPI GetLevel5Budget_JunServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.junServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JulServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.julServiceTypeIds);
+   CARAPI SetLevel5Budget_JulServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.julServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.JulServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.julServiceTypeIds);
+    CARAPI GetLevel5Budget_JulServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.julServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AugServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.augServiceTypeIds);
+   CARAPI SetLevel5Budget_AugServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.augServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.AugServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.augServiceTypeIds);
+    CARAPI GetLevel5Budget_AugServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.augServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.SepServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.sepServiceTypeIds);
+   CARAPI SetLevel5Budget_SepServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.sepServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.SepServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.sepServiceTypeIds);
+    CARAPI GetLevel5Budget_SepServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.sepServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.OctServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.octServiceTypeIds);
+   CARAPI SetLevel5Budget_OctServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.octServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.OctServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.octServiceTypeIds);
+    CARAPI GetLevel5Budget_OctServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.octServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.NovServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.novServiceTypeIds);
+   CARAPI SetLevel5Budget_NovServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.novServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.NovServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.novServiceTypeIds);
+    CARAPI GetLevel5Budget_NovServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.novServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.DecServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level5BudCARAPI Get.decServiceTypeIds);
+   CARAPI SetLevel5Budget_DecServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level5Budget.decServiceTypeIds);
 
-    CARAPI GetLevel5BudCARAPI Get.DecServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level5BudCARAPI Get.decServiceTypeIds);
+    CARAPI GetLevel5Budget_DecServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level5Budget.decServiceTypeIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JanCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.janCostsServices);
+   CARAPI SetLevel5Budget_JanCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.janCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.JanCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.janCostsServices);
+    CARAPI GetLevel5Budget_JanCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.janCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.FebCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.febCostsServices);
+   CARAPI SetLevel5Budget_FebCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.febCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.FebCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.febCostsServices);
+    CARAPI GetLevel5Budget_FebCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.febCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MarCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.marCostsServices);
+   CARAPI SetLevel5Budget_MarCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.marCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.MarCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.marCostsServices);
+    CARAPI GetLevel5Budget_MarCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.marCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AprCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.aprCostsServices);
+   CARAPI SetLevel5Budget_AprCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.aprCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.AprCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.aprCostsServices);
+    CARAPI GetLevel5Budget_AprCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.aprCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MayCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.mayCostsServices);
+   CARAPI SetLevel5Budget_MayCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.mayCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.MayCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.mayCostsServices);
+    CARAPI GetLevel5Budget_MayCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.mayCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JunCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.junCostsServices);
+   CARAPI SetLevel5Budget_JunCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.junCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.JunCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.junCostsServices);
+    CARAPI GetLevel5Budget_JunCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.junCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.JulCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.julCostsServices);
+   CARAPI SetLevel5Budget_JulCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.julCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.JulCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.julCostsServices);
+    CARAPI GetLevel5Budget_JulCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.julCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.AugCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.augCostsServices);
+   CARAPI SetLevel5Budget_AugCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.augCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.AugCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.augCostsServices);
+    CARAPI GetLevel5Budget_AugCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.augCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.SepCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.sepCostsServices);
+   CARAPI SetLevel5Budget_SepCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.sepCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.SepCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.sepCostsServices);
+    CARAPI GetLevel5Budget_SepCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.sepCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.OctCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.octCostsServices);
+   CARAPI SetLevel5Budget_OctCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.octCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.OctCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.octCostsServices);
+    CARAPI GetLevel5Budget_OctCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.octCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.NovCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.novCostsServices);
+   CARAPI SetLevel5Budget_NovCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.novCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.NovCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.novCostsServices);
+    CARAPI GetLevel5Budget_NovCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.novCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.DecCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.decCostsServices);
+   CARAPI SetLevel5Budget_DecCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.decCostsServices);
 
-    CARAPI GetLevel5BudCARAPI Get.DecCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.decCostsServices);
+    CARAPI GetLevel5Budget_DecCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.decCostsServices);
 
 
-   CARAPI SetLevel5BudCARAPI Get.TwelveTotalMonthlyCosts(
-     /* [in] */ ArrayOf<Double> CFinance.level5BudCARAPI Get.twelveTotalMonthlyCosts);
+   CARAPI SetLevel5Budget_TwelveTotalMonthlyCosts(
+     /* [in] */ ArrayOf<Double> CFinance.level5Budget.twelveTotalMonthlyCosts);
 
-    CARAPI GetLevel5BudCARAPI Get.TwelveTotalMonthlyCosts(
-     [out, callee] ArrayOf<Double>* CFinance.level5BudCARAPI Get.twelveTotalMonthlyCosts);
+    CARAPI GetLevel5Budget_TwelveTotalMonthlyCosts(
+     [out, callee] ArrayOf<Double>* CFinance.level5Budget.twelveTotalMonthlyCosts);
 
 
-   CARAPI SetLevel5BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [in] */ Double CFinance.level5BudCARAPI Get.yearCostThisBudCARAPI GetId);
+   CARAPI SetLevel5Budget_YearCostThisBudgetId(
+     /* [in] */ Double CFinance.level5Budget.yearCostThisBudgetId);
 
-    CARAPI GetLevel5BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [out] */ Double* CFinance.level5BudCARAPI Get.yearCostThisBudCARAPI GetId);
+    CARAPI GetLevel5Budget_YearCostThisBudgetId(
+     /* [out] */ Double* CFinance.level5Budget.yearCostThisBudgetId);
 
 
-   CARAPI SetLevel5BudCARAPI Get.NetProfitLossThisLevel5BudCARAPI GetId(
-     /* [in] */ Double CFinance.level5BudCARAPI Get.netProfitLossThisLevel5BudCARAPI GetId);
+   CARAPI SetLevel5Budget_NetProfitLossThisLevel5BudgetId(
+     /* [in] */ Double CFinance.level5Budget.netProfitLossThisLevel5BudgetId);
 
-    CARAPI GetLevel5BudCARAPI Get.NetProfitLossThisLevel5BudCARAPI GetId(
-     /* [out] */ Double* CFinance.level5BudCARAPI Get.netProfitLossThisLevel5BudCARAPI GetId);
+    CARAPI GetLevel5Budget_NetProfitLossThisLevel5BudgetId(
+     /* [out] */ Double* CFinance.level5Budget.netProfitLossThisLevel5BudgetId);
 
 
-   CARAPI SetLevel5BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [in] */ Int32 CFinance.level5BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+   CARAPI SetLevel5Budget_LinkingInternalBudgetNum(
+     /* [in] */ Int32 CFinance.level5Budget.linkingInternalBudgetNum);
 
-    CARAPI GetLevel5BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [out] */ Int32* CFinance.level5BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+    CARAPI GetLevel5Budget_LinkingInternalBudgetNum(
+     /* [out] */ Int32* CFinance.level5Budget.linkingInternalBudgetNum);
 
 
-   CARAPI SetLevel5BudCARAPI Get.CustomerIds(
-     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level5BudCARAPI Get.customerIds);
+   CARAPI SetLevel5Budget_CustomerIds(
+     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level5Budget.customerIds);
 
-    CARAPI GetLevel5BudCARAPI Get.CustomerIds(
-     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level5BudCARAPI Get.customerIds);
+    CARAPI GetLevel5Budget_CustomerIds(
+     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level5Budget.customerIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.PropertyIds(
-     /* [in] */ ArrayOf<CProperty.property> CFinance.level5BudCARAPI Get.propertyIds);
+   CARAPI SetLevel5Budget_PropertyIds(
+     /* [in] */ ArrayOf<CProperty.property> CFinance.level5Budget.propertyIds);
 
-    CARAPI GetLevel5BudCARAPI Get.PropertyIds(
-     [out, callee] ArrayOf<CProperty.property>* CFinance.level5BudCARAPI Get.propertyIds);
+    CARAPI GetLevel5Budget_PropertyIds(
+     [out, callee] ArrayOf<CProperty.property>* CFinance.level5Budget.propertyIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.ProgramIds(
-     /* [in] */ ArrayOf<CProperty.program> CFinance.level5BudCARAPI Get.programIds);
+   CARAPI SetLevel5Budget_ProgramIds(
+     /* [in] */ ArrayOf<CProperty.program> CFinance.level5Budget.programIds);
 
-    CARAPI GetLevel5BudCARAPI Get.ProgramIds(
-     [out, callee] ArrayOf<CProperty.program>* CFinance.level5BudCARAPI Get.programIds);
+    CARAPI GetLevel5Budget_ProgramIds(
+     [out, callee] ArrayOf<CProperty.program>* CFinance.level5Budget.programIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.ProjectIds(
-     /* [in] */ ArrayOf<CProperty.project> CFinance.level5BudCARAPI Get.projectIds);
+   CARAPI SetLevel5Budget_ProjectIds(
+     /* [in] */ ArrayOf<CProperty.project> CFinance.level5Budget.projectIds);
 
-    CARAPI GetLevel5BudCARAPI Get.ProjectIds(
-     [out, callee] ArrayOf<CProperty.project>* CFinance.level5BudCARAPI Get.projectIds);
+    CARAPI GetLevel5Budget_ProjectIds(
+     [out, callee] ArrayOf<CProperty.project>* CFinance.level5Budget.projectIds);
 
 
-   CARAPI SetLevel5BudCARAPI Get.LinkedToLevel6BudCARAPI GetId(
-     /* [in] */ CFinance.level6BudCARAPI Get CFinance.level5BudCARAPI Get.linkedToLevel6BudCARAPI GetId);
+   CARAPI SetLevel5Budget_LinkedToLevel6BudgetId(
+     /* [in] */ CFinance.level6Budget CFinance.level5Budget.linkedToLevel6BudgetId);
 
-    CARAPI GetLevel5BudCARAPI Get.LinkedToLevel6BudCARAPI GetId(
-     /* [out] */ CFinance.level6BudCARAPI Get* CFinance.level5BudCARAPI Get.linkedToLevel6BudCARAPI GetId);
+    CARAPI GetLevel5Budget_LinkedToLevel6BudgetId(
+     /* [out] */ CFinance.level6Budget* CFinance.level5Budget.linkedToLevel6BudgetId);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MasterAsset( SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level5BudCARAPI Get.masterAssetId);
+   CARAPI SetLevel5Budget_MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level5Budget.masterAssetId);
 
-    CARAPI GetLevel5BudCARAPI Get.MasterAsset( SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level5BudCARAPI Get.masterAssetId);
+    CARAPI GetLevel5Budget_MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level5Budget.masterAssetId);
 
 
-   CARAPI SetLevel5BudCARAPI Get.BusinessChannelOwnerId(
-     /* [in] */ CRegister.businessChannelOwner CFinance.level5BudCARAPI Get.businessChannelOwnerId);
+   CARAPI SetLevel5Budget_BusinessChannelOwnerId(
+     /* [in] */ CRegister.businessChannelOwner CFinance.level5Budget.businessChannelOwnerId);
 
-    CARAPI GetLevel5BudCARAPI Get.BusinessChannelOwnerId(
-     /* [out] */ CRegister.businessChannelOwner* CFinance.level5BudCARAPI Get.businessChannelOwnerId);
+    CARAPI GetLevel5Budget_BusinessChannelOwnerId(
+     /* [out] */ CRegister.businessChannelOwner* CFinance.level5Budget.businessChannelOwnerId);
 
 
 
 
 
-   CARAPI SetLevel6BudCARAPI Get.Level6BudCARAPI GetId(
-     /* [in] */ const String& CFinance.level6BudCARAPI Get.level6BudCARAPI GetId);
+   CARAPI SetLevel6Budget_Level6BudgetId(
+     /* [in] */ const String& CFinance.level6Budget.level6BudgetId);
 
-    CARAPI GetLevel6BudCARAPI Get.Level6BudCARAPI GetId(
-     /* [out] */ String* CFinance.level6BudCARAPI Get.level6BudCARAPI GetId);
+    CARAPI GetLevel6Budget_Level6BudgetId(
+     /* [out] */ String* CFinance.level6Budget.level6BudgetId);
 
 
-   CARAPI SetLevel6BudCARAPI Get.BudCARAPI GetName(
-     /* [in] */ const String& CFinance.level6BudCARAPI Get.budCARAPI GetName);
+   CARAPI SetLevel6Budget_BudgetName(
+     /* [in] */ const String& CFinance.level6Budget.budCARAPI GetName);
 
-    CARAPI GetLevel6BudCARAPI Get.BudCARAPI GetName(
-     /* [out] */ String* CFinance.level6BudCARAPI Get.budCARAPI GetName);
+    CARAPI GetLevel6Budget_BudgetName(
+     /* [out] */ String* CFinance.level6Budget.budCARAPI GetName);
 
 
-   CARAPI SetLevel6BudCARAPI Get.EndYearMonthyyyymm(
-     /* [in] */ Int32 CFinance.level6BudCARAPI Get.endYearMonthyyyymm);
+   CARAPI SetLevel6Budget_EndYearMonthyyyymm(
+     /* [in] */ Int32 CFinance.level6Budget.endYearMonthyyyymm);
 
-    CARAPI GetLevel6BudCARAPI Get.EndYearMonthyyyymm(
-     /* [out] */ Int32* CFinance.level6BudCARAPI Get.endYearMonthyyyymm);
+    CARAPI GetLevel6Budget_EndYearMonthyyyymm(
+     /* [out] */ Int32* CFinance.level6Budget.endYearMonthyyyymm);
 
 
-   CARAPI SetLevel6BudCARAPI Get.TwelveMonthSequence(
-     /* [in] */ ArrayOf<CHelper.month> CFinance.level6BudCARAPI Get.twelveMonthSequence);
+   CARAPI SetLevel6Budget_TwelveMonthSequence(
+     /* [in] */ ArrayOf<CHelper.month> CFinance.level6Budget.twelveMonthSequence);
 
-    CARAPI GetLevel6BudCARAPI Get.TwelveMonthSequence(
-     [out, callee] ArrayOf<CHelper.month>* CFinance.level6BudCARAPI Get.twelveMonthSequence);
+    CARAPI GetLevel6Budget_TwelveMonthSequence(
+     [out, callee] ArrayOf<CHelper.month>* CFinance.level6Budget.twelveMonthSequence);
 
 
-   CARAPI SetLevel6BudCARAPI Get.IncomeItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.incomeItemTypeIds);
+   CARAPI SetLevel6Budget_IncomeItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.incomeItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.IncomeItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.incomeItemTypeIds);
+    CARAPI GetLevel6Budget_IncomeItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.incomeItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JanRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.janRevenues);
+   CARAPI SetLevel6Budget_JanRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.janRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.JanRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.janRevenues);
+    CARAPI GetLevel6Budget_JanRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.janRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.FebRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.febRevenues);
+   CARAPI SetLevel6Budget_FebRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.febRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.FebRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.febRevenues);
+    CARAPI GetLevel6Budget_FebRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.febRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MarRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.marRevenues);
+   CARAPI SetLevel6Budget_MarRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.marRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.MarRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.marRevenues);
+    CARAPI GetLevel6Budget_MarRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.marRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AprRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.aprRevenues);
+   CARAPI SetLevel6Budget_AprRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.aprRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.AprRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.aprRevenues);
+    CARAPI GetLevel6Budget_AprRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.aprRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MayRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.mayRevenues);
+   CARAPI SetLevel6Budget_MayRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.mayRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.MayRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.mayRevenues);
+    CARAPI GetLevel6Budget_MayRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.mayRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JunRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.junRevenues);
+   CARAPI SetLevel6Budget_JunRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.junRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.JunRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.junRevenues);
+    CARAPI GetLevel6Budget_JunRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.junRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JulRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.julRevenues);
+   CARAPI SetLevel6Budget_JulRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.julRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.JulRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.julRevenues);
+    CARAPI GetLevel6Budget_JulRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.julRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AugRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.augRevenues);
+   CARAPI SetLevel6Budget_AugRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.augRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.AugRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.augRevenues);
+    CARAPI GetLevel6Budget_AugRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.augRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.SepRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.sepRevenues);
+   CARAPI SetLevel6Budget_SepRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.sepRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.SepRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.sepRevenues);
+    CARAPI GetLevel6Budget_SepRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.sepRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.OctRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.octRevenues);
+   CARAPI SetLevel6Budget_OctRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.octRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.OctRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.octRevenues);
+    CARAPI GetLevel6Budget_OctRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.octRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.NovRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.novRevenues);
+   CARAPI SetLevel6Budget_NovRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.novRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.NovRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.novRevenues);
+    CARAPI GetLevel6Budget_NovRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.novRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.DecRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.decRevenues);
+   CARAPI SetLevel6Budget_DecRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.decRevenues);
 
-    CARAPI GetLevel6BudCARAPI Get.DecRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.decRevenues);
+    CARAPI GetLevel6Budget_DecRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.decRevenues);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JanItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.janItemTypeIds);
+   CARAPI SetLevel6Budget_JanItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.janItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JanItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.janItemTypeIds);
+    CARAPI GetLevel6Budget_JanItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.janItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.FebItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.febItemTypeIds);
+   CARAPI SetLevel6Budget_FebItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.febItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.FebItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.febItemTypeIds);
+    CARAPI GetLevel6Budget_FebItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.febItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MarItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.marItemTypeIds);
+   CARAPI SetLevel6Budget_MarItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.marItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.MarItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.marItemTypeIds);
+    CARAPI GetLevel6Budget_MarItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.marItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AprItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.aprItemTypeIds);
+   CARAPI SetLevel6Budget_AprItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.aprItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.AprItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.aprItemTypeIds);
+    CARAPI GetLevel6Budget_AprItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.aprItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MayItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.mayItemTypeIds);
+   CARAPI SetLevel6Budget_MayItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.mayItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.MayItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.mayItemTypeIds);
+    CARAPI GetLevel6Budget_MayItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.mayItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JunItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.junItemTypeIds);
+   CARAPI SetLevel6Budget_JunItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.junItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JunItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.junItemTypeIds);
+    CARAPI GetLevel6Budget_JunItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.junItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JulItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.julItemTypeIds);
+   CARAPI SetLevel6Budget_JulItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.julItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JulItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.julItemTypeIds);
+    CARAPI GetLevel6Budget_JulItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.julItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AugItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.augItemTypeIds);
+   CARAPI SetLevel6Budget_AugItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.augItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.AugItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.augItemTypeIds);
+    CARAPI GetLevel6Budget_AugItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.augItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.SepItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.sepItemTypeIds);
+   CARAPI SetLevel6Budget_SepItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.sepItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.SepItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.sepItemTypeIds);
+    CARAPI GetLevel6Budget_SepItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.sepItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.OctItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.octItemTypeIds);
+   CARAPI SetLevel6Budget_OctItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.octItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.OctItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.octItemTypeIds);
+    CARAPI GetLevel6Budget_OctItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.octItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.NovItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.novItemTypeIds);
+   CARAPI SetLevel6Budget_NovItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.novItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.NovItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.novItemTypeIds);
+    CARAPI GetLevel6Budget_NovItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.novItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.DecItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.decItemTypeIds);
+   CARAPI SetLevel6Budget_DecItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.decItemTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.DecItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.decItemTypeIds);
+    CARAPI GetLevel6Budget_DecItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.decItemTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JanCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.janCostsItems);
+   CARAPI SetLevel6Budget_JanCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.janCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.JanCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.janCostsItems);
+    CARAPI GetLevel6Budget_JanCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.janCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.FebCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.febCostsItems);
+   CARAPI SetLevel6Budget_FebCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.febCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.FebCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.febCostsItems);
+    CARAPI GetLevel6Budget_FebCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.febCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MarCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.marCostsItems);
+   CARAPI SetLevel6Budget_MarCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.marCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.MarCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.marCostsItems);
+    CARAPI GetLevel6Budget_MarCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.marCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AprCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.aprCostsItems);
+   CARAPI SetLevel6Budget_AprCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.aprCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.AprCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.aprCostsItems);
+    CARAPI GetLevel6Budget_AprCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.aprCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MayCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.mayCostsItems);
+   CARAPI SetLevel6Budget_MayCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.mayCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.MayCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.mayCostsItems);
+    CARAPI GetLevel6Budget_MayCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.mayCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JunCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.junCostsItems);
+   CARAPI SetLevel6Budget_JunCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.junCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.JunCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.junCostsItems);
+    CARAPI GetLevel6Budget_JunCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.junCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JulCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.julCostsItems);
+   CARAPI SetLevel6Budget_JulCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.julCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.JulCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.julCostsItems);
+    CARAPI GetLevel6Budget_JulCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.julCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AugCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.augCostsItems);
+   CARAPI SetLevel6Budget_AugCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.augCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.AugCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.augCostsItems);
+    CARAPI GetLevel6Budget_AugCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.augCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.SepCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.sepCostsItems);
+   CARAPI SetLevel6Budget_SepCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.sepCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.SepCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.sepCostsItems);
+    CARAPI GetLevel6Budget_SepCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.sepCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.OctCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.octCostsItems);
+   CARAPI SetLevel6Budget_OctCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.octCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.OctCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.octCostsItems);
+    CARAPI GetLevel6Budget_OctCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.octCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.NovCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.novCostsItems);
+   CARAPI SetLevel6Budget_NovCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.novCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.NovCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.novCostsItems);
+    CARAPI GetLevel6Budget_NovCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.novCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.DecCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.decCostsItems);
+   CARAPI SetLevel6Budget_DecCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.decCostsItems);
 
-    CARAPI GetLevel6BudCARAPI Get.DecCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.decCostsItems);
+    CARAPI GetLevel6Budget_DecCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.decCostsItems);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JanJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.janJobTypeIds);
+   CARAPI SetLevel6Budget_JanJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.janJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JanJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.janJobTypeIds);
+    CARAPI GetLevel6Budget_JanJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.janJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.FebJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.febJobTypeIds);
+   CARAPI SetLevel6Budget_FebJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.febJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.FebJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.febJobTypeIds);
+    CARAPI GetLevel6Budget_FebJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.febJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MarJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.marJobTypeIds);
+   CARAPI SetLevel6Budget_MarJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.marJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.MarJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.marJobTypeIds);
+    CARAPI GetLevel6Budget_MarJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.marJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AprJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.aprJobTypeIds);
+   CARAPI SetLevel6Budget_AprJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.aprJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.AprJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.aprJobTypeIds);
+    CARAPI GetLevel6Budget_AprJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.aprJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MayJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.mayJobTypeIds);
+   CARAPI SetLevel6Budget_MayJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.mayJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.MayJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.mayJobTypeIds);
+    CARAPI GetLevel6Budget_MayJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.mayJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JunJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.junJobTypeIds);
+   CARAPI SetLevel6Budget_JunJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.junJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JunJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.junJobTypeIds);
+    CARAPI GetLevel6Budget_JunJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.junJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JulJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.julJobTypeIds);
+   CARAPI SetLevel6Budget_JulJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.julJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JulJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.julJobTypeIds);
+    CARAPI GetLevel6Budget_JulJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.julJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AugJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.augJobTypeIds);
+   CARAPI SetLevel6Budget_AugJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.augJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.AugJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.augJobTypeIds);
+    CARAPI GetLevel6Budget_AugJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.augJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.SepJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.sepJobTypeIds);
+   CARAPI SetLevel6Budget_SepJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.sepJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.SepJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.sepJobTypeIds);
+    CARAPI GetLevel6Budget_SepJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.sepJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.OctJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.octJobTypeIds);
+   CARAPI SetLevel6Budget_OctJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.octJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.OctJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.octJobTypeIds);
+    CARAPI GetLevel6Budget_OctJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.octJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.NovJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.novJobTypeIds);
+   CARAPI SetLevel6Budget_NovJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.novJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.NovJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.novJobTypeIds);
+    CARAPI GetLevel6Budget_NovJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.novJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.DecJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.decJobTypeIds);
+   CARAPI SetLevel6Budget_DecJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.decJobTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.DecJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.decJobTypeIds);
+    CARAPI GetLevel6Budget_DecJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.decJobTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JanCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.janCostsJobs);
+   CARAPI SetLevel6Budget_JanCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.janCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.JanCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.janCostsJobs);
+    CARAPI GetLevel6Budget_JanCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.janCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.FebCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.febCostsJobs);
+   CARAPI SetLevel6Budget_FebCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.febCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.FebCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.febCostsJobs);
+    CARAPI GetLevel6Budget_FebCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.febCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MarCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.marCostsJobs);
+   CARAPI SetLevel6Budget_MarCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.marCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.MarCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.marCostsJobs);
+    CARAPI GetLevel6Budget_MarCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.marCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AprCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.aprCostsJobs);
+   CARAPI SetLevel6Budget_AprCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.aprCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.AprCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.aprCostsJobs);
+    CARAPI GetLevel6Budget_AprCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.aprCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MayCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.mayCostsJobs);
+   CARAPI SetLevel6Budget_MayCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.mayCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.MayCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.mayCostsJobs);
+    CARAPI GetLevel6Budget_MayCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.mayCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JunCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.junCostsJobs);
+   CARAPI SetLevel6Budget_JunCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.junCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.JunCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.junCostsJobs);
+    CARAPI GetLevel6Budget_JunCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.junCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JulCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.julCostsJobs);
+   CARAPI SetLevel6Budget_JulCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.julCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.JulCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.julCostsJobs);
+    CARAPI GetLevel6Budget_JulCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.julCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AugCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.augCostsJobs);
+   CARAPI SetLevel6Budget_AugCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.augCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.AugCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.augCostsJobs);
+    CARAPI GetLevel6Budget_AugCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.augCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.SepCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.sepCostsJobs);
+   CARAPI SetLevel6Budget_SepCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.sepCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.SepCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.sepCostsJobs);
+    CARAPI GetLevel6Budget_SepCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.sepCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.OctCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.octCostsJobs);
+   CARAPI SetLevel6Budget_OctCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.octCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.OctCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.octCostsJobs);
+    CARAPI GetLevel6Budget_OctCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.octCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.NovCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.novCostsJobs);
+   CARAPI SetLevel6Budget_NovCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.novCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.NovCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.novCostsJobs);
+    CARAPI GetLevel6Budget_NovCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.novCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.DecCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.decCostsJobs);
+   CARAPI SetLevel6Budget_DecCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.decCostsJobs);
 
-    CARAPI GetLevel6BudCARAPI Get.DecCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.decCostsJobs);
+    CARAPI GetLevel6Budget_DecCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.decCostsJobs);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JanServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.janServiceTypeIds);
+   CARAPI SetLevel6Budget_JanServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.janServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JanServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.janServiceTypeIds);
+    CARAPI GetLevel6Budget_JanServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.janServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.FebServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.febServiceTypeIds);
+   CARAPI SetLevel6Budget_FebServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.febServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.FebServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.febServiceTypeIds);
+    CARAPI GetLevel6Budget_FebServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.febServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MarServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.marServiceTypeIds);
+   CARAPI SetLevel6Budget_MarServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.marServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.MarServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.marServiceTypeIds);
+    CARAPI GetLevel6Budget_MarServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.marServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AprServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.aprServiceTypeIds);
+   CARAPI SetLevel6Budget_AprServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.aprServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.AprServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.aprServiceTypeIds);
+    CARAPI GetLevel6Budget_AprServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.aprServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MayServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.mayServiceTypeIds);
+   CARAPI SetLevel6Budget_MayServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.mayServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.MayServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.mayServiceTypeIds);
+    CARAPI GetLevel6Budget_MayServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.mayServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JunServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.junServiceTypeIds);
+   CARAPI SetLevel6Budget_JunServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.junServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JunServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.junServiceTypeIds);
+    CARAPI GetLevel6Budget_JunServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.junServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JulServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.julServiceTypeIds);
+   CARAPI SetLevel6Budget_JulServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.julServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.JulServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.julServiceTypeIds);
+    CARAPI GetLevel6Budget_JulServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.julServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AugServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.augServiceTypeIds);
+   CARAPI SetLevel6Budget_AugServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.augServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.AugServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.augServiceTypeIds);
+    CARAPI GetLevel6Budget_AugServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.augServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.SepServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.sepServiceTypeIds);
+   CARAPI SetLevel6Budget_SepServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.sepServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.SepServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.sepServiceTypeIds);
+    CARAPI GetLevel6Budget_SepServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.sepServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.OctServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.octServiceTypeIds);
+   CARAPI SetLevel6Budget_OctServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.octServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.OctServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.octServiceTypeIds);
+    CARAPI GetLevel6Budget_OctServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.octServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.NovServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.novServiceTypeIds);
+   CARAPI SetLevel6Budget_NovServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.novServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.NovServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.novServiceTypeIds);
+    CARAPI GetLevel6Budget_NovServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.novServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.DecServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.level6BudCARAPI Get.decServiceTypeIds);
+   CARAPI SetLevel6Budget_DecServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.level6Budget.decServiceTypeIds);
 
-    CARAPI GetLevel6BudCARAPI Get.DecServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.level6BudCARAPI Get.decServiceTypeIds);
+    CARAPI GetLevel6Budget_DecServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.level6Budget.decServiceTypeIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JanCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.janCostsServices);
+   CARAPI SetLevel6Budget_JanCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.janCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.JanCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.janCostsServices);
+    CARAPI GetLevel6Budget_JanCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.janCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.FebCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.febCostsServices);
+   CARAPI SetLevel6Budget_FebCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.febCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.FebCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.febCostsServices);
+    CARAPI GetLevel6Budget_FebCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.febCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MarCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.marCostsServices);
+   CARAPI SetLevel6Budget_MarCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.marCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.MarCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.marCostsServices);
+    CARAPI GetLevel6Budget_MarCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.marCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AprCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.aprCostsServices);
+   CARAPI SetLevel6Budget_AprCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.aprCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.AprCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.aprCostsServices);
+    CARAPI GetLevel6Budget_AprCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.aprCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MayCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.mayCostsServices);
+   CARAPI SetLevel6Budget_MayCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.mayCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.MayCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.mayCostsServices);
+    CARAPI GetLevel6Budget_MayCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.mayCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JunCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.junCostsServices);
+   CARAPI SetLevel6Budget_JunCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.junCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.JunCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.junCostsServices);
+    CARAPI GetLevel6Budget_JunCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.junCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.JulCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.julCostsServices);
+   CARAPI SetLevel6Budget_JulCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.julCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.JulCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.julCostsServices);
+    CARAPI GetLevel6Budget_JulCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.julCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.AugCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.augCostsServices);
+   CARAPI SetLevel6Budget_AugCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.augCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.AugCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.augCostsServices);
+    CARAPI GetLevel6Budget_AugCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.augCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.SepCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.sepCostsServices);
+   CARAPI SetLevel6Budget_SepCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.sepCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.SepCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.sepCostsServices);
+    CARAPI GetLevel6Budget_SepCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.sepCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.OctCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.octCostsServices);
+   CARAPI SetLevel6Budget_OctCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.octCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.OctCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.octCostsServices);
+    CARAPI GetLevel6Budget_OctCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.octCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.NovCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.novCostsServices);
+   CARAPI SetLevel6Budget_NovCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.novCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.NovCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.novCostsServices);
+    CARAPI GetLevel6Budget_NovCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.novCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.DecCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.decCostsServices);
+   CARAPI SetLevel6Budget_DecCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.decCostsServices);
 
-    CARAPI GetLevel6BudCARAPI Get.DecCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.decCostsServices);
+    CARAPI GetLevel6Budget_DecCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.decCostsServices);
 
 
-   CARAPI SetLevel6BudCARAPI Get.TwelveTotalMonthlyCosts(
-     /* [in] */ ArrayOf<Double> CFinance.level6BudCARAPI Get.twelveTotalMonthlyCosts);
+   CARAPI SetLevel6Budget_TwelveTotalMonthlyCosts(
+     /* [in] */ ArrayOf<Double> CFinance.level6Budget.twelveTotalMonthlyCosts);
 
-    CARAPI GetLevel6BudCARAPI Get.TwelveTotalMonthlyCosts(
-     [out, callee] ArrayOf<Double>* CFinance.level6BudCARAPI Get.twelveTotalMonthlyCosts);
+    CARAPI GetLevel6Budget_TwelveTotalMonthlyCosts(
+     [out, callee] ArrayOf<Double>* CFinance.level6Budget.twelveTotalMonthlyCosts);
 
 
-   CARAPI SetLevel6BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [in] */ Double CFinance.level6BudCARAPI Get.yearCostThisBudCARAPI GetId);
+   CARAPI SetLevel6Budget_YearCostThisBudgetId(
+     /* [in] */ Double CFinance.level6Budget.yearCostThisBudgetId);
 
-    CARAPI GetLevel6BudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [out] */ Double* CFinance.level6BudCARAPI Get.yearCostThisBudCARAPI GetId);
+    CARAPI GetLevel6Budget_YearCostThisBudgetId(
+     /* [out] */ Double* CFinance.level6Budget.yearCostThisBudgetId);
 
 
-   CARAPI SetLevel6BudCARAPI Get.NetProfitLossThisLevel6BudCARAPI GetId(
-     /* [in] */ Double CFinance.level6BudCARAPI Get.netProfitLossThisLevel6BudCARAPI GetId);
+   CARAPI SetLevel6Budget_NetProfitLossThisLevel6BudgetId(
+     /* [in] */ Double CFinance.level6Budget.netProfitLossThisLevel6BudgetId);
 
-    CARAPI GetLevel6BudCARAPI Get.NetProfitLossThisLevel6BudCARAPI GetId(
-     /* [out] */ Double* CFinance.level6BudCARAPI Get.netProfitLossThisLevel6BudCARAPI GetId);
+    CARAPI GetLevel6Budget_NetProfitLossThisLevel6BudgetId(
+     /* [out] */ Double* CFinance.level6Budget.netProfitLossThisLevel6BudgetId);
 
 
-   CARAPI SetLevel6BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [in] */ Int32 CFinance.level6BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+   CARAPI SetLevel6Budget_LinkingInternalBudgetNum(
+     /* [in] */ Int32 CFinance.level6Budget.linkingInternalBudgetNum);
 
-    CARAPI GetLevel6BudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [out] */ Int32* CFinance.level6BudCARAPI Get.linkingInternalBudCARAPI GetNum);
+    CARAPI GetLevel6Budget_LinkingInternalBudgetNum(
+     /* [out] */ Int32* CFinance.level6Budget.linkingInternalBudgetNum);
 
 
-   CARAPI SetLevel6BudCARAPI Get.CustomerIds(
-     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level6BudCARAPI Get.customerIds);
+   CARAPI SetLevel6Budget_CustomerIds(
+     /* [in] */ ArrayOf<CCustomer.customer> CFinance.level6Budget.customerIds);
 
-    CARAPI GetLevel6BudCARAPI Get.CustomerIds(
-     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level6BudCARAPI Get.customerIds);
+    CARAPI GetLevel6Budget_CustomerIds(
+     [out, callee] ArrayOf<CCustomer.customer>* CFinance.level6Budget.customerIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.PropertyIds(
-     /* [in] */ ArrayOf<CProperty.property> CFinance.level6BudCARAPI Get.propertyIds);
+   CARAPI SetLevel6Budget_PropertyIds(
+     /* [in] */ ArrayOf<CProperty.property> CFinance.level6Budget.propertyIds);
 
-    CARAPI GetLevel6BudCARAPI Get.PropertyIds(
-     [out, callee] ArrayOf<CProperty.property>* CFinance.level6BudCARAPI Get.propertyIds);
+    CARAPI GetLevel6Budget_PropertyIds(
+     [out, callee] ArrayOf<CProperty.property>* CFinance.level6Budget.propertyIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.ProgramIds(
-     /* [in] */ ArrayOf<CProperty.program> CFinance.level6BudCARAPI Get.programIds);
+   CARAPI SetLevel6Budget_ProgramIds(
+     /* [in] */ ArrayOf<CProperty.program> CFinance.level6Budget.programIds);
 
-    CARAPI GetLevel6BudCARAPI Get.ProgramIds(
-     [out, callee] ArrayOf<CProperty.program>* CFinance.level6BudCARAPI Get.programIds);
+    CARAPI GetLevel6Budget_ProgramIds(
+     [out, callee] ArrayOf<CProperty.program>* CFinance.level6Budget.programIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.ProjectIds(
-     /* [in] */ ArrayOf<CProperty.project> CFinance.level6BudCARAPI Get.projectIds);
+   CARAPI SetLevel6Budget_ProjectIds(
+     /* [in] */ ArrayOf<CProperty.project> CFinance.level6Budget.projectIds);
 
-    CARAPI GetLevel6BudCARAPI Get.ProjectIds(
-     [out, callee] ArrayOf<CProperty.project>* CFinance.level6BudCARAPI Get.projectIds);
+    CARAPI GetLevel6Budget_ProjectIds(
+     [out, callee] ArrayOf<CProperty.project>* CFinance.level6Budget.projectIds);
 
 
-   CARAPI SetLevel6BudCARAPI Get.LinkedToHyperBudCARAPI GetId(
-     /* [in] */ CFinance.hyperBudCARAPI Get CFinance.level6BudCARAPI Get.linkedToHyperBudCARAPI GetId);
+   CARAPI SetLevel6Budget_LinkedToHyperBudgetId(
+     /* [in] */ CFinance.hyperBudget CFinance.level6Budget.linkedToHyperBudgetId);
 
-    CARAPI GetLevel6BudCARAPI Get.LinkedToHyperBudCARAPI GetId(
-     /* [out] */ CFinance.hyperBudCARAPI Get* CFinance.level6BudCARAPI Get.linkedToHyperBudCARAPI GetId);
+    CARAPI GetLevel6Budget_LinkedToHyperBudgetId(
+     /* [out] */ CFinance.hyperBudget* CFinance.level6Budget.linkedToHyperBudgetId);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MasterAsset( SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level6BudCARAPI Get.masterAssetId);
+   CARAPI SetLevel6Budget_MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level6Budget.masterAssetId);
 
-    CARAPI GetLevel6BudCARAPI Get.MasterAsset( SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level6BudCARAPI Get.masterAssetId);
+    CARAPI GetLevel6Budget_MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level6Budget.masterAssetId);
 
 
-   CARAPI SetLevel6BudCARAPI Get.BusinessChannelOwnerId(
-     /* [in] */ CRegister.businessChannelOwner CFinance.level6BudCARAPI Get.businessChannelOwnerId);
+   CARAPI SetLevel6Budget_BusinessChannelOwnerId(
+     /* [in] */ CRegister.businessChannelOwner CFinance.level6Budget.businessChannelOwnerId);
 
-    CARAPI GetLevel6BudCARAPI Get.BusinessChannelOwnerId(
-     /* [out] */ CRegister.businessChannelOwner* CFinance.level6BudCARAPI Get.businessChannelOwnerId);
+    CARAPI GetLevel6Budget_BusinessChannelOwnerId(
+     /* [out] */ CRegister.businessChannelOwner* CFinance.level6Budget.businessChannelOwnerId);
 
 
 
 
 
-   CARAPI SetHyperBudCARAPI Get.HyperBudCARAPI GetId(
-     /* [in] */ const String& CFinance.hyperBudCARAPI Get.hyperBudCARAPI GetId);
+   CARAPI SetHyperBudget_HyperBudgetId(
+     /* [in] */ const String& CFinance.hyperBudget.hyperBudgetId);
 
-    CARAPI GetHyperBudCARAPI Get.HyperBudCARAPI GetId(
-     /* [out] */ String* CFinance.hyperBudCARAPI Get.hyperBudCARAPI GetId);
+    CARAPI GetHyperBudget_HyperBudgetId(
+     /* [out] */ String* CFinance.hyperBudget.hyperBudgetId);
 
 
-   CARAPI SetHyperBudCARAPI Get.BudCARAPI GetName(
-     /* [in] */ const String& CFinance.hyperBudCARAPI Get.budCARAPI GetName);
+   CARAPI SetHyperBudget_BudgetName(
+     /* [in] */ const String& CFinance.hyperBudget.budCARAPI GetName);
 
-    CARAPI GetHyperBudCARAPI Get.BudCARAPI GetName(
-     /* [out] */ String* CFinance.hyperBudCARAPI Get.budCARAPI GetName);
+    CARAPI GetHyperBudget_BudgetName(
+     /* [out] */ String* CFinance.hyperBudget.budCARAPI GetName);
 
 
-   CARAPI SetHyperBudCARAPI Get.EndYearMonthyyyymm(
-     /* [in] */ Int32 CFinance.hyperBudCARAPI Get.endYearMonthyyyymm);
+   CARAPI SetHyperBudget_EndYearMonthyyyymm(
+     /* [in] */ Int32 CFinance.hyperBudget.endYearMonthyyyymm);
 
-    CARAPI GetHyperBudCARAPI Get.EndYearMonthyyyymm(
-     /* [out] */ Int32* CFinance.hyperBudCARAPI Get.endYearMonthyyyymm);
+    CARAPI GetHyperBudget_EndYearMonthyyyymm(
+     /* [out] */ Int32* CFinance.hyperBudget.endYearMonthyyyymm);
 
 
-   CARAPI SetHyperBudCARAPI Get.TwelveMonthSequence(
-     /* [in] */ ArrayOf<CHelper.month> CFinance.hyperBudCARAPI Get.twelveMonthSequence);
+   CARAPI SetHyperBudget_TwelveMonthSequence(
+     /* [in] */ ArrayOf<CHelper.month> CFinance.hyperBudget.twelveMonthSequence);
 
-    CARAPI GetHyperBudCARAPI Get.TwelveMonthSequence(
-     [out, callee] ArrayOf<CHelper.month>* CFinance.hyperBudCARAPI Get.twelveMonthSequence);
+    CARAPI GetHyperBudget_TwelveMonthSequence(
+     [out, callee] ArrayOf<CHelper.month>* CFinance.hyperBudget.twelveMonthSequence);
 
 
-   CARAPI SetHyperBudCARAPI Get.IncomeItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.incomeItemTypeIds);
+   CARAPI SetHyperBudget_IncomeItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.incomeItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.IncomeItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.incomeItemTypeIds);
+    CARAPI GetHyperBudget_IncomeItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.incomeItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JanRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.janRevenues);
+   CARAPI SetHyperBudget_JanRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.janRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.JanRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.janRevenues);
+    CARAPI GetHyperBudget_JanRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.janRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.FebRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.febRevenues);
+   CARAPI SetHyperBudget_FebRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.febRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.FebRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.febRevenues);
+    CARAPI GetHyperBudget_FebRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.febRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.MarRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.marRevenues);
+   CARAPI SetHyperBudget_MarRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.marRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.MarRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.marRevenues);
+    CARAPI GetHyperBudget_MarRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.marRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.AprRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.aprRevenues);
+   CARAPI SetHyperBudget_AprRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.aprRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.AprRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.aprRevenues);
+    CARAPI GetHyperBudget_AprRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.aprRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.MayRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.mayRevenues);
+   CARAPI SetHyperBudget_MayRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.mayRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.MayRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.mayRevenues);
+    CARAPI GetHyperBudget_MayRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.mayRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.JunRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.junRevenues);
+   CARAPI SetHyperBudget_JunRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.junRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.JunRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.junRevenues);
+    CARAPI GetHyperBudget_JunRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.junRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.JulRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.julRevenues);
+   CARAPI SetHyperBudget_JulRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.julRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.JulRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.julRevenues);
+    CARAPI GetHyperBudget_JulRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.julRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.AugRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.augRevenues);
+   CARAPI SetHyperBudget_AugRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.augRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.AugRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.augRevenues);
+    CARAPI GetHyperBudget_AugRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.augRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.SepRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.sepRevenues);
+   CARAPI SetHyperBudget_SepRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.sepRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.SepRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.sepRevenues);
+    CARAPI GetHyperBudget_SepRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.sepRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.OctRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.octRevenues);
+   CARAPI SetHyperBudget_OctRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.octRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.OctRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.octRevenues);
+    CARAPI GetHyperBudget_OctRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.octRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.NovRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.novRevenues);
+   CARAPI SetHyperBudget_NovRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.novRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.NovRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.novRevenues);
+    CARAPI GetHyperBudget_NovRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.novRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.DecRevenues(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.decRevenues);
+   CARAPI SetHyperBudget_DecRevenues(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.decRevenues);
 
-    CARAPI GetHyperBudCARAPI Get.DecRevenues(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.decRevenues);
+    CARAPI GetHyperBudget_DecRevenues(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.decRevenues);
 
 
-   CARAPI SetHyperBudCARAPI Get.JanItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.janItemTypeIds);
+   CARAPI SetHyperBudget_JanItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.janItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JanItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.janItemTypeIds);
+    CARAPI GetHyperBudget_JanItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.janItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.FebItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.febItemTypeIds);
+   CARAPI SetHyperBudget_FebItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.febItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.FebItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.febItemTypeIds);
+    CARAPI GetHyperBudget_FebItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.febItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.MarItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.marItemTypeIds);
+   CARAPI SetHyperBudget_MarItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.marItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.MarItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.marItemTypeIds);
+    CARAPI GetHyperBudget_MarItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.marItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.AprItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.aprItemTypeIds);
+   CARAPI SetHyperBudget_AprItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.aprItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.AprItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.aprItemTypeIds);
+    CARAPI GetHyperBudget_AprItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.aprItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.MayItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.mayItemTypeIds);
+   CARAPI SetHyperBudget_MayItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.mayItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.MayItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.mayItemTypeIds);
+    CARAPI GetHyperBudget_MayItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.mayItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JunItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.junItemTypeIds);
+   CARAPI SetHyperBudget_JunItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.junItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JunItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.junItemTypeIds);
+    CARAPI GetHyperBudget_JunItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.junItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JulItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.julItemTypeIds);
+   CARAPI SetHyperBudget_JulItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.julItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JulItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.julItemTypeIds);
+    CARAPI GetHyperBudget_JulItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.julItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.AugItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.augItemTypeIds);
+   CARAPI SetHyperBudget_AugItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.augItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.AugItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.augItemTypeIds);
+    CARAPI GetHyperBudget_AugItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.augItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.SepItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.sepItemTypeIds);
+   CARAPI SetHyperBudget_SepItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.sepItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.SepItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.sepItemTypeIds);
+    CARAPI GetHyperBudget_SepItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.sepItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.OctItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.octItemTypeIds);
+   CARAPI SetHyperBudget_OctItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.octItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.OctItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.octItemTypeIds);
+    CARAPI GetHyperBudget_OctItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.octItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.NovItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.novItemTypeIds);
+   CARAPI SetHyperBudget_NovItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.novItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.NovItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.novItemTypeIds);
+    CARAPI GetHyperBudget_NovItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.novItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.DecItemTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.decItemTypeIds);
+   CARAPI SetHyperBudget_DecItemTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.decItemTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.DecItemTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.decItemTypeIds);
+    CARAPI GetHyperBudget_DecItemTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.decItemTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JanCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.janCostsItems);
+   CARAPI SetHyperBudget_JanCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.janCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.JanCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.janCostsItems);
+    CARAPI GetHyperBudget_JanCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.janCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.FebCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.febCostsItems);
+   CARAPI SetHyperBudget_FebCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.febCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.FebCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.febCostsItems);
+    CARAPI GetHyperBudget_FebCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.febCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.MarCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.marCostsItems);
+   CARAPI SetHyperBudget_MarCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.marCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.MarCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.marCostsItems);
+    CARAPI GetHyperBudget_MarCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.marCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.AprCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.aprCostsItems);
+   CARAPI SetHyperBudget_AprCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.aprCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.AprCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.aprCostsItems);
+    CARAPI GetHyperBudget_AprCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.aprCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.MayCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.mayCostsItems);
+   CARAPI SetHyperBudget_MayCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.mayCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.MayCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.mayCostsItems);
+    CARAPI GetHyperBudget_MayCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.mayCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.JunCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.junCostsItems);
+   CARAPI SetHyperBudget_JunCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.junCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.JunCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.junCostsItems);
+    CARAPI GetHyperBudget_JunCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.junCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.JulCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.julCostsItems);
+   CARAPI SetHyperBudget_JulCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.julCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.JulCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.julCostsItems);
+    CARAPI GetHyperBudget_JulCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.julCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.AugCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.augCostsItems);
+   CARAPI SetHyperBudget_AugCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.augCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.AugCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.augCostsItems);
+    CARAPI GetHyperBudget_AugCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.augCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.SepCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.sepCostsItems);
+   CARAPI SetHyperBudget_SepCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.sepCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.SepCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.sepCostsItems);
+    CARAPI GetHyperBudget_SepCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.sepCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.OctCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.octCostsItems);
+   CARAPI SetHyperBudget_OctCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.octCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.OctCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.octCostsItems);
+    CARAPI GetHyperBudget_OctCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.octCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.NovCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.novCostsItems);
+   CARAPI SetHyperBudget_NovCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.novCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.NovCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.novCostsItems);
+    CARAPI GetHyperBudget_NovCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.novCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.DecCostsItems(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.decCostsItems);
+   CARAPI SetHyperBudget_DecCostsItems(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.decCostsItems);
 
-    CARAPI GetHyperBudCARAPI Get.DecCostsItems(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.decCostsItems);
+    CARAPI GetHyperBudget_DecCostsItems(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.decCostsItems);
 
 
-   CARAPI SetHyperBudCARAPI Get.JanJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.janJobTypeIds);
+   CARAPI SetHyperBudget_JanJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.janJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JanJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.janJobTypeIds);
+    CARAPI GetHyperBudget_JanJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.janJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.FebJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.febJobTypeIds);
+   CARAPI SetHyperBudget_FebJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.febJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.FebJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.febJobTypeIds);
+    CARAPI GetHyperBudget_FebJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.febJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.MarJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.marJobTypeIds);
+   CARAPI SetHyperBudget_MarJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.marJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.MarJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.marJobTypeIds);
+    CARAPI GetHyperBudget_MarJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.marJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.AprJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.aprJobTypeIds);
+   CARAPI SetHyperBudget_AprJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.aprJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.AprJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.aprJobTypeIds);
+    CARAPI GetHyperBudget_AprJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.aprJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.MayJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.mayJobTypeIds);
+   CARAPI SetHyperBudget_MayJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.mayJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.MayJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.mayJobTypeIds);
+    CARAPI GetHyperBudget_MayJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.mayJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JunJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.junJobTypeIds);
+   CARAPI SetHyperBudget_JunJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.junJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JunJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.junJobTypeIds);
+    CARAPI GetHyperBudget_JunJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.junJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JulJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.julJobTypeIds);
+   CARAPI SetHyperBudget_JulJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.julJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JulJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.julJobTypeIds);
+    CARAPI GetHyperBudget_JulJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.julJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.AugJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.augJobTypeIds);
+   CARAPI SetHyperBudget_AugJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.augJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.AugJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.augJobTypeIds);
+    CARAPI GetHyperBudget_AugJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.augJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.SepJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.sepJobTypeIds);
+   CARAPI SetHyperBudget_SepJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.sepJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.SepJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.sepJobTypeIds);
+    CARAPI GetHyperBudget_SepJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.sepJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.OctJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.octJobTypeIds);
+   CARAPI SetHyperBudget_OctJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.octJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.OctJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.octJobTypeIds);
+    CARAPI GetHyperBudget_OctJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.octJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.NovJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.novJobTypeIds);
+   CARAPI SetHyperBudget_NovJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.novJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.NovJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.novJobTypeIds);
+    CARAPI GetHyperBudget_NovJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.novJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.DecJobTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.decJobTypeIds);
+   CARAPI SetHyperBudget_DecJobTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.decJobTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.DecJobTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.decJobTypeIds);
+    CARAPI GetHyperBudget_DecJobTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.decJobTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JanCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.janCostsJobs);
+   CARAPI SetHyperBudget_JanCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.janCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.JanCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.janCostsJobs);
+    CARAPI GetHyperBudget_JanCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.janCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.FebCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.febCostsJobs);
+   CARAPI SetHyperBudget_FebCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.febCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.FebCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.febCostsJobs);
+    CARAPI GetHyperBudget_FebCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.febCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.MarCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.marCostsJobs);
+   CARAPI SetHyperBudget_MarCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.marCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.MarCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.marCostsJobs);
+    CARAPI GetHyperBudget_MarCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.marCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.AprCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.aprCostsJobs);
+   CARAPI SetHyperBudget_AprCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.aprCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.AprCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.aprCostsJobs);
+    CARAPI GetHyperBudget_AprCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.aprCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.MayCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.mayCostsJobs);
+   CARAPI SetHyperBudget_MayCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.mayCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.MayCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.mayCostsJobs);
+    CARAPI GetHyperBudget_MayCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.mayCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.JunCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.junCostsJobs);
+   CARAPI SetHyperBudget_JunCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.junCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.JunCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.junCostsJobs);
+    CARAPI GetHyperBudget_JunCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.junCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.JulCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.julCostsJobs);
+   CARAPI SetHyperBudget_JulCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.julCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.JulCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.julCostsJobs);
+    CARAPI GetHyperBudget_JulCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.julCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.AugCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.augCostsJobs);
+   CARAPI SetHyperBudget_AugCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.augCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.AugCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.augCostsJobs);
+    CARAPI GetHyperBudget_AugCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.augCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.SepCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.sepCostsJobs);
+   CARAPI SetHyperBudget_SepCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.sepCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.SepCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.sepCostsJobs);
+    CARAPI GetHyperBudget_SepCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.sepCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.OctCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.octCostsJobs);
+   CARAPI SetHyperBudget_OctCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.octCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.OctCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.octCostsJobs);
+    CARAPI GetHyperBudget_OctCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.octCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.NovCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.novCostsJobs);
+   CARAPI SetHyperBudget_NovCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.novCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.NovCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.novCostsJobs);
+    CARAPI GetHyperBudget_NovCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.novCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.DecCostsJobs(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.decCostsJobs);
+   CARAPI SetHyperBudget_DecCostsJobs(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.decCostsJobs);
 
-    CARAPI GetHyperBudCARAPI Get.DecCostsJobs(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.decCostsJobs);
+    CARAPI GetHyperBudget_DecCostsJobs(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.decCostsJobs);
 
 
-   CARAPI SetHyperBudCARAPI Get.JanServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.janServiceTypeIds);
+   CARAPI SetHyperBudget_JanServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.janServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JanServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.janServiceTypeIds);
+    CARAPI GetHyperBudget_JanServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.janServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.FebServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.febServiceTypeIds);
+   CARAPI SetHyperBudget_FebServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.febServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.FebServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.febServiceTypeIds);
+    CARAPI GetHyperBudget_FebServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.febServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.MarServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.marServiceTypeIds);
+   CARAPI SetHyperBudget_MarServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.marServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.MarServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.marServiceTypeIds);
+    CARAPI GetHyperBudget_MarServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.marServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.AprServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.aprServiceTypeIds);
+   CARAPI SetHyperBudget_AprServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.aprServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.AprServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.aprServiceTypeIds);
+    CARAPI GetHyperBudget_AprServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.aprServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.MayServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.mayServiceTypeIds);
+   CARAPI SetHyperBudget_MayServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.mayServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.MayServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.mayServiceTypeIds);
+    CARAPI GetHyperBudget_MayServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.mayServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JunServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.junServiceTypeIds);
+   CARAPI SetHyperBudget_JunServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.junServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JunServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.junServiceTypeIds);
+    CARAPI GetHyperBudget_JunServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.junServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JulServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.julServiceTypeIds);
+   CARAPI SetHyperBudget_JulServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.julServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.JulServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.julServiceTypeIds);
+    CARAPI GetHyperBudget_JulServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.julServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.AugServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.augServiceTypeIds);
+   CARAPI SetHyperBudget_AugServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.augServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.AugServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.augServiceTypeIds);
+    CARAPI GetHyperBudget_AugServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.augServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.SepServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.sepServiceTypeIds);
+   CARAPI SetHyperBudget_SepServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.sepServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.SepServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.sepServiceTypeIds);
+    CARAPI GetHyperBudget_SepServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.sepServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.OctServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.octServiceTypeIds);
+   CARAPI SetHyperBudget_OctServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.octServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.OctServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.octServiceTypeIds);
+    CARAPI GetHyperBudget_OctServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.octServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.NovServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.novServiceTypeIds);
+   CARAPI SetHyperBudget_NovServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.novServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.NovServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.novServiceTypeIds);
+    CARAPI GetHyperBudget_NovServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.novServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.DecServiceTypeIds(
-     /* [in] */ ArrayOf<const String&> CFinance.hyperBudCARAPI Get.decServiceTypeIds);
+   CARAPI SetHyperBudget_DecServiceTypeIds(
+     /* [in] */ ArrayOf<const String&> CFinance.hyperBudget.decServiceTypeIds);
 
-    CARAPI GetHyperBudCARAPI Get.DecServiceTypeIds(
-     [out, callee] ArrayOf<String>* CFinance.hyperBudCARAPI Get.decServiceTypeIds);
+    CARAPI GetHyperBudget_DecServiceTypeIds(
+     [out, callee] ArrayOf<String>* CFinance.hyperBudget.decServiceTypeIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.JanCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.janCostsServices);
+   CARAPI SetHyperBudget_JanCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.janCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.JanCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.janCostsServices);
+    CARAPI GetHyperBudget_JanCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.janCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.FebCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.febCostsServices);
+   CARAPI SetHyperBudget_FebCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.febCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.FebCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.febCostsServices);
+    CARAPI GetHyperBudget_FebCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.febCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.MarCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.marCostsServices);
+   CARAPI SetHyperBudget_MarCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.marCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.MarCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.marCostsServices);
+    CARAPI GetHyperBudget_MarCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.marCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.AprCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.aprCostsServices);
+   CARAPI SetHyperBudget_AprCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.aprCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.AprCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.aprCostsServices);
+    CARAPI GetHyperBudget_AprCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.aprCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.MayCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.mayCostsServices);
+   CARAPI SetHyperBudget_MayCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.mayCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.MayCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.mayCostsServices);
+    CARAPI GetHyperBudget_MayCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.mayCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.JunCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.junCostsServices);
+   CARAPI SetHyperBudget_JunCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.junCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.JunCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.junCostsServices);
+    CARAPI GetHyperBudget_JunCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.junCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.JulCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.julCostsServices);
+   CARAPI SetHyperBudget_JulCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.julCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.JulCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.julCostsServices);
+    CARAPI GetHyperBudget_JulCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.julCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.AugCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.augCostsServices);
+   CARAPI SetHyperBudget_AugCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.augCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.AugCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.augCostsServices);
+    CARAPI GetHyperBudget_AugCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.augCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.SepCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.sepCostsServices);
+   CARAPI SetHyperBudget_SepCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.sepCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.SepCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.sepCostsServices);
+    CARAPI GetHyperBudget_SepCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.sepCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.OctCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.octCostsServices);
+   CARAPI SetHyperBudget_OctCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.octCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.OctCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.octCostsServices);
+    CARAPI GetHyperBudget_OctCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.octCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.NovCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.novCostsServices);
+   CARAPI SetHyperBudget_NovCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.novCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.NovCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.novCostsServices);
+    CARAPI GetHyperBudget_NovCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.novCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.DecCostsServices(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.decCostsServices);
+   CARAPI SetHyperBudget_DecCostsServices(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.decCostsServices);
 
-    CARAPI GetHyperBudCARAPI Get.DecCostsServices(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.decCostsServices);
+    CARAPI GetHyperBudget_DecCostsServices(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.decCostsServices);
 
 
-   CARAPI SetHyperBudCARAPI Get.TwelveTotalMonthlyCosts(
-     /* [in] */ ArrayOf<Double> CFinance.hyperBudCARAPI Get.twelveTotalMonthlyCosts);
+   CARAPI SetHyperBudget_TwelveTotalMonthlyCosts(
+     /* [in] */ ArrayOf<Double> CFinance.hyperBudget.twelveTotalMonthlyCosts);
 
-    CARAPI GetHyperBudCARAPI Get.TwelveTotalMonthlyCosts(
-     [out, callee] ArrayOf<Double>* CFinance.hyperBudCARAPI Get.twelveTotalMonthlyCosts);
+    CARAPI GetHyperBudget_TwelveTotalMonthlyCosts(
+     [out, callee] ArrayOf<Double>* CFinance.hyperBudget.twelveTotalMonthlyCosts);
 
 
-   CARAPI SetHyperBudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [in] */ Double CFinance.hyperBudCARAPI Get.yearCostThisBudCARAPI GetId);
+   CARAPI SetHyperBudget_YearCostThisBudgetId(
+     /* [in] */ Double CFinance.hyperBudget.yearCostThisBudgetId);
 
-    CARAPI GetHyperBudCARAPI Get.YearCostThisBudCARAPI GetId(
-     /* [out] */ Double* CFinance.hyperBudCARAPI Get.yearCostThisBudCARAPI GetId);
+    CARAPI GetHyperBudget_YearCostThisBudgetId(
+     /* [out] */ Double* CFinance.hyperBudget.yearCostThisBudgetId);
 
 
-   CARAPI SetHyperBudCARAPI Get.NetProfitLossThisHyperBudCARAPI GetId(
-     /* [in] */ Double CFinance.hyperBudCARAPI Get.netProfitLossThisHyperBudCARAPI GetId);
+   CARAPI SetHyperBudget_NetProfitLossThisHyperBudgetId(
+     /* [in] */ Double CFinance.hyperBudget.netProfitLossThisHyperBudgetId);
 
-    CARAPI GetHyperBudCARAPI Get.NetProfitLossThisHyperBudCARAPI GetId(
-     /* [out] */ Double* CFinance.hyperBudCARAPI Get.netProfitLossThisHyperBudCARAPI GetId);
+    CARAPI GetHyperBudget_NetProfitLossThisHyperBudgetId(
+     /* [out] */ Double* CFinance.hyperBudget.netProfitLossThisHyperBudgetId);
 
 
-   CARAPI SetHyperBudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [in] */ Int32 CFinance.hyperBudCARAPI Get.linkingInternalBudCARAPI GetNum);
+   CARAPI SetHyperBudget_LinkingInternalBudgetNum(
+     /* [in] */ Int32 CFinance.hyperBudget.linkingInternalBudgetNum);
 
-    CARAPI GetHyperBudCARAPI Get.LinkingInternalBudCARAPI GetNum(
-     /* [out] */ Int32* CFinance.hyperBudCARAPI Get.linkingInternalBudCARAPI GetNum);
+    CARAPI GetHyperBudget_LinkingInternalBudgetNum(
+     /* [out] */ Int32* CFinance.hyperBudget.linkingInternalBudgetNum);
 
 
-   CARAPI SetHyperBudCARAPI Get.CustomerIds(
-     /* [in] */ ArrayOf<CCustomer.customer> CFinance.hyperBudCARAPI Get.customerIds);
+   CARAPI SetHyperBudget_CustomerIds(
+     /* [in] */ ArrayOf<CCustomer.customer> CFinance.hyperBudget.customerIds);
 
-    CARAPI GetHyperBudCARAPI Get.CustomerIds(
-     [out, callee] ArrayOf<CCustomer.customer>* CFinance.hyperBudCARAPI Get.customerIds);
+    CARAPI GetHyperBudget_CustomerIds(
+     [out, callee] ArrayOf<CCustomer.customer>* CFinance.hyperBudget.customerIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.PropertyIds(
-     /* [in] */ ArrayOf<CProperty.property> CFinance.hyperBudCARAPI Get.propertyIds);
+   CARAPI SetHyperBudget_PropertyIds(
+     /* [in] */ ArrayOf<CProperty.property> CFinance.hyperBudget.propertyIds);
 
-    CARAPI GetHyperBudCARAPI Get.PropertyIds(
-     [out, callee] ArrayOf<CProperty.property>* CFinance.hyperBudCARAPI Get.propertyIds);
+    CARAPI GetHyperBudget_PropertyIds(
+     [out, callee] ArrayOf<CProperty.property>* CFinance.hyperBudget.propertyIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.ProgramIds(
-     /* [in] */ ArrayOf<CProperty.program> CFinance.hyperBudCARAPI Get.programIds);
+   CARAPI SetHyperBudget_ProgramIds(
+     /* [in] */ ArrayOf<CProperty.program> CFinance.hyperBudget.programIds);
 
-    CARAPI GetHyperBudCARAPI Get.ProgramIds(
-     [out, callee] ArrayOf<CProperty.program>* CFinance.hyperBudCARAPI Get.programIds);
+    CARAPI GetHyperBudget_ProgramIds(
+     [out, callee] ArrayOf<CProperty.program>* CFinance.hyperBudget.programIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.ProjectIds(
-     /* [in] */ ArrayOf<CProperty.project> CFinance.hyperBudCARAPI Get.projectIds);
+   CARAPI SetHyperBudget_ProjectIds(
+     /* [in] */ ArrayOf<CProperty.project> CFinance.hyperBudget.projectIds);
 
-    CARAPI GetHyperBudCARAPI Get.ProjectIds(
-     [out, callee] ArrayOf<CProperty.project>* CFinance.hyperBudCARAPI Get.projectIds);
+    CARAPI GetHyperBudget_ProjectIds(
+     [out, callee] ArrayOf<CProperty.project>* CFinance.hyperBudget.projectIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.MasterAsset( SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.hyperBudCARAPI Get.masterAssetId);
+   CARAPI SetHyperBudget_MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.hyperBudget.masterAssetId);
 
-    CARAPI GetHyperBudCARAPI Get.MasterAsset( SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.hyperBudCARAPI Get.masterAssetId);
+    CARAPI GetHyperBudget_MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.hyperBudget.masterAssetId);
 
 
-   CARAPI SetHyperBudCARAPI Get.BusinessChannelOwnerId(
-     /* [in] */ CRegister.businessChannelOwner CFinance.hyperBudCARAPI Get.businessChannelOwnerId);
+   CARAPI SetHyperBudget_BusinessChannelOwnerId(
+     /* [in] */ CRegister.businessChannelOwner CFinance.hyperBudget.businessChannelOwnerId);
 
-    CARAPI GetHyperBudCARAPI Get.BusinessChannelOwnerId(
-     /* [out] */ CRegister.businessChannelOwner* CFinance.hyperBudCARAPI Get.businessChannelOwnerId);
+    CARAPI GetHyperBudget_BusinessChannelOwnerId(
+     /* [out] */ CRegister.businessChannelOwner* CFinance.hyperBudget.businessChannelOwnerId);
 
 
    CARAPI SetInvoice_InvoiceId(
