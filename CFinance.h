@@ -252,32 +252,32 @@ public:
      [out, callee] ArrayOf<CAdministration.images>* CFinance.centrelink.imageRefIds);
 
 
-   CARAPI SetMasterAssetRegister_MasterAsCARAPI
-     /* [in] */ const String& CFinance.masterAssetRegister.masterAsCARAPI SetId);
+   CARAPI SetMasterAssetRegister_MasterAsset(
+     /* [in] */ const String& CFinance.masterAssetRegister.masterAssetId);
 
-    CARAPI GetMasterAssetRegister_MasterAsCARAPI
-     /* [out] */ String* CFinance.masterAssetRegister.masterAsCARAPI SetId);
-
-
-   CARAPI SetMasterAssetRegister_AsCARAPI
-     /* [in] */ const String& CFinance.masterAssetRegister.asCARAPI SetTypeId);
-
-    CARAPI GetMasterAssetRegister_AsCARAPI
-     /* [out] */ String* CFinance.masterAssetRegister.asCARAPI SetTypeId);
+    CARAPI GetMasterAssetRegister_MasterAsset(
+     /* [out] */ String* CFinance.masterAssetRegister.masterAssetId);
 
 
-   CARAPI SetMasterAssetRegister_AsCARAPI
-     /* [in] */ const String& CFinance.masterAssetRegister.asCARAPI SetName);
+   CARAPI SetMasterAssetRegister_AssetType(
+     /* [in] */ const String& CFinance.masterAssetRegister.assetTypeId);
 
-    CARAPI GetMasterAssetRegister_AsCARAPI
-     /* [out] */ String* CFinance.masterAssetRegister.asCARAPI SetName);
+    CARAPI GetMasterAssetRegister_AssetType(
+     /* [out] */ String* CFinance.masterAssetRegister.assetTypeId);
 
 
-   CARAPI SetMasterAssetRegister_AsCARAPI
-     /* [in] */ const String& CFinance.masterAssetRegister.asCARAPI SetDescription);
+   CARAPI SetMasterAssetRegister_AssetType(
+     /* [in] */ const String& CFinance.masterAssetRegister.assetName);
 
-    CARAPI GetMasterAssetRegister_AsCARAPI
-     /* [out] */ String* CFinance.masterAssetRegister.asCARAPI SetDescription);
+    CARAPI GetMasterAssetRegister_AssetType(
+     /* [out] */ String* CFinance.masterAssetRegister.assetName);
+
+
+   CARAPI SetMasterAssetRegister_AssetType(
+     /* [in] */ const String& CFinance.masterAssetRegister.assetDescription);
+
+    CARAPI GetMasterAssetRegister_AssetType(
+     /* [out] */ String* CFinance.masterAssetRegister.assetDescription);
 
 
    CARAPI SetMasterAssetRegister_OWDV(
@@ -406,95 +406,95 @@ public:
      /* [out] */ CAdministration.department* CFinance.masterAssetRegister.deptId);
 
 
-   CARAPI SetMasterAssetRegister_MasterAsCARAPI
-     /* [in] */ CFinance.masterAsCARAPI SetType CFinance.masterAssetRegister.masterAsCARAPI SetTypeId);
+   CARAPI SetMasterAssetRegister_MasterAsset(
+     /* [in] */ CFinance.masterAssetType CFinance.masterAssetRegister.masterAssetTypeId);
 
-    CARAPI GetMasterAssetRegister_MasterAsCARAPI
-     /* [out] */ CFinance.masterAsCARAPI SetType* CFinance.masterAssetRegister.masterAsCARAPI SetTypeId);
-
-
-   CARAPI SetMasterAsCARAPI SetType.MasterAsCARAPI SetTypeId(
-     /* [in] */ const String& CFinance.masterAsCARAPI SetType.masterAsCARAPI SetTypeId);
-
-    CARAPI GetMasterAsCARAPI SetType.MasterAsCARAPI SetTypeId(
-     /* [out] */ String* CFinance.masterAsCARAPI SetType.masterAsCARAPI SetTypeId);
+    CARAPI GetMasterAssetRegister_MasterAsset(
+     /* [out] */ CFinance.masterAssetType* CFinance.masterAssetRegister.masterAssetTypeId);
 
 
-   CARAPI SetMasterAsCARAPI SetType.AsCARAPI SetName(
-     /* [in] */ const String& CFinance.masterAsCARAPI SetType.asCARAPI SetName);
+   CARAPI SetMasterAsset( SetType.MasterAsset( SetTypeId(
+     /* [in] */ const String& CFinance.masterAssetType.masterAssetTypeId);
 
-    CARAPI GetMasterAsCARAPI SetType.AsCARAPI SetName(
-     /* [out] */ String* CFinance.masterAsCARAPI SetType.asCARAPI SetName);
-
-
-   CARAPI SetMasterAsCARAPI SetType.AsCARAPI SetDescription(
-     /* [in] */ const String& CFinance.masterAsCARAPI SetType.asCARAPI SetDescription);
-
-    CARAPI GetMasterAsCARAPI SetType.AsCARAPI SetDescription(
-     /* [out] */ String* CFinance.masterAsCARAPI SetType.asCARAPI SetDescription);
+    CARAPI GetMasterAsset( SetType.MasterAsset( SetTypeId(
+     /* [out] */ String* CFinance.masterAssetType.masterAssetTypeId);
 
 
-   CARAPI SetMasterAsCARAPI SetType.InspectionTerm(
-     /* [in] */ CHelper.inspectionTerm CFinance.masterAsCARAPI SetType.inspectionTerm);
+   CARAPI SetMasterAsset( SetType.AsCARAPI SetName(
+     /* [in] */ const String& CFinance.masterAssetType.assetName);
 
-    CARAPI GetMasterAsCARAPI SetType.InspectionTerm(
-     /* [out] */ CHelper.inspectionTerm* CFinance.masterAsCARAPI SetType.inspectionTerm);
-
-
-   CARAPI SetMasterAsCARAPI SetType.ValueOfN(
-     /* [in] */ Int32 CFinance.masterAsCARAPI SetType.valueOfN);
-
-    CARAPI GetMasterAsCARAPI SetType.ValueOfN(
-     /* [out] */ Int32* CFinance.masterAsCARAPI SetType.valueOfN);
+    CARAPI GetMasterAsset( SetType.AsCARAPI SetName(
+     /* [out] */ String* CFinance.masterAssetType.assetName);
 
 
-   CARAPI SetMasterAsCARAPI SetType.DocRefs(
-     /* [in] */ ArrayOf<CAdministration.documents> CFinance.masterAsCARAPI SetType.docRefs);
+   CARAPI SetMasterAsset( SetType.AsCARAPI SetDescription(
+     /* [in] */ const String& CFinance.masterAssetType.assetDescription);
 
-    CARAPI GetMasterAsCARAPI SetType.DocRefs(
-     [out, callee] ArrayOf<CAdministration.documents>* CFinance.masterAsCARAPI SetType.docRefs);
-
-
-   CARAPI SetMasterAsCARAPI SetType.ImageRefs(
-     /* [in] */ ArrayOf<CAdministration.images> CFinance.masterAsCARAPI SetType.imageRefs);
-
-    CARAPI GetMasterAsCARAPI SetType.ImageRefs(
-     [out, callee] ArrayOf<CAdministration.images>* CFinance.masterAsCARAPI SetType.imageRefs);
+    CARAPI GetMasterAsset( SetType.AsCARAPI SetDescription(
+     /* [out] */ String* CFinance.masterAssetType.assetDescription);
 
 
-   CARAPI SetMasterAsCARAPI SetType.AudioRefIds(
-     /* [in] */ ArrayOf<CAdministration.audio> CFinance.masterAsCARAPI SetType.audioRefIds);
+   CARAPI SetMasterAsset( SetType.InspectionTerm(
+     /* [in] */ CHelper.inspectionTerm CFinance.masterAssetType.inspectionTerm);
 
-    CARAPI GetMasterAsCARAPI SetType.AudioRefIds(
-     [out, callee] ArrayOf<CAdministration.audio>* CFinance.masterAsCARAPI SetType.audioRefIds);
-
-
-   CARAPI SetMasterAsCARAPI SetType.VideoRefs(
-     /* [in] */ ArrayOf<CAdministration.video> CFinance.masterAsCARAPI SetType.videoRefs);
-
-    CARAPI GetMasterAsCARAPI SetType.VideoRefs(
-     [out, callee] ArrayOf<CAdministration.video>* CFinance.masterAsCARAPI SetType.videoRefs);
+    CARAPI GetMasterAsset( SetType.InspectionTerm(
+     /* [out] */ CHelper.inspectionTerm* CFinance.masterAssetType.inspectionTerm);
 
 
-   CARAPI SetMasterAsCARAPI SetType.BusinessChannelOwnerId(
-     /* [in] */ CRegister.businessChannelOwner CFinance.masterAsCARAPI SetType.businessChannelOwnerId);
+   CARAPI SetMasterAsset( SetType.ValueOfN(
+     /* [in] */ Int32 CFinance.masterAssetType.valueOfN);
 
-    CARAPI GetMasterAsCARAPI SetType.BusinessChannelOwnerId(
-     /* [out] */ CRegister.businessChannelOwner* CFinance.masterAsCARAPI SetType.businessChannelOwnerId);
-
-
-   CARAPI SetMasterAsCARAPI SetType.BranchId(
-     /* [in] */ CAdministration.branch CFinance.masterAsCARAPI SetType.branchId);
-
-    CARAPI GetMasterAsCARAPI SetType.BranchId(
-     /* [out] */ CAdministration.branch* CFinance.masterAsCARAPI SetType.branchId);
+    CARAPI GetMasterAsset( SetType.ValueOfN(
+     /* [out] */ Int32* CFinance.masterAssetType.valueOfN);
 
 
-   CARAPI SetMasterAsCARAPI SetType.DeptId(
-     /* [in] */ CAdministration.department CFinance.masterAsCARAPI SetType.deptId);
+   CARAPI SetMasterAsset( SetType.DocRefs(
+     /* [in] */ ArrayOf<CAdministration.documents> CFinance.masterAssetType.docRefs);
 
-    CARAPI GetMasterAsCARAPI SetType.DeptId(
-     /* [out] */ CAdministration.department* CFinance.masterAsCARAPI SetType.deptId);
+    CARAPI GetMasterAsset( SetType.DocRefs(
+     [out, callee] ArrayOf<CAdministration.documents>* CFinance.masterAssetType.docRefs);
+
+
+   CARAPI SetMasterAsset( SetType.ImageRefs(
+     /* [in] */ ArrayOf<CAdministration.images> CFinance.masterAssetType.imageRefs);
+
+    CARAPI GetMasterAsset( SetType.ImageRefs(
+     [out, callee] ArrayOf<CAdministration.images>* CFinance.masterAssetType.imageRefs);
+
+
+   CARAPI SetMasterAsset( SetType.AudioRefIds(
+     /* [in] */ ArrayOf<CAdministration.audio> CFinance.masterAssetType.audioRefIds);
+
+    CARAPI GetMasterAsset( SetType.AudioRefIds(
+     [out, callee] ArrayOf<CAdministration.audio>* CFinance.masterAssetType.audioRefIds);
+
+
+   CARAPI SetMasterAsset( SetType.VideoRefs(
+     /* [in] */ ArrayOf<CAdministration.video> CFinance.masterAssetType.videoRefs);
+
+    CARAPI GetMasterAsset( SetType.VideoRefs(
+     [out, callee] ArrayOf<CAdministration.video>* CFinance.masterAssetType.videoRefs);
+
+
+   CARAPI SetMasterAsset( SetType.BusinessChannelOwnerId(
+     /* [in] */ CRegister.businessChannelOwner CFinance.masterAssetType.businessChannelOwnerId);
+
+    CARAPI GetMasterAsset( SetType.BusinessChannelOwnerId(
+     /* [out] */ CRegister.businessChannelOwner* CFinance.masterAssetType.businessChannelOwnerId);
+
+
+   CARAPI SetMasterAsset( SetType.BranchId(
+     /* [in] */ CAdministration.branch CFinance.masterAssetType.branchId);
+
+    CARAPI GetMasterAsset( SetType.BranchId(
+     /* [out] */ CAdministration.branch* CFinance.masterAssetType.branchId);
+
+
+   CARAPI SetMasterAsset( SetType.DeptId(
+     /* [in] */ CAdministration.department CFinance.masterAssetType.deptId);
+
+    CARAPI GetMasterAsset( SetType.DeptId(
+     /* [out] */ CAdministration.department* CFinance.masterAssetType.deptId);
 
 
    CARAPI SetChartOfAccounts_ChartOfAccountsId(
@@ -4963,11 +4963,11 @@ public:
      /* [out] */ CFinance.level2BudCARAPI Get* CFinance.level1BudCARAPI Get.linkedToLevel2BudCARAPI GetId);
 
 
-   CARAPI SetLevel1BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level1BudCARAPI Get.masterAsCARAPI SetId);
+   CARAPI SetLevel1BudCARAPI Get.MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level1BudCARAPI Get.masterAssetId);
 
-    CARAPI GetLevel1BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level1BudCARAPI Get.masterAsCARAPI SetId);
+    CARAPI GetLevel1BudCARAPI Get.MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level1BudCARAPI Get.masterAssetId);
 
 
    CARAPI SetLevel1BudCARAPI Get.BusinessChannelOwnerId(
@@ -5666,11 +5666,11 @@ public:
      /* [out] */ CFinance.level3BudCARAPI Get* CFinance.level2BudCARAPI Get.linkedToLevel3BudCARAPI GetId);
 
 
-   CARAPI SetLevel2BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level2BudCARAPI Get.masterAsCARAPI SetId);
+   CARAPI SetLevel2BudCARAPI Get.MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level2BudCARAPI Get.masterAssetId);
 
-    CARAPI GetLevel2BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level2BudCARAPI Get.masterAsCARAPI SetId);
+    CARAPI GetLevel2BudCARAPI Get.MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level2BudCARAPI Get.masterAssetId);
 
 
    CARAPI SetLevel2BudCARAPI Get.BusinessChannelOwnerId(
@@ -6369,11 +6369,11 @@ public:
      /* [out] */ CFinance.level4BudCARAPI Get* CFinance.level3BudCARAPI Get.linkedToLevel4BudCARAPI GetId);
 
 
-   CARAPI SetLevel3BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level3BudCARAPI Get.masterAsCARAPI SetId);
+   CARAPI SetLevel3BudCARAPI Get.MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level3BudCARAPI Get.masterAssetId);
 
-    CARAPI GetLevel3BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level3BudCARAPI Get.masterAsCARAPI SetId);
+    CARAPI GetLevel3BudCARAPI Get.MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level3BudCARAPI Get.masterAssetId);
 
 
    CARAPI SetLevel3BudCARAPI Get.BusinessChannelOwnerId(
@@ -7072,11 +7072,11 @@ public:
      /* [out] */ CFinance.level5BudCARAPI Get* CFinance.level4BudCARAPI Get.linkedToLevel5BudCARAPI GetId);
 
 
-   CARAPI SetLevel4BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level4BudCARAPI Get.masterAsCARAPI SetId);
+   CARAPI SetLevel4BudCARAPI Get.MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level4BudCARAPI Get.masterAssetId);
 
-    CARAPI GetLevel4BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level4BudCARAPI Get.masterAsCARAPI SetId);
+    CARAPI GetLevel4BudCARAPI Get.MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level4BudCARAPI Get.masterAssetId);
 
 
    CARAPI SetLevel4BudCARAPI Get.BusinessChannelOwnerId(
@@ -7772,11 +7772,11 @@ public:
      /* [out] */ CFinance.level6BudCARAPI Get* CFinance.level5BudCARAPI Get.linkedToLevel6BudCARAPI GetId);
 
 
-   CARAPI SetLevel5BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level5BudCARAPI Get.masterAsCARAPI SetId);
+   CARAPI SetLevel5BudCARAPI Get.MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level5BudCARAPI Get.masterAssetId);
 
-    CARAPI GetLevel5BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level5BudCARAPI Get.masterAsCARAPI SetId);
+    CARAPI GetLevel5BudCARAPI Get.MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level5BudCARAPI Get.masterAssetId);
 
 
    CARAPI SetLevel5BudCARAPI Get.BusinessChannelOwnerId(
@@ -8475,11 +8475,11 @@ public:
      /* [out] */ CFinance.hyperBudCARAPI Get* CFinance.level6BudCARAPI Get.linkedToHyperBudCARAPI GetId);
 
 
-   CARAPI SetLevel6BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.level6BudCARAPI Get.masterAsCARAPI SetId);
+   CARAPI SetLevel6BudCARAPI Get.MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.level6BudCARAPI Get.masterAssetId);
 
-    CARAPI GetLevel6BudCARAPI Get.MasterAsCARAPI SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.level6BudCARAPI Get.masterAsCARAPI SetId);
+    CARAPI GetLevel6BudCARAPI Get.MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.level6BudCARAPI Get.masterAssetId);
 
 
    CARAPI SetLevel6BudCARAPI Get.BusinessChannelOwnerId(
@@ -9171,11 +9171,11 @@ public:
      [out, callee] ArrayOf<CProperty.project>* CFinance.hyperBudCARAPI Get.projectIds);
 
 
-   CARAPI SetHyperBudCARAPI Get.MasterAsCARAPI SetId(
-     /* [in] */ CFinance.masterAssetRegister CFinance.hyperBudCARAPI Get.masterAsCARAPI SetId);
+   CARAPI SetHyperBudCARAPI Get.MasterAsset( SetId(
+     /* [in] */ CFinance.masterAssetRegister CFinance.hyperBudCARAPI Get.masterAssetId);
 
-    CARAPI GetHyperBudCARAPI Get.MasterAsCARAPI SetId(
-     /* [out] */ CFinance.masterAssetRegister* CFinance.hyperBudCARAPI Get.masterAsCARAPI SetId);
+    CARAPI GetHyperBudCARAPI Get.MasterAsset( SetId(
+     /* [out] */ CFinance.masterAssetRegister* CFinance.hyperBudCARAPI Get.masterAssetId);
 
 
    CARAPI SetHyperBudCARAPI Get.BusinessChannelOwnerId(
