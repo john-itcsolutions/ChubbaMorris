@@ -267,11 +267,11 @@ public:
      /* [out] */ Double* CFactory.materialType.remainingNum);
 
 
-   CARAPI SetMaterialType_RawMaterialStockReorderCARAPI
-     /* [in] */ Double CFactory.materialType.materialReorderCARAPI SetPoint);
+   CARAPI SetMaterialType_RawMaterialStockReorderSetPoint(
+     /* [in] */ Double CFactory.materialType.materialReorderSetPoint);
 
-    CARAPI GetMaterialType_RawMaterialStockReorderCARAPI
-     /* [out] */ Double* CFactory.materialType.materialReorderCARAPI SetPoint);
+    CARAPI GetMaterialType_RawMaterialStockReorderSetPoint(
+     /* [out] */ Double* CFactory.materialType.materialReorderSetPoint);
 
 
    CARAPI SetMaterialType_RawMaterialStockReorderCode(
@@ -575,11 +575,11 @@ public:
      /* [out] */ Int32* CFactory.partType.remainingNum);
 
 
-   CARAPI SetPartType_PartReorderCARAPI
-     /* [in] */ Int32 CFactory.partType.partReorderCARAPI SetPoint);
+   CARAPI SetPartType_PartReorderSetPoint(
+     /* [in] */ Int32 CFactory.partType.partReorderSetPoint);
 
-    CARAPI GetPartType_PartReorderCARAPI
-     /* [out] */ Int32* CFactory.partType.partReorderCARAPI SetPoint);
+    CARAPI GetPartType_PartReorderSetPoint(
+     /* [out] */ Int32* CFactory.partType.partReorderSetPoint);
 
 
    CARAPI SetPartType_PartReorderCode(
@@ -883,11 +883,11 @@ public:
      /* [out] */ Int32* CFactory.minorsubassemblyType.remainingNum);
 
 
-   CARAPI SetMinorSubAssemblyType_MinorSubAssemblyReorderCARAPI
-     /* [in] */ Int32 CFactory.minorsubassemblyType.minorsubassemblyReorderCARAPI SetPoint);
+   CARAPI SetMinorSubAssemblyType_MinorSubAssemblyReorderSetPoint(
+     /* [in] */ Int32 CFactory.minorsubassemblyType.minorsubassemblyReorderSetPoint);
 
-    CARAPI GetMinorSubAssemblyType_MinorSubAssemblyReorderCARAPI
-     /* [out] */ Int32* CFactory.minorsubassemblyType.minorsubassemblyReorderCARAPI SetPoint);
+    CARAPI GetMinorSubAssemblyType_MinorSubAssemblyReorderSetPoint(
+     /* [out] */ Int32* CFactory.minorsubassemblyType.minorsubassemblyReorderSetPoint);
 
 
    CARAPI SetMinorSubAssemblyType_MinorSubAssemblyReorderCode(
@@ -1191,11 +1191,11 @@ public:
      /* [out] */ Int32* CFactory.subassemblyType.remainingNum);
 
 
-   CARAPI SetSubAssemblyType_SubAssemblyReorderCARAPI
-     /* [in] */ Int32 CFactory.subassemblyType.subassemblyReorderCARAPI SetPoint);
+   CARAPI SetSubAssemblyType_SubAssemblyReorderSetPoint(
+     /* [in] */ Int32 CFactory.subassemblyType.subassemblyReorderSetPoint);
 
-    CARAPI GetSubAssemblyType_SubAssemblyReorderCARAPI
-     /* [out] */ Int32* CFactory.subassemblyType.subassemblyReorderCARAPI SetPoint);
+    CARAPI GetSubAssemblyType_SubAssemblyReorderSetPoint(
+     /* [out] */ Int32* CFactory.subassemblyType.subassemblyReorderSetPoint);
 
 
    CARAPI SetSubAssemblyType_SubAssemblyReorderCode(
@@ -1499,11 +1499,11 @@ public:
      /* [out] */ Int32* CFactory.majorsubassemblyType.remainingNum);
 
 
-   CARAPI SetMajorSubAssemblyType_MajorSubAssemblyReorderCARAPI
-     /* [in] */ Int32 CFactory.majorsubassemblyType.majorsubassemblyReorderCARAPI SetPoint);
+   CARAPI SetMajorSubAssemblyType_MajorSubAssemblyReorderSetPoint(
+     /* [in] */ Int32 CFactory.majorsubassemblyType.majorsubassemblyReorderSetPoint);
 
-    CARAPI GetMajorSubAssemblyType_MajorSubAssemblyReorderCARAPI
-     /* [out] */ Int32* CFactory.majorsubassemblyType.majorsubassemblyReorderCARAPI SetPoint);
+    CARAPI GetMajorSubAssemblyType_MajorSubAssemblyReorderSetPoint(
+     /* [out] */ Int32* CFactory.majorsubassemblyType.majorsubassemblyReorderSetPoint);
 
 
    CARAPI SetMajorSubAssemblyType_MajorSubAssemblyReorderCode(
@@ -1807,11 +1807,11 @@ public:
      /* [out] */ Int32* CFactory.lesserassemblyType.remainingNum);
 
 
-   CARAPI SetLesserAssemblyType_LesserAssemblyReorderCARAPI
-     /* [in] */ Int32 CFactory.lesserassemblyType.lesserassemblyReorderCARAPI SetPoint);
+   CARAPI SetLesserAssemblyType_LesserAssemblyReorderSetPoint(
+     /* [in] */ Int32 CFactory.lesserassemblyType.lesserassemblyReorderSetPoint);
 
-    CARAPI GetLesserAssemblyType_LesserAssemblyReorderCARAPI
-     /* [out] */ Int32* CFactory.lesserassemblyType.lesserassemblyReorderCARAPI SetPoint);
+    CARAPI GetLesserAssemblyType_LesserAssemblyReorderSetPoint(
+     /* [out] */ Int32* CFactory.lesserassemblyType.lesserassemblyReorderSetPoint);
 
 
    CARAPI SetLesserAssemblyType_LesserAssemblyReorderCode(
@@ -2115,11 +2115,11 @@ public:
      /* [out] */ Int32* CFactory.assemblyType.remainingNum);
 
 
-   CARAPI SetAssemblyType_AssemblyReorderCARAPI
-     /* [in] */ Int32 CFactory.assemblyType.assemblyReorderCARAPI SetPoint);
+   CARAPI SetAssemblyType_AssemblyReorderSetPoint(
+     /* [in] */ Int32 CFactory.assemblyType.assemblyReorderSetPoint);
 
-    CARAPI GetAssemblyType_AssemblyReorderCARAPI
-     /* [out] */ Int32* CFactory.assemblyType.assemblyReorderCARAPI SetPoint);
+    CARAPI GetAssemblyType_AssemblyReorderSetPoint(
+     /* [out] */ Int32* CFactory.assemblyType.assemblyReorderSetPoint);
 
 
    CARAPI SetAssemblyType_AssemblyReorderCode(
@@ -2283,11 +2283,11 @@ public:
      /* [out] */ String* CFactory.greaterassembly.greaterassemblyReorderCode);
 
 
-   CARAPI SetGreaterAssembly_GreaterAssemblyReorderCARAPI
-     /* [in] */ Int32 CFactory.greaterassembly.greaterassemblyReorderCARAPI SetPoint);
+   CARAPI SetGreaterAssembly_GreaterAssemblyReorderSetPoint(
+     /* [in] */ Int32 CFactory.greaterassembly.greaterassemblyReorderSetPoint);
 
-    CARAPI GetGreaterAssembly_GreaterAssemblyReorderCARAPI
-     /* [out] */ Int32* CFactory.greaterassembly.greaterassemblyReorderCARAPI SetPoint);
+    CARAPI GetGreaterAssembly_GreaterAssemblyReorderSetPoint(
+     /* [out] */ Int32* CFactory.greaterassembly.greaterassemblyReorderSetPoint);
 
 
    CARAPI SetGreaterAssembly_MaterialIds(
@@ -2451,11 +2451,11 @@ public:
      /* [out] */ Int32* CFactory.greaterassemblyType.remainingNum);
 
 
-   CARAPI SetGreaterAssemblyType_GreaterAssemblyReorderCARAPI
-     /* [in] */ Int32 CFactory.greaterassemblyType.greaterassemblyReorderCARAPI SetPoint);
+   CARAPI SetGreaterAssemblyType_GreaterAssemblyReorderSetPoint(
+     /* [in] */ Int32 CFactory.greaterassemblyType.greaterassemblyReorderSetPoint);
 
-    CARAPI GetGreaterAssemblyType_GreaterAssemblyReorderCARAPI
-     /* [out] */ Int32* CFactory.greaterassemblyType.greaterassemblyReorderCARAPI SetPoint);
+    CARAPI GetGreaterAssemblyType_GreaterAssemblyReorderSetPoint(
+     /* [out] */ Int32* CFactory.greaterassemblyType.greaterassemblyReorderSetPoint);
 
 
    CARAPI SetGreaterAssemblyType_GreaterAssemblyReorderCode(
@@ -2738,11 +2738,11 @@ public:
      /* [out] */ Int32* CFactory.productType.remainingNum);
 
 
-   CARAPI SetProductType_LesserAssemblyReorderCARAPI
-     /* [in] */ Int32 CFactory.productType.lesserassemblyReorderCARAPI SetPoint);
+   CARAPI SetProductType_LesserAssemblyReorderSetPoint(
+     /* [in] */ Int32 CFactory.productType.lesserassemblyReorderSetPoint);
 
-    CARAPI GetProductType_LesserAssemblyReorderCARAPI
-     /* [out] */ Int32* CFactory.productType.lesserassemblyReorderCARAPI SetPoint);
+    CARAPI GetProductType_LesserAssemblyReorderSetPoint(
+     /* [out] */ Int32* CFactory.productType.lesserassemblyReorderSetPoint);
 
 
    CARAPI SetProductType_LesserAssemblyReorderCode(
