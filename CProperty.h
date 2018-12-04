@@ -469,11 +469,11 @@ public:
   /* [out] */ CHelper.propertyType* CProperty.property.propertyType);
 
 
-   CARAPI SetProperty_LeaCARAPI
-  /* [in] */ CHelper.leaCARAPI Setype CProperty.property.leaCARAPI Setype);
+   CARAPI SetProperty_LeaseType(
+  /* [in] */ CHelper.leaseType CProperty.property.leaseType);
 
-    CARAPI GetProperty_LeaCARAPI
-  /* [out] */ CHelper.leaCARAPI Setype* CProperty.property.leaCARAPI Setype);
+    CARAPI GetProperty_LeaseType(
+  /* [out] */ CHelper.leaseType* CProperty.property.leaseType);
 
 
    CARAPI SetProperty_LeaseArrangement(
@@ -565,9 +565,6 @@ public:
 
     CARAPI GetProperty_VideoRefs(
      /* [out, callee] */ ArrayOf<CAdministration.video>* CProperty.property.videoRefs);
-
-
-
 
 
    CARAPI SetPropertyConstructionType_PropertyConstructionTypeId(
@@ -911,88 +908,88 @@ public:
 
 
 
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.AdvertScheduleId(
-  /* [in] */ const String& CProperty.advertisingBudCARAPI GetSchedule.advertScheduleId);
+   CARAPI SetAdvertisingBudgetSchedule.AdvertScheduleId(
+  /* [in] */ const String& CProperty.advertisingBudgetSchedule.advertScheduleId);
 
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.AdvertScheduleId(
-  /* [out] */ String* CProperty.advertisingBudCARAPI GetSchedule.advertScheduleId);
-
-
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.AdvertisingMedium(
-  /* [in] */ CHelper.advertisingMedium CProperty.advertisingBudCARAPI GetSchedule.AdvertisingMedium);
-
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.AdvertisingMedium(
-  /* [out] */ CHelper.advertisingMedium* CProperty.advertisingBudCARAPI GetSchedule.AdvertisingMedium);
+    CARAPI GetAdvertisingBudgetSchedule.AdvertScheduleId(
+  /* [out] */ String* CProperty.advertisingBudgetSchedule.advertScheduleId);
 
 
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.PreviousSchedId(
-  /* [in] */ const String& CProperty.advertisingBudCARAPI GetSchedule.previousSchedId);
+   CARAPI SetAdvertisingBudgetSchedule.AdvertisingMedium(
+  /* [in] */ CHelper.advertisingMedium CProperty.advertisingBudgetSchedule.AdvertisingMedium);
 
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.PreviousSchedId(
-  /* [out] */ String* CProperty.advertisingBudCARAPI GetSchedule.previousSchedId);
-
-
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.month(
-  /* [in] */ CHelper.month CProperty.advertisingBudCARAPI GetSchedule.month);
-
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.month(
-  /* [out] */ CHelper.month* CProperty.advertisingBudCARAPI GetSchedule.month);
+    CARAPI GetAdvertisingBudgetSchedule.AdvertisingMedium(
+  /* [out] */ CHelper.advertisingMedium* CProperty.advertisingBudgetSchedule.AdvertisingMedium);
 
 
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.BudCARAPI GetedAmount(
-  /* [in] */ Double CProperty.advertisingBudCARAPI GetSchedule.budCARAPI GetedAmount);
+   CARAPI SetAdvertisingBudgetSchedule.PreviousSchedId(
+  /* [in] */ const String& CProperty.advertisingBudgetSchedule.previousSchedId);
 
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.BudCARAPI GetedAmount(
-  /* [out] */ Double* CProperty.advertisingBudCARAPI GetSchedule.budCARAPI GetedAmount);
-
-
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.RunDateTimes(
-  /* [in] */ ArrayOf<const String&> CProperty.advertisingBudCARAPI GetSchedule.runDateTimes);
-
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.RunDateTimes(
-     /* [out, callee] */ ArrayOf<String>* CProperty.advertisingBudCARAPI GetSchedule.runDateTimes);
+    CARAPI GetAdvertisingBudgetSchedule.PreviousSchedId(
+  /* [out] */ String* CProperty.advertisingBudgetSchedule.previousSchedId);
 
 
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.PropertyId(
-  /* [in] */ CProperty.property CProperty.advertisingBudCARAPI GetSchedule.propertyId);
+   CARAPI SetAdvertisingBudgetSchedule.month(
+  /* [in] */ CHelper.month CProperty.advertisingBudgetSchedule.month);
 
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.PropertyId(
-  /* [out] */ CProperty.property* CProperty.advertisingBudCARAPI GetSchedule.propertyId);
-
-
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.PropertyOwnerIds(
-  /* [in] */ ArrayOf<CProperty.propertyOwner> CProperty.advertisingBudCARAPI GetSchedule.propertyOwnerIds);
-
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.PropertyOwnerIds(
-     /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CProperty.advertisingBudCARAPI GetSchedule.propertyOwnerIds);
+    CARAPI GetAdvertisingBudgetSchedule.month(
+  /* [out] */ CHelper.month* CProperty.advertisingBudgetSchedule.month);
 
 
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.AdvertDesignIds(
-  /* [in] */ ArrayOf<CAdministration.advertisingTemplatesPlans> CProperty.advertisingBudCARAPI GetSchedule.advertDesignIds);
+   CARAPI SetAdvertisingBudgetSchedule.BudgetedAmount(
+  /* [in] */ Double CProperty.advertisingBudgetSchedule.budCARAPI GetedAmount);
 
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.AdvertDesignIds(
-     /* [out, callee] */ ArrayOf<CAdministration.advertisingTemplatesPlans>* CProperty.advertisingBudCARAPI GetSchedule.advertDesignIds);
-
-
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.BusinessChannelOwnerId(
-  /* [in] */ CRegister.businessChannelOwner CProperty.advertisingBudCARAPI GetSchedule.businessChannelOwnerId);
-
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.BusinessChannelOwnerId(
-  /* [out] */ CRegister.businessChannelOwner* CProperty.advertisingBudCARAPI GetSchedule.businessChannelOwnerId);
+    CARAPI GetAdvertisingBudgetSchedule.BudgetedAmount(
+  /* [out] */ Double* CProperty.advertisingBudgetSchedule.budCARAPI GetedAmount);
 
 
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.BranchId(
-  /* [in] */ CAdministration.branch CProperty.advertisingBudCARAPI GetSchedule.branchId);
+   CARAPI SetAdvertisingBudgetSchedule.RunDateTimes(
+  /* [in] */ ArrayOf<const String&> CProperty.advertisingBudgetSchedule.runDateTimes);
 
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.BranchId(
-  /* [out] */ CAdministration.branch* CProperty.advertisingBudCARAPI GetSchedule.branchId);
+    CARAPI GetAdvertisingBudgetSchedule.RunDateTimes(
+     /* [out, callee] */ ArrayOf<String>* CProperty.advertisingBudgetSchedule.runDateTimes);
 
 
-   CARAPI SetAdvertisingBudCARAPI GetSchedule.DeptId(
-  /* [in] */ CAdministration.department CProperty.advertisingBudCARAPI GetSchedule.deptId);
+   CARAPI SetAdvertisingBudgetSchedule.PropertyId(
+  /* [in] */ CProperty.property CProperty.advertisingBudgetSchedule.propertyId);
 
-    CARAPI GetAdvertisingBudCARAPI GetSchedule.DeptId(
-  /* [out] */ CAdministration.department* CProperty.advertisingBudCARAPI GetSchedule.deptId);
+    CARAPI GetAdvertisingBudgetSchedule.PropertyId(
+  /* [out] */ CProperty.property* CProperty.advertisingBudgetSchedule.propertyId);
+
+
+   CARAPI SetAdvertisingBudgetSchedule.PropertyOwnerIds(
+  /* [in] */ ArrayOf<CProperty.propertyOwner> CProperty.advertisingBudgetSchedule.propertyOwnerIds);
+
+    CARAPI GetAdvertisingBudgetSchedule.PropertyOwnerIds(
+     /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CProperty.advertisingBudgetSchedule.propertyOwnerIds);
+
+
+   CARAPI SetAdvertisingBudgetSchedule.AdvertDesignIds(
+  /* [in] */ ArrayOf<CAdministration.advertisingTemplatesPlans> CProperty.advertisingBudgetSchedule.advertDesignIds);
+
+    CARAPI GetAdvertisingBudgetSchedule.AdvertDesignIds(
+     /* [out, callee] */ ArrayOf<CAdministration.advertisingTemplatesPlans>* CProperty.advertisingBudgetSchedule.advertDesignIds);
+
+
+   CARAPI SetAdvertisingBudgetSchedule.BusinessChannelOwnerId(
+  /* [in] */ CRegister.businessChannelOwner CProperty.advertisingBudgetSchedule.businessChannelOwnerId);
+
+    CARAPI GetAdvertisingBudgetSchedule.BusinessChannelOwnerId(
+  /* [out] */ CRegister.businessChannelOwner* CProperty.advertisingBudgetSchedule.businessChannelOwnerId);
+
+
+   CARAPI SetAdvertisingBudgetSchedule.BranchId(
+  /* [in] */ CAdministration.branch CProperty.advertisingBudgetSchedule.branchId);
+
+    CARAPI GetAdvertisingBudgetSchedule.BranchId(
+  /* [out] */ CAdministration.branch* CProperty.advertisingBudgetSchedule.branchId);
+
+
+   CARAPI SetAdvertisingBudgetSchedule.DeptId(
+  /* [in] */ CAdministration.department CProperty.advertisingBudgetSchedule.deptId);
+
+    CARAPI GetAdvertisingBudgetSchedule.DeptId(
+  /* [out] */ CAdministration.department* CProperty.advertisingBudgetSchedule.deptId);
 
 
 
