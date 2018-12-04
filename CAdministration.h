@@ -407,11 +407,11 @@ public:
      /* [out, callee] */ ArrayOf<CProperty.property>* CAdministration.serviceRequest.propertyIds);
 
 
-   CARAPI SetServiceRequest_MasterAsCARAPI
-     /* [in] */ ArrayOf<CFinance.masterAsCARAPI SetRegister> CAdministration.serviceRequest.masterAsCARAPI SetIds);
+   CARAPI SetServiceRequest_MasterAsset(
+     /* [in] */ ArrayOf<CFinance.masterAssetRegister> CAdministration.serviceRequest.masterAssetIds);
 
-    CARAPI GetServiceRequest_MasterAsCARAPI
-     /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.serviceRequest.masterAsCARAPI SetIds);
+    CARAPI GetServiceRequest_MasterAsset(
+     /* [out, callee] */ ArrayOf<CFinance.masterAssetRegister>* CAdministration.serviceRequest.masterAssetIds);
 
 
    CARAPI SetServiceRequest_CustomerIds(
@@ -750,11 +750,11 @@ public:
      /* [out, callee] */ ArrayOf<String>* CAdministration.advertisingTemplatesPlans.accountsPayableIds);
 
 
-   CARAPI SetAdvertisingTemplatesPlans_BudCARAPI
-     /* [in] */ Double CAdministration.advertisingTemplatesPlans.budCARAPI GetedAmount);
+   CARAPI SetAdvertisingTemplatesPlans_Budget(
+     /* [in] */ Double CAdministration.advertisingTemplatesPlans.budgetedAmount);
 
-    CARAPI GetAdvertisingTemplatesPlans_BudCARAPI
-     /* [out] */ Double* CAdministration.advertisingTemplatesPlans.budCARAPI GetedAmount);
+    CARAPI GetAdvertisingTemplatesPlans_Budget(
+     /* [out] */ Double* CAdministration.advertisingTemplatesPlans.budgetedAmount);
 
 
    CARAPI SetAdvertisingTemplatesPlans_DocRefsAdvertisingTemplatesPlans(
@@ -786,10 +786,10 @@ public:
 
 
    CARAPI SetAdvertisingTemplatesPlans_AdvertScheduleId(
-     /* [in] */ CProperty.advertisingBudCARAPI GetSchedule CAdministration.advertisingTemplatesPlans.advertScheduleId);
+     /* [in] */ CProperty.advertisingBudget( GetSchedule CAdministration.advertisingTemplatesPlans.advertScheduleId);
 
     CARAPI GetAdvertisingTemplatesPlans_AdvertScheduleId(
-     /* [out] */ CProperty.advertisingBudCARAPI GetSchedule* CAdministration.advertisingTemplatesPlans.advertScheduleId);
+     /* [out] */ CProperty.advertisingBudget( GetSchedule* CAdministration.advertisingTemplatesPlans.advertScheduleId);
 
 
    CARAPI SetAdvertisingTemplatesPlans_BusinessChannelOwnerId(
@@ -1551,11 +1551,11 @@ public:
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.documents.propOwners);
 
 
-   CARAPI SetDocuments_MasterLedgerAsCARAPI
-     /* [in] */ ArrayOf<CFinance.masterAsCARAPI SetRegister> CAdministration.documents.masterLedgerAsCARAPI SetIds);
+   CARAPI SetDocuments_MasterLedgerAsset(
+     /* [in] */ ArrayOf<CFinance.masterAssetRegister> CAdministration.documents.masterLedgerAssetIds);
 
-    CARAPI GetDocuments_MasterLedgerAsCARAPI
-     /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.documents.masterLedgerAsCARAPI SetIds);
+    CARAPI GetDocuments_MasterLedgerAsset(
+     /* [out, callee] */ ArrayOf<CFinance.masterAssetRegister>* CAdministration.documents.masterLedgerAssetIds);
 
 
    CARAPI SetDocuments_EmployeeIds(
@@ -1796,11 +1796,11 @@ public:
      /* [out, callee] */ ArrayOf<CProperty.propertyOwner>* CAdministration.images.propOwners);
 
 
-   CARAPI SetImages_MasterLedgerAsCARAPI
-     /* [in] */ ArrayOf<CFinance.masterAsCARAPI SetRegister> CAdministration.images.masterLedgerAsCARAPI SetIds);
+   CARAPI SetImages_MasterLedgerAsset(
+     /* [in] */ ArrayOf<CFinance.masterAssetRegister> CAdministration.images.masterLedgerAssetIds);
 
-    CARAPI GetImages_MasterLedgerAsCARAPI
-     /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.images.masterLedgerAsCARAPI SetIds);
+    CARAPI GetImages_MasterLedgerAsset(
+     /* [out, callee] */ ArrayOf<CFinance.masterAssetRegister>* CAdministration.images.masterLedgerAssetIds);
 
 
    CARAPI SetImages_EmployeeIds(
@@ -2025,13 +2025,6 @@ public:
 
     CARAPI GetAudio_DeptMapId(
      /* [out] */ CAdministration.mapOfdepartments* CAdministration.audio.deptMapId);
-
-
-   CARAPI SetAudio_GenAsCARAPI
-     /* [in] */ ArrayOf<CFinance.masterAsCARAPI SetRegister> CAdministration.audio.genAsCARAPI SetIds);
-
-    CARAPI GetAudio_GenAsCARAPI
-     /* [out, callee] */ ArrayOf<CFinance.masterAsCARAPI SetRegister>* CAdministration.audio.genAsCARAPI SetIds);
 
 
    CARAPI SetAudio_EmployeeIds(
@@ -2947,11 +2940,11 @@ public:
      /* [out, callee] */ ArrayOf<CProperty.property>* CAdministration.job.propertyIds);
 
 
-   CARAPI SetJob_MasterLedgerAsCARAPI
-     /* [in] */ CFinance.masterAsCARAPI SetRegister CAdministration.job.masterLedgerAsCARAPI SetId);
+   CARAPI SetJob_MasterLedgerAsset(
+     /* [in] */ CFinance.masterAssetRegister CAdministration.job.masterLedgerAssetId);
 
-    CARAPI GetJob_MasterLedgerAsCARAPI
-     /* [out] */ CFinance.masterAsCARAPI SetRegister* CAdministration.job.masterLedgerAsCARAPI SetId);
+    CARAPI GetJob_MasterLedgerAsset(
+     /* [out] */ CFinance.masterAssetRegister* CAdministration.job.masterLedgerAssetId);
 
 
    CARAPI SetJob_CustomerIds(
@@ -3549,18 +3542,18 @@ public:
      /* [out] */ CProperty.propertyConstructionType* CAdministration.riskRegister.propertyConstructionTypeId);
 
 
-   CARAPI SetRiskRegister_MasterAsCARAPI
-     /* [in] */ CFinance.masterAsCARAPI SetType CAdministration.riskRegister.masterAsCARAPI SetTypeId);
+   CARAPI SetRiskRegister_MasterAsset(
+     /* [in] */ CFinance.masterAssetType CAdministration.riskRegister.masterAssetTypeId);
 
-    CARAPI GetRiskRegister_MasterAsCARAPI
-     /* [out] */ CFinance.masterAsCARAPI SetType* CAdministration.riskRegister.masterAsCARAPI SetTypeId);
+    CARAPI GetRiskRegister_MasterAsset(
+     /* [out] */ CFinance.masterAssetType* CAdministration.riskRegister.masterAssetTypeId);
 
 
-   CARAPI SetRiskRegister_MasterAsCARAPI
-     /* [in] */ CFinance.masterAsCARAPI SetRegister CAdministration.riskRegister.masterAsCARAPI SetId);
+   CARAPI SetRiskRegister_MasterAsset(
+     /* [in] */ CFinance.masterAssetRegister CAdministration.riskRegister.masterAssetId);
 
-    CARAPI GetRiskRegister_MasterAsCARAPI
-     /* [out] */ CFinance.masterAsCARAPI SetRegister* CAdministration.riskRegister.masterAsCARAPI SetId);
+    CARAPI GetRiskRegister_MasterAsset(
+     /* [out] */ CFinance.masterAssetRegister* CAdministration.riskRegister.masterAssetId);
 
 
    CARAPI SetRiskRegister_ProgramId(
