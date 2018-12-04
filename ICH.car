@@ -6514,13 +6514,6 @@ SetSolicitor_SolicitorId(
      [out] CAdministration.mapOfdepartments* CAdministration.audio.deptMapId);
 
 
-   SetAudio_GenAssetIds(
-     [in] ArrayOf<CFinance.masterAssetRegister> CAdministration.audio.genAssetIds);
-
-    GetAudio_GenAssetIds(
-     [out, callee] ArrayOf<CFinance.masterAssetRegister>* CAdministration.audio.genAssetIds);
-
-
    SetAudio_EmployeeIds(
      [in] ArrayOf<CAdministration.staff> CAdministration.audio.employeeIds);
 
