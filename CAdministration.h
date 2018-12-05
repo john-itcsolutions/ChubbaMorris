@@ -2118,13 +2118,6 @@ public:
      /* [out] */ CRegulator.stateBasedRegulator* CAdministration.audio.stateBasedRegId);
 
 
-   CARAPI SetAudio_AsCARAPI
-     /* [in] */ asCARAPI SetInspectionCommercial CAdministration.audio.asCARAPI SetInspectionCommercId);
-
-    CARAPI GetAudio_AsCARAPI
-     /* [out] */ asCARAPI SetInspectionCommercial* CAdministration.audio.asCARAPI SetInspectionCommercId);
-
-
    CARAPI SetAudio_ServiceIds(
      /* [in] */ ArrayOf<CAdministration.service> CAdministration.audio.serviceIds);
 
