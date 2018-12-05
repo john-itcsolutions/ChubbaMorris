@@ -6605,13 +6605,6 @@ SetSolicitor_SolicitorId(
      [out] CRegulator.stateBasedRegulator* CAdministration.audio.stateBasedRegId);
 
 
-   SetAudio_AssetInspectionCommercId(
-     [in] assetInspectionCommercial CAdministration.audio.assetInspectionCommercId);
-
-    GetAudio_AssetInspectionCommercId(
-     [out] assetInspectionCommercial* CAdministration.audio.assetInspectionCommercId);
-
-
    SetAudio_ServiceIds(
      [in] ArrayOf<CAdministration.service> CAdministration.audio.serviceIds);
 
