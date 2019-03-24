@@ -44,7 +44,9 @@ Anytime you get further advanced in a permanent way shut down the machine with s
 
  Sample of how to run a CAR program:  https://github.com/elastos/Elastos.RT/blob/master/Docs/How_to_run_test_on_ubuntu.md
  
- The work of coding the database in C++ has been done with the exception of correcting all typoes and coding the main() method.  Method of deployment of this blockchain based database to the sidechain is unknown at this stage (24/03/2019).  Further, the method of connecting the GUI Front End is also unknown.
+ The work of coding the database in C++ has been done with the exception of correcting all typoes and coding the main() method and utility methods.
+ 
+ .  Method of deployment of this blockchain based database to the sidechain is unknown at this stage (24/03/2019).  Further, the method of connecting the GUI Front End is also unknown.
  
  We have to "marry" the results of the above with the following (for Android), similar for iOS:
  
