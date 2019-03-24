@@ -25,3 +25,30 @@ https://github.com/elastos/Elastos.RT/blob/master/Docs/getting_started.md
 https://github.com/elastos/Elastos.RT/blob/master/Docs/How_To_Write_A_Car_Component.md
 
 Also, look around the elastos github site.  https://github.com/elastos
+
+Then START:
+ https://github.com/elastos/Elastos.ELA  https://github.com/elastos/Elastos.ELA.Client 
+ 
+ https://github.com/elastos/Elastos.ELA.SideChain  https://github.com/elastos/Elastos.ELA.Client.SideChain
+ 
+  https://github.com/elastos/Elastos.RT/blob/master/Docs/getting_started.md   https://github.com/elastos/Elastos.RT/blob/master/Docs/How_to_build_CAR_tools_such_as_carc.md
+  
+  A lot of the first series of tasks (ie getting blockchains and clients working - clients carry ability to create and list etc wallets) is from a general page collecting a lot of stuff including Trinity Browser ie:  https://github.com/elastos/Elastos .
+  
+  Trinity Browser is the easiest system to use to develop an interface to a sidechain as far as providing the GUI and access to the DApp's user services (Blockchain/Database/Backend).
+  
+  ``````````````````````````if you follow thenitial instructions after installing all the software (suggest creating a base version of virtual ubuntu16.04 with the software installed and car compiler built and deployed) and then when you are happy that everything is working (there will be an error on sidechain from SPV not having TLS security you can ignore) you should shut this down and clone it as a machine to work on and destroy readily (edited) 
+anytime you get further advanced in a permanent way shut down the machine with saved state and clone it freshly.
+
+ Sample of how to run a CAR program:  https://github.com/elastos/Elastos.RT/blob/master/Docs/How_to_run_test_on_ubuntu.md
+ 
+ We have to "marry" the results of the above with the following :
+ 
+    https://medium.com/@anthonymo/elastos-h5-dapp-development-walkthrough-25d734458160  
+    
+    and also (thus far,24/03/2019,apparently not fully integrated):  https://github.com/cyber-republic/elastos-smartweb-alpha
+    
+    The latter 2 references concern the Elastos Trinity Browser System.  Trinity works within the ionic framework:
+    https://ionicframework.com/docs/intro
+    
+    It is unclear to us,as yet, the ways we can integrate the front and back ends, ie the GUI in an Elastos Trinity Browser on a Desk- or Laptop, Android or iOS device and a development version of our CAR app in C++ (representing an active datababase), to be deployed "how?" to our running (test) sidechain.
