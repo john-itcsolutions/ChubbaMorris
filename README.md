@@ -43,7 +43,7 @@ anytime you get further advanced in a permanent way shut down the machine with s
 
  Sample of how to run a CAR program:  https://github.com/elastos/Elastos.RT/blob/master/Docs/How_to_run_test_on_ubuntu.md
  
- We have to "marry" the results of the above with the following :
+ We have to "marry" the results of the above with the following (for Android), similar for iOS:
  
     https://medium.com/@anthonymo/elastos-h5-dapp-development-walkthrough-25d734458160  
     
