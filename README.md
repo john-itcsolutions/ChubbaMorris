@@ -47,7 +47,7 @@ anytime you get further advanced in a permanent way shut down the machine with s
  
     https://medium.com/@anthonymo/elastos-h5-dapp-development-walkthrough-25d734458160  
     
-    and also (thus far,24/03/2019,apparently not fully integrated):  https://github.com/cyber-republic/elastos-smartweb-alpha
+    and also (thus far, 24/03/2019, apparently not fully integrated):  https://github.com/cyber-republic/elastos-smartweb-alpha
     
     The latter 2 references concern the Elastos Trinity Browser System.  Trinity works within the ionic framework:
     https://ionicframework.com/docs/intro .  Ionic can work with the Apache Cordova System, and does so here for Trinity/Ionic.  This means desktop, android and iOS devices are supported.
