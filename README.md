@@ -51,3 +51,5 @@ anytime you get further advanced in a permanent way shut down the machine with s
     
     The latter 2 references concern the Elastos Trinity Browser System.  Trinity works within the ionic framework:
     https://ionicframework.com/docs/intro .  Ionic can work with the Apache Cordova System, and does so here for Trinity/Ionic.  This means desktop, android and iOS devices are supported.
+
+It seems there is some work to be done by the Elastos people before the targeted date of end 2019 for completion of a production version of Trinity Browser and full system of signing and deploying DApps becomes possible at least at dvelopment level.
