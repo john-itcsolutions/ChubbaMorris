@@ -11,7 +11,7 @@ Secure Elastos.RT Runtime for the client,
 and secure Elastos Carrier network for the internet.
 Employs the open and adaptable standard Component Assembly Runtime (CAR) framework.
 The CAR framework establishes links between components/devices, flexibly across operating systems.
-Trust is embedded by distributing ledgers ..  Each participant in a transaction has a key to their copy of the record.  
+Trust is embedded by distributing ledgers ..  Each appropriately authorised participant in a transaction has a key to their copy of the record.  
 The mechanism of the Blockchain ensures faithful and verifiable copies of every transaction.  
 The Bitcoin Blockchain mining process 'underwrites' the Elastos Blockchain's trust mechanism.  
 Your transactions are 'mined' in order to validate and seal them.
@@ -37,7 +37,7 @@ Then START:
   
   Trinity Browser is the easiest system to use to develop an interface to a sidechain as far as providing the GUI and access to the DApp's user services (Blockchain/Database/Backend).
   
-  ``````````````````````````if you follow thenitial instructions after installing all the software (suggest creating a base version of virtual ubuntu16.04 with the software installed and car compiler built and deployed) and then when you are happy that everything is working (there will be an error on sidechain from SPV not having TLS security you can ignore) you should shut this down and clone it as a machine to work on and destroy readily (edited) 
+  ``````````````````````````if you follow the initial instructions after installing all the software (suggest creating a base version of virtual ubuntu16.04 with the software installed and car compiler built and deployed) and then when you are happy that everything is working (there will be an error on sidechain from SPV not having TLS security you can ignore) you should shut this down and clone it as a machine to work on and destroy readily
 anytime you get further advanced in a permanent way shut down the machine with saved state and clone it freshly.
 
  Sample of how to run a CAR program:  https://github.com/elastos/Elastos.RT/blob/master/Docs/How_to_run_test_on_ubuntu.md
@@ -49,6 +49,4 @@ anytime you get further advanced in a permanent way shut down the machine with s
     and also (thus far,24/03/2019,apparently not fully integrated):  https://github.com/cyber-republic/elastos-smartweb-alpha
     
     The latter 2 references concern the Elastos Trinity Browser System.  Trinity works within the ionic framework:
-    https://ionicframework.com/docs/intro
-    
-    It is unclear to us,as yet, the ways we can integrate the front and back ends, ie the GUI in an Elastos Trinity Browser on a Desk- or Laptop, Android or iOS device and a development version of our CAR app in C++ (representing an active datababase), to be deployed "how?" to our running (test) sidechain.
+    https://ionicframework.com/docs/intro .  Ionic can work with the Apache Cordova System, and does so here for Trinity/Ionic.  This means desktop, android and iOS devices are supported.
