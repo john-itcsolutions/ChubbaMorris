@@ -53,3 +53,7 @@ anytime you get further advanced in a permanent way shut down the machine with s
     https://ionicframework.com/docs/intro .  Ionic can work with the Apache Cordova System, and does so here for Trinity/Ionic.  This means desktop, android and iOS devices are supported.
 
 It seems there is some work to be done by the Elastos people before the targeted date of end 2019 for completion of a production version of Trinity Browser and full system of signing and deploying DApps becomes possible at least at dvelopment level.
+
+  A sample of a Trinity DApp is to be found at: https://github.com/elastos/Elastos.Trinity.Alpha.DApp.Demo.CarTest
+  
+  Note with the above DApp that there is no apparent connection to a database/blockchain or "backend".  This presents a problem to us, leaving no model to follow.
