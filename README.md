@@ -6,7 +6,7 @@ Uses Elastos ELA "blockchain+" system.
 ELA tokens (fractional) partly as price of transactions,
 predominantly as general digital currency.
 "Merge mined" by Bitcoin miners.
-Truly distributed ledger. Cloud servers are only involved for mass storage of documents, images, audio and video..
+Truly distributed ledger. Cloud servers are only involved for mass storage of documents, images, audio, video and as part of the developing Elastos IPFS blockchain support system for mass usage data intensive systems like ours.
 Secure Elastos.RT Runtime for the client,
 and secure Elastos Carrier network for the internet.
 Employs the open and adaptable standard Component Assembly Runtime (CAR) framework.
