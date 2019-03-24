@@ -1,6 +1,6 @@
 # ChubbaMorris
 
-Real Estate & Agencies, Property Management, Community Housing, Conveyancing, Solicitors & Land Title Registries
+REAL ESTATE & AGENCIES, PROPERTY MANAGEMENT, COMMUNITY HOUSING, CONVEYANCING, SOLICITORS & LAND TITLE REGISTRIES
 
 Uses Elastos ELA "blockchain+" system.
 ELA tokens (fractional) partly as price of transactions,
