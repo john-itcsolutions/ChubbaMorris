@@ -11,7 +11,8 @@ Secure Elastos.RT Runtime for the client,
 and secure Elastos Carrier network for the internet.
 Employs the open and adaptable standard Component Assembly Runtime (CAR) framework.
 The CAR framework establishes links between components/devices, flexibly across operating systems.
-Trust is embedded by distributing ledgers ..  Each appropriately authorised participant in a transaction has a key to their copy of the record.  
+Trust is embedded by distributing ledgers ..  Each appropriately authorised participant in a transaction has a key to their copy of the record.  Only appropriate information, particularly in Multi-Party Transactions, is available to Participants.
+
 The mechanism of the Blockchain ensures faithful and verifiable copies of every transaction.  
 The Bitcoin Blockchain mining process 'underwrites' the Elastos Blockchain's trust mechanism.  
 Your transactions are 'mined' in order to validate and seal them.
