@@ -38,8 +38,9 @@ Then START:
   
   Trinity Browser is the easiest system to use to develop an interface to a sidechain as far as providing the GUI and access to the DApp's user services (Blockchain/Database/Backend).
   
-if you follow the initial instructions after installing all the software (suggest creating a base version of virtual ubuntu16.04 with the software installed and car compiler built and deployed) and then when you are happy that everything is working (there will be an error on sidechain from SPV not having TLS security you can ignore) you should shut this down and clone it as a machine to work on and destroy readily
-anytime you get further advanced in a permanent way shut down the machine with saved state and clone it freshly.
+if you follow the initial instructions after installing all the software (suggest creating a base version of virtual ubuntu16.04 with the software installed and car compiler built and deployed) and then when you are happy that everything is working (there will be an error on sidechain from SPV not having TLS security you can ignore) you should shut this down and clone it as a machine to work on and destroy readily.
+
+Anytime you get further advanced in a permanent way shut down the machine with saved state and clone it freshly.
 
  Sample of how to run a CAR program:  https://github.com/elastos/Elastos.RT/blob/master/Docs/How_to_run_test_on_ubuntu.md
  
@@ -59,3 +60,4 @@ It seems there is some work to be done by the Elastos people before the targeted
   A sample of a Trinity DApp is to be found at: https://github.com/elastos/Elastos.Trinity.Alpha.DApp.Demo.CarTest
   
   Note with the above DApp that there is no apparent connection to a database/blockchain or "backend".  This presents a problem to us, leaving no model to follow.
+
