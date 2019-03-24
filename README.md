@@ -21,9 +21,6 @@ Chubba Morris(TM) conceived by John Olsen IT Cloud Solutions Australia with assi
 
 ref.  https://www.cyberrepublic.org/project-detail/5b7fc07547f7f618e0d01f39 
 
-https://github.com/elastos/Elastos.RT/blob/master/Docs/getting_started.md
-
-https://github.com/elastos/Elastos.RT/blob/master/Docs/How_To_Write_A_Car_Component.md
 
 Also, look around the elastos github site.  https://github.com/elastos
 
@@ -33,12 +30,13 @@ Then START:
  https://github.com/elastos/Elastos.ELA.SideChain  https://github.com/elastos/Elastos.ELA.Client.SideChain
  
   https://github.com/elastos/Elastos.RT/blob/master/Docs/getting_started.md   https://github.com/elastos/Elastos.RT/blob/master/Docs/How_to_build_CAR_tools_such_as_carc.md
+  https://github.com/elastos/Elastos.RT/blob/master/Docs/How_To_Write_A_Car_Component.md
   
-  A lot of the first series of tasks (ie getting blockchains and clients working - clients carry ability to create and list etc wallets) is from a general page collecting a lot of stuff including Trinity Browser ie:  https://github.com/elastos/Elastos .
+  A lot of the first series of tasks (ie getting blockchains and clients working - clients carry ability to create and list etc wallets, thus connecting to main and side chains - and the DID Chain) is from a general page collecting a lot of stuff including Trinity Browser ie:  https://github.com/elastos/Elastos .
   
   Trinity Browser is the easiest system to use to develop an interface to a sidechain as far as providing the GUI and access to the DApp's user services (Blockchain/Database/Backend).
   
-if you follow the initial instructions after installing all the software (suggest creating a base version of virtual ubuntu16.04 with the software installed and car compiler built and deployed) and then when you are happy that everything is working (there will be an error on sidechain from SPV not having TLS security you can ignore) you should shut this down and clone it as a machine to work on and destroy readily.
+if you follow the initial instructions after installing all the software (suggest creating a base version of Ubuntu 16.04 on Oracle's Virtual Box, with the software installed and car compiler built and deployed) and then when you are happy that everything is working (there will be an error on sidechain from SPV not having TLS security you can ignore) you should shut this down and clone it as a machine to work on and destroy readily.
 
 Anytime you get further advanced in a permanent way shut down the machine with saved state and clone it freshly.
 
