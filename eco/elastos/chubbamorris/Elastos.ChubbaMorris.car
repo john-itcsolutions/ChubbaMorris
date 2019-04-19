@@ -83,7 +83,7 @@ typedef struct {
  CRegister.businessChannelOwner businessChannelOwnerId
  CAdministration.branch branchId
  CAdministration.department deptId
- ArrayOf<CProperty.propertyOwner> propertyOwnerIds
+                           ArrayOf<CProperty.propertyOwner> propertyOwnerIds
  CProperty.propertyConstructionType propertyConstructionTypeId
  CProperty.tenant tenancyId
                            ArrayOf<CAdministration.documents> docRefs
@@ -1702,7 +1702,7 @@ typedef struct {
 
 typedef struct {
     String masLedgeFinTxJoinId
-    ArrayOf<String> masLedgeFinTxIds
+                     ArrayOf<String> masLedgeFinTxIds
     Int32 masLedgeFinTxNum
                      ArrayOf<String> creditedAccountIds
                      ArrayOf<String> debitedAccountIds
@@ -3172,10 +3172,10 @@ typedef struct {
                   ArrayOf<CFactory.lesserassemblyType> lesserassemblyTypeIds
                   ArrayOf<CFactory.assemblyType> assemblyTypeIds
                   ArrayOf<CFactory.greaterassemblyType> greaterassemblyTypeIds
-                   ArrayOf<CFactory.productType> productTypeIds
-                   ArrayOf<CAdministration.documents> docRefIds
-                   ArrayOf<CAdministration.images> imageRefIds
-                   ArrayOf<CAdministration.video> videoRefIds
+                  ArrayOf<CFactory.productType> productTypeIds
+                  ArrayOf<CAdministration.documents> docRefIds
+                  ArrayOf<CAdministration.images> imageRefIds
+                  ArrayOf<CAdministration.video> videoRefIds
 } partType;
 
 typedef struct {
@@ -3424,7 +3424,7 @@ typedef struct {
 
  CRegister.businessChannelOwner businessChannelOwnerId
  CAdministration.itemType itemTypeId
- ArrayOf<CSupplier.supplier> supplierIds
+                   ArrayOf<CSupplier.supplier> supplierIds
                    ArrayOf<CAdministration.documents> docRefIds
                    ArrayOf<CAdministration.images> imageRefIds
                    ArrayOf<CAdministration.video> videoRefIds
@@ -3531,7 +3531,7 @@ typedef struct {
                   ArrayOf<String> purchaseOrderIds
                   ArrayOf<String> receiverDeliveryAddress
                   ArrayOf<String> senderSourceAddresss
-	String receivedAtSourceTerminal
+    String receivedAtSourceTerminal
     String trackingNumber
     String trackingURL
     String eTA
